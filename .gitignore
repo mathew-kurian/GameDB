@@ -29,6 +29,5 @@ build/Release
 node_modules
 
 
-**/bin/
 .sass-cache/
 .idea/
