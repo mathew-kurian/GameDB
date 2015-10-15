@@ -13,9 +13,9 @@ module.exports = function (grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: 'public/bin/asr',
+                    cwd: 'public/dist/asr',
                     src: ['**/Bootstrap.js'],
-                    dest: 'public/bin/asr',
+                    dest: 'public/dist/asr',
                     ext: '.min.js'
                 }]
             }
@@ -30,7 +30,7 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: 'sass',
                     src: ['*.scss'],
-                    dest: 'public/bin/css',
+                    dest: 'public/dist/css',
                     ext: '.css'
                 }]
             },
@@ -44,7 +44,7 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: 'sass',
                     src: ['*.scss'],
-                    dest: 'public/bin/css',
+                    dest: 'public/dist/css',
                     ext: '.min.css'
                 }]
             }
@@ -64,7 +64,7 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: 'asr',
                     src: ['**/Bootstrap.jsx'],
-                    dest: 'public/bin/asr',
+                    dest: 'public/dist/asr',
                     ext: '.js'
                 }]
             }
@@ -79,7 +79,7 @@ module.exports = function (grunt) {
                 ]
             },
             dist: {
-                src: 'public/bin/css/*.css'
+                src: 'public/dist/css/*.css'
             }
         }
     });
