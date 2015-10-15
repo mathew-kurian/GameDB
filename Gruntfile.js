@@ -90,4 +90,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-postcss');
 
     grunt.registerTask('build', ['sass:dev', 'sass:dist', 'postcss:dist', 'browserify:dist', 'uglify:dist']);
+    grunt.registerTask('auto-build', ['sass:dev', 'sass:dist', 'postcss:dist', 'browserify:dist', 'uglify:dist']); // TODO
 };
