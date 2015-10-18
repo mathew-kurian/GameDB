@@ -2,7 +2,7 @@
 # pip3 install Flask
 
 
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect
 
 app = Flask(__name__, static_folder='public', static_url_path='/assets')
 
@@ -13,6 +13,12 @@ app.debug = True
 @app.route('/')
 def index():
     return render_template('index.jade', assets='assets/')
+
+
+@app.route('/index')
+@app.route('/index.html')
+def index():
+    return redirect("/", code=302)
 
 
 @app.route('/about')
