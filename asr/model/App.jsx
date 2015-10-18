@@ -26,6 +26,8 @@ var App = React.createClass({
   componentDidMount() {
     var self = this;
 
+    document.title = this.state.title;
+
     this._updateTableWidth();
 
     window.onresize = function () {

@@ -1,8 +1,5 @@
-html
-  head
-    link(rel='stylesheet', type='text/css', href=assets + 'dist/css/app.min.css')
-    link(rel='stylesheet', type='text/css', href=assets + 'css/fixed-data-table.css')
-  body
+extends ./_head.jade
+block props
   script.
     window.props = {
       mode: 'games',
@@ -19,4 +16,3 @@ html
       videos: ["https://player.vimeo.com/video/122622348?byline=0&portrait=0&badge=0", "https://player.vimeo.com/video/57330981?byline=0&portrait=0&badge=0"],
       images: ["public/images/killzone-0.png", "public/images/battlefield-1.jpg"]
     }
-  script(src = assets + 'dist/asr/model/Bootstrap.min.js')
