@@ -7593,6 +7593,10 @@ p {
   text-align: center;
 }
 
+.navbar-nav {
+  margin-left: -5px;
+}
+
 .page-head {
   padding: 50px 0;
   width: 100%;
@@ -7606,6 +7610,10 @@ p {
 
   .page-head {
     padding-bottom: 20px;
+  }
+
+  .navbar-nav {
+    margin-left: 0;
   }
 }
 .navbar {
