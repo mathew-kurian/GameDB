@@ -24,7 +24,7 @@ module.exports = function (grunt) {
             dev: {
                 options: {
                     style: 'expanded',
-                    loadPath: ['./node_modules/bootstrap-sass/assets/stylesheets/bootstrap']
+                    loadPath: ['./node_modules/bootstrap-sass/assets/stylesheets/']
                 },
                 files: [{
                     expand: true,
@@ -37,8 +37,7 @@ module.exports = function (grunt) {
             dist: {
                 options: {
                     style: 'compressed',
-                    loadPath: ['./node_modules/bootstrap-sass/assets/stylesheets/bootstrap']
-
+                    loadPath: ['./node_modules/bootstrap-sass/assets/stylesheets/']
                 },
                 files: [{
                     expand: true,
@@ -81,14 +80,31 @@ module.exports = function (grunt) {
             dist: {
                 src: 'public/dist/css/*.css'
             }
+        }, jade: {
+            dist: {
+                compileDebug: true,
+                options: {
+                    data: {
+                        assets: 'public/'
+                    }
+                },
+                files: [{
+                    expand: true,
+                    cwd: 'templates/',
+                    src: ['*.jade'],
+                    dest: './',
+                    ext: '.html'
+                }]
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-browserify');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-jade');
     grunt.loadNpmTasks('grunt-postcss');
 
-    grunt.registerTask('build', ['sass:dev', 'sass:dist', 'postcss:dist', 'browserify:dist', 'uglify:dist']);
-    grunt.registerTask('auto-build', ['sass:dev', 'sass:dist', 'postcss:dist', 'browserify:dist', 'uglify:dist']); // TODO
+    grunt.registerTask('build', ['sass:dev', 'sass:dist', 'jade:dist', 'postcss:dist', 'browserify:dist', 'uglify:dist']);
+    //grunt.registerTask('auto-build', ['sass:dev', 'sass:dist', 'postcss:dist', 'browserify:dist', 'uglify:dist']); // TODO
 };

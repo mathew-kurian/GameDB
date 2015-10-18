@@ -1,12 +1,9 @@
 @import "fonts", "reset";
 
-.container {
-  width: 980px;
+html {
+  background: #000;
 }
 
-#head {
-  background: url(/assets/images/battlefield-0.jpg) center center no-repeat;
-  height: 600px;
-  background-size: cover;
-  width: 100%;
+.container {
+  width: 980px;
 }
