@@ -7680,6 +7680,12 @@ hr {
   border-bottom: none !important;
 }
 
+.public_Scrollbar_mainOpaque {
+  background: #777 !important;
+  -webkit-border-radius: 8px;
+          border-radius: 8px;
+}
+
 iframe {
   margin: 0;
   border: 0;

@@ -13,14 +13,23 @@ var SortTypes = {
 var App = React.createClass({
   getInitialState() {
     var props = window.props;
-    props.width = 765;
+    props.width = 825 - 60;
     return props;
   },
-  componentDidMount() {
+  _updateTableWidth: function () {
     var node = React.findDOMNode(this.refs.tableBox);
     var currWidth = node.offsetWidth - 60;
     if (currWidth !== this.state.width) {
       this.setState({width: node.offsetWidth - 60});
+    }
+  },
+  componentDidMount() {
+    var self = this;
+
+    this._updateTableWidth();
+
+    window.onresize = function () {
+      self._updateTableWidth();
     }
   },
   _headerRenderer: function (label, cellDataKey) {
@@ -114,7 +123,7 @@ var App = React.createClass({
                 this.state.columns.map(function (col, i) {
                   return (
                     <Column label={col + (self.state.sortBy === i ? sortDirArrow : '')} key={i}
-                            width={self.state.width/self.state.columns.length} dataKey={i}
+                            width={Math.max(100, self.state.width/self.state.columns.length)} dataKey={i}
                             headerRenderer={self._headerRenderer}/>
                   )
                 })}
