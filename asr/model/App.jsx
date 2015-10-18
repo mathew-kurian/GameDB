@@ -92,12 +92,12 @@ var App = React.createClass({
       videoRows.push(
         <div className="row" key={i}>
           <div className="col-md-6">
-            <iframe className='full-width'
+            <iframe style={{marginBottom:10}} className='full-width'
                     src={videos[i]}
                     width="500" height="213" frameBorder="0" allowFullscreen></iframe>
           </div>
           {videos[i + 1] ? <div className="col-md-6">
-            <iframe className='full-width'
+            <iframe style={{marginBottom:10}} className='full-width'
                     src={videos[i + 1]}
                     width="500" height="213" frameBorder="0" allowFullscreen></iframe>
           </div> : null }
@@ -136,7 +136,7 @@ var App = React.createClass({
             <p>Get the lowdown on the key pieces of Bootstrap's infrastructure, including our approach</p>
 
             {videoRows}
-            <div style={{height:50}}></div>
+            <div style={{height:40}}></div>
           </div>
           <div className='col-md-3' role='complementary'>
             <h4>Related Images</h4>
