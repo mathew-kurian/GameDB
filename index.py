@@ -3,6 +3,8 @@
 # pip3 install pyjade
 # pip3 install Flask
 
+# nohup ./index.py &
+
 from flask import Flask, render_template
 
 app = Flask(__name__, static_folder='public', static_url_path='/assets')

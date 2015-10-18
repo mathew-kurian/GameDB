@@ -26,6 +26,7 @@
     "fixed-data-table": "^0.4.7",
     "lodash": "^3.10.1",
     "react": "0.13.3",
+    "react-parallax": "git://github.com/bluejamesbond/react-parallax.git",
     "react-prefixr": "^0.1.0",
     "tiny-emitter": "^1.0.0"
   },

@@ -1,0 +1,11 @@
+@import "fonts", "reset";
+
+html {
+  background: #000;
+}
+
+.center-vertical {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
