@@ -12,28 +12,28 @@ app.debug = True
 
 @app.route('/')
 def index():
-    return render_template('index.jade')
+    return render_template('index.jade', assets='assets/')
 
 
 @app.route('/about')
 def about():
-    return render_template('about.jade')
+    return render_template('about.jade', assets='assets/')
 
 
 @app.route('/games')
 def games():
-    return render_template('games.jade')
+    return render_template('games.jade', assets='assets/')
 
 
 @app.route('/releases')
 def releases():
-    return render_template('releases.jade')
+    return render_template('releases.jade', assets='assets/')
 
 
 @app.route('/publishers')
 def publishers():
-    return render_template('publishers.jade')
+    return render_template('publishers.jade', assets='assets/')
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=80)
+    app.run(host='0.0.0.0', port=80)
