@@ -15,8 +15,9 @@ def index():
     return render_template('index.jade', assets='assets/')
 
 
+@app.route('/index')
 @app.route('/index.html')
-def index():
+def index_redirect():
     return redirect('/', code=302)
 
 
