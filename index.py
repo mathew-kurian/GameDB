@@ -1,8 +1,9 @@
+#!/usr/bin/env python3
+
 # pip3 install pyjade
 # pip3 install Flask
 
-
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template
 
 app = Flask(__name__, static_folder='public', static_url_path='/assets')
 
