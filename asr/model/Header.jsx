@@ -31,7 +31,7 @@ var Header = React.createClass({
             </ul>
           </nav>
         </div>
-        <div className='page-head' style={{background:this.props.theme}}>
+        <div className='page-head' style={{background:'transparent'}}>
           <div className="container">
             <h1
               style={{fontSize:'41px',color:'#000',fontWeight:'bold',letterSpacing:'1px',textTransform:'uppercase'}}>{this.props.title}</h1>
