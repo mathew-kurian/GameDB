@@ -6,8 +6,10 @@
 # nohup ./index.py &
 
 from flask import Flask, render_template
+from flask.ext.compress import Compress
 
 app = Flask(__name__, static_folder='public', static_url_path='/assets')
+Compress(app)
 
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 app.debug = True
