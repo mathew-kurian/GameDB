@@ -6,7 +6,7 @@ var fs = require('fs');
 function getLinks($) {
     var links = [];
     $(".game-title a").each(function() {
-        links.push($(this).attr('href'))
+        links.push($(this).attr('href'));
     });
     return links;
 }
@@ -14,7 +14,7 @@ function getLinks($) {
 function getDetails($, a, to) {
     $(a).each(function() {
         var text = $(this).text().replace(/\n/g, ' ');
-        to[text.substring(0, text.indexOf(":")).trim()] = text.substring(text.indexOf(":") + 1).trim()
+        to[text.substring(0, text.indexOf(":")).trim()] = text.substring(text.indexOf(":") + 1).trim();
     });
     return to;
 }
