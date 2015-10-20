@@ -7,6 +7,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = '' #insert URI
 db = SQLALchemy(app)
 
 class Game(db.Model):
+	__tablename__ = 'games'
 	id = db.Column(db.Integer, primary_key = True)
 	name = db.Column(db.String(), unique = True) #insert number into db.String()
 	genre = db.Column(db.String(), unique = True)
@@ -30,6 +31,7 @@ class Game(db.Model):
 	def __repr__(self):
 		return '<Game %r>' % self.name
 class Developer(db.Model):
+	__tablename__ = 'developers'
 	id = db.Column(db.Integer, primary_key = True)
 	name = db.Column(db.String(), unique = True)
 	location = db.Column(db.String(), unique = True)
@@ -37,7 +39,7 @@ class Developer(db.Model):
 	year = db.Column(db.Integer(), unique = True)
 	CEO = db.Column(db.String(), unique = True)
 	COO = db.Column(db.String(), unique = True)
-	employee_count =  = db.Column(db.Integer(), unique = True)
+	employee_count = db.Column(db.Integer(), unique = True)
 	def __init__(self, name, location, games, year, CEO, COO, employee_count):
 		self.name = name
 		self.location = location
@@ -49,6 +51,7 @@ class Developer(db.Model):
 	def __repr__(self):
 		return '<Developer %r>' % self.name
 class Platform(db.Model):
+	__tablename__ = 'platforms'
 	id = db.Column(db.Integer, primary_key = True)
 	release_date = db.Column(db.String(), unique = True)
 	rating = db.Column(db.Integer(), unique = True)
@@ -64,6 +67,7 @@ class Platform(db.Model):
 	def __repr__(self):
 		return '<Platform %r>' % self.name
 class Image(db.Model):
+	__tablename__ = 'images'
 	id = db.Column(db.Integer, primary_key = True)
 	source = db.Column(db.String(), unique = True)
 	entity = db.Column(db.String(), unique = True)
