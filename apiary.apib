@@ -9,6 +9,8 @@ HOST: http://4play.apiblueprint.org/
 
 ## Games [/games]
 
+List of Games returns the total list of games in our data model
+
 ### List of Games [GET]
 
 + Response 200 (application/json)
@@ -23,11 +25,11 @@ HOST: http://4play.apiblueprint.org/
                     "one",
                     "two"
                 ],
-                "Rating": "Rating"
-                url: "/games"
+                "Rating": "Rating",
+                "ID": "id"
             }
         ]
-        
+
 ### Game [/games/{game_id}]
 
 These are the fields that will describe a game:
@@ -38,11 +40,12 @@ These are the fields that will describe a game:
 + Engine
 + Tags - An array of special fields.
 + Rating - The average rating of the game
++ ID - the id of the game in our database
 
 + Parameters
     + game_id: 1 (required, number) - The game's id which is unique to each game
 
-### View a Game [GET]
+#### View a Game [GET]
 
 + Response 201 (application/json)
 
@@ -55,9 +58,12 @@ These are the fields that will describe a game:
                     "one",
                     "two"
                 ],
-                "Rating": "Rating"
-                url: "/games"
+                "Rating": "Rating",
+                "ID": "id"
         }
+        
+### Search Games [GET]
+
 
 ## Developer Statistics [/devs]
 
