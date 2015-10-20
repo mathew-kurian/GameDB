@@ -33,6 +33,7 @@
     "react-prefixr": "^0.1.0",
     "request": "^2.65.0",
     "tiny-emitter": "^1.0.0",
+    "underscore": "^1.8.3",
     "url-parse": "^1.0.4"
   },
   "pre-commit": [

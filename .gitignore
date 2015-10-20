@@ -31,3 +31,5 @@ node_modules
 
 .sass-cache/
 .idea/
+
+token.json

@@ -31,19 +31,19 @@ def about():
 @app.route('/games')
 @app.route('/games.html')
 def games():
-    return render_template('games.jade', assets='/assets/')
+    return render_template('models/games.jade', assets='/assets/')
 
 
 @app.route('/releases')
 @app.route('/releases.html')
 def releases():
-    return render_template('releases.jade', assets='/assets/')
+    return render_template('models/releases.jade', assets='/assets/')
 
 
 @app.route('/publishers')
 @app.route('/publishers.html')
 def publishers():
-    return render_template('publishers.jade', assets='/assets/')
+    return render_template('models/publishers.jade', assets='/assets/')
 
 
 if __name__ == '__main__':
