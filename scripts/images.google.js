@@ -21,12 +21,15 @@ encodeQuery = function (q) {
         .replace(/['’]/g, "%27");
 };
 
+var key = 'Covers';
+
 async.eachSeries(files, function(file, callback){
     var games = require('./games/' + file);
     var dl = 0;
+    console.log('Started ' + file);
     async.eachSeries(games, function(game, callback){
-        if (game.Images && game.Images.length > 12) return callback();
-        var q = game.Title + ' game';
+        // if (game[key] && game[key].length > 12) return callback();
+        var q = game.Title + ' ps4 front cover';
         request({
             url: 'https://www.google.com/search?q=' + encodeQuery(q) + '&tbm=isch&&tbs=isz:l',
             method: 'get',
@@ -55,15 +58,15 @@ async.eachSeries(files, function(file, callback){
 
             dl++;
 
-            game.Images = links;
-            setTimeout(callback, 1000); // dont trigger the google scrape detector
+            game[key] = links;
+            setTimeout(callback, 400); // dont trigger the google scrape detector
         });
     }, function(){
         console.log('Finished ' + file);
         fs.writeFileSync('./games/' + file, JSON.stringify(games, null, 2), {encoding: 'utf8'});
         if (dl > 5){
-            console.log('Waiting for 20 seconds...');
-            setTimeout(callback, 20000);
+            console.log('Waiting for 5 seconds...');
+            setTimeout(callback, 5000);
         } else {
             setTimeout(callback, 1000);  // dont trigger the google scrape detector
         }
