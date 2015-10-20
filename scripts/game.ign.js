@@ -36,14 +36,16 @@ var pages = [];
 for (var i = 0; i <= 1000; i+= 50) pages.push(i);
 
 async.each(pages, function(page, callback){
-    request('http://www.ign.com/games/ps4', function(error, response, html) {
+    request('http://www.ign.com/games/ps4?sortBy=title&sortOrder=asc&startIndex=' + page, function(error, response, html) {
         if (!error && response.statusCode == 200) {
             var $ = cheerio.load(html);
             var links = getLinks($);
+
+            console.log('Downloaded page' + page);
+
             async.eachSeries(links, function(link, callback) {
                 request('http://www.ign.com' + link, function(error, response, html) {
                     $ = cheerio.load(html);
-                    console.log(html);
                     var data = getDetails($, ".gameInfo-list div", {});
                     data.Summary = $("#summary p").text().trim();
                     data.Rating = Number($(".ratingValue").eq(0).text().trim());
@@ -52,12 +54,18 @@ async.each(pages, function(page, callback){
                     callback();
                 });
             }, function() {
-                fs.writeFile('./games/db1.json', JSON.stringify(db), {
+                
+                console.log('Written db' + page + '.json');
+
+                fs.writeFileSync('./games/db' + page + '.json', JSON.stringify(db), {
                     encoding: 'utf8'
                 });
 
                 callback();
             });
+        } else {
+            console.error('Error page' + page);
+            callback();
         }
     });
 }, function(){
