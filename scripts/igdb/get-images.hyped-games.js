@@ -5,7 +5,7 @@ var fs = require('fs');
 
 async.eachSeries(hyped0, function (game, callback) {
   goog({
-    q: game.name + ' front cover',
+    q: game.name,
     tbs: 'isz:l'
   }, function (err, links) {
     if (err) console.error(err);

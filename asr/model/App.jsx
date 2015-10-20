@@ -1,6 +1,7 @@
 var React = require('react');
 var Header = require('./Header.jsx');
 var FixedDataTable = require('fixed-data-table');
+var _ = require('underscore');
 
 var Table = FixedDataTable.Table;
 var Column = FixedDataTable.Column;
@@ -14,6 +15,30 @@ var App = React.createClass({
   getInitialState() {
     var props = window.props;
     props.width = 825 - 60;
+
+    var columns = props.columns;
+    var rows = props.rows;
+
+    if (rows.length && !Array.isArray(rows[0])) {
+      var _rows = [];
+      for (var r = 0; r < rows.length; r++) {
+        var row = rows[r];
+        var _row = [];
+        for (var i = 0; i < columns.length; i++) {
+          var name = columns[i].split(':');
+          if (name.length > 1) {
+            _row.push(_.pluck(row[name[0]], name[1]).join('; '));
+          } else {
+            _row.push(row[name[0]]);
+          }
+        }
+        _rows.push(_row);
+      }
+
+      props.rows = _rows;
+    }
+
+
     return props;
   },
   _updateTableWidth: function () {
@@ -68,6 +93,12 @@ var App = React.createClass({
       sortBy,
       sortDir
     });
+  },
+  _cellRenderer(data, column, row){
+    if (column > 1)
+      return <div
+        style={{whiteSpace: 'nowrap', opacity: column > 1 ? 0.5 : 1, textOverflow: 'ellipsis', overflow: 'hidden', width: 250}}>{data}</div>;
+    return <a href={this.state.mode + "/" + row[0]}>{data}</a>
   },
   render() {
 
@@ -125,7 +156,8 @@ var App = React.createClass({
                 this.state.columns.map(function (col, i) {
                   return (
                     <Column label={col + (self.state.sortBy === i ? sortDirArrow : '')} key={i}
-                            width={Math.max(100, self.state.width/self.state.columns.length)} dataKey={i}
+                            width={i ? 250 : 50} dataKey={i}
+                            cellRenderer={self._cellRenderer}
                             headerRenderer={self._headerRenderer}/>
                   )
                 })}
@@ -142,6 +174,7 @@ var App = React.createClass({
           </div>
           <div className='col-md-3' role='complementary'>
             <h4>Related Images</h4>
+
             <p>Get the latest screenshots</p>
             {this.state.images.map(function (url, i) {
               return (<img src={url} key={i}
