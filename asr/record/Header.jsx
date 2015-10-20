@@ -9,7 +9,7 @@ var Header = React.createClass({
     return (
       <div style={{background:'rgba(0,0,0,0.5)',position:'relative'}}>
         <div className='blur'
-             style={{width:'100%',height:'100%',top:0,left:0, background: 'url(' + this.props.images[0] + ') center center no-repeat',backgroundSize:'cover',backgroundColor:'#777', position:'absolute',zIndex:-1}}/>
+             style={{width:'100%',height:'100%',top:0,left:0, backgroundImage: 'url(' + this.props.images[0] + ')',backgroundPosition:'center center',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#777', position:'absolute',zIndex:-1}}/>
         <div className="container" style={{position:'relative'}}>
           <nav className="navbar">
             <ul className="nav navbar-nav">
