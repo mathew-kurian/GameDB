@@ -9,6 +9,8 @@ HOST: http://4play.apiblueprint.org/
 
 ## Games [/games]
 
+Model for Games Object
+
 List of Games returns the total list of games in our data model
 
 ### List of Games [GET]
@@ -45,7 +47,7 @@ These are the fields that will describe a game:
 + Parameters
     + game_id: 1 (required, number) - The game's id which is unique to each game
 
-#### View a Game [GET]
+### View a Game [GET]
 
 + Response 201 (application/json)
 
@@ -61,11 +63,10 @@ These are the fields that will describe a game:
                 "Rating": "Rating",
                 "ID": "id"
         }
-        
-### Search Games [GET]
 
+## Developers [/devs]
 
-## Developer Statistics [/devs]
+List of Games returns the total list of games in our data model
 
 ### Developers List [GET]
 
@@ -81,6 +82,39 @@ These are the fields that will describe a game:
                 "Tags": [
                     "one",
                     "two"
-                ]
+                ],
+                "ID": "id"
             }
         ]
+
+### Developer [/devs/{dev_id}]
+
+These are the fields that will describe a game:
+
++ Name
++ Location
++ Publisher
++ Engine
++ Tags - An array of special fields.
++ Rating - The average rating of games by the developer
++ ID - the id of the developer in our database
+
++ Parameters
+    + dev_id: 1 (required, number) - The developer's id which is unique to each developer
+
+### View a Developer [GET]
+
++ Response 201 (application/json)
+
+        {
+                "Name": "Name",
+                "Location": "Location",
+                "Publisher": "Publisher",
+                "Engine": "Engine",
+                "Tags": [
+                    "one",
+                    "two"
+                ],
+                "Rating": "Rating",
+                "ID": "id"
+        }
