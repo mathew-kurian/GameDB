@@ -1,0 +1,18 @@
+extends ./_model.jade
+block props
+  script.
+    window.props = {
+      mode: 'games',
+      title: 'Games',
+      description: "Structured playing, usually undertaken for enjoyment and sometimes used as an educational tool. Games are distinct from work, which is usually carried out for remuneration, and from art, which is more often an expression of aesthetic or ideological elements.",
+      overview: "Get the lowdown on the key pieces of Bootstrap's infrastructure, including our approach to better, faster, stronger web development.",
+      theme: '#FFE108',
+      rows: [
+        ["Jim", "Halpert", "Scranton", "TX", "77450", true],
+        ["Pam", "Beasly", "New York", "NY", "02062", false],
+        ["James", "Kurian", "Missouri City", "TX", "78705", false]
+      ],
+      columns: ["First", "Last", "City", "State", "ZipCode", "Checked"],
+      videos: ["https://player.vimeo.com/video/122622348?byline=0&portrait=0&badge=0", "https://player.vimeo.com/video/57330981?byline=0&portrait=0&badge=0"],
+      images: ["#{assets}images/killzone-0.png", "#{assets}images/battlefield-1.jpg"]
+    }
