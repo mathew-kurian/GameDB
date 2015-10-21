@@ -1,0 +1,183 @@
+[
+    {
+        "id": 3100,
+        "name": "Megaxus",
+        "slug": "megaxus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3137,
+        "name": "Pink Noise",
+        "slug": "pink-noise",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3138,
+        "name": "Brandracker, LLC",
+        "slug": "brandracker-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3123,
+        "name": "WHA Entertainment",
+        "slug": "wha-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3185,
+        "name": "Alvar Aalto",
+        "slug": "alvar-aalto",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4304,
+        "name": "Ayanehonpo",
+        "slug": "ayanehonpo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3074,
+        "name": "Spiderweb Software",
+        "slug": "spiderweb-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 250,
+        "name": "Square",
+        "slug": "square",
+        "average_rating": "8.78266245593669",
+        "parent": null
+    },
+    {
+        "id": 3098,
+        "name": "Gamania",
+        "slug": "gamania",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 71,
+        "name": "Raven Software",
+        "slug": "raven-software",
+        "average_rating": "7.37533559490962",
+        "founded_year": 1990,
+        "parent": 66,
+        "company_logo": {
+            "url": "/companies/raven-software/images/company_logos/5e/raven-software_logo_thumb.png",
+            "width": 422,
+            "height": 584
+        }
+    },
+    {
+        "id": 3139,
+        "name": "Kramer And Olsen",
+        "slug": "kramer-and-olsen",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3122,
+        "name": "Deconstructeam",
+        "slug": "deconstructeam",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3140,
+        "name": "Brandracket, LLC",
+        "slug": "brandracket-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3125,
+        "name": "Stellar Stone",
+        "slug": "stellar-stone",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3141,
+        "name": "APM Music",
+        "slug": "apm-music",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3126,
+        "name": "UPL",
+        "slug": "upl",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3142,
+        "name": "Plastic Wax",
+        "slug": "plastic-wax",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3127,
+        "name": "First Row Software Publishing Inc.",
+        "slug": "first-row-software-publishing-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3128,
+        "name": "Massive Black",
+        "slug": "massive-black",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3129,
+        "name": "Blindlight LLC",
+        "slug": "blindlight-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3130,
+        "name": "Zenimax Europe",
+        "slug": "zenimax-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3131,
+        "name": "Zenimax Asia",
+        "slug": "zenimax-asia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3132,
+        "name": "GMT",
+        "slug": "gmt",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3133,
+        "name": "ThinkAMDS",
+        "slug": "thinkamds",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3134,
+        "name": "Hi-Fi Genie Productions",
+        "slug": "hi-fi-genie-productions",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "id": 3829,
+        "name": "  SmashGames ",
+        "slug": "smashgames--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3830,
+        "name": "Test3 Projects",
+        "slug": "test3-projects",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3841,
+        "name": "Niklas Myrberg",
+        "slug": "niklas-myrberg",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3836,
+        "name": "devCAT",
+        "slug": "devcat",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/devcat/images/company_logos/5v/devcat_logo_thumb.png",
+            "width": 800,
+            "height": 600
+        }
+    },
+    {
+        "id": 3842,
+        "name": "Santa Cruz games",
+        "slug": "santa-cruz-games",
+        "average_rating": "7.22534496595645",
+        "parent": null
+    },
+    {
+        "id": 3844,
+        "name": "Firma Studios",
+        "slug": "firma-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3850,
+        "name": "NOAA",
+        "slug": "noaa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3846,
+        "name": "Warner Bros. Post Production Services",
+        "slug": "warner-bros-post-production-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3847,
+        "name": "The London Session Orchestra",
+        "slug": "the-london-session-orchestra",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3851,
+        "name": "Video Copilot",
+        "slug": "video-copilot",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3848,
+        "name": "SPOV",
+        "slug": "spov",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3852,
+        "name": "NoodleHaus",
+        "slug": "noodlehaus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4305,
+        "name": "Jelly Think",
+        "slug": "jelly-think",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 200,
+        "name": "Electronic Arts Victor",
+        "slug": "electronic-arts-victor",
+        "average_rating": "8.28003231559241",
+        "parent": null
+    },
+    {
+        "id": 3849,
+        "name": "NASA",
+        "slug": "nasa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3853,
+        "name": "Hamagami/Carroll Inc.",
+        "slug": "hamagami-slash-carroll-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3854,
+        "name": "PicturePlane",
+        "slug": "pictureplane",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3855,
+        "name": "Sony Computer Entertainment LLC's Product Development Services Group",
+        "slug": "sony-computer-entertainment-llcs-product-development-services-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3856,
+        "name": "SCEA Motion Capture",
+        "slug": "scea-motion-capture",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3857,
+        "name": "Daniels Wood Lane Inc.",
+        "slug": "daniels-wood-lane-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3858,
+        "name": "Independent Studio Services",
+        "slug": "independent-studio-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1137,
+        "name": "Milton Bradley",
+        "slug": "milton-bradley",
+        "average_rating": null,
+        "founded_year": 1920,
+        "parent": 183,
+        "company_logo": {
+            "url": "/companies/milton-bradley/images/company_logos/5z/milton-bradley_logo_thumb.png",
+            "width": 253,
+            "height": 289
+        }
+    },
+    {
+        "id": 3843,
+        "name": "GR3 Project",
+        "slug": "gr3-project",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 507,
+        "name": "Volition Inc",
+        "slug": "volition-inc",
+        "average_rating": "7.26254771334869",
+        "founded_year": 1996,
+        "parent": 423,
+        "company_logo": {
+            "url": "/companies/volition-inc/images/company_logos/3f/volition-inc_logo_thumb.png",
+            "width": 110,
+            "height": 155
+        }
+    },
+    {
+        "id": 3918,
+        "name": "Cyberdreams, Inc.",
+        "slug": "cyberdreams-inc",
+        "average_rating": null,
+        "parent": null
+    }
+]

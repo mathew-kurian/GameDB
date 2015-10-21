@@ -1,0 +1,183 @@
+[
+    {
+        "id": 3135,
+        "name": "M&S Music",
+        "slug": "m-s-music",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3136,
+        "name": "Local Transit",
+        "slug": "local-transit",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3143,
+        "name": "Barbara Harris Loop-Group Casting",
+        "slug": "barbara-harris-loop-group-casting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3144,
+        "name": "Warner Brothers Hollywood",
+        "slug": "warner-brothers-hollywood",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3149,
+        "name": "Epoch Games",
+        "slug": "epoch-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3146,
+        "name": "KnowWare",
+        "slug": "knowware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3148,
+        "name": "RedDotGames",
+        "slug": "reddotgames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3150,
+        "name": "New World Interactive",
+        "slug": "new-world-interactive",
+        "average_rating": "8.33521357088961",
+        "parent": null
+    },
+    {
+        "id": 3152,
+        "name": "10tons Ltd",
+        "slug": "10tons-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3153,
+        "name": "Blockland LLC",
+        "slug": "blockland-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3156,
+        "name": "Cinemaware Marquee",
+        "slug": "cinemaware-marquee",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3159,
+        "name": "Omni Systems",
+        "slug": "omni-systems",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3124,
+        "name": "FCI",
+        "slug": "fci",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 957,
+        "name": "Ndemic Creations",
+        "slug": "ndemic-creations",
+        "average_rating": "7.34389204184737",
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/ndemic-creations/images/company_logos/5f/ndemic-creations_logo_thumb.png",
+            "width": 1579,
+            "height": 2158
+        }
+    },
+    {
+        "id": 3055,
+        "name": "Felistella",
+        "slug": "felistella",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3077,
+        "name": "EKO Software",
+        "slug": "eko-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3147,
+        "name": "PlayWay SA",
+        "slug": "playway-sa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3188,
+        "name": "Wormwood Studios",
+        "slug": "wormwood-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3164,
+        "name": "T1 New Media",
+        "slug": "t1-new-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3165,
+        "name": "Novell",
+        "slug": "novell",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3167,
+        "name": "Eastborder Management Inc.",
+        "slug": "eastborder-management-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3168,
+        "name": "Finnvox Studios",
+        "slug": "finnvox-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3169,
+        "name": "GodGames",
+        "slug": "godgames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3170,
+        "name": "Hybrid",
+        "slug": "hybrid",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3171,
+        "name": "PRO-AV",
+        "slug": "pro-av",
+        "average_rating": null,
+        "parent": null
+    }
+]

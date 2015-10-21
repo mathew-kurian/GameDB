@@ -5,7 +5,7 @@ var tokens = require('./tokens.json');
 var _ = require('underscore');
 
 var pages = [];
-for (var i = 1675; i < 6925; i += 25) pages.push(i);
+for (var i = 2650; i < 6925; i += 25) pages.push(i);
 
 async.eachSeries(pages, function (page, callback) {
   request('https://www.igdb.com/api/v1/companies?token=' + tokens.token1 + '&offset=' + page, function (error, response, body) {

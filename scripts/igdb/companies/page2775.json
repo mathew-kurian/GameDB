@@ -1,0 +1,206 @@
+[
+    {
+        "id": 305,
+        "name": "Remedy Entertainment",
+        "slug": "remedy-entertainment",
+        "average_rating": "8.46874129958906",
+        "founded_year": 1995,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/remedy-entertainment/images/company_logos/1r/remedy-entertainment_logo_thumb.png",
+            "width": 500,
+            "height": 348
+        }
+    },
+    {
+        "id": 1062,
+        "name": "Ivory Tower",
+        "slug": "ivory-tower",
+        "average_rating": "6.59061151190609",
+        "founded_year": 2007,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/ivory-tower/images/company_logos/5l/ivory-tower_logo_thumb.png",
+            "width": 2000,
+            "height": 2000
+        }
+    },
+    {
+        "id": 3270,
+        "name": "LEC-RPM",
+        "slug": "lec-rpm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3271,
+        "name": "Orion Revolution Curiel",
+        "slug": "orion-revolution-curiel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3272,
+        "name": "Eidos Shanghai",
+        "slug": "eidos-shanghai",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3273,
+        "name": "MineLoader",
+        "slug": "mineloader",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3274,
+        "name": "Visual Works",
+        "slug": "visual-works",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3275,
+        "name": "Big Solutions",
+        "slug": "big-solutions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3276,
+        "name": "Frame Machine",
+        "slug": "frame-machine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3277,
+        "name": "Technicolor",
+        "slug": "technicolor",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3278,
+        "name": "Giant Studios, Inc.",
+        "slug": "giant-studios-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3279,
+        "name": "Image Metrics Ltd.",
+        "slug": "image-metrics-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3280,
+        "name": "Faceware Technologies Ltd",
+        "slug": "faceware-technologies-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 638,
+        "name": "Rockstar London",
+        "slug": "rockstar-london",
+        "average_rating": "8.78783381657303",
+        "founded_year": 2005,
+        "parent": 29,
+        "company_logo": {
+            "url": "/companies/rockstar-london/images/company_logos/13/rockstar-london_logo_thumb.png",
+            "width": 500,
+            "height": 460
+        }
+    },
+    {
+        "id": 3348,
+        "name": "Trailer Park",
+        "slug": "trailer-park",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3349,
+        "name": "Patch Together",
+        "slug": "patch-together",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3350,
+        "name": "Opus Artz",
+        "slug": "opus-artz",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3351,
+        "name": "Glitch",
+        "slug": "glitch",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3190,
+        "name": "neo Software",
+        "slug": "neo-software",
+        "average_rating": "9.17193594969707",
+        "parent": null
+    },
+    {
+        "id": 458,
+        "name": "Funcom",
+        "slug": "funcom",
+        "average_rating": "8.74085568034153",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/funcom/images/company_logos/8/funcom_logo_thumb.png",
+            "width": 2450,
+            "height": 2450
+        }
+    },
+    {
+        "id": 374,
+        "name": "Koch Media",
+        "slug": "koch-media",
+        "average_rating": "8.96782175595483",
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/koch-media/images/company_logos/5j/koch-media_logo_thumb.png",
+            "width": 2509,
+            "height": 214
+        }
+    },
+    {
+        "id": 3194,
+        "name": "Hybrid Graphics",
+        "slug": "hybrid-graphics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3195,
+        "name": "Track Nine Studios",
+        "slug": "track-nine-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3196,
+        "name": "Howard Schwartz Recording",
+        "slug": "howard-schwartz-recording",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3197,
+        "name": "Futuremark",
+        "slug": "futuremark",
+        "average_rating": null,
+        "parent": null
+    }
+]

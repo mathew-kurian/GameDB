@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4306,
+        "name": "JSC Games",
+        "slug": "jsc-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4307,
+        "name": "Kurogane",
+        "slug": "kurogane",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4293,
+        "name": "ScrewAttack Entertainment",
+        "slug": "screwattack-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4295,
+        "name": "Trine Games",
+        "slug": "trine-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4296,
+        "name": "Mad Vulture Games",
+        "slug": "mad-vulture-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4282,
+        "name": "Paprikari",
+        "slug": "paprikari",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4300,
+        "name": "PC-SIG",
+        "slug": "pc-sig",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4301,
+        "name": "danciao",
+        "slug": "danciao",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4302,
+        "name": "Amzy",
+        "slug": "amzy",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4303,
+        "name": "Aprize",
+        "slug": "aprize",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3923,
+        "name": "Studio Pixel",
+        "slug": "studio-pixel",
+        "average_rating": "8.64684516719843",
+        "parent": null
+    },
+    {
+        "id": 4292,
+        "name": "FreakZone Games",
+        "slug": "freakzone-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4010,
+        "name": "Macrospace",
+        "slug": "macrospace",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4308,
+        "name": "Pleocene",
+        "slug": "pleocene",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4309,
+        "name": "Q'tron",
+        "slug": "qtron",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4310,
+        "name": "Safari Games",
+        "slug": "safari-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4311,
+        "name": "Vroooom",
+        "slug": "vroooom",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4312,
+        "name": "StudioHand",
+        "slug": "studiohand",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4313,
+        "name": "Terabyte",
+        "slug": "terabyte",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4314,
+        "name": "Rayline Studio",
+        "slug": "rayline-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4315,
+        "name": "Pone Company",
+        "slug": "pone-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4375,
+        "name": "Undo",
+        "slug": "undo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4376,
+        "name": "K30",
+        "slug": "k30",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4377,
+        "name": "P3M",
+        "slug": "p3m",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4291,
+        "name": "CD Projekt",
+        "slug": "cd-projekt",
+        "average_rating": "7.47101260608086",
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/cd-projekt/images/company_logos/9o/cd-projekt_logo_thumb.png",
+            "width": 1475,
+            "height": 808
+        }
+    }
+]

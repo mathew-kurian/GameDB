@@ -1,0 +1,183 @@
+[
+    {
+        "id": 3172,
+        "name": "Plenware",
+        "slug": "plenware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3173,
+        "name": "MadOnion.com",
+        "slug": "madonion-com",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3174,
+        "name": "AMD",
+        "slug": "amd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3175,
+        "name": "Bitboys",
+        "slug": "bitboys",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3176,
+        "name": "Creative",
+        "slug": "creative",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3177,
+        "name": "Imagination Technologies",
+        "slug": "imagination-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3178,
+        "name": "Intel",
+        "slug": "intel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3179,
+        "name": "VIA/S3",
+        "slug": "via-s3",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3180,
+        "name": "ST Microelectronics",
+        "slug": "st-microelectronics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3181,
+        "name": "ELSA",
+        "slug": "elsa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3182,
+        "name": "Matrox",
+        "slug": "matrox",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3183,
+        "name": "TSI",
+        "slug": "tsi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3184,
+        "name": "Le Corbusier",
+        "slug": "le-corbusier",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3145,
+        "name": "Panic Art Studios",
+        "slug": "panic-art-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3151,
+        "name": "Magnavox",
+        "slug": "magnavox",
+        "average_rating": null,
+        "founded_year": 1917,
+        "parent": 1037,
+        "company_logo": {
+            "url": "/companies/magnavox/images/company_logos/de/magnavox_logo_thumb.png",
+            "width": 1280,
+            "height": 323
+        }
+    },
+    {
+        "id": 3186,
+        "name": "Parturi-Kampaamo Kluuvi",
+        "slug": "parturi-kampaamo-kluuvi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3187,
+        "name": "id Software Inc.",
+        "slug": "id-software-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3264,
+        "name": "Airwavessound",
+        "slug": "airwavessound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3189,
+        "name": "A Sharp, LLC",
+        "slug": "a-sharp-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3265,
+        "name": "Sound Hound Studios",
+        "slug": "sound-hound-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3191,
+        "name": "Rain Games",
+        "slug": "rain-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3266,
+        "name": "Virtuos China Art Team",
+        "slug": "virtuos-china-art-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3267,
+        "name": "Noble House Kenjutsu",
+        "slug": "noble-house-kenjutsu",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3193,
+        "name": "Maelstrom Games Ltd",
+        "slug": "maelstrom-games-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3269,
+        "name": "Screen Music Studios",
+        "slug": "screen-music-studios",
+        "average_rating": null,
+        "parent": null
+    }
+]

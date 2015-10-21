@@ -1,0 +1,177 @@
+[
+    {
+        "id": 3911,
+        "name": "Independant",
+        "slug": "independant",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3928,
+        "name": "Ubisoft Chengdu",
+        "slug": "ubisoft-chengdu",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3929,
+        "name": "Les services d'urgence Medic",
+        "slug": "les-services-durgence-medic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3930,
+        "name": "Hotel 2 Tango",
+        "slug": "hotel-2-tango",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3931,
+        "name": "Studio de I'Est",
+        "slug": "studio-de-iest",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3932,
+        "name": "Paul Johnston Studio",
+        "slug": "paul-johnston-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3948,
+        "name": "Cybersoft",
+        "slug": "cybersoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3933,
+        "name": "Studio 451 Inc.",
+        "slug": "studio-451-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3924,
+        "name": "Six by nine",
+        "slug": "six-by-nine",
+        "average_rating": "7.55624361732177",
+        "parent": null
+    },
+    {
+        "id": 3934,
+        "name": "Vision Globale",
+        "slug": "vision-globale",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3925,
+        "name": "Nick Jr. Interactive",
+        "slug": "nick-jr-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3935,
+        "name": "Studio Technicolor",
+        "slug": "studio-technicolor",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3936,
+        "name": "Wave London",
+        "slug": "wave-london",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3937,
+        "name": "mouse-power GmbH",
+        "slug": "mouse-power-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3938,
+        "name": "Das Hörspielstudio XBerg GmbH",
+        "slug": "das-horspielstudio-xberg-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3939,
+        "name": "Tonstudio Krauthausen GmbH",
+        "slug": "tonstudio-krauthausen-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3940,
+        "name": "U-TRAX",
+        "slug": "u-trax",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3941,
+        "name": "Scillex",
+        "slug": "scillex",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3942,
+        "name": "entalize",
+        "slug": "entalize",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3943,
+        "name": "Ubisoft South Korea",
+        "slug": "ubisoft-south-korea",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3944,
+        "name": "Latis Global Communications",
+        "slug": "latis-global-communications",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3945,
+        "name": "Ubisoft Limited",
+        "slug": "ubisoft-limited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3946,
+        "name": "#30 Jutz Zollern Workroom",
+        "slug": "number-30-jutz-zollern-workroom",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3947,
+        "name": "Young Jump Animation",
+        "slug": "young-jump-animation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4283,
+        "name": "Avanquest",
+        "slug": "avanquest",
+        "average_rating": null,
+        "parent": null
+    }
+]

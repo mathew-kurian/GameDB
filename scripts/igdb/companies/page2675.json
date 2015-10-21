@@ -1,0 +1,183 @@
+[
+    {
+        "id": 3023,
+        "name": "Virtual Programming",
+        "slug": "virtual-programming",
+        "average_rating": "8.18033280548045",
+        "parent": null
+    },
+    {
+        "id": 3076,
+        "name": "Passtech Games",
+        "slug": "passtech-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3110,
+        "name": "Marc Graue Studio",
+        "slug": "marc-graue-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3075,
+        "name": "Broken Windows Studio",
+        "slug": "broken-windows-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3079,
+        "name": "Yingpei Games",
+        "slug": "yingpei-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3080,
+        "name": "Dee Games",
+        "slug": "dee-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3085,
+        "name": "Xaviant",
+        "slug": "xaviant",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3081,
+        "name": "Exact Co., Ltd.",
+        "slug": "exact-co-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3082,
+        "name": "Ultra Co., Ltd.",
+        "slug": "ultra-co-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 522,
+        "name": "Origin",
+        "slug": "origin",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3086,
+        "name": "Xaviant Games",
+        "slug": "xaviant-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3087,
+        "name": "Yacht Club Games",
+        "slug": "yacht-club-games",
+        "average_rating": "9.28161774381001",
+        "parent": null
+    },
+    {
+        "id": 3084,
+        "name": "Chaotic Moon",
+        "slug": "chaotic-moon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3088,
+        "name": "Blue Machine Interactive",
+        "slug": "blue-machine-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3090,
+        "name": "LightBox Interactive",
+        "slug": "lightbox-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3091,
+        "name": "Scarab Entertainment",
+        "slug": "scarab-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3094,
+        "name": "Leaf",
+        "slug": "leaf",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3092,
+        "name": "Crispy's",
+        "slug": "crispy-s",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 72,
+        "name": "Vicarious Visions",
+        "slug": "vicarious-visions",
+        "average_rating": "7.81789409558391",
+        "founded_year": 1990,
+        "parent": 179,
+        "company_logo": {
+            "url": "/companies/vicarious-visions/images/company_logos/1v/vicarious-visions_logo_thumb.png",
+            "width": 621,
+            "height": 160
+        }
+    },
+    {
+        "id": 3093,
+        "name": "Walla Group",
+        "slug": "walla-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3095,
+        "name": "Crocodile Entertainment",
+        "slug": "crocodile-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3096,
+        "name": "Triotech Amusement",
+        "slug": "triotech-amusement",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3097,
+        "name": "KOG studios",
+        "slug": "kog-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3103,
+        "name": " Gamania",
+        "slug": "gamania--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3099,
+        "name": "SG Interactive",
+        "slug": "sg-interactive",
+        "average_rating": null,
+        "parent": null
+    }
+]

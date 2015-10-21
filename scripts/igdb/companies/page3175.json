@@ -1,0 +1,183 @@
+[
+    {
+        "id": 3682,
+        "name": "Digital Domain",
+        "slug": "digital-domain",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3668,
+        "name": "Twilight",
+        "slug": "twilight",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3669,
+        "name": "Hookstone",
+        "slug": "hookstone",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3671,
+        "name": "IGS",
+        "slug": "igs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3672,
+        "name": "Cyclone System",
+        "slug": "cyclone-system",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3673,
+        "name": "EA Hyderabad",
+        "slug": "ea-hyderabad",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3674,
+        "name": "Digic Pictures",
+        "slug": "digic-pictures",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3675,
+        "name": "The Lyris Quartet",
+        "slug": "the-lyris-quartet",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3676,
+        "name": "Albion Localisations",
+        "slug": "albion-localisations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3677,
+        "name": "Anakan GmbH",
+        "slug": "anakan-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3678,
+        "name": "Pomann Sound",
+        "slug": "pomann-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3679,
+        "name": "Mesopotamia Software",
+        "slug": "mesopotamia-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3683,
+        "name": "Formosa Interactive",
+        "slug": "formosa-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3684,
+        "name": "Imaginari Animation Studios",
+        "slug": "imaginari-animation-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3685,
+        "name": "Ozone",
+        "slug": "ozone",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3686,
+        "name": "Chris Daly Glass Studio",
+        "slug": "chris-daly-glass-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3644,
+        "name": "Valkyrie Entertainment",
+        "slug": "valkyrie-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3688,
+        "name": "Dinosaur Polo Club",
+        "slug": "dinosaur-polo-club",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3693,
+        "name": "Infinity",
+        "slug": "infinity",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3699,
+        "name": "Movie Software",
+        "slug": "movie-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3690,
+        "name": "Tectoy",
+        "slug": "tectoy",
+        "average_rating": "7.8189072819118",
+        "parent": null
+    },
+    {
+        "id": 3718,
+        "name": "Obsidian",
+        "slug": "obsidian",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3691,
+        "name": "Meldac",
+        "slug": "meldac",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3692,
+        "name": "Lenar",
+        "slug": "lenar",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3707,
+        "name": "Fujisankei Communications International",
+        "slug": "fujisankei-communications-international",
+        "average_rating": null,
+        "founded_year": 1986,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/fujisankei-communications-international/images/company_logos/am/fujisankei-communications-international_logo_thumb.png",
+            "width": 115,
+            "height": 48
+        }
+    }
+]

@@ -1,0 +1,183 @@
+[
+    {
+        "id": 3601,
+        "name": "POP Sound",
+        "slug": "pop-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3592,
+        "name": "The Lego Group",
+        "slug": "the-lego-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3602,
+        "name": "Verbatim",
+        "slug": "verbatim",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3603,
+        "name": "Parabolic",
+        "slug": "parabolic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3604,
+        "name": "Pomman Sound",
+        "slug": "pomman-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3593,
+        "name": "Mu and Heyo",
+        "slug": "mu-and-heyo",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/mu-and-heyo/images/company_logos/5n/mu-and-heyo_logo_thumb.png",
+            "width": 3508,
+            "height": 2480
+        }
+    },
+    {
+        "id": 3605,
+        "name": "Solar Studios",
+        "slug": "solar-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3606,
+        "name": "TMT Casting",
+        "slug": "tmt-casting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3607,
+        "name": "Lyn Paolo Designs",
+        "slug": "lyn-paolo-designs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3595,
+        "name": "Tencent Games",
+        "slug": "tencent-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3596,
+        "name": "Mail.ru",
+        "slug": "mail-dot-ru",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3597,
+        "name": "3Lateral",
+        "slug": "3lateral",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3598,
+        "name": "Another World Studios, LLC",
+        "slug": "another-world-studios-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3599,
+        "name": "Shanghai ArtCoding Software., Ltd.",
+        "slug": "shanghai-artcoding-software-dot-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3600,
+        "name": "Rockstar Games NYC",
+        "slug": "rockstar-games-nyc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3608,
+        "name": "Vox Recording Studios",
+        "slug": "vox-recording-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3609,
+        "name": "DMG Clearances Inc.",
+        "slug": "dmg-clearances-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3610,
+        "name": "EA Demand Planning Team",
+        "slug": "ea-demand-planning-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3611,
+        "name": "EA Sales and Retail Marketing Team",
+        "slug": "ea-sales-and-retail-marketing-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3612,
+        "name": "EALA Mastering Lab",
+        "slug": "eala-mastering-lab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3613,
+        "name": "EARS Mastering Lab",
+        "slug": "ears-mastering-lab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3614,
+        "name": "Iron Claw",
+        "slug": "iron-claw",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3615,
+        "name": "Hermitworks Entertainment",
+        "slug": "hermitworks-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3616,
+        "name": "Wave Generation",
+        "slug": "wave-generation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3617,
+        "name": "Fontoló Studió Ltd.",
+        "slug": "fontolo-studio-ltd",
+        "average_rating": null,
+        "parent": null
+    }
+]

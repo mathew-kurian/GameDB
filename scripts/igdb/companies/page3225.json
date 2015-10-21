@@ -1,0 +1,183 @@
+[
+    {
+        "id": 3716,
+        "name": "Triffix Entertainment Inc",
+        "slug": "triffix-entertainment-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3717,
+        "name": "Allods online",
+        "slug": "allods-online",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3728,
+        "name": "Cubic Motion",
+        "slug": "cubic-motion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3729,
+        "name": "Speech Graphics",
+        "slug": "speech-graphics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3730,
+        "name": "Sunny Side Up",
+        "slug": "sunny-side-up",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3720,
+        "name": "Bitmasters",
+        "slug": "bitmasters",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3722,
+        "name": "Extreme Entertainment Group",
+        "slug": "extreme-entertainment-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3726,
+        "name": "Paragon Studios",
+        "slug": "paragon-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 470,
+        "name": "Turbine",
+        "slug": "turbine",
+        "average_rating": "7.95451428080943",
+        "founded_year": 1994,
+        "parent": 2346,
+        "company_logo": {
+            "url": "/companies/turbine/images/company_logos/5t/turbine_logo_thumb.png",
+            "width": 416,
+            "height": 417
+        }
+    },
+    {
+        "id": 3731,
+        "name": "Weta Worshop Ltd.",
+        "slug": "weta-worshop-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3732,
+        "name": "Digital Dimension",
+        "slug": "digital-dimension",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3733,
+        "name": "Goldtooth Creative Studio",
+        "slug": "goldtooth-creative-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3734,
+        "name": "Skylark Sound",
+        "slug": "skylark-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3792,
+        "name": "anima.inc",
+        "slug": "anima-dot-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3793,
+        "name": "MSM GmbH",
+        "slug": "msm-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3794,
+        "name": "Sony Music Communications",
+        "slug": "sony-music-communications",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3795,
+        "name": "INTAC Plus",
+        "slug": "intac-plus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3796,
+        "name": "SOH Inc.",
+        "slug": "soh-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3869,
+        "name": "Blackbird Interactive",
+        "slug": "blackbird-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3870,
+        "name": "Okratron 5000",
+        "slug": "okratron-5000",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3871,
+        "name": "Duael Designs LLC",
+        "slug": "duael-designs-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3872,
+        "name": "BOND",
+        "slug": "bond",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3873,
+        "name": "Layer Media",
+        "slug": "layer-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3874,
+        "name": "Access Communications",
+        "slug": "access-communications",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3875,
+        "name": "MODCo Media",
+        "slug": "modco-media",
+        "average_rating": null,
+        "parent": null
+    }
+]

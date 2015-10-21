@@ -1,0 +1,187 @@
+[
+    {
+        "id": 3910,
+        "name": "Pygmy Studio",
+        "slug": "pygmy-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3912,
+        "name": "Asterizm",
+        "slug": "asterizm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3832,
+        "name": "Robot Loves Kitty",
+        "slug": "robot-loves-kitty",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3913,
+        "name": "EnjoyUp Games",
+        "slug": "enjoyup-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3908,
+        "name": "Picsoft Studio",
+        "slug": "picsoft-studio",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/picsoft-studio/images/company_logos/60/picsoft-studio_logo_thumb.png",
+            "width": 1024,
+            "height": 768
+        }
+    },
+    {
+        "id": 3914,
+        "name": "Playbox",
+        "slug": "playbox",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3920,
+        "name": "Toho",
+        "slug": "toho",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3917,
+        "name": "Media Station",
+        "slug": "media-station",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3915,
+        "name": "Vortex Media Arts",
+        "slug": "vortex-media-arts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3916,
+        "name": "Playskool",
+        "slug": "playskool",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4288,
+        "name": "i5works",
+        "slug": "i5works",
+        "average_rating": "8.62707287862792",
+        "parent": null
+    },
+    {
+        "id": 3926,
+        "name": "Game Factory",
+        "slug": "game-factory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3922,
+        "name": "Red Rocket Games",
+        "slug": "red-rocket-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3927,
+        "name": "Viacom International",
+        "slug": "viacom-international",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4108,
+        "name": "Wild Shadow Studios",
+        "slug": "wild-shadow-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4109,
+        "name": "Kabam",
+        "slug": "kabam",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/kabam/images/company_logos/6c/kabam_logo_thumb.png",
+            "width": 532,
+            "height": 269
+        }
+    },
+    {
+        "id": 4239,
+        "name": "AGDG",
+        "slug": "agdg",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4240,
+        "name": "Asger Strandby",
+        "slug": "asger-strandby",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4112,
+        "name": "Soft Bank",
+        "slug": "soft-bank",
+        "average_rating": "8.96458176658699",
+        "parent": null
+    },
+    {
+        "id": 4113,
+        "name": "Art Data Interactive",
+        "slug": "art-data-interactive",
+        "average_rating": "8.96458176658699",
+        "parent": null
+    },
+    {
+        "id": 4114,
+        "name": "Bashou House",
+        "slug": "bashou-house",
+        "average_rating": "8.96458176658699",
+        "parent": null
+    },
+    {
+        "id": 4286,
+        "name": "Virtools",
+        "slug": "virtools",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4287,
+        "name": "Criterion Software",
+        "slug": "criterion-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4284,
+        "name": "GSP",
+        "slug": "gsp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4285,
+        "name": "Iguana Entertainment UK",
+        "slug": "iguana-entertainment-uk",
+        "average_rating": null,
+        "parent": null
+    }
+]

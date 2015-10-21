@@ -1,0 +1,183 @@
+[
+    {
+        "id": 3618,
+        "name": "CEET Ldt",
+        "slug": "ceet-ldt",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3619,
+        "name": "ITI Ltd.",
+        "slug": "iti-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3620,
+        "name": "ArcTV Ltd.",
+        "slug": "arctv-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3621,
+        "name": "toneworx GmbH",
+        "slug": "toneworx-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3622,
+        "name": "Draftfcb",
+        "slug": "draftfcb",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3623,
+        "name": "NOA Product Testing",
+        "slug": "noa-product-testing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3624,
+        "name": "NOE Quality Assurance",
+        "slug": "noe-quality-assurance",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3625,
+        "name": "Aryz",
+        "slug": "aryz",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3626,
+        "name": "Ethos",
+        "slug": "ethos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3627,
+        "name": "Iemza",
+        "slug": "iemza",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3628,
+        "name": "K74",
+        "slug": "k74",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3629,
+        "name": "Hakka",
+        "slug": "hakka",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3630,
+        "name": "Capcom Japan",
+        "slug": "capcom-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3631,
+        "name": "Universally Speaking Ltd.",
+        "slug": "universally-speaking-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3632,
+        "name": "Audiomotion Studio",
+        "slug": "audiomotion-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3633,
+        "name": "The Mill",
+        "slug": "the-mill",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3634,
+        "name": "Sperasoft",
+        "slug": "sperasoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3635,
+        "name": "Xentrix Studos",
+        "slug": "xentrix-studos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3636,
+        "name": "Audio Network",
+        "slug": "audio-network",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3582,
+        "name": "Activision Publishing",
+        "slug": "activision-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3594,
+        "name": "Deep Silver Dambuster",
+        "slug": "deep-silver-dambuster",
+        "average_rating": null,
+        "founded_year": 2014,
+        "parent": 423,
+        "company_logo": {
+            "url": "/companies/deep-silver-dambuster/images/company_logos/bx/deep-silver-dambuster_logo_thumb.png",
+            "width": 3700,
+            "height": 4500
+        }
+    },
+    {
+        "id": 3670,
+        "name": "Sofix",
+        "slug": "sofix",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3638,
+        "name": "The Northwest Sinfonia",
+        "slug": "the-northwest-sinfonia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3639,
+        "name": "Bratislava Symphony",
+        "slug": "bratislava-symphony",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3640,
+        "name": "Bratislave Symphony",
+        "slug": "bratislave-symphony",
+        "average_rating": null,
+        "parent": null
+    }
+]

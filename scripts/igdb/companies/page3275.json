@@ -1,0 +1,183 @@
+[
+    {
+        "id": 3991,
+        "name": "Russel",
+        "slug": "russel",
+        "average_rating": "8.73308815808153",
+        "parent": null
+    },
+    {
+        "id": 3706,
+        "name": "Thinking Rabbit",
+        "slug": "thinking-rabbit",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2459,
+        "name": "Pinkerton Road Studio",
+        "slug": "pinkerton-road-studio",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/pinkerton-road-studio/images/company_logos/5h/pinkerton-road-studio_logo_thumb.png",
+            "width": 3216,
+            "height": 1854
+        }
+    },
+    {
+        "id": 3781,
+        "name": "U'Den Flame Works",
+        "slug": "uden-flame-works",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3755,
+        "name": "United States Army",
+        "slug": "united-states-army",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3756,
+        "name": "Ravegan",
+        "slug": "ravegan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3757,
+        "name": "Elverils LLC",
+        "slug": "elverils-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3758,
+        "name": "Evolve PR",
+        "slug": "evolve-pr",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3759,
+        "name": "Studio Umlaut",
+        "slug": "studio-umlaut",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3760,
+        "name": "Imaginary Forces",
+        "slug": "imaginary-forces",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3727,
+        "name": "Aeria Games",
+        "slug": "aeria-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3761,
+        "name": "Metro Voices",
+        "slug": "metro-voices",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3762,
+        "name": "Brilliant Colors Digital",
+        "slug": "brilliant-colors-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3764,
+        "name": "Hayakawa Design Office",
+        "slug": "hayakawa-design-office",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3765,
+        "name": "DevIL Image Libary",
+        "slug": "devil-image-libary",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3766,
+        "name": "TinyXML",
+        "slug": "tinyxml",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3767,
+        "name": "LibSUL",
+        "slug": "libsul",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3768,
+        "name": "The Brightskull Entertainment Group",
+        "slug": "the-brightskull-entertainment-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3769,
+        "name": "Mocap.pl",
+        "slug": "mocap-dot-pl",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3770,
+        "name": "Orange Tree",
+        "slug": "orange-tree",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3771,
+        "name": "Studio Sound Tropez",
+        "slug": "studio-sound-tropez",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3775,
+        "name": "Bee Tribe",
+        "slug": "bee-tribe",
+        "average_rating": "8.61240116682267",
+        "parent": null
+    },
+    {
+        "id": 3776,
+        "name": "Graham Nelson",
+        "slug": "graham-nelson",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3777,
+        "name": "Dolby Laboratories",
+        "slug": "dolby-laboratories",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3774,
+        "name": "Kisareth Studios",
+        "slug": "kisareth-studios",
+        "average_rating": null,
+        "parent": null
+    }
+]

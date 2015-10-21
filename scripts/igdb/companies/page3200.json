@@ -1,0 +1,183 @@
+[
+    {
+        "id": 3705,
+        "name": "Nihon Bussan",
+        "slug": "nihon-bussan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3703,
+        "name": "NEC",
+        "slug": "nec",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3695,
+        "name": "Bunch Games",
+        "slug": "bunch-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3696,
+        "name": "Andreas Illiger",
+        "slug": "andreas-illiger",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3702,
+        "name": "Tonkin House",
+        "slug": "tonkin-house",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3753,
+        "name": "SCEA",
+        "slug": "scea",
+        "average_rating": "8.90059449490611",
+        "parent": null
+    },
+    {
+        "id": 3700,
+        "name": "Hot B",
+        "slug": "hot-b",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3697,
+        "name": "Jackbox Games, Inc.",
+        "slug": "jackbox-games-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3698,
+        "name": "Loriciels",
+        "slug": "loriciels",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3687,
+        "name": "Sony Computer Entertainment Japan Studio",
+        "slug": "sony-computer-entertainment-japan-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3650,
+        "name": "Ubisoft Bucharest",
+        "slug": "ubisoft-bucharest",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3655,
+        "name": "Ubisoft Pune",
+        "slug": "ubisoft-pune",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 117,
+        "name": "Troika Games",
+        "slug": "troika-games",
+        "average_rating": "9.42769024868623",
+        "founded_year": 1998,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/troika-games/images/company_logos/5s/troika-games_logo_thumb.png",
+            "width": 243,
+            "height": 300
+        }
+    },
+    {
+        "id": 3711,
+        "name": "Qute",
+        "slug": "qute",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3712,
+        "name": "Slitherine Software",
+        "slug": "slitherine-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3724,
+        "name": "Patrick Buckland",
+        "slug": "patrick-buckland",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3719,
+        "name": "Sarepta Studio",
+        "slug": "sarepta-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3656,
+        "name": "Ubisoft USA",
+        "slug": "ubisoft-usa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3704,
+        "name": "NEC Home Electronics",
+        "slug": "nec-home-electronics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3708,
+        "name": "Shoeisha",
+        "slug": "shoeisha",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3710,
+        "name": "Solid Software",
+        "slug": "solid-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3723,
+        "name": "Asuka Technologies",
+        "slug": "asuka-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3791,
+        "name": "Kyos Co. Ltd.",
+        "slug": "kyos-co-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3713,
+        "name": "Hect",
+        "slug": "hect",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3714,
+        "name": "DTMC",
+        "slug": "dtmc",
+        "average_rating": null,
+        "parent": null
+    }
+]

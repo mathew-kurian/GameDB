@@ -1,0 +1,177 @@
+[
+    {
+        "id": 3894,
+        "name": "ZeniMax Germany",
+        "slug": "zenimax-germany",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3895,
+        "name": "ZeniMax Benelux",
+        "slug": "zenimax-benelux",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3896,
+        "name": "La Marque Rose",
+        "slug": "la-marque-rose",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3897,
+        "name": "Synthesis Germany",
+        "slug": "synthesis-germany",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3898,
+        "name": "Studio Mausu",
+        "slug": "studio-mausu",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3899,
+        "name": "Dance Therapy Productions",
+        "slug": "dance-therapy-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3900,
+        "name": "Red Light Management",
+        "slug": "red-light-management",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3884,
+        "name": "Daybreak CG",
+        "slug": "daybreak-cg",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3901,
+        "name": "Toei Zukun Laboratory",
+        "slug": "toei-zukun-laboratory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3902,
+        "name": "SPD Technology Group",
+        "slug": "spd-technology-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3905,
+        "name": "Little Worlds Studio",
+        "slug": "little-worlds-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3907,
+        "name": "Creative Patterns",
+        "slug": "creative-patterns",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4110,
+        "name": "Micronics",
+        "slug": "micronics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4106,
+        "name": "Light Weight",
+        "slug": "light-weight",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4009,
+        "name": "Sanritsu",
+        "slug": "sanritsu",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 4014,
+        "name": "Vblank Entertainment",
+        "slug": "vblank-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4016,
+        "name": "Minor Key Games",
+        "slug": "minor-key-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4019,
+        "name": "VMC Game Labs, Montreal",
+        "slug": "vmc-game-labs-montreal",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4020,
+        "name": "Trias Digital",
+        "slug": "trias-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4021,
+        "name": "Eastworks",
+        "slug": "eastworks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4022,
+        "name": "Happy Feet Foley",
+        "slug": "happy-feet-foley",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4025,
+        "name": "G-Amusements",
+        "slug": "g-amusements",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4029,
+        "name": "Xilam",
+        "slug": "xilam",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4024,
+        "name": "StarCraft, Inc.",
+        "slug": "starcraft-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4107,
+        "name": "SCE Australia",
+        "slug": "sce-australia",
+        "average_rating": "8.67953524199051",
+        "parent": null
+    }
+]

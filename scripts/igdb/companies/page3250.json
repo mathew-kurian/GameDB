@@ -1,0 +1,179 @@
+[
+    {
+        "id": 3903,
+        "name": "BioWare Montreal",
+        "slug": "bioware-montreal",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": 2
+    },
+    {
+        "id": 3845,
+        "name": "BioWare Austin",
+        "slug": "bioware-austin",
+        "average_rating": "8.28378241309327",
+        "founded_year": 2006,
+        "parent": 2
+    },
+    {
+        "id": 3904,
+        "name": "Towa Chiki",
+        "slug": "towa-chiki",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3735,
+        "name": "Pasadena Jones Productions",
+        "slug": "pasadena-jones-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3736,
+        "name": "Texas Lutheran University Choir",
+        "slug": "texas-lutheran-university-choir",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3737,
+        "name": "Virgin Records Ltd.",
+        "slug": "virgin-records-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3738,
+        "name": "Universal Music Enterprises",
+        "slug": "universal-music-enterprises",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3739,
+        "name": "VoiceBunny",
+        "slug": "voicebunny",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3740,
+        "name": "Mike Tristano & Co.",
+        "slug": "mike-tristano-and-co",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3741,
+        "name": "Thwacke!",
+        "slug": "thwacke",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3742,
+        "name": "Small Green Hill",
+        "slug": "small-green-hill",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3743,
+        "name": "MD Assets",
+        "slug": "md-assets",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3744,
+        "name": "Star City Designs",
+        "slug": "star-city-designs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3745,
+        "name": "Magic Pixel Games",
+        "slug": "magic-pixel-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3746,
+        "name": "Export 2 Reality",
+        "slug": "export-2-reality",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3747,
+        "name": "FlyBoy Team",
+        "slug": "flyboy-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3748,
+        "name": "dictaculardesign",
+        "slug": "dictaculardesign",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3749,
+        "name": "Trac Games",
+        "slug": "trac-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3750,
+        "name": "PKT Design",
+        "slug": "pkt-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3751,
+        "name": "Testronic",
+        "slug": "testronic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3772,
+        "name": "Ultimate Play the Game",
+        "slug": "ultimate-play-the-game",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3773,
+        "name": "Zippo Games",
+        "slug": "zippo-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3752,
+        "name": "DMC/IC2",
+        "slug": "dmc-slash-ic2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3694,
+        "name": "NuFX",
+        "slug": "nufx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3715,
+        "name": "Hewson Consultants",
+        "slug": "hewson-consultants",
+        "average_rating": null,
+        "parent": null
+    }
+]

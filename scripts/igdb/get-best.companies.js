@@ -12,6 +12,7 @@ for (var c = 0; c < files.length; c++) {
   for (var i = 0; i < file.length; i++) {
     var company = file[i];
     if (company.founded_year && company.average_rating && company.company_logo && company.parent) {
+      company.average_rating = Number(Number(company.average_rating).toFixed(2));
       best.push(company);
     }
   }

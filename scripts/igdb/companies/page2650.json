@@ -1,0 +1,212 @@
+[
+    {
+        "id": 3057,
+        "name": "Playdead Studios",
+        "slug": "playdead-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3056,
+        "name": "Ino-Co",
+        "slug": "ino-co",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3064,
+        "name": "Minority",
+        "slug": "minority",
+        "average_rating": "7.34094983227805",
+        "parent": null
+    },
+    {
+        "id": 795,
+        "name": "Ninja Theory",
+        "slug": "ninja-theory",
+        "average_rating": "7.54155843085025",
+        "founded_year": 2004,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/ninja-theory/images/company_logos/41/ninja-theory_logo_thumb.png",
+            "width": 1280,
+            "height": 960
+        }
+    },
+    {
+        "id": 2995,
+        "name": "Namco Bandai America",
+        "slug": "namco-bandai-america",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3016,
+        "name": "Laughing Jackal",
+        "slug": "laughing-jackal",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3014,
+        "name": "MOSS",
+        "slug": "moss",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1737,
+        "name": "Little Orbit",
+        "slug": "little-orbit",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3020,
+        "name": "JAST USA",
+        "slug": "jast-usa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3001,
+        "name": "Delta Factory",
+        "slug": "delta-factory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3002,
+        "name": "R.U.N.",
+        "slug": "r-u-n",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3000,
+        "name": "7Sixty",
+        "slug": "7sixty",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 854,
+        "name": "Playdead",
+        "slug": "playdead",
+        "average_rating": "8.78312225415485",
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/playdead/images/company_logos/4h/playdead_logo_thumb.png",
+            "width": 371,
+            "height": 52
+        }
+    },
+    {
+        "id": 3063,
+        "name": "Millennium Kitchen",
+        "slug": "millennium-kitchen",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3066,
+        "name": "Valhalla Game Stuidos",
+        "slug": "valhalla-game-stuidos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3065,
+        "name": "SuperBot Entertainment",
+        "slug": "superbot-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3067,
+        "name": "Unity Technologies",
+        "slug": "unity-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3068,
+        "name": "Beast Games",
+        "slug": "beast-games",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/beast-games/images/company_logos/4l/beast-games_logo_thumb.png",
+            "width": 574,
+            "height": 293
+        }
+    },
+    {
+        "id": 3069,
+        "name": "Pixelopus",
+        "slug": "pixelopus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3072,
+        "name": "Grey Box",
+        "slug": "grey-box",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3062,
+        "name": "Zipper Interactive",
+        "slug": "zipper-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 380,
+        "name": "Adventure Soft",
+        "slug": "adventure-soft",
+        "average_rating": "8.37157884501869",
+        "founded_year": 1992,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/adventure-soft/images/company_logos/4m/adventure-soft_logo_thumb.png",
+            "width": 324,
+            "height": 185
+        }
+    },
+    {
+        "id": 3083,
+        "name": "Reto-Moto",
+        "slug": "reto-moto",
+        "average_rating": null,
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/reto-moto/images/company_logos/4y/reto-moto_logo_thumb.png",
+            "width": 5000,
+            "height": 1349
+        }
+    },
+    {
+        "id": 3073,
+        "name": "Bit Blot",
+        "slug": "bit-blot",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2671,
+        "name": "Cenega Publishing",
+        "slug": "cenega-publishing",
+        "average_rating": null,
+        "founded_year": 2002,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/cenega-publishing/images/company_logos/4t/cenega-publishing_logo_thumb.png",
+            "width": 400,
+            "height": 295
+        }
+    }
+]
