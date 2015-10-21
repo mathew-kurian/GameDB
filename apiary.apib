@@ -5,11 +5,9 @@ HOST: http://4play.apiblueprint.org/
 
 4Play is a web-accessible games database that places special emphasis on a pleasurable design and supports a REST API
 
-# Group Models
+# Group Game
 
-## Games [/games]
-
-Model for Games Object
+## Game [/games]
 
 List of Games returns the total list of games in our data model
 
@@ -64,9 +62,11 @@ These are the fields that will describe a game:
                 "ID": "id"
         }
 
-## Developers [/devs]
+# Group Developer
 
-List of Games returns the total list of games in our data model
+## Developer [/devs]
+
+List of Developers returns the total list of developers in our data model
 
 ### Developers List [GET]
 
@@ -89,7 +89,7 @@ List of Games returns the total list of games in our data model
 
 ### Developer [/devs/{dev_id}]
 
-These are the fields that will describe a game:
+These are the fields that will describe a developer:
 
 + Name
 + Location
@@ -117,4 +117,104 @@ These are the fields that will describe a game:
                 ],
                 "Rating": "Rating",
                 "ID": "id"
+        }
+
+# Group Platform
+
+## Platform [/platform]
+
+List of Platforms returns the total list of platforms in our data model
+
+### Platforms List [GET]
+
++ Response 201 (application/json)
+
+        [
+            {
+                "Name": "Name",
+                "Release Date": "MM/DD/YYYY",
+                "Rating": "Rating",
+                "Number of Units": "Quantity",
+                "Generation": "Number",
+                "ID": "id"
+            }
+        ]
+
+### Platform [/platform/{platform_id}]
+
+These are the fields that will describe a platform:
+
++ Name
++ Release Date
++ Rating
++ Number of Units
++ Generation
++ Rating - The average rating of the platform
++ ID - the id of the platform in our database
+
++ Parameters
+    + platform_id: 1 (required, number) - The platform's id which is unique to each platform
+
+### View a Platform [GET]
+
++ Response 201 (application/json)
+
+        {
+            "Name": "Name",
+            "Release Date": "MM/DD/YYYY",
+            "Rating": "Rating",
+            "Number of Units": "Quantity",
+            "Generation": "Number",
+            "ID": "id"
+        }
+
+# Group Image
+
+## Image [/image]
+
+List of images returns the total list of images in our data model
+
+### Images List [GET]
+
++ Response 201 (application/json)
+
+        [
+            {
+                "Name": "Name",
+                "Source": "Source",
+                "Entity": "Entity",
+                "Key": "Key",
+                "Type": [
+                    "TypeA",
+                    "TypeB"
+                ]
+            }
+        ]
+
+### Image [/image/{image_id}]
+
+These are the fields that will describe an image:
+
++ Name
++ Source
++ Entity
++ Key
++ Type
+
++ Parameters
+    + image_id: 1 (required, number) - The image's id which is unique to each image
+
+### View an Image [GET]
+
++ Response 201 (application/json)
+
+        {
+            "Name": "Name",
+            "Source": "Source",
+            "Entity": "Entity",
+            "Key": "Key",
+            "Type": [
+                "TypeA",
+                "TypeB"
+            ]
         }
