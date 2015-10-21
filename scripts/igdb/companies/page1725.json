@@ -1,0 +1,177 @@
+[
+    {
+        "id": 2131,
+        "name": "Twelve Games",
+        "slug": "twelve-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2138,
+        "name": "Novitas Publishing",
+        "slug": "novitas-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2140,
+        "name": "Pepper Games",
+        "slug": "pepper-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2124,
+        "name": "Slam Games",
+        "slug": "slam-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2125,
+        "name": "Toontraxx",
+        "slug": "toontraxx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2143,
+        "name": "Deep Silver Vienna",
+        "slug": "deep-silver-vienna",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2133,
+        "name": "Taffy Entertainment",
+        "slug": "taffy-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2145,
+        "name": "Tango Gameworks",
+        "slug": "tango-gameworks",
+        "average_rating": "8.27489020789247",
+        "parent": null
+    },
+    {
+        "id": 2146,
+        "name": "Daoka",
+        "slug": "daoka",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2147,
+        "name": "Young Horses",
+        "slug": "young-horses",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2495,
+        "name": "Spiky Caterpillar",
+        "slug": "spiky-caterpillar",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2144,
+        "name": "Sproing Interactive Media",
+        "slug": "sproing-interactive-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2136,
+        "name": "Octopus Studio",
+        "slug": "octopus-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2588,
+        "name": "Powerhead Games",
+        "slug": "powerhead-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2090,
+        "name": "Vir2L Studios",
+        "slug": "vir2l-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2135,
+        "name": "HyberDevbox Japan",
+        "slug": "hyberdevbox-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2100,
+        "name": "UFO Interactive Software",
+        "slug": "ufo-interactive-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2084,
+        "name": "Wicked Witch Software",
+        "slug": "wicked-witch-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2082,
+        "name": "Ubisoft Vancouver",
+        "slug": "ubisoft-vancouver",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2152,
+        "name": "WXP Inc",
+        "slug": "wxp-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2099,
+        "name": "Silicon Studio",
+        "slug": "silicon-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2114,
+        "name": "Cyberfront Corporation",
+        "slug": "cyberfront-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2108,
+        "name": "CokeM Interactive",
+        "slug": "cokem-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2102,
+        "name": "Zoo Games",
+        "slug": "zoo-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2586,
+        "name": "Brainbox Games",
+        "slug": "brainbox-games",
+        "average_rating": null,
+        "parent": null
+    }
+]

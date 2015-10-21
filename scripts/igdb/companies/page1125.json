@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1722,
+        "name": "Tom Create",
+        "slug": "tom-create",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1565,
+        "name": "The Indie Stone",
+        "slug": "the-indie-stone",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2480,
+        "name": "Surprise Attack\t",
+        "slug": "surprise-attack-465e4ea3-bda8-4396-a547-f57b26f10654",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1350,
+        "name": "The Software Factory",
+        "slug": "the-software-factory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1698,
+        "name": "2 Dawn Studios",
+        "slug": "2-dawn-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1351,
+        "name": "Lightwave Consultants",
+        "slug": "lightwave-consultants",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 81,
+        "name": "Destination Software",
+        "slug": "destination-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1612,
+        "name": "Pan Vision",
+        "slug": "pan-vision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1771,
+        "name": "Victor Entertainment",
+        "slug": "victor-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1728,
+        "name": "iNiS",
+        "slug": "inis",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1700,
+        "name": "aniwey",
+        "slug": "aniwey",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1352,
+        "name": "The Avalon Hill Game Company",
+        "slug": "the-avalon-hill-game-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1794,
+        "name": "ESP",
+        "slug": "esp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1353,
+        "name": "Binary Systems",
+        "slug": "binary-systems",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1787,
+        "name": "Persha Studia",
+        "slug": "persha-studia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1354,
+        "name": "Keypunch Software",
+        "slug": "keypunch-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1355,
+        "name": "R.O. Software",
+        "slug": "r-o-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1819,
+        "name": "Shouei System",
+        "slug": "shouei-system",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1852,
+        "name": "Kodiak Interactive",
+        "slug": "kodiak-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1879,
+        "name": "Eight Ball Sound",
+        "slug": "eight-ball-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1836,
+        "name": "Throwback Entertainment",
+        "slug": "throwback-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1835,
+        "name": "Big Bit Ltd",
+        "slug": "big-bit-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1837,
+        "name": "We Go Interactive Co. Ltd",
+        "slug": "we-go-interactive-co-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1833,
+        "name": "Probe Ltd.",
+        "slug": "probe-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1876,
+        "name": "Dorart",
+        "slug": "dorart",
+        "average_rating": null,
+        "parent": null
+    }
+]

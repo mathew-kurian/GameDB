@@ -1,0 +1,178 @@
+[
+    {
+        "id": 42,
+        "name": "Tencent Holdings Ltd",
+        "slug": "tencent-holdings-ltd",
+        "average_rating": "6.16686200853164",
+        "parent": null
+    },
+    {
+        "id": 1572,
+        "name": "Creative Sound Design",
+        "slug": "creative-sound-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1573,
+        "name": "Duff Studios",
+        "slug": "duff-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 59,
+        "name": "Blizzard North",
+        "slug": "blizzard-north",
+        "average_rating": "8.70987571132263",
+        "parent": null
+    },
+    {
+        "id": 2447,
+        "name": "Origin8",
+        "slug": "origin8",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1576,
+        "name": "Extreme Audio Design",
+        "slug": "extreme-audio-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 84,
+        "name": "CTO SpA",
+        "slug": "cto-spa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2446,
+        "name": "31X",
+        "slug": "31x",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 76,
+        "name": "Ronin Entertainment",
+        "slug": "ronin-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1616,
+        "name": "Judy Henderson Casting",
+        "slug": "judy-henderson-casting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1705,
+        "name": "Juice West",
+        "slug": "juice-west",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1577,
+        "name": "SMS Studios",
+        "slug": "sms-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1615,
+        "name": "Modern Uprising Studios",
+        "slug": "modern-uprising-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1706,
+        "name": "Judy Henderson & Associates",
+        "slug": "judy-henderson-associates",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1707,
+        "name": "Audio Banks",
+        "slug": "audio-banks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1708,
+        "name": "Bernard Telsey Casting",
+        "slug": "bernard-telsey-casting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1709,
+        "name": "Perspective Studios",
+        "slug": "perspective-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1710,
+        "name": "Image Metrics PLC",
+        "slug": "image-metrics-plc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1711,
+        "name": "Quad Photo",
+        "slug": "quad-photo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1732,
+        "name": "Ivolgamus",
+        "slug": "ivolgamus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 41,
+        "name": "Riot Games",
+        "slug": "riot-games",
+        "average_rating": "7.02545334037155",
+        "founded_year": 2006,
+        "parent": null
+    },
+    {
+        "id": 69,
+        "name": "Big Ape Productions",
+        "slug": "big-ape-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2528,
+        "name": "Centuri",
+        "slug": "centuri",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 87,
+        "name": "Mythic Entertainment",
+        "slug": "mythic-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 89,
+        "name": "Shokwave",
+        "slug": "shokwave",
+        "average_rating": "8.45496674555411",
+        "parent": null
+    }
+]

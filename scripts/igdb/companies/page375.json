@@ -1,0 +1,230 @@
+[
+    {
+        "id": 466,
+        "name": "Interactive Magic",
+        "slug": "interactive-magic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 498,
+        "name": "Pyro Studios",
+        "slug": "pyro-studios",
+        "average_rating": "8.84142013501376",
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/pyro-studios/images/company_logos/bc/pyro-studios_logo_thumb.png",
+            "width": 220,
+            "height": 86
+        }
+    },
+    {
+        "id": 619,
+        "name": "Red Hat",
+        "slug": "red-hat",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 425,
+        "name": "Eurocom",
+        "slug": "eurocom",
+        "average_rating": "7.14146804408006",
+        "founded_year": 1988,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/eurocom/images/company_logos/8a/eurocom_logo_thumb.png",
+            "width": 257,
+            "height": 290
+        }
+    },
+    {
+        "id": 583,
+        "name": "Ironclad Games",
+        "slug": "ironclad-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 461,
+        "name": "Fox Interactive",
+        "slug": "fox-interactive",
+        "average_rating": "8.17299456073837",
+        "parent": null
+    },
+    {
+        "id": 1455,
+        "name": "Elixir Studios",
+        "slug": "elixir-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 434,
+        "name": "High Moon Studios",
+        "slug": "high-moon-studios",
+        "average_rating": "7.09682496085005",
+        "founded_year": 2001,
+        "parent": 66,
+        "company_logo": {
+            "url": "/companies/high-moon-studios/images/company_logos/8b/high-moon-studios_logo_thumb.png",
+            "width": 329,
+            "height": 178
+        }
+    },
+    {
+        "id": 481,
+        "name": "Reflexive Entertainment",
+        "slug": "reflexive-entertainment",
+        "average_rating": null,
+        "founded_year": 1997,
+        "parent": 2812,
+        "company_logo": {
+            "url": "/companies/reflexive-entertainment/images/company_logos/cy/reflexive-entertainment_logo_thumb.png",
+            "width": 200,
+            "height": 93
+        }
+    },
+    {
+        "id": 625,
+        "name": "Microsoft Research",
+        "slug": "microsoft-research",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 486,
+        "name": "Sports Interactive",
+        "slug": "sports-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 448,
+        "name": "Vicious Cycle Software",
+        "slug": "vicious-cycle-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 433,
+        "name": "Ubisoft Reflections",
+        "slug": "ubisoft-reflections",
+        "average_rating": "7.13724001139026",
+        "founded_year": 2006,
+        "parent": 104,
+        "company_logo": {
+            "url": "/companies/ubisoft-reflections/images/company_logos/1b/ubisoft-reflections_logo_thumb.png",
+            "width": 554,
+            "height": 154
+        }
+    },
+    {
+        "id": 451,
+        "name": "Terminal Reality",
+        "slug": "terminal-reality",
+        "average_rating": "3.5312176612625",
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/terminal-reality/images/company_logos/7u/terminal-reality_logo_thumb.png",
+            "width": 300,
+            "height": 158
+        }
+    },
+    {
+        "id": 598,
+        "name": "Headgate",
+        "slug": "headgate",
+        "average_rating": "5.10598093024529",
+        "parent": null
+    },
+    {
+        "id": 543,
+        "name": "Rage Software",
+        "slug": "rage-software",
+        "average_rating": "8.96458176658699",
+        "parent": null
+    },
+    {
+        "id": 515,
+        "name": "Razorworks Studios",
+        "slug": "razorworks-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 587,
+        "name": "Petroglyph",
+        "slug": "petroglyph",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/petroglyph/images/company_logos/6z/petroglyph_logo_thumb.png",
+            "width": 1977,
+            "height": 1614
+        }
+    },
+    {
+        "id": 532,
+        "name": "Probe Entertainment",
+        "slug": "probe-entertainment",
+        "average_rating": null,
+        "founded_year": 1984,
+        "parent": 287,
+        "company_logo": {
+            "url": "/companies/probe-entertainment/images/company_logos/85/probe-entertainment_logo_thumb.png",
+            "width": 400,
+            "height": 112
+        }
+    },
+    {
+        "id": 859,
+        "name": "Runic Games",
+        "slug": "runic-games",
+        "average_rating": "7.85548698824652",
+        "founded_year": 2008,
+        "parent": 917,
+        "company_logo": {
+            "url": "/companies/runic-games/images/company_logos/9h/runic-games_logo_thumb.png",
+            "width": 250,
+            "height": 328
+        }
+    },
+    {
+        "id": 600,
+        "name": "Neversoft Entertainment",
+        "slug": "neversoft-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1966,
+        "name": "JV Games",
+        "slug": "jv-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 501,
+        "name": "Delphine Software",
+        "slug": "delphine-software",
+        "average_rating": "8.28173928143878",
+        "parent": null
+    },
+    {
+        "id": 577,
+        "name": "Bugbear",
+        "slug": "bugbear",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 624,
+        "name": "Third Law Interactive",
+        "slug": "third-law-interactive",
+        "average_rating": null,
+        "parent": null
+    }
+]

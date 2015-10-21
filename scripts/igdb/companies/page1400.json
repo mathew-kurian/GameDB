@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1298,
+        "name": "Chicago Gaming",
+        "slug": "chicago-gaming",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1323,
+        "name": "Grigon Entertainment",
+        "slug": "grigon-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1324,
+        "name": "Red Lemon Studios",
+        "slug": "red-lemon-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1328,
+        "name": "Venan Entertainment",
+        "slug": "venan-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1331,
+        "name": "Big Top Productions",
+        "slug": "big-top-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1332,
+        "name": "Digital Evolution",
+        "slug": "digital-evolution",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1337,
+        "name": "Hanna-Barbera Productions",
+        "slug": "hanna-barbera-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1340,
+        "name": "Gargoyle Games",
+        "slug": "gargoyle-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1341,
+        "name": "Engineering Animation Inc.",
+        "slug": "engineering-animation-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1151,
+        "name": "Game Arts Co., Ltd.",
+        "slug": "game-arts-co-ltd",
+        "average_rating": "8.0174695845026",
+        "parent": null
+    },
+    {
+        "id": 1227,
+        "name": "Carbonated Games",
+        "slug": "carbonated-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1211,
+        "name": "Robotoki",
+        "slug": "robotoki",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1343,
+        "name": "Computer Applications Unlimited",
+        "slug": "computer-applications-unlimited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1322,
+        "name": "DC Studios",
+        "slug": "dc-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1192,
+        "name": "Vic Tokai",
+        "slug": "vic-tokai",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1296,
+        "name": "Raizing",
+        "slug": "raizing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1251,
+        "name": "Beyond Games",
+        "slug": "beyond-games",
+        "average_rating": null,
+        "founded_year": 1992,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/beyond-games/images/company_logos/a8/beyond-games_logo_thumb.png",
+            "width": 400,
+            "height": 300
+        }
+    },
+    {
+        "id": 1325,
+        "name": "Virtucraft Studios",
+        "slug": "virtucraft-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1238,
+        "name": "Virgin Games USA",
+        "slug": "virgin-games-usa",
+        "average_rating": "6.68310498140074",
+        "parent": null
+    },
+    {
+        "id": 1221,
+        "name": "Artdink",
+        "slug": "artdink",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1210,
+        "name": "Gremlin Graphics",
+        "slug": "gremlin-graphics",
+        "average_rating": null,
+        "founded_year": 1984,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/gremlin-graphics/images/company_logos/6m/gremlin-graphics_logo_thumb.png",
+            "width": 180,
+            "height": 159
+        }
+    },
+    {
+        "id": 1166,
+        "name": "Softdisk Publishing",
+        "slug": "softdisk-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1338,
+        "name": "Illusions Gaming",
+        "slug": "illusions-gaming",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1252,
+        "name": "Smart Bomb Interactive",
+        "slug": "smart-bomb-interactive",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/smart-bomb-interactive/images/company_logos/3i/smart-bomb-interactive_logo_thumb.png",
+            "width": 400,
+            "height": 300
+        }
+    },
+    {
+        "id": 1297,
+        "name": "Gremlin Industries",
+        "slug": "gremlin-industries",
+        "average_rating": null,
+        "parent": null
+    }
+]

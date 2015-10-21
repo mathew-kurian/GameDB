@@ -1,0 +1,195 @@
+[
+    {
+        "id": 1103,
+        "name": "Nintendo EAD Group No.1",
+        "slug": "nintendo-ead-group-no-1",
+        "average_rating": "7.71134272201831",
+        "parent": null
+    },
+    {
+        "id": 1435,
+        "name": "Atod",
+        "slug": "atod",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1226,
+        "name": "Greenheart Games",
+        "slug": "greenheart-games",
+        "average_rating": "7.10806722756671",
+        "parent": null
+    },
+    {
+        "id": 1366,
+        "name": "Nintendo EAD Group No. 3",
+        "slug": "nintendo-ead-group-no-3",
+        "average_rating": "8.72354656982013",
+        "parent": null
+    },
+    {
+        "id": 1704,
+        "name": "Cyberdreams",
+        "slug": "cyberdreams",
+        "average_rating": null,
+        "founded_year": 1990,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/cyberdreams/images/company_logos/6w/cyberdreams_logo_thumb.png",
+            "width": 162,
+            "height": 120
+        }
+    },
+    {
+        "id": 2760,
+        "name": "fabtek",
+        "slug": "fabtek",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1434,
+        "name": "Alientrap Games Inc",
+        "slug": "alientrap-games-inc",
+        "average_rating": "8.15641653100667",
+        "founded_year": 2002,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/alientrap-games-inc/images/company_logos/h1/alientrap-games-inc_logo_thumb.png",
+            "width": 220,
+            "height": 335
+        }
+    },
+    {
+        "id": 2490,
+        "name": "Kunos Simulazioni",
+        "slug": "kunos-simulazioni",
+        "average_rating": "7.58993329290479",
+        "parent": null
+    },
+    {
+        "id": 1375,
+        "name": "Firebird",
+        "slug": "firebird",
+        "average_rating": "7.8189072819118",
+        "parent": null
+    },
+    {
+        "id": 1402,
+        "name": "BlueSky Software",
+        "slug": "bluesky-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1318,
+        "name": "Sidhe Interactive",
+        "slug": "sidhe-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1419,
+        "name": "Harebrained Schemes",
+        "slug": "harebrained-schemes",
+        "average_rating": "8.19141426314018",
+        "parent": null
+    },
+    {
+        "id": 1398,
+        "name": "Capybara Games",
+        "slug": "capybara-games",
+        "average_rating": "8.126930096163",
+        "parent": null
+    },
+    {
+        "id": 1813,
+        "name": "Acclaim Studios Salt Lake City",
+        "slug": "acclaim-studios-salt-lake-city",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1861,
+        "name": "Project Sora",
+        "slug": "project-sora",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1763,
+        "name": "Midway San Diego",
+        "slug": "midway-san-diego",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1912,
+        "name": "THQ Studio Oz",
+        "slug": "thq-studio-oz",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1953,
+        "name": "Entertainment Software Publishings",
+        "slug": "entertainment-software-publishings",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2012,
+        "name": "Evolution Games",
+        "slug": "evolution-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2491,
+        "name": "Kunos Simulazioni ",
+        "slug": "kunos-simulazioni-30707c25-4532-4bfd-a7a6-922e38324be0",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2610,
+        "name": "Tranji Studios",
+        "slug": "tranji-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2621,
+        "name": "Intermetrics Entertainment Software",
+        "slug": "intermetrics-entertainment-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2541,
+        "name": "Beautiful Game Studios",
+        "slug": "beautiful-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 309,
+        "name": "2015",
+        "slug": "2015",
+        "average_rating": "7.75570037997337",
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/2015/images/company_logos/ai/2015_logo_thumb.png",
+            "width": 295,
+            "height": 181
+        }
+    },
+    {
+        "id": 2014,
+        "name": "Steel Monkeys",
+        "slug": "steel-monkeys",
+        "average_rating": null,
+        "parent": null
+    }
+]

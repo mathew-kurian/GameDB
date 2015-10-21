@@ -1,0 +1,184 @@
+[
+    {
+        "id": 1465,
+        "name": "HyperSloth",
+        "slug": "hypersloth",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1481,
+        "name": "Giant Studios",
+        "slug": "giant-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 958,
+        "name": "Paradox France",
+        "slug": "paradox-france",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 960,
+        "name": "VSTEP",
+        "slug": "vstep",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 961,
+        "name": "BattleGoat Studios",
+        "slug": "battlegoat-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1004,
+        "name": "A.I",
+        "slug": "a-i",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2536,
+        "name": "Midway Studios Austin",
+        "slug": "midway-studios-austin",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1469,
+        "name": "Mad Orange",
+        "slug": "mad-orange",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1471,
+        "name": "Ymir Entertainment Co., Ltd",
+        "slug": "ymir-entertainment-co-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2000,
+        "name": "Cat Daddy Games",
+        "slug": "cat-daddy-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 17,
+        "name": "Digital Extremes",
+        "slug": "digital-extremes",
+        "average_rating": "8.3541114289343",
+        "founded_year": 1993,
+        "parent": null
+    },
+    {
+        "id": 1591,
+        "name": "Guerilla Games",
+        "slug": "guerilla-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 954,
+        "name": "ACE Team",
+        "slug": "ace-team",
+        "average_rating": "7.42104262393526",
+        "parent": null
+    },
+    {
+        "id": 1750,
+        "name": "Vivid Image",
+        "slug": "vivid-image",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 946,
+        "name": "Saber Interactive",
+        "slug": "saber-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 948,
+        "name": "Spark Unlimited",
+        "slug": "spark-unlimited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 951,
+        "name": "Sunflowers Interactive Entertainment Software",
+        "slug": "sunflowers-interactive-entertainment-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 933,
+        "name": "SouthEnd Interactive",
+        "slug": "southend-interactive--2",
+        "average_rating": "7.99573288792604",
+        "parent": null
+    },
+    {
+        "id": 2465,
+        "name": "Rondomedia",
+        "slug": "rondomedia",
+        "average_rating": "8.94350789720574",
+        "parent": null
+    },
+    {
+        "id": 1636,
+        "name": "SQS",
+        "slug": "sqs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 942,
+        "name": "Graviteam",
+        "slug": "graviteam",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 836,
+        "name": "Kadokawa Games",
+        "slug": "kadokawa-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 880,
+        "name": "Domark Software",
+        "slug": "domark-software",
+        "average_rating": "7.89568361391184",
+        "parent": null
+    },
+    {
+        "id": 830,
+        "name": "Sega AM2",
+        "slug": "sega-am2",
+        "average_rating": "9.66077454805052",
+        "parent": null
+    },
+    {
+        "id": 566,
+        "name": "Midway",
+        "slug": "midway",
+        "average_rating": "8.1117236316765",
+        "founded_year": 1988,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/midway/images/company_logos/50/midway_logo_thumb.png",
+            "width": 342,
+            "height": 95
+        }
+    }
+]

@@ -1,0 +1,189 @@
+[
+    {
+        "id": 802,
+        "name": "Eighting/Razing",
+        "slug": "eighting-razing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 768,
+        "name": "Nintendo Software Technology",
+        "slug": "nintendo-software-technology",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 850,
+        "name": "Dreamworks Interactive",
+        "slug": "dreamworks-interactive",
+        "average_rating": "8.99558263045227",
+        "founded_year": 1995,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/dreamworks-interactive/images/company_logos/be/dreamworks-interactive_logo_thumb.png",
+            "width": 399,
+            "height": 251
+        }
+    },
+    {
+        "id": 780,
+        "name": "Digitalmindsoft",
+        "slug": "digitalmindsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 787,
+        "name": "Aspect",
+        "slug": "aspect",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 772,
+        "name": "Palcom",
+        "slug": "palcom",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 773,
+        "name": "Nintendo EAD Tokyo",
+        "slug": "nintendo-ead-tokyo",
+        "average_rating": "8.77897415265039",
+        "parent": null
+    },
+    {
+        "id": 841,
+        "name": "Ubisoft Paris",
+        "slug": "ubisoft-paris",
+        "average_rating": "7.99573288792604",
+        "parent": null
+    },
+    {
+        "id": 884,
+        "name": "Polyphony Digital",
+        "slug": "polyphony-digital",
+        "average_rating": "8.70626358752115",
+        "parent": null
+    },
+    {
+        "id": 840,
+        "name": "Ubisoft Sofia",
+        "slug": "ubisoft-sofia",
+        "average_rating": "7.14950042169714",
+        "parent": null
+    },
+    {
+        "id": 810,
+        "name": "Iguana Entertainment",
+        "slug": "iguana-entertainment",
+        "average_rating": "6.88078923596355",
+        "parent": null
+    },
+    {
+        "id": 806,
+        "name": "Tantalus Interactive",
+        "slug": "tantalus-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 861,
+        "name": "Treasure",
+        "slug": "treasure",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 815,
+        "name": "Vivendi Universal Games",
+        "slug": "vivendi-universal-games",
+        "average_rating": "7.60343177651181",
+        "parent": null
+    },
+    {
+        "id": 865,
+        "name": "Will",
+        "slug": "will",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 823,
+        "name": "United Front Games",
+        "slug": "united-front-games",
+        "average_rating": "8.30233761939934",
+        "parent": null
+    },
+    {
+        "id": 898,
+        "name": "Ubisoft Casablanca",
+        "slug": "ubisoft-casablanca",
+        "average_rating": "7.25615284402104",
+        "parent": null
+    },
+    {
+        "id": 894,
+        "name": "Dontnod Entertainment",
+        "slug": "dontnod-entertainment",
+        "average_rating": "8.17454650161792",
+        "founded_year": 2008,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/dontnod-entertainment/images/company_logos/ak/dontnod-entertainment_logo_thumb.png",
+            "width": 3213,
+            "height": 859
+        }
+    },
+    {
+        "id": 853,
+        "name": "CCP Games",
+        "slug": "ccp-games",
+        "average_rating": "7.7121387283237",
+        "parent": null
+    },
+    {
+        "id": 887,
+        "name": "Midway Amusement Games",
+        "slug": "midway-amusement-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 875,
+        "name": "Blit Software",
+        "slug": "blit-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 839,
+        "name": "Locomotive Games",
+        "slug": "locomotive-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 886,
+        "name": "Just Games Interactive",
+        "slug": "just-games-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 827,
+        "name": "Telenet Japan",
+        "slug": "telenet-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 900,
+        "name": "Rayland Interactive",
+        "slug": "rayland-interactive",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,188 @@
+[
+    {
+        "id": 1880,
+        "name": "West Productions",
+        "slug": "west-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1881,
+        "name": "SPG Studios",
+        "slug": "spg-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1903,
+        "name": "Tiny Swarm",
+        "slug": "tiny-swarm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1887,
+        "name": "Black Dragon Productions",
+        "slug": "black-dragon-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1761,
+        "name": "Frog City Software",
+        "slug": "frog-city-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1840,
+        "name": "Vid Kidz",
+        "slug": "vid-kidz",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1406,
+        "name": "Going Load Studios",
+        "slug": "going-load-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1950,
+        "name": "Lego Interactive",
+        "slug": "lego-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1781,
+        "name": "VectorCell",
+        "slug": "vectorcell",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1894,
+        "name": "Oberon Media",
+        "slug": "oberon-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1760,
+        "name": "AlphaDream",
+        "slug": "alphadream",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1692,
+        "name": "Hi Tech Expressions",
+        "slug": "hi-tech-expressions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1777,
+        "name": "Player 1",
+        "slug": "player-1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1691,
+        "name": "Mind's Eye",
+        "slug": "mind-s-eye",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1796,
+        "name": "Swing! Entertainment Media AG",
+        "slug": "swing-entertainment-media-ag",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 378,
+        "name": "Westlake Interactive",
+        "slug": "westlake-interactive",
+        "average_rating": "8.4932211660057",
+        "parent": null
+    },
+    {
+        "id": 1788,
+        "name": "Bottom Up",
+        "slug": "bottom-up",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1856,
+        "name": "Almanic",
+        "slug": "almanic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2576,
+        "name": "Phantagram",
+        "slug": "phantagram",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1525,
+        "name": "Dark Technologies",
+        "slug": "dark-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1834,
+        "name": "Acclaim Cheltenham",
+        "slug": "acclaim-cheltenham",
+        "average_rating": null,
+        "founded_year": 1984,
+        "parent": 287,
+        "company_logo": {
+            "url": "/companies/acclaim-cheltenham/images/company_logos/87/acclaim-cheltenham_logo_thumb.png",
+            "width": 380,
+            "height": 145
+        }
+    },
+    {
+        "id": 1924,
+        "name": "Compulsion Games",
+        "slug": "compulsion-games",
+        "average_rating": "5.29434697855751",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/compulsion-games/images/company_logos/br/compulsion-games_logo_thumb.png",
+            "width": 2284,
+            "height": 1044
+        }
+    },
+    {
+        "id": 1758,
+        "name": "Interactive Studios",
+        "slug": "interactive-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1842,
+        "name": "Infinite Ventures",
+        "slug": "infinite-ventures",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1526,
+        "name": "Walt Disney Computer Software",
+        "slug": "walt-disney-computer-software",
+        "average_rating": null,
+        "parent": null
+    }
+]

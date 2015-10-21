@@ -1,0 +1,201 @@
+[
+    {
+        "id": 2958,
+        "name": "Cave",
+        "slug": "cave",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2936,
+        "name": "AI",
+        "slug": "ai",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3253,
+        "name": "Namco Bandai Games Asia",
+        "slug": "namco-bandai-games-asia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2922,
+        "name": "Crypton Future Media",
+        "slug": "crypton-future-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2970,
+        "name": "DiP Interactive",
+        "slug": "dip-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2971,
+        "name": "SME Dynamic Systems",
+        "slug": "sme-dynamic-systems",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3260,
+        "name": "Ubisoft Korea",
+        "slug": "ubisoft-korea",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1009,
+        "name": "RedLynx",
+        "slug": "redlynx",
+        "average_rating": "7.80222516791418",
+        "founded_year": 2000,
+        "parent": 2699,
+        "company_logo": {
+            "url": "/companies/redlynx/images/company_logos/3p/redlynx_logo_thumb.png",
+            "width": 800,
+            "height": 160
+        }
+    },
+    {
+        "id": 2994,
+        "name": "THREAKS",
+        "slug": "threaks",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/threaks/images/company_logos/3r/threaks_logo_thumb.png",
+            "width": 1024,
+            "height": 768
+        }
+    },
+    {
+        "id": 2988,
+        "name": "Rombax Games",
+        "slug": "rombax-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2929,
+        "name": "Kadokawa Shoten",
+        "slug": "kadokawa-shoten",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2932,
+        "name": "Ghostlight",
+        "slug": "ghostlight",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2974,
+        "name": "Maximum Family Games",
+        "slug": "maximum-family-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2975,
+        "name": "Trickstar Games",
+        "slug": "trickstar-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2976,
+        "name": "Autumn Games",
+        "slug": "autumn-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2977,
+        "name": "Isopod Labs",
+        "slug": "isopod-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3261,
+        "name": "Enzyme Testing Labs",
+        "slug": "enzyme-testing-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3070,
+        "name": "Big Sandwich Games",
+        "slug": "big-sandwich-games",
+        "average_rating": null,
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/big-sandwich-games/images/company_logos/4p/big-sandwich-games_logo_thumb.png",
+            "width": 480,
+            "height": 377
+        }
+    },
+    {
+        "id": 2982,
+        "name": "Casual Brothers",
+        "slug": "casual-brothers",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2987,
+        "name": "Guilti",
+        "slug": "guilti",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3119,
+        "name": "cdp.pl",
+        "slug": "cdp-pl",
+        "average_rating": "9.2689179122277",
+        "parent": null
+    },
+    {
+        "id": 2984,
+        "name": "Sega Studios Austrailia",
+        "slug": "sega-studios-austrailia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2985,
+        "name": "Immersion Software & Graphics",
+        "slug": "immersion-software-graphics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2986,
+        "name": "Softmax",
+        "slug": "softmax",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2978,
+        "name": "Phenomic Game Development",
+        "slug": "phenomic-game-development",
+        "average_rating": null,
+        "founded_year": 1997,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/phenomic-game-development/images/company_logos/3q/phenomic-game-development_logo_thumb.png",
+            "width": 2953,
+            "height": 1214
+        }
+    }
+]

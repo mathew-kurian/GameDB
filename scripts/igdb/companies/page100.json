@@ -1,0 +1,200 @@
+[
+    {
+        "id": 242,
+        "name": "Verant Interactive",
+        "slug": "verant-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1580,
+        "name": "Kerner Complex Security",
+        "slug": "kerner-complex-security",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 233,
+        "name": "Piranha Games",
+        "slug": "piranha-games",
+        "average_rating": "6.10409052816652",
+        "parent": null
+    },
+    {
+        "id": 1754,
+        "name": "Zed Two",
+        "slug": "zed-two",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1713,
+        "name": "Michał Rawdanowicz",
+        "slug": "michal-rawdanowicz",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 174,
+        "name": "Digital Mayhem",
+        "slug": "digital-mayhem",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 238,
+        "name": "Typhoon Games",
+        "slug": "typhoon-games",
+        "average_rating": "8.53102294515331",
+        "parent": null
+    },
+    {
+        "id": 216,
+        "name": "Glu Mobile",
+        "slug": "glu-mobile",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 188,
+        "name": "Apogee Software",
+        "slug": "apogee-software",
+        "average_rating": "7.79136765118269",
+        "founded_year": 1987,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/apogee-software/images/company_logos/68/apogee-software_logo_thumb.png",
+            "width": 263,
+            "height": 139
+        }
+    },
+    {
+        "id": 106,
+        "name": "Loki Software",
+        "slug": "loki-software",
+        "average_rating": "8.15567125807196",
+        "parent": null
+    },
+    {
+        "id": 131,
+        "name": "Robot Entertainment",
+        "slug": "robot-entertainment",
+        "average_rating": "7.73228529779602",
+        "parent": null
+    },
+    {
+        "id": 150,
+        "name": "Hidden Path Entertainment",
+        "slug": "hidden-path-entertainment",
+        "average_rating": "8.04535152909864",
+        "parent": null
+    },
+    {
+        "id": 168,
+        "name": "Epic Games",
+        "slug": "epic-games",
+        "average_rating": "8.24434699684506",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/epic-games/images/company_logos/64/epic-games_logo_thumb.png",
+            "width": 342,
+            "height": 391
+        }
+    },
+    {
+        "id": 2451,
+        "name": "Monte Cristo",
+        "slug": "monte-cristo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 161,
+        "name": "Konami Digital Entertainment",
+        "slug": "konami-digital-entertainment",
+        "average_rating": "6.72474225125809",
+        "parent": null
+    },
+    {
+        "id": 177,
+        "name": "Santa Monica Studio",
+        "slug": "santa-monica-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 140,
+        "name": "EA Los Angeles",
+        "slug": "ea-los-angeles",
+        "average_rating": "8.12590186090507",
+        "founded_year": 2000,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/ea-los-angeles/images/company_logos/bf/ea-los-angeles_logo_thumb.png",
+            "width": 212,
+            "height": 116
+        }
+    },
+    {
+        "id": 219,
+        "name": "Team Little Devils",
+        "slug": "team-little-devils",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 107,
+        "name": "Lego Media",
+        "slug": "lego-media",
+        "average_rating": "6.68362914174289",
+        "parent": null
+    },
+    {
+        "id": 95,
+        "name": "Disney Interactive",
+        "slug": "disney-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1578,
+        "name": "LucasArts Entertainmnet",
+        "slug": "lucasarts-entertainmnet",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 182,
+        "name": "Nihilistic Software",
+        "slug": "nihilistic-software",
+        "average_rating": "8.61028762914839",
+        "founded_year": 1998,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/nihilistic-software/images/company_logos/9b/nihilistic-software_logo_thumb.png",
+            "width": 400,
+            "height": 332
+        }
+    },
+    {
+        "id": 215,
+        "name": "WizardWorks Software",
+        "slug": "wizardworks-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 246,
+        "name": "Micro Forté",
+        "slug": "micro-forte",
+        "average_rating": "6.91722958214734",
+        "parent": null
+    },
+    {
+        "id": 244,
+        "name": "Edusoft",
+        "slug": "edusoft",
+        "average_rating": "8.95749240128205",
+        "parent": null
+    }
+]

@@ -1,0 +1,189 @@
+[
+    {
+        "id": 2991,
+        "name": "Artificial Studios",
+        "slug": "artificial-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2989,
+        "name": "Dream Execution Technology",
+        "slug": "dream-execution-technology",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3120,
+        "name": "Game House",
+        "slug": "game-house",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2993,
+        "name": "Monumental Games",
+        "slug": "monumental-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3048,
+        "name": "Relentless Software",
+        "slug": "relentless-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2990,
+        "name": "Immersion Games",
+        "slug": "immersion-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2197,
+        "name": "Empty Clip Studios",
+        "slug": "empty-clip-studios",
+        "average_rating": null,
+        "founded_year": 2007,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/empty-clip-studios/images/company_logos/4o/empty-clip-studios_logo_thumb.png",
+            "width": 399,
+            "height": 248
+        }
+    },
+    {
+        "id": 3262,
+        "name": "Ubisoft North America",
+        "slug": "ubisoft-north-america",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3304,
+        "name": "Access PR",
+        "slug": "access-pr",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3305,
+        "name": "Audiokinetic",
+        "slug": "audiokinetic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3306,
+        "name": "Avatar Studios",
+        "slug": "avatar-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3307,
+        "name": "Autodesk",
+        "slug": "autodesk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3314,
+        "name": "DSonic",
+        "slug": "dsonic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3007,
+        "name": "Seven45 Studios",
+        "slug": "seven45-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2996,
+        "name": "Renderware",
+        "slug": "renderware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3058,
+        "name": "Oovee Game Studios",
+        "slug": "oovee-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3061,
+        "name": "Square USA, Inc",
+        "slug": "square-usa-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3263,
+        "name": "Ubisoft EMEA",
+        "slug": "ubisoft-emea",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 669,
+        "name": "Spiral House",
+        "slug": "spiral-house",
+        "average_rating": null,
+        "founded_year": 1998,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/spiral-house/images/company_logos/3s/spiral-house_logo_thumb.png",
+            "width": 180,
+            "height": 258
+        }
+    },
+    {
+        "id": 3011,
+        "name": "Hit Box Team",
+        "slug": "hit-box-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3008,
+        "name": "Channel 42 Software Developer",
+        "slug": "channel-42-software-developer",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3012,
+        "name": "Software Refinery",
+        "slug": "software-refinery",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3013,
+        "name": "Front Street Publishing",
+        "slug": "front-street-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2998,
+        "name": "O-Games",
+        "slug": "o-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2999,
+        "name": "Redoubt",
+        "slug": "redoubt",
+        "average_rating": null,
+        "parent": null
+    }
+]

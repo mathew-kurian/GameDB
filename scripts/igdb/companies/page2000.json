@@ -1,0 +1,177 @@
+[
+    {
+        "id": 2392,
+        "name": "System Sacom",
+        "slug": "system-sacom",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2394,
+        "name": "Tales2",
+        "slug": "tales2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2425,
+        "name": "Beep Industries",
+        "slug": "beep-industries",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2383,
+        "name": "Holocronet",
+        "slug": "holocronet",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2385,
+        "name": "Drew Pictures",
+        "slug": "drew-pictures",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2312,
+        "name": "Raw Thrills",
+        "slug": "raw-thrills",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2345,
+        "name": "Abstraction Games",
+        "slug": "abstraction-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2403,
+        "name": "Hammond & Leyland",
+        "slug": "hammond-leyland",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2370,
+        "name": "Ecseco",
+        "slug": "ecseco",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2371,
+        "name": "Revolutionary Concepts",
+        "slug": "revolutionary-concepts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2405,
+        "name": "ASUSTek",
+        "slug": "asustek",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2395,
+        "name": "Sur de Wave",
+        "slug": "sur-de-wave",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2396,
+        "name": "Brother Kougyou",
+        "slug": "brother-kougyou",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2398,
+        "name": "HMH Interactive",
+        "slug": "hmh-interactive",
+        "average_rating": "6.12535791489004",
+        "parent": null
+    },
+    {
+        "id": 2411,
+        "name": "Spiral Game Studios",
+        "slug": "spiral-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2399,
+        "name": "Redline Games",
+        "slug": "redline-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2407,
+        "name": "Apple Inc",
+        "slug": "apple-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2408,
+        "name": "Blackberry Ltd",
+        "slug": "blackberry-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2418,
+        "name": "Renovation Products",
+        "slug": "renovation-products",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2432,
+        "name": "Surge",
+        "slug": "surge",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2419,
+        "name": "Advanced Microcomputer Systems",
+        "slug": "advanced-microcomputer-systems",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2413,
+        "name": "Artifice Studio",
+        "slug": "artifice-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2416,
+        "name": "Raylight Games",
+        "slug": "raylight-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2427,
+        "name": "Lass",
+        "slug": "lass",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2365,
+        "name": "Micronet",
+        "slug": "micronet",
+        "average_rating": null,
+        "parent": null
+    }
+]

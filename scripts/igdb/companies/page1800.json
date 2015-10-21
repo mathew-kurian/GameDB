@@ -1,0 +1,201 @@
+[
+    {
+        "id": 2557,
+        "name": "Superscape",
+        "slug": "superscape",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2205,
+        "name": "Big Blue Bubble",
+        "slug": "big-blue-bubble",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2163,
+        "name": "Agatsuma",
+        "slug": "agatsuma",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2214,
+        "name": "Feelplus",
+        "slug": "feelplus",
+        "average_rating": null,
+        "founded_year": 1992,
+        "parent": 2213,
+        "company_logo": {
+            "url": "/companies/feelplus/images/company_logos/43/feelplus_logo_thumb.png",
+            "width": 799,
+            "height": 214
+        }
+    },
+    {
+        "id": 2207,
+        "name": "Secret Level",
+        "slug": "secret-level",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2206,
+        "name": "Shade",
+        "slug": "shade",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2566,
+        "name": "LJN",
+        "slug": "ljn",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2175,
+        "name": "Artoon",
+        "slug": "artoon",
+        "average_rating": null,
+        "founded_year": 1999,
+        "parent": 2213,
+        "company_logo": {
+            "url": "/companies/artoon/images/company_logos/46/artoon_logo_thumb.png",
+            "width": 798,
+            "height": 155
+        }
+    },
+    {
+        "id": 2189,
+        "name": "Freedom Factory",
+        "slug": "freedom-factory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2169,
+        "name": "Vanguard Entertainment",
+        "slug": "vanguard-entertainment",
+        "average_rating": "4.16441087105336",
+        "parent": null
+    },
+    {
+        "id": 2192,
+        "name": "Zushi Games",
+        "slug": "zushi-games",
+        "average_rating": null,
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/zushi-games/images/company_logos/6r/zushi-games_logo_thumb.png",
+            "width": 150,
+            "height": 72
+        }
+    },
+    {
+        "id": 2171,
+        "name": "Warhorse Studios",
+        "slug": "warhorse-studios",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/warhorse-studios/images/company_logos/9w/warhorse-studios_logo_thumb.png",
+            "width": 960,
+            "height": 960
+        }
+    },
+    {
+        "id": 2153,
+        "name": "G1M2",
+        "slug": "g1m2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2549,
+        "name": "Runesoft",
+        "slug": "runesoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2162,
+        "name": "5th Cell",
+        "slug": "5th-cell",
+        "average_rating": "7.14488766620816",
+        "parent": null
+    },
+    {
+        "id": 2091,
+        "name": "Cing",
+        "slug": "cing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2199,
+        "name": "IR Gurus",
+        "slug": "ir-gurus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2201,
+        "name": "H.I.C.",
+        "slug": "h-i-c",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2204,
+        "name": "Game Invest",
+        "slug": "game-invest",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2208,
+        "name": "Sega Studios San Francisco",
+        "slug": "sega-studios-san-francisco",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2215,
+        "name": "Xing",
+        "slug": "xing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2211,
+        "name": "Sega Sammy",
+        "slug": "sega-sammy",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2170,
+        "name": "SCE San Diego Studios",
+        "slug": "sce-san-diego-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2141,
+        "name": "FAKT Software",
+        "slug": "fakt-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2547,
+        "name": "Mindware Studios",
+        "slug": "mindware-studios",
+        "average_rating": null,
+        "parent": null
+    }
+]

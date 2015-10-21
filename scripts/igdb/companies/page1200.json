@@ -1,0 +1,194 @@
+[
+    {
+        "id": 1060,
+        "name": "Vanillaware",
+        "slug": "vanillaware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1959,
+        "name": "King of the Jungle",
+        "slug": "king-of-the-jungle",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1770,
+        "name": "505 Game Street",
+        "slug": "505-game-street",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/505-game-street/images/company_logos/ce/505-game-street_logo_thumb.png",
+            "width": 252,
+            "height": 66
+        }
+    },
+    {
+        "id": 411,
+        "name": "Robosoft Technologies",
+        "slug": "robosoft-technologies",
+        "average_rating": "7.82409927109479",
+        "parent": null
+    },
+    {
+        "id": 1882,
+        "name": "Interplay",
+        "slug": "interplay",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1663,
+        "name": "Suspicious Developments",
+        "slug": "suspicious-developments",
+        "average_rating": "7.99251345284168",
+        "parent": null
+    },
+    {
+        "id": 208,
+        "name": "Frontier Developments",
+        "slug": "frontier-developments",
+        "average_rating": "8.3968811497828",
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/frontier-developments/images/company_logos/89/frontier-developments_logo_thumb.png",
+            "width": 700,
+            "height": 355
+        }
+    },
+    {
+        "id": 1774,
+        "name": "Nintendo R&D2",
+        "slug": "nintendo-r-d2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1802,
+        "name": "Westone",
+        "slug": "westone",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1729,
+        "name": "Incompetech.com",
+        "slug": "incompetech-com",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1797,
+        "name": "Actionamics",
+        "slug": "actionamics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1798,
+        "name": "SystemSoft",
+        "slug": "systemsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1800,
+        "name": "Paraninfo Soft",
+        "slug": "paraninfo-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1528,
+        "name": "Dub Media Inc",
+        "slug": "dub-media-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1529,
+        "name": "Absolute Quality Inc",
+        "slug": "absolute-quality-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1853,
+        "name": "Inland Productions",
+        "slug": "inland-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1530,
+        "name": "Studioddm snc",
+        "slug": "studioddm-snc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1724,
+        "name": "Fox Kids",
+        "slug": "fox-kids",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1613,
+        "name": "Incognito Entertainment",
+        "slug": "incognito-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1858,
+        "name": "Epic/Sony Records",
+        "slug": "epic-sony-records",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2483,
+        "name": "Supercell",
+        "slug": "supercell",
+        "average_rating": "6.99299162180243",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/supercell/images/company_logos/2r/supercell_logo_thumb.png",
+            "width": 250,
+            "height": 250
+        }
+    },
+    {
+        "id": 201,
+        "name": "Cyberlore Studios",
+        "slug": "cyberlore-studios",
+        "average_rating": "7.60517139736162",
+        "founded_year": 1992,
+        "parent": null
+    },
+    {
+        "id": 1850,
+        "name": "Asmik Ace Entertainment",
+        "slug": "asmik-ace-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1963,
+        "name": "G.rev",
+        "slug": "g-rev",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2481,
+        "name": "Sandlot",
+        "slug": "sandlot",
+        "average_rating": null,
+        "parent": null
+    }
+]

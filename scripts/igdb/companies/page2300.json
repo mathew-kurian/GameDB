@@ -1,0 +1,195 @@
+[
+    {
+        "id": 3298,
+        "name": "Detalion Art",
+        "slug": "detalion-art",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3299,
+        "name": "FreeMind",
+        "slug": "freemind",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3300,
+        "name": "Platige Image",
+        "slug": "platige-image",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1367,
+        "name": "Serellan",
+        "slug": "serellan",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/serellan/images/company_logos/1t/serellan_logo_thumb.png",
+            "width": 450,
+            "height": 163
+        }
+    },
+    {
+        "id": 2749,
+        "name": "Fluid Studios",
+        "slug": "fluid-studios",
+        "average_rating": "9.06217547421277",
+        "parent": null
+    },
+    {
+        "id": 2785,
+        "name": "The Story Lab",
+        "slug": "the-story-lab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2755,
+        "name": "Hokus-Pokus",
+        "slug": "hokus-pokus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2756,
+        "name": "Sony Pictures Television",
+        "slug": "sony-pictures-television",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2757,
+        "name": "Sony Pictures Consumer Products",
+        "slug": "sony-pictures-consumer-products",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2758,
+        "name": "Tezuka Productions",
+        "slug": "tezuka-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2761,
+        "name": "Ironhide Game Studio",
+        "slug": "ironhide-game-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2775,
+        "name": "Handheld Games",
+        "slug": "handheld-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2774,
+        "name": "G3 Interactive",
+        "slug": "g3-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2962,
+        "name": "Overmax Studios",
+        "slug": "overmax-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2768,
+        "name": "Metro Corporation",
+        "slug": "metro-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2767,
+        "name": "Leguna",
+        "slug": "leguna",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3024,
+        "name": "Snowcastle Games",
+        "slug": "snowcastle-games",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/snowcastle-games/images/company_logos/48/snowcastle-games_logo_thumb.png",
+            "width": 938,
+            "height": 232
+        }
+    },
+    {
+        "id": 2764,
+        "name": "xii games",
+        "slug": "xii-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3039,
+        "name": "Indietopia Games",
+        "slug": "indietopia-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 700,
+        "name": "Majesco Entertainment",
+        "slug": "majesco-entertainment",
+        "average_rating": "7.50712803070024",
+        "parent": null
+    },
+    {
+        "id": 2701,
+        "name": "Simogo",
+        "slug": "simogo",
+        "average_rating": "8.38783781424607",
+        "parent": null
+    },
+    {
+        "id": 2729,
+        "name": "Frozenbyte",
+        "slug": "frozenbyte",
+        "average_rating": "7.99921102289685",
+        "founded_year": 2001,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/frozenbyte/images/company_logos/5b/frozenbyte_logo_thumb.png",
+            "width": 367,
+            "height": 450
+        }
+    },
+    {
+        "id": 2766,
+        "name": "Tomorrow Corporation",
+        "slug": "tomorrow-corporation",
+        "average_rating": "7.98571273521379",
+        "parent": null
+    },
+    {
+        "id": 2964,
+        "name": "Fuzzyeyes",
+        "slug": "fuzzyeyes",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2769,
+        "name": "Bay 12 Games",
+        "slug": "bay-12-games",
+        "average_rating": "6.98108581436077",
+        "parent": null
+    }
+]

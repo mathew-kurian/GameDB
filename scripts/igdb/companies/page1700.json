@@ -1,0 +1,183 @@
+[
+    {
+        "id": 2096,
+        "name": "Lightstorm Entertainment",
+        "slug": "lightstorm-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2098,
+        "name": "SingleTrac Entertainment Technologies",
+        "slug": "singletrac-entertainment-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2115,
+        "name": "Barnhouse Effect",
+        "slug": "barnhouse-effect",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2116,
+        "name": "SKONEC",
+        "slug": "skonec",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2117,
+        "name": "Gamenauts",
+        "slug": "gamenauts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 454,
+        "name": "EA Sports",
+        "slug": "ea-sports",
+        "average_rating": "7.41320032910149",
+        "founded_year": 1991,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/ea-sports/images/company_logos/3c/ea-sports_logo_thumb.png",
+            "width": 429,
+            "height": 425
+        }
+    },
+    {
+        "id": 2080,
+        "name": "Palace Software",
+        "slug": "palace-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2042,
+        "name": "Contrail",
+        "slug": "contrail",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2126,
+        "name": "Frontline Studios",
+        "slug": "frontline-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2127,
+        "name": "Zuxxes",
+        "slug": "zuxxes",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2128,
+        "name": "Ware Interactive",
+        "slug": "ware-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2129,
+        "name": "Noviy Disk",
+        "slug": "noviy-disk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2543,
+        "name": "I-Imagine",
+        "slug": "i-imagine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2130,
+        "name": "Extra Mile Studios",
+        "slug": "extra-mile-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2088,
+        "name": "Brash Entertainment",
+        "slug": "brash-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2101,
+        "name": "Psyclone",
+        "slug": "psyclone",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2110,
+        "name": "Happy Happening",
+        "slug": "happy-happening",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2106,
+        "name": "Halch",
+        "slug": "halch",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2119,
+        "name": "Real Arcade",
+        "slug": "real-arcade",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2120,
+        "name": "Grounding Inc",
+        "slug": "grounding-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2122,
+        "name": "One True Game Studios",
+        "slug": "one-true-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2123,
+        "name": "Foxconn Technology Group",
+        "slug": "foxconn-technology-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2137,
+        "name": "cerasus.media",
+        "slug": "cerasus-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2109,
+        "name": "Icon Games Entertainment",
+        "slug": "icon-games-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2111,
+        "name": "Quotix Software",
+        "slug": "quotix-software",
+        "average_rating": null,
+        "parent": null
+    }
+]

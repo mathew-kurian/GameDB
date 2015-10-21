@@ -1,0 +1,189 @@
+[
+    {
+        "id": 2475,
+        "name": "InnoGames",
+        "slug": "innogames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1996,
+        "name": "Toei Animation",
+        "slug": "toei-animation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1655,
+        "name": "Priority Interrupt",
+        "slug": "priority-interrupt",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1656,
+        "name": "Alcuria Games",
+        "slug": "alcuria-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1652,
+        "name": "Dragonheartman",
+        "slug": "dragonheartman",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1960,
+        "name": "MTO",
+        "slug": "mto",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2011,
+        "name": "Global A Entertainment",
+        "slug": "global-a-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1918,
+        "name": "Digital Fiction",
+        "slug": "digital-fiction",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1968,
+        "name": "Evolved Games",
+        "slug": "evolved-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1847,
+        "name": "RFX Interactive",
+        "slug": "rfx-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1910,
+        "name": "Velez & Dubail",
+        "slug": "velez-dubail",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1997,
+        "name": "Ganbarion",
+        "slug": "ganbarion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1909,
+        "name": "Etranges Libellulles",
+        "slug": "etranges-libellulles",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1866,
+        "name": "Brownie Brown",
+        "slug": "brownie-brown",
+        "average_rating": "9.28636522958289",
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/brownie-brown/images/company_logos/7c/brownie-brown_logo_thumb.png",
+            "width": 249,
+            "height": 42
+        }
+    },
+    {
+        "id": 1868,
+        "name": "Level Up! Games",
+        "slug": "level-up-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1828,
+        "name": "Dual Corporation",
+        "slug": "dual-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1785,
+        "name": "SETA Corporation",
+        "slug": "seta-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 578,
+        "name": "Gremlin Interactive",
+        "slug": "gremlin-interactive",
+        "average_rating": null,
+        "founded_year": 1984,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/gremlin-interactive/images/company_logos/6n/gremlin-interactive_logo_thumb.png",
+            "width": 103,
+            "height": 138
+        }
+    },
+    {
+        "id": 1477,
+        "name": "Whiptail Interactive",
+        "slug": "whiptail-interactive",
+        "average_rating": "7.63963333420663",
+        "parent": null
+    },
+    {
+        "id": 1844,
+        "name": "Boss Game Studios",
+        "slug": "boss-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1610,
+        "name": "Innerloop Studios",
+        "slug": "innerloop-studios",
+        "average_rating": "7.74351431059568",
+        "parent": null
+    },
+    {
+        "id": 1496,
+        "name": "Stuart Aikins Casting",
+        "slug": "stuart-aikins-casting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1497,
+        "name": "The Audio Group",
+        "slug": "the-audio-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1498,
+        "name": "Blindlight",
+        "slug": "blindlight",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1499,
+        "name": "Church Automotive",
+        "slug": "church-automotive",
+        "average_rating": null,
+        "parent": null
+    }
+]

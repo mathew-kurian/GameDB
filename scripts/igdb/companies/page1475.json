@@ -1,0 +1,183 @@
+[
+    {
+        "id": 1261,
+        "name": "MTV Games",
+        "slug": "mtv-games",
+        "average_rating": "7.5671608760087",
+        "parent": null
+    },
+    {
+        "id": 1219,
+        "name": "Webfoot Technologies",
+        "slug": "webfoot-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1246,
+        "name": "Nintendo EAD Group No. 2",
+        "slug": "nintendo-ead-group-no-2",
+        "average_rating": "8.21245998380466",
+        "parent": null
+    },
+    {
+        "id": 1388,
+        "name": "Black Label Games",
+        "slug": "black-label-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1018,
+        "name": "Gaijin Entertainment",
+        "slug": "gaijin-entertainment",
+        "average_rating": "7.69977992178516",
+        "parent": null
+    },
+    {
+        "id": 1320,
+        "name": "Straight Right",
+        "slug": "straight-right",
+        "average_rating": "7.29237180704607",
+        "parent": null
+    },
+    {
+        "id": 1339,
+        "name": "Elite Systems Ltd",
+        "slug": "elite-systems-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1286,
+        "name": "Blitz Games",
+        "slug": "blitz-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1321,
+        "name": "Collision Studios",
+        "slug": "collision-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1272,
+        "name": "Sega Sports R&D",
+        "slug": "sega-sports-r-d",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1263,
+        "name": "Graphic State Games",
+        "slug": "graphic-state-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1300,
+        "name": "AWE Games",
+        "slug": "awe-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1311,
+        "name": "Cartoon Network Interactive",
+        "slug": "cartoon-network-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1304,
+        "name": "Tantalus Media",
+        "slug": "tantalus-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1302,
+        "name": "THQ Studio Australia",
+        "slug": "thq-studio-australia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1307,
+        "name": "Nick Games",
+        "slug": "nick-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1217,
+        "name": "Spike ChunSoft",
+        "slug": "spike-chunsoft",
+        "average_rating": "8.95562329444247",
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/spike-chunsoft/images/company_logos/7j/spike-chunsoft_logo_thumb.png",
+            "width": 460,
+            "height": 92
+        }
+    },
+    {
+        "id": 1303,
+        "name": "Blue Tongue Entertainment",
+        "slug": "blue-tongue-entertainment",
+        "average_rating": "8.28716546245705",
+        "parent": null
+    },
+    {
+        "id": 1284,
+        "name": "Muse Software",
+        "slug": "muse-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1371,
+        "name": "General Arcade",
+        "slug": "general-arcade",
+        "average_rating": "8.41832853805061",
+        "parent": null
+    },
+    {
+        "id": 1283,
+        "name": "Rareware",
+        "slug": "rareware",
+        "average_rating": "8.37027451230303",
+        "parent": null
+    },
+    {
+        "id": 1361,
+        "name": "Replay Games",
+        "slug": "replay-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1422,
+        "name": "Guildhall",
+        "slug": "guildhall",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1423,
+        "name": "Black Magic Software",
+        "slug": "black-magic-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1413,
+        "name": "Red 5 Studios",
+        "slug": "red-5-studios",
+        "average_rating": "8.47008481322674",
+        "parent": null
+    }
+]

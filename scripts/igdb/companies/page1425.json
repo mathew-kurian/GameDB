@@ -1,0 +1,189 @@
+[
+    {
+        "id": 1329,
+        "name": "Teeny Weeny Games",
+        "slug": "teeny-weeny-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1342,
+        "name": "Terraglyph Interactive Studios",
+        "slug": "terraglyph-interactive-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1208,
+        "name": "Bizarre Creations",
+        "slug": "bizarre-creations",
+        "average_rating": "7.20379000735179",
+        "founded_year": 1988,
+        "parent": 66,
+        "company_logo": {
+            "url": "/companies/bizarre-creations/images/company_logos/6x/bizarre-creations_logo_thumb.png",
+            "width": 550,
+            "height": 600
+        }
+    },
+    {
+        "id": 1223,
+        "name": "Blast! Entertainment",
+        "slug": "blast-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1334,
+        "name": "H2O Interactive",
+        "slug": "h2o-interactive",
+        "average_rating": null,
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/h2o-interactive/images/company_logos/bj/h2o-interactive_logo_thumb.png",
+            "width": 173,
+            "height": 91
+        }
+    },
+    {
+        "id": 1235,
+        "name": "Software 2000",
+        "slug": "software-2000",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1254,
+        "name": "FarSight Studios",
+        "slug": "farsight-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1181,
+        "name": "Digital Pictures",
+        "slug": "digital-pictures",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1344,
+        "name": "Intelligent Statements, Inc.",
+        "slug": "intelligent-statements-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1335,
+        "name": "Number None Inc.",
+        "slug": "number-none-inc",
+        "average_rating": "8.9085585093234",
+        "parent": null
+    },
+    {
+        "id": 1306,
+        "name": "Pronto Games",
+        "slug": "pronto-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1314,
+        "name": "Papaya Studio",
+        "slug": "papaya-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1330,
+        "name": "Bits Studios",
+        "slug": "bits-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1266,
+        "name": "Mad Catz",
+        "slug": "mad-catz",
+        "average_rating": "7.86605627516297",
+        "parent": null
+    },
+    {
+        "id": 1273,
+        "name": "Sega Sports Japan",
+        "slug": "sega-sports-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1308,
+        "name": "Incinerator Studios",
+        "slug": "incinerator-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1346,
+        "name": "Human Engineered Software",
+        "slug": "human-engineered-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1347,
+        "name": "Bear Systems",
+        "slug": "bear-systems",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1348,
+        "name": "Automated Simulations, Inc.",
+        "slug": "automated-simulations-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1349,
+        "name": "Artificial Intelligence Design",
+        "slug": "artificial-intelligence-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1356,
+        "name": "Interstel Corporation",
+        "slug": "interstel-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1357,
+        "name": "Macrocom",
+        "slug": "macrocom",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1358,
+        "name": "Masterplay Publishing Corporation",
+        "slug": "masterplay-publishing-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1359,
+        "name": "Ruffian Games",
+        "slug": "ruffian-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1368,
+        "name": "Impromptu Games",
+        "slug": "impromptu-games",
+        "average_rating": null,
+        "parent": null
+    }
+]

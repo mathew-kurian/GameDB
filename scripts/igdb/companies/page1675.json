@@ -1,0 +1,189 @@
+[
+    {
+        "id": 159,
+        "name": "Konami Computer Entertainment Tokyo",
+        "slug": "konami-computer-entertainment-tokyo",
+        "average_rating": "8.57130192551188",
+        "parent": null
+    },
+    {
+        "id": 2062,
+        "name": "7th Level",
+        "slug": "7th-level",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2052,
+        "name": "NEC Interchannel",
+        "slug": "nec-interchannel",
+        "average_rating": "7.49235921639884",
+        "parent": null
+    },
+    {
+        "id": 2582,
+        "name": "SNK Playmore",
+        "slug": "snk-playmore",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1411,
+        "name": "Visual Impact",
+        "slug": "visual-impact",
+        "average_rating": "8.33231726976288",
+        "parent": null
+    },
+    {
+        "id": 555,
+        "name": "EA Tiburon",
+        "slug": "ea-tiburon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 277,
+        "name": "EA Canada",
+        "slug": "ea-canada",
+        "average_rating": "7.70726436459282",
+        "founded_year": 1983,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/ea-canada/images/company_logos/4c/ea-canada_logo_thumb.png",
+            "width": 409,
+            "height": 327
+        }
+    },
+    {
+        "id": 1899,
+        "name": "Exakt Entertainment",
+        "slug": "exakt-entertainment",
+        "average_rating": "7.00159034278956",
+        "parent": null
+    },
+    {
+        "id": 1440,
+        "name": "Taito Corporation",
+        "slug": "taito-corporation",
+        "average_rating": "7.56417664311583",
+        "parent": null
+    },
+    {
+        "id": 2024,
+        "name": "Eidetic",
+        "slug": "eidetic",
+        "average_rating": "7.99888358245984",
+        "parent": null
+    },
+    {
+        "id": 2028,
+        "name": "DreamFactory",
+        "slug": "dreamfactory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2067,
+        "name": "Dempa Shinbunsha",
+        "slug": "dempa-shinbunsha",
+        "average_rating": "7.8189072819118",
+        "parent": null
+    },
+    {
+        "id": 1715,
+        "name": "Facepunch Studios",
+        "slug": "facepunch-studios",
+        "average_rating": "7.94307618626434",
+        "parent": null
+    },
+    {
+        "id": 2619,
+        "name": "Tactile Entertainment",
+        "slug": "tactile-entertainment",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/tactile-entertainment/images/company_logos/c/tactile-entertainment_logo_thumb.png",
+            "width": 330,
+            "height": 110
+        }
+    },
+    {
+        "id": 2583,
+        "name": "Just Add Monsters",
+        "slug": "just-add-monsters",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2584,
+        "name": "Midway Studios Newcastle",
+        "slug": "midway-studios-newcastle",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2587,
+        "name": "Panther Software",
+        "slug": "panther-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2596,
+        "name": "Mortal Kombat Team",
+        "slug": "mortal-kombat-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2597,
+        "name": "Rockpool Games",
+        "slug": "rockpool-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2085,
+        "name": "AWE Productions",
+        "slug": "awe-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2086,
+        "name": "Oxygen Studios",
+        "slug": "oxygen-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2087,
+        "name": "Beast Studios",
+        "slug": "beast-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2132,
+        "name": "Bold Games",
+        "slug": "bold-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2142,
+        "name": "EA Bright Light",
+        "slug": "ea-bright-light",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2095,
+        "name": "Panic Button Games",
+        "slug": "panic-button-games",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,189 @@
+[
+    {
+        "id": 2585,
+        "name": "Groove Games",
+        "slug": "groove-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2724,
+        "name": "Silver Wish Games",
+        "slug": "silver-wish-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2737,
+        "name": "Meteor Entertainment",
+        "slug": "meteor-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2727,
+        "name": "Direct Action Games",
+        "slug": "direct-action-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2738,
+        "name": "Aleksey Abramenko",
+        "slug": "aleksey-abramenko",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2723,
+        "name": "Streum On Studio",
+        "slug": "streum-on-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2711,
+        "name": "Studio Gigante",
+        "slug": "studio-gigante",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2730,
+        "name": "Anchor Inc",
+        "slug": "anchor-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2744,
+        "name": "Jagex Limited",
+        "slug": "jagex-limited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2735,
+        "name": "IOMO",
+        "slug": "iomo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2732,
+        "name": "Digital Legends",
+        "slug": "digital-legends",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2740,
+        "name": "Brandon Brizzi",
+        "slug": "brandon-brizzi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2743,
+        "name": "Ideaworks Game Studio",
+        "slug": "ideaworks-game-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2703,
+        "name": "Gameco Studios",
+        "slug": "gameco-studios",
+        "average_rating": null,
+        "founded_year": 2003,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/gameco-studios/images/company_logos/95/gameco-studios_logo_thumb.png",
+            "width": 373,
+            "height": 361
+        }
+    },
+    {
+        "id": 1249,
+        "name": "NewKidCo",
+        "slug": "newkidco",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2746,
+        "name": "Pearl Abyss",
+        "slug": "pearl-abyss",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3038,
+        "name": "Aicom",
+        "slug": "aicom",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3295,
+        "name": "Bravo Interactive",
+        "slug": "bravo-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3035,
+        "name": "Replay Studios",
+        "slug": "replay-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3108,
+        "name": "Endnight Games Ltd",
+        "slug": "endnight-games-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3111,
+        "name": "OpenBook Co.",
+        "slug": "openbook-co",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3163,
+        "name": "DigiFX Interactive",
+        "slug": "digifx-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2717,
+        "name": "Deadline Games",
+        "slug": "deadline-games",
+        "average_rating": "6.24266808385875",
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/deadline-games/images/company_logos/76/deadline-games_logo_thumb.png",
+            "width": 300,
+            "height": 309
+        }
+    },
+    {
+        "id": 3296,
+        "name": "Aerohills",
+        "slug": "aerohills",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3297,
+        "name": "Animazoo Europe",
+        "slug": "animazoo-europe",
+        "average_rating": null,
+        "parent": null
+    }
+]

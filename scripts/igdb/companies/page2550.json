@@ -1,0 +1,190 @@
+[
+    {
+        "id": 2956,
+        "name": "Greenwave Games",
+        "slug": "greenwave-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2957,
+        "name": "Liquid Dragon Studios",
+        "slug": "liquid-dragon-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2961,
+        "name": "Sound ams",
+        "slug": "sound-ams",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2959,
+        "name": "Def Jam",
+        "slug": "def-jam",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2953,
+        "name": "Blue Omega Entertainment",
+        "slug": "blue-omega-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2947,
+        "name": "Alchemic Productions",
+        "slug": "alchemic-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3118,
+        "name": "MumboJumbo",
+        "slug": "mumbojumbo",
+        "average_rating": "8.34908387864981",
+        "parent": null
+    },
+    {
+        "id": 3247,
+        "name": "Namco Bandai Europe",
+        "slug": "namco-bandai-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2930,
+        "name": "Crytek Black Sea",
+        "slug": "crytek-black-sea",
+        "average_rating": null,
+        "founded_year": 2001,
+        "parent": 249
+    },
+    {
+        "id": 717,
+        "name": "Red Storm Entertainment",
+        "slug": "red-storm-entertainment",
+        "average_rating": "8.00477823704115",
+        "founded_year": 1996,
+        "parent": 104,
+        "company_logo": {
+            "url": "/companies/red-storm-entertainment/images/company_logos/30/red-storm-entertainment_logo_thumb.png",
+            "width": 512,
+            "height": 307
+        }
+    },
+    {
+        "id": 3248,
+        "name": "Keywords Studios",
+        "slug": "keywords-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3249,
+        "name": "Synthesis Milano",
+        "slug": "synthesis-milano",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3251,
+        "name": "TAKE OFF",
+        "slug": "take-off",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3252,
+        "name": "Colicoba",
+        "slug": "colicoba",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3254,
+        "name": "Agua MassMedia",
+        "slug": "agua-massmedia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3255,
+        "name": "Mouse-Power",
+        "slug": "mouse-power",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3256,
+        "name": "Krauthansen Musik & Tonproduktion",
+        "slug": "krauthansen-musik-and-tonproduktion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3257,
+        "name": "Ubisoft K.K.",
+        "slug": "ubisoft-kk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3258,
+        "name": "Smartech",
+        "slug": "smartech",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3259,
+        "name": "AC Create",
+        "slug": "ac-create",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2948,
+        "name": "HAMSTER",
+        "slug": "hamster",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2979,
+        "name": "Inky Mind UK",
+        "slug": "inky-mind-uk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2980,
+        "name": "Playstos Entertainment",
+        "slug": "playstos-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2933,
+        "name": "Q-Games",
+        "slug": "q-games",
+        "average_rating": null,
+        "founded_year": 2001,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/q-games/images/company_logos/4z/q-games_logo_thumb.png",
+            "width": 300,
+            "height": 300
+        }
+    },
+    {
+        "id": 2950,
+        "name": "Synetic",
+        "slug": "synetic",
+        "average_rating": null,
+        "parent": null
+    }
+]

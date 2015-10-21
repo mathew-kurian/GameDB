@@ -1,0 +1,183 @@
+[
+    {
+        "id": 1052,
+        "name": "Valcon Games",
+        "slug": "valcon-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 91,
+        "name": "Playmates Interactive Entertainment",
+        "slug": "playmates-interactive-entertainment",
+        "average_rating": "8.45496674555411",
+        "parent": null
+    },
+    {
+        "id": 1001,
+        "name": "Eutechnyx",
+        "slug": "eutechnyx",
+        "average_rating": "2.50642398286938",
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/eutechnyx/images/company_logos/2f/eutechnyx_logo_thumb.png",
+            "width": 218,
+            "height": 90
+        }
+    },
+    {
+        "id": 1067,
+        "name": "Magnetic Scrolls",
+        "slug": "magnetic-scrolls",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1068,
+        "name": "Zeal Game Studio",
+        "slug": "zeal-game-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1071,
+        "name": "Critical Studios",
+        "slug": "critical-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1072,
+        "name": "CS1 Team",
+        "slug": "cs1-team",
+        "average_rating": "7.21796612973302",
+        "parent": null
+    },
+    {
+        "id": 1077,
+        "name": "IntelliCreations, Inc",
+        "slug": "intellicreations-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1079,
+        "name": "Topologika Software, Inc.",
+        "slug": "topologika-software-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1080,
+        "name": "Castle Technologies",
+        "slug": "castle-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1081,
+        "name": "Adventure International",
+        "slug": "adventure-international",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1083,
+        "name": "PowerVision",
+        "slug": "powervision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1085,
+        "name": "MicroDeal",
+        "slug": "microdeal",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1086,
+        "name": "Telarium",
+        "slug": "telarium",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1088,
+        "name": "Microtime",
+        "slug": "microtime",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1089,
+        "name": "Trecision S.p.A.",
+        "slug": "trecision-s-p-a",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1090,
+        "name": "Grandslam Video Ltd.",
+        "slug": "grandslam-video-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1091,
+        "name": "Real World Software",
+        "slug": "real-world-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1099,
+        "name": "Mercenary Technology",
+        "slug": "mercenary-technology",
+        "average_rating": "7.05450609671489",
+        "parent": null
+    },
+    {
+        "id": 1603,
+        "name": "SDL",
+        "slug": "sdl",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1495,
+        "name": "Michael Todd Games",
+        "slug": "michael-todd-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1510,
+        "name": "Colossal Order Ltd.",
+        "slug": "colossal-order-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1511,
+        "name": "Tuonela Productions",
+        "slug": "tuonela-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1512,
+        "name": "Huumos",
+        "slug": "huumos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1513,
+        "name": "Dicework Games Ltd.",
+        "slug": "dicework-games-ltd",
+        "average_rating": null,
+        "parent": null
+    }
+]

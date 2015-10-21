@@ -1,0 +1,194 @@
+[
+    {
+        "id": 2546,
+        "name": "Shiver Games",
+        "slug": "shiver-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2600,
+        "name": "VR1 Entertainment",
+        "slug": "vr1-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2401,
+        "name": "HuneX",
+        "slug": "hunex",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2402,
+        "name": "Eat Sleep Play Inc.",
+        "slug": "eat-sleep-play-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2387,
+        "name": "Studio Alex",
+        "slug": "studio-alex",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2382,
+        "name": "Fuji Television",
+        "slug": "fuji-television",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2381,
+        "name": "Magical Company",
+        "slug": "magical-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2366,
+        "name": "Spirit of Discovery",
+        "slug": "spirit-of-discovery",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2367,
+        "name": "Dentons",
+        "slug": "dentons",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2561,
+        "name": "Digital Tribe",
+        "slug": "digital-tribe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2558,
+        "name": "EA Chicago",
+        "slug": "ea-chicago",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2148,
+        "name": "Konami Digital Entertainment GmbH",
+        "slug": "konami-digital-entertainment-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2430,
+        "name": "Golden Oak Studios",
+        "slug": "golden-oak-studios",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/golden-oak-studios/images/company_logos/4e/golden-oak-studios_logo_thumb.png",
+            "width": 318,
+            "height": 175
+        }
+    },
+    {
+        "id": 2400,
+        "name": "Falcom",
+        "slug": "falcom",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2317,
+        "name": "Indie Built",
+        "slug": "indie-built",
+        "average_rating": null,
+        "founded_year": 1982,
+        "parent": 139,
+        "company_logo": {
+            "url": "/companies/indie-built/images/company_logos/92/indie-built_logo_thumb.png",
+            "width": 200,
+            "height": 91
+        }
+    },
+    {
+        "id": 2359,
+        "name": "Novotrade",
+        "slug": "novotrade",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2351,
+        "name": "Sony Imagesoft",
+        "slug": "sony-imagesoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2356,
+        "name": "MC2-Microïds",
+        "slug": "mc2-microids",
+        "average_rating": "7.69567591090413",
+        "parent": null
+    },
+    {
+        "id": 2388,
+        "name": "CapDisc",
+        "slug": "capdisc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2372,
+        "name": "American Laser Games",
+        "slug": "american-laser-games",
+        "average_rating": null,
+        "founded_year": 1989,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/american-laser-games/images/company_logos/b0/american-laser-games_logo_thumb.png",
+            "width": 180,
+            "height": 88
+        }
+    },
+    {
+        "id": 2354,
+        "name": "Active Interprises",
+        "slug": "active-interprises",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2368,
+        "name": "Acme Interactive",
+        "slug": "acme-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2369,
+        "name": "Bignet",
+        "slug": "bignet",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2352,
+        "name": "Malibu Interactive",
+        "slug": "malibu-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2415,
+        "name": "CSR-Studios",
+        "slug": "csr-studios",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,205 @@
+[
+    {
+        "id": 2905,
+        "name": "Winkysoft",
+        "slug": "winkysoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2913,
+        "name": "Untold Games",
+        "slug": "untold-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2907,
+        "name": "DreamRift",
+        "slug": "dreamrift",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2912,
+        "name": "Alpha Unit",
+        "slug": "alpha-unit",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2915,
+        "name": "FlukeDuke",
+        "slug": "flukeduke",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2918,
+        "name": "Tehkan",
+        "slug": "tehkan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2968,
+        "name": "Kaos Studios",
+        "slug": "kaos-studios",
+        "average_rating": "7.73490748103353",
+        "parent": null
+    },
+    {
+        "id": 2969,
+        "name": "nFusion Interactive",
+        "slug": "nfusion-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3117,
+        "name": "Massive Development",
+        "slug": "massive-development",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3051,
+        "name": "Clap Hanz",
+        "slug": "clap-hanz",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2903,
+        "name": "Poppermost Productions",
+        "slug": "poppermost-productions",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/poppermost-productions/images/company_logos/4x/poppermost-productions_logo_thumb.png",
+            "width": 1200,
+            "height": 1220
+        }
+    },
+    {
+        "id": 3053,
+        "name": "SCE Studio Liverpool",
+        "slug": "sce-studio-liverpool",
+        "average_rating": null,
+        "founded_year": 2001,
+        "parent": 45,
+        "company_logo": {
+            "url": "/companies/sce-studio-liverpool/images/company_logos/6t/sce-studio-liverpool_logo_thumb.png",
+            "width": 161,
+            "height": 174
+        }
+    },
+    {
+        "id": 3239,
+        "name": "ANIMAROID",
+        "slug": "animaroid",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2902,
+        "name": "Gaslamp Games",
+        "slug": "gaslamp-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 637,
+        "name": "Rockstar New England",
+        "slug": "rockstar-new-england",
+        "average_rating": "7.59917441530548",
+        "founded_year": 2008,
+        "parent": 29,
+        "company_logo": {
+            "url": "/companies/rockstar-new-england/images/company_logos/2j/rockstar-new-england_logo_thumb.png",
+            "width": 500,
+            "height": 460
+        }
+    },
+    {
+        "id": 3052,
+        "name": "Mighty Rocket Studios",
+        "slug": "mighty-rocket-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3047,
+        "name": "NIS Europe",
+        "slug": "nis-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2914,
+        "name": "Grip Games",
+        "slug": "grip-games",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/grip-games/images/company_logos/e0/grip-games_logo_thumb.png",
+            "width": 1325,
+            "height": 922
+        }
+    },
+    {
+        "id": 3240,
+        "name": "IMAGICA Corp.",
+        "slug": "imagica-corp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3241,
+        "name": "Just Cause Productions",
+        "slug": "just-cause-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3242,
+        "name": "Visual Flight Co.",
+        "slug": "visual-flight-co",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2876,
+        "name": "gogii games",
+        "slug": "gogii-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3246,
+        "name": "Blur Studio",
+        "slug": "blur-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1660,
+        "name": "Dejobaan Games",
+        "slug": "dejobaan-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2910,
+        "name": "1-UP Studio",
+        "slug": "1-up-studio",
+        "average_rating": null,
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/1-up-studio/images/company_logos/7b/1-up-studio_logo_thumb.png",
+            "width": 200,
+            "height": 140
+        }
+    }
+]

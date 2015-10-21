@@ -1,0 +1,201 @@
+[
+    {
+        "id": 3287,
+        "name": "Technicolor India Pvt. Ltd",
+        "slug": "technicolor-india-pvt-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3288,
+        "name": "Maria Fumaça Productions",
+        "slug": "maria-fumaca-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3289,
+        "name": "Mix Nova Studio Sao Paulo",
+        "slug": "mix-nova-studio-sao-paulo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3290,
+        "name": "HEALTH",
+        "slug": "health",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3291,
+        "name": "Animazoo",
+        "slug": "animazoo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3292,
+        "name": "Centrum Zdrowia Dziecka",
+        "slug": "centrum-zdrowia-dziecka",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3293,
+        "name": "Outsource Media UK",
+        "slug": "outsource-media-uk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2675,
+        "name": "Nex Entertainment",
+        "slug": "nex-entertainment",
+        "average_rating": "8.61240116682267",
+        "founded_year": 1992,
+        "parent": 112,
+        "company_logo": {
+            "url": "/companies/nex-entertainment/images/company_logos/61/nex-entertainment_logo_thumb.png",
+            "width": 168,
+            "height": 56
+        }
+    },
+    {
+        "id": 1778,
+        "name": "SCEI",
+        "slug": "scei",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 440,
+        "name": "SCEE",
+        "slug": "scee",
+        "average_rating": "9.19405450756729",
+        "parent": null
+    },
+    {
+        "id": 420,
+        "name": "Flying Wild Hog",
+        "slug": "flying-wild-hog",
+        "average_rating": "8.81853874070471",
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/flying-wild-hog/images/company_logos/w/flying-wild-hog_logo_thumb.png",
+            "width": 426,
+            "height": 557
+        }
+    },
+    {
+        "id": 2670,
+        "name": "HexaDrive",
+        "slug": "hexadrive",
+        "average_rating": "8.75667217715623",
+        "parent": null
+    },
+    {
+        "id": 2182,
+        "name": "Hip Games",
+        "slug": "hip-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 828,
+        "name": "Alfa System",
+        "slug": "alfa-system",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 708,
+        "name": "On-Line Systems",
+        "slug": "on-line-systems",
+        "average_rating": null,
+        "founded_year": 1979,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/on-line-systems/images/company_logos/18/on-line-systems_logo_thumb.png",
+            "width": 300,
+            "height": 90
+        }
+    },
+    {
+        "id": 2673,
+        "name": "Mediaquest",
+        "slug": "mediaquest",
+        "average_rating": "8.11334942802872",
+        "parent": null
+    },
+    {
+        "id": 851,
+        "name": "ZeniMax Online Studios",
+        "slug": "zenimax-online-studios",
+        "average_rating": "7.1946353854837",
+        "founded_year": 2007,
+        "parent": 245,
+        "company_logo": {
+            "url": "/companies/zenimax-online-studios/images/company_logos/1f/zenimax-online-studios_logo_thumb.png",
+            "width": 1275,
+            "height": 375
+        }
+    },
+    {
+        "id": 2690,
+        "name": "5000ft",
+        "slug": "5000ft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2691,
+        "name": "Gameness Art",
+        "slug": "gameness-art",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2680,
+        "name": "Track Nine",
+        "slug": "track-nine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2681,
+        "name": "Sound Space",
+        "slug": "sound-space",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2692,
+        "name": "Starsphere Interactive",
+        "slug": "starsphere-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2682,
+        "name": "Space Budgie",
+        "slug": "space-budgie",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2684,
+        "name": "Endlessfluff Games",
+        "slug": "endlessfluff-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2694,
+        "name": "Kiloo",
+        "slug": "kiloo",
+        "average_rating": "5.35588434634787",
+        "parent": null
+    }
+]

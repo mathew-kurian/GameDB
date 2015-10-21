@@ -1,0 +1,196 @@
+[
+    {
+        "id": 266,
+        "name": "Tarantula Studios",
+        "slug": "tarantula-studios",
+        "average_rating": "8.21276770435314",
+        "parent": null
+    },
+    {
+        "id": 195,
+        "name": "Brøderbund Software",
+        "slug": "broderbund-software",
+        "average_rating": "8.63933626199661",
+        "founded_year": 1980,
+        "parent": null
+    },
+    {
+        "id": 253,
+        "name": "Square Europe",
+        "slug": "square-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 240,
+        "name": "Stainless Steel Studios",
+        "slug": "stainless-steel-studios",
+        "average_rating": "7.94381360324392",
+        "founded_year": 1998,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/stainless-steel-studios/images/company_logos/9a/stainless-steel-studios_logo_thumb.png",
+            "width": 366,
+            "height": 113
+        }
+    },
+    {
+        "id": 203,
+        "name": "Illusion Softworks",
+        "slug": "illusion-softworks",
+        "average_rating": "8.20164108356801",
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/illusion-softworks/images/company_logos/6k/illusion-softworks_logo_thumb.png",
+            "width": 200,
+            "height": 146
+        }
+    },
+    {
+        "id": 193,
+        "name": "Jellyvision",
+        "slug": "jellyvision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 265,
+        "name": "Contraband Entertainment",
+        "slug": "contraband-entertainment",
+        "average_rating": "8.00128230022035",
+        "parent": null
+    },
+    {
+        "id": 225,
+        "name": "Lobotomy Software",
+        "slug": "lobotomy-software",
+        "average_rating": "8.50730304642239",
+        "founded_year": 1993,
+        "parent": 667,
+        "company_logo": {
+            "url": "/companies/lobotomy-software/images/company_logos/a9/lobotomy-software_logo_thumb.png",
+            "width": 190,
+            "height": 200
+        }
+    },
+    {
+        "id": 275,
+        "name": "Titan Computer",
+        "slug": "titan-computer",
+        "average_rating": "8.99596273291925",
+        "parent": null
+    },
+    {
+        "id": 298,
+        "name": "Sierra Northwest",
+        "slug": "sierra-northwest",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 299,
+        "name": "Hellbent Games",
+        "slug": "hellbent-games",
+        "average_rating": "8.43549013306829",
+        "parent": null
+    },
+    {
+        "id": 302,
+        "name": "Massive Bear Studios",
+        "slug": "massive-bear-studios",
+        "average_rating": "8.36199652722688",
+        "parent": null
+    },
+    {
+        "id": 304,
+        "name": "Quicksilver Software",
+        "slug": "quicksilver-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 311,
+        "name": "Digital Dialect",
+        "slug": "digital-dialect",
+        "average_rating": "8.42855069417233",
+        "parent": null
+    },
+    {
+        "id": 2455,
+        "name": "NA.P.S. Team",
+        "slug": "na-p-s-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 320,
+        "name": "Kan Navi",
+        "slug": "kan-navi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 258,
+        "name": "KnowWonder",
+        "slug": "knowwonder",
+        "average_rating": "7.24327435882888",
+        "parent": null
+    },
+    {
+        "id": 262,
+        "name": "Flagship Studios",
+        "slug": "flagship-studios",
+        "average_rating": "7.89274236847634",
+        "parent": null
+    },
+    {
+        "id": 301,
+        "name": "2K Czech",
+        "slug": "2k-czech",
+        "average_rating": "8.36199652722688",
+        "parent": null
+    },
+    {
+        "id": 296,
+        "name": "3G Studios",
+        "slug": "3g-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 328,
+        "name": "Mean Hamster Software",
+        "slug": "mean-hamster-software",
+        "average_rating": "8.11667898675555",
+        "parent": null
+    },
+    {
+        "id": 330,
+        "name": "THQ Asia Pacific",
+        "slug": "thq-asia-pacific",
+        "average_rating": "8.77697801207931",
+        "parent": null
+    },
+    {
+        "id": 333,
+        "name": "EA Singapore",
+        "slug": "ea-singapore",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 337,
+        "name": "Square Enix Product Development Division 4",
+        "slug": "square-enix-product-development-division-4",
+        "average_rating": "8.77236681433319",
+        "parent": null
+    },
+    {
+        "id": 339,
+        "name": "The Assembly Line",
+        "slug": "the-assembly-line",
+        "average_rating": null,
+        "parent": null
+    }
+]

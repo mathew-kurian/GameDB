@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1514,
+        "name": "Firelight Technologies",
+        "slug": "firelight-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1515,
+        "name": "www.galaxygameworks.com",
+        "slug": "www-galaxygameworks-com",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1516,
+        "name": "Digitaaliset Demot",
+        "slug": "digitaaliset-demot",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1517,
+        "name": "Tekes",
+        "slug": "tekes",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1518,
+        "name": "S&H Entertainment Localization",
+        "slug": "s-h-entertainment-localization",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1519,
+        "name": "Cities In Motion: Tokyo",
+        "slug": "cities-in-motion-tokyo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1520,
+        "name": "Ulysses Graphics",
+        "slug": "ulysses-graphics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1605,
+        "name": "ATI",
+        "slug": "ati",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1606,
+        "name": "Dell",
+        "slug": "dell",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1607,
+        "name": "Falcon Northwest",
+        "slug": "falcon-northwest",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1608,
+        "name": "Havok",
+        "slug": "havok",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1609,
+        "name": "SOFTIMAGE",
+        "slug": "softimage",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1618,
+        "name": "www.pictus.cz",
+        "slug": "www-pictus-cz",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1624,
+        "name": "The Fez Fund",
+        "slug": "the-fez-fund",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1619,
+        "name": "www.silentnoise.cz",
+        "slug": "www-silentnoise-cz",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1084,
+        "name": "Millennium Interactive Ltd.",
+        "slug": "millennium-interactive-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1620,
+        "name": "OpenAL Soft",
+        "slug": "openal-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1101,
+        "name": "Meadowhill Interactive",
+        "slug": "meadowhill-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1621,
+        "name": "Xiph.org Foundation",
+        "slug": "xiph-org-foundation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1602,
+        "name": "Pure Audio",
+        "slug": "pure-audio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2473,
+        "name": "Pathea Games",
+        "slug": "pathea-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1094,
+        "name": "Pax Softnica",
+        "slug": "pax-softnica",
+        "average_rating": "8.04709802832546",
+        "parent": null
+    },
+    {
+        "id": 1037,
+        "name": "Philips Interactive Media, Inc.",
+        "slug": "philips-interactive-media-inc",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 1096,
+        "name": "Amusement Visions",
+        "slug": "amusement-visions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1069,
+        "name": "SIMS Co., Ltd",
+        "slug": "sims-co-ltd",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "id": 2487,
+        "name": "Alexander Poysky",
+        "slug": "alexander-poysky",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1182,
+        "name": "Creative Reality",
+        "slug": "creative-reality",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1183,
+        "name": "Tsunami Media",
+        "slug": "tsunami-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1184,
+        "name": "Global Business Concept",
+        "slug": "global-business-concept",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1186,
+        "name": "Spectrum Pacific Publishing",
+        "slug": "spectrum-pacific-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1187,
+        "name": "SW Games",
+        "slug": "sw-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1188,
+        "name": "Little Devils Inc.",
+        "slug": "little-devils-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1313,
+        "name": "Art Co., Ltd",
+        "slug": "art-co-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1864,
+        "name": "High Impact Games",
+        "slug": "high-impact-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 79,
+        "name": "Magic Pockets",
+        "slug": "magic-pockets",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1150,
+        "name": "ShenZhen Nanjing Technology",
+        "slug": "shenzhen-nanjing-technology",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1191,
+        "name": "FTL Games",
+        "slug": "ftl-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1115,
+        "name": "Imotion",
+        "slug": "imotion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1140,
+        "name": "Digital Anvil",
+        "slug": "digital-anvil",
+        "average_rating": "8.40447638155974",
+        "parent": null
+    },
+    {
+        "id": 834,
+        "name": "Insomniac Games",
+        "slug": "insomniac-games",
+        "average_rating": "8.00047324826763",
+        "parent": null
+    },
+    {
+        "id": 1193,
+        "name": "Synthetic Dimensions",
+        "slug": "synthetic-dimensions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1194,
+        "name": "Masque Publishing",
+        "slug": "masque-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1195,
+        "name": "Ant Software",
+        "slug": "ant-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1197,
+        "name": "SunStar Publishing",
+        "slug": "sunstar-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1374,
+        "name": "Acornsoft",
+        "slug": "acornsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1731,
+        "name": "Imagineering Inc.",
+        "slug": "imagineering-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 449,
+        "name": "D3 Publisher",
+        "slug": "d3-publisher",
+        "average_rating": "8.33648645146061",
+        "parent": null
+    },
+    {
+        "id": 1130,
+        "name": "Simulmondo",
+        "slug": "simulmondo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1107,
+        "name": "Stern",
+        "slug": "stern",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1762,
+        "name": "Simon & Schuster",
+        "slug": "simon-schuster",
+        "average_rating": null,
+        "parent": null
+    }
+]

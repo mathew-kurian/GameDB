@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1930,
+        "name": "Pseudo Interactive",
+        "slug": "pseudo-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1969,
+        "name": "Tate Interactive",
+        "slug": "tate-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 80,
+        "name": "Vivendi Games",
+        "slug": "vivendi-games",
+        "average_rating": "8.04077450424088",
+        "parent": null
+    },
+    {
+        "id": 1118,
+        "name": "Torn Banner Studios",
+        "slug": "torn-banner-studios",
+        "average_rating": "7.65700295537871",
+        "parent": null
+    },
+    {
+        "id": 1936,
+        "name": "Gotham Games",
+        "slug": "gotham-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1124,
+        "name": "Floodgate Entertainment",
+        "slug": "floodgate-entertainment",
+        "average_rating": "7.60950002453565",
+        "parent": null
+    },
+    {
+        "id": 1136,
+        "name": "Taxan",
+        "slug": "taxan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1779,
+        "name": "Kalisto Entertainment",
+        "slug": "kalisto-entertainment",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/kalisto-entertainment/images/company_logos/6i/kalisto-entertainment_logo_thumb.png",
+            "width": 528,
+            "height": 640
+        }
+    },
+    {
+        "id": 1154,
+        "name": "International Computer Entertainment ",
+        "slug": "international-computer-entertainment--2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1156,
+        "name": "Hypothermia",
+        "slug": "hypothermia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1159,
+        "name": "Ceridus Software",
+        "slug": "ceridus-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2575,
+        "name": "Blueside",
+        "slug": "blueside",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1161,
+        "name": "United Software Artists",
+        "slug": "united-software-artists",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1162,
+        "name": "Neurosport",
+        "slug": "neurosport",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1163,
+        "name": "R.A.W. Entertainment",
+        "slug": "r-a-w-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1164,
+        "name": "Illymani Designs",
+        "slug": "illymani-designs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1165,
+        "name": "Mindcraft Software",
+        "slug": "mindcraft-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1167,
+        "name": "Super Fighter Team",
+        "slug": "super-fighter-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1171,
+        "name": "Max Design GesMBH",
+        "slug": "max-design-gesmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1172,
+        "name": "MegaTech Software",
+        "slug": "megatech-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1173,
+        "name": "Haxoft",
+        "slug": "haxoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1176,
+        "name": "MPS Labs",
+        "slug": "mps-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1178,
+        "name": "John Romero",
+        "slug": "john-romero",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1139,
+        "name": "Cinematronics",
+        "slug": "cinematronics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2540,
+        "name": "Hide",
+        "slug": "hide",
+        "average_rating": null,
+        "parent": null
+    }
+]

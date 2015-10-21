@@ -1,0 +1,189 @@
+[
+    {
+        "id": 344,
+        "name": "Macmillan Digital Publishing USA",
+        "slug": "macmillan-digital-publishing-usa",
+        "average_rating": "8.57186487276988",
+        "parent": null
+    },
+    {
+        "id": 206,
+        "name": "Epic MegaGames",
+        "slug": "epic-megagames",
+        "average_rating": "8.34342129605781",
+        "parent": null
+    },
+    {
+        "id": 318,
+        "name": "Rebellion Developments",
+        "slug": "rebellion-developments",
+        "average_rating": "6.96766707358218",
+        "founded_year": 1992,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/rebellion-developments/images/company_logos/7z/rebellion-developments_logo_thumb.png",
+            "width": 528,
+            "height": 235
+        }
+    },
+    {
+        "id": 229,
+        "name": "SEGA of America",
+        "slug": "sega-of-america",
+        "average_rating": "8.86610749588894",
+        "parent": null
+    },
+    {
+        "id": 257,
+        "name": "Sierra Studios",
+        "slug": "sierra-studios",
+        "average_rating": "7.98413840779381",
+        "parent": null
+    },
+    {
+        "id": 189,
+        "name": "BAM! Entertainment",
+        "slug": "bam-entertainment",
+        "average_rating": "8.85509210490104",
+        "parent": null
+    },
+    {
+        "id": 335,
+        "name": "Square Product Development Division 3",
+        "slug": "square-product-development-division-3",
+        "average_rating": "8.57336832895888",
+        "parent": null
+    },
+    {
+        "id": 178,
+        "name": "Intelligent Games",
+        "slug": "intelligent-games",
+        "average_rating": "7.99796814958142",
+        "parent": null
+    },
+    {
+        "id": 369,
+        "name": "Chris Sawyer",
+        "slug": "chris-sawyer",
+        "average_rating": "8.65051334749312",
+        "parent": null
+    },
+    {
+        "id": 205,
+        "name": "GT Interactive",
+        "slug": "gt-interactive",
+        "average_rating": "8.33662238911507",
+        "parent": null
+    },
+    {
+        "id": 191,
+        "name": "Imagineer",
+        "slug": "imagineer",
+        "average_rating": "8.89664985059889",
+        "parent": null
+    },
+    {
+        "id": 181,
+        "name": "Blue Fang Games",
+        "slug": "blue-fang-games",
+        "average_rating": "7.14604898627774",
+        "parent": null
+    },
+    {
+        "id": 2452,
+        "name": "Big Fish Studios",
+        "slug": "big-fish-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 254,
+        "name": "Widescreen Games",
+        "slug": "widescreen-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 345,
+        "name": "Think & Feel",
+        "slug": "think-feel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 346,
+        "name": "The Game Designers Studio",
+        "slug": "the-game-designers-studio",
+        "average_rating": "7.85580852305896",
+        "parent": null
+    },
+    {
+        "id": 2456,
+        "name": "React! Games",
+        "slug": "react-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 353,
+        "name": "Pocketeers",
+        "slug": "pocketeers",
+        "average_rating": "8.28160507533588",
+        "parent": null
+    },
+    {
+        "id": 313,
+        "name": "Success Corporation",
+        "slug": "success-corporation",
+        "average_rating": "8.92489652046802",
+        "parent": null
+    },
+    {
+        "id": 307,
+        "name": "Rockstar Vienna",
+        "slug": "rockstar-vienna",
+        "average_rating": "8.73921091026928",
+        "founded_year": 1993,
+        "parent": 29,
+        "company_logo": {
+            "url": "/companies/rockstar-vienna/images/company_logos/2h/rockstar-vienna_logo_thumb.png",
+            "width": 500,
+            "height": 460
+        }
+    },
+    {
+        "id": 359,
+        "name": "Hammerhead",
+        "slug": "hammerhead",
+        "average_rating": "8.99523114858393",
+        "parent": null
+    },
+    {
+        "id": 341,
+        "name": "Bullet-Proof Software",
+        "slug": "bullet-proof-software",
+        "average_rating": "8.72982661738914",
+        "parent": null
+    },
+    {
+        "id": 1453,
+        "name": "Sharp",
+        "slug": "sharp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 259,
+        "name": "Warthog Games",
+        "slug": "warthog-games",
+        "average_rating": "7.24327435882888",
+        "parent": null
+    },
+    {
+        "id": 323,
+        "name": "Nextech",
+        "slug": "nextech",
+        "average_rating": "7.68913853911896",
+        "parent": null
+    }
+]

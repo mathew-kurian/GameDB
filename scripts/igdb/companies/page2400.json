@@ -1,0 +1,189 @@
+[
+    {
+        "id": 3309,
+        "name": "Brady Games",
+        "slug": "brady-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3310,
+        "name": "The Bunker Studios",
+        "slug": "the-bunker-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3311,
+        "name": "Chatter Inc",
+        "slug": "chatter-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3312,
+        "name": "Dark Horse",
+        "slug": "dark-horse",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3313,
+        "name": "Digital Surgeons",
+        "slug": "digital-surgeons",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 90,
+        "name": "Neversoft",
+        "slug": "neversoft",
+        "average_rating": "7.44606514739121",
+        "founded_year": 1994,
+        "parent": 66,
+        "company_logo": {
+            "url": "/companies/neversoft/images/company_logos/20/neversoft_logo_thumb.png",
+            "width": 321,
+            "height": 131
+        }
+    },
+    {
+        "id": 3114,
+        "name": "Gamehouse",
+        "slug": "gamehouse--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2828,
+        "name": "Apex Designs",
+        "slug": "apex-designs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2857,
+        "name": "Dreamhive",
+        "slug": "dreamhive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2851,
+        "name": "Infinite Monkeys Entertainment Ltd.",
+        "slug": "infinite-monkeys-entertainment-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 427,
+        "name": "Bugbear Entertainment",
+        "slug": "bugbear-entertainment",
+        "average_rating": "7.4795337862305",
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/bugbear-entertainment/images/company_logos/2b/bugbear-entertainment_logo_thumb.png",
+            "width": 1030,
+            "height": 238
+        }
+    },
+    {
+        "id": 2833,
+        "name": "Planetwide Media",
+        "slug": "planetwide-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2834,
+        "name": "GamaSoft",
+        "slug": "gamasoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2832,
+        "name": "On5",
+        "slug": "on5",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2840,
+        "name": "Clawfish Interactive",
+        "slug": "clawfish-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2841,
+        "name": "D4 Enterprise, Inc",
+        "slug": "d4-enterprise-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2835,
+        "name": "Ninai Games",
+        "slug": "ninai-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2967,
+        "name": "Koei Canada",
+        "slug": "koei-canada",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2838,
+        "name": "D4 Enterprise ",
+        "slug": "d4-enterprise-3527e336-428c-46f3-ae0d-62fabc9951d3",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2836,
+        "name": "Codo Technologies",
+        "slug": "codo-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2853,
+        "name": "Nintedo NSD",
+        "slug": "nintedo-nsd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2863,
+        "name": "Tantamount Prod.",
+        "slug": "tantamount-prod",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1430,
+        "name": "Sun Corporation of America",
+        "slug": "sun-corporation-of-america",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2842,
+        "name": "slang",
+        "slug": "slang",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2843,
+        "name": "konami Co., Ltd",
+        "slug": "konami-co-ltd",
+        "average_rating": null,
+        "parent": null
+    }
+]

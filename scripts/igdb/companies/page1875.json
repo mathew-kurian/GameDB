@@ -1,0 +1,183 @@
+[
+    {
+        "id": 2273,
+        "name": "Team Tachyon",
+        "slug": "team-tachyon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2236,
+        "name": "Freebird Games",
+        "slug": "freebird-games",
+        "average_rating": "8.57882009251967",
+        "parent": null
+    },
+    {
+        "id": 2149,
+        "name": "Zoe Mode",
+        "slug": "zoe-mode",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2224,
+        "name": "Micro Application S.A.",
+        "slug": "micro-application-s-a",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2232,
+        "name": "Ubisoft Sao Paulo",
+        "slug": "ubisoft-sao-paulo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2249,
+        "name": "The Fizz Factor",
+        "slug": "the-fizz-factor",
+        "average_rating": "7.98973662494021",
+        "parent": null
+    },
+    {
+        "id": 2497,
+        "name": "Wolfire Games",
+        "slug": "wolfire-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2241,
+        "name": "W!Games",
+        "slug": "w-games",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 2265,
+        "name": "EM Studios",
+        "slug": "em-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2264,
+        "name": "Blazing Lizard",
+        "slug": "blazing-lizard",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2274,
+        "name": "Kheops Studio",
+        "slug": "kheops-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2276,
+        "name": "Fusionsphere Systems",
+        "slug": "fusionsphere-systems",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2270,
+        "name": "TNX",
+        "slug": "tnx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2271,
+        "name": "SpiderMonk Entertainment",
+        "slug": "spidermonk-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2268,
+        "name": "Kando Games",
+        "slug": "kando-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2269,
+        "name": "Jack Of All Games",
+        "slug": "jack-of-all-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2272,
+        "name": "HandMade Games",
+        "slug": "handmade-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2286,
+        "name": "Original Force Ltd.",
+        "slug": "original-force-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2287,
+        "name": "Secret 6, Inc. & The Studio of Secret6, Inc.",
+        "slug": "secret-6-inc-the-studio-of-secret6-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2288,
+        "name": "Red Hot CG Software Ltd.",
+        "slug": "red-hot-cg-software-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2440,
+        "name": "2XL Games",
+        "slug": "2xl-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2715,
+        "name": "Tiwak SAS",
+        "slug": "tiwak-sas",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2259,
+        "name": "Radon Labs",
+        "slug": "radon-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2254,
+        "name": "ArtePiazza",
+        "slug": "artepiazza",
+        "average_rating": null,
+        "founded_year": 1989,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/artepiazza/images/company_logos/7f/artepiazza_logo_thumb.png",
+            "width": 550,
+            "height": 330
+        }
+    },
+    {
+        "id": 2251,
+        "name": "Hydravision Entertainment",
+        "slug": "hydravision-entertainment",
+        "average_rating": "6.0011756512049",
+        "parent": null
+    }
+]

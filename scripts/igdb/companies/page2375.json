@@ -1,0 +1,189 @@
+[
+    {
+        "id": 2809,
+        "name": "NCS Corporation",
+        "slug": "ncs-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2807,
+        "name": "Shin'en",
+        "slug": "shin-en",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3302,
+        "name": "Atari USA",
+        "slug": "atari-usa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2824,
+        "name": "Radius9",
+        "slug": "radius9",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2813,
+        "name": "Game Titan",
+        "slug": "game-titan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2814,
+        "name": "Human Soft",
+        "slug": "human-soft",
+        "average_rating": "8.16569316852209",
+        "parent": null
+    },
+    {
+        "id": 1050,
+        "name": "Mode 7",
+        "slug": "mode-7",
+        "average_rating": null,
+        "founded_year": 2005,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/mode-7/images/company_logos/24/mode-7_logo_thumb.png",
+            "width": 242,
+            "height": 58
+        }
+    },
+    {
+        "id": 2823,
+        "name": "Sabarasa",
+        "slug": "sabarasa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1370,
+        "name": "Emily Short",
+        "slug": "emily-short",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2825,
+        "name": "Tomy Corporation",
+        "slug": "tomy-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2783,
+        "name": "Enix",
+        "slug": "enix",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3162,
+        "name": "Night Dive Studios",
+        "slug": "night-dive-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2780,
+        "name": "Klein Computer Entertainment",
+        "slug": "klein-computer-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 694,
+        "name": "Visual Concepts",
+        "slug": "visual-concepts",
+        "average_rating": "7.34674596334225",
+        "parent": null
+    },
+    {
+        "id": 2773,
+        "name": "KSS",
+        "slug": "kss",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1128,
+        "name": "1st Playable Productions",
+        "slug": "1st-playable-productions",
+        "average_rating": null,
+        "founded_year": 2005,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/1st-playable-productions/images/company_logos/3l/1st-playable-productions_logo_thumb.png",
+            "width": 452,
+            "height": 151
+        }
+    },
+    {
+        "id": 2801,
+        "name": "Frame Studios",
+        "slug": "frame-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2815,
+        "name": "Orbital Media",
+        "slug": "orbital-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2822,
+        "name": "Graffiti Entertainment",
+        "slug": "graffiti-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3044,
+        "name": "UserJoy Entertainment",
+        "slug": "userjoy-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3161,
+        "name": "Merit Studios",
+        "slug": "merit-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3115,
+        "name": "Bluehole Studio",
+        "slug": "bluehole-studio",
+        "average_rating": "6.88931054617767",
+        "parent": null
+    },
+    {
+        "id": 3078,
+        "name": "En Masse Entertainment",
+        "slug": "en-masse-entertainment",
+        "average_rating": "6.88931054617767",
+        "parent": null
+    },
+    {
+        "id": 3303,
+        "name": "Atari Asia Pacific",
+        "slug": "atari-asia-pacific",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3308,
+        "name": "Blind Squirrel Games",
+        "slug": "blind-squirrel-games",
+        "average_rating": null,
+        "parent": null
+    }
+]

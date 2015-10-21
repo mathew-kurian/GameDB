@@ -1,0 +1,195 @@
+[
+    {
+        "id": 1500,
+        "name": "Matahari Studios",
+        "slug": "matahari-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1501,
+        "name": "Post Modern Sound",
+        "slug": "post-modern-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1502,
+        "name": "Rainmaker Studios",
+        "slug": "rainmaker-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1503,
+        "name": "Technicolor Sound Studios",
+        "slug": "technicolor-sound-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1561,
+        "name": "Digital Steamworks",
+        "slug": "digital-steamworks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1562,
+        "name": "WaveGeneration",
+        "slug": "wavegeneration",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1563,
+        "name": "Naxos Music Library",
+        "slug": "naxos-music-library",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1657,
+        "name": "Chaosoft Games",
+        "slug": "chaosoft-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2002,
+        "name": "Phoenix Games Studios",
+        "slug": "phoenix-games-studios",
+        "average_rating": "7.48114029326688",
+        "parent": null
+    },
+    {
+        "id": 1087,
+        "name": "MECC",
+        "slug": "mecc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 530,
+        "name": "Eagle Dynamics",
+        "slug": "eagle-dynamics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1127,
+        "name": "Infinite Interactive",
+        "slug": "infinite-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1816,
+        "name": "Culture Brain",
+        "slug": "culture-brain",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1783,
+        "name": "Midway Home Entertainment",
+        "slug": "midway-home-entertainment",
+        "average_rating": "6.07164805738727",
+        "parent": null
+    },
+    {
+        "id": 1746,
+        "name": "Atari Games",
+        "slug": "atari-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 355,
+        "name": "Zoo Digital",
+        "slug": "zoo-digital",
+        "average_rating": "7.33731754096604",
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/zoo-digital/images/company_logos/6q/zoo-digital_logo_thumb.png",
+            "width": 150,
+            "height": 63
+        }
+    },
+    {
+        "id": 340,
+        "name": "Empire Interactive",
+        "slug": "empire-interactive",
+        "average_rating": "7.98406254387491",
+        "founded_year": 1987,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/empire-interactive/images/company_logos/8h/empire-interactive_logo_thumb.png",
+            "width": 125,
+            "height": 146
+        }
+    },
+    {
+        "id": 2478,
+        "name": "Surprise Attack",
+        "slug": "surprise-attack",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1922,
+        "name": "Racjin",
+        "slug": "racjin",
+        "average_rating": null,
+        "founded_year": 1995,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/racjin/images/company_logos/7e/racjin_logo_thumb.png",
+            "width": 237,
+            "height": 60
+        }
+    },
+    {
+        "id": 1986,
+        "name": "Swingin' Ape Studios",
+        "slug": "swingin-ape-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1993,
+        "name": "Vivarium",
+        "slug": "vivarium",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 163,
+        "name": "Climax Studios",
+        "slug": "climax-studios",
+        "average_rating": "7.30906828352071",
+        "parent": null
+    },
+    {
+        "id": 1626,
+        "name": "Grenade Games",
+        "slug": "grenade-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1658,
+        "name": "Sauropod Studio",
+        "slug": "sauropod-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1756,
+        "name": "Amtex",
+        "slug": "amtex",
+        "average_rating": null,
+        "parent": null
+    }
+]

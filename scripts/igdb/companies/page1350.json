@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1198,
+        "name": "Magic Lemon Software",
+        "slug": "magic-lemon-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1202,
+        "name": "Adept Software",
+        "slug": "adept-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1203,
+        "name": "DMA Design Limited",
+        "slug": "dma-design-limited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1206,
+        "name": "Perceptum Informática",
+        "slug": "perceptum-informatica",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1207,
+        "name": "Level Infinity",
+        "slug": "level-infinity",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1209,
+        "name": "Société Pollene",
+        "slug": "societe-pollene",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1224,
+        "name": "Introversion Software",
+        "slug": "introversion-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1225,
+        "name": "Ubisoft San Fransisico",
+        "slug": "ubisoft-san-fransisico",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1122,
+        "name": "The Code Monkeys",
+        "slug": "the-code-monkeys",
+        "average_rating": "9.06217547421277",
+        "parent": null
+    },
+    {
+        "id": 1135,
+        "name": "KID",
+        "slug": "kid",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1168,
+        "name": "WizarBox",
+        "slug": "wizarbox",
+        "average_rating": "7.9530421345319",
+        "parent": null
+    },
+    {
+        "id": 1120,
+        "name": "Superior Software Ltd.",
+        "slug": "superior-software-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1214,
+        "name": "Game Republic",
+        "slug": "game-republic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1185,
+        "name": "The Dreamers Guild",
+        "slug": "the-dreamers-guild",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1155,
+        "name": "California Pacific Computer",
+        "slug": "california-pacific-computer",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1179,
+        "name": "Imangi Studios",
+        "slug": "imangi-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1175,
+        "name": "Imagitec Design",
+        "slug": "imagitec-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1216,
+        "name": "Pyramid",
+        "slug": "pyramid",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1204,
+        "name": "Brasoft Produtos de Informática",
+        "slug": "brasoft-produtos-de-informatica",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1169,
+        "name": "David A. Palmer Productions",
+        "slug": "david-a-palmer-productions",
+        "average_rating": "8.96458176658699",
+        "parent": null
+    },
+    {
+        "id": 1205,
+        "name": "TNT Team",
+        "slug": "tnt-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1230,
+        "name": "Microforum International",
+        "slug": "microforum-international",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1231,
+        "name": "SUNGJIN Multi-media",
+        "slug": "sungjin-multi-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1232,
+        "name": "NashiIgry Llc.",
+        "slug": "nashiigry-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1236,
+        "name": "Cajji Software,",
+        "slug": "cajji-software",
+        "average_rating": null,
+        "parent": null
+    }
+]

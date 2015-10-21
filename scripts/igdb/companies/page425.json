@@ -1,0 +1,177 @@
+[
+    {
+        "id": 676,
+        "name": "Extended Play Productions",
+        "slug": "extended-play-productions",
+        "average_rating": "8.96637092960768",
+        "parent": null
+    },
+    {
+        "id": 677,
+        "name": "XYZ Productions",
+        "slug": "xyz-productions",
+        "average_rating": "8.96637092960768",
+        "parent": null
+    },
+    {
+        "id": 681,
+        "name": "Cunning Development",
+        "slug": "cunning-development",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 682,
+        "name": "Reactor Zero",
+        "slug": "reactor-zero",
+        "average_rating": "7.03573454390227",
+        "parent": null
+    },
+    {
+        "id": 686,
+        "name": "Actualize",
+        "slug": "actualize",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 687,
+        "name": "Creative Asylum",
+        "slug": "creative-asylum",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 689,
+        "name": "Garena",
+        "slug": "garena",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 693,
+        "name": "Ceris Software",
+        "slug": "ceris-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 698,
+        "name": "Mind Control Software",
+        "slug": "mind-control-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 679,
+        "name": "Tri-Synergy",
+        "slug": "tri-synergy--2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 707,
+        "name": "ChinaAVG",
+        "slug": "chinaavg",
+        "average_rating": "8.53102294515331",
+        "parent": null
+    },
+    {
+        "id": 714,
+        "name": "ACES Game Studio",
+        "slug": "aces-game-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 715,
+        "name": "Hitmen Productions",
+        "slug": "hitmen-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 719,
+        "name": "Infogrames North America",
+        "slug": "infogrames-north-america",
+        "average_rating": "8.00004021976687",
+        "parent": null
+    },
+    {
+        "id": 723,
+        "name": "Aeon Electronic Entertainment",
+        "slug": "aeon-electronic-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 724,
+        "name": "Ultimation",
+        "slug": "ultimation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 729,
+        "name": "TechInform",
+        "slug": "techinform",
+        "average_rating": "7.12059321555184",
+        "parent": null
+    },
+    {
+        "id": 734,
+        "name": "Reloaded Productions ",
+        "slug": "reloaded-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 735,
+        "name": "K2 Network",
+        "slug": "k2-network",
+        "average_rating": "6.39474188806272",
+        "parent": null
+    },
+    {
+        "id": 733,
+        "name": "Realtime Worlds",
+        "slug": "realtime-worlds",
+        "average_rating": "6.50808915925971",
+        "parent": null
+    },
+    {
+        "id": 736,
+        "name": "Brightside Entertainment",
+        "slug": "brightside-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 738,
+        "name": "Evolution Vault",
+        "slug": "evolution-vault",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 663,
+        "name": "Capcom Production Studio 4",
+        "slug": "capcom-production-studio-4",
+        "average_rating": "8.32435022370331",
+        "parent": null
+    },
+    {
+        "id": 609,
+        "name": "KCET",
+        "slug": "kcet",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 644,
+        "name": "Merit Software",
+        "slug": "merit-software",
+        "average_rating": null,
+        "parent": null
+    }
+]

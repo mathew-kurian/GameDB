@@ -1,0 +1,207 @@
+[
+    {
+        "id": 268,
+        "name": "Global Star Software",
+        "slug": "global-star-software",
+        "average_rating": "7.99753811191549",
+        "parent": null
+    },
+    {
+        "id": 281,
+        "name": "Tigon Studios",
+        "slug": "tigon-studios",
+        "average_rating": "8.25990896402297",
+        "parent": null
+    },
+    {
+        "id": 319,
+        "name": "n-Space",
+        "slug": "n-space--1",
+        "average_rating": "7.78741764487675",
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/n-space--1/images/company_logos/82/n-space--1_logo_thumb.png",
+            "width": 351,
+            "height": 358
+        }
+    },
+    {
+        "id": 358,
+        "name": "Raster Productions",
+        "slug": "raster-productions",
+        "average_rating": "8.55171485389899",
+        "parent": null
+    },
+    {
+        "id": 183,
+        "name": "Hasbro Interactive",
+        "slug": "hasbro-interactive",
+        "average_rating": "7.84807866520211",
+        "parent": null
+    },
+    {
+        "id": 269,
+        "name": "Enlight Software",
+        "slug": "enlight-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 255,
+        "name": "ArenaNet",
+        "slug": "arenanet",
+        "average_rating": "8.31403568576998",
+        "parent": null
+    },
+    {
+        "id": 256,
+        "name": "NCsoft",
+        "slug": "ncsoft",
+        "average_rating": "7.60771269819632",
+        "parent": null
+    },
+    {
+        "id": 342,
+        "name": "Yosemite Entertainment",
+        "slug": "yosemite-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 326,
+        "name": "Cyan Worlds",
+        "slug": "cyan-worlds",
+        "average_rating": "8.42395629127804",
+        "founded_year": 1987,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/cyan-worlds/images/company_logos/8x/cyan-worlds_logo_thumb.png",
+            "width": 2000,
+            "height": 2000
+        }
+    },
+    {
+        "id": 271,
+        "name": "The Collective",
+        "slug": "the-collective",
+        "average_rating": null,
+        "founded_year": 1997,
+        "parent": 4358,
+        "company_logo": {
+            "url": "/companies/the-collective/images/company_logos/7o/the-collective_logo_thumb.png",
+            "width": 400,
+            "height": 344
+        }
+    },
+    {
+        "id": 279,
+        "name": "4J Studios",
+        "slug": "4j-studios",
+        "average_rating": "8.32672749759054",
+        "parent": null
+    },
+    {
+        "id": 282,
+        "name": "Trilobyte",
+        "slug": "trilobyte",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 336,
+        "name": "Square Enix Product Development Division 3",
+        "slug": "square-enix-product-development-division-3",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 325,
+        "name": "Saffire",
+        "slug": "saffire",
+        "average_rating": "8.89909722184671",
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/saffire/images/company_logos/bk/saffire_logo_thumb.png",
+            "width": 311,
+            "height": 294
+        }
+    },
+    {
+        "id": 309,
+        "name": "2015",
+        "slug": "2015",
+        "average_rating": "7.75570037997337",
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/2015/images/company_logos/ai/2015_logo_thumb.png",
+            "width": 295,
+            "height": 181
+        }
+    },
+    {
+        "id": 1581,
+        "name": "Axis Animation",
+        "slug": "axis-animation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 382,
+        "name": "Silver Style Entertainment",
+        "slug": "silver-style-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 386,
+        "name": "Lucasfilm Animation Singapore",
+        "slug": "lucasfilm-animation-singapore",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1582,
+        "name": "Eyetronics-3D",
+        "slug": "eyetronics-3d",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1583,
+        "name": "Faction Creative Effects",
+        "slug": "faction-creative-effects",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1451,
+        "name": "Black Pants Game Studio",
+        "slug": "black-pants-game-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 350,
+        "name": "EA Seattle",
+        "slug": "ea-seattle",
+        "average_rating": "7.00534406298797",
+        "parent": null
+    },
+    {
+        "id": 1810,
+        "name": "Produce",
+        "slug": "produce",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1937,
+        "name": "Saru Brunei",
+        "slug": "saru-brunei",
+        "average_rating": null,
+        "parent": null
+    }
+]

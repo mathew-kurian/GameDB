@@ -1,0 +1,183 @@
+[
+    {
+        "id": 2845,
+        "name": "Mistic Software Inc",
+        "slug": "mistic-software-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2847,
+        "name": "TechFront Studios",
+        "slug": "techfront-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2848,
+        "name": "eGames, Inc",
+        "slug": "egames-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2849,
+        "name": "Frozen Codebase, LLC",
+        "slug": "frozen-codebase-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2862,
+        "name": "Square Enix Product Development Division 8",
+        "slug": "square-enix-product-development-division-8",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2858,
+        "name": "Kitty Group",
+        "slug": "kitty-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2864,
+        "name": "Creative Labs",
+        "slug": "creative-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2854,
+        "name": "Monkey Gods",
+        "slug": "monkey-gods",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2855,
+        "name": "Snood World",
+        "slug": "snood-world",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2856,
+        "name": "David M. Dobson",
+        "slug": "david-m-dobson",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2830,
+        "name": "Mitchell Corporation",
+        "slug": "mitchell-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2870,
+        "name": "Player X",
+        "slug": "player-x",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2865,
+        "name": "Intel Corporation",
+        "slug": "intel-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2868,
+        "name": "Tigeon Studios",
+        "slug": "tigeon-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2866,
+        "name": "DirectX",
+        "slug": "directx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2860,
+        "name": "Milion Co.",
+        "slug": "milion-co",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2861,
+        "name": "Realism",
+        "slug": "realism",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2867,
+        "name": "Adrenalin Entertainment",
+        "slug": "adrenalin-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2869,
+        "name": "Cosmigo",
+        "slug": "cosmigo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2829,
+        "name": "ZOOM Inc.",
+        "slug": "zoom-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2871,
+        "name": "Oasis",
+        "slug": "oasis",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1712,
+        "name": "Rockstar Lincoln",
+        "slug": "rockstar-lincoln",
+        "average_rating": null,
+        "founded_year": 1997,
+        "parent": 29,
+        "company_logo": {
+            "url": "/companies/rockstar-lincoln/images/company_logos/2k/rockstar-lincoln_logo_thumb.png",
+            "width": 500,
+            "height": 460
+        }
+    },
+    {
+        "id": 2839,
+        "name": "Naxat Soft",
+        "slug": "naxat-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2837,
+        "name": "D4 Enterprise",
+        "slug": "d4-enterprise",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3050,
+        "name": "Vagabond Dog",
+        "slug": "vagabond-dog",
+        "average_rating": null,
+        "parent": null
+    }
+]

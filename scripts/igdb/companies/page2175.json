@@ -1,0 +1,196 @@
+[
+    {
+        "id": 245,
+        "name": "ZeniMax Media",
+        "slug": "zenimax-media",
+        "average_rating": "8.53477932728738",
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/zenimax-media/images/company_logos/1e/zenimax-media_logo_thumb.png",
+            "width": 310,
+            "height": 81
+        }
+    },
+    {
+        "id": 650,
+        "name": "Reflections Interactive",
+        "slug": "reflections-interactive",
+        "average_rating": "7.23326724344599",
+        "founded_year": 1984,
+        "parent": 2406
+    },
+    {
+        "id": 3284,
+        "name": "Mineloader Software Co., Ltd.",
+        "slug": "mineloader-software-co-dot-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2677,
+        "name": "MicroLeague",
+        "slug": "microleague",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2674,
+        "name": "Nintendo SPD No. 1",
+        "slug": "nintendo-spd-no-1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3106,
+        "name": "Weddington",
+        "slug": "weddington",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2679,
+        "name": "ProSoft",
+        "slug": "prosoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3107,
+        "name": "Hollywood Recording Services",
+        "slug": "hollywood-recording-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2754,
+        "name": "Gamezlab",
+        "slug": "gamezlab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3033,
+        "name": "GameStar",
+        "slug": "gamestar",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2752,
+        "name": "ScriptArts",
+        "slug": "scriptarts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2753,
+        "name": "Sega Development Division #3",
+        "slug": "sega-development-division-3",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3034,
+        "name": "Yuke's Osaka",
+        "slug": "yuke-s-osaka",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3104,
+        "name": "Four Bars Entertainment",
+        "slug": "four-bars-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2672,
+        "name": "Black Element Software",
+        "slug": "black-element-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3105,
+        "name": "EFX",
+        "slug": "efx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3285,
+        "name": "Liquid Development, LLC",
+        "slug": "liquid-development-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3157,
+        "name": "SNK Games",
+        "slug": "snk-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 377,
+        "name": "Firaxis Games",
+        "slug": "firaxis-games",
+        "average_rating": "8.47066881373589",
+        "founded_year": 1996,
+        "parent": 8,
+        "company_logo": {
+            "url": "/companies/firaxis-games/images/company_logos/z/firaxis-games_logo_thumb.png",
+            "width": 332,
+            "height": 293
+        }
+    },
+    {
+        "id": 2103,
+        "name": "Aksys Games",
+        "slug": "aksys-games",
+        "average_rating": "7.72830690794832",
+        "parent": null
+    },
+    {
+        "id": 1177,
+        "name": "Wow Entertainment",
+        "slug": "wow-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2676,
+        "name": "Media.Vision",
+        "slug": "media-vision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3154,
+        "name": "Elemental Games",
+        "slug": "elemental-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 396,
+        "name": "Dimps",
+        "slug": "dimps",
+        "average_rating": "8.06636003293108",
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/dimps/images/company_logos/37/dimps_logo_thumb.png",
+            "width": 180,
+            "height": 50
+        }
+    },
+    {
+        "id": 3286,
+        "name": "3D-Eyetronics, Inc.",
+        "slug": "3d-eyetronics-inc",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -19,7 +19,9 @@ app.debug = True
 with open('scripts/igdb/games/hyped0.json') as f:
     games_db = json.load(f)
 
-publishers_db = {}
+with open('scripts/igdb/companies/best0.json') as f:
+    publishers_db = json.load(f)
+
 releases_db = {}
 
 def router(db, model, id=-1):
@@ -60,7 +62,7 @@ def releases(id=-1):
 @app.route('/publishers/<int:id>')
 @app.route('/publishers.html')
 def publishers(id=-1):
-    return router(publishers_dh, 'publishers', id)
+    return router(publishers_db, 'publishers', id)
 
 
 if __name__ == '__main__':

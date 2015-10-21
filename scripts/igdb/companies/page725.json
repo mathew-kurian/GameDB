@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1492,
+        "name": "Dream Builder Studios",
+        "slug": "dream-builder-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1002,
+        "name": "Respawn Entertainment",
+        "slug": "respawn-entertainment",
+        "average_rating": "8.36046074619777",
+        "parent": null
+    },
+    {
+        "id": 1013,
+        "name": "Polytron Corporation",
+        "slug": "polytron-corporation",
+        "average_rating": "8.32025818015042",
+        "parent": null
+    },
+    {
+        "id": 1015,
+        "name": "Ed Key and David Kanaga",
+        "slug": "ed-key-and-david-kanaga",
+        "average_rating": "6.19614955595562",
+        "parent": null
+    },
+    {
+        "id": 1020,
+        "name": "Electric Dreams Inc.",
+        "slug": "electric-dreams-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1462,
+        "name": "Quadriga Games",
+        "slug": "quadriga-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1595,
+        "name": "GreenLink",
+        "slug": "greenlink",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1596,
+        "name": "Sc Quantic Lab Srl",
+        "slug": "sc-quantic-lab-srl",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1597,
+        "name": "VoletMedia GmbH Munich",
+        "slug": "voletmedia-gmbh-munich",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 300,
+        "name": "Nintendo Creative Department",
+        "slug": "nintendo-creative-department",
+        "average_rating": "8.72237313512068",
+        "parent": null
+    },
+    {
+        "id": 1598,
+        "name": "GlobaLoc GmbH",
+        "slug": "globaloc-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1023,
+        "name": "Wizards of the Coast LLC",
+        "slug": "wizards-of-the-coast-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1024,
+        "name": "Wizards of the Coast LLC ",
+        "slug": "wizards-of-the-coast-llc--2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2466,
+        "name": "Ignited Minds, LLC",
+        "slug": "ignited-minds-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1028,
+        "name": "Revistronic",
+        "slug": "revistronic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1029,
+        "name": "Softgold Computerspiele GmbH",
+        "slug": "softgold-computerspiele-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1032,
+        "name": "Dynabyte",
+        "slug": "dynabyte",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1490,
+        "name": "Phoenix",
+        "slug": "phoenix",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1491,
+        "name": "Mc O'River",
+        "slug": "mc-o-river",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1025,
+        "name": "Good-Feel",
+        "slug": "good-feel",
+        "average_rating": "7.02273988054066",
+        "parent": null
+    },
+    {
+        "id": 1592,
+        "name": "Studio BX",
+        "slug": "studio-bx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1003,
+        "name": "Dennaton Games",
+        "slug": "dennaton-games",
+        "average_rating": "8.46506017431955",
+        "parent": null
+    },
+    {
+        "id": 1593,
+        "name": "DashDot",
+        "slug": "dashdot",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1594,
+        "name": "DarkReactor.com",
+        "slug": "darkreactor-com",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1450,
+        "name": "Black Pants Studio",
+        "slug": "black-pants-studio",
+        "average_rating": null,
+        "parent": null
+    }
+]

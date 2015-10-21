@@ -49,12 +49,12 @@ var App = React.createClass({
           <div className="col-md-6">
             <iframe style={{marginBottom:20}} className='full-width'
                     src={'https://www.youtube.com/embed/' + videos[i].uid}
-                    width="500" height="213" frameBorder="0" allowFullscreen></iframe>
+                    width="500" height="213" frameBorder="0" allowFullScreen></iframe>
           </div>
           {videos[i + 1] ? <div className="col-md-6">
             <iframe style={{marginBottom:20}} className='full-width'
                     src={'https://www.youtube.com/embed/' + videos[i + 1].uid}
-                    width="500" height="213" frameBorder="0" allowFullscreen></iframe>
+                    width="500" height="213" frameBorder="0" allowFullScreen></iframe>
           </div> : null }
         </div>
       );
@@ -72,17 +72,18 @@ var App = React.createClass({
 
             <br />
 
-            <h3>Related Videos</h3>
+            { videoRows.length ? <div>
+              <h3>Related Videos</h3>
 
-            <p>Watch walkthroughs, gameplays, and trailers</p>
-
-            {videoRows}
+              <p>Watch walkthroughs, gameplays, and trailers</p>
+              {videoRows}
+            </div> : null}
             <div style={{height:30}}></div>
           </div>
           <div className='col-md-3' role='complementary'>
-            <h4>Related Videos</h4>
+            <h4>Related Images</h4>
 
-            <p>Get the latest screencasts</p>
+            <p>Get the latest screenshots, logos, and covers</p>
             {this.state.images.slice().splice(1, 3).map(function (url, i) {
               return (<img src={url} key={i} ref={'img' + i} onError={self._handleImgError.bind(null, 'img' + i)}
                            className="img-rounded full-width"/>)

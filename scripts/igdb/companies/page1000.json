@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1877,
+        "name": "Tomcat System",
+        "slug": "tomcat-system",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1931,
+        "name": "O-3 Entertainment",
+        "slug": "o-3-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1688,
+        "name": "Chipzel",
+        "slug": "chipzel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1696,
+        "name": "Runewaker Entertainment",
+        "slug": "runewaker-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1654,
+        "name": "Scary Pixel",
+        "slug": "scary-pixel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1932,
+        "name": "Able Corporation",
+        "slug": "able-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1878,
+        "name": "Powerhouse Animation Studios",
+        "slug": "powerhouse-animation-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 935,
+        "name": "Running with Scissors",
+        "slug": "running-with-scissors",
+        "average_rating": "7.63963333420663",
+        "parent": null
+    },
+    {
+        "id": 1717,
+        "name": "Fanafzar Sharif",
+        "slug": "fanafzar-sharif",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1718,
+        "name": "Dead Mage",
+        "slug": "dead-mage",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1719,
+        "name": "Loh Zarrin Nikan",
+        "slug": "loh-zarrin-nikan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1720,
+        "name": "Just A Game",
+        "slug": "just-a-game",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1199,
+        "name": "Animation F/X",
+        "slug": "animation-f-x",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1845,
+        "name": "MBL Research",
+        "slug": "mbl-research",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1919,
+        "name": "Polygon Magic",
+        "slug": "polygon-magic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1891,
+        "name": "Transposia",
+        "slug": "transposia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1841,
+        "name": "Acclaim Studios Teesside",
+        "slug": "acclaim-studios-teesside",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1941,
+        "name": "Universal Pictures",
+        "slug": "universal-pictures",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1873,
+        "name": "Culture Publishers",
+        "slug": "culture-publishers",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1944,
+        "name": "Acclaim Max Sports",
+        "slug": "acclaim-max-sports",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1687,
+        "name": "Terry Cavanagh",
+        "slug": "terry-cavanagh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1977,
+        "name": "Nintendo SPD Group No. 4",
+        "slug": "nintendo-spd-group-no-4",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1775,
+        "name": "Silicon Dreams Studios",
+        "slug": "silicon-dreams-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1987,
+        "name": "Genuine Games",
+        "slug": "genuine-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1988,
+        "name": "Interscope",
+        "slug": "interscope",
+        "average_rating": null,
+        "parent": null
+    }
+]

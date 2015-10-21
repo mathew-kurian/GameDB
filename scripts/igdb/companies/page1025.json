@@ -1,0 +1,189 @@
+[
+    {
+        "id": 1817,
+        "name": "Z-Axis",
+        "slug": "z-axis",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 54,
+        "name": "TransGaming Technologies",
+        "slug": "transgaming-technologies",
+        "average_rating": "8.39735266574318",
+        "parent": null
+    },
+    {
+        "id": 349,
+        "name": "Black Box Games",
+        "slug": "black-box-games",
+        "average_rating": "7.00534406298797",
+        "parent": null
+    },
+    {
+        "id": 1723,
+        "name": "Pacific Coast Power & Light",
+        "slug": "pacific-coast-power-light",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1768,
+        "name": "Toy Box Studios",
+        "slug": "toy-box-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1662,
+        "name": "Orteil",
+        "slug": "orteil",
+        "average_rating": "6.61297085655011",
+        "parent": null
+    },
+    {
+        "id": 1784,
+        "name": "Japan System Supply",
+        "slug": "japan-system-supply",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1667,
+        "name": "Sennari Interactive",
+        "slug": "sennari-interactive",
+        "average_rating": "8.0",
+        "parent": null
+    },
+    {
+        "id": 1838,
+        "name": "Red Company",
+        "slug": "red-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1973,
+        "name": "Twisted Pixel",
+        "slug": "twisted-pixel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1523,
+        "name": "Attention To Detail",
+        "slug": "attention-to-detail",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1901,
+        "name": "Reef Entertainment",
+        "slug": "reef-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1991,
+        "name": "Unique Development Studios",
+        "slug": "unique-development-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1985,
+        "name": "Melbourne House",
+        "slug": "melbourne-house",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1611,
+        "name": "Capcom Vancouver",
+        "slug": "capcom-vancouver",
+        "average_rating": "7.25072886297376",
+        "parent": null
+    },
+    {
+        "id": 1865,
+        "name": "ImaginEngine",
+        "slug": "imaginengine",
+        "average_rating": null,
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/imaginengine/images/company_logos/7r/imaginengine_logo_thumb.png",
+            "width": 350,
+            "height": 243
+        }
+    },
+    {
+        "id": 1832,
+        "name": "Titanium Studios",
+        "slug": "titanium-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1642,
+        "name": "Bit Managers",
+        "slug": "bit-managers",
+        "average_rating": "6.88078923596355",
+        "parent": null
+    },
+    {
+        "id": 1659,
+        "name": "Keen Software House",
+        "slug": "keen-software-house",
+        "average_rating": null,
+        "founded_year": 2010,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/keen-software-house/images/company_logos/bo/keen-software-house_logo_thumb.png",
+            "width": 400,
+            "height": 168
+        }
+    },
+    {
+        "id": 1690,
+        "name": "Land Ho!",
+        "slug": "land-ho",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1721,
+        "name": "Sega TruVideo",
+        "slug": "sega-truvideo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1564,
+        "name": "Portalarium",
+        "slug": "portalarium",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1914,
+        "name": "Eclipse Productions",
+        "slug": "eclipse-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1786,
+        "name": "Xantera",
+        "slug": "xantera",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1627,
+        "name": "The Lost Foundry Ltd.",
+        "slug": "the-lost-foundry-ltd",
+        "average_rating": null,
+        "parent": null
+    }
+]

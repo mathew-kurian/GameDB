@@ -1,0 +1,218 @@
+[
+    {
+        "id": 332,
+        "name": "EA Black Box",
+        "slug": "ea-black-box",
+        "average_rating": "7.68947855048981",
+        "founded_year": 1998,
+        "parent": 5122,
+        "company_logo": {
+            "url": "/companies/ea-black-box/images/company_logos/cs/ea-black-box_logo_thumb.png",
+            "width": 225,
+            "height": 125
+        }
+    },
+    {
+        "id": 352,
+        "name": "Eden Studios",
+        "slug": "eden-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 467,
+        "name": "Digital Integration",
+        "slug": "digital-integration",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 457,
+        "name": "Eugen Systems",
+        "slug": "eugen-systems",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 443,
+        "name": "Endrant Studios",
+        "slug": "endrant-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2245,
+        "name": "Big Fish Games",
+        "slug": "big-fish-games",
+        "average_rating": "8.53102294515331",
+        "parent": null
+    },
+    {
+        "id": 422,
+        "name": "Carbine Studios",
+        "slug": "carbine-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 390,
+        "name": "THQ Wireless",
+        "slug": "thq-wireless",
+        "average_rating": "7.55883848926403",
+        "parent": null
+    },
+    {
+        "id": 383,
+        "name": "RTL Enterprises",
+        "slug": "rtl-enterprises",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 356,
+        "name": "Slightly Mad Studios",
+        "slug": "slightly-mad-studios",
+        "average_rating": "7.59128455275517",
+        "parent": null
+    },
+    {
+        "id": 393,
+        "name": "inXile Entertainment",
+        "slug": "inxile-entertainment",
+        "average_rating": "7.51094483229552",
+        "parent": null
+    },
+    {
+        "id": 371,
+        "name": "Dinamic Multimedia",
+        "slug": "dinamic-multimedia",
+        "average_rating": "7.13238827170756",
+        "parent": null
+    },
+    {
+        "id": 338,
+        "name": "Encore",
+        "slug": "encore",
+        "average_rating": "8.30931384786716",
+        "parent": null
+    },
+    {
+        "id": 360,
+        "name": "Logicware",
+        "slug": "logicware",
+        "average_rating": "8.97990645758546",
+        "parent": null
+    },
+    {
+        "id": 397,
+        "name": "Darkworks",
+        "slug": "darkworks",
+        "average_rating": null,
+        "founded_year": 1998,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/darkworks/images/company_logos/9q/darkworks_logo_thumb.png",
+            "width": 400,
+            "height": 64
+        }
+    },
+    {
+        "id": 550,
+        "name": "Gamestorm",
+        "slug": "gamestorm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 321,
+        "name": "Tose",
+        "slug": "tose",
+        "average_rating": "9.33265136225049",
+        "founded_year": 1979,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/tose/images/company_logos/7d/tose_logo_thumb.png",
+            "width": 2000,
+            "height": 1572
+        }
+    },
+    {
+        "id": 317,
+        "name": "Dynamix",
+        "slug": "dynamix",
+        "average_rating": null,
+        "founded_year": 1984,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/dynamix/images/company_logos/az/dynamix_logo_thumb.png",
+            "width": 324,
+            "height": 107
+        }
+    },
+    {
+        "id": 312,
+        "name": "Konami Computer Entertainment Japan",
+        "slug": "konami-computer-entertainment-japan",
+        "average_rating": "8.86220604972191",
+        "parent": null
+    },
+    {
+        "id": 316,
+        "name": "Sierra",
+        "slug": "sierra",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 372,
+        "name": "GSC World Publishing",
+        "slug": "gsc-world-publishing",
+        "average_rating": "8.2065370349696",
+        "founded_year": 2004,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/gsc-world-publishing/images/company_logos/9s/gsc-world-publishing_logo_thumb.png",
+            "width": 400,
+            "height": 240
+        }
+    },
+    {
+        "id": 410,
+        "name": "Big Blue Box",
+        "slug": "big-blue-box",
+        "average_rating": "7.99704341315448",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/big-blue-box/images/company_logos/h4/big-blue-box_logo_thumb.png",
+            "width": 238,
+            "height": 187
+        }
+    },
+    {
+        "id": 388,
+        "name": "JVC",
+        "slug": "jvc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 287,
+        "name": "Acclaim Entertainment",
+        "slug": "acclaim-entertainment",
+        "average_rating": "7.70269527463002",
+        "founded_year": 1987,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/acclaim-entertainment/images/company_logos/cf/acclaim-entertainment_logo_thumb.png",
+            "width": 767,
+            "height": 249
+        }
+    },
+    {
+        "id": 418,
+        "name": "EA Play",
+        "slug": "ea-play",
+        "average_rating": null,
+        "parent": null
+    }
+]

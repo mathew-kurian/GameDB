@@ -1,0 +1,177 @@
+[
+    {
+        "id": 2350,
+        "name": "Ouya, Inc.",
+        "slug": "ouya-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2349,
+        "name": "Attention Software",
+        "slug": "attention-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2339,
+        "name": "Arcade Moon",
+        "slug": "arcade-moon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2348,
+        "name": "Flextronics",
+        "slug": "flextronics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2336,
+        "name": "Coyote Console",
+        "slug": "coyote-console",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2353,
+        "name": "John W. Ratcliff",
+        "slug": "john-w-ratcliff",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2355,
+        "name": "Enigma Variations",
+        "slug": "enigma-variations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2554,
+        "name": "Wild Tangent",
+        "slug": "wild-tangent",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2375,
+        "name": "Renovation",
+        "slug": "renovation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2500,
+        "name": "Tencent Holding Ltd.",
+        "slug": "tencent-holding-ltd",
+        "average_rating": "7.1998341122552",
+        "parent": null
+    },
+    {
+        "id": 2357,
+        "name": "7th Sense",
+        "slug": "7th-sense",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2559,
+        "name": "Capcom Production Studio 8",
+        "slug": "capcom-production-studio-8",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2360,
+        "name": "Kaneko",
+        "slug": "kaneko",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2361,
+        "name": "Seismic",
+        "slug": "seismic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2364,
+        "name": "Big Fun Games",
+        "slug": "big-fun-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2329,
+        "name": "GameMill",
+        "slug": "gamemill",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2377,
+        "name": "Ringler Studios",
+        "slug": "ringler-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2343,
+        "name": "Comcept",
+        "slug": "comcept",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2297,
+        "name": "ColdWood Interactive",
+        "slug": "coldwood-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2346,
+        "name": "Time Warner Interactive",
+        "slug": "time-warner-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2564,
+        "name": "Confounding Factor",
+        "slug": "confounding-factor",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2560,
+        "name": "Memetic Games",
+        "slug": "memetic-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2503,
+        "name": "Lego Software",
+        "slug": "lego-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1935,
+        "name": "Pivotal Games",
+        "slug": "pivotal-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2373,
+        "name": "Alexandria Inc",
+        "slug": "alexandria-inc",
+        "average_rating": null,
+        "parent": null
+    }
+]

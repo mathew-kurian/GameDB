@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1701,
+        "name": "Ice-Pick Lodge",
+        "slug": "ice-pick-lodge",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2001,
+        "name": "2K Play",
+        "slug": "2k-play",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1702,
+        "name": "ND Games",
+        "slug": "nd-games",
+        "average_rating": "6.93317760649258",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/nd-games/images/company_logos/58/nd-games_logo_thumb.png",
+            "width": 91,
+            "height": 86
+        }
+    },
+    {
+        "id": 1131,
+        "name": "Access Software, Inc.",
+        "slug": "access-software-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1132,
+        "name": "Ninano Software",
+        "slug": "ninano-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1133,
+        "name": "MVP Software",
+        "slug": "mvp-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1138,
+        "name": "General Consumer Electric",
+        "slug": "general-consumer-electric",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1141,
+        "name": "Mosaic Publishing",
+        "slug": "mosaic-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1142,
+        "name": "Micro Revelations, Inc.",
+        "slug": "micro-revelations-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1143,
+        "name": "Pangea Software, Inc.",
+        "slug": "pangea-software-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1144,
+        "name": "Bad Dog",
+        "slug": "bad-dog",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1146,
+        "name": "Quickdraw Developments Ltd.",
+        "slug": "quickdraw-developments-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1148,
+        "name": "Hammer Technologies",
+        "slug": "hammer-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1149,
+        "name": "Virtual Sports Interactive",
+        "slug": "virtual-sports-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 487,
+        "name": "3DO",
+        "slug": "3do",
+        "average_rating": "7.43291304769479",
+        "parent": null
+    },
+    {
+        "id": 276,
+        "name": "EA UK",
+        "slug": "ea-uk",
+        "average_rating": "7.71078527124624",
+        "parent": null
+    },
+    {
+        "id": 1568,
+        "name": "Ancient",
+        "slug": "ancient",
+        "average_rating": "8.93695609235968",
+        "parent": null
+    },
+    {
+        "id": 1906,
+        "name": "Hitmaker",
+        "slug": "hitmaker",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1804,
+        "name": "Genki",
+        "slug": "genki",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1908,
+        "name": "Lucky Chicken Games",
+        "slug": "lucky-chicken-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1905,
+        "name": "Helixe",
+        "slug": "helixe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 704,
+        "name": "ASC Games",
+        "slug": "asc-games",
+        "average_rating": "8.56020215330756",
+        "parent": null
+    },
+    {
+        "id": 1895,
+        "name": "EON Digital Entertainment",
+        "slug": "eon-digital-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1145,
+        "name": "Telstar Electronic Studios Ltd.",
+        "slug": "telstar-electronic-studios-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1409,
+        "name": "Syn Sophia",
+        "slug": "syn-sophia",
+        "average_rating": null,
+        "parent": null
+    }
+]

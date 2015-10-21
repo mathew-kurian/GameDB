@@ -1,0 +1,213 @@
+[
+    {
+        "id": 1448,
+        "name": "Muse Games",
+        "slug": "muse-games",
+        "average_rating": "5.53758195539482",
+        "parent": null
+    },
+    {
+        "id": 92,
+        "name": "NovaLogic",
+        "slug": "novalogic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 36,
+        "name": "Frictional Games",
+        "slug": "frictional-games",
+        "average_rating": "7.82017557319618",
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/frictional-games/images/company_logos/9u/frictional-games_logo_thumb.png",
+            "width": 302,
+            "height": 76
+        }
+    },
+    {
+        "id": 7,
+        "name": "Visceral Games",
+        "slug": "visceral-games",
+        "average_rating": "7.75508423764487",
+        "founded_year": 2009,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/visceral-games/images/company_logos/6y/visceral-games_logo_thumb.png",
+            "width": 156,
+            "height": 229
+        }
+    },
+    {
+        "id": 1449,
+        "name": "MC2 France",
+        "slug": "mc2-france",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 63,
+        "name": "Pandemic Studios",
+        "slug": "pandemic-studios",
+        "average_rating": "7.41664005290621",
+        "founded_year": 1998,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/pandemic-studios/images/company_logos/7y/pandemic-studios_logo_thumb.png",
+            "width": 2000,
+            "height": 3015
+        }
+    },
+    {
+        "id": 155,
+        "name": "Easy Studios",
+        "slug": "easy-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 162,
+        "name": "Vatra Games",
+        "slug": "vatra-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1579,
+        "name": "Screenmusic Studios",
+        "slug": "screenmusic-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 127,
+        "name": "Funcom Productions",
+        "slug": "funcom-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1776,
+        "name": "Devil's Thumb Entertainment",
+        "slug": "devil-s-thumb-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1806,
+        "name": "Bemani",
+        "slug": "bemani",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6,
+        "name": "Lionhead Studios",
+        "slug": "lionhead-studios",
+        "average_rating": "7.78760055385216",
+        "founded_year": 1996,
+        "parent": 1010,
+        "company_logo": {
+            "url": "/companies/lionhead-studios/images/company_logos/28/lionhead-studios_logo_thumb.png",
+            "width": 587,
+            "height": 640
+        }
+    },
+    {
+        "id": 68,
+        "name": "Ensemble Studios",
+        "slug": "ensemble-studios",
+        "average_rating": "8.11785483835359",
+        "founded_year": 1995,
+        "parent": 128,
+        "company_logo": {
+            "url": "/companies/ensemble-studios/images/company_logos/88/ensemble-studios_logo_thumb.png",
+            "width": 2000,
+            "height": 537
+        }
+    },
+    {
+        "id": 2530,
+        "name": "Entex",
+        "slug": "entex",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 74,
+        "name": "CyberFront",
+        "slug": "cyberfront",
+        "average_rating": "8.08589837908066",
+        "parent": null
+    },
+    {
+        "id": 97,
+        "name": "New World Computing",
+        "slug": "new-world-computing",
+        "average_rating": "8.26794238987489",
+        "founded_year": 1984,
+        "parent": 99,
+        "company_logo": {
+            "url": "/companies/new-world-computing/images/company_logos/8q/new-world-computing_logo_thumb.png",
+            "width": 461,
+            "height": 346
+        }
+    },
+    {
+        "id": 13,
+        "name": "Demiurge Studios",
+        "slug": "demiurge-studios",
+        "average_rating": "8.8964645324619",
+        "parent": null
+    },
+    {
+        "id": 100,
+        "name": "Nival Interactive",
+        "slug": "nival-interactive",
+        "average_rating": "8.30964113133772",
+        "parent": null
+    },
+    {
+        "id": 2537,
+        "name": "Lost Toys",
+        "slug": "lost-toys",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1808,
+        "name": "Epoch Co.",
+        "slug": "epoch-co",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2532,
+        "name": "GlyphX Games",
+        "slug": "glyphx-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 180,
+        "name": "Mythos Games",
+        "slug": "mythos-games",
+        "average_rating": "9.67876655598082",
+        "parent": null
+    },
+    {
+        "id": 1764,
+        "name": "Big Bang",
+        "slug": "big-bang",
+        "average_rating": "8.16754062344303",
+        "parent": null
+    },
+    {
+        "id": 119,
+        "name": "Mass Media Interactive Entertainment",
+        "slug": "mass-media-interactive-entertainment",
+        "average_rating": null,
+        "parent": null
+    }
+]

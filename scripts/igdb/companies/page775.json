@@ -1,0 +1,201 @@
+[
+    {
+        "id": 947,
+        "name": "Taleworlds",
+        "slug": "taleworlds",
+        "average_rating": "7.48738867148732",
+        "founded_year": 2005,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/taleworlds/images/company_logos/8z/taleworlds_logo_thumb.png",
+            "width": 202,
+            "height": 90
+        }
+    },
+    {
+        "id": 1021,
+        "name": "WayForward Technologies",
+        "slug": "wayforward-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 169,
+        "name": "MercurySteam",
+        "slug": "mercurysteam",
+        "average_rating": "8.00297043254388",
+        "parent": null
+    },
+    {
+        "id": 1464,
+        "name": "Squad",
+        "slug": "squad",
+        "average_rating": "7.37684011138214",
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/squad/images/company_logos/8l/squad_logo_thumb.png",
+            "width": 320,
+            "height": 387
+        }
+    },
+    {
+        "id": 1504,
+        "name": "Victory Games",
+        "slug": "victory-games",
+        "average_rating": null,
+        "founded_year": 2010,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/victory-games/images/company_logos/et/victory-games_logo_thumb.png",
+            "width": 200,
+            "height": 200
+        }
+    },
+    {
+        "id": 1017,
+        "name": "The Neverhood, Inc.",
+        "slug": "the-neverhood-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 965,
+        "name": "Ghost Games",
+        "slug": "ghost-games",
+        "average_rating": "7.2045659289224",
+        "parent": null
+    },
+    {
+        "id": 2539,
+        "name": "ASK",
+        "slug": "ask",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1007,
+        "name": " Housemarque",
+        "slug": "housemarque--2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1019,
+        "name": "GameTek, Inc.",
+        "slug": "gametek-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 113,
+        "name": "Westwood Studios",
+        "slug": "westwood-studios",
+        "average_rating": "8.29045094202672",
+        "founded_year": 1985,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/westwood-studios/images/company_logos/90/westwood-studios_logo_thumb.png",
+            "width": 2000,
+            "height": 458
+        }
+    },
+    {
+        "id": 1035,
+        "name": "Gem International Corp.",
+        "slug": "gem-international-corp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1036,
+        "name": "VDI Video Direct International",
+        "slug": "vdi-video-direct-international",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1038,
+        "name": "InterWeave Entertainment",
+        "slug": "interweave-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1039,
+        "name": "Entertainment Software Partners",
+        "slug": "entertainment-software-partners",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1040,
+        "name": "Réunion des Musées Nationaux",
+        "slug": "reunion-des-musees-nationaux",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1550,
+        "name": "U-TRAX Quality Assurance",
+        "slug": "u-trax-quality-assurance",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1551,
+        "name": "GlobaLoc",
+        "slug": "globaloc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1553,
+        "name": "Premier Films",
+        "slug": "premier-films",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1554,
+        "name": "Electric Spectacle",
+        "slug": "electric-spectacle",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1555,
+        "name": "Red Rover",
+        "slug": "red-rover",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1556,
+        "name": "Hackenbacker Studios",
+        "slug": "hackenbacker-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1557,
+        "name": "The London Metropolitan Orchesta",
+        "slug": "the-london-metropolitan-orchesta",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1558,
+        "name": "Digital Amusement",
+        "slug": "digital-amusement",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1559,
+        "name": "00-Malka",
+        "slug": "00-malka",
+        "average_rating": null,
+        "parent": null
+    }
+]

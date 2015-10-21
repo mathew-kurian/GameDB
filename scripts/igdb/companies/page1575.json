@@ -1,0 +1,177 @@
+[
+    {
+        "id": 2607,
+        "name": "Wide Games",
+        "slug": "wide-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2608,
+        "name": "Curly Monsters",
+        "slug": "curly-monsters",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2613,
+        "name": "Gizmondo Games",
+        "slug": "gizmondo-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2581,
+        "name": "Mediatonic",
+        "slug": "mediatonic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2589,
+        "name": "Blazing Griffin Ltd.",
+        "slug": "blazing-griffin-ltd",
+        "average_rating": "6.09562658820383",
+        "parent": null
+    },
+    {
+        "id": 2590,
+        "name": "Eggtooth",
+        "slug": "eggtooth",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2592,
+        "name": "Mega Enterprise",
+        "slug": "mega-enterprise",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2593,
+        "name": "BrezzaSoft",
+        "slug": "brezzasoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2059,
+        "name": "GenePool Software",
+        "slug": "genepool-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2069,
+        "name": "Jordan Mechner",
+        "slug": "jordan-mechner",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2007,
+        "name": "AM5",
+        "slug": "am5",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2018,
+        "name": "BEC",
+        "slug": "bec",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2033,
+        "name": "Kids Station",
+        "slug": "kids-station",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2019,
+        "name": "Humagade",
+        "slug": "humagade",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2035,
+        "name": "Play It Games",
+        "slug": "play-it-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2023,
+        "name": "Sony Music Entertainment Japan",
+        "slug": "sony-music-entertainment-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2025,
+        "name": "Funcom Dublin Ltd.",
+        "slug": "funcom-dublin-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2578,
+        "name": "Playmore",
+        "slug": "playmore",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1735,
+        "name": "Runecraft",
+        "slug": "runecraft",
+        "average_rating": "6.00445790486198",
+        "parent": null
+    },
+    {
+        "id": 2017,
+        "name": "MonkeyPaw Games",
+        "slug": "monkeypaw-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2022,
+        "name": "Pitbull Syndicate",
+        "slug": "pitbull-syndicate",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1410,
+        "name": "Tru Blu Entertainment",
+        "slug": "tru-blu-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2594,
+        "name": "In-Fusio",
+        "slug": "in-fusio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1900,
+        "name": "Idol Minds",
+        "slug": "idol-minds",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1862,
+        "name": "Skyworks Interactive",
+        "slug": "skyworks-interactive",
+        "average_rating": null,
+        "parent": null
+    }
+]

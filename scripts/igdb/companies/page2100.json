@@ -1,0 +1,195 @@
+[
+    {
+        "id": 2391,
+        "name": "IBM",
+        "slug": "ibm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2630,
+        "name": "Mayflower Co. Ltd.",
+        "slug": "mayflower-co-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2631,
+        "name": "Dune Sound",
+        "slug": "dune-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2632,
+        "name": "Jinglebell Communication",
+        "slug": "jinglebell-communication",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2633,
+        "name": "Maximal Studio",
+        "slug": "maximal-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2611,
+        "name": "AIA Games",
+        "slug": "aia-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1927,
+        "name": "Sand Grain Studios",
+        "slug": "sand-grain-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 537,
+        "name": "Massive Entertainment",
+        "slug": "massive-entertainment",
+        "average_rating": null,
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/massive-entertainment/images/company_logos/m/massive-entertainment_logo_thumb.png",
+            "width": 560,
+            "height": 141
+        }
+    },
+    {
+        "id": 2511,
+        "name": "Duplicated company",
+        "slug": "duplicated-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2612,
+        "name": "Volatile Games",
+        "slug": "volatile-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1925,
+        "name": "Magic Wand Productions",
+        "slug": "magic-wand-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2094,
+        "name": "Transmission Games",
+        "slug": "transmission-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2442,
+        "name": "Targem Games",
+        "slug": "targem-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 408,
+        "name": "TimeGate Studios",
+        "slug": "timegate-studios",
+        "average_rating": "7.93456534246545",
+        "parent": null
+    },
+    {
+        "id": 2551,
+        "name": "Bergsala Lightweight",
+        "slug": "bergsala-lightweight",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2516,
+        "name": "SPS",
+        "slug": "sps",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 406,
+        "name": "Ubisoft Massive",
+        "slug": "ubisoft-massive",
+        "average_rating": "9.23363069769945",
+        "founded_year": 1997,
+        "parent": 104,
+        "company_logo": {
+            "url": "/companies/ubisoft-massive/images/company_logos/l/ubisoft-massive_logo_thumb.png",
+            "width": 720,
+            "height": 720
+        }
+    },
+    {
+        "id": 2443,
+        "name": "Zuxxez Entertainment",
+        "slug": "zuxxez-entertainment",
+        "average_rating": null,
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/zuxxez-entertainment/images/company_logos/b7/zuxxez-entertainment_logo_thumb.png",
+            "width": 205,
+            "height": 49
+        }
+    },
+    {
+        "id": 2634,
+        "name": "Pythagor Studios (Moscow)",
+        "slug": "pythagor-studios-moscow",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2635,
+        "name": "Quoted",
+        "slug": "quoted",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2636,
+        "name": "Rain Productions",
+        "slug": "rain-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2637,
+        "name": "Rec Games Sonido",
+        "slug": "rec-games-sonido",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2638,
+        "name": "START International Polska",
+        "slug": "start-international-polska",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2639,
+        "name": "Edward B Marks Music Publishing",
+        "slug": "edward-b-marks-music-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2640,
+        "name": "Sony Music",
+        "slug": "sony-music",
+        "average_rating": null,
+        "parent": null
+    }
+]

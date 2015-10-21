@@ -1,0 +1,207 @@
+[
+    {
+        "id": 3294,
+        "name": "3D Brigade Hungary Kft.",
+        "slug": "3d-brigade-hungary-kft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2707,
+        "name": "Hacienda Post",
+        "slug": "hacienda-post",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2708,
+        "name": "Sabre Music",
+        "slug": "sabre-music",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2709,
+        "name": "Beeline Group",
+        "slug": "beeline-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2719,
+        "name": "Exile Entertainment",
+        "slug": "exile-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2720,
+        "name": "Touchstone Games",
+        "slug": "touchstone-games",
+        "average_rating": "6.94280218245453",
+        "parent": null
+    },
+    {
+        "id": 2733,
+        "name": "Monkeystone Games",
+        "slug": "monkeystone-games",
+        "average_rating": "7.36061583513144",
+        "parent": null
+    },
+    {
+        "id": 2722,
+        "name": "Megatube",
+        "slug": "megatube",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2734,
+        "name": "Digital Red",
+        "slug": "digital-red",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3245,
+        "name": "Frognation",
+        "slug": "frognation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2678,
+        "name": "Data East",
+        "slug": "data-east",
+        "average_rating": null,
+        "founded_year": 1976,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/data-east/images/company_logos/35/data-east_logo_thumb.png",
+            "width": 350,
+            "height": 116
+        }
+    },
+    {
+        "id": 400,
+        "name": "SCE Japan Studio",
+        "slug": "sce-japan-studio",
+        "average_rating": "8.85679282944065",
+        "parent": null
+    },
+    {
+        "id": 414,
+        "name": "Croteam",
+        "slug": "croteam",
+        "average_rating": "7.97174164507743",
+        "founded_year": 1993,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/croteam/images/company_logos/1k/croteam_logo_thumb.png",
+            "width": 600,
+            "height": 158
+        }
+    },
+    {
+        "id": 1433,
+        "name": "Undead Labs",
+        "slug": "undead-labs",
+        "average_rating": "8.49162520230299",
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/undead-labs/images/company_logos/1s/undead-labs_logo_thumb.png",
+            "width": 620,
+            "height": 461
+        }
+    },
+    {
+        "id": 2683,
+        "name": "Square Enix Montreal",
+        "slug": "square-enix-montreal",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 563,
+        "name": "Rainbow Studios",
+        "slug": "rainbow-studios",
+        "average_rating": null,
+        "founded_year": 1986,
+        "parent": 197,
+        "company_logo": {
+            "url": "/companies/rainbow-studios/images/company_logos/bi/rainbow-studios_logo_thumb.png",
+            "width": 233,
+            "height": 328
+        }
+    },
+    {
+        "id": 2713,
+        "name": "Computer Artworks",
+        "slug": "computer-artworks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1327,
+        "name": "SouthPeak Interactive",
+        "slug": "southpeak-interactive",
+        "average_rating": "6.32820645153867",
+        "parent": null
+    },
+    {
+        "id": 1243,
+        "name": "NeoCore Games",
+        "slug": "neocore-games",
+        "average_rating": "7.00674942928733",
+        "founded_year": 2005,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/neocore-games/images/company_logos/ei/neocore-games_logo_thumb.png",
+            "width": 364,
+            "height": 148
+        }
+    },
+    {
+        "id": 2693,
+        "name": "Nude Maker",
+        "slug": "nude-maker",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2725,
+        "name": "Circle Studio",
+        "slug": "circle-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2726,
+        "name": "Coresoft",
+        "slug": "coresoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2736,
+        "name": "Adhesive Games",
+        "slug": "adhesive-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2960,
+        "name": "DReAM X CReATe",
+        "slug": "dream-x-create",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2721,
+        "name": "Propaganda Games",
+        "slug": "propaganda-games",
+        "average_rating": "6.94280218245453",
+        "parent": null
+    }
+]

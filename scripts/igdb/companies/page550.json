@@ -1,0 +1,201 @@
+[
+    {
+        "id": 866,
+        "name": "Nintendo SPD Group No. 2",
+        "slug": "nintendo-spd-group-no-2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 814,
+        "name": "SuperVillain Studios",
+        "slug": "supervillain-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 844,
+        "name": "RedOctane",
+        "slug": "redoctane",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 797,
+        "name": "h.a.n.d.",
+        "slug": "h-a-n-d",
+        "average_rating": "8.70557398831162",
+        "parent": null
+    },
+    {
+        "id": 775,
+        "name": "Paon",
+        "slug": "paon",
+        "average_rating": "7.68232445520581",
+        "parent": null
+    },
+    {
+        "id": 821,
+        "name": "TDK Mediactive",
+        "slug": "tdk-mediactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 842,
+        "name": "GRIN",
+        "slug": "grin",
+        "average_rating": "6.82945520460795",
+        "parent": null
+    },
+    {
+        "id": 876,
+        "name": "Sora",
+        "slug": "sora",
+        "average_rating": "9.3801203763221",
+        "parent": null
+    },
+    {
+        "id": 750,
+        "name": "Cinemaware",
+        "slug": "cinemaware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 696,
+        "name": "HB Studios",
+        "slug": "hb-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 794,
+        "name": "Virtuos",
+        "slug": "virtuos",
+        "average_rating": "7.33182451106301",
+        "parent": null
+    },
+    {
+        "id": 791,
+        "name": "KongZhong",
+        "slug": "kongzhong",
+        "average_rating": "7.79329164227786",
+        "parent": null
+    },
+    {
+        "id": 747,
+        "name": "Tarsier Studios",
+        "slug": "tarsier-studios",
+        "average_rating": "8.28952526319326",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/tarsier-studios/images/company_logos/bp/tarsier-studios_logo_thumb.png",
+            "width": 3368,
+            "height": 1623
+        }
+    },
+    {
+        "id": 869,
+        "name": "SEGA Racing Studio",
+        "slug": "sega-racing-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 786,
+        "name": "Q Entertainment",
+        "slug": "q-entertainment",
+        "average_rating": "6.85685822326843",
+        "founded_year": 2003,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/q-entertainment/images/company_logos/3w/q-entertainment_logo_thumb.png",
+            "width": 85,
+            "height": 80
+        }
+    },
+    {
+        "id": 856,
+        "name": "Unknown Worlds Entertainment",
+        "slug": "unknown-worlds-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 893,
+        "name": "The Farm 51",
+        "slug": "the-farm-51",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 819,
+        "name": "Neverland",
+        "slug": "neverland",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 890,
+        "name": "Activision Interactive",
+        "slug": "activision-interactive",
+        "average_rating": "8.14085586263595",
+        "parent": null
+    },
+    {
+        "id": 771,
+        "name": "Rare",
+        "slug": "rare",
+        "average_rating": "7.91363396178549",
+        "founded_year": 1985,
+        "parent": 128,
+        "company_logo": {
+            "url": "/companies/rare/images/company_logos/dc/rare_logo_thumb.png",
+            "width": 1920,
+            "height": 820
+        }
+    },
+    {
+        "id": 761,
+        "name": "Nintendo Research & Development 1",
+        "slug": "nintendo-research-development-1",
+        "average_rating": "8.02982376734627",
+        "founded_year": 1970,
+        "parent": 70
+    },
+    {
+        "id": 843,
+        "name": "Harmonix Music Systems",
+        "slug": "harmonix-music-systems",
+        "average_rating": "7.66211319125665",
+        "founded_year": 1995,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/harmonix-music-systems/images/company_logos/2m/harmonix-music-systems_logo_thumb.png",
+            "width": 300,
+            "height": 60
+        }
+    },
+    {
+        "id": 848,
+        "name": "TKO Software",
+        "slug": "tko-software",
+        "average_rating": "7.01138335627742",
+        "parent": null
+    },
+    {
+        "id": 765,
+        "name": "Intelligent Systems",
+        "slug": "intelligent-systems",
+        "average_rating": "8.46105459813207",
+        "parent": null
+    },
+    {
+        "id": 813,
+        "name": "Universal Interactive Studios",
+        "slug": "universal-interactive-studios",
+        "average_rating": "8.28716546245705",
+        "parent": null
+    }
+]

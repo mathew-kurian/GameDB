@@ -1,0 +1,183 @@
+[
+    {
+        "id": 1992,
+        "name": "Kush Games",
+        "slug": "kush-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 789,
+        "name": "Buena Vista Games",
+        "slug": "buena-vista-games",
+        "average_rating": "9.21322617784013",
+        "parent": null
+    },
+    {
+        "id": 1791,
+        "name": "Acclaim Japan",
+        "slug": "acclaim-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 703,
+        "name": "BMG Interactive",
+        "slug": "bmg-interactive",
+        "average_rating": "8.11619397478334",
+        "parent": null
+    },
+    {
+        "id": 1884,
+        "name": "CSK Research Institute",
+        "slug": "csk-research-institute",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1964,
+        "name": "ESP Software",
+        "slug": "esp-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1801,
+        "name": "Turbo Technologies",
+        "slug": "turbo-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1792,
+        "name": "Acclaim Studios London",
+        "slug": "acclaim-studios-london",
+        "average_rating": null,
+        "founded_year": 1984,
+        "parent": 287,
+        "company_logo": {
+            "url": "/companies/acclaim-studios-london/images/company_logos/86/acclaim-studios-london_logo_thumb.png",
+            "width": 400,
+            "height": 164
+        }
+    },
+    {
+        "id": 1793,
+        "name": "NEON Software 1999",
+        "slug": "neon-software-1999",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1849,
+        "name": "WAVEDGE",
+        "slug": "wavedge",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1789,
+        "name": "Smart Dog",
+        "slug": "smart-dog",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1955,
+        "name": "Konami HWI",
+        "slug": "konami-hwi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 730,
+        "name": "Straandlooper Animation",
+        "slug": "straandlooper-animation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1886,
+        "name": "Konami Computer Entertainment Yokohama",
+        "slug": "konami-computer-entertainment-yokohama",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1825,
+        "name": "Tokyo Electron",
+        "slug": "tokyo-electron",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1885,
+        "name": "CRI Middleware",
+        "slug": "cri-middleware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1888,
+        "name": "East Point Software LTD",
+        "slug": "east-point-software-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2484,
+        "name": "thinkArts",
+        "slug": "thinkarts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2485,
+        "name": "Quadro Delta",
+        "slug": "quadro-delta",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1916,
+        "name": "Flying Edge",
+        "slug": "flying-edge",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1102,
+        "name": "Mobile & Game Studio, Inc.",
+        "slug": "mobile-game-studio-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1104,
+        "name": "Mimimi Productions",
+        "slug": "mimimi-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1105,
+        "name": "Artic",
+        "slug": "artic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1949,
+        "name": "Bitstep",
+        "slug": "bitstep",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1965,
+        "name": "Virtual Play Games",
+        "slug": "virtual-play-games",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,214 @@
+[
+    {
+        "id": 731,
+        "name": "bitComposer Games",
+        "slug": "bitcomposer-games",
+        "average_rating": "8.09434406138926",
+        "parent": null
+    },
+    {
+        "id": 764,
+        "name": "Psygnosis",
+        "slug": "psygnosis",
+        "average_rating": "8.8192496953246",
+        "founded_year": 1984,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/psygnosis/images/company_logos/6s/psygnosis_logo_thumb.png",
+            "width": 250,
+            "height": 188
+        }
+    },
+    {
+        "id": 860,
+        "name": "Fatshark",
+        "slug": "fatshark",
+        "average_rating": null,
+        "founded_year": 2008,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/fatshark/images/company_logos/51/fatshark_logo_thumb.png",
+            "width": 3155,
+            "height": 2244
+        }
+    },
+    {
+        "id": 874,
+        "name": "Smilebit",
+        "slug": "smilebit",
+        "average_rating": "7.77791879259946",
+        "parent": null
+    },
+    {
+        "id": 910,
+        "name": "Re-Logic",
+        "slug": "re-logic",
+        "average_rating": "7.4253143713516",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/re-logic/images/company_logos/gw/re-logic_logo_thumb.png",
+            "width": 550,
+            "height": 236
+        }
+    },
+    {
+        "id": 909,
+        "name": "Subterranean Games",
+        "slug": "subterranean-games",
+        "average_rating": "8.05814234016888",
+        "parent": null
+    },
+    {
+        "id": 916,
+        "name": "Cryptic Studios",
+        "slug": "cryptic-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 889,
+        "name": "Virtucraft",
+        "slug": "virtucraft",
+        "average_rating": "8.14085586263595",
+        "parent": null
+    },
+    {
+        "id": 18,
+        "name": "2K China",
+        "slug": "2k-china",
+        "average_rating": "8.95021590372163",
+        "founded_year": 2006,
+        "parent": 8
+    },
+    {
+        "id": 805,
+        "name": "Other Ocean Interactive",
+        "slug": "other-ocean-interactive",
+        "average_rating": "8.14085586263595",
+        "parent": null
+    },
+    {
+        "id": 892,
+        "name": "Capcom Production Studio 2",
+        "slug": "capcom-production-studio-2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2535,
+        "name": "Black Bean Games",
+        "slug": "black-bean-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 899,
+        "name": "Ubisoft Milan",
+        "slug": "ubisoft-milan",
+        "average_rating": "8.12348146172349",
+        "parent": null
+    },
+    {
+        "id": 907,
+        "name": "Sony Computer Entertainment America",
+        "slug": "sony-computer-entertainment-america",
+        "average_rating": "8.19954229842523",
+        "parent": null
+    },
+    {
+        "id": 820,
+        "name": "Working Designs",
+        "slug": "working-designs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 21,
+        "name": "Irrational Games",
+        "slug": "irrational-games",
+        "average_rating": "8.86474651087493",
+        "founded_year": 1997,
+        "parent": 139,
+        "company_logo": {
+            "url": "/companies/irrational-games/images/company_logos/8t/irrational-games_logo_thumb.png",
+            "width": 359,
+            "height": 342
+        }
+    },
+    {
+        "id": 829,
+        "name": "Wolfteam",
+        "slug": "wolfteam",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 901,
+        "name": "Crawfish Interactive",
+        "slug": "crawfish-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 838,
+        "name": "Romstar",
+        "slug": "romstar",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 800,
+        "name": "Jupiter",
+        "slug": "jupiter",
+        "average_rating": "7.89252209349356",
+        "founded_year": 1992,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/jupiter/images/company_logos/7k/jupiter_logo_thumb.png",
+            "width": 119,
+            "height": 90
+        }
+    },
+    {
+        "id": 917,
+        "name": "Perfect World Entertainment",
+        "slug": "perfect-world-entertainment",
+        "average_rating": "7.65080593977948",
+        "founded_year": 2008,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/perfect-world-entertainment/images/company_logos/9i/perfect-world-entertainment_logo_thumb.png",
+            "width": 400,
+            "height": 133
+        }
+    },
+    {
+        "id": 833,
+        "name": "Ignition Entertainment",
+        "slug": "ignition-entertainment",
+        "average_rating": "7.27030361730054",
+        "parent": null
+    },
+    {
+        "id": 580,
+        "name": "Spellbound Entertainment",
+        "slug": "spellbound-entertainment",
+        "average_rating": "4.11997479516975",
+        "founded_year": 1994,
+        "parent": null
+    },
+    {
+        "id": 826,
+        "name": "Namco Tales Studio",
+        "slug": "namco-tales-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 918,
+        "name": "The Fullbright Company",
+        "slug": "the-fullbright-company",
+        "average_rating": "6.88126824019664",
+        "parent": null
+    }
+]

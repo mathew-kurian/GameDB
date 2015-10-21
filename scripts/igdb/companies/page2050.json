@@ -1,0 +1,189 @@
+[
+    {
+        "id": 2431,
+        "name": "Big Ant Studios",
+        "slug": "big-ant-studios",
+        "average_rating": "7.52021274702264",
+        "parent": null
+    },
+    {
+        "id": 2414,
+        "name": "Radiant Entertainment",
+        "slug": "radiant-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2417,
+        "name": "Tapwave",
+        "slug": "tapwave",
+        "average_rating": "8.98550016478665",
+        "parent": null
+    },
+    {
+        "id": 2409,
+        "name": "Cliffhanger Productions",
+        "slug": "cliffhanger-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 137,
+        "name": "Digital Illusions CE",
+        "slug": "digital-illusions-ce",
+        "average_rating": null,
+        "founded_year": 1993,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/digital-illusions-ce/images/company_logos/ad/digital-illusions-ce_logo_thumb.png",
+            "width": 805,
+            "height": 1202
+        }
+    },
+    {
+        "id": 2424,
+        "name": "Arena Entertainment",
+        "slug": "arena-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2390,
+        "name": "Engine Software",
+        "slug": "engine-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2386,
+        "name": "Coconuts Japan",
+        "slug": "coconuts-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2389,
+        "name": "Digital Leisure",
+        "slug": "digital-leisure",
+        "average_rating": null,
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/digital-leisure/images/company_logos/b1/digital-leisure_logo_thumb.png",
+            "width": 302,
+            "height": 97
+        }
+    },
+    {
+        "id": 2571,
+        "name": "Major A",
+        "slug": "major-a",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2574,
+        "name": "Dream Publishing",
+        "slug": "dream-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2602,
+        "name": "Gamespy Industries Inc.",
+        "slug": "gamespy-industries-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2089,
+        "name": "Mud Duck Productions",
+        "slug": "mud-duck-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2444,
+        "name": "Eidos Hungary",
+        "slug": "eidos-hungary",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2445,
+        "name": "Totem Arts",
+        "slug": "totem-arts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2510,
+        "name": "Pippin Bar",
+        "slug": "pippin-bar",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2520,
+        "name": "APh Technological Consulting",
+        "slug": "aph-technological-consulting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1042,
+        "name": "21st Century Entertainment",
+        "slug": "21st-century-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2513,
+        "name": "White Paper Games",
+        "slug": "white-paper-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2515,
+        "name": "International Games System",
+        "slug": "international-games-system",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2433,
+        "name": "CAVE Interactive CO",
+        "slug": "cave-interactive-co",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2517,
+        "name": "Amusement Marketing International",
+        "slug": "amusement-marketing-international",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2550,
+        "name": "BattleBorne Entertainment",
+        "slug": "battleborne-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2518,
+        "name": "The Astronauts",
+        "slug": "the-astronauts",
+        "average_rating": "8.06164570683258",
+        "parent": null
+    },
+    {
+        "id": 2378,
+        "name": "Westwood Associates",
+        "slug": "westwood-associates",
+        "average_rating": "8.60460251046025",
+        "parent": null
+    }
+]

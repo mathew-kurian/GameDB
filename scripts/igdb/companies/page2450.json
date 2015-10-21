@@ -1,0 +1,195 @@
+[
+    {
+        "id": 3754,
+        "name": "Q Games",
+        "slug": "q-games--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2844,
+        "name": "Ludia, Inc",
+        "slug": "ludia-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3243,
+        "name": "Ogura Atelier",
+        "slug": "ogura-atelier",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3244,
+        "name": "Clock Dance",
+        "slug": "clock-dance",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3045,
+        "name": "Aquaplus",
+        "slug": "aquaplus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2759,
+        "name": "Telegames",
+        "slug": "telegames",
+        "average_rating": "7.80014377316605",
+        "founded_year": 1986,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/telegames/images/company_logos/2p/telegames_logo_thumb.png",
+            "width": 180,
+            "height": 34
+        }
+    },
+    {
+        "id": 2821,
+        "name": "Eighting",
+        "slug": "eighting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3301,
+        "name": "Atari Europe",
+        "slug": "atari-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2827,
+        "name": "Flying Tiger Developments",
+        "slug": "flying-tiger-developments",
+        "average_rating": "7.37684011138214",
+        "parent": null
+    },
+    {
+        "id": 308,
+        "name": "Rockstar Leeds",
+        "slug": "rockstar-leeds",
+        "average_rating": "8.1176937246107",
+        "founded_year": 2004,
+        "parent": 29,
+        "company_logo": {
+            "url": "/companies/rockstar-leeds/images/company_logos/2g/rockstar-leeds_logo_thumb.png",
+            "width": 500,
+            "height": 460
+        }
+    },
+    {
+        "id": 3116,
+        "name": "Funatics Development",
+        "slug": "funatics-development",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3232,
+        "name": "NEURON AGE",
+        "slug": "neuron-age",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3233,
+        "name": "Premium Agency",
+        "slug": "premium-agency",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2846,
+        "name": "Mad Doc Software",
+        "slug": "mad-doc-software",
+        "average_rating": null,
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/mad-doc-software/images/company_logos/6l/mad-doc-software_logo_thumb.png",
+            "width": 220,
+            "height": 71
+        }
+    },
+    {
+        "id": 3234,
+        "name": "Teco Co",
+        "slug": "teco-co",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3235,
+        "name": "XYZ Digital Studio",
+        "slug": "xyz-digital-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3236,
+        "name": "Shirogumi",
+        "slug": "shirogumi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3237,
+        "name": "DIGITAL Hearts",
+        "slug": "digital-hearts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3238,
+        "name": "Pole To Win Co",
+        "slug": "pole-to-win-co",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2885,
+        "name": "Ciel",
+        "slug": "ciel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2886,
+        "name": "Pionesoft",
+        "slug": "pionesoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2887,
+        "name": "GIGA Team Baldrhead",
+        "slug": "giga-team-baldrhead",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2898,
+        "name": "Crowbar Collective",
+        "slug": "crowbar-collective",
+        "average_rating": "8.98503477775463",
+        "parent": null
+    },
+    {
+        "id": 2893,
+        "name": "Sniper Studios",
+        "slug": "sniper-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2883,
+        "name": "Screaming Games",
+        "slug": "screaming-games",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,189 @@
+[
+    {
+        "id": 2770,
+        "name": "Tarn Adams",
+        "slug": "tarn-adams",
+        "average_rating": "6.98108581436077",
+        "parent": null
+    },
+    {
+        "id": 2771,
+        "name": "Jay Watts",
+        "slug": "jay-watts",
+        "average_rating": "7.13025661040101",
+        "parent": null
+    },
+    {
+        "id": 2772,
+        "name": "Murudai",
+        "slug": "murudai",
+        "average_rating": "7.13025661040101",
+        "parent": null
+    },
+    {
+        "id": 2781,
+        "name": "Million",
+        "slug": "million",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2782,
+        "name": "S-NEO",
+        "slug": "s-neo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2787,
+        "name": "EC-Interactive Ltd.",
+        "slug": "ec-interactive-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2778,
+        "name": "Yoyo Entertainment",
+        "slug": "yoyo-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2779,
+        "name": "GameLab",
+        "slug": "gamelab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2788,
+        "name": "GTL Media",
+        "slug": "gtl-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2777,
+        "name": "Xdev",
+        "slug": "xdev",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2784,
+        "name": "Cineast dub",
+        "slug": "cineast-dub",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2181,
+        "name": "Light and Shadow Productions",
+        "slug": "light-and-shadow-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2762,
+        "name": "Cave+Barn Studios",
+        "slug": "cave-barn-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2794,
+        "name": "Franchise Interactive",
+        "slug": "franchise-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2750,
+        "name": "Paragon 5",
+        "slug": "paragon-5",
+        "average_rating": "9.06217547421277",
+        "parent": null
+    },
+    {
+        "id": 1923,
+        "name": "Barking Lizards Technologies",
+        "slug": "barking-lizards-technologies",
+        "average_rating": "7.49235921639884",
+        "founded_year": 2001,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/barking-lizards-technologies/images/company_logos/3k/barking-lizards-technologies_logo_thumb.png",
+            "width": 301,
+            "height": 250
+        }
+    },
+    {
+        "id": 3041,
+        "name": "Emagica",
+        "slug": "emagica",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3042,
+        "name": "Concave Studio",
+        "slug": "concave-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3113,
+        "name": "Wildfire Games",
+        "slug": "wildfire-games",
+        "average_rating": null,
+        "founded_year": 2002,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/wildfire-games/images/company_logos/53/wildfire-games_logo_thumb.png",
+            "width": 249,
+            "height": 254
+        }
+    },
+    {
+        "id": 3109,
+        "name": "Tilted Mill Entertainment",
+        "slug": "tilted-mill-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3112,
+        "name": "Sakari Indie",
+        "slug": "sakari-indie",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2955,
+        "name": "8monkey Labs",
+        "slug": "8monkey-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2965,
+        "name": "UTV Ignition Entertainment",
+        "slug": "utv-ignition-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2789,
+        "name": "Weapons Specialists Ltd",
+        "slug": "weapons-specialists-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2790,
+        "name": "Donna Deseta Casting",
+        "slug": "donna-deseta-casting",
+        "average_rating": null,
+        "parent": null
+    }
+]

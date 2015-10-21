@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1237,
+        "name": "Trigger Soft",
+        "slug": "trigger-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1247,
+        "name": "Lego Group",
+        "slug": "lego-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1248,
+        "name": "CodeHatch",
+        "slug": "codehatch",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1253,
+        "name": "Good Science Studio",
+        "slug": "good-science-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1255,
+        "name": "AMA Studios",
+        "slug": "ama-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1256,
+        "name": "BigPark",
+        "slug": "bigpark",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1257,
+        "name": "AiLive",
+        "slug": "ailive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1222,
+        "name": "Broadsword",
+        "slug": "broadsword",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1229,
+        "name": "Outerlight",
+        "slug": "outerlight",
+        "average_rating": "6.09562658820383",
+        "parent": null
+    },
+    {
+        "id": 1244,
+        "name": "7 Studios",
+        "slug": "7-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1220,
+        "name": "Crafts & Meister",
+        "slug": "crafts-meister",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1258,
+        "name": "EA Salt Lake",
+        "slug": "ea-salt-lake",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1262,
+        "name": "PuzzleKings",
+        "slug": "puzzlekings",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1265,
+        "name": "Tuna Technologies",
+        "slug": "tuna-technologies",
+        "average_rating": "6.92380793874993",
+        "parent": null
+    },
+    {
+        "id": 1270,
+        "name": "Camerica",
+        "slug": "camerica",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1275,
+        "name": "Dempa Shunbunsha",
+        "slug": "dempa-shunbunsha",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1279,
+        "name": "Sandblast Games",
+        "slug": "sandblast-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1280,
+        "name": "Ocean Europe Limited",
+        "slug": "ocean-europe-limited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1282,
+        "name": "Kemco-Seika",
+        "slug": "kemco-seika",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1285,
+        "name": "King Games",
+        "slug": "king-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1288,
+        "name": "Creatures Labs",
+        "slug": "creatures-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1291,
+        "name": "Fox Williams",
+        "slug": "fox-williams",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1292,
+        "name": "Audiogenic",
+        "slug": "audiogenic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1293,
+        "name": "Team Dakota",
+        "slug": "team-dakota",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1294,
+        "name": "Gaelco",
+        "slug": "gaelco",
+        "average_rating": null,
+        "parent": null
+    }
+]

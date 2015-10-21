@@ -127,12 +127,12 @@ var App = React.createClass({
           <div className="col-md-6">
             <iframe style={{marginBottom:20}} className='full-width'
                     src={videos[i]}
-                    width="500" height="213" frameBorder="0" allowFullscreen></iframe>
+                    width="500" height="213" frameBorder="0" allowFullScreen></iframe>
           </div>
           {videos[i + 1] ? <div className="col-md-6">
             <iframe style={{marginBottom:20}} className='full-width'
                     src={videos[i + 1]}
-                    width="500" height="213" frameBorder="0" allowFullscreen></iframe>
+                    width="500" height="213" frameBorder="0" allowFullScreen></iframe>
           </div> : null }
         </div>
       );

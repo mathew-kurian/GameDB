@@ -1,0 +1,201 @@
+[
+    {
+        "id": 439,
+        "name": "Sumo Digital",
+        "slug": "sumo-digital",
+        "average_rating": "7.89679263502438",
+        "founded_year": 2003,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/sumo-digital/images/company_logos/6p/sumo-digital_logo_thumb.png",
+            "width": 400,
+            "height": 163
+        }
+    },
+    {
+        "id": 512,
+        "name": "Ocean",
+        "slug": "ocean",
+        "average_rating": "7.89568361391184",
+        "parent": null
+    },
+    {
+        "id": 364,
+        "name": "Rockstar San Diego",
+        "slug": "rockstar-san-diego",
+        "average_rating": "8.80102289126932",
+        "founded_year": 2002,
+        "parent": 29,
+        "company_logo": {
+            "url": "/companies/rockstar-san-diego/images/company_logos/2l/rockstar-san-diego_logo_thumb.png",
+            "width": 500,
+            "height": 460
+        }
+    },
+    {
+        "id": 381,
+        "name": "Headfirst Productions",
+        "slug": "headfirst-productions",
+        "average_rating": "8.45558705757721",
+        "founded_year": 1998,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/headfirst-productions/images/company_logos/8f/headfirst-productions_logo_thumb.png",
+            "width": 331,
+            "height": 147
+        }
+    },
+    {
+        "id": 362,
+        "name": "Pi Studios",
+        "slug": "pi-studios",
+        "average_rating": "7.94286878171243",
+        "parent": null
+    },
+    {
+        "id": 1452,
+        "name": "Imagine Software",
+        "slug": "imagine-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 435,
+        "name": "Danger Close",
+        "slug": "danger-close",
+        "average_rating": "7.08942953574128",
+        "founded_year": 2010,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/danger-close/images/company_logos/bg/danger-close_logo_thumb.png",
+            "width": 368,
+            "height": 374
+        }
+    },
+    {
+        "id": 471,
+        "name": "Pulse Entertainment",
+        "slug": "pulse-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 472,
+        "name": "Infinite Monkey",
+        "slug": "infinite-monkey",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 478,
+        "name": "Aries Online Games",
+        "slug": "aries-online-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1585,
+        "name": "Giand Studios",
+        "slug": "giand-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1586,
+        "name": "Englobe Inc",
+        "slug": "englobe-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1587,
+        "name": "Wall of Sound",
+        "slug": "wall-of-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1588,
+        "name": "Technicolor Animation and Interactive Service",
+        "slug": "technicolor-animation-and-interactive-service",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 488,
+        "name": "Stick Man Games",
+        "slug": "stick-man-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 535,
+        "name": "Papyrus",
+        "slug": "papyrus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 493,
+        "name": "Stormregion",
+        "slug": "stormregion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 495,
+        "name": "Big Time Software",
+        "slug": "big-time-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 496,
+        "name": "EA Pacific",
+        "slug": "ea-pacific",
+        "average_rating": "8.23510193292269",
+        "parent": null
+    },
+    {
+        "id": 500,
+        "name": "Auran",
+        "slug": "auran",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 503,
+        "name": "Introversion",
+        "slug": "introversion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 513,
+        "name": "Digital Image Design",
+        "slug": "digital-image-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 518,
+        "name": "Third Wire",
+        "slug": "third-wire",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 523,
+        "name": "Graphsim Entertainment",
+        "slug": "graphsim-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 524,
+        "name": "Lead Pursuit",
+        "slug": "lead-pursuit",
+        "average_rating": null,
+        "parent": null
+    }
+]

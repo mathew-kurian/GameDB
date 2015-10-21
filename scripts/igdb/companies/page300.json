@@ -1,0 +1,199 @@
+[
+    {
+        "id": 529,
+        "name": "Flying Legends",
+        "slug": "flying-legends",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 534,
+        "name": "Sick Puppies",
+        "slug": "sick-puppies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1589,
+        "name": "Wolf Willow Sound",
+        "slug": "wolf-willow-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 541,
+        "name": "Team .366",
+        "slug": "team-366",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 402,
+        "name": "Day 1 Studios",
+        "slug": "day-1-studios",
+        "average_rating": "7.71710960806055",
+        "parent": null
+    },
+    {
+        "id": 403,
+        "name": "Sucker Punch Productions",
+        "slug": "sucker-punch-productions",
+        "average_rating": "7.56986393449677",
+        "parent": 45,
+        "company_logo": {
+            "url": "/companies/sucker-punch-productions/images/company_logos/j/sucker-punch-productions_logo_thumb.png",
+            "width": 279,
+            "height": 245
+        }
+    },
+    {
+        "id": 516,
+        "name": "4HEAD Studios",
+        "slug": "4head-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1807,
+        "name": "GameBank",
+        "slug": "gamebank",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 430,
+        "name": "SCE Studios Santa Monica",
+        "slug": "sce-studios-santa-monica",
+        "average_rating": "8.57714282521585",
+        "parent": null
+    },
+    {
+        "id": 394,
+        "name": "Nadeo",
+        "slug": "nadeo",
+        "average_rating": "7.80447641540095",
+        "founded_year": 2000,
+        "parent": 3955,
+        "company_logo": {
+            "url": "/companies/nadeo/images/company_logos/cn/nadeo_logo_thumb.png",
+            "width": 348,
+            "height": 145
+        }
+    },
+    {
+        "id": 354,
+        "name": "DSI Games",
+        "slug": "dsi-games",
+        "average_rating": "8.17690708386347",
+        "parent": null
+    },
+    {
+        "id": 399,
+        "name": "Longtail Studios",
+        "slug": "longtail-studios",
+        "average_rating": null,
+        "parent": 104,
+        "company_logo": {
+            "url": "/companies/longtail-studios/images/company_logos/62/longtail-studios_logo_thumb.png",
+            "width": 149,
+            "height": 190
+        }
+    },
+    {
+        "id": 384,
+        "name": "Playlogic Entertainment",
+        "slug": "playlogic-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 361,
+        "name": "Hyperion Entertainment",
+        "slug": "hyperion-entertainment",
+        "average_rating": "8.99523114858393",
+        "parent": null
+    },
+    {
+        "id": 540,
+        "name": "10tacle Studios",
+        "slug": "10tacle-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 494,
+        "name": "Battlefront.com",
+        "slug": "battlefront-com",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 479,
+        "name": "PopCap",
+        "slug": "popcap",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 373,
+        "name": "Ascaron Entertainment",
+        "slug": "ascaron-entertainment",
+        "average_rating": "8.04157856102819",
+        "founded_year": 1992,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/ascaron-entertainment/images/company_logos/52/ascaron-entertainment_logo_thumb.png",
+            "width": 893,
+            "height": 764
+        }
+    },
+    {
+        "id": 573,
+        "name": "Tri Synergy",
+        "slug": "tri-synergy",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 351,
+        "name": "EA Montreal",
+        "slug": "ea-montreal",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 357,
+        "name": "Firebrand Games",
+        "slug": "firebrand-games",
+        "average_rating": "7.2225643130954",
+        "parent": null
+    },
+    {
+        "id": 442,
+        "name": "Asobo Studio",
+        "slug": "asobo-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 483,
+        "name": "Gray Matter",
+        "slug": "gray-matter",
+        "average_rating": "8.09070412356324",
+        "parent": null
+    },
+    {
+        "id": 2533,
+        "name": "Mobile21",
+        "slug": "mobile21",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 419,
+        "name": "Project Aces",
+        "slug": "project-aces",
+        "average_rating": null,
+        "parent": null
+    }
+]

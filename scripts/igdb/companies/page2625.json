@@ -1,0 +1,203 @@
+[
+    {
+        "id": 3003,
+        "name": "Digiturbo",
+        "slug": "digiturbo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3004,
+        "name": "PrincessSoft",
+        "slug": "princesssoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3005,
+        "name": "Hirameki",
+        "slug": "hirameki",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3155,
+        "name": "Excalibur Publishing",
+        "slug": "excalibur-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2981,
+        "name": "Mind over Matter Studios",
+        "slug": "mind-over-matter-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2992,
+        "name": "Buka Entertainment",
+        "slug": "buka-entertainment",
+        "average_rating": null,
+        "parent": 157,
+        "company_logo": {
+            "url": "/companies/buka-entertainment/images/company_logos/59/buka-entertainment_logo_thumb.png",
+            "width": 378,
+            "height": 378
+        }
+    },
+    {
+        "id": 3015,
+        "name": "Atomic Motion",
+        "slug": "atomic-motion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3009,
+        "name": "Studio Fizbin",
+        "slug": "studio-fizbin",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/studio-fizbin/images/company_logos/3u/studio-fizbin_logo_thumb.png",
+            "width": 180,
+            "height": 199
+        }
+    },
+    {
+        "id": 3021,
+        "name": "BongFish",
+        "slug": "bongfish",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3026,
+        "name": "Sleeping Beast Games",
+        "slug": "sleeping-beast-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3018,
+        "name": "Palace Game",
+        "slug": "palace-game",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3019,
+        "name": "Triangle Service",
+        "slug": "triangle-service",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3027,
+        "name": "Transhuman Design",
+        "slug": "transhuman-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 953,
+        "name": "Arrowhead Game Studios",
+        "slug": "arrowhead-game-studios",
+        "average_rating": "7.39209767781528",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/arrowhead-game-studios/images/company_logos/4d/arrowhead-game-studios_logo_thumb.png",
+            "width": 559,
+            "height": 103
+        }
+    },
+    {
+        "id": 3028,
+        "name": " \tTranshuman Design",
+        "slug": "transhuman-design--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3025,
+        "name": "Creative Intelligence Arts, Inc.",
+        "slug": "creative-intelligence-arts-inc",
+        "average_rating": null,
+        "founded_year": 2010,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/creative-intelligence-arts-inc/images/company_logos/49/creative-intelligence-arts-inc_logo_thumb.png",
+            "width": 1601,
+            "height": 900
+        }
+    },
+    {
+        "id": 3029,
+        "name": "BattleCry Studios",
+        "slug": "battlecry-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3022,
+        "name": "Kung Fu Factory",
+        "slug": "kung-fu-factory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3037,
+        "name": "Maximum Games",
+        "slug": "maximum-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3040,
+        "name": "Colorful Media",
+        "slug": "colorful-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3043,
+        "name": "Rhino Studios",
+        "slug": "rhino-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3030,
+        "name": "Gone North Games",
+        "slug": "gone-north-games",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/gone-north-games/images/company_logos/73/gone-north-games_logo_thumb.png",
+            "width": 1600,
+            "height": 906
+        }
+    },
+    {
+        "id": 3017,
+        "name": "Akabeisoft2",
+        "slug": "akabeisoft2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3060,
+        "name": "Better Reality",
+        "slug": "better-reality",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3059,
+        "name": "Oovee Game Studios ",
+        "slug": "oovee-game-studios--1",
+        "average_rating": null,
+        "parent": null
+    }
+]

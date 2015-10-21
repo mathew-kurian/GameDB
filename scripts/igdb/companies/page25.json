@@ -1,0 +1,214 @@
+[
+    {
+        "id": 1733,
+        "name": "Mobius Entertainment",
+        "slug": "mobius-entertainment",
+        "average_rating": "9.17193594969707",
+        "parent": null
+    },
+    {
+        "id": 93,
+        "name": "Square Enix 1st Production Department",
+        "slug": "square-enix-1st-production-department",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 67,
+        "name": "Petroglyph Games",
+        "slug": "petroglyph-games",
+        "average_rating": "7.60110717173602",
+        "founded_year": 2003,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/petroglyph-games/images/company_logos/81/petroglyph-games_logo_thumb.png",
+            "width": 400,
+            "height": 331
+        }
+    },
+    {
+        "id": 20,
+        "name": "Darkside Game Studios",
+        "slug": "darkside-game-studios",
+        "average_rating": "8.6095218061406",
+        "parent": null
+    },
+    {
+        "id": 62,
+        "name": "Griptonite Games",
+        "slug": "griptonite-games",
+        "average_rating": "6.94429858813669",
+        "founded_year": 1994,
+        "parent": 216,
+        "company_logo": {
+            "url": "/companies/griptonite-games/images/company_logos/7w/griptonite-games_logo_thumb.png",
+            "width": 400,
+            "height": 299
+        }
+    },
+    {
+        "id": 2569,
+        "name": "Climax Racing",
+        "slug": "climax-racing",
+        "average_rating": null,
+        "founded_year": 2004,
+        "parent": 60
+    },
+    {
+        "id": 64,
+        "name": "Savage Entertainment",
+        "slug": "savage-entertainment",
+        "average_rating": "8.86332078488421",
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/savage-entertainment/images/company_logos/80/savage-entertainment_logo_thumb.png",
+            "width": 256,
+            "height": 102
+        }
+    },
+    {
+        "id": 57,
+        "name": "Certain Affinity",
+        "slug": "certain-affinity",
+        "average_rating": "7.25524256471081",
+        "parent": null
+    },
+    {
+        "id": 39,
+        "name": "Ubisoft Annecy",
+        "slug": "ubisoft-annecy",
+        "average_rating": "7.98909553189082",
+        "parent": null
+    },
+    {
+        "id": 48,
+        "name": "NetherRealm Studios",
+        "slug": "netherrealm-studios",
+        "average_rating": "8.40908520877165",
+        "parent": null
+    },
+    {
+        "id": 44,
+        "name": "Team Ico",
+        "slug": "team-ico",
+        "average_rating": "9.15473834335234",
+        "parent": null
+    },
+    {
+        "id": 65,
+        "name": "Luxoflux",
+        "slug": "luxoflux",
+        "average_rating": "6.97240991878419",
+        "parent": null
+    },
+    {
+        "id": 101,
+        "name": "Freeverse Software",
+        "slug": "freeverse-software",
+        "average_rating": "8.13442906341747",
+        "parent": null
+    },
+    {
+        "id": 60,
+        "name": "Climax Group",
+        "slug": "climax-group",
+        "average_rating": "8.66825127808295",
+        "parent": null
+    },
+    {
+        "id": 1447,
+        "name": "Subset Games",
+        "slug": "subset-games",
+        "average_rating": "8.73299928937405",
+        "parent": null
+    },
+    {
+        "id": 1531,
+        "name": "22Cans",
+        "slug": "22cans",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/22cans/images/company_logos/a4/22cans_logo_thumb.png",
+            "width": 296,
+            "height": 400
+        }
+    },
+    {
+        "id": 55,
+        "name": "Turtle Rock Studios",
+        "slug": "turtle-rock-studios",
+        "average_rating": "7.5460338511337",
+        "founded_year": 2002,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/turtle-rock-studios/images/company_logos/ba/turtle-rock-studios_logo_thumb.png",
+            "width": 400,
+            "height": 300
+        }
+    },
+    {
+        "id": 125,
+        "name": "Crytek Budapest",
+        "slug": "crytek-budapest",
+        "average_rating": "7.97920273758715",
+        "parent": null
+    },
+    {
+        "id": 138,
+        "name": "Refraction Games",
+        "slug": "refraction-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 142,
+        "name": "Westwood Pacific",
+        "slug": "westwood-pacific",
+        "average_rating": "8.42657501028309",
+        "parent": null
+    },
+    {
+        "id": 77,
+        "name": "Totally Games",
+        "slug": "totally-games",
+        "average_rating": "8.58225401121206",
+        "founded_year": 1993,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/totally-games/images/company_logos/7n/totally-games_logo_thumb.png",
+            "width": 250,
+            "height": 100
+        }
+    },
+    {
+        "id": 1571,
+        "name": "Artistry Entertainment",
+        "slug": "artistry-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 30,
+        "name": "Team Bondi",
+        "slug": "team-bondi",
+        "average_rating": "8.01283494944427",
+        "parent": null
+    },
+    {
+        "id": 154,
+        "name": "Neowiz Games",
+        "slug": "neowiz-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 78,
+        "name": "Snowblind Studios",
+        "slug": "snowblind-studios",
+        "average_rating": "6.03384974123532",
+        "parent": null
+    }
+]

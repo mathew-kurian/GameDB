@@ -1,0 +1,188 @@
+[
+    {
+        "id": 706,
+        "name": "HotGen",
+        "slug": "hotgen",
+        "average_rating": "7.50942196599115",
+        "parent": null
+    },
+    {
+        "id": 726,
+        "name": "SCE Bend Studio",
+        "slug": "sce-bend-studio",
+        "average_rating": "7.75129473718428",
+        "parent": null
+    },
+    {
+        "id": 727,
+        "name": "Oddworld Inhabitants",
+        "slug": "oddworld-inhabitants",
+        "average_rating": "7.8032876738768",
+        "parent": null
+    },
+    {
+        "id": 685,
+        "name": "FASA Interactive",
+        "slug": "fasa-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 744,
+        "name": "Biart",
+        "slug": "biart",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 745,
+        "name": "Futuremark Games Studio",
+        "slug": "futuremark-games-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 770,
+        "name": "D-Rockets",
+        "slug": "d-rockets",
+        "average_rating": "7.59284514403036",
+        "parent": null
+    },
+    {
+        "id": 774,
+        "name": "QLOC",
+        "slug": "qloc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 777,
+        "name": "Konami Computer Entertainment Kobe",
+        "slug": "konami-computer-entertainment-kobe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 778,
+        "name": "Konami Mobile",
+        "slug": "konami-mobile",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 779,
+        "name": "Konami Eighting",
+        "slug": "konami-eighting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2461,
+        "name": "RailSimulator.com Ltd",
+        "slug": "railsimulator-com-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 720,
+        "name": "Infogrames Europe",
+        "slug": "infogrames-europe",
+        "average_rating": "8.00004021976687",
+        "parent": null
+    },
+    {
+        "id": 575,
+        "name": "Impressions Games",
+        "slug": "impressions-games",
+        "average_rating": "8.99586806501921",
+        "founded_year": 1989,
+        "parent": 147,
+        "company_logo": {
+            "url": "/companies/impressions-games/images/company_logos/8w/impressions-games_logo_thumb.png",
+            "width": 400,
+            "height": 97
+        }
+    },
+    {
+        "id": 614,
+        "name": "Team 17",
+        "slug": "team-17",
+        "average_rating": "7.96012946313221",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/team-17/images/company_logos/an/team-17_logo_thumb.png",
+            "width": 3995,
+            "height": 2550
+        }
+    },
+    {
+        "id": 788,
+        "name": "Platinum Egg",
+        "slug": "platinum-egg",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1457,
+        "name": "Nine Realms",
+        "slug": "nine-realms",
+        "average_rating": "8.30326783692895",
+        "parent": null
+    },
+    {
+        "id": 792,
+        "name": "O3 Games",
+        "slug": "o3-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 793,
+        "name": "Pan Interactive",
+        "slug": "pan-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 796,
+        "name": "Infinite Game Publishing",
+        "slug": "infinite-game-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 799,
+        "name": "Square Enix Product Development Division 1",
+        "slug": "square-enix-product-development-division-1",
+        "average_rating": "9.21322617784013",
+        "parent": null
+    },
+    {
+        "id": 801,
+        "name": "Square Enix Product Development Division 5",
+        "slug": "square-enix-product-development-division-5",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 812,
+        "name": "Gradiente",
+        "slug": "gradiente",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 807,
+        "name": "Doublesix",
+        "slug": "doublesix",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 808,
+        "name": "Xbox Live Production",
+        "slug": "xbox-live-production",
+        "average_rating": null,
+        "parent": null
+    }
+]

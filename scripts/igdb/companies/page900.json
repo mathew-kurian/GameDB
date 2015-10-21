@@ -1,0 +1,213 @@
+[
+    {
+        "id": 1070,
+        "name": "Aqua Pacific",
+        "slug": "aqua-pacific",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1326,
+        "name": "Amaze Entertainment",
+        "slug": "amaze-entertainment--2",
+        "average_rating": null,
+        "founded_year": 1996,
+        "parent": 4358,
+        "company_logo": {
+            "url": "/companies/amaze-entertainment--2/images/company_logos/a7/amaze-entertainment--2_logo_thumb.png",
+            "width": 240,
+            "height": 82
+        }
+    },
+    {
+        "id": 1055,
+        "name": "EA Casual Entertainment Label",
+        "slug": "ea-casual-entertainment-label",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1057,
+        "name": "Egmont Interactive",
+        "slug": "egmont-interactive",
+        "average_rating": "8.99972585259428",
+        "parent": null
+    },
+    {
+        "id": 52,
+        "name": "LTI Gray Matter",
+        "slug": "lti-gray-matter",
+        "average_rating": "8.94609125899169",
+        "parent": null
+    },
+    {
+        "id": 1653,
+        "name": "vlambeer",
+        "slug": "vlambeer",
+        "average_rating": "7.85431733576779",
+        "parent": null
+    },
+    {
+        "id": 1271,
+        "name": "Ocean Software",
+        "slug": "ocean-software",
+        "average_rating": "8.38236276987652",
+        "founded_year": 1984,
+        "parent": 213,
+        "company_logo": {
+            "url": "/companies/ocean-software/images/company_logos/5r/ocean-software_logo_thumb.png",
+            "width": 250,
+            "height": 71
+        }
+    },
+    {
+        "id": 1552,
+        "name": "Astragon",
+        "slug": "astragon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1474,
+        "name": "SNK",
+        "slug": "snk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1066,
+        "name": "Pandora",
+        "slug": "pandora",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 822,
+        "name": "Ubisoft Singapore",
+        "slug": "ubisoft-singapore",
+        "average_rating": "7.4530136472809",
+        "parent": null
+    },
+    {
+        "id": 1093,
+        "name": "Chunsoft",
+        "slug": "chunsoft",
+        "average_rating": null,
+        "founded_year": 1984,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/chunsoft/images/company_logos/7h/chunsoft_logo_thumb.png",
+            "width": 149,
+            "height": 121
+        }
+    },
+    {
+        "id": 1061,
+        "name": "Distractionware",
+        "slug": "distractionware",
+        "average_rating": "8.23012079957014",
+        "parent": null
+    },
+    {
+        "id": 1521,
+        "name": "Games2Train",
+        "slug": "games2train",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1522,
+        "name": "think3",
+        "slug": "think3",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1890,
+        "name": "Nimbus Games",
+        "slug": "nimbus-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2010,
+        "name": "Cranky Pants Games",
+        "slug": "cranky-pants-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1765,
+        "name": "Nerd Monkeys",
+        "slug": "nerd-monkeys",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1625,
+        "name": "Telefilm Canada",
+        "slug": "telefilm-canada",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1980,
+        "name": "ITL",
+        "slug": "itl",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1075,
+        "name": "Nintendo EAD HAL Labratory",
+        "slug": "nintendo-ead-hal-labratory",
+        "average_rating": "8.0001163316691",
+        "parent": null
+    },
+    {
+        "id": 1065,
+        "name": "Realmforge Studios",
+        "slug": "realmforge-studios",
+        "average_rating": null,
+        "founded_year": 2008,
+        "parent": 783,
+        "company_logo": {
+            "url": "/companies/realmforge-studios/images/company_logos/aw/realmforge-studios_logo_thumb.png",
+            "width": 399,
+            "height": 341
+        }
+    },
+    {
+        "id": 1053,
+        "name": "Spike",
+        "slug": "spike",
+        "average_rating": "7.13569469542732",
+        "founded_year": 1991,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/spike/images/company_logos/7i/spike_logo_thumb.png",
+            "width": 175,
+            "height": 104
+        }
+    },
+    {
+        "id": 1078,
+        "name": "Knowledge Adventure, Inc.",
+        "slug": "knowledge-adventure-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1046,
+        "name": "Stormfront Studios",
+        "slug": "stormfront-studios",
+        "average_rating": null,
+        "founded_year": 1988,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/stormfront-studios/images/company_logos/8u/stormfront-studios_logo_thumb.png",
+            "width": 312,
+            "height": 312
+        }
+    }
+]

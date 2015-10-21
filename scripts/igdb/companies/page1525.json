@@ -1,0 +1,184 @@
+[
+    {
+        "id": 1532,
+        "name": "Hopoo Games LLC",
+        "slug": "hopoo-games-llc",
+        "average_rating": "8.08223157175913",
+        "parent": null
+    },
+    {
+        "id": 1734,
+        "name": "Barbie Software for Girls",
+        "slug": "barbie-software-for-girls",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1805,
+        "name": "Noise",
+        "slug": "noise",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1428,
+        "name": "Trendy Entertainment",
+        "slug": "trendy-entertainment",
+        "average_rating": "6.9919141964806",
+        "parent": null
+    },
+    {
+        "id": 1738,
+        "name": "Game Machine Studios",
+        "slug": "game-machine-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1381,
+        "name": "Humansoft",
+        "slug": "humansoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1295,
+        "name": "Point of View",
+        "slug": "point-of-view",
+        "average_rating": "8.10520916448193",
+        "parent": null
+    },
+    {
+        "id": 1814,
+        "name": "Suzak",
+        "slug": "suzak",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1336,
+        "name": "A2M",
+        "slug": "a2m",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1281,
+        "name": "Kemco",
+        "slug": "kemco",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2488,
+        "name": "Atlus USA",
+        "slug": "atlus-usa",
+        "average_rating": "9.24377214499864",
+        "parent": null
+    },
+    {
+        "id": 1316,
+        "name": "Black Lantern Studios",
+        "slug": "black-lantern-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1269,
+        "name": "Robomodo",
+        "slug": "robomodo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 260,
+        "name": "Argonaut Games",
+        "slug": "argonaut-games",
+        "average_rating": "7.24327435882888",
+        "parent": null
+    },
+    {
+        "id": 1274,
+        "name": "Epoch",
+        "slug": "epoch",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1380,
+        "name": "Red Barrels",
+        "slug": "red-barrels",
+        "average_rating": "7.79508453731912",
+        "parent": null
+    },
+    {
+        "id": 1439,
+        "name": "Cooking Mama Limited",
+        "slug": "cooking-mama-limited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1438,
+        "name": "Office Create",
+        "slug": "office-create",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1385,
+        "name": "Pocket Studios",
+        "slug": "pocket-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1396,
+        "name": "Amanita Design",
+        "slug": "amanita-design",
+        "average_rating": "9.01061793059519",
+        "founded_year": 2003,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/amanita-design/images/company_logos/a1/amanita-design_logo_thumb.png",
+            "width": 2000,
+            "height": 345
+        }
+    },
+    {
+        "id": 1408,
+        "name": "AKI Corporation",
+        "slug": "aki-corporation",
+        "average_rating": null,
+        "founded_year": 1995,
+        "parent": null
+    },
+    {
+        "id": 652,
+        "name": "Nintendo Australia",
+        "slug": "nintendo-australia",
+        "average_rating": "8.49248842963889",
+        "parent": null
+    },
+    {
+        "id": 1412,
+        "name": "Peppy",
+        "slug": "peppy",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1362,
+        "name": "N-Fusion Interactive",
+        "slug": "n-fusion-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1260,
+        "name": "Behaviour Interactive",
+        "slug": "behaviour-interactive",
+        "average_rating": "8.93571581120564",
+        "parent": null
+    }
+]

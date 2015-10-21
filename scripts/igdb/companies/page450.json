@@ -1,0 +1,189 @@
+[
+    {
+        "id": 645,
+        "name": "Firefly Studios",
+        "slug": "firefly-studios",
+        "average_rating": "8.64476935538347",
+        "parent": null
+    },
+    {
+        "id": 1454,
+        "name": "WarChest",
+        "slug": "warchest",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 581,
+        "name": "Creative Assembly",
+        "slug": "creative-assembly",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 674,
+        "name": "Maddox Games",
+        "slug": "maddox-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 695,
+        "name": "Auran Games",
+        "slug": "auran-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 564,
+        "name": "Presto Studios",
+        "slug": "presto-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 651,
+        "name": "Sourcenext",
+        "slug": "sourcenext",
+        "average_rating": "8.71027936051304",
+        "parent": null
+    },
+    {
+        "id": 584,
+        "name": "Sandlot Games",
+        "slug": "sandlot-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 660,
+        "name": "Capcom Production Studio 1",
+        "slug": "capcom-production-studio-1",
+        "average_rating": "7.04300562529917",
+        "parent": null
+    },
+    {
+        "id": 699,
+        "name": "Pipe Dream Interactive",
+        "slug": "pipe-dream-interactive",
+        "average_rating": "6.00445790486198",
+        "parent": null
+    },
+    {
+        "id": 647,
+        "name": "Related Designs",
+        "slug": "related-designs",
+        "average_rating": "8.59800810740762",
+        "parent": null
+    },
+    {
+        "id": 691,
+        "name": "HeadGames",
+        "slug": "headgames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 658,
+        "name": "Slant Six Games",
+        "slug": "slant-six-games",
+        "average_rating": "5.99043840123875",
+        "parent": null
+    },
+    {
+        "id": 678,
+        "name": "Black Pearl Software",
+        "slug": "black-pearl-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 672,
+        "name": "Synergex de Argentina",
+        "slug": "synergex-de-argentina",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 592,
+        "name": "Milestone",
+        "slug": "milestone",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 725,
+        "name": "Buzz Monkey Software",
+        "slug": "buzz-monkey-software",
+        "average_rating": "7.66361254805912",
+        "parent": null
+    },
+    {
+        "id": 631,
+        "name": "Zonic Limited",
+        "slug": "zonic-limited",
+        "average_rating": "8.54285052560672",
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/zonic-limited/images/company_logos/bd/zonic-limited_logo_thumb.png",
+            "width": 139,
+            "height": 132
+        }
+    },
+    {
+        "id": 603,
+        "name": "Humongous Entertainment",
+        "slug": "humongous-entertainment",
+        "average_rating": null,
+        "founded_year": 1992,
+        "parent": 2039,
+        "company_logo": {
+            "url": "/companies/humongous-entertainment/images/company_logos/3m/humongous-entertainment_logo_thumb.png",
+            "width": 250,
+            "height": 250
+        }
+    },
+    {
+        "id": 665,
+        "name": "Williams Entertainment",
+        "slug": "williams-entertainment",
+        "average_rating": "8.40354893123496",
+        "parent": null
+    },
+    {
+        "id": 655,
+        "name": "Capcom Production Studio 3",
+        "slug": "capcom-production-studio-3",
+        "average_rating": "8.64239007713932",
+        "parent": null
+    },
+    {
+        "id": 662,
+        "name": "Visual Science",
+        "slug": "visual-science",
+        "average_rating": "8.11619397478334",
+        "parent": null
+    },
+    {
+        "id": 742,
+        "name": "Unigine Corp",
+        "slug": "unigine-corp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 697,
+        "name": "Ubisoft Romania",
+        "slug": "ubisoft-romania",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 718,
+        "name": "EA Manchester",
+        "slug": "ea-manchester",
+        "average_rating": null,
+        "parent": null
+    }
+]

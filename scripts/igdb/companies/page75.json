@@ -1,0 +1,209 @@
+[
+    {
+        "id": 160,
+        "name": "Double Helix Games",
+        "slug": "double-helix-games",
+        "average_rating": "7.14490928406521",
+        "parent": null
+    },
+    {
+        "id": 151,
+        "name": "Simtex",
+        "slug": "simtex",
+        "average_rating": "9.47532529344249",
+        "founded_year": 1988,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/simtex/images/company_logos/8r/simtex_logo_thumb.png",
+            "width": 251,
+            "height": 149
+        }
+    },
+    {
+        "id": 166,
+        "name": "Shadows in Darkness",
+        "slug": "shadows-in-darkness",
+        "average_rating": "8.74453967044757",
+        "parent": null
+    },
+    {
+        "id": 164,
+        "name": "Rocksteady Studios",
+        "slug": "rocksteady-studios",
+        "average_rating": "8.87115679180621",
+        "founded_year": 2004,
+        "parent": 50,
+        "company_logo": {
+            "url": "/companies/rocksteady-studios/images/company_logos/32/rocksteady-studios_logo_thumb.png",
+            "width": 2400,
+            "height": 911
+        }
+    },
+    {
+        "id": 1059,
+        "name": "Yuke's Media Creations",
+        "slug": "yuke-s-media-creations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 132,
+        "name": "Destineer",
+        "slug": "destineer",
+        "average_rating": "8.27243729825386",
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/destineer/images/company_logos/4b/destineer_logo_thumb.png",
+            "width": 225,
+            "height": 110
+        }
+    },
+    {
+        "id": 165,
+        "name": "DC Entertainment",
+        "slug": "dc-entertainment",
+        "average_rating": "7.06379775579406",
+        "parent": null
+    },
+    {
+        "id": 1811,
+        "name": "Electro Brain",
+        "slug": "electro-brain",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 136,
+        "name": "Planet Moon Studios",
+        "slug": "planet-moon-studios",
+        "average_rating": "8.59683428913476",
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/planet-moon-studios/images/company_logos/6b/planet-moon-studios_logo_thumb.png",
+            "width": 240,
+            "height": 400
+        }
+    },
+    {
+        "id": 134,
+        "name": "Max Design",
+        "slug": "max-design",
+        "average_rating": "8.38601224511624",
+        "parent": null
+    },
+    {
+        "id": 135,
+        "name": "Sunflowers",
+        "slug": "sunflowers",
+        "average_rating": "8.38601224511624",
+        "parent": null
+    },
+    {
+        "id": 153,
+        "name": "Digital Illusions CE: Canada",
+        "slug": "digital-illusions-ce-canada",
+        "average_rating": "7.29200372293007",
+        "parent": null
+    },
+    {
+        "id": 185,
+        "name": "Ninjaforce",
+        "slug": "ninjaforce",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 198,
+        "name": "Iron Lore Entertainment",
+        "slug": "iron-lore-entertainment",
+        "average_rating": "8.71605938170479",
+        "parent": null
+    },
+    {
+        "id": 158,
+        "name": "Crytek UK",
+        "slug": "crytek-uk",
+        "average_rating": "8.0473252596631",
+        "founded_year": 1999,
+        "parent": 249
+    },
+    {
+        "id": 133,
+        "name": "Rogue Entertainment",
+        "slug": "rogue-entertainment",
+        "average_rating": null,
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/rogue-entertainment/images/company_logos/8d/rogue-entertainment_logo_thumb.png",
+            "width": 293,
+            "height": 258
+        }
+    },
+    {
+        "id": 147,
+        "name": "Vivendi Universal",
+        "slug": "vivendi-universal",
+        "average_rating": "8.32778816520231",
+        "parent": null
+    },
+    {
+        "id": 167,
+        "name": "People Can Fly",
+        "slug": "people-can-fly",
+        "average_rating": "7.88715544049324",
+        "founded_year": 2002,
+        "parent": 168
+    },
+    {
+        "id": 173,
+        "name": "The Omni Group",
+        "slug": "the-omni-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 149,
+        "name": "Ritual Entertainment",
+        "slug": "ritual-entertainment",
+        "average_rating": "7.4354027898202",
+        "parent": null
+    },
+    {
+        "id": 214,
+        "name": "Sylum Entertainment",
+        "slug": "sylum-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 217,
+        "name": "Morning Star Multimedia",
+        "slug": "morning-star-multimedia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 226,
+        "name": "Aardvark Software",
+        "slug": "aardvark-software",
+        "average_rating": "8.86610749588894",
+        "parent": null
+    },
+    {
+        "id": 194,
+        "name": "Hothouse Creations",
+        "slug": "hothouse-creations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 235,
+        "name": "Heuristic Park",
+        "slug": "heuristic-park",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "id": 376,
+        "name": "Linux Game Publishing",
+        "slug": "linux-game-publishing",
+        "average_rating": "8.96782175595483",
+        "parent": null
+    },
+    {
+        "id": 2190,
+        "name": "Phosphor",
+        "slug": "phosphor",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2172,
+        "name": "Deck13 Interactive",
+        "slug": "deck13-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2203,
+        "name": "Modern Dreams",
+        "slug": "modern-dreams",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2548,
+        "name": "DreamCatcher Games",
+        "slug": "dreamcatcher-games",
+        "average_rating": "8.53102294515331",
+        "parent": null
+    },
+    {
+        "id": 2161,
+        "name": "Armor Project",
+        "slug": "armor-project",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2154,
+        "name": "Keen Games",
+        "slug": "keen-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2212,
+        "name": "Redtribe",
+        "slug": "redtribe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2217,
+        "name": "Games Foundation",
+        "slug": "games-foundation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2218,
+        "name": "Pixonauts",
+        "slug": "pixonauts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2501,
+        "name": "Overhaul Games",
+        "slug": "overhaul-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2363,
+        "name": "Technopop",
+        "slug": "technopop",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2222,
+        "name": "Genius Products",
+        "slug": "genius-products",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2220,
+        "name": "SnapDragon Games",
+        "slug": "snapdragon-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2256,
+        "name": "Namco Network",
+        "slug": "namco-network",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2223,
+        "name": "Load Inc",
+        "slug": "load-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2258,
+        "name": "Neopic BVBA",
+        "slug": "neopic-bvba",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2226,
+        "name": "Floor 84 Studio",
+        "slug": "floor-84-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2228,
+        "name": "The Games Company",
+        "slug": "the-games-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2229,
+        "name": "Ignition Banbury",
+        "slug": "ignition-banbury",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2230,
+        "name": "Nazca Corporation",
+        "slug": "nazca-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2235,
+        "name": "IE Institute",
+        "slug": "ie-institute",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2260,
+        "name": "Mere Mortals",
+        "slug": "mere-mortals",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2240,
+        "name": "Respondesign",
+        "slug": "respondesign",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2237,
+        "name": "SideQuest Studios",
+        "slug": "sidequest-studios",
+        "average_rating": null,
+        "parent": null
+    }
+]

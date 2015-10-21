@@ -1,0 +1,183 @@
+[
+    {
+        "id": 327,
+        "name": "Midway Games",
+        "slug": "midway-games",
+        "average_rating": "7.41732974292762",
+        "parent": null
+    },
+    {
+        "id": 2113,
+        "name": "Nobilis",
+        "slug": "nobilis",
+        "average_rating": "7.9883458103664",
+        "parent": null
+    },
+    {
+        "id": 2040,
+        "name": "Wanadoo Edition",
+        "slug": "wanadoo-edition",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2139,
+        "name": "DTP Entertainment",
+        "slug": "dtp-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2112,
+        "name": "Virtual Toys",
+        "slug": "virtual-toys",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1668,
+        "name": "Mumbo Jumbo",
+        "slug": "mumbo-jumbo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2134,
+        "name": "War Drum Studios",
+        "slug": "war-drum-studios",
+        "average_rating": "9.17193594969707",
+        "parent": null
+    },
+    {
+        "id": 2105,
+        "name": "Oberon Interactive",
+        "slug": "oberon-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2104,
+        "name": "Google",
+        "slug": "google",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2118,
+        "name": "Oxygen Interactive Software",
+        "slug": "oxygen-interactive-software",
+        "average_rating": null,
+        "founded_year": 2001,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/oxygen-interactive-software/images/company_logos/b8/oxygen-interactive-software_logo_thumb.png",
+            "width": 249,
+            "height": 59
+        }
+    },
+    {
+        "id": 2093,
+        "name": "Gusto Games",
+        "slug": "gusto-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2556,
+        "name": "Ratbag Games",
+        "slug": "ratbag-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2599,
+        "name": "Media Blasters",
+        "slug": "media-blasters",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2496,
+        "name": "BlueLine Game Studios",
+        "slug": "blueline-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2151,
+        "name": "Jet Black Games",
+        "slug": "jet-black-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2544,
+        "name": "Touchdown Entertainment",
+        "slug": "touchdown-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2545,
+        "name": "GFI Russia",
+        "slug": "gfi-russia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2567,
+        "name": "Top Heavy Studios",
+        "slug": "top-heavy-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2598,
+        "name": "Mondo Media",
+        "slug": "mondo-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2618,
+        "name": "Philos Laboratories",
+        "slug": "philos-laboratories",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2173,
+        "name": "Press Play",
+        "slug": "press-play",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2179,
+        "name": "DIC Entertainment",
+        "slug": "dic-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2180,
+        "name": "Vision Media Engineering",
+        "slug": "vision-media-engineering",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2155,
+        "name": "Syfy Kids",
+        "slug": "syfy-kids",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2156,
+        "name": "Imagination Entertainment",
+        "slug": "imagination-entertainment",
+        "average_rating": null,
+        "parent": null
+    }
+]

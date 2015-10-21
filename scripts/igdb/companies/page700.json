@@ -1,0 +1,213 @@
+[
+    {
+        "id": 950,
+        "name": "Rovio Entertainment",
+        "slug": "rovio-entertainment",
+        "average_rating": "7.4680568265793",
+        "founded_year": 2003,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/rovio-entertainment/images/company_logos/5c/rovio-entertainment_logo_thumb.png",
+            "width": 150,
+            "height": 234
+        }
+    },
+    {
+        "id": 413,
+        "name": "Human Head Studios",
+        "slug": "human-head-studios",
+        "average_rating": "7.13680019197862",
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/human-head-studios/images/company_logos/66/human-head-studios_logo_thumb.png",
+            "width": 220,
+            "height": 265
+        }
+    },
+    {
+        "id": 1463,
+        "name": "Black Forest Games",
+        "slug": "black-forest-games",
+        "average_rating": "4.11997479516975",
+        "parent": null
+    },
+    {
+        "id": 940,
+        "name": "Paradox NORTH",
+        "slug": "paradox-north",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1982,
+        "name": "CodeJunkies",
+        "slug": "codejunkies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1467,
+        "name": "Sammy",
+        "slug": "sammy",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1487,
+        "name": "Cauldron HQ",
+        "slug": "cauldron-hq",
+        "average_rating": null,
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/cauldron-hq/images/company_logos/ag/cauldron-hq_logo_thumb.png",
+            "width": 279,
+            "height": 302
+        }
+    },
+    {
+        "id": 1459,
+        "name": "Milestone S.r.l.",
+        "slug": "milestone-s-r-l",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 19,
+        "name": "Arkane Studios",
+        "slug": "arkane-studios",
+        "average_rating": "7.54359386293094",
+        "founded_year": 1999,
+        "parent": 245,
+        "company_logo": {
+            "url": "/companies/arkane-studios/images/company_logos/ch/arkane-studios_logo_thumb.png",
+            "width": 425,
+            "height": 150
+        }
+    },
+    {
+        "id": 888,
+        "name": "Digital Eclipse",
+        "slug": "digital-eclipse",
+        "average_rating": "7.48227282950108",
+        "founded_year": 1992,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/digital-eclipse/images/company_logos/7q/digital-eclipse_logo_thumb.png",
+            "width": 565,
+            "height": 160
+        }
+    },
+    {
+        "id": 1468,
+        "name": "Gratuitous Games",
+        "slug": "gratuitous-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1752,
+        "name": "Athena",
+        "slug": "athena",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 934,
+        "name": "Iridon Interactive AB",
+        "slug": "iridon-interactive-ab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 939,
+        "name": "Gazillion Entertainment",
+        "slug": "gazillion-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 88,
+        "name": "Shiny Entertainment",
+        "slug": "shiny-entertainment",
+        "average_rating": "8.30746819913751",
+        "founded_year": 1993,
+        "parent": 4358,
+        "company_logo": {
+            "url": "/companies/shiny-entertainment/images/company_logos/7p/shiny-entertainment_logo_thumb.png",
+            "width": 152,
+            "height": 155
+        }
+    },
+    {
+        "id": 956,
+        "name": "Alexander Bruce",
+        "slug": "alexander-bruce",
+        "average_rating": "8.77066777497466",
+        "parent": null
+    },
+    {
+        "id": 943,
+        "name": "Colossal Order",
+        "slug": "colossal-order",
+        "average_rating": "8.75831122504077",
+        "parent": null
+    },
+    {
+        "id": 928,
+        "name": "Supergiant Games",
+        "slug": "supergiant-games",
+        "average_rating": "8.8306505584125",
+        "parent": null
+    },
+    {
+        "id": 1473,
+        "name": "TEC Interactive Pte.",
+        "slug": "tec-interactive-pte",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1482,
+        "name": "3D Eyetronics",
+        "slug": "3d-eyetronics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1470,
+        "name": "Dadedalic Entertainment",
+        "slug": "dadedalic-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1478,
+        "name": "Tikiman Productions",
+        "slug": "tikiman-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1483,
+        "name": "Liquid Development",
+        "slug": "liquid-development",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1484,
+        "name": "EA Europe",
+        "slug": "ea-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2470,
+        "name": "RuneStorm",
+        "slug": "runestorm",
+        "average_rating": null,
+        "parent": null
+    }
+]

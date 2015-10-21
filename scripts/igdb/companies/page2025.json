@@ -1,0 +1,178 @@
+[
+    {
+        "id": 2422,
+        "name": "Hertz",
+        "slug": "hertz",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2423,
+        "name": "SoMoGa",
+        "slug": "somoga",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2439,
+        "name": "NaturalMotion",
+        "slug": "naturalmotion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2306,
+        "name": "49Games",
+        "slug": "49games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2412,
+        "name": "Toxic Games",
+        "slug": "toxic-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2380,
+        "name": "JVC Musical Industries",
+        "slug": "jvc-musical-industries",
+        "average_rating": "9.10728549142076",
+        "parent": null
+    },
+    {
+        "id": 863,
+        "name": "Takara",
+        "slug": "takara",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2393,
+        "name": "The Software Toolworks",
+        "slug": "the-software-toolworks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1117,
+        "name": "Lace Mamba Global",
+        "slug": "lace-mamba-global",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2435,
+        "name": "Frontier Groove",
+        "slug": "frontier-groove",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1809,
+        "name": "Nintendo R&D1",
+        "slug": "nintendo-r-d1",
+        "average_rating": "6.44772606403527",
+        "parent": null
+    },
+    {
+        "id": 2376,
+        "name": "Park Place Productions",
+        "slug": "park-place-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2502,
+        "name": "Cardboard Computer",
+        "slug": "cardboard-computer",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2441,
+        "name": "Realta Entertainment Group",
+        "slug": "realta-entertainment-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2504,
+        "name": "Dutch Game Garden",
+        "slug": "dutch-game-garden",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2505,
+        "name": "Game Maker",
+        "slug": "game-maker",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2506,
+        "name": "Village1 Entertainment",
+        "slug": "village1-entertainment",
+        "average_rating": "8.1045932539936",
+        "parent": null
+    },
+    {
+        "id": 2509,
+        "name": "BetaDwarf",
+        "slug": "betadwarf",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2552,
+        "name": "369 Interactive",
+        "slug": "369-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2553,
+        "name": "EPCConnect",
+        "slug": "epcconnect",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2568,
+        "name": "Amuze",
+        "slug": "amuze",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2434,
+        "name": "Kogado Studio",
+        "slug": "kogado-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2429,
+        "name": "Swordfish Studios",
+        "slug": "swordfish-studios",
+        "average_rating": null,
+        "founded_year": 2002,
+        "parent": null
+    },
+    {
+        "id": 2507,
+        "name": "Conspiracy Games",
+        "slug": "conspiracy-games",
+        "average_rating": "8.1045932539936",
+        "parent": null
+    },
+    {
+        "id": 2404,
+        "name": "Tengen",
+        "slug": "tengen",
+        "average_rating": null,
+        "parent": null
+    }
+]

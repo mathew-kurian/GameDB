@@ -1,0 +1,182 @@
+[
+    {
+        "id": 2158,
+        "name": "4mm Games",
+        "slug": "4mm-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2183,
+        "name": "KO Software",
+        "slug": "ko-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2184,
+        "name": "HME Inc",
+        "slug": "hme-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2150,
+        "name": "Aurona",
+        "slug": "aurona",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2159,
+        "name": "Asylum Entertainment",
+        "slug": "asylum-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2097,
+        "name": "20th Century Fox Games",
+        "slug": "20th-century-fox-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2107,
+        "name": "Game Mill Entertainment",
+        "slug": "game-mill-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2121,
+        "name": "Iron Galaxy Studios",
+        "slug": "iron-galaxy-studios",
+        "average_rating": "9.13426618475125",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/iron-galaxy-studios/images/company_logos/ao/iron-galaxy-studios_logo_thumb.png",
+            "width": 1920,
+            "height": 1080
+        }
+    },
+    {
+        "id": 2160,
+        "name": "Ironstone Partners",
+        "slug": "ironstone-partners",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2185,
+        "name": "Toolbox Design",
+        "slug": "toolbox-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2186,
+        "name": "MotiveTime Ltd",
+        "slug": "motivetime-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2188,
+        "name": "Gammick Entertainment",
+        "slug": "gammick-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2165,
+        "name": "Enterbrain",
+        "slug": "enterbrain",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2167,
+        "name": "Nintendo SPD Group No. 3",
+        "slug": "nintendo-spd-group-no-3",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2198,
+        "name": "Popcorn Arcade",
+        "slug": "popcorn-arcade",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2174,
+        "name": "EA Freestyle",
+        "slug": "ea-freestyle",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2176,
+        "name": "Frozen North Productions",
+        "slug": "frozen-north-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2177,
+        "name": "Erbe Software S.A.",
+        "slug": "erbe-software-s-a",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2178,
+        "name": "Azeroth Inc.",
+        "slug": "azeroth-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2210,
+        "name": "Game Sauce",
+        "slug": "game-sauce",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2195,
+        "name": "Paramount Digital Entertainment",
+        "slug": "paramount-digital-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2196,
+        "name": "Big Head Games",
+        "slug": "big-head-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2194,
+        "name": "Rocket Company",
+        "slug": "rocket-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2157,
+        "name": "Gravity-i",
+        "slug": "gravity-i",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2193,
+        "name": "Eko System",
+        "slug": "eko-system",
+        "average_rating": null,
+        "parent": null
+    }
+]

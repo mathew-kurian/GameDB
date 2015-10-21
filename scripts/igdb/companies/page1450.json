@@ -1,0 +1,183 @@
+[
+    {
+        "id": 1369,
+        "name": "Project Reality Team",
+        "slug": "project-reality-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1372,
+        "name": "Hammerpoint Interactive",
+        "slug": "hammerpoint-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1373,
+        "name": "OP Productions",
+        "slug": "op-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1378,
+        "name": "Simbiosis Interactive",
+        "slug": "simbiosis-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1379,
+        "name": "Jungle Troll Entertainment",
+        "slug": "jungle-troll-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1382,
+        "name": "J-Force",
+        "slug": "j-force",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1390,
+        "name": "Ons On Soft",
+        "slug": "ons-on-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1391,
+        "name": "gamigo AG",
+        "slug": "gamigo-ag",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1392,
+        "name": "Vostok Games",
+        "slug": "vostok-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1395,
+        "name": "Minmax Games",
+        "slug": "minmax-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1397,
+        "name": "Superbrothers",
+        "slug": "superbrothers",
+        "average_rating": "8.126930096163",
+        "parent": null
+    },
+    {
+        "id": 1401,
+        "name": "Oxeye Game Studio",
+        "slug": "oxeye-game-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1399,
+        "name": "Novarama",
+        "slug": "novarama",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1400,
+        "name": "Rat King Entertainment",
+        "slug": "rat-king-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1407,
+        "name": "EA Japan",
+        "slug": "ea-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1424,
+        "name": "Galactic Cafe",
+        "slug": "galactic-cafe",
+        "average_rating": "8.87275079664275",
+        "parent": null
+    },
+    {
+        "id": 1387,
+        "name": "Surreal Software",
+        "slug": "surreal-software",
+        "average_rating": "6.07164805738727",
+        "parent": null
+    },
+    {
+        "id": 1289,
+        "name": "DC Comics",
+        "slug": "dc-comics",
+        "average_rating": "7.21862548344809",
+        "parent": null
+    },
+    {
+        "id": 1319,
+        "name": "Sensory Sweep Studios",
+        "slug": "sensory-sweep-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1268,
+        "name": "Page 44 Studios",
+        "slug": "page-44-studios",
+        "average_rating": "6.00326846562694",
+        "parent": null
+    },
+    {
+        "id": 1345,
+        "name": "Richard Garriot",
+        "slug": "richard-garriot",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1333,
+        "name": "Razorback Developments",
+        "slug": "razorback-developments",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1245,
+        "name": "Ambrella",
+        "slug": "ambrella",
+        "average_rating": null,
+        "founded_year": 1996,
+        "parent": 70,
+        "company_logo": {
+            "url": "/companies/ambrella/images/company_logos/3n/ambrella_logo_thumb.png",
+            "width": 256,
+            "height": 208
+        }
+    },
+    {
+        "id": 1365,
+        "name": "lucas pope",
+        "slug": "lucas-pope",
+        "average_rating": "7.85148707481499",
+        "parent": null
+    },
+    {
+        "id": 1360,
+        "name": "Capcom Production Studio 6",
+        "slug": "capcom-production-studio-6",
+        "average_rating": null,
+        "parent": null
+    }
+]

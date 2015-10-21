@@ -1,0 +1,178 @@
+[
+    {
+        "id": 2038,
+        "name": "Overworks",
+        "slug": "overworks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2030,
+        "name": "Metro Graphics",
+        "slug": "metro-graphics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2029,
+        "name": "Sugar and Rockets",
+        "slug": "sugar-and-rockets",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2008,
+        "name": "AM3",
+        "slug": "am3",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2063,
+        "name": "Arzest",
+        "slug": "arzest",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2041,
+        "name": "Kuusou Kagaku",
+        "slug": "kuusou-kagaku",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2043,
+        "name": "Equinoxe",
+        "slug": "equinoxe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2044,
+        "name": "Check Six Games",
+        "slug": "check-six-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2013,
+        "name": "MGM Interactive",
+        "slug": "mgm-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1917,
+        "name": "Image Works",
+        "slug": "image-works",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1443,
+        "name": "SCS Software",
+        "slug": "scs-software",
+        "average_rating": "7.80310865701237",
+        "founded_year": 1997,
+        "parent": null
+    },
+    {
+        "id": 2045,
+        "name": "LAB Rats Games",
+        "slug": "lab-rats-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2047,
+        "name": "Garakuta-Studios",
+        "slug": "garakuta-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2049,
+        "name": "Konami Hawaii",
+        "slug": "konami-hawaii",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2048,
+        "name": "Blue Planet Software",
+        "slug": "blue-planet-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2054,
+        "name": "Team Viewtiful",
+        "slug": "team-viewtiful",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2051,
+        "name": "Hands-On Mobile",
+        "slug": "hands-on-mobile",
+        "average_rating": "6.33981899452288",
+        "parent": null
+    },
+    {
+        "id": 2079,
+        "name": "Nordcurrent",
+        "slug": "nordcurrent",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2021,
+        "name": "Sega Studio USA",
+        "slug": "sega-studio-usa",
+        "average_rating": "5.32303333147684",
+        "parent": null
+    },
+    {
+        "id": 2065,
+        "name": "Escape",
+        "slug": "escape",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2058,
+        "name": "Bunkasha",
+        "slug": "bunkasha",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2061,
+        "name": "Bomico Entertainment Software",
+        "slug": "bomico-entertainment-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2068,
+        "name": "Magnin and Associates",
+        "slug": "magnin-and-associates",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2066,
+        "name": "Nova Games",
+        "slug": "nova-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2064,
+        "name": "Data East USA",
+        "slug": "data-east-usa",
+        "average_rating": null,
+        "parent": null
+    }
+]

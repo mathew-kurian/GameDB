@@ -1,0 +1,207 @@
+[
+    {
+        "id": 2458,
+        "name": "Team Andromeda",
+        "slug": "team-andromeda",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 635,
+        "name": "BreakAway Games",
+        "slug": "breakaway-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 636,
+        "name": "Rockstar Vancouver",
+        "slug": "rockstar-vancouver",
+        "average_rating": "7.59917441530548",
+        "founded_year": 1998,
+        "parent": 29,
+        "company_logo": {
+            "url": "/companies/rockstar-vancouver/images/company_logos/2i/rockstar-vancouver_logo_thumb.png",
+            "width": 500,
+            "height": 460
+        }
+    },
+    {
+        "id": 559,
+        "name": "Rowan Software",
+        "slug": "rowan-software",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 579,
+        "name": "Big Huge Games",
+        "slug": "big-huge-games",
+        "average_rating": "8.06384474439354",
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/big-huge-games/images/company_logos/a3/big-huge-games_logo_thumb.png",
+            "width": 150,
+            "height": 136
+        }
+    },
+    {
+        "id": 497,
+        "name": "EA LA",
+        "slug": "ea-la",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 604,
+        "name": "Cavedog Entertainment",
+        "slug": "cavedog-entertainment",
+        "average_rating": "9.28685874357299",
+        "founded_year": 1996,
+        "parent": 603,
+        "company_logo": {
+            "url": "/companies/cavedog-entertainment/images/company_logos/8v/cavedog-entertainment_logo_thumb.png",
+            "width": 275,
+            "height": 159
+        }
+    },
+    {
+        "id": 576,
+        "name": "Digital Illusions",
+        "slug": "digital-illusions",
+        "average_rating": null,
+        "founded_year": 1992,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/digital-illusions/images/company_logos/ac/digital-illusions_logo_thumb.png",
+            "width": 230,
+            "height": 236
+        }
+    },
+    {
+        "id": 542,
+        "name": "Barking Dog",
+        "slug": "barking-dog",
+        "average_rating": null,
+        "founded_year": 1998,
+        "parent": 139,
+        "company_logo": {
+            "url": "/companies/barking-dog/images/company_logos/ap/barking-dog_logo_thumb.png",
+            "width": 353,
+            "height": 276
+        }
+    },
+    {
+        "id": 571,
+        "name": "Out Of The Park Developments",
+        "slug": "out-of-the-park-developments",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 528,
+        "name": "SSI",
+        "slug": "ssi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 640,
+        "name": "Kesmai",
+        "slug": "kesmai",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 642,
+        "name": "testcompany1",
+        "slug": "testcompany1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 643,
+        "name": "Rainmaker Software",
+        "slug": "rainmaker-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 649,
+        "name": "2K Boston",
+        "slug": "2k-boston",
+        "average_rating": "9.07461229863485",
+        "parent": null
+    },
+    {
+        "id": 657,
+        "name": "Underground Development",
+        "slug": "underground-development",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 560,
+        "name": "Legend Entertainment",
+        "slug": "legend-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 591,
+        "name": "Team Meat",
+        "slug": "team-meat",
+        "average_rating": "8.96841563709726",
+        "parent": null
+    },
+    {
+        "id": 533,
+        "name": "Stardock",
+        "slug": "stardock",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 664,
+        "name": "M4 Limited",
+        "slug": "m4-limited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 611,
+        "name": "Celeris",
+        "slug": "celeris",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 668,
+        "name": "Digital Jesters",
+        "slug": "digital-jesters",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 670,
+        "name": "Papyrus Design Group",
+        "slug": "papyrus-design-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 673,
+        "name": "Blimey! Games",
+        "slug": "blimey-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 675,
+        "name": "Orange Games",
+        "slug": "orange-games",
+        "average_rating": null,
+        "parent": null
+    }
+]

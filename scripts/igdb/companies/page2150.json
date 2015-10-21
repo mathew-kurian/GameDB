@@ -1,0 +1,194 @@
+[
+    {
+        "id": 2661,
+        "name": "Teenage Engineering",
+        "slug": "teenage-engineering",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2662,
+        "name": "Hiss and a Roar",
+        "slug": "hiss-and-a-roar",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2663,
+        "name": "New Sound Lab",
+        "slug": "new-sound-lab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2664,
+        "name": "Pole Position Productions",
+        "slug": "pole-position-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2665,
+        "name": "Sounddogs",
+        "slug": "sounddogs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2666,
+        "name": "Rabbit Ears Audio",
+        "slug": "rabbit-ears-audio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2667,
+        "name": "Garden Aquatica",
+        "slug": "garden-aquatica",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2668,
+        "name": "Hank and Jed Movie Pictures",
+        "slug": "hank-and-jed-movie-pictures",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3281,
+        "name": "IMPD Productions, Inc.",
+        "slug": "impd-productions-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2747,
+        "name": "DAUM Communications",
+        "slug": "daum-communications",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2669,
+        "name": "Machinima",
+        "slug": "machinima",
+        "average_rating": null,
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/machinima/images/company_logos/72/machinima_logo_thumb.png",
+            "width": 250,
+            "height": 250
+        }
+    },
+    {
+        "id": 2523,
+        "name": "Exidy",
+        "slug": "exidy",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2437,
+        "name": "Zen United",
+        "slug": "zen-united",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2748,
+        "name": "GameOn",
+        "slug": "gameon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2963,
+        "name": "Object Software Limited",
+        "slug": "object-software-limited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3282,
+        "name": "Incessant Rain Studios, Inc.",
+        "slug": "incessant-rain-studios-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3071,
+        "name": "Spaces of Play",
+        "slug": "spaces-of-play",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/spaces-of-play/images/company_logos/4q/spaces-of-play_logo_thumb.png",
+            "width": 240,
+            "height": 167
+        }
+    },
+    {
+        "id": 3101,
+        "name": "Kill3rCombo",
+        "slug": "kill3rcombo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3049,
+        "name": "Triangle Studios",
+        "slug": "triangle-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3102,
+        "name": "Axeso5",
+        "slug": "axeso5",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3160,
+        "name": "Omni Systems Limited",
+        "slug": "omni-systems-limited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 207,
+        "name": "PopTop Software",
+        "slug": "poptop-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1100,
+        "name": "ND Cube",
+        "slug": "nd-cube",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 306,
+        "name": "Rockstar Toronto",
+        "slug": "rockstar-toronto",
+        "average_rating": "8.07550700850549",
+        "founded_year": 2002,
+        "parent": 29,
+        "company_logo": {
+            "url": "/companies/rockstar-toronto/images/company_logos/14/rockstar-toronto_logo_thumb.png",
+            "width": 500,
+            "height": 460
+        }
+    },
+    {
+        "id": 3283,
+        "name": "Alive Interactive Media, Inc.",
+        "slug": "alive-interactive-media-inc",
+        "average_rating": null,
+        "parent": null
+    }
+]

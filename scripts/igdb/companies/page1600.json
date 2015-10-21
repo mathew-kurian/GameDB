@@ -1,0 +1,207 @@
+[
+    {
+        "id": 1907,
+        "name": "Creat Studios",
+        "slug": "creat-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1934,
+        "name": "Skip Ltd.",
+        "slug": "skip-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1926,
+        "name": "FUN Labs",
+        "slug": "fun-labs",
+        "average_rating": null,
+        "founded_year": 1999,
+        "parent": 66,
+        "company_logo": {
+            "url": "/companies/fun-labs/images/company_logos/31/fun-labs_logo_thumb.png",
+            "width": 104,
+            "height": 77
+        }
+    },
+    {
+        "id": 2036,
+        "name": "Sunrise Interactive",
+        "slug": "sunrise-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2595,
+        "name": "BeTomarrow",
+        "slug": "betomarrow",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1241,
+        "name": "Artificial Mind & Movement",
+        "slug": "artificial-mind-movement",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1363,
+        "name": "Akella",
+        "slug": "akella",
+        "average_rating": null,
+        "founded_year": 1993,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/akella/images/company_logos/75/akella_logo_thumb.png",
+            "width": 720,
+            "height": 720
+        }
+    },
+    {
+        "id": 2032,
+        "name": "Tuning Electronic",
+        "slug": "tuning-electronic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1383,
+        "name": "Acquire",
+        "slug": "acquire",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 762,
+        "name": "HAL Laboratory",
+        "slug": "hal-laboratory",
+        "average_rating": "8.22786489965982",
+        "founded_year": 1980,
+        "parent": 70,
+        "company_logo": {
+            "url": "/companies/hal-laboratory/images/company_logos/23/hal-laboratory_logo_thumb.png",
+            "width": 256,
+            "height": 119
+        }
+    },
+    {
+        "id": 2579,
+        "name": "Hip Interactive",
+        "slug": "hip-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1843,
+        "name": "Guerrilla Games",
+        "slug": "guerrilla-games",
+        "average_rating": "6.76288014063091",
+        "parent": null
+    },
+    {
+        "id": 1897,
+        "name": "Ubisoft Blue Byte",
+        "slug": "ubisoft-blue-byte",
+        "average_rating": null,
+        "parent": 104,
+        "company_logo": {
+            "url": "/companies/ubisoft-blue-byte/images/company_logos/d5/ubisoft-blue-byte_logo_thumb.png",
+            "width": 4264,
+            "height": 7087
+        }
+    },
+    {
+        "id": 2591,
+        "name": "Homegrown",
+        "slug": "homegrown",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1415,
+        "name": "Quintet",
+        "slug": "quintet",
+        "average_rating": "7.78173876880643",
+        "parent": null
+    },
+    {
+        "id": 1418,
+        "name": "Chucklefish Games",
+        "slug": "chucklefish-games",
+        "average_rating": "7.93800661004247",
+        "parent": null
+    },
+    {
+        "id": 1898,
+        "name": "Sanzaru Games",
+        "slug": "sanzaru-games",
+        "average_rating": "7.26662202496997",
+        "parent": null
+    },
+    {
+        "id": 1911,
+        "name": "Climax Brighton",
+        "slug": "climax-brighton",
+        "average_rating": null,
+        "founded_year": 1999,
+        "parent": 60
+    },
+    {
+        "id": 2016,
+        "name": "GungHo Online",
+        "slug": "gungho-online",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 505,
+        "name": "Outrage Games",
+        "slug": "outrage-games",
+        "average_rating": null,
+        "founded_year": 1997,
+        "parent": 197,
+        "company_logo": {
+            "url": "/companies/outrage-games/images/company_logos/bh/outrage-games_logo_thumb.png",
+            "width": 400,
+            "height": 269
+        }
+    },
+    {
+        "id": 485,
+        "name": "SCi Games",
+        "slug": "sci-games",
+        "average_rating": "8.27482672164184",
+        "parent": null
+    },
+    {
+        "id": 2037,
+        "name": "Ideaworks3D",
+        "slug": "ideaworks3d",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 702,
+        "name": "Ubisoft Montpellier",
+        "slug": "ubisoft-montpellier",
+        "average_rating": "8.10742507191885",
+        "parent": null
+    },
+    {
+        "id": 1431,
+        "name": "Wild Games Studio",
+        "slug": "wild-games-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2031,
+        "name": "Fube Industries Ltd.",
+        "slug": "fube-industries-ltd",
+        "average_rating": null,
+        "parent": null
+    }
+]

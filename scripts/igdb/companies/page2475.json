@@ -1,0 +1,189 @@
+[
+    {
+        "id": 2888,
+        "name": "Psikyo",
+        "slug": "psikyo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2890,
+        "name": "Bimboosoft",
+        "slug": "bimboosoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2872,
+        "name": "eurocom development",
+        "slug": "eurocom-development",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2873,
+        "name": "sevenOne intermedia",
+        "slug": "sevenone-intermedia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2891,
+        "name": "MASA Group",
+        "slug": "masa-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2875,
+        "name": "dk games",
+        "slug": "dk-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2877,
+        "name": "21 rocks",
+        "slug": "21-rocks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2878,
+        "name": "konami industry",
+        "slug": "konami-industry",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2919,
+        "name": "Indie Opportunity",
+        "slug": "indie-opportunity",
+        "average_rating": "6.33333333333333",
+        "founded_year": 2014,
+        "parent": 2917,
+        "company_logo": {
+            "url": "/companies/indie-opportunity/images/company_logos/2z/indie-opportunity_logo_thumb.png",
+            "width": 260,
+            "height": 370
+        }
+    },
+    {
+        "id": 2884,
+        "name": "Gears for Breakfast",
+        "slug": "gears-for-breakfast",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/gears-for-breakfast/images/company_logos/2w/gears-for-breakfast_logo_thumb.png",
+            "width": 1606,
+            "height": 497
+        }
+    },
+    {
+        "id": 2880,
+        "name": "Inferno Games",
+        "slug": "inferno-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2892,
+        "name": "Sega Rosso",
+        "slug": "sega-rosso",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2882,
+        "name": "ubisoft divertissements",
+        "slug": "ubisoft-divertissements",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2881,
+        "name": "Konami Europe",
+        "slug": "konami-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2906,
+        "name": "William Higinbotham",
+        "slug": "william-higinbotham",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2908,
+        "name": "Blossomsoft",
+        "slug": "blossomsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2894,
+        "name": "3D2 Entertainment",
+        "slug": "3d2-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2895,
+        "name": "Supercrit LLC",
+        "slug": "supercrit-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2896,
+        "name": "Oriental Software",
+        "slug": "oriental-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2911,
+        "name": "Asobism",
+        "slug": "asobism",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2897,
+        "name": "C. P. Brain",
+        "slug": "c-p-brain",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2900,
+        "name": "Nevrax",
+        "slug": "nevrax",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2901,
+        "name": "Winch Gate",
+        "slug": "winch-gate",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2899,
+        "name": "Tripmine Studios",
+        "slug": "tripmine-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2904,
+        "name": "Bones",
+        "slug": "bones",
+        "average_rating": null,
+        "parent": null
+    }
+]

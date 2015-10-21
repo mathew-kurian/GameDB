@@ -1,0 +1,189 @@
+[
+    {
+        "id": 1669,
+        "name": "Rockstar New York",
+        "slug": "rockstar-new-york",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1670,
+        "name": "Perspective Studios. Brooklyn",
+        "slug": "perspective-studios-brooklyn",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1671,
+        "name": "Cosgrove Hall Films",
+        "slug": "cosgrove-hall-films",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1672,
+        "name": "Digital Arts Studios",
+        "slug": "digital-arts-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1673,
+        "name": "Track 9 Studios",
+        "slug": "track-9-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1674,
+        "name": "Weddington Multimedia Los Angeles",
+        "slug": "weddington-multimedia-los-angeles",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1675,
+        "name": "Sync Studios",
+        "slug": "sync-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1676,
+        "name": "Radio Lazlow",
+        "slug": "radio-lazlow",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 379,
+        "name": "Full Fat",
+        "slug": "full-fat",
+        "average_rating": "8.07220909239106",
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/full-fat/images/company_logos/1z/full-fat_logo_thumb.png",
+            "width": 225,
+            "height": 225
+        }
+    },
+    {
+        "id": 1643,
+        "name": "Activision Publishing Minneapolis Inc.",
+        "slug": "activision-publishing-minneapolis-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1633,
+        "name": "Warner Brod. Studios",
+        "slug": "warner-brod-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1277,
+        "name": "Mattel Interactive",
+        "slug": "mattel-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1524,
+        "name": "The Learning Company",
+        "slug": "the-learning-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1846,
+        "name": "DokiDenki Studio",
+        "slug": "dokidenki-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1848,
+        "name": "Kotobuki Systems",
+        "slug": "kotobuki-systems",
+        "average_rating": null,
+        "founded_year": 1984,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/kotobuki-systems/images/company_logos/ax/kotobuki-systems_logo_thumb.png",
+            "width": 200,
+            "height": 91
+        }
+    },
+    {
+        "id": 1677,
+        "name": "Digital Arts",
+        "slug": "digital-arts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1678,
+        "name": "Sync Sound",
+        "slug": "sync-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1679,
+        "name": "Gamesound",
+        "slug": "gamesound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1680,
+        "name": "Iso Bar",
+        "slug": "iso-bar",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1681,
+        "name": "Waterline",
+        "slug": "waterline",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1682,
+        "name": "News Cafe",
+        "slug": "news-cafe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1683,
+        "name": "The Pond",
+        "slug": "the-pond",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1684,
+        "name": "Pivo",
+        "slug": "pivo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1685,
+        "name": "Budget Video Rentals",
+        "slug": "budget-video-rentals",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1686,
+        "name": "Lorna's Scooter",
+        "slug": "lorna-s-scooter",
+        "average_rating": null,
+        "parent": null
+    }
+]

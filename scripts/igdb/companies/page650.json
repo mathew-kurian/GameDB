@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1744,
+        "name": "Human Entertainment",
+        "slug": "human-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 891,
+        "name": "Halfbrick Studios",
+        "slug": "halfbrick-studios",
+        "average_rating": "7.39852123766398",
+        "parent": null
+    },
+    {
+        "id": 1747,
+        "name": "Infogames",
+        "slug": "infogames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 569,
+        "name": "Rocket Science Games",
+        "slug": "rocket-science-games",
+        "average_rating": null,
+        "founded_year": 1993,
+        "parent": null
+    },
+    {
+        "id": 2003,
+        "name": "Media Kite",
+        "slug": "media-kite",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2468,
+        "name": "FIX Korea",
+        "slug": "fix-korea",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2469,
+        "name": "FIX Games",
+        "slug": "fix-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 922,
+        "name": "Paramount Pictures",
+        "slug": "paramount-pictures",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 923,
+        "name": "Bad Robot Interactive",
+        "slug": "bad-robot-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 924,
+        "name": "K/O Paper Products",
+        "slug": "k-o-paper-products",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 925,
+        "name": "CBS Studios",
+        "slug": "cbs-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 927,
+        "name": "Gottlieb",
+        "slug": "gottlieb",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 955,
+        "name": "Blue Isle Studios",
+        "slug": "blue-isle-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 929,
+        "name": "Arkalis Interactive",
+        "slug": "arkalis-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 930,
+        "name": "MGM",
+        "slug": "mgm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 931,
+        "name": "Vircom Interactive",
+        "slug": "vircom-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 932,
+        "name": "SouthEnd Interactive ",
+        "slug": "southend-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1479,
+        "name": "Technicolor Interactive Services",
+        "slug": "technicolor-interactive-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 941,
+        "name": "BL-Logic",
+        "slug": "bl-logic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 944,
+        "name": "Darkest Hour Team",
+        "slug": "darkest-hour-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 945,
+        "name": "Nitro Games",
+        "slug": "nitro-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 949,
+        "name": "Reloaded Productions",
+        "slug": "reloaded-productions--2",
+        "average_rating": "6.39474188806272",
+        "parent": null
+    },
+    {
+        "id": 952,
+        "name": "Black Sea Studios",
+        "slug": "black-sea-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1461,
+        "name": "Noumena Studios",
+        "slug": "noumena-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1480,
+        "name": "Blackman Productions",
+        "slug": "blackman-productions",
+        "average_rating": null,
+        "parent": null
+    }
+]

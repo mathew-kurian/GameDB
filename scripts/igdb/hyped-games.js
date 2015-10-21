@@ -17,7 +17,7 @@ request('https://www.igdb.com/api/v1/games/search?token=' + tokens.token1 + '&fi
     }, function () {
       fs.writeFile('./games/hyped0.json', JSON.stringify(games, null, 4), {encoding: 'utf8'});
       console.log('done');
-    })
+    });
   } else {
     console.error(error);
     callback();

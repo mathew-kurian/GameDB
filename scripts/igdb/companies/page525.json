@@ -1,0 +1,201 @@
+[
+    {
+        "id": 740,
+        "name": "Spicy Horse",
+        "slug": "spicy-horse",
+        "average_rating": "6.99803503793219",
+        "founded_year": 2007,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/spicy-horse/images/company_logos/9t/spicy-horse_logo_thumb.png",
+            "width": 300,
+            "height": 300
+        }
+    },
+    {
+        "id": 2534,
+        "name": "Zono Inc.",
+        "slug": "zono-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 785,
+        "name": "Studio 33",
+        "slug": "studio-33",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 732,
+        "name": "Project Soul",
+        "slug": "project-soul",
+        "average_rating": "8.01544111429004",
+        "parent": null
+    },
+    {
+        "id": 741,
+        "name": "Toys for Bob",
+        "slug": "toys-for-bob",
+        "average_rating": null,
+        "founded_year": 1989,
+        "parent": 66,
+        "company_logo": {
+            "url": "/companies/toys-for-bob/images/company_logos/8o/toys-for-bob_logo_thumb.png",
+            "width": 253,
+            "height": 205
+        }
+    },
+    {
+        "id": 756,
+        "name": "E-Frontier",
+        "slug": "e-frontier",
+        "average_rating": "8.54403949326205",
+        "parent": null
+    },
+    {
+        "id": 809,
+        "name": "South Park Digital Studios",
+        "slug": "south-park-digital-studios",
+        "average_rating": "8.98679332744003",
+        "parent": null
+    },
+    {
+        "id": 690,
+        "name": "Torus Games",
+        "slug": "torus-games",
+        "average_rating": "8.98550016478665",
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/torus-games/images/company_logos/8c/torus-games_logo_thumb.png",
+            "width": 130,
+            "height": 130
+        }
+    },
+    {
+        "id": 763,
+        "name": "38 Studios",
+        "slug": "38-studios",
+        "average_rating": "8.10646936582056",
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/38-studios/images/company_logos/a2/38-studios_logo_thumb.png",
+            "width": 93,
+            "height": 152
+        }
+    },
+    {
+        "id": 709,
+        "name": "Teyon",
+        "slug": "teyon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 739,
+        "name": "Grezzo",
+        "slug": "grezzo",
+        "average_rating": "9.66245187456852",
+        "parent": null
+    },
+    {
+        "id": 754,
+        "name": "Legacy Interactive",
+        "slug": "legacy-interactive",
+        "average_rating": "8.67149267088734",
+        "parent": null
+    },
+    {
+        "id": 803,
+        "name": "Arika",
+        "slug": "arika",
+        "average_rating": "6.55565112678479",
+        "parent": null
+    },
+    {
+        "id": 825,
+        "name": "Vigil Games",
+        "slug": "vigil-games",
+        "average_rating": "7.46699506373783",
+        "parent": null
+    },
+    {
+        "id": 2463,
+        "name": "Secret Exit",
+        "slug": "secret-exit",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 846,
+        "name": "Rutubo Games",
+        "slug": "rutubo-games",
+        "average_rating": "9.75984604877016",
+        "parent": null
+    },
+    {
+        "id": 849,
+        "name": "Netherock Ltd.",
+        "slug": "netherock-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 867,
+        "name": "MSF/Winds",
+        "slug": "msf-winds",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 868,
+        "name": "Junction Point Studios",
+        "slug": "junction-point-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 870,
+        "name": "SEGA Amusements Europe",
+        "slug": "sega-amusements-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 871,
+        "name": "Cyberhead",
+        "slug": "cyberhead",
+        "average_rating": "9.33600196772453",
+        "parent": null
+    },
+    {
+        "id": 878,
+        "name": "2n Productions",
+        "slug": "2n-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 879,
+        "name": "The Kremlin",
+        "slug": "the-kremlin",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 881,
+        "name": "Walking Circles",
+        "slug": "walking-circles",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 882,
+        "name": "De Re Software",
+        "slug": "de-re-software",
+        "average_rating": null,
+        "parent": null
+    }
+]

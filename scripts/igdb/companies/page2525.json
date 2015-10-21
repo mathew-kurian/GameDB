@@ -1,0 +1,195 @@
+[
+    {
+        "id": 2920,
+        "name": "Media Vision",
+        "slug": "media-vision--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1134,
+        "name": "Interceptor Entertainment",
+        "slug": "interceptor-entertainment",
+        "average_rating": "7.79136765118269",
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/interceptor-entertainment/images/company_logos/bs/interceptor-entertainment_logo_thumb.png",
+            "width": 3508,
+            "height": 2480
+        }
+    },
+    {
+        "id": 2926,
+        "name": "Three Rings",
+        "slug": "three-rings",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2924,
+        "name": "technosoft",
+        "slug": "technosoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3250,
+        "name": "Synthesis Iberia Madrid",
+        "slug": "synthesis-iberia-madrid",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2937,
+        "name": "3 Sprockets",
+        "slug": "3-sprockets",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2927,
+        "name": "Dreamatrix Game Studios",
+        "slug": "dreamatrix-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2928,
+        "name": "Xeen",
+        "slug": "xeen",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3054,
+        "name": "Velocity",
+        "slug": "velocity",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2945,
+        "name": "Guildford Studio",
+        "slug": "guildford-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2938,
+        "name": "GMG Play",
+        "slug": "gmg-play",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2939,
+        "name": "Ideas Pad",
+        "slug": "ideas-pad",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2940,
+        "name": "BeeWorks",
+        "slug": "beeworks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2941,
+        "name": "Games Farm",
+        "slug": "games-farm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2934,
+        "name": "Vitei",
+        "slug": "vitei",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2954,
+        "name": "Phantom EFX",
+        "slug": "phantom-efx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2931,
+        "name": "Candle Light Studios",
+        "slug": "candle-light-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 722,
+        "name": "343 Industries",
+        "slug": "343-industries",
+        "average_rating": "7.56346566135772",
+        "founded_year": 2007,
+        "parent": 1010,
+        "company_logo": {
+            "url": "/companies/343-industries/images/company_logos/3a/343-industries_logo_thumb.png",
+            "width": 800,
+            "height": 358
+        }
+    },
+    {
+        "id": 2942,
+        "name": "Yakuza Team",
+        "slug": "yakuza-team",
+        "average_rating": "7.64081981212639",
+        "parent": null
+    },
+    {
+        "id": 2943,
+        "name": "Devil's Details",
+        "slug": "devil-s-details",
+        "average_rating": "7.64081981212639",
+        "parent": null
+    },
+    {
+        "id": 2944,
+        "name": "Nerjyzed Entertainment",
+        "slug": "nerjyzed-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 659,
+        "name": "Sledgehammer Games",
+        "slug": "sledgehammer-games",
+        "average_rating": "7.34886942071485",
+        "founded_year": 2009,
+        "parent": 66,
+        "company_logo": {
+            "url": "/companies/sledgehammer-games/images/company_logos/36/sledgehammer-games_logo_thumb.png",
+            "width": 511,
+            "height": 313
+        }
+    },
+    {
+        "id": 2949,
+        "name": "Masterpiece",
+        "slug": "masterpiece",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2951,
+        "name": "Jamsworks",
+        "slug": "jamsworks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2952,
+        "name": "Kylotonn",
+        "slug": "kylotonn",
+        "average_rating": null,
+        "parent": null
+    }
+]

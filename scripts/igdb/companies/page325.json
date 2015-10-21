@@ -1,0 +1,225 @@
+[
+    {
+        "id": 508,
+        "name": "PlayFirst",
+        "slug": "playfirst",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 444,
+        "name": "Radical Entertainment",
+        "slug": "radical-entertainment",
+        "average_rating": "7.68522605086975",
+        "founded_year": 1991,
+        "parent": 66,
+        "company_logo": {
+            "url": "/companies/radical-entertainment/images/company_logos/ar/radical-entertainment_logo_thumb.png",
+            "width": 800,
+            "height": 231
+        }
+    },
+    {
+        "id": 499,
+        "name": "Relic",
+        "slug": "relic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 429,
+        "name": "Venom Games",
+        "slug": "venom-games",
+        "average_rating": "4.57848338996531",
+        "parent": null
+    },
+    {
+        "id": 491,
+        "name": "Dreamworks Games",
+        "slug": "dreamworks-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 432,
+        "name": "Beenox",
+        "slug": "beenox",
+        "average_rating": "7.17562037751738",
+        "founded_year": 2000,
+        "parent": 66,
+        "company_logo": {
+            "url": "/companies/beenox/images/company_logos/3h/beenox_logo_thumb.png",
+            "width": 600,
+            "height": 450
+        }
+    },
+    {
+        "id": 409,
+        "name": "WB Games",
+        "slug": "wb-games",
+        "average_rating": "7.87209077183647",
+        "parent": null
+    },
+    {
+        "id": 465,
+        "name": "U.S. Army",
+        "slug": "u-s-army",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 431,
+        "name": "Ready at Dawn",
+        "slug": "ready-at-dawn",
+        "average_rating": "8.32647013256208",
+        "parent": null
+    },
+    {
+        "id": 492,
+        "name": "Atomic Games",
+        "slug": "atomic-games",
+        "average_rating": null,
+        "founded_year": 1989,
+        "parent": 132,
+        "company_logo": {
+            "url": "/companies/atomic-games/images/company_logos/9z/atomic-games_logo_thumb.png",
+            "width": 400,
+            "height": 169
+        }
+    },
+    {
+        "id": 474,
+        "name": "Liquid Entertainment",
+        "slug": "liquid-entertainment",
+        "average_rating": "6.97950613175189",
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/liquid-entertainment/images/company_logos/8s/liquid-entertainment_logo_thumb.png",
+            "width": 400,
+            "height": 146
+        }
+    },
+    {
+        "id": 519,
+        "name": "Graphic Simulations",
+        "slug": "graphic-simulations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 506,
+        "name": "Parallax Software",
+        "slug": "parallax-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 525,
+        "name": "GMX Media",
+        "slug": "gmx-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 476,
+        "name": "Matrix Games",
+        "slug": "matrix-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 545,
+        "name": "Particle Systems",
+        "slug": "particle-systems",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 548,
+        "name": "Eclipse Software",
+        "slug": "eclipse-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 549,
+        "name": "Hypnos",
+        "slug": "hypnos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 385,
+        "name": "Krome Studios",
+        "slug": "krome-studios",
+        "average_rating": "7.84488702657979",
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/krome-studios/images/company_logos/83/krome-studios_logo_thumb.png",
+            "width": 400,
+            "height": 124
+        }
+    },
+    {
+        "id": 329,
+        "name": "Cavia",
+        "slug": "cavia",
+        "average_rating": null,
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/cavia/images/company_logos/44/cavia_logo_thumb.png",
+            "width": 799,
+            "height": 300
+        }
+    },
+    {
+        "id": 331,
+        "name": "Triumph Studios",
+        "slug": "triumph-studios",
+        "average_rating": "7.69964519746466",
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/triumph-studios/images/company_logos/8y/triumph-studios_logo_thumb.png",
+            "width": 167,
+            "height": 180
+        }
+    },
+    {
+        "id": 404,
+        "name": "Cyanide Studio",
+        "slug": "cyanide-studio",
+        "average_rating": null,
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/cyanide-studio/images/company_logos/1m/cyanide-studio_logo_thumb.png",
+            "width": 2848,
+            "height": 893
+        }
+    },
+    {
+        "id": 551,
+        "name": "NetDevil",
+        "slug": "netdevil",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 556,
+        "name": "BudCat",
+        "slug": "budcat",
+        "average_rating": "8.03538618876556",
+        "parent": null
+    },
+    {
+        "id": 558,
+        "name": "FASA Studio",
+        "slug": "fasa-studio",
+        "average_rating": null,
+        "parent": null
+    }
+]

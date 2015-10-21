@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1549,
+        "name": "Laboratoires Bug-Tracker Inc",
+        "slug": "laboratoires-bug-tracker-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1048,
+        "name": "Nintendo EAD Group No. 4",
+        "slug": "nintendo-ead-group-no-4",
+        "average_rating": "8.8544080604534",
+        "parent": null
+    },
+    {
+        "id": 1049,
+        "name": "ITT Family Games",
+        "slug": "itt-family-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1051,
+        "name": "Hothead Games",
+        "slug": "hothead-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2472,
+        "name": "Kixeye",
+        "slug": "kixeye",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1782,
+        "name": "Gear Head Studios",
+        "slug": "gear-head-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1047,
+        "name": "Leaping Lizard",
+        "slug": "leaping-lizard",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1812,
+        "name": "Screaming Pink",
+        "slug": "screaming-pink",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1829,
+        "name": "Nihon Telenet",
+        "slug": "nihon-telenet",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1617,
+        "name": "Game Freak",
+        "slug": "game-freak",
+        "average_rating": "8.02943509500288",
+        "parent": null
+    },
+    {
+        "id": 1827,
+        "name": "Quest",
+        "slug": "quest",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2538,
+        "name": "BottleRocket Entertainment",
+        "slug": "bottlerocket-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2572,
+        "name": "Juice Games",
+        "slug": "juice-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1476,
+        "name": "X-Ample Architectures",
+        "slug": "x-ample-architectures",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1033,
+        "name": "SCE London Studios",
+        "slug": "sce-london-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1008,
+        "name": "Free Radical Design",
+        "slug": "free-radical-design",
+        "average_rating": "8.99873663749721",
+        "parent": null
+    },
+    {
+        "id": 1027,
+        "name": "Distinctive Software, Inc.",
+        "slug": "distinctive-software-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1826,
+        "name": "VIS Interactive",
+        "slug": "vis-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1601,
+        "name": "Voice Casting",
+        "slug": "voice-casting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1063,
+        "name": "Semi Secret Software",
+        "slug": "semi-secret-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1064,
+        "name": "Apeiron Studios",
+        "slug": "apeiron-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1486,
+        "name": "Strategic Simulations",
+        "slug": "strategic-simulations",
+        "average_rating": "8.60460251046025",
+        "parent": null
+    },
+    {
+        "id": 1743,
+        "name": "ASCII Corporation",
+        "slug": "ascii-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1041,
+        "name": "Canal+Multimédia",
+        "slug": "canal-multimedia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1034,
+        "name": "Home Vision",
+        "slug": "home-vision",
+        "average_rating": null,
+        "parent": null
+    }
+]

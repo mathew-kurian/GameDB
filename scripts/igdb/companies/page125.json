@@ -1,0 +1,195 @@
+[
+    {
+        "id": 272,
+        "name": "Madlab Software",
+        "slug": "madlab-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 228,
+        "name": "FormGen",
+        "slug": "formgen",
+        "average_rating": "8.86610749588894",
+        "parent": null
+    },
+    {
+        "id": 241,
+        "name": "989 Studios",
+        "slug": "989-studios",
+        "average_rating": "7.99888358245984",
+        "parent": null
+    },
+    {
+        "id": 199,
+        "name": "Sonokong",
+        "slug": "sonokong",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 231,
+        "name": "Tec Toy Indústria de Brinquedos",
+        "slug": "tec-toy-industria-de-brinquedos",
+        "average_rating": "8.86610749588894",
+        "parent": null
+    },
+    {
+        "id": 261,
+        "name": "Quantic Dream",
+        "slug": "quantic-dream",
+        "average_rating": "8.38710272903159",
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/quantic-dream/images/company_logos/8m/quantic-dream_logo_thumb.png",
+            "width": 350,
+            "height": 47
+        }
+    },
+    {
+        "id": 264,
+        "name": "HanbitSoft",
+        "slug": "hanbitsoft",
+        "average_rating": "7.89274236847634",
+        "parent": null
+    },
+    {
+        "id": 128,
+        "name": "Microsoft",
+        "slug": "microsoft",
+        "average_rating": "8.47305067711062",
+        "founded_year": 1975,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/microsoft/images/company_logos/4r/microsoft_logo_thumb.png",
+            "width": 2096,
+            "height": 771
+        }
+    },
+    {
+        "id": 247,
+        "name": "14 Degrees East",
+        "slug": "14-degrees-east",
+        "average_rating": "6.91722958214734",
+        "parent": null
+    },
+    {
+        "id": 144,
+        "name": "GSC Game World",
+        "slug": "gsc-game-world",
+        "average_rating": "7.90319538155006",
+        "founded_year": 1995,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/gsc-game-world/images/company_logos/9r/gsc-game-world_logo_thumb.png",
+            "width": 352,
+            "height": 217
+        }
+    },
+    {
+        "id": 176,
+        "name": "FX Interactive",
+        "slug": "fx-interactive",
+        "average_rating": "7.61288637314054",
+        "parent": null
+    },
+    {
+        "id": 103,
+        "name": "Black Hole Entertainment",
+        "slug": "black-hole-entertainment",
+        "average_rating": "7.33182451106301",
+        "parent": null
+    },
+    {
+        "id": 232,
+        "name": "Triptych Games",
+        "slug": "triptych-games",
+        "average_rating": "6.10409052816652",
+        "parent": null
+    },
+    {
+        "id": 212,
+        "name": "Sunstorm Interactive",
+        "slug": "sunstorm-interactive",
+        "average_rating": "7.79136765118269",
+        "parent": null
+    },
+    {
+        "id": 227,
+        "name": "U.S. Gold",
+        "slug": "u-s-gold",
+        "average_rating": "8.69030986797728",
+        "parent": null
+    },
+    {
+        "id": 237,
+        "name": "Crimson Cow",
+        "slug": "crimson-cow",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 209,
+        "name": "Wideload Games",
+        "slug": "wideload-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 211,
+        "name": "Blue Castle Games",
+        "slug": "blue-castle-games",
+        "average_rating": "7.46258001959189",
+        "parent": null
+    },
+    {
+        "id": 210,
+        "name": "Southlogic Studios",
+        "slug": "southlogic-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 196,
+        "name": "Relic Entertainment",
+        "slug": "relic-entertainment",
+        "average_rating": "7.72413610072856",
+        "parent": null
+    },
+    {
+        "id": 239,
+        "name": "Gas Powered Games",
+        "slug": "gas-powered-games",
+        "average_rating": "8.22177059091071",
+        "parent": null
+    },
+    {
+        "id": 230,
+        "name": "MachineWorks Northwest",
+        "slug": "machineworks-northwest",
+        "average_rating": "7.49395823270199",
+        "parent": null
+    },
+    {
+        "id": 218,
+        "name": "Vatical Entertainment",
+        "slug": "vatical-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 202,
+        "name": "Pterodon",
+        "slug": "pterodon",
+        "average_rating": "7.01302469333535",
+        "parent": null
+    },
+    {
+        "id": 1780,
+        "name": "Lexis Numérique",
+        "slug": "lexis-numerique",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "id": 816,
+        "name": "Atelier Double",
+        "slug": "atelier-double",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 705,
+        "name": "Shaba Games",
+        "slug": "shaba-games",
+        "average_rating": "7.25539607457354",
+        "parent": null
+    },
+    {
+        "id": 811,
+        "name": "Appaloosa Interactive",
+        "slug": "appaloosa-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 666,
+        "name": "Iguana UK",
+        "slug": "iguana-uk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 684,
+        "name": "BudCat Creations",
+        "slug": "budcat-creations",
+        "average_rating": "7.29812618527581",
+        "parent": null
+    },
+    {
+        "id": 683,
+        "name": "Hypnos Entertainment",
+        "slug": "hypnos-entertainment",
+        "average_rating": "6.76554858178143",
+        "parent": null
+    },
+    {
+        "id": 1364,
+        "name": "The Chinese Room",
+        "slug": "the-chinese-room",
+        "average_rating": "6.68579690533427",
+        "founded_year": 2007,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/the-chinese-room/images/company_logos/9v/the-chinese-room_logo_thumb.png",
+            "width": 580,
+            "height": 300
+        }
+    },
+    {
+        "id": 776,
+        "name": "KCEN",
+        "slug": "kcen",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 610,
+        "name": "Monster Games",
+        "slug": "monster-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 710,
+        "name": "Mastiff",
+        "slug": "mastiff",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 755,
+        "name": "Namco Bandai Partners",
+        "slug": "namco-bandai-partners",
+        "average_rating": "8.67149267088734",
+        "parent": null
+    },
+    {
+        "id": 798,
+        "name": "Ubisoft Australia",
+        "slug": "ubisoft-australia",
+        "average_rating": "9.82825790066368",
+        "parent": null
+    },
+    {
+        "id": 617,
+        "name": "Bandai",
+        "slug": "bandai",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 648,
+        "name": "Mountain Sheep",
+        "slug": "mountain-sheep",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 781,
+        "name": "M2",
+        "slug": "m2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 743,
+        "name": "Tripwire Interactive",
+        "slug": "tripwire-interactive",
+        "average_rating": "6.98593313735705",
+        "parent": null
+    },
+    {
+        "id": 628,
+        "name": "Stainless Games",
+        "slug": "stainless-games",
+        "average_rating": "8.27482672164184",
+        "founded_year": 1993,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/stainless-games/images/company_logos/99/stainless-games_logo_thumb.png",
+            "width": 400,
+            "height": 316
+        }
+    },
+    {
+        "id": 716,
+        "name": "Natsume",
+        "slug": "natsume",
+        "average_rating": "8.57109170522716",
+        "founded_year": 1987,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/natsume/images/company_logos/5y/natsume_logo_thumb.png",
+            "width": 535,
+            "height": 120
+        }
+    },
+    {
+        "id": 607,
+        "name": "Red Orb Entertainment",
+        "slug": "red-orb-entertainment",
+        "average_rating": null,
+        "founded_year": 1997,
+        "parent": 1524,
+        "company_logo": {
+            "url": "/companies/red-orb-entertainment/images/company_logos/af/red-orb-entertainment_logo_thumb.png",
+            "width": 314,
+            "height": 277
+        }
+    },
+    {
+        "id": 646,
+        "name": "Blue Byte Software",
+        "slug": "blue-byte-software",
+        "average_rating": "8.56663206694086",
+        "founded_year": 1988,
+        "parent": 104
+    },
+    {
+        "id": 595,
+        "name": "VU Games",
+        "slug": "vu-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 737,
+        "name": "Exosyphen Studios",
+        "slug": "exosyphen-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 692,
+        "name": "High Score Productions",
+        "slug": "high-score-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 767,
+        "name": "Fuse Games",
+        "slug": "fuse-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 713,
+        "name": "Raylight Studios",
+        "slug": "raylight-studios",
+        "average_rating": null,
+        "parent": null
+    }
+]

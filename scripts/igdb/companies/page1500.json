@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1420,
+        "name": "BeautiFun Games",
+        "slug": "beautifun-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1416,
+        "name": "Francisco Téllez de Meneses",
+        "slug": "francisco-tellez-de-meneses",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1417,
+        "name": "Ninagamers Corp.",
+        "slug": "ninagamers-corp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1315,
+        "name": "Monkey Bar Games",
+        "slug": "monkey-bar-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1393,
+        "name": "Creatures Inc.",
+        "slug": "creatures-inc",
+        "average_rating": "9.00177900517613",
+        "parent": null
+    },
+    {
+        "id": 2489,
+        "name": "Final Boss Entertainment",
+        "slug": "final-boss-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1386,
+        "name": "The Whole Experience",
+        "slug": "the-whole-experience",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1425,
+        "name": "Misfits Attic",
+        "slug": "misfits-attic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1426,
+        "name": "Emily Carroll",
+        "slug": "emily-carroll",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1427,
+        "name": "Damian Sommer",
+        "slug": "damian-sommer",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1421,
+        "name": "Mossmouth",
+        "slug": "mossmouth",
+        "average_rating": "7.98322937184909",
+        "parent": null
+    },
+    {
+        "id": 1441,
+        "name": "Lukewarm Media",
+        "slug": "lukewarm-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1437,
+        "name": "Rainmaker Entertainment",
+        "slug": "rainmaker-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1444,
+        "name": "Sega Technical Institute",
+        "slug": "sega-technical-institute",
+        "average_rating": "7.44901960784314",
+        "parent": null
+    },
+    {
+        "id": 1442,
+        "name": "Joymania Entertainment",
+        "slug": "joymania-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2577,
+        "name": "Eolith",
+        "slug": "eolith",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1739,
+        "name": "Tahoe Software Productions",
+        "slug": "tahoe-software-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1446,
+        "name": "Time Warp Productions",
+        "slug": "time-warp-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1147,
+        "name": "Arc Developments",
+        "slug": "arc-developments",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1429,
+        "name": "Reverb Communications",
+        "slug": "reverb-communications",
+        "average_rating": "7.3573355978401",
+        "parent": null
+    },
+    {
+        "id": 1614,
+        "name": "Star Gem Inc",
+        "slug": "star-gem-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1730,
+        "name": "A Eddy & Goldfarb Assoc.",
+        "slug": "a-eddy-goldfarb-assoc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1569,
+        "name": "Career Soft",
+        "slug": "career-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1570,
+        "name": "Treco",
+        "slug": "treco",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1815,
+        "name": "Ocean of America",
+        "slug": "ocean-of-america",
+        "average_rating": null,
+        "parent": null
+    }
+]

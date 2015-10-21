@@ -158,3 +158,9 @@ iframe {
 .blur {
   filter: blur(50px);
 }
+
+table.compressed {
+  tr th {
+    padding-right: 50px !important;
+  }
+}

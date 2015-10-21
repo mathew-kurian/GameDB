@@ -1,0 +1,188 @@
+[
+    {
+        "id": 2406,
+        "name": "Atari, Inc",
+        "slug": "atari-inc",
+        "average_rating": "2.72764435360245",
+        "parent": null
+    },
+    {
+        "id": 2436,
+        "name": "Examu",
+        "slug": "examu",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2524,
+        "name": "INTV Corporation",
+        "slug": "intv-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2620,
+        "name": "Looking Glass Technologies",
+        "slug": "looking-glass-technologies",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/looking-glass-technologies/images/company_logos/e/looking-glass-technologies_logo_thumb.png",
+            "width": 350,
+            "height": 238
+        }
+    },
+    {
+        "id": 2570,
+        "name": "Indianapolis 500",
+        "slug": "indianapolis-500",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2604,
+        "name": "Surefire LLC",
+        "slug": "surefire-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2605,
+        "name": "GemTech",
+        "slug": "gemtech",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2529,
+        "name": "Don Daglow",
+        "slug": "don-daglow",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2519,
+        "name": "Sears",
+        "slug": "sears",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2521,
+        "name": "Mattel Electronics",
+        "slug": "mattel-electronics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2531,
+        "name": "Dinamic Software",
+        "slug": "dinamic-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2609,
+        "name": "Artech Studios",
+        "slug": "artech-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2527,
+        "name": "indieszero",
+        "slug": "indieszero",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2623,
+        "name": "EA Shanghai",
+        "slug": "ea-shanghai",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2624,
+        "name": "The Capture Lab",
+        "slug": "the-capture-lab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1058,
+        "name": "Xicat Interactive",
+        "slug": "xicat-interactive",
+        "average_rating": "8.99972585259428",
+        "parent": null
+    },
+    {
+        "id": 2625,
+        "name": "Albion",
+        "slug": "albion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2522,
+        "name": "Imagic",
+        "slug": "imagic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2622,
+        "name": "EA Technologies",
+        "slug": "ea-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2626,
+        "name": "Around The Word",
+        "slug": "around-the-word",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2627,
+        "name": "Levsha",
+        "slug": "levsha",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2628,
+        "name": "Synthesis",
+        "slug": "synthesis",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2629,
+        "name": "TranslaCat",
+        "slug": "translacat",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2410,
+        "name": "Frogwares",
+        "slug": "frogwares",
+        "average_rating": "8.89239053283419",
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/frogwares/images/company_logos/97/frogwares_logo_thumb.png",
+            "width": 400,
+            "height": 383
+        }
+    },
+    {
+        "id": 2508,
+        "name": "Rebel Act Studios",
+        "slug": "rebel-act-studios",
+        "average_rating": "7.55011135857461",
+        "parent": null
+    }
+]

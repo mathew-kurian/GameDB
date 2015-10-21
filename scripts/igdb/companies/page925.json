@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1092,
+        "name": "AIM Productions",
+        "slug": "aim-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1098,
+        "name": "probe software",
+        "slug": "probe-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1946,
+        "name": "NDA Productions",
+        "slug": "nda-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1869,
+        "name": "GOGAME",
+        "slug": "gogame",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1870,
+        "name": "gloot.net",
+        "slug": "gloot-net",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1264,
+        "name": "O3 Entertainment",
+        "slug": "o3-entertainment",
+        "average_rating": "6.92380793874993",
+        "parent": null
+    },
+    {
+        "id": 1871,
+        "name": "GameMaxx",
+        "slug": "gamemaxx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1872,
+        "name": "C2 Vision",
+        "slug": "c2-vision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2006,
+        "name": "Encore Software Inc.",
+        "slug": "encore-software-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1830,
+        "name": "Paradigm Simulation",
+        "slug": "paradigm-simulation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1867,
+        "name": "Sanrio Digital",
+        "slug": "sanrio-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1948,
+        "name": "Dragonstone Software",
+        "slug": "dragonstone-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1301,
+        "name": "BigSky Interactive Inc.",
+        "slug": "bigsky-interactive-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1889,
+        "name": "Mistic Studios",
+        "slug": "mistic-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2004,
+        "name": "Awesome Developments",
+        "slug": "awesome-developments",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1990,
+        "name": "Ubisoft Barcelona",
+        "slug": "ubisoft-barcelona",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1938,
+        "name": "4Kids Entertainment",
+        "slug": "4kids-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1939,
+        "name": "Daewon Media",
+        "slug": "daewon-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1940,
+        "name": "Cinepix",
+        "slug": "cinepix",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1994,
+        "name": "PIN Change",
+        "slug": "pin-change",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1979,
+        "name": "Dearsoft",
+        "slug": "dearsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1998,
+        "name": "Sofdec",
+        "slug": "sofdec",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1999,
+        "name": "ADX",
+        "slug": "adx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2474,
+        "name": "The Fun Pimps Entertainment LLC",
+        "slug": "the-fun-pimps-entertainment-llc",
+        "average_rating": "6.82314335060449",
+        "parent": null
+    },
+    {
+        "id": 2476,
+        "name": "Thomas Bowker",
+        "slug": "thomas-bowker",
+        "average_rating": null,
+        "parent": null
+    }
+]

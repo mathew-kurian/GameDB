@@ -1,0 +1,183 @@
+[
+    {
+        "id": 561,
+        "name": "Magnetic Fields",
+        "slug": "magnetic-fields",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 567,
+        "name": "Mind Control",
+        "slug": "mind-control",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 568,
+        "name": "SegaSoft",
+        "slug": "segasoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 570,
+        "name": "Norm Koger",
+        "slug": "norm-koger",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 572,
+        "name": "Appeal",
+        "slug": "appeal",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1590,
+        "name": "Wave Generating Inc",
+        "slug": "wave-generating-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1180,
+        "name": "World Domination Industries, Inc.",
+        "slug": "world-domination-industries-inc",
+        "average_rating": "7.65080593977948",
+        "parent": null
+    },
+    {
+        "id": 1967,
+        "name": "TransGaming Inc.",
+        "slug": "transgaming-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 582,
+        "name": "Random Games",
+        "slug": "random-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 585,
+        "name": "Nayantara Studios",
+        "slug": "nayantara-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 589,
+        "name": "Shrapnel Games",
+        "slug": "shrapnel-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 590,
+        "name": "eSim Games",
+        "slug": "esim-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 602,
+        "name": "Burst Studios",
+        "slug": "burst-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 605,
+        "name": "400 Software Studios",
+        "slug": "400-software-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 612,
+        "name": "Brighter Minds",
+        "slug": "brighter-minds",
+        "average_rating": "7.67010803268242",
+        "parent": null
+    },
+    {
+        "id": 613,
+        "name": "2D Boy",
+        "slug": "2d-boy",
+        "average_rating": "7.67010803268242",
+        "parent": null
+    },
+    {
+        "id": 618,
+        "name": "Interactive Simulations",
+        "slug": "interactive-simulations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 622,
+        "name": "Jane's Combat Simulations",
+        "slug": "jane-s-combat-simulations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 623,
+        "name": "DivoGames",
+        "slug": "divogames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 629,
+        "name": "Sales Curve Interactive",
+        "slug": "sales-curve-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 632,
+        "name": "Ambrosia Software",
+        "slug": "ambrosia-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 633,
+        "name": "Haage & Partner",
+        "slug": "haage-partner",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 596,
+        "name": "Starbreeze",
+        "slug": "starbreeze",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 453,
+        "name": "Zen Studios",
+        "slug": "zen-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 437,
+        "name": "Avalanche Studios",
+        "slug": "avalanche-studios",
+        "average_rating": "7.19457301614634",
+        "founded_year": 2003,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/avalanche-studios/images/company_logos/7a/avalanche-studios_logo_thumb.png",
+            "width": 1280,
+            "height": 601
+        }
+    }
+]

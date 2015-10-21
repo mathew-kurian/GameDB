@@ -1,0 +1,189 @@
+[
+    {
+        "id": 1978,
+        "name": "Team Fusion",
+        "slug": "team-fusion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1971,
+        "name": "Dupuis",
+        "slug": "dupuis",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1106,
+        "name": "Compu-Games A/S",
+        "slug": "compu-games-a-s",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1109,
+        "name": "Stunlock Studios",
+        "slug": "stunlock-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1110,
+        "name": "EA Partners",
+        "slug": "ea-partners",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1111,
+        "name": "Trapdoor",
+        "slug": "trapdoor",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1113,
+        "name": "Tequila Works",
+        "slug": "tequila-works",
+        "average_rating": "5.28752969689239",
+        "parent": null
+    },
+    {
+        "id": 1114,
+        "name": "Ludosity Interactive",
+        "slug": "ludosity-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1116,
+        "name": "Nimbly Games",
+        "slug": "nimbly-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1121,
+        "name": "Atarisoft",
+        "slug": "atarisoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1123,
+        "name": "Personal Software",
+        "slug": "personal-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1126,
+        "name": "Sachen",
+        "slug": "sachen",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 221,
+        "name": "Splash Damage",
+        "slug": "splash-damage",
+        "average_rating": "6.86355304187681",
+        "founded_year": 2001,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/splash-damage/images/company_logos/8g/splash-damage_logo_thumb.png",
+            "width": 2000,
+            "height": 2000
+        }
+    },
+    {
+        "id": 1822,
+        "name": "Konami Computer Entertainment Nagoya",
+        "slug": "konami-computer-entertainment-nagoya",
+        "average_rating": "9.02913790433942",
+        "parent": null
+    },
+    {
+        "id": 1567,
+        "name": "Midas Interactive Entertainment",
+        "slug": "midas-interactive-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1795,
+        "name": "Conspiracy Entertainment",
+        "slug": "conspiracy-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 502,
+        "name": "Valve Software",
+        "slug": "valve-software",
+        "average_rating": null,
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/valve-software/images/company_logos/bm/valve-software_logo_thumb.png",
+            "width": 800,
+            "height": 219
+        }
+    },
+    {
+        "id": 1799,
+        "name": "Sinclair Research",
+        "slug": "sinclair-research",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1309,
+        "name": "Avalanche Software",
+        "slug": "avalanche-software",
+        "average_rating": "8.12303251355894",
+        "parent": null
+    },
+    {
+        "id": 1860,
+        "name": "Virgin Entertainment",
+        "slug": "virgin-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1823,
+        "name": "Pandora Box",
+        "slug": "pandora-box",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1082,
+        "name": "Guild Software",
+        "slug": "guild-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1129,
+        "name": "Quixel",
+        "slug": "quixel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 832,
+        "name": "Rising Star Games",
+        "slug": "rising-star-games",
+        "average_rating": "7.27030361730054",
+        "parent": null
+    },
+    {
+        "id": 1803,
+        "name": "BigBen Interactive",
+        "slug": "bigben-interactive",
+        "average_rating": null,
+        "parent": null
+    }
+]

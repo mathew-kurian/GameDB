@@ -1,0 +1,183 @@
+[
+    {
+        "id": 2641,
+        "name": "Extreme Music",
+        "slug": "extreme-music",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2642,
+        "name": "Lost Boys Music (BMI)/Carlin America",
+        "slug": "lost-boys-music-bmi-carlin-america",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2643,
+        "name": "Game Services Group",
+        "slug": "game-services-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2644,
+        "name": "Imagination Studios",
+        "slug": "imagination-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2645,
+        "name": "Important Looking Pirates",
+        "slug": "important-looking-pirates",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2646,
+        "name": "Red Pipe Sound Design",
+        "slug": "red-pipe-sound-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2647,
+        "name": "Svenska Stuntgruppen",
+        "slug": "svenska-stuntgruppen",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2649,
+        "name": "Virtuos Holdings ltd",
+        "slug": "virtuos-holdings-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2650,
+        "name": "112F Studios",
+        "slug": "112f-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2651,
+        "name": "BeeSharp",
+        "slug": "beesharp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2652,
+        "name": "Just Cause Entertainment",
+        "slug": "just-cause-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2653,
+        "name": "Nutmeg Post",
+        "slug": "nutmeg-post",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2654,
+        "name": "Popsound",
+        "slug": "popsound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2655,
+        "name": "SIDE UK Ltd",
+        "slug": "side-uk-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2656,
+        "name": "The Sound Company",
+        "slug": "the-sound-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2657,
+        "name": "MUSA",
+        "slug": "musa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2658,
+        "name": "The Recordist",
+        "slug": "the-recordist",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2659,
+        "name": "Tonstrum",
+        "slug": "tonstrum",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2512,
+        "name": "Midnight City",
+        "slug": "midnight-city",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 366,
+        "name": "Epyx",
+        "slug": "epyx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2526,
+        "name": "Studio 3DO",
+        "slug": "studio-3do",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2426,
+        "name": "Coleco",
+        "slug": "coleco",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2421,
+        "name": "Nokia",
+        "slug": "nokia",
+        "average_rating": "8.67765811269438",
+        "founded_year": 1914,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/nokia/images/company_logos/1w/nokia_logo_thumb.png",
+            "width": 313,
+            "height": 53
+        }
+    },
+    {
+        "id": 130,
+        "name": "MacSoft Games",
+        "slug": "macsoft-games",
+        "average_rating": "8.62834179058916",
+        "parent": null
+    },
+    {
+        "id": 2660,
+        "name": "BOOM Library",
+        "slug": "boom-library",
+        "average_rating": null,
+        "parent": null
+    }
+]

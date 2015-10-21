@@ -6,10 +6,57 @@ var Header = React.createClass({
     return {}
   },
   render(){
+    var tbody;
+
+    switch (this.props.mode) {
+      case "games":
+        tbody = (
+          <tbody>
+          <tr>
+            <th scope="row">Genres</th>
+            <td>{_.pluck(this.props.genres, 'name').join('; ')}</td>
+          </tr>
+          <tr>
+            <th scope="row">Platforms</th>
+            <td>{_.pluck(this.props.release_dates, 'platform_name').join('; ')}</td>
+          </tr>
+          <tr>
+            <th scope="row">Themes</th>
+            <td>{_.pluck(this.props.themes, 'name').join('; ')}</td>
+          </tr>
+          <tr>
+            <th scope="row">Rating</th>
+            <td>{Number(this.props.rating || this.props.rating || 4.1).toFixed(2)}</td>
+          </tr>
+          </tbody>
+        );
+        break;
+      case "publishers":
+        tbody = (
+          <tbody>
+          <tr>
+            <th scope="row">Founded</th>
+            <td>{this.props.founded_year}</td>
+          </tr>
+          <tr>
+            <th scope="row">Parent</th>
+            <td>{this.props.parent}</td>
+          </tr>
+          <tr>
+            <th scope="row">Rating</th>
+            <td>{Number(this.props.average_rating || 4.1).toFixed(2)}</td>
+          </tr>
+          </tbody>
+        );
+        break;
+      case "releases":
+        break;
+    }
+
     return (
       <div style={{background:'rgba(0,0,0,0.5)',position:'relative'}}>
         <div className='blur'
-             style={{width:'100%',height:'100%',top:0,left:0, backgroundImage: 'url(' + this.props.images[0] + ')',backgroundPosition:'center center',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#777', position:'absolute',zIndex:-1}}/>
+             style={{width:'100%',height:'100%',top:0,left:0, backgroundImage: 'url(' + (this.props.company_logo ? "http://igdb.com/" +  this.props.company_logo.url : this.props.images[0]) + ')',backgroundPosition:'center center',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#777', position:'absolute',zIndex:-1}}/>
         <div className="container" style={{position:'relative'}}>
           <nav className="navbar">
             <ul className="nav navbar-nav">
@@ -38,31 +85,14 @@ var Header = React.createClass({
           <div className="container">
             <div className='col-md-3'>
               <div
-                style={{width:250, display:'inline-block', height: 250, borderRadius: 5,background: 'url(' + this.props.images[0] + ') center center no-repeat',backgroundSize:'cover',verticalAlign:'top'}}
+                style={{width:'100%', display:'inline-block', height: 250, borderRadius: 5,background: 'url('+ (this.props.company_logo ? "http://igdb.com/" +  this.props.company_logo.url : this.props.images[0]) + ') center center no-repeat',backgroundSize:'cover',verticalAlign:'top'}}
                 className='img-rounded'/>
             </div>
             <div className="col-md-9">
               <h1
                 style={{display:'inline-block',fontSize:'41px',color:'#FFF',fontWeight:'bold',letterSpacing:'1px',textTransform:'uppercase',verticalAlign:'top'}}>{this.props.name}</h1>
-              <table class="table table-striped" style={{width:'100%'}}>
-                <tbody>
-                <tr>
-                  <th scope="row">Genres</th>
-                  <td>{_.pluck(this.props.genres, 'name').join('; ')}</td>
-                </tr>
-                <tr>
-                  <th scope="row">Platforms</th>
-                  <td>{_.pluck(this.props.release_dates, 'platform_name').join('; ')}</td>
-                </tr>
-                <tr>
-                  <th scope="row">Themes</th>
-                  <td>{_.pluck(this.props.themes, 'name').join('; ')}</td>
-                </tr>
-                <tr>
-                  <th scope="row">Rating</th>
-                  <td>{this.props.rating || 4.1}</td>
-                </tr>
-                </tbody>
+              <table className="compressed">
+                { tbody }
               </table>
             </div>
           </div>

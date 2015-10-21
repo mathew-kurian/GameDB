@@ -1,0 +1,190 @@
+[
+    {
+        "id": 906,
+        "name": "Nabi Studios",
+        "slug": "nabi-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2464,
+        "name": "Big Finish Games",
+        "slug": "big-finish-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 15,
+        "name": "2K Marin",
+        "slug": "2k-marin",
+        "average_rating": "8.95021590372163",
+        "founded_year": 2007,
+        "parent": null
+    },
+    {
+        "id": 911,
+        "name": "Suzhou Snail Electronic",
+        "slug": "suzhou-snail-electronic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 912,
+        "name": "Snail Games",
+        "slug": "snail-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 913,
+        "name": "Gala Networks",
+        "slug": "gala-networks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 914,
+        "name": "Mental Games",
+        "slug": "mental-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 915,
+        "name": "Crate Entertainment",
+        "slug": "crate-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 920,
+        "name": "Crytek Kiev",
+        "slug": "crytek-kiev",
+        "average_rating": "5.30827067669173",
+        "parent": null
+    },
+    {
+        "id": 1749,
+        "name": "H2O Entertainment",
+        "slug": "h2o-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1981,
+        "name": "Datel",
+        "slug": "datel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1456,
+        "name": "Team Psykskallar",
+        "slug": "team-psykskallar",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1458,
+        "name": "MindArk",
+        "slug": "mindark",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1745,
+        "name": "GMI",
+        "slug": "gmi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 831,
+        "name": "Access Games",
+        "slug": "access-games",
+        "average_rating": "7.27030361730054",
+        "parent": null
+    },
+    {
+        "id": 883,
+        "name": "8ing",
+        "slug": "8ing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 872,
+        "name": "Altron",
+        "slug": "altron",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 877,
+        "name": "Black Ops Entertainment",
+        "slug": "black-ops-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 904,
+        "name": "SoftBank",
+        "slug": "softbank",
+        "average_rating": "8.10520916448193",
+        "parent": null
+    },
+    {
+        "id": 204,
+        "name": "Gathering of Developers",
+        "slug": "gathering-of-developers",
+        "average_rating": "8.18432982009677",
+        "parent": null
+    },
+    {
+        "id": 895,
+        "name": "Heavy Iron Studios",
+        "slug": "heavy-iron-studios",
+        "average_rating": null,
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/heavy-iron-studios/images/company_logos/22/heavy-iron-studios_logo_thumb.png",
+            "width": 400,
+            "height": 175
+        }
+    },
+    {
+        "id": 769,
+        "name": "Team Ninja",
+        "slug": "team-ninja",
+        "average_rating": "7.59284514403036",
+        "founded_year": 1995,
+        "parent": 858,
+        "company_logo": {
+            "url": "/companies/team-ninja/images/company_logos/2x/team-ninja_logo_thumb.png",
+            "width": 160,
+            "height": 120
+        }
+    },
+    {
+        "id": 885,
+        "name": "Krisalis Software",
+        "slug": "krisalis-software",
+        "average_rating": "8.42276997863575",
+        "parent": null
+    },
+    {
+        "id": 855,
+        "name": "Atari Incorporated",
+        "slug": "atari-incorporated",
+        "average_rating": "5.85127020785219",
+        "parent": null
+    },
+    {
+        "id": 2467,
+        "name": "Key Game",
+        "slug": "key-game",
+        "average_rating": null,
+        "parent": null
+    }
+]

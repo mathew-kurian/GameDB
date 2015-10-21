@@ -1,0 +1,201 @@
+[
+    {
+        "id": 391,
+        "name": "Red Fly Studio",
+        "slug": "red-fly-studio",
+        "average_rating": "5.97460083836525",
+        "parent": null
+    },
+    {
+        "id": 375,
+        "name": "Red Ant Enterprises",
+        "slug": "red-ant-enterprises",
+        "average_rating": "8.96782175595483",
+        "parent": null
+    },
+    {
+        "id": 1584,
+        "name": "EA Worldwide Motion Capture Studio",
+        "slug": "ea-worldwide-motion-capture-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 416,
+        "name": "Syfy Games",
+        "slug": "syfy-games",
+        "average_rating": "7.00563640358861",
+        "parent": null
+    },
+    {
+        "id": 450,
+        "name": "Aion Team Development Dept",
+        "slug": "aion-team-development-dept",
+        "average_rating": "5.31663974151858",
+        "parent": null
+    },
+    {
+        "id": 452,
+        "name": "Threewave Software",
+        "slug": "threewave-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2457,
+        "name": "Red Marble Games",
+        "slug": "red-marble-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 455,
+        "name": "Sonalysts",
+        "slug": "sonalysts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 462,
+        "name": "Monolith",
+        "slug": "monolith",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 463,
+        "name": "MS Game Studios",
+        "slug": "ms-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 252,
+        "name": "Square Electronic Arts",
+        "slug": "square-electronic-arts",
+        "average_rating": "8.65982115884854",
+        "parent": null
+    },
+    {
+        "id": 363,
+        "name": "GRAVITY",
+        "slug": "gravity",
+        "average_rating": "8.03711340206186",
+        "parent": null
+    },
+    {
+        "id": 315,
+        "name": "Trion Worlds",
+        "slug": "trion-worlds",
+        "average_rating": "5.99312755208581",
+        "parent": null
+    },
+    {
+        "id": 249,
+        "name": "Crytek",
+        "slug": "crytek",
+        "average_rating": "7.43585573641128",
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/crytek/images/company_logos/4f/crytek_logo_thumb.png",
+            "width": 1020,
+            "height": 574
+        }
+    },
+    {
+        "id": 314,
+        "name": "4A Games",
+        "slug": "4a-games",
+        "average_rating": "8.94151721222545",
+        "parent": null
+    },
+    {
+        "id": 270,
+        "name": "JoWood Productions",
+        "slug": "jowood-productions",
+        "average_rating": "7.97461132701352",
+        "parent": null
+    },
+    {
+        "id": 310,
+        "name": "Ultra Games",
+        "slug": "ultra-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 303,
+        "name": "Jaleco",
+        "slug": "jaleco",
+        "average_rating": "8.83749594741785",
+        "parent": null
+    },
+    {
+        "id": 2453,
+        "name": "Sensible Software",
+        "slug": "sensible-software",
+        "average_rating": "8.97805139161898",
+        "parent": null
+    },
+    {
+        "id": 292,
+        "name": "Traveller's Tales",
+        "slug": "traveller-s-tales",
+        "average_rating": "7.6592636100453",
+        "founded_year": 1989,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/traveller-s-tales/images/company_logos/3j/traveller-s-tales_logo_thumb.png",
+            "width": 196,
+            "height": 175
+        }
+    },
+    {
+        "id": 290,
+        "name": "IO Interactive",
+        "slug": "io-interactive",
+        "average_rating": "7.8173240226707",
+        "founded_year": 1998,
+        "parent": 26,
+        "company_logo": {
+            "url": "/companies/io-interactive/images/company_logos/79/io-interactive_logo_thumb.png",
+            "width": 200,
+            "height": 200
+        }
+    },
+    {
+        "id": 251,
+        "name": "Sunsoft",
+        "slug": "sunsoft",
+        "average_rating": "8.46796434104007",
+        "parent": null
+    },
+    {
+        "id": 291,
+        "name": "Nixxes Software",
+        "slug": "nixxes-software",
+        "average_rating": "7.95381203371015",
+        "parent": null
+    },
+    {
+        "id": 456,
+        "name": "Crack dot Com",
+        "slug": "crack-dot-com",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 322,
+        "name": "Matrix Software",
+        "slug": "matrix-software",
+        "average_rating": "8.81158338901967",
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/matrix-software/images/company_logos/7g/matrix-software_logo_thumb.png",
+            "width": 158,
+            "height": 48
+        }
+    }
+]

@@ -1,0 +1,209 @@
+[
+    {
+        "id": 1623,
+        "name": "Neon Studios",
+        "slug": "neon-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1485,
+        "name": "Autumn Moon Entertainment",
+        "slug": "autumn-moon-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1014,
+        "name": "Data Design Interactive",
+        "slug": "data-design-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1742,
+        "name": "Medalist International",
+        "slug": "medalist-international",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1493,
+        "name": "Crescent Moon Games",
+        "slug": "crescent-moon-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 963,
+        "name": "Kerberos Productions",
+        "slug": "kerberos-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1489,
+        "name": "Video System",
+        "slug": "video-system",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 964,
+        "name": "1C:Ino-Co Plus",
+        "slug": "1c-ino-co-plus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1622,
+        "name": "Omiya Soft",
+        "slug": "omiya-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1748,
+        "name": "Left Field Productions",
+        "slug": "left-field-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1006,
+        "name": "Housemarque",
+        "slug": "housemarque",
+        "average_rating": "8.18786570755168",
+        "founded_year": 1995,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/housemarque/images/company_logos/65/housemarque_logo_thumb.png",
+            "width": 300,
+            "height": 91
+        }
+    },
+    {
+        "id": 1751,
+        "name": "Racdym",
+        "slug": "racdym",
+        "average_rating": null,
+        "founded_year": 1995,
+        "parent": null
+    },
+    {
+        "id": 23,
+        "name": "Feral Interactive",
+        "slug": "feral-interactive",
+        "average_rating": "8.24782317700887",
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/feral-interactive/images/company_logos/77/feral-interactive_logo_thumb.png",
+            "width": 1181,
+            "height": 452
+        }
+    },
+    {
+        "id": 1753,
+        "name": "Technos Japan",
+        "slug": "technos-japan",
+        "average_rating": "7.97122786194524",
+        "parent": null
+    },
+    {
+        "id": 3,
+        "name": "Looking Glass Studios",
+        "slug": "looking-glass-studios",
+        "average_rating": "8.67192957544396",
+        "founded_year": 1990,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/looking-glass-studios/images/company_logos/d/looking-glass-studios_logo_thumb.png",
+            "width": 361,
+            "height": 134
+        }
+    },
+    {
+        "id": 1259,
+        "name": "FreeStyleGames",
+        "slug": "freestylegames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 966,
+        "name": "KillHouse Games",
+        "slug": "killhouse-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 8,
+        "name": "2K Games",
+        "slug": "2k-games",
+        "average_rating": "8.23392638177131",
+        "founded_year": 2005,
+        "parent": 139,
+        "company_logo": {
+            "url": "/companies/2k-games/images/company_logos/10/2k-games_logo_thumb.png",
+            "width": 1000,
+            "height": 671
+        }
+    },
+    {
+        "id": 1741,
+        "name": "Empire Software",
+        "slug": "empire-software",
+        "average_rating": null,
+        "founded_year": 1987,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/empire-software/images/company_logos/8i/empire-software_logo_thumb.png",
+            "width": 400,
+            "height": 202
+        }
+    },
+    {
+        "id": 1011,
+        "name": "Black Rock Studios",
+        "slug": "black-rock-studios",
+        "average_rating": "6.24742660586333",
+        "founded_year": 2006,
+        "parent": 95
+    },
+    {
+        "id": 1488,
+        "name": "Activision Value",
+        "slug": "activision-value",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1022,
+        "name": "Turn 10 Studios",
+        "slug": "turn-10-studios",
+        "average_rating": "8.52051609886208",
+        "parent": null
+    },
+    {
+        "id": 936,
+        "name": "Shining Rock Software",
+        "slug": "shining-rock-software",
+        "average_rating": "6.67140334971159",
+        "parent": null
+    },
+    {
+        "id": 1714,
+        "name": "The Bitmap Brothers",
+        "slug": "the-bitmap-brothers",
+        "average_rating": "8.18146823682059",
+        "parent": null
+    },
+    {
+        "id": 1472,
+        "name": "Gameforge 4D GmbH",
+        "slug": "gameforge-4d-gmbh",
+        "average_rating": "6.88931054617767",
+        "parent": null
+    }
+]

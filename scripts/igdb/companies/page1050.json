@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1628,
+        "name": "Massive Black Ltd.",
+        "slug": "massive-black-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1629,
+        "name": "RedJade",
+        "slug": "redjade",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1630,
+        "name": "Nvidia",
+        "slug": "nvidia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1631,
+        "name": "Warner Bros. Publishing",
+        "slug": "warner-bros-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1632,
+        "name": "Image Nation Abu Dhabi",
+        "slug": "image-nation-abu-dhabi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1634,
+        "name": "Air Studios",
+        "slug": "air-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1635,
+        "name": "CompuCom Games",
+        "slug": "compucom-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1200,
+        "name": "Flair Software",
+        "slug": "flair-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1661,
+        "name": "Owlchemy Labs",
+        "slug": "owlchemy-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1952,
+        "name": "Sting Entertainment",
+        "slug": "sting-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1637,
+        "name": "TT Games Publishing",
+        "slug": "tt-games-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1638,
+        "name": "BABEL Media",
+        "slug": "babel-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1831,
+        "name": "Compile",
+        "slug": "compile",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1201,
+        "name": "Software Creations",
+        "slug": "software-creations",
+        "average_rating": "7.8189072819118",
+        "parent": null
+    },
+    {
+        "id": 1766,
+        "name": "Pack-In-Video",
+        "slug": "pack-in-video",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1757,
+        "name": "Egosoft",
+        "slug": "egosoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1755,
+        "name": "SETA",
+        "slug": "seta",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1913,
+        "name": "tri-Crescendo",
+        "slug": "tri-crescendo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1639,
+        "name": "Cellar Door Games",
+        "slug": "cellar-door-games",
+        "average_rating": "8.82949971185503",
+        "parent": null
+    },
+    {
+        "id": 1640,
+        "name": "Discord Games",
+        "slug": "discord-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1689,
+        "name": "Children's Computer Workshop",
+        "slug": "children-s-computer-workshop",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1928,
+        "name": "The Harvey Entertainment Company",
+        "slug": "the-harvey-entertainment-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1644,
+        "name": "Xloc. inc",
+        "slug": "xloc-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1645,
+        "name": "Pearl Digital Entertainment",
+        "slug": "pearl-digital-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1646,
+        "name": "Adia Digital Art Co. Ltd",
+        "slug": "adia-digital-art-co-ltd",
+        "average_rating": null,
+        "parent": null
+    }
+]

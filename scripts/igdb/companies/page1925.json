@@ -1,0 +1,177 @@
+[
+    {
+        "id": 2314,
+        "name": "Midway Los Angeles",
+        "slug": "midway-los-angeles",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2318,
+        "name": "Loose Cannon Studios",
+        "slug": "loose-cannon-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2326,
+        "name": "Grand Prix",
+        "slug": "grand-prix",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2320,
+        "name": "Nowpro",
+        "slug": "nowpro",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2319,
+        "name": "OUAT Entertainment",
+        "slug": "ouat-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2315,
+        "name": "DoubleTap Games",
+        "slug": "doubletap-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2347,
+        "name": "Capcom Osaka",
+        "slug": "capcom-osaka",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2341,
+        "name": "Big Red Button",
+        "slug": "big-red-button",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2331,
+        "name": "Le Cortex",
+        "slug": "le-cortex",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2335,
+        "name": "RTL Games",
+        "slug": "rtl-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2325,
+        "name": "K2 LLC",
+        "slug": "k2-llc",
+        "average_rating": "7.15576528086227",
+        "parent": null
+    },
+    {
+        "id": 2337,
+        "name": "Blade Interactive",
+        "slug": "blade-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2239,
+        "name": "Gamecock Media Group",
+        "slug": "gamecock-media-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2327,
+        "name": "Sega AM3",
+        "slug": "sega-am3",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2300,
+        "name": "Alpha Denshi",
+        "slug": "alpha-denshi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2342,
+        "name": "Nintendo EAD Group No. 5",
+        "slug": "nintendo-ead-group-no-5",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2313,
+        "name": "Tetris Online Inc",
+        "slug": "tetris-online-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2275,
+        "name": "Screenlife",
+        "slug": "screenlife",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2278,
+        "name": "AM1",
+        "slug": "am1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2324,
+        "name": "CyberFront Korea",
+        "slug": "cyberfront-korea",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2301,
+        "name": "Anaconda",
+        "slug": "anaconda",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2292,
+        "name": "Sony Computer Entertainment Japan Asia",
+        "slug": "sony-computer-entertainment-japan-asia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2277,
+        "name": "Animation Arts",
+        "slug": "animation-arts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2305,
+        "name": "Jorudan",
+        "slug": "jorudan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2316,
+        "name": "PAM Development",
+        "slug": "pam-development",
+        "average_rating": null,
+        "parent": null
+    }
+]
