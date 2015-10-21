@@ -164,3 +164,22 @@ table.compressed {
     padding-right: 50px !important;
   }
 }
+
+.lead img {
+  display: none;
+
+  a {
+    color: #CCC;
+    transition: color 300ms;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  a:visited {
+    color: #999;
+  }
+  a:visited:hover {
+    color: #fff;
+  }
+}

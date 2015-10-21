@@ -7731,3 +7731,22 @@ iframe {
 table.compressed tr th {
   padding-right: 50px !important;
 }
+
+.lead img {
+  display: none;
+}
+.lead img a {
+  color: #CCC;
+  -webkit-transition: color 300ms;
+          transition: color 300ms;
+}
+.lead img a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.lead img a:visited {
+  color: #999;
+}
+.lead img a:visited:hover {
+  color: #fff;
+}

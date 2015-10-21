@@ -22,7 +22,8 @@ with open('scripts/igdb/games/hyped0.json') as f:
 with open('scripts/igdb/companies/best0.json') as f:
     publishers_db = json.load(f)
 
-releases_db = {}
+with open('scripts/giantbomb/platforms/page0.json') as f:
+    platforms_db = json.load(f)
 
 def router(db, model, id=-1):
     if id == -1: return render_template('models/' + model + '.jade', assets='/assets/', props=json.dumps(db))
@@ -31,6 +32,7 @@ def router(db, model, id=-1):
             i['mode'] = model;
             return render_template('records/' + model + '.jade', assets='/assets/', props=json.dumps(i))
     abort(404)
+
 
 @app.route('/')
 @app.route('/index')
@@ -44,6 +46,7 @@ def index():
 def about():
     return render_template('about.jade', assets='/assets/')
 
+
 @app.route('/games')
 @app.route('/games/<int:id>')
 @app.route('/games.html')
@@ -51,11 +54,11 @@ def games(id=-1):
     return router(games_db, 'games', id)
 
 
-@app.route('/releases')
-@app.route('/releases/<int:id>')
-@app.route('/releases.html')
-def releases(id=-1):
-    return router(releases_db, 'releases', id)
+@app.route('/platforms')
+@app.route('/platforms/<int:id>')
+@app.route('/platforms.html')
+def platforms(id=-1):
+    return router(platforms_db, 'platforms', id)
 
 
 @app.route('/publishers')
@@ -66,4 +69,4 @@ def publishers(id=-1):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=80)

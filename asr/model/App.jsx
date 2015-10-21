@@ -2,6 +2,7 @@ var React = require('react');
 var Header = require('./Header.jsx');
 var FixedDataTable = require('fixed-data-table');
 var _ = require('underscore');
+var Path = require('object-path');
 
 var Table = FixedDataTable.Table;
 var Column = FixedDataTable.Column;
@@ -28,6 +29,13 @@ var App = React.createClass({
           var name = columns[i].split(':');
           if (name.length > 1) {
             _row.push(_.pluck(row[name[0]], name[1]).join('; '));
+          } else if (name[0].indexOf('.') > -1) {
+            try {
+              _row.push(Path.get(row, name[0]));
+            } catch (e) {
+              console.error(e);
+              console.log(row);
+            }
           } else {
             _row.push(row[name[0]]);
           }
@@ -97,8 +105,8 @@ var App = React.createClass({
   _cellRenderer(data, column, row){
     if (column > 1)
       return <div
-        style={{whiteSpace: 'nowrap', opacity: column > 1 ? 0.5 : 1, textOverflow: 'ellipsis', overflow: 'hidden', width: 250}}>{data}</div>;
-    return <a href={this.state.mode + "/" + row[0]}>{data}</a>
+        style={{whiteSpace: 'nowrap', opacity: column > 1 ? 0.5 : 1, textOverflow: 'ellipsis', overflow: 'hidden', width: 250}}>{typeof data === 'string' && data.length > 50 ? data.substring(0, 50) : data}</div>;
+    return <a style={{whiteSpace: 'nowrap'}} href={this.state.mode + "/" + row[0]}>{data}</a>
   },
   render() {
 
@@ -151,7 +159,7 @@ var App = React.createClass({
             <div className='table-box' ref='tableBox'>
               <div className='title'>Model</div>
               <Table rowHeight={37} rowGetter={rowGetter} rowsCount={this.state.rows.length} width={this.state.width}
-                     height={38 * (this.state.rows.length + 1)}
+                     height={Math.min(38 * (this.state.rows.length + 1), 500)}
                      headerHeight={37}>{
                 this.state.columns.map(function (col, i) {
                   return (

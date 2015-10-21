@@ -1,5 +1,5 @@
 extends ./records/_record.jade
 block props
-  #props(style='display:none')!=props
+  script#props(style='display:none')!=props
   script.
     window.props = JSON.parse(document.getElementById('props').textContent);

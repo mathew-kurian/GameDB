@@ -68,7 +68,8 @@ var App = React.createClass({
           <div className='col-md-9' role='main'>
             <h1>Summary</h1>
 
-            <p className="lead" dangerouslySetInnerHTML={{__html:this.state.summary || "No summary found"}}></p>
+            <div className="lead"
+                 dangerouslySetInnerHTML={{__html:(this.state.summary || this.state.description || "No summary found").replace(/<a[^>]*>(.*?)<\/a>/g,"$1")}}></div>
 
             <br />
 

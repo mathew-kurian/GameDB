@@ -1,6 +1,6 @@
 extends ./models/_model.jade
 block props
-  #props(style='display:none')!=props
+  script#props(style='display:none')!=props
   script.
     window.props = {
       mode: 'games',
