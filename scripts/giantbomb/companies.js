@@ -18,6 +18,18 @@ request({
           function (error, res, body) {
             var details = JSON.parse(body).results;
             _.extend(company, details);
+
+            if (Array.isArray(company.published_games))
+              company.published_games = _.pluck(company.published_games, 'name').splice(0, 5);
+            if (Array.isArray(company.developed_games))
+              company.developed_games = _.pluck(company.developed_games, 'name').splice(0, 5);
+            if (Array.isArray(company.concepts))
+              company.concepts = _.pluck(company.concepts, 'name').splice(0, 5);
+
+            delete company.characters;
+            delete company.locations;
+            delete company.objects;
+            delete company.people;
             callback();
           });
       }

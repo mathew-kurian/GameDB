@@ -67,6 +67,22 @@ var App = React.createClass({
         <div className='container' style={{marginTop:40}}>
           <div className='col-md-9' role='main'>
             <h1>Summary</h1>
+            {
+              this.state.mode === 'publishers' ?
+                <div>
+                  <h3 scope="row">Concepts</h3>
+
+                  <p>{(this.state.concepts || ["Not found"]).join('; ')}</p>
+
+                  <h3 scope="row">Developed Games</h3>
+
+                  <p>{(this.state.developed_games || ["Not found"]).join('; ')}</p>
+
+                  <h3 scope="row">Published Games</h3>
+
+                  <p>{(this.state.published_games || ["Not found"]).join('; ')}</p>
+                </div> : null
+            }
 
             <div className="lead"
                  dangerouslySetInnerHTML={{__html:(this.state.summary || this.state.description || "No summary found").replace(/<a[^>]*>(.*?)<\/a>/g,"$1")}}></div>

@@ -2,6 +2,8 @@ var React = require('react');
 var _ = require('underscore');
 var moment = require('moment');
 
+var NOT_AVAILABLE = '';
+
 var Header = React.createClass({
   getInitialState(){
     return {}
@@ -15,19 +17,19 @@ var Header = React.createClass({
           <tbody>
           <tr>
             <th scope="row">Genres</th>
-            <td>{_.pluck(this.props.genres, 'name').join('; ')}</td>
+            <td>{_.pluck(this.props.genres, 'name').join('; ') || NOT_AVAILABLE}</td>
           </tr>
           <tr>
             <th scope="row">Platforms</th>
-            <td>{_.pluck(this.props.release_dates, 'platform_name').join('; ')}</td>
+            <td>{_.pluck(this.props.release_dates, 'platform_name').join('; ') || NOT_AVAILABLE}</td>
           </tr>
           <tr>
             <th scope="row">Themes</th>
-            <td>{_.pluck(this.props.themes, 'name').join('; ')}</td>
+            <td>{_.pluck(this.props.themes, 'name').join('; ') || NOT_AVAILABLE}</td>
           </tr>
           <tr>
             <th scope="row">Rating</th>
-            <td>{Number(this.props.rating || this.props.rating || 4.1).toFixed(2)}</td>
+            <td>{Number(this.props.rating || this.props.rating || "Not available").toFixed(2)}</td>
           </tr>
           </tbody>
         );
@@ -37,27 +39,31 @@ var Header = React.createClass({
           <tbody>
           <tr>
             <th scope="row">Address</th>
-            <td>{this.props.location_address}</td>
+            <td>{this.props.location_address || NOT_AVAILABLE}</td>
           </tr>
           <tr>
             <th scope="row">City</th>
-            <td>{this.props.location_city}</td>
+            <td>{this.props.location_city || NOT_AVAILABLE}</td>
           </tr>
           <tr>
             <th scope="row">State</th>
-            <td>{this.props.location_state}</td>
+            <td>{this.props.location_state || NOT_AVAILABLE}</td>
           </tr>
           <tr>
             <th scope="row">County</th>
-            <td>{this.props.location_country}</td>
+            <td>{this.props.location_country || NOT_AVAILABLE}</td>
+          </tr>
+          <tr>
+            <th scope="row">Founded</th>
+            <td>{this.props.date_founded ? moment(this.props.date_founded).format('MMM YYYY') : NOT_AVAILABLE}</td>
           </tr>
           <tr>
             <th scope="row">Phone</th>
-            <td>{this.props.phone}</td>
+            <td>{this.props.phone || NOT_AVAILABLE}</td>
           </tr>
           <tr>
             <th scope="row">Website</th>
-            <td>{this.props.website}</td>
+            <td>{this.props.website || NOT_AVAILABLE}</td>
           </tr>
           <tr>
             <th scope="row">Deck</th>
@@ -71,19 +77,19 @@ var Header = React.createClass({
           <tbody>
           <tr>
             <th scope="row">Company</th>
-            <td>{this.props.company ? this.props.company.name : 'Not found'}</td>
+            <td>{this.props.company ? this.props.company.name : NOT_AVAILABLE}</td>
           </tr>
           <tr>
             <th scope="row">Price</th>
-            <td>{this.props.original_price}</td>
+            <td>{this.props.original_price || NOT_AVAILABLE}</td>
           </tr>
           <tr>
             <th scope="row">Date</th>
-            <td>{moment(this.props.release_date).format('llll')}</td>
+            <td>{this.props.release_date ? moment(this.props.release_date).format('llll') : NOT_AVAILABLE}</td>
           </tr>
           <tr>
             <th scope="row">Deck</th>
-            <td>{this.props.deck}</td>
+            <td>{this.props.deck || NOT_AVAILABLE}</td>
           </tr>
           </tbody>
         );
@@ -127,7 +133,7 @@ var Header = React.createClass({
             </div>
             <div className="col-md-9">
               <h1
-                style={{display:'inline-block',fontSize:'41px',color:'#FFF',fontWeight:'bold',letterSpacing:'1px',textTransform:'uppercase',verticalAlign:'top'}}>{this.props.name}</h1>
+                style={{display:'inline-block',fontSize:'41px',color:'#FFF',fontWeight:'bold',letterSpacing:'1px',textTransform:'uppercase',verticalAlign:'top',marginTop:0}}>{this.props.name}</h1>
               <table className="compressed">
                 { tbody }
               </table>
