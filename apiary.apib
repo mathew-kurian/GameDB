@@ -18,12 +18,12 @@ List of Games returns the total list of games in our data model
         [
             {
                 "Name": "Name",
-                "Platform": "PS4",
-                "Publisher": "Publisher",
+                "Platform": "Platform",
+                "Company": "Company",
                 "Engine": "Engine",
                 "Tags": [
-                    "one",
-                    "two"
+                    "Tag One",
+                    "Tag 2"
                 ],
                 "Rating": "Rating",
                 "ID": "id"
@@ -36,7 +36,7 @@ These are the fields that will describe a game:
 
 + Name
 + Platform
-+ Publisher
++ Company
 + Engine
 + Tags - An array of special fields.
 + Rating - The average rating of the game
@@ -51,24 +51,24 @@ These are the fields that will describe a game:
 
         {
                 "Name": "Name",
-                "Platform": "PS4",
-                "Publisher": "Publisher",
+                "Platform": "Platform",
+                "Company": "Company",
                 "Engine": "Engine",
                 "Tags": [
-                    "one",
-                    "two"
+                    "Tag One",
+                    "Tag Two"
                 ],
                 "Rating": "Rating",
                 "ID": "id"
         }
 
-# Group Developer
+# Group Company
 
-## Developer [/devs]
+## Company [/company]
 
-List of Developers returns the total list of developers in our data model
+List of Company returns the total list of companies in our data model
 
-### Developers List [GET]
+### Company List [GET]
 
 + Response 201 (application/json)
 
@@ -76,7 +76,6 @@ List of Developers returns the total list of developers in our data model
             {
                 "Name": "Name",
                 "Location": "Location",
-                "Publisher": "Publisher",
                 "Engine": "Engine",
                 "Rating": "Rating",
                 "Tags": [
@@ -87,29 +86,27 @@ List of Developers returns the total list of developers in our data model
             }
         ]
 
-### Developer [/devs/{dev_id}]
+### Company [/company/{company_id}]
 
-These are the fields that will describe a developer:
+These are the fields that will describe a company:
 
 + Name
 + Location
-+ Publisher
 + Engine
 + Tags - An array of special fields.
-+ Rating - The average rating of games by the developer
++ Rating - The average rating of games by the company
 + ID - the id of the developer in our database
 
 + Parameters
-    + dev_id: 1 (required, number) - The developer's id which is unique to each developer
+    + company_id: 1 (required, number) - The company's id which is unique to each company
 
-### View a Developer [GET]
+### View a Company [GET]
 
 + Response 201 (application/json)
 
         {
                 "Name": "Name",
                 "Location": "Location",
-                "Publisher": "Publisher",
                 "Engine": "Engine",
                 "Tags": [
                     "one",
