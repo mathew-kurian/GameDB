@@ -99,7 +99,7 @@ var Header = React.createClass({
     return (
       <div style={{background:'rgba(0,0,0,0.4)',position:'relative'}}>
         <div className='blur'
-             style={{width:'100%',height:'100%',top:0,left:0, backgroundImage: 'url(' + (this.props.company_logo ? "http://igdb.com/" +  this.props.company_logo.url : this.props.images[0]) + ')',backgroundPosition:'center center',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#777', position:'absolute',zIndex:-1}}/>
+             style={{width:'100%',height:'100%',top:0,left:0, backgroundImage: 'url(' + (this.props.company_logo ? "http://igdb.com/" +  this.props.company_logo.url : this.props.images[0]) + ')',backgroundPosition:'center center',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#555', position:'absolute',zIndex:-1}}/>
         <div className="container" style={{position:'relative'}}>
           <nav className="navbar">
             <ul className="nav navbar-nav">
@@ -128,7 +128,7 @@ var Header = React.createClass({
           <div className="container">
             <div className='col-md-3'>
               <div
-                style={{width:'100%', display:'inline-block', height: 250, borderRadius: 5,background: 'url('+ (this.props.company_logo ? "http://igdb.com/" +  this.props.company_logo.url : this.props.images[0]) + ') center center no-repeat',backgroundSize:'cover',verticalAlign:'top'}}
+                style={{width:'100%', display:'inline-block', height: 250, borderRadius: 5,backgroundImage: 'url(' + (this.props.company_logo ? "http://igdb.com/" +  this.props.company_logo.url : this.props.images[0]) + ')',backgroundPosition:'center center',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#888',verticalAlign:'top'}}
                 className='img-rounded'/>
             </div>
             <div className="col-md-9">
