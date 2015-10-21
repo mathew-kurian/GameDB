@@ -58,6 +58,7 @@ module.exports = function (opts, callback) {
           return decodeURIComponent(decodeURIComponent(imgurl));
         });
     } catch (e) {
+      console.error(q, params);
       return callback(e, []);
     }
 

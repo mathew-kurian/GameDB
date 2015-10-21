@@ -1,6 +1,6 @@
 var fs = require('fs');
 var request = require('request');
-var tokens = require('tokens.json');
+var tokens = require('./tokens.json');
 
 request({
   url: 'http://www.giantbomb.com/api/platforms/?sort=release_date:desc&api_key=' + tokens.token1 + '&format=json',

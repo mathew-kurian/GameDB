@@ -10,7 +10,7 @@ async.eachSeries(page0, function (platform, callback) {
   }, function (err, links) {
     if (err) console.error(err);
     if (platform.image.medium_url)
-      links.push(platform.image.medium_url);
+      links.unshift(platform.image.medium_url);
     platform.images = links;
     setTimeout(callback, 1000);
   });

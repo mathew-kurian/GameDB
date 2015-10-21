@@ -19,7 +19,7 @@ app.debug = True
 with open('scripts/igdb/games/hyped0.json') as f:
     games_db = json.load(f)
 
-with open('scripts/igdb/companies/best0.json') as f:
+with open('scripts/giantbomb/companies/page0.json') as f:
     publishers_db = json.load(f)
 
 with open('scripts/giantbomb/platforms/page0.json') as f:
@@ -69,4 +69,4 @@ def publishers(id=-1):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=5000)

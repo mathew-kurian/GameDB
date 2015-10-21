@@ -36,16 +36,32 @@ var Header = React.createClass({
         tbody = (
           <tbody>
           <tr>
-            <th scope="row">Founded</th>
-            <td>{this.props.founded_year}</td>
+            <th scope="row">Address</th>
+            <td>{this.props.location_address}</td>
           </tr>
           <tr>
-            <th scope="row">Parent</th>
-            <td>{this.props.parent}</td>
+            <th scope="row">City</th>
+            <td>{this.props.location_city}</td>
           </tr>
           <tr>
-            <th scope="row">Rating</th>
-            <td>{Number(this.props.average_rating || 4.1).toFixed(2)}</td>
+            <th scope="row">State</th>
+            <td>{this.props.location_state}</td>
+          </tr>
+          <tr>
+            <th scope="row">County</th>
+            <td>{this.props.location_country}</td>
+          </tr>
+          <tr>
+            <th scope="row">Phone</th>
+            <td>{this.props.phone}</td>
+          </tr>
+          <tr>
+            <th scope="row">Website</th>
+            <td>{this.props.website}</td>
+          </tr>
+          <tr>
+            <th scope="row">Deck</th>
+            <td>{this.props.deck}</td>
           </tr>
           </tbody>
         );
