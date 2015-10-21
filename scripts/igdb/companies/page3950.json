@@ -1,0 +1,194 @@
+[
+    {
+        "id": 4431,
+        "name": "PB Outsourcing GmbH",
+        "slug": "pb-outsourcing-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4433,
+        "name": "GENUIN Classics",
+        "slug": "genuin-classics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4434,
+        "name": "Aldolpho Design",
+        "slug": "aldolpho-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4451,
+        "name": "Wild Sheep Studio",
+        "slug": "wild-sheep-studio",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/wild-sheep-studio/images/company_logos/8p/wild-sheep-studio_logo_thumb.png",
+            "width": 3543,
+            "height": 3543
+        }
+    },
+    {
+        "id": 4437,
+        "name": "OeRSTED",
+        "slug": "oersted",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4436,
+        "name": "3D Ages",
+        "slug": "3d-ages",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4459,
+        "name": "Rodeo Games",
+        "slug": "rodeo-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4452,
+        "name": "Square Product Development Division 6",
+        "slug": "square-product-development-division-6",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4439,
+        "name": "Crazy Viking Studios",
+        "slug": "crazy-viking-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4460,
+        "name": "Twistplay",
+        "slug": "twistplay",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4461,
+        "name": "Chilled Mouse",
+        "slug": "chilled-mouse",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4469,
+        "name": "Ignatus Zuk",
+        "slug": "ignatus-zuk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4454,
+        "name": "Lay-Up",
+        "slug": "lay-up",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4441,
+        "name": "FuturLab",
+        "slug": "futurlab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4462,
+        "name": "Project Venus",
+        "slug": "project-venus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4442,
+        "name": "Newgrounds",
+        "slug": "newgrounds",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4455,
+        "name": "Sega AM5",
+        "slug": "sega-am5",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4444,
+        "name": "Asylum Studios",
+        "slug": "asylum-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4456,
+        "name": "Moonlite Software",
+        "slug": "moonlite-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4443,
+        "name": "Mucky Foot Productions",
+        "slug": "mucky-foot-productions",
+        "average_rating": null,
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/mucky-foot-productions/images/company_logos/8n/mucky-foot-productions_logo_thumb.png",
+            "width": 363,
+            "height": 363
+        }
+    },
+    {
+        "id": 4457,
+        "name": "Macro Soft",
+        "slug": "macro-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4445,
+        "name": "Gamepires",
+        "slug": "gamepires",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4446,
+        "name": "Wingnut Films",
+        "slug": "wingnut-films",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4447,
+        "name": "Middle-Earth Enterprieses",
+        "slug": "middle-earth-enterprieses",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2973,
+        "name": "Reality Pump",
+        "slug": "reality-pump",
+        "average_rating": "6.32820645153867",
+        "founded_year": 1995,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/reality-pump/images/company_logos/9e/reality-pump_logo_thumb.png",
+            "width": 286,
+            "height": 400
+        }
+    }
+]

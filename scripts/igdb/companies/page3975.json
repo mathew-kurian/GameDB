@@ -1,0 +1,194 @@
+[
+    {
+        "id": 4448,
+        "name": "WB De Lane Lea",
+        "slug": "wb-de-lane-lea",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4449,
+        "name": "Sprung Studios",
+        "slug": "sprung-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4450,
+        "name": "Alpha CRG",
+        "slug": "alpha-crg",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4458,
+        "name": "Big Robot",
+        "slug": "big-robot",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4474,
+        "name": "Dingaling",
+        "slug": "dingaling",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4467,
+        "name": "Inbound",
+        "slug": "inbound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4468,
+        "name": "SEGA of Japan",
+        "slug": "sega-of-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4477,
+        "name": "Ubisoft Tiwak",
+        "slug": "ubisoft-tiwak",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4472,
+        "name": "JAM Productions",
+        "slug": "jam-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4475,
+        "name": "Worldwide Biggies",
+        "slug": "worldwide-biggies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4479,
+        "name": "Lingoona GmbH",
+        "slug": "lingoona-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4470,
+        "name": "Gonzalo Villagomez",
+        "slug": "gonzalo-villagomez",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4471,
+        "name": "Gonzalo Villagomez ",
+        "slug": "gonzalo-villagomez--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4478,
+        "name": "Livedoor",
+        "slug": "livedoor",
+        "average_rating": "8.12462349557428",
+        "parent": null
+    },
+    {
+        "id": 4473,
+        "name": "Tecmo Touch Games",
+        "slug": "tecmo-touch-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1432,
+        "name": "Playground Games",
+        "slug": "playground-games",
+        "average_rating": "8.65275587562414",
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/playground-games/images/company_logos/5m/playground-games_logo_thumb.png",
+            "width": 234,
+            "height": 233
+        }
+    },
+    {
+        "id": 4476,
+        "name": "Split",
+        "slug": "split",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4453,
+        "name": "Tecmo",
+        "slug": "tecmo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4550,
+        "name": "Post Creations",
+        "slug": "post-creations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4183,
+        "name": "Blue Moon Red Owl",
+        "slug": "blue-moon-red-owl",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/blue-moon-red-owl/images/company_logos/9g/blue-moon-red-owl_logo_thumb.png",
+            "width": 662,
+            "height": 247
+        }
+    },
+    {
+        "id": 4415,
+        "name": "ProjectorGames",
+        "slug": "projectorgames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4463,
+        "name": "Builder Box Games",
+        "slug": "builder-box-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 552,
+        "name": "Crystal Dynamics",
+        "slug": "crystal-dynamics",
+        "average_rating": "7.97892742553853",
+        "founded_year": 1992,
+        "parent": 26,
+        "company_logo": {
+            "url": "/companies/crystal-dynamics/images/company_logos/5x/crystal-dynamics_logo_thumb.png",
+            "width": 375,
+            "height": 108
+        }
+    },
+    {
+        "id": 4480,
+        "name": "Prague Philharmonic Orchestra",
+        "slug": "prague-philharmonic-orchestra",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4481,
+        "name": "Tom Tom Studios",
+        "slug": "tom-tom-studios",
+        "average_rating": null,
+        "parent": null
+    }
+]

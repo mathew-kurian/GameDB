@@ -1,0 +1,206 @@
+[
+    {
+        "id": 7038,
+        "name": "Stellar Jockeys",
+        "slug": "stellar-jockeys",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7037,
+        "name": "Pixel Pi Games",
+        "slug": "pixel-pi-games",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/pixel-pi-games/images/company_logos/gz/pixel-pi-games_logo_thumb.png",
+            "width": 512,
+            "height": 512
+        }
+    },
+    {
+        "id": 2081,
+        "name": "Iron Tower Studio",
+        "slug": "iron-tower-studio",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/iron-tower-studio/images/company_logos/h2/iron-tower-studio_logo_thumb.png",
+            "width": 512,
+            "height": 512
+        }
+    },
+    {
+        "id": 7042,
+        "name": "Ubisoft",
+        "slug": "ubisoft--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7043,
+        "name": "Tag Games",
+        "slug": "tag-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2514,
+        "name": "Limbic Entertainment",
+        "slug": "limbic-entertainment",
+        "average_rating": "7.33182451106301",
+        "parent": null
+    },
+    {
+        "id": 7041,
+        "name": "Ubisoft",
+        "slug": "ubisoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7044,
+        "name": "Lucas Learning",
+        "slug": "lucas-learning",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7045,
+        "name": "Codename Entertainment",
+        "slug": "codename-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7053,
+        "name": "WARP",
+        "slug": "warp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7056,
+        "name": "SUTD Game Lab",
+        "slug": "sutd-game-lab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2751,
+        "name": "Nihon Falcom",
+        "slug": "nihon-falcom",
+        "average_rating": null,
+        "founded_year": 1981,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/nihon-falcom/images/company_logos/cz/nihon-falcom_logo_thumb.png",
+            "width": 1224,
+            "height": 328
+        }
+    },
+    {
+        "id": 2187,
+        "name": "XSEED Games",
+        "slug": "xseed-games--1",
+        "average_rating": null,
+        "founded_year": 2004,
+        "parent": 6071,
+        "company_logo": {
+            "url": "/companies/xseed-games--1/images/company_logos/dw/xseed-games--1_logo_thumb.png",
+            "width": 301,
+            "height": 96
+        }
+    },
+    {
+        "id": 7057,
+        "name": "Ty Taylor & Mario Castañeda",
+        "slug": "ty-taylor-and-mario-castaneda",
+        "average_rating": "8.52446237778273",
+        "parent": null
+    },
+    {
+        "id": 7058,
+        "name": "The Quantum Astrophysicists Guild",
+        "slug": "the-quantum-astrophysicists-guild",
+        "average_rating": "8.52446237778273",
+        "parent": null
+    },
+    {
+        "id": 7059,
+        "name": "WalterMachado",
+        "slug": "waltermachado",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7060,
+        "name": "Antonio Renna",
+        "slug": "antonio-renna",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7062,
+        "name": "William Chyr",
+        "slug": "william-chyr",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7061,
+        "name": "All Seeing Eye Games",
+        "slug": "all-seeing-eye-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7063,
+        "name": "Mobage",
+        "slug": "mobage",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7064,
+        "name": "Orangepixel",
+        "slug": "orangepixel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2262,
+        "name": "NIS America",
+        "slug": "nis-america",
+        "average_rating": "9.53601502283116",
+        "founded_year": 2003,
+        "parent": 1405,
+        "company_logo": {
+            "url": "/companies/nis-america/images/company_logos/cp/nis-america_logo_thumb.png",
+            "width": 600,
+            "height": 300
+        }
+    },
+    {
+        "id": 7071,
+        "name": "Jesse Makkonen",
+        "slug": "jesse-makkonen",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7065,
+        "name": "MicroValue",
+        "slug": "microvalue",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7069,
+        "name": "Smudged Cat Games",
+        "slug": "smudged-cat-games",
+        "average_rating": null,
+        "parent": null
+    }
+]

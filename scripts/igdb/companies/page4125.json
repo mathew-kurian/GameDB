@@ -1,0 +1,189 @@
+[
+    {
+        "id": 4627,
+        "name": "IntraCorp",
+        "slug": "intracorp",
+        "average_rating": null,
+        "founded_year": 1984,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/intracorp/images/company_logos/ab/intracorp_logo_thumb.png",
+            "width": 400,
+            "height": 73
+        }
+    },
+    {
+        "id": 4626,
+        "name": "Capstone Software",
+        "slug": "capstone-software",
+        "average_rating": null,
+        "founded_year": 1984,
+        "parent": 4627,
+        "company_logo": {
+            "url": "/companies/capstone-software/images/company_logos/aa/capstone-software_logo_thumb.png",
+            "width": 144,
+            "height": 90
+        }
+    },
+    {
+        "id": 4628,
+        "name": "Vindigo",
+        "slug": "vindigo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4630,
+        "name": "800 North and Digital Ranch ",
+        "slug": "800-north-and-digital-ranch--1",
+        "average_rating": "6.07432938980171",
+        "parent": null
+    },
+    {
+        "id": 4631,
+        "name": "Asteristic Game Studio",
+        "slug": "asteristic-game-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4600,
+        "name": "Aabs Inc",
+        "slug": "aabs-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4601,
+        "name": "Excamedia",
+        "slug": "excamedia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4602,
+        "name": "BlitWorks",
+        "slug": "blitworks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4603,
+        "name": "Miracle Positive",
+        "slug": "miracle-positive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4604,
+        "name": "Dramatic Create",
+        "slug": "dramatic-create",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4608,
+        "name": "Playdek",
+        "slug": "playdek",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4612,
+        "name": "The Digital Lounge",
+        "slug": "the-digital-lounge",
+        "average_rating": "8.57256795443635",
+        "parent": null
+    },
+    {
+        "id": 4613,
+        "name": "Gravitas Games",
+        "slug": "gravitas-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4614,
+        "name": "Tikipod",
+        "slug": "tikipod",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4615,
+        "name": "Entersphere",
+        "slug": "entersphere",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4616,
+        "name": "Witch Beam",
+        "slug": "witch-beam",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4617,
+        "name": "Sony Interactive Studios America",
+        "slug": "sony-interactive-studios-america",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4619,
+        "name": "Gone Home",
+        "slug": "gone-home",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4620,
+        "name": "Three One Zero",
+        "slug": "three-one-zero",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4621,
+        "name": "Relevo",
+        "slug": "relevo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4638,
+        "name": "Sachs Enterprises",
+        "slug": "sachs-enterprises",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4622,
+        "name": "The Fyzz Facility",
+        "slug": "the-fyzz-facility",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4380,
+        "name": "VooFoo Studios",
+        "slug": "voofoo-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4632,
+        "name": "CCG",
+        "slug": "ccg",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4623,
+        "name": "Fish Factory Games",
+        "slug": "fish-factory-games",
+        "average_rating": null,
+        "parent": null
+    }
+]

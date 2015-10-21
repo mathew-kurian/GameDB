@@ -1,0 +1,184 @@
+[
+    {
+        "id": 3995,
+        "name": "Eidos Interactive Europe",
+        "slug": "eidos-interactive-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3909,
+        "name": "Nigoro",
+        "slug": "nigoro",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3949,
+        "name": "Magifact",
+        "slug": "magifact",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3950,
+        "name": "Blue Turtle",
+        "slug": "blue-turtle",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 412,
+        "name": "Codemasters Southam",
+        "slug": "codemasters-southam",
+        "average_rating": "7.90343367054142",
+        "founded_year": 1986,
+        "parent": 115
+    },
+    {
+        "id": 3951,
+        "name": "Denton Designs",
+        "slug": "denton-designs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3952,
+        "name": "ISCO",
+        "slug": "isco",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3953,
+        "name": "Magic Bytes",
+        "slug": "magic-bytes",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3954,
+        "name": "RSP",
+        "slug": "rsp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4018,
+        "name": "The Research Centaur",
+        "slug": "the-research-centaur",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3996,
+        "name": "Experimental Gameplay",
+        "slug": "experimental-gameplay",
+        "average_rating": "7.98571273521379",
+        "parent": null
+    },
+    {
+        "id": 4003,
+        "name": "Sega International",
+        "slug": "sega-international",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4004,
+        "name": "Sega Germany",
+        "slug": "sega-germany",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4005,
+        "name": "Sega Spain",
+        "slug": "sega-spain",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4006,
+        "name": "Sega Benelux",
+        "slug": "sega-benelux",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4007,
+        "name": "Sega France",
+        "slug": "sega-france",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4008,
+        "name": "Sega Australia",
+        "slug": "sega-australia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4012,
+        "name": "Innocuous Games",
+        "slug": "innocuous-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4011,
+        "name": "Lost Boys Games",
+        "slug": "lost-boys-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4013,
+        "name": "Active Enterprises",
+        "slug": "active-enterprises",
+        "average_rating": null,
+        "founded_year": 1989,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/active-enterprises/images/company_logos/b3/active-enterprises_logo_thumb.png",
+            "width": 400,
+            "height": 113
+        }
+    },
+    {
+        "id": 4015,
+        "name": "Recreational Brainware",
+        "slug": "recreational-brainware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4373,
+        "name": "Strange Loop Games",
+        "slug": "strange-loop-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4118,
+        "name": "SoMa Play",
+        "slug": "soma-play",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 4023,
+        "name": "Guildhall Leisure Services Ltd.",
+        "slug": "guildhall-leisure-services-ltd",
+        "average_rating": "7.89568361391184",
+        "parent": null
+    },
+    {
+        "id": 4316,
+        "name": "OMUK",
+        "slug": "omuk",
+        "average_rating": null,
+        "parent": null
+    }
+]

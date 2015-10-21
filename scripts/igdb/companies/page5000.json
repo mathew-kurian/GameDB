@@ -1,0 +1,182 @@
+[
+    {
+        "id": 5411,
+        "name": "Mega Drive",
+        "slug": "mega-drive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5412,
+        "name": "El Tigr3",
+        "slug": "el-tigr3",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5413,
+        "name": "Light Club",
+        "slug": "light-club",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5414,
+        "name": "Old Future Fox Gang",
+        "slug": "old-future-fox-gang",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5415,
+        "name": "Modulogeek",
+        "slug": "modulogeek",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5416,
+        "name": "Nounverber",
+        "slug": "nounverber",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5417,
+        "name": "Mitch Murder",
+        "slug": "mitch-murder",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5418,
+        "name": "El Huervo",
+        "slug": "el-huervo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5419,
+        "name": "Chromacle",
+        "slug": "chromacle",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5420,
+        "name": "Riddarna",
+        "slug": "riddarna",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5421,
+        "name": "Sjellos",
+        "slug": "sjellos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5422,
+        "name": "The Castanets",
+        "slug": "the-castanets",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5423,
+        "name": "Studio Yotta",
+        "slug": "studio-yotta",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5359,
+        "name": "Teotl Studios",
+        "slug": "teotl-studios",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/teotl-studios/images/company_logos/dz/teotl-studios_logo_thumb.png",
+            "width": 1389,
+            "height": 384
+        }
+    },
+    {
+        "id": 5426,
+        "name": "Studio Pierre Marchand",
+        "slug": "studio-pierre-marchand",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5427,
+        "name": "Cæur de al lumière",
+        "slug": "caeur-de-al-lumiere",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5428,
+        "name": "Studios Planet",
+        "slug": "studios-planet",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5429,
+        "name": "Le Lab Mastering",
+        "slug": "le-lab-mastering",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5430,
+        "name": "Cirque Du Solei Media",
+        "slug": "cirque-du-solei-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5431,
+        "name": "Alice Studio",
+        "slug": "alice-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5432,
+        "name": "Synthesis Brazil",
+        "slug": "synthesis-brazil",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5433,
+        "name": "Studio SoundValley",
+        "slug": "studio-soundvalley",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5434,
+        "name": "KBA Creative",
+        "slug": "kba-creative",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5435,
+        "name": "Pacific Ocean Post",
+        "slug": "pacific-ocean-post",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5436,
+        "name": "Margarita Mix Santa Monica",
+        "slug": "margarita-mix-santa-monica",
+        "average_rating": null,
+        "parent": null
+    }
+]

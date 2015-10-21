@@ -1,0 +1,182 @@
+[
+    {
+        "id": 4994,
+        "name": "ArtCraft Entertainment",
+        "slug": "artcraft-entertainment",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/artcraft-entertainment/images/company_logos/bu/artcraft-entertainment_logo_thumb.png",
+            "width": 1024,
+            "height": 1024
+        }
+    },
+    {
+        "id": 4995,
+        "name": "Brave Wave Productions",
+        "slug": "brave-wave-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4996,
+        "name": "Humble Bundle",
+        "slug": "humble-bundle",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4997,
+        "name": "Watermelon Co.",
+        "slug": "watermelon-co",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4999,
+        "name": "Ackk Studios",
+        "slug": "ackk-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5000,
+        "name": "Fuzzy Wuzzy Games",
+        "slug": "fuzzy-wuzzy-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5001,
+        "name": "Prismatic Games",
+        "slug": "prismatic-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5002,
+        "name": "Onipunks",
+        "slug": "onipunks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5003,
+        "name": "Cantrip Games",
+        "slug": "cantrip-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5004,
+        "name": "Giant Enemy Labs",
+        "slug": "giant-enemy-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5005,
+        "name": "Suncreature Studio",
+        "slug": "suncreature-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5006,
+        "name": "Camoflaj",
+        "slug": "camoflaj",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5007,
+        "name": "Crowsmack",
+        "slug": "crowsmack",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5008,
+        "name": "EA Melbourne",
+        "slug": "ea-melbourne",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5009,
+        "name": "Mindwalk Studios",
+        "slug": "mindwalk-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5010,
+        "name": "CEET",
+        "slug": "ceet",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5011,
+        "name": "Consell Pannonia",
+        "slug": "consell-pannonia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5012,
+        "name": "Team Fifty Seven",
+        "slug": "team-fifty-seven",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5013,
+        "name": "VMC India",
+        "slug": "vmc-india",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5014,
+        "name": "EA Mastering Lab",
+        "slug": "ea-mastering-lab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5015,
+        "name": "EAC Game Lab",
+        "slug": "eac-game-lab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5016,
+        "name": "EARS Game Lab",
+        "slug": "ears-game-lab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5017,
+        "name": "EA Desktop Support",
+        "slug": "ea-desktop-support",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5018,
+        "name": "EAC Motion Capture Services",
+        "slug": "eac-motion-capture-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5019,
+        "name": "Hammer Creative Advertising",
+        "slug": "hammer-creative-advertising",
+        "average_rating": null,
+        "parent": null
+    }
+]

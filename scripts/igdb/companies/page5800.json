@@ -1,0 +1,188 @@
+[
+    {
+        "id": 6313,
+        "name": "Roi Electric Appliance",
+        "slug": "roi-electric-appliance",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6314,
+        "name": "Akihabara Shopping District Promotion Cooperative",
+        "slug": "akihabara-shopping-district-promotion-cooperative",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6234,
+        "name": "Defrost Games",
+        "slug": "defrost-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6126,
+        "name": "Grey Area",
+        "slug": "grey-area",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6118,
+        "name": "Phoenix Games B.V.",
+        "slug": "phoenix-games-bv",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6121,
+        "name": "Wizet",
+        "slug": "wizet",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6119,
+        "name": "Lightning Fish Games",
+        "slug": "lightning-fish-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 423,
+        "name": "Deep Silver",
+        "slug": "deep-silver",
+        "average_rating": "7.53594071806888",
+        "founded_year": 2002,
+        "parent": 374,
+        "company_logo": {
+            "url": "/companies/deep-silver/images/company_logos/3y/deep-silver_logo_thumb.png",
+            "width": 948,
+            "height": 1363
+        }
+    },
+    {
+        "id": 6122,
+        "name": "AsiaSoft",
+        "slug": "asiasoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6131,
+        "name": "Cipher Prime Studios",
+        "slug": "cipher-prime-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6133,
+        "name": "RobTop Games",
+        "slug": "robtop-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6132,
+        "name": "Powerhoof",
+        "slug": "powerhoof",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6123,
+        "name": "Shanda",
+        "slug": "shanda",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6125,
+        "name": "What Pumpkin Studios NYC",
+        "slug": "what-pumpkin-studios-nyc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6134,
+        "name": "Zachtronics Industries",
+        "slug": "zachtronics-industries",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6124,
+        "name": "Neutral Storm",
+        "slug": "neutral-storm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6135,
+        "name": "Milkstone Studios",
+        "slug": "milkstone-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1299,
+        "name": "Firemint",
+        "slug": "firemint",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/firemint/images/company_logos/e9/firemint_logo_thumb.png",
+            "width": 1000,
+            "height": 314
+        }
+    },
+    {
+        "id": 6127,
+        "name": "Red Rat Software",
+        "slug": "red-rat-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6136,
+        "name": "Hello There",
+        "slug": "hello-there",
+        "average_rating": "7.80701754385965",
+        "parent": null
+    },
+    {
+        "id": 6128,
+        "name": "Fractal Phase",
+        "slug": "fractal-phase",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6139,
+        "name": "youdagames",
+        "slug": "youdagames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6130,
+        "name": "RVL Games",
+        "slug": "rvl-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6129,
+        "name": "Lucky Pause",
+        "slug": "lucky-pause",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6141,
+        "name": "CLOCKUP",
+        "slug": "clockup",
+        "average_rating": null,
+        "parent": null
+    }
+]

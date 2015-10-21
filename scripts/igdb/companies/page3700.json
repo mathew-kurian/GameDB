@@ -1,0 +1,187 @@
+[
+    {
+        "id": 4265,
+        "name": "Netchubiyori",
+        "slug": "netchubiyori",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1233,
+        "name": "NMS Software",
+        "slug": "nms-software",
+        "average_rating": "8.26347713231473",
+        "parent": null
+    },
+    {
+        "id": 4243,
+        "name": "Rewolf Software",
+        "slug": "rewolf-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4267,
+        "name": "Studio Garage",
+        "slug": "studio-garage",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4268,
+        "name": "Hinata",
+        "slug": "hinata",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4269,
+        "name": "Dog Ear Records",
+        "slug": "dog-ear-records",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4270,
+        "name": "T's Music",
+        "slug": "ts-music",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4271,
+        "name": "Kamikazedouga",
+        "slug": "kamikazedouga",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4272,
+        "name": "wonderium",
+        "slug": "wonderium",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4266,
+        "name": "Toylogic",
+        "slug": "toylogic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4132,
+        "name": "icculus.org",
+        "slug": "icculus-dot-org",
+        "average_rating": "6.16709188496934",
+        "parent": null
+    },
+    {
+        "id": 4147,
+        "name": "Lunarch Studios",
+        "slug": "lunarch-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4148,
+        "name": "EA Romania",
+        "slug": "ea-romania",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4149,
+        "name": "Chrom Studio",
+        "slug": "chrom-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4250,
+        "name": "Meima Corporation",
+        "slug": "meima-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4251,
+        "name": "Sarugakucho",
+        "slug": "sarugakucho",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4144,
+        "name": "Instant Kingdom",
+        "slug": "instant-kingdom",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/instant-kingdom/images/company_logos/6e/instant-kingdom_logo_thumb.png",
+            "width": 94,
+            "height": 94
+        }
+    },
+    {
+        "id": 4150,
+        "name": "OF3D",
+        "slug": "of3d",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4151,
+        "name": "Speradoft Inc.",
+        "slug": "speradoft-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4152,
+        "name": "Typodermic Inc.",
+        "slug": "typodermic-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4153,
+        "name": "Georgrify",
+        "slug": "georgrify",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4145,
+        "name": "Basilisk Games",
+        "slug": "basilisk-games",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/basilisk-games/images/company_logos/6f/basilisk-games_logo_thumb.png",
+            "width": 1024,
+            "height": 768
+        }
+    },
+    {
+        "id": 4154,
+        "name": "Geomerics Ltc.",
+        "slug": "geomerics-ltc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4155,
+        "name": "Middlewar Licensesn in Salesforce, FYI",
+        "slug": "middlewar-licensesn-in-salesforce-fyi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4156,
+        "name": "OC3",
+        "slug": "oc3",
+        "average_rating": null,
+        "parent": null
+    }
+]

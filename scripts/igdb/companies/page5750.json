@@ -1,0 +1,183 @@
+[
+    {
+        "id": 3763,
+        "name": "Section Studios",
+        "slug": "section-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6110,
+        "name": "3Blackdot",
+        "slug": "3blackdot",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6111,
+        "name": "Dry Cactus",
+        "slug": "dry-cactus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6289,
+        "name": "Enterbrain Famitsu Xbox Editorial Department",
+        "slug": "enterbrain-famitsu-xbox-editorial-department",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6074,
+        "name": "Meteorise",
+        "slug": "meteorise",
+        "average_rating": null,
+        "founded_year": 2010,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/meteorise/images/company_logos/e3/meteorise_logo_thumb.png",
+            "width": 570,
+            "height": 343
+        }
+    },
+    {
+        "id": 6290,
+        "name": "Animate",
+        "slug": "animate",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6269,
+        "name": "Nandinee Productions",
+        "slug": "nandinee-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6291,
+        "name": "A-den",
+        "slug": "a-den",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6113,
+        "name": "Dark Seas Interactive",
+        "slug": "dark-seas-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6114,
+        "name": "The Fisch Brothers",
+        "slug": "the-fisch-brothers",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6115,
+        "name": "Pixel Dash Studios",
+        "slug": "pixel-dash-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6112,
+        "name": "GrindHouse",
+        "slug": "grindhouse",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6273,
+        "name": "Exigent Holdings",
+        "slug": "exigent-holdings",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6292,
+        "name": "Audio Technica",
+        "slug": "audio-technica",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2916,
+        "name": "Breakfall",
+        "slug": "breakfall",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6117,
+        "name": "BlankMediaGames",
+        "slug": "blankmediagames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6116,
+        "name": "Chasing Carrots",
+        "slug": "chasing-carrots",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6275,
+        "name": "American Federation of Musicians",
+        "slug": "american-federation-of-musicians",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6276,
+        "name": "One Note Recording Studio",
+        "slug": "one-note-recording-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6278,
+        "name": "Arts Vision",
+        "slug": "arts-vision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6279,
+        "name": "Aim Enterprise",
+        "slug": "aim-enterprise",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6280,
+        "name": "Atomic Monkey",
+        "slug": "atomic-monkey",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6281,
+        "name": "Osawa Office",
+        "slug": "osawa-office",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6282,
+        "name": "Kaleidscope",
+        "slug": "kaleidscope",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6283,
+        "name": "Himawari Theatre Group",
+        "slug": "himawari-theatre-group",
+        "average_rating": null,
+        "parent": null
+    }
+]

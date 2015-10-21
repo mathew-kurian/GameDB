@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4179,
+        "name": "Infamous Quests",
+        "slug": "infamous-quests",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4194,
+        "name": "Tenpei Artists Inc.",
+        "slug": "tenpei-artists-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4195,
+        "name": "IAM Agency",
+        "slug": "iam-agency",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4196,
+        "name": "AONI Productions",
+        "slug": "aoni-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4512,
+        "name": "The Dome",
+        "slug": "the-dome",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 536,
+        "name": "DMA Design",
+        "slug": "dma-design",
+        "average_rating": "8.5007939123478",
+        "founded_year": 1988,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/dma-design/images/company_logos/6o/dma-design_logo_thumb.png",
+            "width": 235,
+            "height": 267
+        }
+    },
+    {
+        "id": 4197,
+        "name": "ACROSS Entertainment",
+        "slug": "across-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4181,
+        "name": "MojoTouch",
+        "slug": "mojotouch",
+        "average_rating": "8.37157884501869",
+        "parent": null
+    },
+    {
+        "id": 4182,
+        "name": "iPhSoft",
+        "slug": "iphsoft",
+        "average_rating": "8.37157884501869",
+        "parent": null
+    },
+    {
+        "id": 4177,
+        "name": "Team Soho",
+        "slug": "team-soho",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4198,
+        "name": "Ability Soul Pro",
+        "slug": "ability-soul-pro",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4199,
+        "name": "ave;new",
+        "slug": "ave-new",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4200,
+        "name": "ARTSVISION Co., Ltd.",
+        "slug": "artsvision-co-dot-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4201,
+        "name": "EARLY WING",
+        "slug": "early-wing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4185,
+        "name": "Goatmeal",
+        "slug": "goatmeal",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4186,
+        "name": "NISA QA Team",
+        "slug": "nisa-qa-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4187,
+        "name": "Bang Zoom! Entertainment",
+        "slug": "bang-zoom-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4188,
+        "name": "noLa inc.",
+        "slug": "nola-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4202,
+        "name": "HBIKI.INC",
+        "slug": "hbiki-dot-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4203,
+        "name": "PRO-FIT Inc.",
+        "slug": "pro-fit-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4204,
+        "name": "MAUSU PROMOTION",
+        "slug": "mausu-promotion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4205,
+        "name": "UP and UPs",
+        "slug": "up-and-ups",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4206,
+        "name": "S-Prism",
+        "slug": "s-prism",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4207,
+        "name": "Fennel Inc",
+        "slug": "fennel-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4208,
+        "name": "STUDIO ToOeuf Inc.",
+        "slug": "studio-tooeuf-inc",
+        "average_rating": null,
+        "parent": null
+    }
+]

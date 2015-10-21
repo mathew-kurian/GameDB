@@ -1,0 +1,202 @@
+[
+    {
+        "id": 5073,
+        "name": "Ripcord Games",
+        "slug": "ripcord-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5072,
+        "name": "Grynsoft",
+        "slug": "grynsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5074,
+        "name": "Big Grub",
+        "slug": "big-grub",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5075,
+        "name": "MicroMouse",
+        "slug": "micromouse",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5077,
+        "name": "Data Becker",
+        "slug": "data-becker",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5076,
+        "name": "Soft Enterprises",
+        "slug": "soft-enterprises",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5078,
+        "name": "BMS Modern Games Handelsagentur GmbH",
+        "slug": "bms-modern-games-handelsagentur-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5083,
+        "name": "Reverge Labs",
+        "slug": "reverge-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5079,
+        "name": "Pastagames",
+        "slug": "pastagames",
+        "average_rating": null,
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/pastagames/images/company_logos/by/pastagames_logo_thumb.png",
+            "width": null,
+            "height": null
+        }
+    },
+    {
+        "id": 5085,
+        "name": "Plain Vanilla Games",
+        "slug": "plain-vanilla-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 661,
+        "name": "Image Space Incorporated",
+        "slug": "image-space-incorporated",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5086,
+        "name": "Vladimir Romanyuk",
+        "slug": "vladimir-romanyuk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5084,
+        "name": "Paul O'Brian",
+        "slug": "paul-obrian",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5059,
+        "name": "Take-Two Interactive Software",
+        "slug": "take-two-interactive-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5067,
+        "name": "Tindalos Interactive",
+        "slug": "tindalos-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5070,
+        "name": "Action Forms",
+        "slug": "action-forms",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5087,
+        "name": "Offworld Industries",
+        "slug": "offworld-industries",
+        "average_rating": null,
+        "founded_year": 2015,
+        "parent": null
+    },
+    {
+        "id": 926,
+        "name": "City Interactive",
+        "slug": "city-interactive",
+        "average_rating": null,
+        "founded_year": 2002,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/city-interactive/images/company_logos/71/city-interactive_logo_thumb.png",
+            "width": 610,
+            "height": 300
+        }
+    },
+    {
+        "id": 5088,
+        "name": "Carlsen Games",
+        "slug": "carlsen-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1527,
+        "name": "Giants Software",
+        "slug": "giants-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5089,
+        "name": "Arkedo Studio",
+        "slug": "arkedo-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2555,
+        "name": "Idol FX",
+        "slug": "idol-fx",
+        "average_rating": null,
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/idol-fx/images/company_logos/c0/idol-fx_logo_thumb.png",
+            "width": 99,
+            "height": 62
+        }
+    },
+    {
+        "id": 428,
+        "name": "Treyarch",
+        "slug": "treyarch",
+        "average_rating": "7.79336613859948",
+        "founded_year": 1996,
+        "parent": 66,
+        "company_logo": {
+            "url": "/companies/treyarch/images/company_logos/7m/treyarch_logo_thumb.png",
+            "width": 300,
+            "height": 300
+        }
+    },
+    {
+        "id": 2083,
+        "name": "Metro 3D",
+        "slug": "metro-3d",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5090,
+        "name": "Deep Shadows",
+        "slug": "deep-shadows",
+        "average_rating": null,
+        "parent": null
+    }
+]

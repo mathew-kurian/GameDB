@@ -1,0 +1,207 @@
+[
+    {
+        "id": 5171,
+        "name": "Neostream",
+        "slug": "neostream",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5172,
+        "name": "Spike Co., Ltd",
+        "slug": "spike-co-dot-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5174,
+        "name": "Bad Management LLP",
+        "slug": "bad-management-llp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5205,
+        "name": "Tekneo",
+        "slug": "tekneo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5100,
+        "name": "Daedalic Entertainmentrem",
+        "slug": "daedalic-entertainmentrem",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 921,
+        "name": "Might and Delight",
+        "slug": "might-and-delight",
+        "average_rating": null,
+        "founded_year": 2010,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/might-and-delight/images/company_logos/9j/might-and-delight_logo_thumb.png",
+            "width": 400,
+            "height": 86
+        }
+    },
+    {
+        "id": 24,
+        "name": "Sierra Entertainment",
+        "slug": "sierra-entertainment",
+        "average_rating": "8.59949812428829",
+        "founded_year": 1979,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/sierra-entertainment/images/company_logos/17/sierra-entertainment_logo_thumb.png",
+            "width": 500,
+            "height": 133
+        }
+    },
+    {
+        "id": 837,
+        "name": "Level-5",
+        "slug": "level-5",
+        "average_rating": "8.23433821232353",
+        "founded_year": 1998,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/level-5/images/company_logos/7l/level-5_logo_thumb.png",
+            "width": 93,
+            "height": 50
+        }
+    },
+    {
+        "id": 1215,
+        "name": "Banpresto",
+        "slug": "banpresto",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2525,
+        "name": "Universal Games",
+        "slug": "universal-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4046,
+        "name": "Manley and Associates Inc",
+        "slug": "manley-and-associates-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 9,
+        "name": "Lucasfilm Games",
+        "slug": "lucasfilm-games",
+        "average_rating": "9.0137133560713",
+        "founded_year": 1982,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/lucasfilm-games/images/company_logos/6a/lucasfilm-games_logo_thumb.png",
+            "width": 630,
+            "height": 215
+        }
+    },
+    {
+        "id": 5118,
+        "name": "Noumenon Games",
+        "slug": "noumenon-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 630,
+        "name": "Koei",
+        "slug": "koei",
+        "average_rating": "8.01509810060506",
+        "parent": null
+    },
+    {
+        "id": 3268,
+        "name": "LucasArts",
+        "slug": "lucasarts",
+        "average_rating": "8.36326752300233",
+        "parent": null
+    },
+    {
+        "id": 5134,
+        "name": "Koalabeast",
+        "slug": "koalabeast",
+        "average_rating": "8.64064722280507",
+        "parent": null
+    },
+    {
+        "id": 5138,
+        "name": "Arcane Kids",
+        "slug": "arcane-kids--1",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/arcane-kids--1/images/company_logos/df/arcane-kids--1_logo_thumb.png",
+            "width": 1048,
+            "height": 172
+        }
+    },
+    {
+        "id": 5139,
+        "name": "Three Rings Design",
+        "slug": "three-rings-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5140,
+        "name": "HappySoft",
+        "slug": "happysoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5141,
+        "name": "Kowloon Kurosawa",
+        "slug": "kowloon-kurosawa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5142,
+        "name": "Playful",
+        "slug": "playful",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5635,
+        "name": "Ursula Haas Makeup School",
+        "slug": "ursula-haas-makeup-school",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1290,
+        "name": "TT Fusion",
+        "slug": "tt-fusion",
+        "average_rating": "7.53511219886761",
+        "founded_year": 2005,
+        "parent": 293
+    },
+    {
+        "id": 5150,
+        "name": "Highcliffe Media Publishing",
+        "slug": "highcliffe-media-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5144,
+        "name": "Brilliant Skies Ltd.",
+        "slug": "brilliant-skies-ltd",
+        "average_rating": null,
+        "parent": null
+    }
+]

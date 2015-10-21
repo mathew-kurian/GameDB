@@ -1,0 +1,201 @@
+[
+    {
+        "id": 6371,
+        "name": "Ragequit Corporation",
+        "slug": "ragequit-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1384,
+        "name": "Tradewest Inc",
+        "slug": "tradewest-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6330,
+        "name": "Namco Bandai Games",
+        "slug": "namco-bandai-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 903,
+        "name": "Interplay Productions",
+        "slug": "interplay-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3725,
+        "name": "Casady & Greene",
+        "slug": "casady-and-greene",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6452,
+        "name": "Centurion",
+        "slug": "centurion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6411,
+        "name": "Sei Mikaeru Joshi Gakuen",
+        "slug": "sei-mikaeru-joshi-gakuen",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/sei-mikaeru-joshi-gakuen/images/company_logos/f4/sei-mikaeru-joshi-gakuen_logo_thumb.png",
+            "width": 450,
+            "height": 120
+        }
+    },
+    {
+        "id": 6453,
+        "name": "Stargate Studios",
+        "slug": "stargate-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6454,
+        "name": "ToddAO",
+        "slug": "toddao",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6465,
+        "name": "87eleven",
+        "slug": "87eleven",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6466,
+        "name": "L-3 Communications Corporation",
+        "slug": "l-3-communications-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2438,
+        "name": "CyberConnect2",
+        "slug": "cyberconnect2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5752,
+        "name": "Nyu Media",
+        "slug": "nyu-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1010,
+        "name": "Microsoft Studios",
+        "slug": "microsoft-studios",
+        "average_rating": "7.9071026048591",
+        "founded_year": 2011,
+        "parent": 128,
+        "company_logo": {
+            "url": "/companies/microsoft-studios/images/company_logos/4s/microsoft-studios_logo_thumb.png",
+            "width": 1920,
+            "height": 547
+        }
+    },
+    {
+        "id": 599,
+        "name": "Core Design ",
+        "slug": "core-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6349,
+        "name": "Chris Hilgert",
+        "slug": "chris-hilgert",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6350,
+        "name": "Robit Studios",
+        "slug": "robit-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6351,
+        "name": "Aquria",
+        "slug": "aquria",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3958,
+        "name": "Bandai Namco Games",
+        "slug": "bandai-namco-games",
+        "average_rating": "8.51178193952632",
+        "parent": null
+    },
+    {
+        "id": 6353,
+        "name": "Iced Lizard Games",
+        "slug": "iced-lizard-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1074,
+        "name": "The Pokémon Company",
+        "slug": "the-pokemon-company",
+        "average_rating": "8.14597408878357",
+        "founded_year": 1998,
+        "parent": 70,
+        "company_logo": {
+            "url": "/companies/the-pokemon-company/images/company_logos/63/the-pokemon-company_logo_thumb.png",
+            "width": 440,
+            "height": 80
+        }
+    },
+    {
+        "id": 1153,
+        "name": "ArtGame",
+        "slug": "artgame",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 804,
+        "name": "Beam Software",
+        "slug": "beam-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1445,
+        "name": "Rainbow Arts",
+        "slug": "rainbow-arts",
+        "average_rating": null,
+        "founded_year": 1984,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/rainbow-arts/images/company_logos/7x/rainbow-arts_logo_thumb.png",
+            "width": 203,
+            "height": 95
+        }
+    },
+    {
+        "id": 75,
+        "name": "Factor 5",
+        "slug": "factor-5",
+        "average_rating": "7.77509668338513",
+        "parent": null
+    }
+]

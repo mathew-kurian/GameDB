@@ -1,0 +1,213 @@
+[
+    {
+        "id": 6657,
+        "name": "The Background Voice Casting",
+        "slug": "the-background-voice-casting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6571,
+        "name": "Swordtales",
+        "slug": "swordtales",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/swordtales/images/company_logos/fl/swordtales_logo_thumb.png",
+            "width": 750,
+            "height": 495
+        }
+    },
+    {
+        "id": 6662,
+        "name": "Vision Universe",
+        "slug": "vision-universe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6659,
+        "name": "Microsoft Xbox Advanced Technology Group",
+        "slug": "microsoft-xbox-advanced-technology-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6660,
+        "name": "Sound City",
+        "slug": "sound-city",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6663,
+        "name": "Paad Testing",
+        "slug": "paad-testing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6667,
+        "name": "Greensock",
+        "slug": "greensock",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6668,
+        "name": "Stratstone Ferrari Manchester",
+        "slug": "stratstone-ferrari-manchester",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6669,
+        "name": "SuperVettura",
+        "slug": "supervettura",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6670,
+        "name": "Tecmark",
+        "slug": "tecmark",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6671,
+        "name": "3BYTE",
+        "slug": "3byte",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6672,
+        "name": "Bulb Studios",
+        "slug": "bulb-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6564,
+        "name": "LOOT Interactive",
+        "slug": "loot-interactive",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/loot-interactive/images/company_logos/gq/loot-interactive_logo_thumb.png",
+            "width": 255,
+            "height": 319
+        }
+    },
+    {
+        "id": 1287,
+        "name": "Irem",
+        "slug": "irem",
+        "average_rating": null,
+        "founded_year": 1974,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/irem/images/company_logos/er/irem_logo_thumb.png",
+            "width": 505,
+            "height": 250
+        }
+    },
+    {
+        "id": 4465,
+        "name": "Pencil Test Studio",
+        "slug": "pencil-test-studio",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/pencil-test-studio/images/company_logos/fp/pencil-test-studio_logo_thumb.png",
+            "width": 373,
+            "height": 373
+        }
+    },
+    {
+        "id": 2449,
+        "name": "Stoic",
+        "slug": "stoic",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/stoic/images/company_logos/fo/stoic_logo_thumb.png",
+            "width": 552,
+            "height": 960
+        }
+    },
+    {
+        "id": 6592,
+        "name": "The Village Studios",
+        "slug": "the-village-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6593,
+        "name": "Nadia Inc.",
+        "slug": "nadia-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6594,
+        "name": "Garage Inc.",
+        "slug": "garage-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6595,
+        "name": "Gin-Ichi Corporation",
+        "slug": "gin-ichi-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6596,
+        "name": "Hyperrealism Art",
+        "slug": "hyperrealism-art",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 47,
+        "name": "Obsidian Entertainment",
+        "slug": "obsidian-entertainment",
+        "average_rating": "8.52865912405769",
+        "founded_year": 2003,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/obsidian-entertainment/images/company_logos/1i/obsidian-entertainment_logo_thumb.png",
+            "width": 530,
+            "height": 165
+        }
+    },
+    {
+        "id": 6574,
+        "name": "DMM.com",
+        "slug": "dmm-dot-com",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6597,
+        "name": "KTS Effects",
+        "slug": "kts-effects",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6575,
+        "name": "Erdem Sen",
+        "slug": "erdem-sen",
+        "average_rating": null,
+        "parent": null
+    }
+]

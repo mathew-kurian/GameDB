@@ -1,0 +1,195 @@
+[
+    {
+        "id": 5920,
+        "name": "Planet Blue",
+        "slug": "planet-blue",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5924,
+        "name": "The Philharmonia Orchestra",
+        "slug": "the-philharmonia-orchestra",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5925,
+        "name": "Artizanal Studio",
+        "slug": "artizanal-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5921,
+        "name": "SAGE",
+        "slug": "sage",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5922,
+        "name": "The Forester Brothers",
+        "slug": "the-forester-brothers",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5923,
+        "name": "Tuff Break Entertainment",
+        "slug": "tuff-break-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5926,
+        "name": "Atopos",
+        "slug": "atopos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5927,
+        "name": "Capital Games",
+        "slug": "capital-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5928,
+        "name": "Connection Events",
+        "slug": "connection-events",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5929,
+        "name": "DGCIS",
+        "slug": "dgcis",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5930,
+        "name": "La Mandarine",
+        "slug": "la-mandarine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5931,
+        "name": "Motion Boutique",
+        "slug": "motion-boutique",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5932,
+        "name": "Oséo",
+        "slug": "oseo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5896,
+        "name": "Irem Corporation",
+        "slug": "irem-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5951,
+        "name": "Gem Iternational Corporation",
+        "slug": "gem-iternational-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5952,
+        "name": "Quelle",
+        "slug": "quelle",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 746,
+        "name": "Media Molecule",
+        "slug": "media-molecule",
+        "average_rating": "8.11603287735476",
+        "founded_year": 2006,
+        "parent": 2289,
+        "company_logo": {
+            "url": "/companies/media-molecule/images/company_logos/6h/media-molecule_logo_thumb.png",
+            "width": 600,
+            "height": 599
+        }
+    },
+    {
+        "id": 5953,
+        "name": "Nintendo Integrated Research & Development",
+        "slug": "nintendo-integrated-research-and-development",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5954,
+        "name": "Newcom",
+        "slug": "newcom",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5960,
+        "name": "Le Cartel Studio",
+        "slug": "le-cartel-studio",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/le-cartel-studio/images/company_logos/da/le-cartel-studio_logo_thumb.png",
+            "width": 1448,
+            "height": 1448
+        }
+    },
+    {
+        "id": 5955,
+        "name": "Nutting Associates",
+        "slug": "nutting-associates",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5961,
+        "name": "The Coalition",
+        "slug": "the-coalition",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5956,
+        "name": "Upper Class Walrus",
+        "slug": "upper-class-walrus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5957,
+        "name": "Boneloaf",
+        "slug": "boneloaf",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 85,
+        "name": "Double Fine Productions",
+        "slug": "double-fine-productions",
+        "average_rating": "7.3341047477148",
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/double-fine-productions/images/company_logos/4n/double-fine-productions_logo_thumb.png",
+            "width": 343,
+            "height": 332
+        }
+    }
+]

@@ -1,0 +1,193 @@
+[
+    {
+        "id": 5292,
+        "name": "KCEO",
+        "slug": "kceo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2166,
+        "name": "Supersonic Software",
+        "slug": "supersonic-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5296,
+        "name": "Power Up Audio",
+        "slug": "power-up-audio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5298,
+        "name": "3D People",
+        "slug": "3d-people",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5302,
+        "name": "The Metrotainment",
+        "slug": "the-metrotainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5309,
+        "name": "Subaltern Games",
+        "slug": "subaltern-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5312,
+        "name": "Sparpweed Games",
+        "slug": "sparpweed-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5325,
+        "name": "Sekai Project",
+        "slug": "sekai-project",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/sekai-project/images/company_logos/dk/sekai-project_logo_thumb.png",
+            "width": 212,
+            "height": 57
+        }
+    },
+    {
+        "id": 857,
+        "name": "ThatGameCompany",
+        "slug": "thatgamecompany",
+        "average_rating": "8.09753874905279",
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/thatgamecompany/images/company_logos/co/thatgamecompany_logo_thumb.png",
+            "width": 300,
+            "height": 300
+        }
+    },
+    {
+        "id": 5323,
+        "name": "artoncode",
+        "slug": "artoncode",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4776,
+        "name": "Steam",
+        "slug": "steam",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3227,
+        "name": "Zoo Corporation",
+        "slug": "zoo-corporation",
+        "average_rating": "8.09434406138926",
+        "parent": null
+    },
+    {
+        "id": 5313,
+        "name": "Great War Team",
+        "slug": "great-war-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5333,
+        "name": "Schiff Audino Casting",
+        "slug": "schiff-audino-casting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5314,
+        "name": "Invictus Games Ltd",
+        "slug": "invictus-games-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1736,
+        "name": "CLICK Entertainment",
+        "slug": "click-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5315,
+        "name": "Vision Software",
+        "slug": "vision-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5334,
+        "name": "Rage Technology Group",
+        "slug": "rage-technology-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5316,
+        "name": "VSK Games",
+        "slug": "vsk-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4184,
+        "name": "Storm in a Teacup",
+        "slug": "storm-in-a-teacup",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/storm-in-a-teacup/images/company_logos/6j/storm-in-a-teacup_logo_thumb.png",
+            "width": 4863,
+            "height": 2158
+        }
+    },
+    {
+        "id": 5335,
+        "name": "Metropolis Studios London",
+        "slug": "metropolis-studios-london",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5319,
+        "name": "Sierra Online",
+        "slug": "sierra-online",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5318,
+        "name": "Wanako Studios",
+        "slug": "wanako-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5336,
+        "name": "Owlspace Studio London",
+        "slug": "owlspace-studio-london",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5321,
+        "name": "Megadev",
+        "slug": "megadev",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "id": 4341,
+        "name": "DIGITAL Hearts USA",
+        "slug": "digital-hearts-usa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4180,
+        "name": "MagicalTimeBean",
+        "slug": "magicaltimebean",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4342,
+        "name": "Bandai Namco Games Europe",
+        "slug": "bandai-namco-games-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4343,
+        "name": "Pole To Win India",
+        "slug": "pole-to-win-india",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4344,
+        "name": "Boeing",
+        "slug": "boeing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4345,
+        "name": "Dassault Aviation",
+        "slug": "dassault-aviation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4346,
+        "name": "Equity Management",
+        "slug": "equity-management",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4347,
+        "name": "Japan Air Self-Defence Force",
+        "slug": "japan-air-self-defence-force",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4348,
+        "name": "Northrop Gruman Corporation",
+        "slug": "northrop-gruman-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4349,
+        "name": "Creek & River",
+        "slug": "creek-and-river",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4350,
+        "name": "Digitalware",
+        "slug": "digitalware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4351,
+        "name": "Imagica Digital Scape",
+        "slug": "imagica-digital-scape",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4358,
+        "name": "Foundation 9 Entertainment",
+        "slug": "foundation-9-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4352,
+        "name": "DoubleBear Productions",
+        "slug": "doublebear-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4353,
+        "name": "Playrise Digital",
+        "slug": "playrise-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4359,
+        "name": "Alt Japan",
+        "slug": "alt-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4354,
+        "name": "Berserk Games",
+        "slug": "berserk-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4360,
+        "name": "Connor Sherlock",
+        "slug": "connor-sherlock",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4361,
+        "name": "Yu Suzuki",
+        "slug": "yu-suzuki",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4362,
+        "name": "Edelweiss",
+        "slug": "edelweiss",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4365,
+        "name": "B-Evil",
+        "slug": "b-evil--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4364,
+        "name": "Zaxis Games",
+        "slug": "zaxis-games--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4368,
+        "name": "WEED",
+        "slug": "weed",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4369,
+        "name": "Ubisoft Japan",
+        "slug": "ubisoft-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4366,
+        "name": "AdrenalRush Games",
+        "slug": "adrenalrush-games",
+        "average_rating": null,
+        "parent": null
+    }
+]

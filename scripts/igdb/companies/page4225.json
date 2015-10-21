@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4701,
+        "name": "KranX Productions",
+        "slug": "kranx-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4702,
+        "name": "Pyrodactyl Games",
+        "slug": "pyrodactyl-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4705,
+        "name": "Yotsubane",
+        "slug": "yotsubane",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4708,
+        "name": "Rocket Bear Games",
+        "slug": "rocket-bear-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4887,
+        "name": "Wicked Software",
+        "slug": "wicked-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4721,
+        "name": "Virtual Image Productions",
+        "slug": "virtual-image-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4720,
+        "name": "Hassey Enterprises, Inc",
+        "slug": "hassey-enterprises-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4711,
+        "name": "Tamugaia",
+        "slug": "tamugaia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4726,
+        "name": "Merge Games",
+        "slug": "merge-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4955,
+        "name": "TriplePoint",
+        "slug": "triplepoint",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4709,
+        "name": "Gabriel Entertainment",
+        "slug": "gabriel-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4722,
+        "name": "Strata",
+        "slug": "strata",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4723,
+        "name": "Pagan Games",
+        "slug": "pagan-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4893,
+        "name": "2DEngine",
+        "slug": "2dengine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4719,
+        "name": "American Sammy",
+        "slug": "american-sammy",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4879,
+        "name": "QSound",
+        "slug": "qsound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4880,
+        "name": "Rhubarb",
+        "slug": "rhubarb",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4881,
+        "name": "Prima Games UK",
+        "slug": "prima-games-uk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4882,
+        "name": "Immersion Corp.",
+        "slug": "immersion-corp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4725,
+        "name": "Alternative Software",
+        "slug": "alternative-software",
+        "average_rating": null,
+        "founded_year": 1985,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/alternative-software/images/company_logos/b5/alternative-software_logo_thumb.png",
+            "width": 182,
+            "height": 134
+        }
+    },
+    {
+        "id": 4699,
+        "name": "Soldak Entertainment",
+        "slug": "soldak-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4706,
+        "name": "Degica",
+        "slug": "degica",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3346,
+        "name": "Idea Planet",
+        "slug": "idea-planet",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4703,
+        "name": "Kyugo",
+        "slug": "kyugo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4713,
+        "name": "Frogmind",
+        "slug": "frogmind",
+        "average_rating": null,
+        "parent": null
+    }
+]

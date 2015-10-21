@@ -1,0 +1,201 @@
+[
+    {
+        "id": 5221,
+        "name": "PyroTechnix",
+        "slug": "pyrotechnix",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5207,
+        "name": "Little Green Men Games ",
+        "slug": "little-green-men-games--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5209,
+        "name": " \tMoaCube",
+        "slug": "moacube--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5202,
+        "name": "Seepia Games",
+        "slug": "seepia-games",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/seepia-games/images/company_logos/ca/seepia-games_logo_thumb.png",
+            "width": 2072,
+            "height": 1960
+        }
+    },
+    {
+        "id": 5222,
+        "name": "D3Publisher",
+        "slug": "d3publisher",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5217,
+        "name": "Samurai Punk",
+        "slug": "samurai-punk",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/samurai-punk/images/company_logos/cb/samurai-punk_logo_thumb.png",
+            "width": 596,
+            "height": 89
+        }
+    },
+    {
+        "id": 5219,
+        "name": " Kingsoft ",
+        "slug": "kingsoft--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2739,
+        "name": "Final Form Games",
+        "slug": "final-form-games",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/final-form-games/images/company_logos/cc/final-form-games_logo_thumb.png",
+            "width": 300,
+            "height": 177
+        }
+    },
+    {
+        "id": 5220,
+        "name": "Smilegate",
+        "slug": "smilegate",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5223,
+        "name": "Kirin Entertainment",
+        "slug": "kirin-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5226,
+        "name": "ZeptoLab",
+        "slug": "zeptolab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5224,
+        "name": "Deckpoint Studio",
+        "slug": "deckpoint-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5227,
+        "name": "Brain Bug",
+        "slug": "brain-bug",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5225,
+        "name": "Pyro Mobile",
+        "slug": "pyro-mobile",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5229,
+        "name": "Zynga",
+        "slug": "zynga",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5228,
+        "name": "Humble Hearts",
+        "slug": "humble-hearts",
+        "average_rating": "6.93744771995558",
+        "parent": null
+    },
+    {
+        "id": 5250,
+        "name": "Aegon Games",
+        "slug": "aegon-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5215,
+        "name": "Rail Slave Games",
+        "slug": "rail-slave-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5249,
+        "name": "Hidden Gems Games",
+        "slug": "hidden-gems-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5260,
+        "name": "llamasoft",
+        "slug": "llamasoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5306,
+        "name": "Digital Tentacle",
+        "slug": "digital-tentacle",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5301,
+        "name": "Seibu Kaihatsu Inc.",
+        "slug": "seibu-kaihatsu-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5305,
+        "name": "Enitvare",
+        "slug": "enitvare",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1170,
+        "name": "Airtight Games",
+        "slug": "airtight-games",
+        "average_rating": null,
+        "founded_year": 2004,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/airtight-games/images/company_logos/cg/airtight-games_logo_thumb.png",
+            "width": 317,
+            "height": 399
+        }
+    },
+    {
+        "id": 5345,
+        "name": "Nihon System Inc",
+        "slug": "nihon-system-inc",
+        "average_rating": null,
+        "parent": null
+    }
+]

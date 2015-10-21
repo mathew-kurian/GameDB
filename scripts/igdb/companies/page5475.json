@@ -1,0 +1,189 @@
+[
+    {
+        "id": 5880,
+        "name": "XAX Entertainment",
+        "slug": "xax-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5881,
+        "name": "AKT",
+        "slug": "akt",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5882,
+        "name": "Omnius Japan",
+        "slug": "omnius-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5883,
+        "name": "Sato Works",
+        "slug": "sato-works",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5884,
+        "name": "Tetraedge Games",
+        "slug": "tetraedge-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5885,
+        "name": "Index+",
+        "slug": "index-plus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5889,
+        "name": "IonFX",
+        "slug": "ionfx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5886,
+        "name": "Software Heaven",
+        "slug": "software-heaven",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5888,
+        "name": "Glassmoon",
+        "slug": "glassmoon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1767,
+        "name": "Victor Interactive Software",
+        "slug": "victor-interactive-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3539,
+        "name": "GlobalStep LLC",
+        "slug": "globalstep-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5890,
+        "name": "UV Games",
+        "slug": "uv-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5891,
+        "name": "Coderus",
+        "slug": "coderus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5939,
+        "name": "Studio X",
+        "slug": "studio-x",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5942,
+        "name": "Raichert Media",
+        "slug": "raichert-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5946,
+        "name": "PreViz Animations",
+        "slug": "previz-animations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5947,
+        "name": "Bikini Studios",
+        "slug": "bikini-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5948,
+        "name": "Mainbrain Productions",
+        "slug": "mainbrain-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5949,
+        "name": "SMS",
+        "slug": "sms",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5950,
+        "name": "Price Design",
+        "slug": "price-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2972,
+        "name": "Metropolis Software",
+        "slug": "metropolis-software",
+        "average_rating": null,
+        "founded_year": 1992,
+        "parent": 4291,
+        "company_logo": {
+            "url": "/companies/metropolis-software/images/company_logos/9n/metropolis-software_logo_thumb.png",
+            "width": 189,
+            "height": 400
+        }
+    },
+    {
+        "id": 5892,
+        "name": "e.p.i.c. Interactive",
+        "slug": "epic-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5909,
+        "name": "Wisdom Tree",
+        "slug": "wisdom-tree",
+        "average_rating": null,
+        "founded_year": 1981,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/wisdom-tree/images/company_logos/d4/wisdom-tree_logo_thumb.png",
+            "width": 220,
+            "height": 193
+        }
+    },
+    {
+        "id": 5904,
+        "name": "Dima Kiva",
+        "slug": "dima-kiva",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5893,
+        "name": "Videosoft",
+        "slug": "videosoft",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "id": 348,
+        "name": "Exient Entertainment",
+        "slug": "exient-entertainment",
+        "average_rating": "6.80012632980019",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/exient-entertainment/images/company_logos/ea/exient-entertainment_logo_thumb.png",
+            "width": 300,
+            "height": 350
+        }
+    },
+    {
+        "id": 6100,
+        "name": "Funselektor Labs",
+        "slug": "funselektor-labs",
+        "average_rating": null,
+        "founded_year": 2014,
+        "parent": null
+    },
+    {
+        "id": 6087,
+        "name": "Milkbag Games",
+        "slug": "milkbag-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1056,
+        "name": "Piranha Bytes",
+        "slug": "piranha-bytes",
+        "average_rating": "8.20165154226543",
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/piranha-bytes/images/company_logos/3z/piranha-bytes_logo_thumb.png",
+            "width": 652,
+            "height": 720
+        }
+    },
+    {
+        "id": 6091,
+        "name": "Zeal Game Studios",
+        "slug": "zeal-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6094,
+        "name": "Radar Group",
+        "slug": "radar-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6090,
+        "name": "Dean \"Rocket\" Hall",
+        "slug": "dean-rocket-hall",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6138,
+        "name": "Nevernaut Games",
+        "slug": "nevernaut-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6088,
+        "name": "Tazigen Clock",
+        "slug": "tazigen-clock",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6096,
+        "name": "Ludeon Studios",
+        "slug": "ludeon-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6262,
+        "name": "Lagence Dancefloor",
+        "slug": "lagence-dancefloor",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6263,
+        "name": "Studio Dimson",
+        "slug": "studio-dimson",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6097,
+        "name": "Modulaatio Games",
+        "slug": "modulaatio-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6101,
+        "name": "Hibernum Creative",
+        "slug": "hibernum-creative",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6102,
+        "name": "Mobility Art Studio",
+        "slug": "mobility-art-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6103,
+        "name": "GRIP Entertainment",
+        "slug": "grip-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6104,
+        "name": "Blade 3D",
+        "slug": "blade-3d",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6105,
+        "name": "Cube Digital",
+        "slug": "cube-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6106,
+        "name": "Video Ordnance",
+        "slug": "video-ordnance",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6107,
+        "name": "Producers Library Service",
+        "slug": "producers-library-service",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6264,
+        "name": "StartStudio Milano",
+        "slug": "startstudio-milano",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6109,
+        "name": "Mandragora",
+        "slug": "mandragora",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6265,
+        "name": "Quazal",
+        "slug": "quazal",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6277,
+        "name": "Ivy Games",
+        "slug": "ivy-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6220,
+        "name": "Sacnoth",
+        "slug": "sacnoth",
+        "average_rating": null,
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/sacnoth/images/company_logos/ew/sacnoth_logo_thumb.png",
+            "width": 350,
+            "height": 56
+        }
+    }
+]

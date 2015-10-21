@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4146,
+        "name": "Hollywood Studio Symphony",
+        "slug": "hollywood-studio-symphony",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4157,
+        "name": "Failbetter Games Ltd.",
+        "slug": "failbetter-games-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4158,
+        "name": "Gskinner.com",
+        "slug": "gskinner-dot-com",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4242,
+        "name": "Heartbeat",
+        "slug": "heartbeat",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 187,
+        "name": "Nerve Software",
+        "slug": "nerve-software",
+        "average_rating": "8.37104515758062",
+        "founded_year": 2001,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/nerve-software/images/company_logos/8e/nerve-software_logo_thumb.png",
+            "width": 130,
+            "height": 42
+        }
+    },
+    {
+        "id": 190,
+        "name": "Atari Corporation",
+        "slug": "atari-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4159,
+        "name": "Lone Shark Games",
+        "slug": "lone-shark-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4160,
+        "name": "Metaverse Modsquad",
+        "slug": "metaverse-modsquad",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4161,
+        "name": "Pulp Studios Inc.",
+        "slug": "pulp-studios-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4162,
+        "name": "RED The Agency",
+        "slug": "red-the-agency",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4163,
+        "name": "Seven Tales Inc.",
+        "slug": "seven-tales-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4164,
+        "name": "Sperasoft Inc.",
+        "slug": "sperasoft-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4165,
+        "name": "Work at Play Media Labs",
+        "slug": "work-at-play-media-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4166,
+        "name": "GameSim Technologies",
+        "slug": "gamesim-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4167,
+        "name": "Johnny Blerot Sound",
+        "slug": "johnny-blerot-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4168,
+        "name": "Studio Center Total Productions",
+        "slug": "studio-center-total-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4169,
+        "name": "Rynn & Dante",
+        "slug": "rynn-and-dante",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4176,
+        "name": "Exact Entertainment",
+        "slug": "exact-entertainment",
+        "average_rating": "7.01676327278688",
+        "parent": null
+    },
+    {
+        "id": 4170,
+        "name": "FilmOasis Inc.",
+        "slug": "filmoasis-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4171,
+        "name": "Omni Interactive Audio",
+        "slug": "omni-interactive-audio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4172,
+        "name": "ReelFX Creative Studios",
+        "slug": "reelfx-creative-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4173,
+        "name": "FASA Studios",
+        "slug": "fasa-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4174,
+        "name": "Forza Audio",
+        "slug": "forza-audio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4175,
+        "name": "BeTomorrow",
+        "slug": "betomorrow",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4216,
+        "name": "Take",
+        "slug": "take",
+        "average_rating": null,
+        "parent": null
+    }
+]

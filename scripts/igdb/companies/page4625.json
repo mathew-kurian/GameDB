@@ -1,0 +1,188 @@
+[
+    {
+        "id": 2921,
+        "name": "Ubisoft Kiev",
+        "slug": "ubisoft-kiev",
+        "average_rating": "7.93155333027414",
+        "parent": null
+    },
+    {
+        "id": 5113,
+        "name": "Eclipse Games",
+        "slug": "eclipse-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1566,
+        "name": "Agetec",
+        "slug": "agetec",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5115,
+        "name": "Monolift Soft",
+        "slug": "monolift-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5117,
+        "name": "Hodder & Stoughton",
+        "slug": "hodder-and-stoughton",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5104,
+        "name": "Michael Denio",
+        "slug": "michael-denio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5112,
+        "name": "Over The Moon",
+        "slug": "over-the-moon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5119,
+        "name": "Supra Games UG",
+        "slug": "supra-games-ug",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5121,
+        "name": "Sanctuary Woods",
+        "slug": "sanctuary-woods",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5108,
+        "name": "Silicon Ice Development/Frozen Sand, LLC",
+        "slug": "silicon-ice-development-slash-frozen-sand-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5123,
+        "name": "Hammer-Labs",
+        "slug": "hammer-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5124,
+        "name": "Sanctuary Woods, Inc.",
+        "slug": "sanctuary-woods-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5126,
+        "name": "Ubisoft Ukraine",
+        "slug": "ubisoft-ukraine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5127,
+        "name": "Virtrium",
+        "slug": "virtrium",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5109,
+        "name": "Alcatoic",
+        "slug": "alcatoic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5105,
+        "name": "Color Dreams",
+        "slug": "color-dreams",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5116,
+        "name": "Schine",
+        "slug": "schine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5129,
+        "name": "Hyper Hippo Productions",
+        "slug": "hyper-hippo-productions",
+        "average_rating": "6.56976877488727",
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/hyper-hippo-productions/images/company_logos/c9/hyper-hippo-productions_logo_thumb.png",
+            "width": null,
+            "height": null
+        }
+    },
+    {
+        "id": 5110,
+        "name": "ALTAR Games",
+        "slug": "altar-games--1",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/altar-games--1/images/company_logos/c8/altar-games--1_logo_thumb.png",
+            "width": 174,
+            "height": 93
+        }
+    },
+    {
+        "id": 398,
+        "name": "Ubisoft Shanghai",
+        "slug": "ubisoft-shanghai",
+        "average_rating": "8.62899638886061",
+        "parent": null
+    },
+    {
+        "id": 897,
+        "name": "Ubisoft Red Storm",
+        "slug": "ubisoft-red-storm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 847,
+        "name": "Ubisoft Toronto",
+        "slug": "ubisoft-toronto",
+        "average_rating": "8.63378728735645",
+        "parent": null
+    },
+    {
+        "id": 5120,
+        "name": "Acid Nerve",
+        "slug": "acid-nerve",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5133,
+        "name": "800 North and Digital Ranch",
+        "slug": "800-north-and-digital-ranch",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5170,
+        "name": "Emotional Robots",
+        "slug": "emotional-robots",
+        "average_rating": null,
+        "parent": null
+    }
+]

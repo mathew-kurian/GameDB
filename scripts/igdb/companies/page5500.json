@@ -1,0 +1,187 @@
+[
+    {
+        "id": 5894,
+        "name": "Salu Ltd.",
+        "slug": "salu-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5895,
+        "name": "Men-A-Vision",
+        "slug": "men-a-vision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5902,
+        "name": "Sivak Games",
+        "slug": "sivak-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5903,
+        "name": "Retrozone",
+        "slug": "retrozone",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5901,
+        "name": "Playaround",
+        "slug": "playaround",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5898,
+        "name": "Goliath",
+        "slug": "goliath",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5897,
+        "name": "Irem America",
+        "slug": "irem-america",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5899,
+        "name": "Bit Corporation",
+        "slug": "bit-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5900,
+        "name": "CCE",
+        "slug": "cce",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5913,
+        "name": "13AM Games",
+        "slug": "13am-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5911,
+        "name": "Ludocity",
+        "slug": "ludocity",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5910,
+        "name": "Arctic Anteater",
+        "slug": "arctic-anteater",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5906,
+        "name": "Funvision",
+        "slug": "funvision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5907,
+        "name": "Telesys",
+        "slug": "telesys",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5905,
+        "name": "Spectravision",
+        "slug": "spectravision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5908,
+        "name": "Starpath",
+        "slug": "starpath",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3207,
+        "name": "Red Thread Games",
+        "slug": "red-thread-games",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/red-thread-games/images/company_logos/5g/red-thread-games_logo_thumb.png",
+            "width": 400,
+            "height": 126
+        }
+    },
+    {
+        "id": 5912,
+        "name": "Pure FPS",
+        "slug": "pure-fps",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5916,
+        "name": "Johnson & Johnson",
+        "slug": "johnson-and-johnson",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5914,
+        "name": "Brainseed Factory",
+        "slug": "brainseed-factory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5297,
+        "name": "Eruption Entertainment",
+        "slug": "eruption-entertainment",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/eruption-entertainment/images/company_logos/d8/eruption-entertainment_logo_thumb.png",
+            "width": 110,
+            "height": 110
+        }
+    },
+    {
+        "id": 5917,
+        "name": "DSD",
+        "slug": "dsd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5918,
+        "name": "SemoLogic",
+        "slug": "semologic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5915,
+        "name": "Lost Decade Games",
+        "slug": "lost-decade-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5919,
+        "name": "Nitrogen Studios Canada",
+        "slug": "nitrogen-studios-canada",
+        "average_rating": null,
+        "parent": null
+    }
+]

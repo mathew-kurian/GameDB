@@ -1,0 +1,189 @@
+[
+    {
+        "id": 6386,
+        "name": "Dreampainters Software",
+        "slug": "dreampainters-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 783,
+        "name": "Kalypso Media",
+        "slug": "kalypso-media",
+        "average_rating": "7.91584480070951",
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/kalypso-media/images/company_logos/y/kalypso-media_logo_thumb.png",
+            "width": 610,
+            "height": 260
+        }
+    },
+    {
+        "id": 3121,
+        "name": "1C-SoftClub",
+        "slug": "1c-softclub",
+        "average_rating": "8.59800736480301",
+        "founded_year": 1994,
+        "parent": 157,
+        "company_logo": {
+            "url": "/companies/1c-softclub/images/company_logos/57/1c-softclub_logo_thumb.png",
+            "width": 240,
+            "height": 110
+        }
+    },
+    {
+        "id": 3209,
+        "name": "Pendulo Studios",
+        "slug": "pendulo-studios--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6397,
+        "name": "Salty Software",
+        "slug": "salty-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2923,
+        "name": "Toybox Inc.",
+        "slug": "toybox-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6398,
+        "name": "Scholastic",
+        "slug": "scholastic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3637,
+        "name": "Windham Classics Corporation",
+        "slug": "windham-classics-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6391,
+        "name": "Thumbstar Games Limited",
+        "slug": "thumbstar-games-limited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2983,
+        "name": "Nomad Games",
+        "slug": "nomad-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6392,
+        "name": "Dialogue Design",
+        "slug": "dialogue-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6393,
+        "name": "Harvester Games",
+        "slug": "harvester-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6394,
+        "name": "Screen 7",
+        "slug": "screen-7",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6475,
+        "name": "Mobileer",
+        "slug": "mobileer",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6396,
+        "name": "MicroStyle",
+        "slug": "microstyle",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6402,
+        "name": "Tom Snyder Productions",
+        "slug": "tom-snyder-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6401,
+        "name": "Trillium",
+        "slug": "trillium",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4750,
+        "name": "Free Fall Associates",
+        "slug": "free-fall-associates",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6403,
+        "name": "Datamost",
+        "slug": "datamost",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6404,
+        "name": "Earthware",
+        "slug": "earthware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4822,
+        "name": "Arcadia Systems",
+        "slug": "arcadia-systems",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6399,
+        "name": "Box Offce",
+        "slug": "box-offce",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6400,
+        "name": "Random House",
+        "slug": "random-house",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6405,
+        "name": "Penguin Software",
+        "slug": "penguin-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6408,
+        "name": "Tonguç Bodur",
+        "slug": "tonguc-bodur",
+        "average_rating": null,
+        "parent": null
+    }
+]

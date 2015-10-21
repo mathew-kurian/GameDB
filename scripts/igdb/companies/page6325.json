@@ -1,0 +1,183 @@
+[
+    {
+        "id": 6551,
+        "name": "Jarhead Games",
+        "slug": "jarhead-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6648,
+        "name": "Activision Capture Studio",
+        "slug": "activision-capture-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6650,
+        "name": "HP Best Shore Services",
+        "slug": "hp-best-shore-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6651,
+        "name": "Phonetic Arts",
+        "slug": "phonetic-arts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6652,
+        "name": "Play it by Ear Adio",
+        "slug": "play-it-by-ear-adio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6653,
+        "name": "C5 Sound Crew NYC",
+        "slug": "c5-sound-crew-nyc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6556,
+        "name": "Lizsoft",
+        "slug": "lizsoft",
+        "average_rating": null,
+        "founded_year": 2001,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/lizsoft/images/company_logos/fi/lizsoft_logo_thumb.png",
+            "width": 225,
+            "height": 70
+        }
+    },
+    {
+        "id": 6654,
+        "name": "Play it by Ear Audio",
+        "slug": "play-it-by-ear-audio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6655,
+        "name": "The Dairy, London",
+        "slug": "the-dairy-london",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6658,
+        "name": "iNK Stories",
+        "slug": "ink-stories",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6664,
+        "name": "Epic Games China",
+        "slug": "epic-games-china",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6665,
+        "name": "Bob and Barn",
+        "slug": "bob-and-barn",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6666,
+        "name": "Eye Candy Animation",
+        "slug": "eye-candy-animation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6673,
+        "name": "Pearl digital",
+        "slug": "pearl-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6555,
+        "name": "DHM Interactive",
+        "slug": "dhm-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6674,
+        "name": "Streamline Studio",
+        "slug": "streamline-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6620,
+        "name": "Blue Studios",
+        "slug": "blue-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6621,
+        "name": "Konami Digital Entertainment North America",
+        "slug": "konami-digital-entertainment-north-america",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6622,
+        "name": "MSM Media",
+        "slug": "msm-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6623,
+        "name": "Konami KDE-US",
+        "slug": "konami-kde-us",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6635,
+        "name": "Chef Wotkin's",
+        "slug": "chef-wotkins",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6636,
+        "name": "Farmind",
+        "slug": "farmind",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6637,
+        "name": "Finnvera",
+        "slug": "finnvera",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6638,
+        "name": "GarageGames",
+        "slug": "garagegames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6639,
+        "name": "Kuuasema",
+        "slug": "kuuasema",
+        "average_rating": null,
+        "parent": null
+    }
+]

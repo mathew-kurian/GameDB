@@ -1,0 +1,189 @@
+[
+    {
+        "id": 4661,
+        "name": "Polygon Pictures",
+        "slug": "polygon-pictures",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4662,
+        "name": "Teco",
+        "slug": "teco",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4663,
+        "name": "Jinnan Studio",
+        "slug": "jinnan-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4664,
+        "name": "KeiMA",
+        "slug": "keima",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4665,
+        "name": "Sigmi Corporation",
+        "slug": "sigmi-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4666,
+        "name": "Ayamayo",
+        "slug": "ayamayo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4667,
+        "name": "Detune",
+        "slug": "detune",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4668,
+        "name": "Tokyo Actor's Consumer's Cooperative",
+        "slug": "tokyo-actors-consumers-cooperative",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4669,
+        "name": "Anima",
+        "slug": "anima",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4670,
+        "name": "Orca",
+        "slug": "orca",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4671,
+        "name": "GTN!-hos",
+        "slug": "gtn-hos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4686,
+        "name": "Creative Sound Concepts",
+        "slug": "creative-sound-concepts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4646,
+        "name": "I-Mockery",
+        "slug": "i-mockery",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4606,
+        "name": "Benjamin Rivers Inc",
+        "slug": "benjamin-rivers-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4605,
+        "name": "Sigma Team",
+        "slug": "sigma-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4672,
+        "name": "Edmund McMillen",
+        "slug": "edmund-mcmillen",
+        "average_rating": "8.19060959328248",
+        "parent": null
+    },
+    {
+        "id": 4642,
+        "name": "Camel 101",
+        "slug": "camel-101",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/camel-101/images/company_logos/h6/camel-101_logo_thumb.png",
+            "width": 2550,
+            "height": 2148
+        }
+    },
+    {
+        "id": 4649,
+        "name": "White Rabbit Interactive",
+        "slug": "white-rabbit-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4609,
+        "name": "GamesByMo",
+        "slug": "gamesbymo",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/gamesbymo/images/company_logos/eu/gamesbymo_logo_thumb.png",
+            "width": 160,
+            "height": 160
+        }
+    },
+    {
+        "id": 4610,
+        "name": "TGL",
+        "slug": "tgl",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4611,
+        "name": "Giga",
+        "slug": "giga",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4676,
+        "name": "The Big Shots",
+        "slug": "the-big-shots",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4687,
+        "name": "Noise Floor",
+        "slug": "noise-floor",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4688,
+        "name": "Command Recording Studios",
+        "slug": "command-recording-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4674,
+        "name": "Rix Soft",
+        "slug": "rix-soft",
+        "average_rating": null,
+        "parent": null
+    }
+]

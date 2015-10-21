@@ -1,0 +1,213 @@
+[
+    {
+        "id": 1466,
+        "name": "Mastertronic",
+        "slug": "mastertronic",
+        "average_rating": "8.90754173188411",
+        "parent": null
+    },
+    {
+        "id": 6980,
+        "name": "Durell Software",
+        "slug": "durell-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 407,
+        "name": "Monolith Productions",
+        "slug": "monolith-productions",
+        "average_rating": "8.39497619923767",
+        "founded_year": 1994,
+        "parent": 50,
+        "company_logo": {
+            "url": "/companies/monolith-productions/images/company_logos/a6/monolith-productions_logo_thumb.png",
+            "width": 300,
+            "height": 225
+        }
+    },
+    {
+        "id": 6967,
+        "name": "Witan Game Production House",
+        "slug": "witan-game-production-house",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6976,
+        "name": "8D Studio",
+        "slug": "8d-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1505,
+        "name": "EA Maxis",
+        "slug": "ea-maxis",
+        "average_rating": "7.87597620661397",
+        "parent": null
+    },
+    {
+        "id": 283,
+        "name": "The Sims Studio",
+        "slug": "the-sims-studio",
+        "average_rating": "7.86558504418444",
+        "parent": null
+    },
+    {
+        "id": 438,
+        "name": "Infinity Ward",
+        "slug": "infinity-ward",
+        "average_rating": "8.06651259920124",
+        "founded_year": 2002,
+        "parent": 3582,
+        "company_logo": {
+            "url": "/companies/infinity-ward/images/company_logos/5q/infinity-ward_logo_thumb.png",
+            "width": 700,
+            "height": 275
+        }
+    },
+    {
+        "id": 6979,
+        "name": "Lumenox",
+        "slug": "lumenox",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/lumenox/images/company_logos/gv/lumenox_logo_thumb.png",
+            "width": 450,
+            "height": 450
+        }
+    },
+    {
+        "id": 7048,
+        "name": "RSK Entertainment",
+        "slug": "rsk-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7051,
+        "name": "Squid In A Box",
+        "slug": "squid-in-a-box",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6963,
+        "name": "Firemonkeys Studios",
+        "slug": "firemonkeys-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6973,
+        "name": "Noble Master Games",
+        "slug": "noble-master-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6970,
+        "name": "Frima Studio",
+        "slug": "frima-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6969,
+        "name": "Witan Game Production House",
+        "slug": "witan-game-production-house--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6968,
+        "name": "Zooloretto",
+        "slug": "zooloretto",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6964,
+        "name": "1C",
+        "slug": "1c",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6986,
+        "name": "House on Fire",
+        "slug": "house-on-fire",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6981,
+        "name": "Switchblade Monkeys",
+        "slug": "switchblade-monkeys",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1189,
+        "name": "TopWare Interactive",
+        "slug": "topware-interactive",
+        "average_rating": "7.21639985276613",
+        "founded_year": 1995,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/topware-interactive/images/company_logos/9f/topware-interactive_logo_thumb.png",
+            "width": 399,
+            "height": 131
+        }
+    },
+    {
+        "id": 728,
+        "name": "Just Add Water (Development) Ltd",
+        "slug": "just-add-water-development-ltd--1",
+        "average_rating": "7.38308865841071",
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/just-add-water-development-ltd--1/images/company_logos/gy/just-add-water-development-ltd--1_logo_thumb.png",
+            "width": 260,
+            "height": 260
+        }
+    },
+    {
+        "id": 6982,
+        "name": "The Digital Village",
+        "slug": "the-digital-village",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 145,
+        "name": "cdv Software Entertainment",
+        "slug": "cdv-software-entertainment",
+        "average_rating": "7.16301879938244",
+        "founded_year": 1989,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/cdv-software-entertainment/images/company_logos/26/cdv-software-entertainment_logo_thumb.png",
+            "width": 158,
+            "height": 83
+        }
+    },
+    {
+        "id": 4371,
+        "name": "TreeFortress Games",
+        "slug": "treefortress-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6987,
+        "name": "HandyGames",
+        "slug": "handygames",
+        "average_rating": null,
+        "parent": null
+    }
+]

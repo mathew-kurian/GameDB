@@ -1,0 +1,206 @@
+[
+    {
+        "id": 5193,
+        "name": "Puppy Games",
+        "slug": "puppy-games",
+        "average_rating": null,
+        "founded_year": 2002,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/puppy-games/images/company_logos/c6/puppy-games_logo_thumb.png",
+            "width": 1200,
+            "height": 1200
+        }
+    },
+    {
+        "id": 5210,
+        "name": "Triple.B.Titles",
+        "slug": "triple-dot-b-titles",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5194,
+        "name": "EightyEightGames",
+        "slug": "eightyeightgames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5214,
+        "name": "The Molasses Flood",
+        "slug": "the-molasses-flood",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5196,
+        "name": "Dylan Fitterer",
+        "slug": "dylan-fitterer",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5197,
+        "name": "Octopi",
+        "slug": "octopi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5198,
+        "name": "Desert Owl Games",
+        "slug": "desert-owl-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5216,
+        "name": "Meyer / Glass Interactive",
+        "slug": "meyer-slash-glass-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5211,
+        "name": "Ynnis Interactive",
+        "slug": "ynnis-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1475,
+        "name": "Infogrames Entertainment",
+        "slug": "infogrames-entertainment",
+        "average_rating": "8.05409310908085",
+        "parent": null
+    },
+    {
+        "id": 562,
+        "name": "Deep Red",
+        "slug": "deep-red",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5199,
+        "name": "SleepTeam",
+        "slug": "sleepteam",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5200,
+        "name": "Zima Software",
+        "slug": "zima-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5201,
+        "name": "DOS Studios",
+        "slug": "dos-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5203,
+        "name": "Kraken Emire",
+        "slug": "kraken-emire",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5204,
+        "name": "Slak Games",
+        "slug": "slak-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2935,
+        "name": "Nintendo SPD",
+        "slug": "nintendo-spd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 421,
+        "name": "Nintendo EAD",
+        "slug": "nintendo-ead",
+        "average_rating": "8.43179396670764",
+        "parent": null
+    },
+    {
+        "id": 37,
+        "name": "Capcom",
+        "slug": "capcom",
+        "average_rating": "8.09100882539273",
+        "founded_year": 1979,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/capcom/images/company_logos/1n/capcom_logo_thumb.png",
+            "width": 5592,
+            "height": 1024
+        }
+    },
+    {
+        "id": 5187,
+        "name": "07th Expansion",
+        "slug": "07th-expansion",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/07th-expansion/images/company_logos/c5/07th-expansion_logo_thumb.png",
+            "width": 382,
+            "height": 260
+        }
+    },
+    {
+        "id": 5188,
+        "name": "MangaGamer",
+        "slug": "mangagamer",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5145,
+        "name": "AMPLITUDE Studios",
+        "slug": "amplitude-studios",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/amplitude-studios/images/company_logos/gg/amplitude-studios_logo_thumb.png",
+            "width": 509,
+            "height": 203
+        }
+    },
+    {
+        "id": 3921,
+        "name": "Blendo Games",
+        "slug": "blendo-games",
+        "average_rating": null,
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/blendo-games/images/company_logos/bb/blendo-games_logo_thumb.png",
+            "width": 400,
+            "height": 74
+        }
+    },
+    {
+        "id": 5206,
+        "name": "Little Green Men Games",
+        "slug": "little-green-men-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5208,
+        "name": "MoaCube",
+        "slug": "moacube",
+        "average_rating": null,
+        "parent": null
+    }
+]

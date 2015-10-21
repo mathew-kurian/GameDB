@@ -1,0 +1,189 @@
+[
+    {
+        "id": 5273,
+        "name": "Zenith Blue",
+        "slug": "zenith-blue",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5283,
+        "name": "Microids",
+        "slug": "microids",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5275,
+        "name": "Edge Case Games Ltd.",
+        "slug": "edge-case-games-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5274,
+        "name": "Grundislav Games",
+        "slug": "grundislav-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5287,
+        "name": "SpinTop Games",
+        "slug": "spintop-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5289,
+        "name": "IndiePub",
+        "slug": "indiepub",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 896,
+        "name": "Ubisoft Quebec",
+        "slug": "ubisoft-quebec",
+        "average_rating": "7.85406547702348",
+        "parent": null
+    },
+    {
+        "id": 5290,
+        "name": "Subatomic Studios LLC",
+        "slug": "subatomic-studios-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5288,
+        "name": "Double Zero One Zero",
+        "slug": "double-zero-one-zero",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/double-zero-one-zero/images/company_logos/ck/double-zero-one-zero_logo_thumb.png",
+            "width": 2908,
+            "height": 2841
+        }
+    },
+    {
+        "id": 5291,
+        "name": "Sakevisual",
+        "slug": "sakevisual",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5276,
+        "name": "Decaying Logic",
+        "slug": "decaying-logic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5277,
+        "name": "North of Earth",
+        "slug": "north-of-earth",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5278,
+        "name": "Darkling Room",
+        "slug": "darkling-room",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5279,
+        "name": "GrendelGames",
+        "slug": "grendelgames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5280,
+        "name": "Stout Games",
+        "slug": "stout-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5281,
+        "name": ".dat",
+        "slug": "dot-dat",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5282,
+        "name": "StephenAllen",
+        "slug": "stephenallen",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 426,
+        "name": "Disney Interactive Studios",
+        "slug": "disney-interactive-studios",
+        "average_rating": "7.9229658017476",
+        "parent": null
+    },
+    {
+        "id": 5284,
+        "name": "The Sleeping Machine",
+        "slug": "the-sleeping-machine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5285,
+        "name": "Cube Roots",
+        "slug": "cube-roots",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5257,
+        "name": "Digerati Distribution",
+        "slug": "digerati-distribution",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3906,
+        "name": "Anuman Interactive",
+        "slug": "anuman-interactive",
+        "average_rating": "8.53102294515331",
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/anuman-interactive/images/company_logos/94/anuman-interactive_logo_thumb.png",
+            "width": 197,
+            "height": 222
+        }
+    },
+    {
+        "id": 639,
+        "name": "Strategic Studies Group",
+        "slug": "strategic-studies-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5293,
+        "name": "Pwnee Studios",
+        "slug": "pwnee-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1818,
+        "name": "Konami Computer Entertainment Osaka",
+        "slug": "konami-computer-entertainment-osaka",
+        "average_rating": null,
+        "parent": null
+    }
+]

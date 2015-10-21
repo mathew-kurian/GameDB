@@ -1,0 +1,188 @@
+[
+    {
+        "id": 4422,
+        "name": "Phoenix Online Publishing",
+        "slug": "phoenix-online-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5529,
+        "name": "Terrible Toybox, Inc.",
+        "slug": "terrible-toybox-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5531,
+        "name": "Blue Mammoth Games ",
+        "slug": "blue-mammoth-games--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5532,
+        "name": "Xaviant Games\t",
+        "slug": "xaviant-games--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5528,
+        "name": "Signal Studios",
+        "slug": "signal-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5563,
+        "name": "Slovak National Symphony Orchestra",
+        "slug": "slovak-national-symphony-orchestra",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5533,
+        "name": "A&F Software",
+        "slug": "a-and-f-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5534,
+        "name": "SRD",
+        "slug": "srd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5535,
+        "name": "GarLu Productions",
+        "slug": "garlu-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5536,
+        "name": "Blitz Agency",
+        "slug": "blitz-agency",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5537,
+        "name": "Onesite",
+        "slug": "onesite",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5538,
+        "name": "Volta",
+        "slug": "volta",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5539,
+        "name": "Scratch Image",
+        "slug": "scratch-image",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5540,
+        "name": "Heavy Duty",
+        "slug": "heavy-duty",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 111,
+        "name": "The Creative Assembly",
+        "slug": "the-creative-assembly",
+        "average_rating": "8.38963276101442",
+        "founded_year": 1987,
+        "parent": 112,
+        "company_logo": {
+            "url": "/companies/the-creative-assembly/images/company_logos/29/the-creative-assembly_logo_thumb.png",
+            "width": 368,
+            "height": 114
+        }
+    },
+    {
+        "id": 5564,
+        "name": "Lucnica Chorus",
+        "slug": "lucnica-chorus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5541,
+        "name": "Zoe Quinn",
+        "slug": "zoe-quinn",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5565,
+        "name": "One Voice Productions",
+        "slug": "one-voice-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5571,
+        "name": "I.S. Productions",
+        "slug": "is-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5546,
+        "name": "Engyne Creations",
+        "slug": "engyne-creations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5572,
+        "name": "CM Dubbing Factory",
+        "slug": "cm-dubbing-factory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5542,
+        "name": "Matt Makes Games",
+        "slug": "matt-makes-games",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/matt-makes-games/images/company_logos/eh/matt-makes-games_logo_thumb.png",
+            "width": 340,
+            "height": 220
+        }
+    },
+    {
+        "id": 5547,
+        "name": "Lion Game Lion",
+        "slug": "lion-game-lion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5573,
+        "name": "Square Sound",
+        "slug": "square-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5574,
+        "name": "Square Visual Works",
+        "slug": "square-visual-works",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,189 @@
+[
+    {
+        "id": 4120,
+        "name": "AcademySoft",
+        "slug": "academysoft",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 4121,
+        "name": "Tandy",
+        "slug": "tandy",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 4122,
+        "name": "DR Korea",
+        "slug": "dr-korea",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 4123,
+        "name": "Alexey Pajitnov",
+        "slug": "alexey-pajitnov",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 4124,
+        "name": "Vadim Gerasimov",
+        "slug": "vadim-gerasimov",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 4125,
+        "name": "Elorg",
+        "slug": "elorg",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 4126,
+        "name": "Andromeda Software",
+        "slug": "andromeda-software",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 4127,
+        "name": "Sphere",
+        "slug": "sphere",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 4128,
+        "name": "ZTC Systems",
+        "slug": "ztc-systems",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    },
+    {
+        "id": 4129,
+        "name": "Project Just",
+        "slug": "project-just",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4135,
+        "name": "E-Line Media",
+        "slug": "e-line-media",
+        "average_rating": "7.10724891842348",
+        "parent": null
+    },
+    {
+        "id": 4140,
+        "name": "Logitec",
+        "slug": "logitec",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4130,
+        "name": "The Developers of Incredible Power",
+        "slug": "the-developers-of-incredible-power",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4131,
+        "name": "Mobila Interactive",
+        "slug": "mobila-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4244,
+        "name": "NuClearVision Entertainment",
+        "slug": "nuclearvision-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 186,
+        "name": "Stalker Entertainment",
+        "slug": "stalker-entertainment",
+        "average_rating": "8.73986762042303",
+        "parent": null
+    },
+    {
+        "id": 4136,
+        "name": "River Cresco",
+        "slug": "river-cresco",
+        "average_rating": "8.73986762042303",
+        "parent": null
+    },
+    {
+        "id": 4137,
+        "name": "Rebecca Heineman",
+        "slug": "rebecca-heineman",
+        "average_rating": "8.73986762042303",
+        "parent": null
+    },
+    {
+        "id": 192,
+        "name": "Zodttd",
+        "slug": "zodttd",
+        "average_rating": "8.73986762042303",
+        "parent": null
+    },
+    {
+        "id": 4138,
+        "name": "Main Street Publishing",
+        "slug": "main-street-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4142,
+        "name": "2 Player Productions",
+        "slug": "2-player-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4143,
+        "name": "Dracogen Inc.",
+        "slug": "dracogen-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4141,
+        "name": "UIEvolution",
+        "slug": "uievolution",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 25,
+        "name": "Ion Storm",
+        "slug": "ion-storm",
+        "average_rating": "8.59057051828374",
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/ion-storm/images/company_logos/6d/ion-storm_logo_thumb.png",
+            "width": 500,
+            "height": 274
+        }
+    },
+    {
+        "id": 1213,
+        "name": "Evolution Studios",
+        "slug": "evolution-studios",
+        "average_rating": "7.81641788012517",
+        "founded_year": 1999,
+        "parent": 45,
+        "company_logo": {
+            "url": "/companies/evolution-studios/images/company_logos/6u/evolution-studios_logo_thumb.png",
+            "width": 300,
+            "height": 135
+        }
+    }
+]

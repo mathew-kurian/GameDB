@@ -1,0 +1,193 @@
+[
+    {
+        "id": 4710,
+        "name": "WildTangent",
+        "slug": "wildtangent",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4714,
+        "name": "Ostrich Banditos",
+        "slug": "ostrich-banditos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4886,
+        "name": "First Star Software",
+        "slug": "first-star-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4681,
+        "name": "Giant Squid",
+        "slug": "giant-squid",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/giant-squid/images/company_logos/aq/giant-squid_logo_thumb.png",
+            "width": 458,
+            "height": 396
+        }
+    },
+    {
+        "id": 4724,
+        "name": "Charybdis",
+        "slug": "charybdis",
+        "average_rating": null,
+        "founded_year": 1995,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/charybdis/images/company_logos/b6/charybdis_logo_thumb.png",
+            "width": 400,
+            "height": 236
+        }
+    },
+    {
+        "id": 4930,
+        "name": "Spiderling Games",
+        "slug": "spiderling-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2255,
+        "name": "Chillingo",
+        "slug": "chillingo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4716,
+        "name": "Immanitas Entertainment",
+        "slug": "immanitas-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4707,
+        "name": "State of Play Games",
+        "slug": "state-of-play-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4956,
+        "name": "Ceim Thwacke!",
+        "slug": "ceim-thwacke",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4929,
+        "name": "IDEA Games",
+        "slug": "idea-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4957,
+        "name": "The Shiflett Studio",
+        "slug": "the-shiflett-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4958,
+        "name": "Viewpoint Datalabs",
+        "slug": "viewpoint-datalabs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4959,
+        "name": "BUF Company",
+        "slug": "buf-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4960,
+        "name": "Kinkos",
+        "slug": "kinkos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4961,
+        "name": "Audio Ecstasy",
+        "slug": "audio-ecstasy",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4962,
+        "name": "Café Roma",
+        "slug": "cafe-roma",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4963,
+        "name": "Benvenuti",
+        "slug": "benvenuti",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4934,
+        "name": "Deco Digital",
+        "slug": "deco-digital",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/deco-digital/images/company_logos/bw/deco-digital_logo_thumb.png",
+            "width": 1400,
+            "height": 262
+        }
+    },
+    {
+        "id": 4951,
+        "name": "White House Productions",
+        "slug": "white-house-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4964,
+        "name": "Entreé Express",
+        "slug": "entree-express",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4965,
+        "name": "Open Air",
+        "slug": "open-air",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4966,
+        "name": "Sparks Exhibits",
+        "slug": "sparks-exhibits",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4967,
+        "name": "RDA International",
+        "slug": "rda-international",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4968,
+        "name": "Victor Studio",
+        "slug": "victor-studio",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4796,
+        "name": "Studio MDHR",
+        "slug": "studio-mdhr",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4797,
+        "name": "Kpow Audio",
+        "slug": "kpow-audio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4809,
+        "name": "The Game Kitchen",
+        "slug": "the-game-kitchen",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4807,
+        "name": "Shorebound Studios",
+        "slug": "shorebound-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4806,
+        "name": "Apollo Software",
+        "slug": "apollo-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1695,
+        "name": "Mass Media Inc",
+        "slug": "mass-media-inc",
+        "average_rating": "7.27874975019443",
+        "founded_year": 1986,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/mass-media-inc/images/company_logos/bl/mass-media-inc_logo_thumb.png",
+            "width": 220,
+            "height": 184
+        }
+    },
+    {
+        "id": 4805,
+        "name": "Condor, Inc.",
+        "slug": "condor-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4808,
+        "name": "Pixeldiet Entertainment",
+        "slug": "pixeldiet-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4876,
+        "name": "Budapest Cantate Choir",
+        "slug": "budapest-cantate-choir",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4875,
+        "name": "Budapest Scoring Symphony Orchestra",
+        "slug": "budapest-scoring-symphony-orchestra",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4877,
+        "name": "DDM",
+        "slug": "ddm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4878,
+        "name": "HFX Films",
+        "slug": "hfx-films",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4888,
+        "name": "Brainzoo",
+        "slug": "brainzoo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4889,
+        "name": "Simon James Music",
+        "slug": "simon-james-music",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4824,
+        "name": "Defiant Development",
+        "slug": "defiant-development",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4794,
+        "name": "Eurocom Entertainment Software",
+        "slug": "eurocom-entertainment-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4789,
+        "name": "Alternative Games",
+        "slug": "alternative-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4854,
+        "name": "Chicago Record Company",
+        "slug": "chicago-record-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4810,
+        "name": "Amersoft",
+        "slug": "amersoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4811,
+        "name": "Turbo Pixel Studios",
+        "slug": "turbo-pixel-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4812,
+        "name": "Åkesoft",
+        "slug": "akesoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4825,
+        "name": "Artematica",
+        "slug": "artematica",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4813,
+        "name": "Rival Games",
+        "slug": "rival-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4814,
+        "name": "DIngo Games",
+        "slug": "dingo-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4855,
+        "name": "Headroom Digital",
+        "slug": "headroom-digital",
+        "average_rating": null,
+        "parent": null
+    }
+]

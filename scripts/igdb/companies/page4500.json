@@ -1,0 +1,177 @@
+[
+    {
+        "id": 5020,
+        "name": "Image Comics",
+        "slug": "image-comics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5021,
+        "name": "Starz Media",
+        "slug": "starz-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5022,
+        "name": "Film Roman",
+        "slug": "film-roman",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5023,
+        "name": "The Art Machine",
+        "slug": "the-art-machine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5027,
+        "name": "Lino Slahuschek",
+        "slug": "lino-slahuschek",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5028,
+        "name": "The Danish Arts Foundation",
+        "slug": "the-danish-arts-foundation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5025,
+        "name": "OSome Studio",
+        "slug": "osome-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5029,
+        "name": "Nordic Game Program",
+        "slug": "nordic-game-program",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5030,
+        "name": "Aptocore",
+        "slug": "aptocore",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5031,
+        "name": "Box2D",
+        "slug": "box2d",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5032,
+        "name": "Cat Science Park",
+        "slug": "cat-science-park",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5026,
+        "name": "Numantian Games",
+        "slug": "numantian-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5033,
+        "name": "Copenhagen Game Collective",
+        "slug": "copenhagen-game-collective",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5034,
+        "name": "Digital Eel",
+        "slug": "digital-eel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5038,
+        "name": "NVYVE Studios",
+        "slug": "nvyve-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5035,
+        "name": "Awesome Games Studios",
+        "slug": "awesome-games-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5036,
+        "name": "Planet Interactive",
+        "slug": "planet-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5037,
+        "name": "Can Explode",
+        "slug": "can-explode",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5043,
+        "name": "OutSide Directors Company",
+        "slug": "outside-directors-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5039,
+        "name": "Enter Skies",
+        "slug": "enter-skies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5041,
+        "name": "Imagexcel",
+        "slug": "imagexcel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5066,
+        "name": "Vise",
+        "slug": "vise",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5042,
+        "name": "Infini Entertainment Technology",
+        "slug": "infini-entertainment-technology",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4998,
+        "name": "Heart Machine",
+        "slug": "heart-machine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5044,
+        "name": "Project Whitecard Studios Inc.",
+        "slug": "project-whitecard-studios-inc",
+        "average_rating": null,
+        "parent": null
+    }
+]

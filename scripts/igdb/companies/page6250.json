@@ -1,0 +1,178 @@
+[
+    {
+        "id": 6430,
+        "name": "ITDC (International Technology Development Corporation)",
+        "slug": "itdc-international-technology-development-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3089,
+        "name": "General Computer Company",
+        "slug": "general-computer-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6438,
+        "name": "Beachhead Studios",
+        "slug": "beachhead-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6439,
+        "name": "Art Bully Productions",
+        "slug": "art-bully-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6440,
+        "name": "Curious Pictures",
+        "slug": "curious-pictures",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6441,
+        "name": "Game Mechanic Studios",
+        "slug": "game-mechanic-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6443,
+        "name": "THQ Digital Studios UK",
+        "slug": "thq-digital-studios-uk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6432,
+        "name": "Froggman",
+        "slug": "froggman",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6424,
+        "name": "Nival",
+        "slug": "nival",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 82,
+        "name": "Atari",
+        "slug": "atari",
+        "average_rating": "8.18271219387982",
+        "founded_year": 1972,
+        "parent": null
+    },
+    {
+        "id": 1394,
+        "name": "Omega Force",
+        "slug": "omega-force",
+        "average_rating": "7.01119402985075",
+        "parent": null
+    },
+    {
+        "id": 6518,
+        "name": "iEnergizer",
+        "slug": "ienergizer",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6519,
+        "name": "RampRate",
+        "slug": "ramprate",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6520,
+        "name": "Tokyo Pop",
+        "slug": "tokyo-pop",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6522,
+        "name": "Warner Brothers Post Prod. Services",
+        "slug": "warner-brothers-post-prod-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6523,
+        "name": "Laser Pacific Digital Sound Services",
+        "slug": "laser-pacific-digital-sound-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6524,
+        "name": "Walla Works, inc.",
+        "slug": "walla-works-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6525,
+        "name": "Links DigiWorks, Inc.",
+        "slug": "links-digiworks-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6526,
+        "name": "Corbis Japan",
+        "slug": "corbis-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6521,
+        "name": "Most Wanted Entertainment",
+        "slug": "most-wanted-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6527,
+        "name": "Point d'Orgue",
+        "slug": "point-dorgue",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6528,
+        "name": "Glenwood Studios",
+        "slug": "glenwood-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6529,
+        "name": "North Central",
+        "slug": "north-central",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6530,
+        "name": "Kukouri Mobile Entertainment",
+        "slug": "kukouri-mobile-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6531,
+        "name": "Game Troopers",
+        "slug": "game-troopers",
+        "average_rating": null,
+        "parent": null
+    }
+]

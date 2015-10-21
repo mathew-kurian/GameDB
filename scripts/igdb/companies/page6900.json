@@ -1,0 +1,212 @@
+[
+    {
+        "id": 7066,
+        "name": "Tokyo RPG Factory",
+        "slug": "tokyo-rpg-factory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7067,
+        "name": "Pomeranian Swingers",
+        "slug": "pomeranian-swingers",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7068,
+        "name": "Lonely Troops",
+        "slug": "lonely-troops",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7081,
+        "name": "Licorice",
+        "slug": "licorice",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/licorice/images/company_logos/h8/licorice_logo_thumb.png",
+            "width": 1725,
+            "height": 296
+        }
+    },
+    {
+        "id": 7078,
+        "name": "Moppin",
+        "slug": "moppin",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 634,
+        "name": "Devolver Digital",
+        "slug": "devolver-digital",
+        "average_rating": "8.23268536997481",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/devolver-digital/images/company_logos/4g/devolver-digital_logo_thumb.png",
+            "width": 500,
+            "height": 256
+        }
+    },
+    {
+        "id": 7079,
+        "name": "Raw Fury Games",
+        "slug": "raw-fury-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7074,
+        "name": "Aniplex Mobile",
+        "slug": "aniplex-mobile",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7075,
+        "name": "16 Blitz Mastertronic",
+        "slug": "16-blitz-mastertronic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7073,
+        "name": "Oliver Keppelmüller",
+        "slug": "oliver-keppelmuller",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7070,
+        "name": "Kittehface Software",
+        "slug": "kittehface-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7072,
+        "name": "Royal Troupe",
+        "slug": "royal-troupe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2248,
+        "name": "Daedalic Entertainment",
+        "slug": "daedalic-entertainment",
+        "average_rating": "8.93657594088977",
+        "founded_year": 2007,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/daedalic-entertainment/images/company_logos/3v/daedalic-entertainment_logo_thumb.png",
+            "width": 3203,
+            "height": 816
+        }
+    },
+    {
+        "id": 7076,
+        "name": "Apparition Games",
+        "slug": "apparition-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7080,
+        "name": "Noio",
+        "slug": "noio",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/noio/images/company_logos/h9/noio_logo_thumb.png",
+            "width": 140,
+            "height": 70
+        }
+    },
+    {
+        "id": 7077,
+        "name": "Turtle Sandbox",
+        "slug": "turtle-sandbox",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7083,
+        "name": "Webrox",
+        "slug": "webrox",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7082,
+        "name": "Zigurat Software",
+        "slug": "zigurat-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 126,
+        "name": "Bethesda Game Studios",
+        "slug": "bethesda-game-studios",
+        "average_rating": "8.36567547487367",
+        "founded_year": 2001,
+        "parent": 28,
+        "company_logo": {
+            "url": "/companies/bethesda-game-studios/images/company_logos/d2/bethesda-game-studios_logo_thumb.png",
+            "width": 1028,
+            "height": 482
+        }
+    },
+    {
+        "id": 7084,
+        "name": "mohawk games",
+        "slug": "mohawk-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2,
+        "name": "BioWare",
+        "slug": "bioware",
+        "average_rating": "8.71931244482764",
+        "founded_year": 1995,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/bioware/images/company_logos/1p/bioware_logo_thumb.png",
+            "width": 500,
+            "height": 110
+        }
+    },
+    {
+        "id": 7087,
+        "name": "Flat Software",
+        "slug": "flat-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7088,
+        "name": "snappy touch",
+        "slug": "snappy-touch",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7085,
+        "name": "Tennen-sozai",
+        "slug": "tennen-sozai",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7086,
+        "name": "Eye Studio",
+        "slug": "eye-studio",
+        "average_rating": null,
+        "parent": null
+    }
+]

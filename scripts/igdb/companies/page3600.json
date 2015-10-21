@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4044,
+        "name": "PitStop Productions",
+        "slug": "pitstop-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4045,
+        "name": "TecMagik",
+        "slug": "tecmagik",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4102,
+        "name": "Aventurine SA ",
+        "slug": "aventurine-sa--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4104,
+        "name": "Mox Co., Ltd.",
+        "slug": "mox-co-dot-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4048,
+        "name": "Super Empire",
+        "slug": "super-empire",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4047,
+        "name": "Wanderlust Interactive",
+        "slug": "wanderlust-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4105,
+        "name": "Kenproduction",
+        "slug": "kenproduction",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4116,
+        "name": "Digital Café",
+        "slug": "digital-cafe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 179,
+        "name": "Activision Blizzard",
+        "slug": "activision-blizzard",
+        "average_rating": "7.61856365698284",
+        "founded_year": 2008,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/activision-blizzard/images/company_logos/u/activision-blizzard_logo_thumb.png",
+            "width": 300,
+            "height": 169
+        }
+    },
+    {
+        "id": 4117,
+        "name": "Ralston-Purina",
+        "slug": "ralston-purina",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4111,
+        "name": "Midway Studios San Diego",
+        "slug": "midway-studios-san-diego",
+        "average_rating": "8.96458176658699",
+        "parent": null
+    },
+    {
+        "id": 4056,
+        "name": "Sessing Music Services",
+        "slug": "sessing-music-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2742,
+        "name": "ORiGO GAMES",
+        "slug": "origo-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2741,
+        "name": "Extend Studio",
+        "slug": "extend-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4057,
+        "name": "PTD Guideline Compliance",
+        "slug": "ptd-guideline-compliance",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4052,
+        "name": "Viacom Entertainment Group",
+        "slug": "viacom-entertainment-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4053,
+        "name": "Corbis Images",
+        "slug": "corbis-images",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4054,
+        "name": "Shooting Star",
+        "slug": "shooting-star",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4055,
+        "name": "Synapse Films",
+        "slug": "synapse-films",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4058,
+        "name": "Mario Kart Band",
+        "slug": "mario-kart-band",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4074,
+        "name": "TNX Music Recordings",
+        "slug": "tnx-music-recordings",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4071,
+        "name": "Bruno R. Marcos",
+        "slug": "bruno-r-marcos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4059,
+        "name": "Necrophone Games",
+        "slug": "necrophone-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4061,
+        "name": "Bojan Brbora",
+        "slug": "bojan-brbora",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4062,
+        "name": "4PM GAME",
+        "slug": "4pm-game",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "id": 5823,
+        "name": "GTE Entertainment",
+        "slug": "gte-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5824,
+        "name": "Europress",
+        "slug": "europress",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5825,
+        "name": "Dragon co.",
+        "slug": "dragon-co",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5826,
+        "name": "Nice Code",
+        "slug": "nice-code",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5830,
+        "name": "Xing Entertainment",
+        "slug": "xing-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5831,
+        "name": "Deep Space",
+        "slug": "deep-space",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4831,
+        "name": "Titus Interactive",
+        "slug": "titus-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 28,
+        "name": "Bethesda Softworks",
+        "slug": "bethesda-softworks",
+        "average_rating": "8.06290324908242",
+        "founded_year": 1986,
+        "parent": 245,
+        "company_logo": {
+            "url": "/companies/bethesda-softworks/images/company_logos/1d/bethesda-softworks_logo_thumb.png",
+            "width": 318,
+            "height": 57
+        }
+    },
+    {
+        "id": 5834,
+        "name": "Textfyre",
+        "slug": "textfyre",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5841,
+        "name": "Joyoland",
+        "slug": "joyoland",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5835,
+        "name": "Littlewitch",
+        "slug": "littlewitch",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5836,
+        "name": "Success",
+        "slug": "success",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1951,
+        "name": "Silicon Knights",
+        "slug": "silicon-knights",
+        "average_rating": "7.99926927888699",
+        "parent": null
+    },
+    {
+        "id": 667,
+        "name": "Crave Entertainment",
+        "slug": "crave-entertainment",
+        "average_rating": "7.96344977532078",
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/crave-entertainment/images/company_logos/33/crave-entertainment_logo_thumb.png",
+            "width": 160,
+            "height": 93
+        }
+    },
+    {
+        "id": 5769,
+        "name": "Ubisoft Europe",
+        "slug": "ubisoft-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5828,
+        "name": "Indie Games",
+        "slug": "indie-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5832,
+        "name": "Black Sand Studios",
+        "slug": "black-sand-studios",
+        "average_rating": null,
+        "founded_year": 2006,
+        "parent": null
+    },
+    {
+        "id": 5827,
+        "name": "Dark Energy Digital",
+        "slug": "dark-energy-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1012,
+        "name": "From Software",
+        "slug": "from-software",
+        "average_rating": "8.49480602906638",
+        "founded_year": 1986,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/from-software/images/company_logos/69/from-software_logo_thumb.png",
+            "width": 183,
+            "height": 16
+        }
+    },
+    {
+        "id": 5838,
+        "name": "Artifex Mundi",
+        "slug": "artifex-mundi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5842,
+        "name": "Drool",
+        "slug": "drool",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 343,
+        "name": "Kronos Digital Entertainment",
+        "slug": "kronos-digital-entertainment",
+        "average_rating": null,
+        "founded_year": 1992,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/kronos-digital-entertainment/images/company_logos/78/kronos-digital-entertainment_logo_thumb.png",
+            "width": 381,
+            "height": 290
+        }
+    },
+    {
+        "id": 5833,
+        "name": "Outrigger Koubou",
+        "slug": "outrigger-koubou",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5844,
+        "name": "Jundroo, LLC",
+        "slug": "jundroo-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5839,
+        "name": "GMF",
+        "slug": "gmf",
+        "average_rating": null,
+        "parent": null
+    }
+]

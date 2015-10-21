@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4075,
+        "name": "Software Projects",
+        "slug": "software-projects",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4063,
+        "name": "Limasse Five",
+        "slug": "limasse-five",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4077,
+        "name": "Software Project",
+        "slug": "software-project",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4083,
+        "name": "PlayStation C.A.M.P.",
+        "slug": "playstation-camp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4084,
+        "name": "Zener Works Inc.",
+        "slug": "zener-works-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4073,
+        "name": "Similis",
+        "slug": "similis",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4064,
+        "name": "Superflat Games",
+        "slug": "superflat-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4066,
+        "name": "Equilibrium",
+        "slug": "equilibrium",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4068,
+        "name": "Infinitap Games",
+        "slug": "infinitap-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4085,
+        "name": "Bacteria Inc.",
+        "slug": "bacteria-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4090,
+        "name": "Havas Interactive",
+        "slug": "havas-interactive",
+        "average_rating": "8.45824013321331",
+        "parent": null
+    },
+    {
+        "id": 4086,
+        "name": "Otogi LLC",
+        "slug": "otogi-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4069,
+        "name": "Derek Yu",
+        "slug": "derek-yu",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4070,
+        "name": "Eyebrow Interactive",
+        "slug": "eyebrow-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4087,
+        "name": "Swing",
+        "slug": "swing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4249,
+        "name": "Tenben",
+        "slug": "tenben",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4065,
+        "name": "Curve Studios",
+        "slug": "curve-studios",
+        "average_rating": "6.97727847407678",
+        "parent": null
+    },
+    {
+        "id": 99,
+        "name": "The 3DO Company",
+        "slug": "the-3do-company",
+        "average_rating": "8.40711394690491",
+        "founded_year": 1991,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/the-3do-company/images/company_logos/6v/the-3do-company_logo_thumb.png",
+            "width": 147,
+            "height": 60
+        }
+    },
+    {
+        "id": 4089,
+        "name": "Disastercake",
+        "slug": "disastercake",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4095,
+        "name": "Kouyousha",
+        "slug": "kouyousha",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4078,
+        "name": "Experis",
+        "slug": "experis",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4079,
+        "name": "Bristol/London Music Production Unit",
+        "slug": "bristol-slash-london-music-production-unit",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4080,
+        "name": "Los Angles/ Seattle/ Tokyo Music Production Unit",
+        "slug": "los-angles-slash-seattle-slash-tokyo-music-production-unit",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4081,
+        "name": "Cynergy Systems Inc",
+        "slug": "cynergy-systems-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4082,
+        "name": "The Sequence Group",
+        "slug": "the-sequence-group",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,231 @@
+[
+    {
+        "id": 6093,
+        "name": "Andalusian",
+        "slug": "andalusian",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6063,
+        "name": "Primal Game Studios",
+        "slug": "primal-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6085,
+        "name": "Capcom Online Games",
+        "slug": "capcom-online-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6095,
+        "name": "Windy Hill Studio",
+        "slug": "windy-hill-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6099,
+        "name": "OMNIDREAM CREATIONS",
+        "slug": "omnidream-creations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6108,
+        "name": "Anki",
+        "slug": "anki",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6254,
+        "name": "Mørk & Lys",
+        "slug": "mork-and-lys",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6255,
+        "name": "Lime",
+        "slug": "lime",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6256,
+        "name": "Amanaimages",
+        "slug": "amanaimages",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6072,
+        "name": "SUPERHOT",
+        "slug": "superhot",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5750,
+        "name": "Studio Wildcard",
+        "slug": "studio-wildcard",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6068,
+        "name": "Instinct Games",
+        "slug": "instinct-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6069,
+        "name": "Kee Games",
+        "slug": "kee-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6070,
+        "name": "Super Systems Softworks",
+        "slug": "super-systems-softworks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6071,
+        "name": "Marvelous",
+        "slug": "marvelous",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/marvelous/images/company_logos/ds/marvelous_logo_thumb.png",
+            "width": 657,
+            "height": 296
+        }
+    },
+    {
+        "id": 2213,
+        "name": "AQ Interactive",
+        "slug": "aq-interactive",
+        "average_rating": null,
+        "founded_year": 2005,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/aq-interactive/images/company_logos/45/aq-interactive_logo_thumb.png",
+            "width": 790,
+            "height": 600
+        }
+    },
+    {
+        "id": 1769,
+        "name": "Marvelous Interactive",
+        "slug": "marvelous-interactive",
+        "average_rating": null,
+        "founded_year": 1970,
+        "parent": 782,
+        "company_logo": {
+            "url": "/companies/marvelous-interactive/images/company_logos/dv/marvelous-interactive_logo_thumb.png",
+            "width": 501,
+            "height": 170
+        }
+    },
+    {
+        "id": 862,
+        "name": "Tamsoft",
+        "slug": "tamsoft",
+        "average_rating": null,
+        "founded_year": 1992,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/tamsoft/images/company_logos/dy/tamsoft_logo_thumb.png",
+            "width": 329,
+            "height": 104
+        }
+    },
+    {
+        "id": 6073,
+        "name": "Longbow Games",
+        "slug": "longbow-games",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/longbow-games/images/company_logos/dx/longbow-games_logo_thumb.png",
+            "width": 1800,
+            "height": 2530
+        }
+    },
+    {
+        "id": 3032,
+        "name": "Prototype",
+        "slug": "prototype",
+        "average_rating": null,
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/prototype/images/company_logos/dl/prototype_logo_thumb.png",
+            "width": 378,
+            "height": 196
+        }
+    },
+    {
+        "id": 2946,
+        "name": "Nitroplus",
+        "slug": "nitroplus",
+        "average_rating": null,
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/nitroplus/images/company_logos/dm/nitroplus_logo_thumb.png",
+            "width": 244,
+            "height": 165
+        }
+    },
+    {
+        "id": 6057,
+        "name": "Gambrinous",
+        "slug": "gambrinous",
+        "average_rating": null,
+        "founded_year": 2008,
+        "parent": 3911
+    },
+    {
+        "id": 248,
+        "name": "Bandai Namco Entertainment",
+        "slug": "bandai-namco-entertainment",
+        "average_rating": "8.19302172317363",
+        "founded_year": 1955,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/bandai-namco-entertainment/images/company_logos/cv/bandai-namco-entertainment_logo_thumb.png",
+            "width": 450,
+            "height": 375
+        }
+    },
+    {
+        "id": 2344,
+        "name": "Inti Creates",
+        "slug": "inti-creates",
+        "average_rating": null,
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/inti-creates/images/company_logos/9y/inti-creates_logo_thumb.png",
+            "width": 253,
+            "height": 73
+        }
+    },
+    {
+        "id": 6058,
+        "name": "Ecole Software",
+        "slug": "ecole-software",
+        "average_rating": null,
+        "parent": null
+    }
+]

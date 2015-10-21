@@ -1,0 +1,201 @@
+[
+    {
+        "id": 6372,
+        "name": "Lankhor",
+        "slug": "lankhor",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3838,
+        "name": "Synergistic Software, Inc.",
+        "slug": "synergistic-software-inc",
+        "average_rating": "9.11989793465314",
+        "parent": null
+    },
+    {
+        "id": 6409,
+        "name": "Tonguç Bodur",
+        "slug": "tonguc-bodur--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6442,
+        "name": "The Hungarian Studio Orchestra",
+        "slug": "the-hungarian-studio-orchestra",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6446,
+        "name": "MG Shooters",
+        "slug": "mg-shooters",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6447,
+        "name": "Mission Support Specialist",
+        "slug": "mission-support-specialist",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1234,
+        "name": "System 3 Software",
+        "slug": "system-3-software",
+        "average_rating": null,
+        "founded_year": 1982,
+        "parent": null
+    },
+    {
+        "id": 6147,
+        "name": "Exato Games Studios",
+        "slug": "exato-games-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6150,
+        "name": "League of Geeks",
+        "slug": "league-of-geeks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6152,
+        "name": "Friend & Foe",
+        "slug": "friend-and-foe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6151,
+        "name": "Eneme Entertainment",
+        "slug": "eneme-entertainment",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/eneme-entertainment/images/company_logos/ev/eneme-entertainment_logo_thumb.png",
+            "width": 200,
+            "height": 73
+        }
+    },
+    {
+        "id": 6171,
+        "name": "Endless Loop Studios",
+        "slug": "endless-loop-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6166,
+        "name": "Chris Prih",
+        "slug": "chris-prih",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6167,
+        "name": "Inscape",
+        "slug": "inscape",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6153,
+        "name": "Next Games",
+        "slug": "next-games",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/next-games/images/company_logos/ed/next-games_logo_thumb.png",
+            "width": 825,
+            "height": 158
+        }
+    },
+    {
+        "id": 6155,
+        "name": "Cloudgine",
+        "slug": "cloudgine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6156,
+        "name": "Sumo Digital Ltd",
+        "slug": "sumo-digital-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6168,
+        "name": "Expert Software",
+        "slug": "expert-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6154,
+        "name": "Reagent Games",
+        "slug": "reagent-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2053,
+        "name": "Eden Games",
+        "slug": "eden-games",
+        "average_rating": "7.14139036327039",
+        "founded_year": 2015,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/eden-games/images/company_logos/ee/eden-games_logo_thumb.png",
+            "width": 775,
+            "height": 1123
+        }
+    },
+    {
+        "id": 852,
+        "name": "Platinum Games",
+        "slug": "platinum-games",
+        "average_rating": "8.35462552361614",
+        "founded_year": 2006,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/platinum-games/images/company_logos/x/platinum-games_logo_thumb.png",
+            "width": 430,
+            "height": 185
+        }
+    },
+    {
+        "id": 6172,
+        "name": "5 Ants",
+        "slug": "5-ants",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6170,
+        "name": "Sammy Studios",
+        "slug": "sammy-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6157,
+        "name": "tinyGIANT Games",
+        "slug": "tinygiant-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6158,
+        "name": "Allgraf",
+        "slug": "allgraf",
+        "average_rating": null,
+        "parent": null
+    }
+]

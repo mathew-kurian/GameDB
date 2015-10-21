@@ -1,0 +1,183 @@
+[
+    {
+        "id": 5727,
+        "name": "Sony PCL",
+        "slug": "sony-pcl",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5728,
+        "name": "Image Studio 109",
+        "slug": "image-studio-109",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5729,
+        "name": "NHK Promotion",
+        "slug": "nhk-promotion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5730,
+        "name": "Wakakoma Pro",
+        "slug": "wakakoma-pro",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5731,
+        "name": "Skywalker Sound",
+        "slug": "skywalker-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5732,
+        "name": "DNA Multimedia Audio",
+        "slug": "dna-multimedia-audio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5733,
+        "name": "Dreamtime Interactive",
+        "slug": "dreamtime-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5734,
+        "name": "Solidsoft",
+        "slug": "solidsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5735,
+        "name": "T-Trouble",
+        "slug": "t-trouble",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5736,
+        "name": "Talk Over",
+        "slug": "talk-over",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5737,
+        "name": "Kanagawa Philharmony Orchestra",
+        "slug": "kanagawa-philharmony-orchestra",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5738,
+        "name": "Jay Film",
+        "slug": "jay-film",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5739,
+        "name": "One World",
+        "slug": "one-world",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5740,
+        "name": "Digital Design Studio",
+        "slug": "digital-design-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5741,
+        "name": "Think",
+        "slug": "think",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5742,
+        "name": "81 Entertainment",
+        "slug": "81-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5743,
+        "name": "Xtreme Studios",
+        "slug": "xtreme-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5744,
+        "name": "Northwest Boy Choir",
+        "slug": "northwest-boy-choir",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5745,
+        "name": "Smithsonian Institution",
+        "slug": "smithsonian-institution",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5746,
+        "name": "National Air and Space Museum",
+        "slug": "national-air-and-space-museum",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1242,
+        "name": "MachineGames",
+        "slug": "machinegames",
+        "average_rating": "7.64521849665388",
+        "founded_year": 2009,
+        "parent": 245,
+        "company_logo": {
+            "url": "/companies/machinegames/images/company_logos/3b/machinegames_logo_thumb.png",
+            "width": 760,
+            "height": 366
+        }
+    },
+    {
+        "id": 6026,
+        "name": "Sam Barlow",
+        "slug": "sam-barlow",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5785,
+        "name": "Vector Film",
+        "slug": "vector-film",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5757,
+        "name": "Hipster Whale",
+        "slug": "hipster-whale",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5758,
+        "name": "Discreet",
+        "slug": "discreet",
+        "average_rating": null,
+        "parent": null
+    }
+]

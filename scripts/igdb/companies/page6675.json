@@ -1,0 +1,242 @@
+[
+    {
+        "id": 6907,
+        "name": "Wheel Pros",
+        "slug": "wheel-pros",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6908,
+        "name": "Willans Marques",
+        "slug": "willans-marques",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6909,
+        "name": "Yamaha Motor",
+        "slug": "yamaha-motor",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6910,
+        "name": "Zürich Versicherungs-Gesellschaft",
+        "slug": "zurich-versicherungs-gesellschaft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1097,
+        "name": "Shiro Games",
+        "slug": "shiro-games",
+        "average_rating": "7.96119294710367",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/shiro-games/images/company_logos/gb/shiro-games_logo_thumb.png",
+            "width": 324,
+            "height": 324
+        }
+    },
+    {
+        "id": 4607,
+        "name": "Otomate",
+        "slug": "otomate",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1218,
+        "name": "Arc System Works",
+        "slug": "arc-system-works",
+        "average_rating": null,
+        "founded_year": 1988,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/arc-system-works/images/company_logos/ef/arc-system-works_logo_thumb.png",
+            "width": 255,
+            "height": 283
+        }
+    },
+    {
+        "id": 6917,
+        "name": "Nurijoy",
+        "slug": "nurijoy",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6918,
+        "name": "PM Studios",
+        "slug": "pm-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1404,
+        "name": "Titus Software",
+        "slug": "titus-software",
+        "average_rating": "9.06217547421277",
+        "parent": null
+    },
+    {
+        "id": 6920,
+        "name": "Darkwave Games",
+        "slug": "darkwave-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6926,
+        "name": "Blueberry Soft",
+        "slug": "blueberry-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6924,
+        "name": "Daylight Studios",
+        "slug": "daylight-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1119,
+        "name": "Monolith Soft",
+        "slug": "monolith-soft",
+        "average_rating": "8.83690005160846",
+        "founded_year": 1999,
+        "parent": 70,
+        "company_logo": {
+            "url": "/companies/monolith-soft/images/company_logos/a5/monolith-soft_logo_thumb.png",
+            "width": 242,
+            "height": 40
+        }
+    },
+    {
+        "id": 4225,
+        "name": "Team Reptile",
+        "slug": "team-reptile",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/team-reptile/images/company_logos/ga/team-reptile_logo_thumb.png",
+            "width": 1920,
+            "height": 1080
+        }
+    },
+    {
+        "id": 6552,
+        "name": "Abrakam",
+        "slug": "abrakam",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/abrakam/images/company_logos/g8/abrakam_logo_thumb.png",
+            "width": 679,
+            "height": 679
+        }
+    },
+    {
+        "id": 919,
+        "name": "Grinding Gear Games",
+        "slug": "grinding-gear-games",
+        "average_rating": "8.96507869650696",
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/grinding-gear-games/images/company_logos/g5/grinding-gear-games_logo_thumb.png",
+            "width": 900,
+            "height": 900
+        }
+    },
+    {
+        "id": 1389,
+        "name": "Bossa Studios",
+        "slug": "bossa-studios",
+        "average_rating": "7.94081869726527",
+        "founded_year": 2010,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/bossa-studios/images/company_logos/gd/bossa-studios_logo_thumb.png",
+            "width": 720,
+            "height": 448
+        }
+    },
+    {
+        "id": 5792,
+        "name": "Mouldy Toof Studios",
+        "slug": "mouldy-toof-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2776,
+        "name": "Iceberg Interactive",
+        "slug": "iceberg-interactive",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/iceberg-interactive/images/company_logos/ge/iceberg-interactive_logo_thumb.png",
+            "width": 741,
+            "height": 176
+        }
+    },
+    {
+        "id": 6921,
+        "name": "82 Apps",
+        "slug": "82-apps",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2448,
+        "name": "Positech Games",
+        "slug": "positech-games",
+        "average_rating": null,
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/positech-games/images/company_logos/gf/positech-games_logo_thumb.png",
+            "width": 288,
+            "height": 89
+        }
+    },
+    {
+        "id": 6554,
+        "name": "Carpe Fulgur LLC",
+        "slug": "carpe-fulgur-llc",
+        "average_rating": null,
+        "founded_year": 2010,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/carpe-fulgur-llc/images/company_logos/g6/carpe-fulgur-llc_logo_thumb.png",
+            "width": 128,
+            "height": 159
+        }
+    },
+    {
+        "id": 6553,
+        "name": "EasyGameStation",
+        "slug": "easygamestation",
+        "average_rating": null,
+        "founded_year": 2001,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/easygamestation/images/company_logos/g7/easygamestation_logo_thumb.png",
+            "width": 566,
+            "height": 68
+        }
+    },
+    {
+        "id": 6942,
+        "name": "Interdimensional Games Inc",
+        "slug": "interdimensional-games-inc",
+        "average_rating": null,
+        "parent": null
+    }
+]

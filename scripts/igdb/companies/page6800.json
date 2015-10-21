@@ -1,0 +1,202 @@
+[
+    {
+        "id": 6992,
+        "name": "Super Evil Megacorp",
+        "slug": "super-evil-megacorp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6984,
+        "name": "Igor Rashkuev",
+        "slug": "igor-rashkuev",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6985,
+        "name": "Aterdux Entertainment",
+        "slug": "aterdux-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6983,
+        "name": "Heartbit Interactive",
+        "slug": "heartbit-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6993,
+        "name": "Spacetime Studios",
+        "slug": "spacetime-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6988,
+        "name": "MidBoss",
+        "slug": "midboss",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 908,
+        "name": "CD Projekt RED",
+        "slug": "cd-projekt-red",
+        "average_rating": "8.8500156296431",
+        "founded_year": 2002,
+        "parent": 4291,
+        "company_logo": {
+            "url": "/companies/cd-projekt-red/images/company_logos/4u/cd-projekt-red_logo_thumb.png",
+            "width": 565,
+            "height": 242
+        }
+    },
+    {
+        "id": 6994,
+        "name": "gnifrebel Games UG",
+        "slug": "gnifrebel-games-ug",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6989,
+        "name": "Mommy's Best Games",
+        "slug": "mommys-best-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6990,
+        "name": "Eggcode",
+        "slug": "eggcode",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6991,
+        "name": "Just Add Water (Development) Ltd.",
+        "slug": "just-add-water-development-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3701,
+        "name": "Nicalis, Inc.",
+        "slug": "nicalis-inc",
+        "average_rating": "8.53626218129214",
+        "founded_year": 2007,
+        "parent": null
+    },
+    {
+        "id": 7040,
+        "name": "Digital Homicide Studios",
+        "slug": "digital-homicide-studios",
+        "average_rating": null,
+        "founded_year": 2014,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/digital-homicide-studios/images/company_logos/h3/digital-homicide-studios_logo_thumb.png",
+            "width": 331,
+            "height": 72
+        }
+    },
+    {
+        "id": 517,
+        "name": "Paradox Interactive",
+        "slug": "paradox-interactive",
+        "average_rating": "8.26380152606008",
+        "founded_year": 1998,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/paradox-interactive/images/company_logos/q/paradox-interactive_logo_thumb.png",
+            "width": 270,
+            "height": 269
+        }
+    },
+    {
+        "id": 7049,
+        "name": "Draknek",
+        "slug": "draknek",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7052,
+        "name": "sega Wow",
+        "slug": "sega-wow",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7054,
+        "name": "foursfield",
+        "slug": "foursfield",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7055,
+        "name": "software studios",
+        "slug": "software-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7010,
+        "name": "CooCooSqueaky",
+        "slug": "coocoosqueaky",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6995,
+        "name": "Bigpoint Berlin",
+        "slug": "bigpoint-berlin",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6996,
+        "name": "Bigpoint",
+        "slug": "bigpoint",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7001,
+        "name": "Starwave",
+        "slug": "starwave",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7002,
+        "name": "Living Mobile",
+        "slug": "living-mobile",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7003,
+        "name": "Oldblood",
+        "slug": "oldblood",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 58,
+        "name": "Mojang AB",
+        "slug": "mojang-ab",
+        "average_rating": "8.05098782985111",
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/mojang-ab/images/company_logos/5o/mojang-ab_logo_thumb.png",
+            "width": 800,
+            "height": 400
+        }
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "id": 5167,
+        "name": "Westwood Online",
+        "slug": "westwood-online",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5163,
+        "name": "iQue",
+        "slug": "ique",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5636,
+        "name": "Bogenschuetzen Frankurt",
+        "slug": "bogenschuetzen-frankurt",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5652,
+        "name": "25th Edition",
+        "slug": "25th-edition",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5173,
+        "name": "Keysine Audio",
+        "slug": "keysine-audio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2289,
+        "name": "Sony Computer Entertaintment Worldwide Studios",
+        "slug": "sony-computer-entertaintment-worldwide-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 818,
+        "name": "Atlus",
+        "slug": "atlus",
+        "average_rating": "8.66955323242198",
+        "founded_year": 1986,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/atlus/images/company_logos/1x/atlus_logo_thumb.png",
+            "width": 499,
+            "height": 155
+        }
+    },
+    {
+        "id": 112,
+        "name": "Sega",
+        "slug": "sega",
+        "average_rating": "7.93051994485532",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/sega/images/company_logos/r/sega_logo_thumb.png",
+            "width": 3066,
+            "height": 1024
+        }
+    },
+    {
+        "id": 184,
+        "name": "id Software",
+        "slug": "id-software",
+        "average_rating": "8.2546444809872",
+        "founded_year": 1991,
+        "parent": 245,
+        "company_logo": {
+            "url": "/companies/id-software/images/company_logos/2e/id-software_logo_thumb.png",
+            "width": 542,
+            "height": 600
+        }
+    },
+    {
+        "id": 5175,
+        "name": "Player Research",
+        "slug": "player-research",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5176,
+        "name": "Sold Out Sales & Marketing",
+        "slug": "sold-out-sales-and-marketing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5177,
+        "name": "The Trailerfarm",
+        "slug": "the-trailerfarm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5178,
+        "name": "The Foundry",
+        "slug": "the-foundry",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5653,
+        "name": "SDL International",
+        "slug": "sdl-international",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5623,
+        "name": "Blind",
+        "slug": "blind",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5624,
+        "name": "Forge Studios",
+        "slug": "forge-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5625,
+        "name": "Centroid",
+        "slug": "centroid",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5626,
+        "name": "Herold Studios",
+        "slug": "herold-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5627,
+        "name": "ARU Chicago",
+        "slug": "aru-chicago",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5628,
+        "name": "American Agency",
+        "slug": "american-agency",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5629,
+        "name": "Just Voices",
+        "slug": "just-voices",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5630,
+        "name": "Reaching4Stars",
+        "slug": "reaching4stars",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5631,
+        "name": "Stewart Talent",
+        "slug": "stewart-talent",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5632,
+        "name": "Crytek Sofia",
+        "slug": "crytek-sofia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5633,
+        "name": "Crytek Seoul",
+        "slug": "crytek-seoul",
+        "average_rating": null,
+        "parent": null
+    }
+]

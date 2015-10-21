@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4482,
+        "name": "Soundiva",
+        "slug": "soundiva",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4484,
+        "name": "Hardlight",
+        "slug": "hardlight",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4485,
+        "name": "RMC",
+        "slug": "rmc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4483,
+        "name": "MixedBag",
+        "slug": "mixedbag",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 553,
+        "name": "Access Software",
+        "slug": "access-software",
+        "average_rating": null,
+        "founded_year": 1982,
+        "parent": 139,
+        "company_logo": {
+            "url": "/companies/access-software/images/company_logos/91/access-software_logo_thumb.png",
+            "width": 400,
+            "height": 121
+        }
+    },
+    {
+        "id": 4438,
+        "name": "B-Factory",
+        "slug": "b-factory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4486,
+        "name": "STUDIO STAT",
+        "slug": "studio-stat",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4487,
+        "name": "Latina International Corporation",
+        "slug": "latina-international-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4488,
+        "name": "Transmedia",
+        "slug": "transmedia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4489,
+        "name": "STARS",
+        "slug": "stars",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4499,
+        "name": "Spry Fox",
+        "slug": "spry-fox",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4500,
+        "name": "Angelsoft",
+        "slug": "angelsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4490,
+        "name": "Pro-Motions Prod. Co.",
+        "slug": "pro-motions-prod-co",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4491,
+        "name": "Argonaut 3D Graphics, Inc.",
+        "slug": "argonaut-3d-graphics-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4492,
+        "name": "Take 2 Europe",
+        "slug": "take-2-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4495,
+        "name": "Fresh3D",
+        "slug": "fresh3d",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4493,
+        "name": "Spawn Studios",
+        "slug": "spawn-studios",
+        "average_rating": "7.79136765118269",
+        "parent": null
+    },
+    {
+        "id": 4494,
+        "name": "Arush Entertainment",
+        "slug": "arush-entertainment",
+        "average_rating": "7.79136765118269",
+        "parent": null
+    },
+    {
+        "id": 4498,
+        "name": "Goldhawk Interactive",
+        "slug": "goldhawk-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4516,
+        "name": "Creative Carnage",
+        "slug": "creative-carnage",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4517,
+        "name": "Hoplite Research",
+        "slug": "hoplite-research",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4518,
+        "name": "Mezmer Games",
+        "slug": "mezmer-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4519,
+        "name": "Black Wing Foundation",
+        "slug": "black-wing-foundation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4520,
+        "name": "N-Game",
+        "slug": "n-game",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4521,
+        "name": "Dreamlore",
+        "slug": "dreamlore",
+        "average_rating": null,
+        "parent": null
+    }
+]

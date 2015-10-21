@@ -1,0 +1,189 @@
+[
+    {
+        "id": 6501,
+        "name": "Ping0",
+        "slug": "ping0",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6502,
+        "name": "Xfire",
+        "slug": "xfire",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 817,
+        "name": "Taito",
+        "slug": "taito",
+        "average_rating": "7.83601210297827",
+        "parent": null
+    },
+    {
+        "id": 6415,
+        "name": "Puuba",
+        "slug": "puuba",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6503,
+        "name": "Sonic Mayhem",
+        "slug": "sonic-mayhem",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6504,
+        "name": "Sound Mountain",
+        "slug": "sound-mountain",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 213,
+        "name": "Infogrames",
+        "slug": "infogrames",
+        "average_rating": "8.7664072746741",
+        "parent": null
+    },
+    {
+        "id": 6505,
+        "name": "Danetracks",
+        "slug": "danetracks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6395,
+        "name": "Xonox",
+        "slug": "xonox",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6433,
+        "name": "Wildec",
+        "slug": "wildec",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6468,
+        "name": "Studio Nixa",
+        "slug": "studio-nixa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6469,
+        "name": "Veles Studio",
+        "slug": "veles-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6473,
+        "name": "USC School of Cinematic Arts",
+        "slug": "usc-school-of-cinematic-arts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6474,
+        "name": "Macedonian Radio Symphony Orchestra",
+        "slug": "macedonian-radio-symphony-orchestra",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6506,
+        "name": "Outpost Film Studios",
+        "slug": "outpost-film-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6507,
+        "name": "EA London",
+        "slug": "ea-london",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6508,
+        "name": "Voicetrax Casting",
+        "slug": "voicetrax-casting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6509,
+        "name": "Therm",
+        "slug": "therm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6510,
+        "name": "Tesla Technology Research",
+        "slug": "tesla-technology-research",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6511,
+        "name": "Fontoló Stúdio",
+        "slug": "fontolo-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6512,
+        "name": "Presto - Prekladatelské Centrum",
+        "slug": "presto-prekladatelske-centrum",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6616,
+        "name": "Dairy Studios",
+        "slug": "dairy-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6419,
+        "name": "Spooky Squid Games",
+        "slug": "spooky-squid-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2374,
+        "name": "ICOM Simulations",
+        "slug": "icom-simulations",
+        "average_rating": null,
+        "founded_year": 1981,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/icom-simulations/images/company_logos/ay/icom-simulations_logo_thumb.png",
+            "width": 472,
+            "height": 187
+        }
+    },
+    {
+        "id": 66,
+        "name": "Activision",
+        "slug": "activision",
+        "average_rating": "7.75759279635249",
+        "founded_year": 1979,
+        "parent": 179,
+        "company_logo": {
+            "url": "/companies/activision/images/company_logos/v/activision_logo_thumb.png",
+            "width": 503,
+            "height": 115
+        }
+    }
+]

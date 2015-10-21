@@ -1,0 +1,219 @@
+[
+    {
+        "id": 6695,
+        "name": "Sorun China",
+        "slug": "sorun-china",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6562,
+        "name": "Schulenburg Software",
+        "slug": "schulenburg-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6557,
+        "name": "Funktronic Labs",
+        "slug": "funktronic-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1030,
+        "name": "Bluepoint Games",
+        "slug": "bluepoint-games",
+        "average_rating": "8.56686362945922",
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/bluepoint-games/images/company_logos/en/bluepoint-games_logo_thumb.png",
+            "width": 650,
+            "height": 348
+        }
+    },
+    {
+        "id": 711,
+        "name": "Psyonix",
+        "slug": "psyonix",
+        "average_rating": "8.69807156962218",
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/psyonix/images/company_logos/fj/psyonix_logo_thumb.png",
+            "width": 282,
+            "height": 352
+        }
+    },
+    {
+        "id": 6559,
+        "name": "Activision UK",
+        "slug": "activision-uk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6572,
+        "name": "4gency",
+        "slug": "4gency",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/4gency/images/company_logos/fn/4gency_logo_thumb.png",
+            "width": 400,
+            "height": 160
+        }
+    },
+    {
+        "id": 6567,
+        "name": "Granzella",
+        "slug": "granzella",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6568,
+        "name": "Skyshine Games",
+        "slug": "skyshine-games",
+        "average_rating": null,
+        "founded_year": 2014,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/skyshine-games/images/company_logos/fq/skyshine-games_logo_thumb.png",
+            "width": 1024,
+            "height": 576
+        }
+    },
+    {
+        "id": 6566,
+        "name": "Gaudium",
+        "slug": "gaudium",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6558,
+        "name": "Vektor Grafix",
+        "slug": "vektor-grafix",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2362,
+        "name": "Copya System",
+        "slug": "copya-system",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6573,
+        "name": "Tangrin Entertainment",
+        "slug": "tangrin-entertainment",
+        "average_rating": null,
+        "founded_year": 2010,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/tangrin-entertainment/images/company_logos/fm/tangrin-entertainment_logo_thumb.png",
+            "width": 211,
+            "height": 250
+        }
+    },
+    {
+        "id": 6560,
+        "name": "D-Pad Studio",
+        "slug": "d-pad-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6646,
+        "name": "KBP - Paris",
+        "slug": "kbp-paris",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6649,
+        "name": "Opakis",
+        "slug": "opakis",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6569,
+        "name": "Wyrmbyte",
+        "slug": "wyrmbyte",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6661,
+        "name": "Moi",
+        "slug": "moi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6656,
+        "name": "Rainmaker Motion Capture",
+        "slug": "rainmaker-motion-capture",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3046,
+        "name": "Gust",
+        "slug": "gust",
+        "average_rating": null,
+        "founded_year": 1993,
+        "parent": 6066,
+        "company_logo": {
+            "url": "/companies/gust/images/company_logos/dr/gust_logo_thumb.png",
+            "width": 753,
+            "height": 223
+        }
+    },
+    {
+        "id": 790,
+        "name": "Wargaming.net",
+        "slug": "wargaming-net",
+        "average_rating": "7.79329164227786",
+        "founded_year": 1998,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/wargaming-net/images/company_logos/5d/wargaming-net_logo_thumb.png",
+            "width": 3543,
+            "height": 1931
+        }
+    },
+    {
+        "id": 6565,
+        "name": "Flazm",
+        "slug": "flazm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6561,
+        "name": "YCJY Games",
+        "slug": "ycjy-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6563,
+        "name": "Night Light Interactive",
+        "slug": "night-light-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6570,
+        "name": "Backflip Studios",
+        "slug": "backflip-studios",
+        "average_rating": null,
+        "parent": null
+    }
+]

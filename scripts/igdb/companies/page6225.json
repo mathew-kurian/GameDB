@@ -1,0 +1,201 @@
+[
+    {
+        "id": 6412,
+        "name": "The Story Mechanics",
+        "slug": "the-story-mechanics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6413,
+        "name": "Faber and Faber",
+        "slug": "faber-and-faber",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6414,
+        "name": "Avanquest Software Publishing",
+        "slug": "avanquest-software-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1376,
+        "name": "Dyllan Fitterer",
+        "slug": "dyllan-fitterer",
+        "average_rating": "7.58108434644554",
+        "parent": null
+    },
+    {
+        "id": 6416,
+        "name": "Nuvatec",
+        "slug": "nuvatec",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 115,
+        "name": "Codemasters",
+        "slug": "codemasters",
+        "average_rating": "7.63732280600389",
+        "founded_year": 1986,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/codemasters/images/company_logos/4k/codemasters_logo_thumb.png",
+            "width": 201,
+            "height": 126
+        }
+    },
+    {
+        "id": 6428,
+        "name": "Sunrise Software",
+        "slug": "sunrise-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6417,
+        "name": "Spinnaker",
+        "slug": "spinnaker",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6418,
+        "name": "Interphase",
+        "slug": "interphase",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1436,
+        "name": "Bally Midway",
+        "slug": "bally-midway",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6427,
+        "name": "CBS Electronics",
+        "slug": "cbs-electronics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6431,
+        "name": "Gamer's Edge",
+        "slug": "gamers-edge",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3820,
+        "name": "KISS ltd",
+        "slug": "kiss-ltd",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": null
+    },
+    {
+        "id": 6434,
+        "name": "Radioactive Software",
+        "slug": "radioactive-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6420,
+        "name": "Rogue Snail",
+        "slug": "rogue-snail",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/rogue-snail/images/company_logos/f5/rogue-snail_logo_thumb.png",
+            "width": null,
+            "height": null
+        }
+    },
+    {
+        "id": 6436,
+        "name": "Solar Software",
+        "slug": "solar-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6421,
+        "name": "Zueira Digital",
+        "slug": "zueira-digital",
+        "average_rating": null,
+        "founded_year": 2014,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/zueira-digital/images/company_logos/f6/zueira-digital_logo_thumb.png",
+            "width": null,
+            "height": null
+        }
+    },
+    {
+        "id": 6422,
+        "name": "[bracket] games",
+        "slug": "bracket-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5456,
+        "name": "Behold Studios",
+        "slug": "behold-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6423,
+        "name": "Nival VR",
+        "slug": "nival-vr",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6425,
+        "name": "Nival",
+        "slug": "nival--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6426,
+        "name": "Big Five Software",
+        "slug": "big-five-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1000,
+        "name": "Absolute Entertainment",
+        "slug": "absolute-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6435,
+        "name": "Froggo Games",
+        "slug": "froggo-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6437,
+        "name": "BitMonster",
+        "slug": "bitmonster",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/bitmonster/images/company_logos/f7/bitmonster_logo_thumb.png",
+            "width": null,
+            "height": null
+        }
+    }
+]

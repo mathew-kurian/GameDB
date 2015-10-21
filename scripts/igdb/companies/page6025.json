@@ -1,0 +1,189 @@
+[
+    {
+        "id": 1699,
+        "name": "Reverb Publishing",
+        "slug": "reverb-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6331,
+        "name": "Ratloop Asia",
+        "slug": "ratloop-asia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1772,
+        "name": "Marvelous AQL",
+        "slug": "marvelous-aql",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/marvelous-aql/images/company_logos/dt/marvelous-aql_logo_thumb.png",
+            "width": 1025,
+            "height": 922
+        }
+    },
+    {
+        "id": 6065,
+        "name": "Koei Tecmo",
+        "slug": "koei-tecmo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6335,
+        "name": "AddictingGames",
+        "slug": "addictinggames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2498,
+        "name": "Fusty Game",
+        "slug": "fusty-game",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1460,
+        "name": "Plug In Digital",
+        "slug": "plug-in-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6337,
+        "name": "Midgar Studio",
+        "slug": "midgar-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6336,
+        "name": "Iron Realms Entertainment",
+        "slug": "iron-realms-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6333,
+        "name": "CyberAgent",
+        "slug": "cyberagent",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6332,
+        "name": "Giant Army",
+        "slug": "giant-army",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6345,
+        "name": "Hexacto",
+        "slug": "hexacto--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6342,
+        "name": "Hexacto",
+        "slug": "hexacto",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6343,
+        "name": "Jamdat",
+        "slug": "jamdat",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6348,
+        "name": "Black Shell Games",
+        "slug": "black-shell-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6340,
+        "name": "Micro Strategic Game Design",
+        "slug": "micro-strategic-game-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 712,
+        "name": "EA Mobile",
+        "slug": "ea-mobile",
+        "average_rating": "8.13390013162792",
+        "parent": null
+    },
+    {
+        "id": 6346,
+        "name": "Jamdat",
+        "slug": "jamdat--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6344,
+        "name": "Airborne",
+        "slug": "airborne",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6347,
+        "name": "LGK Games",
+        "slug": "lgk-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 120,
+        "name": "MacPlay",
+        "slug": "macplay",
+        "average_rating": "8.41630705059791",
+        "parent": null
+    },
+    {
+        "id": 1005,
+        "name": "Klei Entertainment",
+        "slug": "klei-entertainment",
+        "average_rating": "8.14689894223274",
+        "founded_year": 2005,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/klei-entertainment/images/company_logos/cq/klei-entertainment_logo_thumb.png",
+            "width": 768,
+            "height": 480
+        }
+    },
+    {
+        "id": 6451,
+        "name": "3 Point Productions",
+        "slug": "3-point-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1196,
+        "name": "Silmarils",
+        "slug": "silmarils",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 608,
+        "name": "Broderbund",
+        "slug": "broderbund",
+        "average_rating": "9.07196697748528",
+        "parent": null
+    }
+]

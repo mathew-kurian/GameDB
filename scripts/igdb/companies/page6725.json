@@ -1,0 +1,231 @@
+[
+    {
+        "id": 6931,
+        "name": "Bread Vision Studios LLC",
+        "slug": "bread-vision-studios-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6927,
+        "name": "Slick Entertainment",
+        "slug": "slick-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4679,
+        "name": "Metanet Software",
+        "slug": "metanet-software",
+        "average_rating": null,
+        "founded_year": 2001,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/metanet-software/images/company_logos/gl/metanet-software_logo_thumb.png",
+            "width": 1500,
+            "height": 990
+        }
+    },
+    {
+        "id": 959,
+        "name": "SilverBirch, Inc",
+        "slug": "silverbirch-inc",
+        "average_rating": null,
+        "founded_year": 2004,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/silverbirch-inc/images/company_logos/gm/silverbirch-inc_logo_thumb.png",
+            "width": 193,
+            "height": 70
+        }
+    },
+    {
+        "id": 962,
+        "name": "Lighthouse Interactive",
+        "slug": "lighthouse-interactive",
+        "average_rating": null,
+        "founded_year": 2005,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/lighthouse-interactive/images/company_logos/go/lighthouse-interactive_logo_thumb.png",
+            "width": 240,
+            "height": 472
+        }
+    },
+    {
+        "id": 1317,
+        "name": "Red Mile Entertainment",
+        "slug": "red-mile-entertainment",
+        "average_rating": null,
+        "founded_year": 2004,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/red-mile-entertainment/images/company_logos/gp/red-mile-entertainment_logo_thumb.png",
+            "width": 94,
+            "height": 113
+        }
+    },
+    {
+        "id": 1893,
+        "name": "PopCap Games",
+        "slug": "popcap-games",
+        "average_rating": "6.82935539882315",
+        "parent": null
+    },
+    {
+        "id": 2168,
+        "name": "Drinkbox Studios",
+        "slug": "drinkbox-studios",
+        "average_rating": "7.19939876188047",
+        "founded_year": 2008,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/drinkbox-studios/images/company_logos/1h/drinkbox-studios_logo_thumb.png",
+            "width": 579,
+            "height": 238
+        }
+    },
+    {
+        "id": 6932,
+        "name": "YoYo Games",
+        "slug": "yoyo-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6624,
+        "name": "Bumpkin Brothers",
+        "slug": "bumpkin-brothers",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/bumpkin-brothers/images/company_logos/gr/bumpkin-brothers_logo_thumb.png",
+            "width": 1024,
+            "height": 470
+        }
+    },
+    {
+        "id": 6933,
+        "name": "Parsec Productions",
+        "slug": "parsec-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6928,
+        "name": "SilverBirch Studios",
+        "slug": "silverbirch-studios",
+        "average_rating": null,
+        "founded_year": 2004,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/silverbirch-studios/images/company_logos/gn/silverbirch-studios_logo_thumb.png",
+            "width": 109,
+            "height": 165
+        }
+    },
+    {
+        "id": 6938,
+        "name": "Active Gaming Media Inc.",
+        "slug": "active-gaming-media-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1405,
+        "name": "Nippon Ichi Software",
+        "slug": "nippon-ichi-software",
+        "average_rating": null,
+        "founded_year": 1991,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/nippon-ichi-software/images/company_logos/e4/nippon-ichi-software_logo_thumb.png",
+            "width": 176,
+            "height": 114
+        }
+    },
+    {
+        "id": 6936,
+        "name": "Uglysoft",
+        "slug": "uglysoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6943,
+        "name": "Fever Pitch Studios",
+        "slug": "fever-pitch-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6937,
+        "name": "souvenir circ.",
+        "slug": "souvenir-circ",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6944,
+        "name": "Outpost Studios",
+        "slug": "outpost-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6945,
+        "name": "Polarity Post",
+        "slug": "polarity-post",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6946,
+        "name": "Centroid 3D Group",
+        "slug": "centroid-3d-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2309,
+        "name": "Ntreev Soft",
+        "slug": "ntreev-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6939,
+        "name": "klobit",
+        "slug": "klobit",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6953,
+        "name": "RABCAT Computer Graphics",
+        "slug": "rabcat-computer-graphics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6954,
+        "name": "Paint Orgue",
+        "slug": "paint-orgue",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6960,
+        "name": "Alpha Wave Entertainment",
+        "slug": "alpha-wave-entertainment",
+        "average_rating": null,
+        "founded_year": 2015,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/alpha-wave-entertainment/images/company_logos/h7/alpha-wave-entertainment_logo_thumb.png",
+            "width": 1200,
+            "height": 590
+        }
+    }
+]

@@ -1,0 +1,231 @@
+[
+    {
+        "id": 6958,
+        "name": "Digital Melody",
+        "slug": "digital-melody",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6957,
+        "name": "Flyhigh Works",
+        "slug": "flyhigh-works",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6959,
+        "name": "Gaijinworks",
+        "slug": "gaijinworks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6961,
+        "name": "AAD Productions",
+        "slug": "aad-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6962,
+        "name": "Phr00t's Software",
+        "slug": "phr00ts-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 223,
+        "name": "Edge of Reality",
+        "slug": "edge-of-reality",
+        "average_rating": "8.33141232921059",
+        "parent": null
+    },
+    {
+        "id": 4363,
+        "name": "AGM Playism",
+        "slug": "agm-playism",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1305,
+        "name": "ValuSoft",
+        "slug": "valusoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6971,
+        "name": "rokapublish GmbH",
+        "slug": "rokapublish-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6972,
+        "name": "Libredia",
+        "slug": "libredia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6965,
+        "name": "Allods Team",
+        "slug": "allods-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6966,
+        "name": "Mail.Ru Games",
+        "slug": "mail-dot-ru-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1,
+        "name": "Electronic Arts",
+        "slug": "electronic-arts",
+        "average_rating": "7.89454382210968",
+        "founded_year": 1982,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/electronic-arts/images/company_logos/f/electronic-arts_logo_thumb.png",
+            "width": 783,
+            "height": 783
+        }
+    },
+    {
+        "id": 284,
+        "name": "Maxis",
+        "slug": "maxis",
+        "average_rating": "8.12777294909161",
+        "founded_year": 1987,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/maxis/images/company_logos/2c/maxis_logo_thumb.png",
+            "width": 205,
+            "height": 137
+        }
+    },
+    {
+        "id": 2397,
+        "name": "King Art",
+        "slug": "king-art",
+        "average_rating": "6.12535791489004",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/king-art/images/company_logos/4a/king-art_logo_thumb.png",
+            "width": 439,
+            "height": 439
+        }
+    },
+    {
+        "id": 6977,
+        "name": "Golem Labs",
+        "slug": "golem-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 73,
+        "name": "Aspyr Media",
+        "slug": "aspyr-media",
+        "average_rating": "8.1029554746992",
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/aspyr-media/images/company_logos/ci/aspyr-media_logo_thumb.png",
+            "width": 521,
+            "height": 127
+        }
+    },
+    {
+        "id": 6978,
+        "name": "Pencil Test Studios",
+        "slug": "pencil-test-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6974,
+        "name": "Team Blacksea Odyssey",
+        "slug": "team-blacksea-odyssey",
+        "average_rating": null,
+        "founded_year": 2015,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/team-blacksea-odyssey/images/company_logos/gu/team-blacksea-odyssey_logo_thumb.png",
+            "width": 1080,
+            "height": 1080
+        }
+    },
+    {
+        "id": 2450,
+        "name": "Versus Evil",
+        "slug": "versus-evil",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/versus-evil/images/company_logos/fk/versus-evil_logo_thumb.png",
+            "width": 704,
+            "height": 650
+        }
+    },
+    {
+        "id": 116,
+        "name": "Bohemia Interactive Studio",
+        "slug": "bohemia-interactive-studio",
+        "average_rating": "8.02358953083658",
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/bohemia-interactive-studio/images/company_logos/gt/bohemia-interactive-studio_logo_thumb.png",
+            "width": 1280,
+            "height": 1024
+        }
+    },
+    {
+        "id": 6975,
+        "name": "Killjoy Games",
+        "slug": "killjoy-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 104,
+        "name": "Ubisoft Entertainment",
+        "slug": "ubisoft-entertainment",
+        "average_rating": "8.04894026256124",
+        "founded_year": 1986,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/ubisoft-entertainment/images/company_logos/1c/ubisoft-entertainment_logo_thumb.png",
+            "width": 256,
+            "height": 212
+        }
+    },
+    {
+        "id": 38,
+        "name": "Ubisoft Montreal",
+        "slug": "ubisoft-montreal",
+        "average_rating": "8.13072580618064",
+        "founded_year": 1997,
+        "parent": 104,
+        "company_logo": {
+            "url": "/companies/ubisoft-montreal/images/company_logos/1a/ubisoft-montreal_logo_thumb.png",
+            "width": 256,
+            "height": 212
+        }
+    },
+    {
+        "id": 143,
+        "name": "EA Games",
+        "slug": "ea-games",
+        "average_rating": "8.35729582199122",
+        "founded_year": 1982,
+        "parent": null
+    }
+]

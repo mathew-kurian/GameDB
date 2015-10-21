@@ -1,0 +1,198 @@
+[
+    {
+        "id": 5958,
+        "name": "Team Chaos LLC",
+        "slug": "team-chaos-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3192,
+        "name": "Krillbite Studio",
+        "slug": "krillbite-studio",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/krillbite-studio/images/company_logos/bn/krillbite-studio_logo_thumb.png",
+            "width": 160,
+            "height": 241
+        }
+    },
+    {
+        "id": 5964,
+        "name": "Heavy Spectrum Entertainment Labs",
+        "slug": "heavy-spectrum-entertainment-labs",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/heavy-spectrum-entertainment-labs/images/company_logos/dd/heavy-spectrum-entertainment-labs_logo_thumb.png",
+            "width": 1026,
+            "height": 990
+        }
+    },
+    {
+        "id": 5959,
+        "name": "B.Alive",
+        "slug": "balive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5962,
+        "name": "Motiga",
+        "slug": "motiga",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/motiga/images/company_logos/db/motiga_logo_thumb.png",
+            "width": 965,
+            "height": 1108
+        }
+    },
+    {
+        "id": 5963,
+        "name": "Klonk Games",
+        "slug": "klonk-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5971,
+        "name": "I 10 Q",
+        "slug": "i-10-q",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5968,
+        "name": "Geeta Game",
+        "slug": "geeta-game",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5969,
+        "name": "Interserv",
+        "slug": "interserv",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5966,
+        "name": "IMGN.PRO",
+        "slug": "imgn-dot-pro",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5970,
+        "name": "Mad Crew",
+        "slug": "mad-crew",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5967,
+        "name": "We Create Stuff",
+        "slug": "we-create-stuff",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5972,
+        "name": "White Wolf Publishing",
+        "slug": "white-wolf-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5973,
+        "name": "ATI Technologies",
+        "slug": "ati-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5974,
+        "name": "Macrovision",
+        "slug": "macrovision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5975,
+        "name": "Tabot, Inc.",
+        "slug": "tabot-inc--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1641,
+        "name": "Hello Games",
+        "slug": "hello-games",
+        "average_rating": null,
+        "founded_year": 2008,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/hello-games/images/company_logos/d9/hello-games_logo_thumb.png",
+            "width": 1822,
+            "height": 675
+        }
+    },
+    {
+        "id": 5976,
+        "name": "Prism Leisure Corporation Plc",
+        "slug": "prism-leisure-corporation-plc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5977,
+        "name": "Gainstar Software Ltd.",
+        "slug": "gainstar-software-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5978,
+        "name": "Rock Pocket Games",
+        "slug": "rock-pocket-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5979,
+        "name": "Big Pixel Studios",
+        "slug": "big-pixel-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5980,
+        "name": "John Carmack",
+        "slug": "john-carmack",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5965,
+        "name": "Fireproof Games",
+        "slug": "fireproof-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5981,
+        "name": "Take two interactive",
+        "slug": "take-two-interactive--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6036,
+        "name": "fonts101.com",
+        "slug": "fonts101-dot-com",
+        "average_rating": null,
+        "parent": null
+    }
+]

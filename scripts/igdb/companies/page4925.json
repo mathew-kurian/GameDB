@@ -1,0 +1,195 @@
+[
+    {
+        "id": 5320,
+        "name": "Omniconnection",
+        "slug": "omniconnection",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5326,
+        "name": "Camouflaj",
+        "slug": "camouflaj",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5322,
+        "name": "Galapagos RPG",
+        "slug": "galapagos-rpg",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": 2252,
+        "company_logo": {
+            "url": "/companies/galapagos-rpg/images/company_logos/do/galapagos-rpg_logo_thumb.png",
+            "width": 542,
+            "height": 173
+        }
+    },
+    {
+        "id": 1773,
+        "name": "Marvelous AQL Europe",
+        "slug": "marvelous-aql-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5337,
+        "name": "Tetsuro Naito Group",
+        "slug": "tetsuro-naito-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5338,
+        "name": "Six Degrees Music",
+        "slug": "six-degrees-music",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5328,
+        "name": "Depth Analysis Motionscan",
+        "slug": "depth-analysis-motionscan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5329,
+        "name": "Oil Factory Inc.",
+        "slug": "oil-factory-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5330,
+        "name": "MoAnima Holdings Limited",
+        "slug": "moanima-holdings-limited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5331,
+        "name": "GOATi Outsourcing",
+        "slug": "goati-outsourcing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5332,
+        "name": "TUI Studios",
+        "slug": "tui-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 50,
+        "name": "Warner Bros. Interactive Entertainment",
+        "slug": "warner-bros-interactive-entertainment",
+        "average_rating": "7.92683247608675",
+        "founded_year": 1993,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/warner-bros-interactive-entertainment/images/company_logos/16/warner-bros-interactive-entertainment_logo_thumb.png",
+            "width": 382,
+            "height": 321
+        }
+    },
+    {
+        "id": 5339,
+        "name": "Convoy Games",
+        "slug": "convoy-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5340,
+        "name": "Kinesoft",
+        "slug": "kinesoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5341,
+        "name": "Eikichi Kawaaki",
+        "slug": "eikichi-kawaaki",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5342,
+        "name": "electrolyte",
+        "slug": "electrolyte",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5348,
+        "name": "Elliptic Games",
+        "slug": "elliptic-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5343,
+        "name": "UFO Interactive Games",
+        "slug": "ufo-interactive-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5347,
+        "name": "Crytivo Games",
+        "slug": "crytivo-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5327,
+        "name": "Dark Enery Digital",
+        "slug": "dark-enery-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5324,
+        "name": "Experience Inc.",
+        "slug": "experience-inc",
+        "average_rating": null,
+        "founded_year": 2007,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/experience-inc/images/company_logos/fr/experience-inc_logo_thumb.png",
+            "width": 220,
+            "height": 86
+        }
+    },
+    {
+        "id": 5295,
+        "name": "Sting",
+        "slug": "sting",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5294,
+        "name": "Die Gute Fabrik",
+        "slug": "die-gute-fabrik",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5317,
+        "name": "Abbey Games",
+        "slug": "abbey-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5389,
+        "name": "Anaheim Entertainment",
+        "slug": "anaheim-entertainment",
+        "average_rating": null,
+        "parent": null
+    }
+]

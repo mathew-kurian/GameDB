@@ -1,0 +1,189 @@
+[
+    {
+        "id": 4224,
+        "name": "Endgame Studios",
+        "slug": "endgame-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4217,
+        "name": "Sarumatakumi",
+        "slug": "sarumatakumi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4218,
+        "name": "fuzichico",
+        "slug": "fuzichico",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4219,
+        "name": "Emigre Inc.",
+        "slug": "emigre-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4220,
+        "name": "Gen Ittetsu Strings",
+        "slug": "gen-ittetsu-strings",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4221,
+        "name": "SUGAMO Children's Chorus",
+        "slug": "sugamo-childrens-chorus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4222,
+        "name": "SHLOC Ltd.",
+        "slug": "shloc-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1945,
+        "name": "EA Sports BIG",
+        "slug": "ea-sports-big",
+        "average_rating": "8.33231726976288",
+        "founded_year": 2000,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/ea-sports-big/images/company_logos/3g/ea-sports-big_logo_thumb.png",
+            "width": 538,
+            "height": 538
+        }
+    },
+    {
+        "id": 4227,
+        "name": "Amblin Entertainment",
+        "slug": "amblin-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4232,
+        "name": "XDEV Studio Europe",
+        "slug": "xdev-studio-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4229,
+        "name": "Union Systems",
+        "slug": "union-systems",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4230,
+        "name": "Union Logic",
+        "slug": "union-logic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4231,
+        "name": "Perfect Entertainment",
+        "slug": "perfect-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4233,
+        "name": "Carbon Digital",
+        "slug": "carbon-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4234,
+        "name": "Surface Digital",
+        "slug": "surface-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4235,
+        "name": "The Station Interactive",
+        "slug": "the-station-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4236,
+        "name": "Super Massive Games",
+        "slug": "super-massive-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4237,
+        "name": "Productionac Create",
+        "slug": "productionac-create",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4241,
+        "name": "Film Victoria",
+        "slug": "film-victoria",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 94,
+        "name": "EA Digital Illusions CE",
+        "slug": "ea-digital-illusions-ce",
+        "average_rating": "7.58760733320092",
+        "founded_year": 2006,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/ea-digital-illusions-ce/images/company_logos/ae/ea-digital-illusions-ce_logo_thumb.png",
+            "width": 2000,
+            "height": 488
+        }
+    },
+    {
+        "id": 4228,
+        "name": "ZeroDiv",
+        "slug": "zerodiv",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1312,
+        "name": "Realtime Associates",
+        "slug": "realtime-associates",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4290,
+        "name": "Victor Musical Industries",
+        "slug": "victor-musical-industries",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 824,
+        "name": "Square Enix London Studios",
+        "slug": "square-enix-london-studios",
+        "average_rating": "8.30233761939934",
+        "parent": null
+    },
+    {
+        "id": 4238,
+        "name": "PixelJAM Games",
+        "slug": "pixeljam-games",
+        "average_rating": null,
+        "parent": null
+    }
+]

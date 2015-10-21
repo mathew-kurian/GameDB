@@ -1,0 +1,189 @@
+[
+    {
+        "id": 6193,
+        "name": "Omega Integral Systems",
+        "slug": "omega-integral-systems",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6201,
+        "name": "with the love studios",
+        "slug": "with-the-love-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6194,
+        "name": "Sigtrap Games",
+        "slug": "sigtrap-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6217,
+        "name": "Shovsoft",
+        "slug": "shovsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6195,
+        "name": "Brytenwalda",
+        "slug": "brytenwalda",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6203,
+        "name": "Coldrice Games",
+        "slug": "coldrice-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6184,
+        "name": "ASTRO PORT",
+        "slug": "astro-port",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2909,
+        "name": "FuRyu",
+        "slug": "furyu",
+        "average_rating": null,
+        "founded_year": 2007,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/furyu/images/company_logos/ex/furyu_logo_thumb.png",
+            "width": 300,
+            "height": 91
+        }
+    },
+    {
+        "id": 6181,
+        "name": "Cygames",
+        "slug": "cygames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 858,
+        "name": "Tecmo Koei",
+        "slug": "tecmo-koei",
+        "average_rating": "7.0",
+        "parent": null
+    },
+    {
+        "id": 864,
+        "name": "Hudson Soft",
+        "slug": "hudson-soft",
+        "average_rating": "7.4912110154148",
+        "founded_year": 1973,
+        "parent": 161,
+        "company_logo": {
+            "url": "/companies/hudson-soft/images/company_logos/47/hudson-soft_logo_thumb.png",
+            "width": 256,
+            "height": 44
+        }
+    },
+    {
+        "id": 6200,
+        "name": "Loveshack Entertainment",
+        "slug": "loveshack-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6212,
+        "name": "True Axis Pty. Ltd.",
+        "slug": "true-axis-pty-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6213,
+        "name": "Lupus Studios Limited",
+        "slug": "lupus-studios-limited",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6214,
+        "name": "SITER SKAIN",
+        "slug": "siter-skain",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6206,
+        "name": "Chaos Works",
+        "slug": "chaos-works",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6207,
+        "name": "Morgondag",
+        "slug": "morgondag",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6208,
+        "name": "Double Fine Presents",
+        "slug": "double-fine-presents",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6209,
+        "name": "Mobius Digital",
+        "slug": "mobius-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6222,
+        "name": "Khaled Bentebal",
+        "slug": "khaled-bentebal",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6210,
+        "name": "Nautilus",
+        "slug": "nautilus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6211,
+        "name": "Aruze",
+        "slug": "aruze",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6223,
+        "name": "Lag Studios",
+        "slug": "lag-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6216,
+        "name": "Nuclear Vision",
+        "slug": "nuclear-vision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6215,
+        "name": "Shibuya Productions",
+        "slug": "shibuya-productions",
+        "average_rating": null,
+        "parent": null
+    }
+]

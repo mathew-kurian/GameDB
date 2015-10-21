@@ -1,0 +1,200 @@
+[
+    {
+        "id": 7018,
+        "name": "astragon Sales & Services",
+        "slug": "astragon-sales-and-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7019,
+        "name": "C3SK",
+        "slug": "c3sk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 784,
+        "name": "Camelot Software Planning",
+        "slug": "camelot-software-planning",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7020,
+        "name": "Руссобит-М",
+        "slug": "russobit-m",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 29,
+        "name": "Rockstar Games",
+        "slug": "rockstar-games",
+        "average_rating": "8.35281862517598",
+        "parent": 139,
+        "company_logo": {
+            "url": "/companies/rockstar-games/images/company_logos/6/rockstar-games_logo_thumb.png",
+            "width": 2000,
+            "height": 1840
+        }
+    },
+    {
+        "id": 7021,
+        "name": "Trese Brothers",
+        "slug": "trese-brothers",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7028,
+        "name": "Steel Crate Games",
+        "slug": "steel-crate-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7029,
+        "name": "93 Games Studio",
+        "slug": "93-games-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 370,
+        "name": "Péndulo Studios",
+        "slug": "pendulo-studios",
+        "average_rating": "7.13238827170756",
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/pendulo-studios/images/company_logos/5i/pendulo-studios_logo_thumb.png",
+            "width": 680,
+            "height": 204
+        }
+    },
+    {
+        "id": 7030,
+        "name": "Moonpod",
+        "slug": "moonpod",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7022,
+        "name": "Sunlight Games",
+        "slug": "sunlight-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7025,
+        "name": "Snapshot Games",
+        "slug": "snapshot-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7023,
+        "name": "FiolaSoft Studio",
+        "slug": "fiolasoft-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7024,
+        "name": "Monogon Games",
+        "slug": "monogon-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 999,
+        "name": "Coffee Stain Studios",
+        "slug": "coffee-stain-studios",
+        "average_rating": "7.60011059569328",
+        "founded_year": 2010,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/coffee-stain-studios/images/company_logos/74/coffee-stain-studios_logo_thumb.png",
+            "width": 2610,
+            "height": 3105
+        }
+    },
+    {
+        "id": 7026,
+        "name": "KBros Games",
+        "slug": "kbros-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7027,
+        "name": "Nikola Kostic",
+        "slug": "nikola-kostic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7032,
+        "name": "Will O'Neill",
+        "slug": "will-oneill--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7034,
+        "name": "Cryptic Sea",
+        "slug": "cryptic-sea",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7035,
+        "name": "Chronic Logic",
+        "slug": "chronic-logic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4885,
+        "name": "Sakata SAS",
+        "slug": "sakata-sas",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7039,
+        "name": "Bigmoon Entertainment",
+        "slug": "bigmoon-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7033,
+        "name": "Different Cloth",
+        "slug": "different-cloth",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7036,
+        "name": "Technocrat Games",
+        "slug": "technocrat-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2763,
+        "name": "Wadjet Eye Games",
+        "slug": "wadjet-eye-games",
+        "average_rating": "8.02014332049127",
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/wadjet-eye-games/images/company_logos/1u/wadjet-eye-games_logo_thumb.png",
+            "width": 290,
+            "height": 72
+        }
+    }
+]

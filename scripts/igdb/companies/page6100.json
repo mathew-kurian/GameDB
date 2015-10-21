@@ -1,0 +1,211 @@
+[
+    {
+        "id": 6366,
+        "name": "Art & Magic",
+        "slug": "art-and-magic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2071,
+        "name": "Ariolasoft",
+        "slug": "ariolasoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6364,
+        "name": "General Computer Corporation (GCC)",
+        "slug": "general-computer-corporation-gcc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 938,
+        "name": "Coktel Vision",
+        "slug": "coktel-vision",
+        "average_rating": null,
+        "founded_year": 1985,
+        "parent": 489,
+        "company_logo": {
+            "url": "/companies/coktel-vision/images/company_logos/b4/coktel-vision_logo_thumb.png",
+            "width": 123,
+            "height": 120
+        }
+    },
+    {
+        "id": 70,
+        "name": "Nintendo",
+        "slug": "nintendo",
+        "average_rating": "8.24697698506873",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/nintendo/images/company_logos/9/nintendo_logo_thumb.png",
+            "width": 2000,
+            "height": 493
+        }
+    },
+    {
+        "id": 6363,
+        "name": "ASCII Media Works",
+        "slug": "ascii-media-works",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 368,
+        "name": "Infocom",
+        "slug": "infocom",
+        "average_rating": "8.37157884501869",
+        "parent": null
+    },
+    {
+        "id": 6365,
+        "name": "Ibid",
+        "slug": "ibid",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 387,
+        "name": "Sculptured Software",
+        "slug": "sculptured-software",
+        "average_rating": "8.96458176658699",
+        "founded_year": 1984,
+        "parent": 287,
+        "company_logo": {
+            "url": "/companies/sculptured-software/images/company_logos/84/sculptured-software_logo_thumb.png",
+            "width": 320,
+            "height": 224
+        }
+    },
+    {
+        "id": 1740,
+        "name": "Parker Brothers",
+        "slug": "parker-brothers",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 489,
+        "name": "Mindscape",
+        "slug": "mindscape",
+        "average_rating": "8.38317757009346",
+        "parent": null
+    },
+    {
+        "id": 157,
+        "name": "1C Company",
+        "slug": "1c-company",
+        "average_rating": "8.09318024498494",
+        "founded_year": 1991,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/1c-company/images/company_logos/4w/1c-company_logo_thumb.png",
+            "width": 940,
+            "height": 411
+        }
+    },
+    {
+        "id": 2889,
+        "name": "Mattel",
+        "slug": "mattel",
+        "average_rating": "8.37359756897663",
+        "parent": null
+    },
+    {
+        "id": 1076,
+        "name": "Datasoft, Inc.",
+        "slug": "datasoft-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 594,
+        "name": "Microïds",
+        "slug": "microids--1",
+        "average_rating": "8.53102294515331",
+        "parent": null
+    },
+    {
+        "id": 835,
+        "name": "Ronimo Games",
+        "slug": "ronimo-games",
+        "average_rating": "6.75067889908257",
+        "founded_year": 2007,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/ronimo-games/images/company_logos/gc/ronimo-games_logo_thumb.png",
+            "width": 2282,
+            "height": 3279
+        }
+    },
+    {
+        "id": 6066,
+        "name": "Koei Tecmo",
+        "slug": "koei-tecmo--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6379,
+        "name": "CIRCLE Entertainment",
+        "slug": "circle-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6380,
+        "name": "Intellisoft",
+        "slug": "intellisoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 278,
+        "name": "Silicon & Synapse",
+        "slug": "silicon-synapse",
+        "average_rating": "7.27874975019443",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/silicon-synapse/images/company_logos/f1/silicon-synapse_logo_thumb.png",
+            "width": 603,
+            "height": 253
+        }
+    },
+    {
+        "id": 6376,
+        "name": "Shadow Tor Studios",
+        "slug": "shadow-tor-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6373,
+        "name": "Gala Lab Corp.",
+        "slug": "gala-lab-corp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6374,
+        "name": "Aeonsoft",
+        "slug": "aeonsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6375,
+        "name": "Pinoki Games",
+        "slug": "pinoki-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2462,
+        "name": "Messhof",
+        "slug": "messhof",
+        "average_rating": "7.80241171148452",
+        "parent": null
+    }
+]

@@ -1,0 +1,213 @@
+[
+    {
+        "id": 51,
+        "name": "Blizzard Entertainment",
+        "slug": "blizzard-entertainment",
+        "average_rating": "8.59051253256322",
+        "founded_year": 1994,
+        "parent": 179,
+        "company_logo": {
+            "url": "/companies/blizzard-entertainment/images/company_logos/t/blizzard-entertainment_logo_thumb.png",
+            "width": 402,
+            "height": 241
+        }
+    },
+    {
+        "id": 6407,
+        "name": "Yurin Yurin",
+        "slug": "yurin-yurin",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": 6387,
+        "company_logo": {
+            "url": "/companies/yurin-yurin/images/company_logos/f3/yurin-yurin_logo_thumb.png",
+            "width": 420,
+            "height": 280
+        }
+    },
+    {
+        "id": 5152,
+        "name": "Bithell Games",
+        "slug": "bithell-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6324,
+        "name": "Fireglow Games",
+        "slug": "fireglow-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 510,
+        "name": "Larian Studios",
+        "slug": "larian-studios",
+        "average_rating": "8.0141094215889",
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/larian-studios/images/company_logos/dg/larian-studios_logo_thumb.png",
+            "width": 1734,
+            "height": 2686
+        }
+    },
+    {
+        "id": 1414,
+        "name": "Nexon Co. Ltd.",
+        "slug": "nexon-co-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6450,
+        "name": "Dubway Studios",
+        "slug": "dubway-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 146,
+        "name": "Strategy First",
+        "slug": "strategy-first",
+        "average_rating": "7.4834424218685",
+        "parent": null
+    },
+    {
+        "id": 392,
+        "name": "High Voltage Software",
+        "slug": "high-voltage-software",
+        "average_rating": "7.72131124074923",
+        "parent": null
+    },
+    {
+        "id": 6325,
+        "name": "KCEJ",
+        "slug": "kcej",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6455,
+        "name": "Carl Waltzer Digital Services",
+        "slug": "carl-waltzer-digital-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6456,
+        "name": "Centercode",
+        "slug": "centercode",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2252,
+        "name": "Compile Heart",
+        "slug": "compile-heart",
+        "average_rating": null,
+        "founded_year": 2006,
+        "parent": 1956,
+        "company_logo": {
+            "url": "/companies/compile-heart/images/company_logos/dp/compile-heart_logo_thumb.png",
+            "width": 500,
+            "height": 78
+        }
+    },
+    {
+        "id": 6370,
+        "name": "Kylotonn Entrtainment",
+        "slug": "kylotonn-entrtainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6457,
+        "name": "Combat Studios",
+        "slug": "combat-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4497,
+        "name": "Born Ready Games",
+        "slug": "born-ready-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6169,
+        "name": "Gravity Europe SAS",
+        "slug": "gravity-europe-sas",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6458,
+        "name": "John Marshall Media",
+        "slug": "john-marshall-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 129,
+        "name": "Konami",
+        "slug": "konami",
+        "average_rating": "8.21522458637957",
+        "founded_year": 1969,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/konami/images/company_logos/2o/konami_logo_thumb.png",
+            "width": 304,
+            "height": 69
+        }
+    },
+    {
+        "id": 3709,
+        "name": "ERE Infomatique",
+        "slug": "ere-infomatique",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2379,
+        "name": "Pony Canyon",
+        "slug": "pony-canyon",
+        "average_rating": "8.60460251046025",
+        "founded_year": 1966,
+        "parent": 3707,
+        "company_logo": {
+            "url": "/companies/pony-canyon/images/company_logos/al/pony-canyon_logo_thumb.png",
+            "width": 336,
+            "height": 161
+        }
+    },
+    {
+        "id": 6444,
+        "name": "THQ Montreal",
+        "slug": "thq-montreal",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6410,
+        "name": "Hybrid Technology",
+        "slug": "hybrid-technology",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6445,
+        "name": "Winking Entertainment",
+        "slug": "winking-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6448,
+        "name": "Brandon Productions",
+        "slug": "brandon-productions",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4402,
+        "name": "Ozone Interactive",
+        "slug": "ozone-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4403,
+        "name": "Talking Circle",
+        "slug": "talking-circle",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4404,
+        "name": "Wayde Carrol Photography",
+        "slug": "wayde-carrol-photography",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4405,
+        "name": "Cook Intel Tribal Council",
+        "slug": "cook-intel-tribal-council",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4357,
+        "name": "SCE Santa Monica Studio",
+        "slug": "sce-santa-monica-studio",
+        "average_rating": "8.76098343328034",
+        "parent": null
+    },
+    {
+        "id": 4356,
+        "name": "Giant Sparrow",
+        "slug": "giant-sparrow",
+        "average_rating": "8.76098343328034",
+        "parent": null
+    },
+    {
+        "id": 4406,
+        "name": "Arctic Slope Regional Corporation",
+        "slug": "arctic-slope-regional-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4407,
+        "name": "Rasmuson Foundation",
+        "slug": "rasmuson-foundation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4408,
+        "name": "CITC Enterprises",
+        "slug": "citc-enterprises",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4409,
+        "name": "Istvan Pely Productions",
+        "slug": "istvan-pely-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4410,
+        "name": "Presage Software",
+        "slug": "presage-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4412,
+        "name": "Pigasus Games",
+        "slug": "pigasus-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4416,
+        "name": "Deck 13",
+        "slug": "deck-13",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4413,
+        "name": "Bat Country Games",
+        "slug": "bat-country-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4414,
+        "name": "Haruneko Entertainment",
+        "slug": "haruneko-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1267,
+        "name": "Backbone Entertainment",
+        "slug": "backbone-entertainment",
+        "average_rating": "7.86605627516297",
+        "founded_year": 1992,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/backbone-entertainment/images/company_logos/2n/backbone-entertainment_logo_thumb.png",
+            "width": 71,
+            "height": 64
+        }
+    },
+    {
+        "id": 4417,
+        "name": "Mighty Rabbit Studios",
+        "slug": "mighty-rabbit-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4418,
+        "name": "Gun.",
+        "slug": "gun",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4420,
+        "name": "Game-Labs",
+        "slug": "game-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4423,
+        "name": "Zeboyd Games",
+        "slug": "zeboyd-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4424,
+        "name": "Psydra Games LLC",
+        "slug": "psydra-games-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4425,
+        "name": "Microblast Games",
+        "slug": "microblast-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4421,
+        "name": "Utopian World of Sandwiches",
+        "slug": "utopian-world-of-sandwiches",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4426,
+        "name": "Pixel Ferrets",
+        "slug": "pixel-ferrets",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4427,
+        "name": "Artplant",
+        "slug": "artplant",
+        "average_rating": null,
+        "parent": null
+    }
+]

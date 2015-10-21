@@ -1,0 +1,195 @@
+[
+    {
+        "id": 6355,
+        "name": "4Mation",
+        "slug": "4mation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6358,
+        "name": "FIP Publishing",
+        "slug": "fip-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6357,
+        "name": "X-bow Software",
+        "slug": "x-bow-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6356,
+        "name": "Electronic Zoo",
+        "slug": "electronic-zoo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 845,
+        "name": "Grasshopper Manufacture",
+        "slug": "grasshopper-manufacture",
+        "average_rating": null,
+        "founded_year": 1998,
+        "parent": 2016,
+        "company_logo": {
+            "url": "/companies/grasshopper-manufacture/images/company_logos/21/grasshopper-manufacture_logo_thumb.png",
+            "width": 538,
+            "height": 504
+        }
+    },
+    {
+        "id": 446,
+        "name": "Got Game Entertainment",
+        "slug": "got-game-entertainment",
+        "average_rating": "7.73176470588235",
+        "parent": null
+    },
+    {
+        "id": 1073,
+        "name": "Gamefreak",
+        "slug": "gamefreak",
+        "average_rating": "8.34928924060564",
+        "founded_year": 1989,
+        "parent": 70,
+        "company_logo": {
+            "url": "/companies/gamefreak/images/company_logos/34/gamefreak_logo_thumb.png",
+            "width": 199,
+            "height": 136
+        }
+    },
+    {
+        "id": 6352,
+        "name": "Serenity Forge",
+        "slug": "serenity-forge",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5357,
+        "name": "Digital Reality",
+        "slug": "digital-reality",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1152,
+        "name": "International Computer Entertainment",
+        "slug": "international-computer-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 114,
+        "name": "reLINE Software",
+        "slug": "reline-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6359,
+        "name": "Elite Games Team",
+        "slug": "elite-games-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2216,
+        "name": "Shift",
+        "slug": "shift",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6360,
+        "name": "Nvizzio Creations",
+        "slug": "nvizzio-creations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 547,
+        "name": "Accolade",
+        "slug": "accolade",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3721,
+        "name": "Dan Gorlin",
+        "slug": "dan-gorlin",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6361,
+        "name": "Data Age",
+        "slug": "data-age",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2420,
+        "name": "Panasonic",
+        "slug": "panasonic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6367,
+        "name": "Softek",
+        "slug": "softek",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6362,
+        "name": "Nova Game Design",
+        "slug": "nova-game-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 141,
+        "name": "Virgin Interactive",
+        "slug": "virgin-interactive",
+        "average_rating": "8.27808897797897",
+        "founded_year": 1981,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/virgin-interactive/images/company_logos/2q/virgin-interactive_logo_thumb.png",
+            "width": 156,
+            "height": 190
+        }
+    },
+    {
+        "id": 1851,
+        "name": "T&E Soft",
+        "slug": "t-e-soft",
+        "average_rating": "7.27874975019443",
+        "parent": null
+    },
+    {
+        "id": 1157,
+        "name": "Paragon Software Corporation",
+        "slug": "paragon-software-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1158,
+        "name": "Jagware",
+        "slug": "jagware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1160,
+        "name": "Thalion Software",
+        "slug": "thalion-software",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "id": 4088,
+        "name": "Masatsugu Shinozaki Group",
+        "slug": "masatsugu-shinozaki-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 121,
+        "name": "Blizzard Classic Arcade",
+        "slug": "blizzard-classic-arcade",
+        "average_rating": "7.27874975019443",
+        "parent": null
+    },
+    {
+        "id": 4092,
+        "name": "N3V Games",
+        "slug": "n3v-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4093,
+        "name": "H2 Interactive",
+        "slug": "h2-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4094,
+        "name": "Aldorlea Games",
+        "slug": "aldorlea-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4097,
+        "name": "Vertigo Games ",
+        "slug": "vertigo-games--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 118,
+        "name": "Paradox Development",
+        "slug": "paradox-development",
+        "average_rating": "8.34792069414405",
+        "parent": null
+    },
+    {
+        "id": 324,
+        "name": "Square Soft",
+        "slug": "square-soft",
+        "average_rating": "8.92157232710873",
+        "parent": null
+    },
+    {
+        "id": 4072,
+        "name": "LSP",
+        "slug": "lsp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4051,
+        "name": "Kokopeli Digital Studios",
+        "slug": "kokopeli-digital-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4060,
+        "name": "Adult Swim",
+        "slug": "adult-swim",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 56,
+        "name": "Valve Corporation",
+        "slug": "valve-corporation",
+        "average_rating": "8.16828903694818",
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/valve-corporation/images/company_logos/3e/valve-corporation_logo_thumb.png",
+            "width": 800,
+            "height": 219
+        }
+    },
+    {
+        "id": 4091,
+        "name": "PQube",
+        "slug": "pqube--1",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/pqube--1/images/company_logos/dn/pqube--1_logo_thumb.png",
+            "width": 194,
+            "height": 63
+        }
+    },
+    {
+        "id": 4096,
+        "name": "Vertigo Games",
+        "slug": "vertigo-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4100,
+        "name": "Aventurine SA",
+        "slug": "aventurine-sa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4098,
+        "name": "Bootleg",
+        "slug": "bootleg",
+        "average_rating": "7.8189072819118",
+        "parent": null
+    },
+    {
+        "id": 4099,
+        "name": "Open Corp",
+        "slug": "open-corp",
+        "average_rating": "7.8189072819118",
+        "parent": null
+    },
+    {
+        "id": 4103,
+        "name": "SRD Co., Ltd.",
+        "slug": "srd-co-dot-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4101,
+        "name": "Aventurine",
+        "slug": "aventurine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4067,
+        "name": "WJS Design",
+        "slug": "wjs-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4076,
+        "name": "Tynesoft",
+        "slug": "tynesoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 367,
+        "name": "Gray Matter Interactive",
+        "slug": "gray-matter-interactive",
+        "average_rating": "8.11132887014047",
+        "founded_year": 1994,
+        "parent": 66,
+        "company_logo": {
+            "url": "/companies/gray-matter-interactive/images/company_logos/2u/gray-matter-interactive_logo_thumb.png",
+            "width": 308,
+            "height": 148
+        }
+    },
+    {
+        "id": 4139,
+        "name": "John Sands Electronics",
+        "slug": "john-sands-electronics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4134,
+        "name": "Upper One Games",
+        "slug": "upper-one-games",
+        "average_rating": "7.10724891842348",
+        "parent": null
+    },
+    {
+        "id": 4119,
+        "name": "Mirrorsoft",
+        "slug": "mirrorsoft",
+        "average_rating": "9.29211261133525",
+        "parent": null
+    }
+]

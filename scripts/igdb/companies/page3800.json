@@ -1,0 +1,196 @@
+[
+    {
+        "id": 4278,
+        "name": "Pixeltek Branch",
+        "slug": "pixeltek-branch",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4279,
+        "name": "Sprout Games",
+        "slug": "sprout-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4280,
+        "name": "Flying Bear Entertainment",
+        "slug": "flying-bear-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4281,
+        "name": "Raptisoft Games",
+        "slug": "raptisoft-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4294,
+        "name": "Culturetranslate",
+        "slug": "culturetranslate",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4428,
+        "name": "Basecamp Games",
+        "slug": "basecamp-games",
+        "average_rating": null,
+        "founded_year": 2014,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/basecamp-games/images/company_logos/8k/basecamp-games_logo_thumb.png",
+            "width": 603,
+            "height": 874
+        }
+    },
+    {
+        "id": 4322,
+        "name": "Signus",
+        "slug": "signus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4299,
+        "name": "Century Interactive",
+        "slug": "century-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4319,
+        "name": "IAGTG",
+        "slug": "iagtg",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4321,
+        "name": "Adventure Productins",
+        "slug": "adventure-productins",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4429,
+        "name": "Linden Lab",
+        "slug": "linden-lab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4370,
+        "name": "JonnyWallace",
+        "slug": "jonnywallace",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4419,
+        "name": "Conifer Games",
+        "slug": "conifer-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4372,
+        "name": "Aaron Reed",
+        "slug": "aaron-reed",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4320,
+        "name": "Adventure Productions",
+        "slug": "adventure-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4189,
+        "name": "Tenpei Studio",
+        "slug": "tenpei-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4190,
+        "name": "ARASYSTEM Inc.",
+        "slug": "arasystem-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 902,
+        "name": "Yager Development",
+        "slug": "yager-development",
+        "average_rating": "8.26882770855958",
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/yager-development/images/company_logos/4i/yager-development_logo_thumb.png",
+            "width": 1200,
+            "height": 1061
+        }
+    },
+    {
+        "id": 4191,
+        "name": "O-TWO Inc.",
+        "slug": "o-two-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 389,
+        "name": "Universomo",
+        "slug": "universomo",
+        "average_rating": "7.84488702657979",
+        "parent": null
+    },
+    {
+        "id": 365,
+        "name": "Rockstar North",
+        "slug": "rockstar-north",
+        "average_rating": "8.41997002249922",
+        "founded_year": 2002,
+        "parent": 29,
+        "company_logo": {
+            "url": "/companies/rockstar-north/images/company_logos/g/rockstar-north_logo_thumb.png",
+            "width": 1000,
+            "height": 920
+        }
+    },
+    {
+        "id": 4192,
+        "name": "NAC Inc.",
+        "slug": "nac-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 11,
+        "name": "EA Redwood Shores",
+        "slug": "ea-redwood-shores",
+        "average_rating": "7.29713021018452",
+        "founded_year": 1998,
+        "parent": 1
+    },
+    {
+        "id": 4178,
+        "name": "HBO",
+        "slug": "hbo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4193,
+        "name": "TOTONYAN Co., Ltd.",
+        "slug": "totonyan-co-dot-ltd",
+        "average_rating": null,
+        "parent": null
+    }
+]

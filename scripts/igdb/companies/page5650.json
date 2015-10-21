@@ -1,0 +1,229 @@
+[
+    {
+        "id": 6055,
+        "name": "Key Visual Arts",
+        "slug": "key-visual-arts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3031,
+        "name": "Key",
+        "slug": "key",
+        "average_rating": null,
+        "founded_year": 1998,
+        "parent": 2648,
+        "company_logo": {
+            "url": "/companies/key/images/company_logos/dh/key_logo_thumb.png",
+            "width": 1000,
+            "height": 737
+        }
+    },
+    {
+        "id": 2648,
+        "name": "Visual Art's",
+        "slug": "visual-arts",
+        "average_rating": null,
+        "founded_year": 1991,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/visual-arts/images/company_logos/di/visual-arts_logo_thumb.png",
+            "width": 596,
+            "height": 169
+        }
+    },
+    {
+        "id": 6054,
+        "name": "Uppercut Games",
+        "slug": "uppercut-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2005,
+        "name": "Acclaim Studios Austin",
+        "slug": "acclaim-studios-austin",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6056,
+        "name": "A Crowd of Monsters",
+        "slug": "a-crowd-of-monsters",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6052,
+        "name": "Alan Zucconi",
+        "slug": "alan-zucconi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6053,
+        "name": "Gathering",
+        "slug": "gathering",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6084,
+        "name": "Yakiniku Banzai",
+        "slug": "yakiniku-banzai",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/yakiniku-banzai/images/company_logos/eo/yakiniku-banzai_logo_thumb.png",
+            "width": 1024,
+            "height": 768
+        }
+    },
+    {
+        "id": 6092,
+        "name": "5 Lives Studios",
+        "slug": "5-lives-studios",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/5-lives-studios/images/company_logos/es/5-lives-studios_logo_thumb.png",
+            "width": 400,
+            "height": 400
+        }
+    },
+    {
+        "id": 2055,
+        "name": "Clover Studio",
+        "slug": "clover-studio",
+        "average_rating": "8.59577406403412",
+        "founded_year": 2004,
+        "parent": 37,
+        "company_logo": {
+            "url": "/companies/clover-studio/images/company_logos/ej/clover-studio_logo_thumb.png",
+            "width": 720,
+            "height": 266
+        }
+    },
+    {
+        "id": 6064,
+        "name": "Tendershoot",
+        "slug": "tendershoot",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6257,
+        "name": "Corbis Corporation",
+        "slug": "corbis-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6075,
+        "name": "Denneko Yuugi",
+        "slug": "denneko-yuugi",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 295,
+        "name": "Origin Systems",
+        "slug": "origin-systems",
+        "average_rating": "8.17027482121074",
+        "founded_year": 1983,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/origin-systems/images/company_logos/2s/origin-systems_logo_thumb.png",
+            "width": 184,
+            "height": 167
+        }
+    },
+    {
+        "id": 6015,
+        "name": "Blazing Badger",
+        "slug": "blazing-badger",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/blazing-badger/images/company_logos/gs/blazing-badger_logo_thumb.png",
+            "width": 1024,
+            "height": 768
+        }
+    },
+    {
+        "id": 6059,
+        "name": "French Bread",
+        "slug": "french-bread",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6019,
+        "name": "Forgotten Empires LLC",
+        "slug": "forgotten-empires-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6067,
+        "name": "Aquiris Game Studio",
+        "slug": "aquiris-game-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6060,
+        "name": "Soft Pro International",
+        "slug": "soft-pro-international",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6061,
+        "name": "Nikitova",
+        "slug": "nikitova",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6023,
+        "name": "Extend Interactive",
+        "slug": "extend-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6062,
+        "name": "Front Wing",
+        "slug": "front-wing",
+        "average_rating": null,
+        "founded_year": 2000,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/front-wing/images/company_logos/dj/front-wing_logo_thumb.png",
+            "width": 240,
+            "height": 150
+        }
+    },
+    {
+        "id": 6080,
+        "name": "Tiger and Squid",
+        "slug": "tiger-and-squid",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 766,
+        "name": "Retro Studios",
+        "slug": "retro-studios",
+        "average_rating": "8.90426478573755",
+        "founded_year": 1998,
+        "parent": 773,
+        "company_logo": {
+            "url": "/companies/retro-studios/images/company_logos/ek/retro-studios_logo_thumb.png",
+            "width": 480,
+            "height": 236
+        }
+    }
+]

@@ -1,0 +1,183 @@
+[
+    {
+        "id": 3993,
+        "name": "IMGS, INC.",
+        "slug": "imgs-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4000,
+        "name": "Bug-Tracker INC.",
+        "slug": "bug-tracker-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4001,
+        "name": "Sega of Europe",
+        "slug": "sega-of-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4002,
+        "name": "Sega UK",
+        "slug": "sega-uk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4017,
+        "name": "Earbash Inc.",
+        "slug": "earbash-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 482,
+        "name": "Revolution Software",
+        "slug": "revolution-software",
+        "average_rating": "8.09296300244741",
+        "founded_year": 1990,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/revolution-software/images/company_logos/9d/revolution-software_logo_thumb.png",
+            "width": 200,
+            "height": 292
+        }
+    },
+    {
+        "id": 4049,
+        "name": "Ravensburger Interactive Media",
+        "slug": "ravensburger-interactive-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4030,
+        "name": "Mobliss",
+        "slug": "mobliss",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4031,
+        "name": "Darkblack",
+        "slug": "darkblack",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4032,
+        "name": "Sapient Corporation",
+        "slug": "sapient-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4050,
+        "name": "DePaul University students",
+        "slug": "depaul-university-students",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4033,
+        "name": "GL33K, LLC",
+        "slug": "gl33k-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4034,
+        "name": "Nintendo of Europe",
+        "slug": "nintendo-of-europe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4035,
+        "name": "Polyassets United Inc.",
+        "slug": "polyassets-united-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4036,
+        "name": "SomaTone Audio",
+        "slug": "somatone-audio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2244,
+        "name": "Katauri Interactive",
+        "slug": "katauri-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4037,
+        "name": "Kylin Magical Image",
+        "slug": "kylin-magical-image",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4028,
+        "name": "Citizen Software",
+        "slug": "citizen-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4038,
+        "name": "Little Red Zombies",
+        "slug": "little-red-zombies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4039,
+        "name": "Xi'an Panish Informantion Technology",
+        "slug": "xian-panish-informantion-technology",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4040,
+        "name": "Snark Co. Ltd",
+        "slug": "snark-co-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4041,
+        "name": "The Third Floor Inc.",
+        "slug": "the-third-floor-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4042,
+        "name": "TZWART Software",
+        "slug": "tzwart-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4115,
+        "name": "Lion Entertainment",
+        "slug": "lion-entertainment",
+        "average_rating": "8.98550016478665",
+        "parent": null
+    },
+    {
+        "id": 4043,
+        "name": "Quantic Labs",
+        "slug": "quantic-labs",
+        "average_rating": null,
+        "parent": null
+    }
+]

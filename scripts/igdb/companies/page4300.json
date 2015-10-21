@@ -1,0 +1,189 @@
+[
+    {
+        "id": 4732,
+        "name": "Lunar Software",
+        "slug": "lunar-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1942,
+        "name": "Oxygen Games",
+        "slug": "oxygen-games",
+        "average_rating": null,
+        "founded_year": 2001,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/oxygen-games/images/company_logos/b9/oxygen-games_logo_thumb.png",
+            "width": 400,
+            "height": 314
+        }
+    },
+    {
+        "id": 4747,
+        "name": "Robotality",
+        "slug": "robotality",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4749,
+        "name": "SiCh Studio",
+        "slug": "sich-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4751,
+        "name": "Soviet Games",
+        "slug": "soviet-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4775,
+        "name": "Spiderling Studios",
+        "slug": "spiderling-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4764,
+        "name": "Curious Panda Games",
+        "slug": "curious-panda-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4753,
+        "name": "Beatshapers",
+        "slug": "beatshapers",
+        "average_rating": "7.52021274702264",
+        "parent": null
+    },
+    {
+        "id": 4932,
+        "name": "MindBlocks Studio, LLC ",
+        "slug": "mindblocks-studio-llc--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4941,
+        "name": "Eidos US",
+        "slug": "eidos-us",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4892,
+        "name": "Oryx Design Lab",
+        "slug": "oryx-design-lab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4894,
+        "name": "SCE Santa Monica Studio ",
+        "slug": "sce-santa-monica-studio--1",
+        "average_rating": "7.12778657349794",
+        "parent": null
+    },
+    {
+        "id": 4898,
+        "name": "Ubisoft Reflections ",
+        "slug": "ubisoft-reflections--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4940,
+        "name": "Square Enix Europe",
+        "slug": "square-enix-europe",
+        "average_rating": "9.82825790066368",
+        "parent": null
+    },
+    {
+        "id": 4740,
+        "name": "Hanako Games",
+        "slug": "hanako-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4748,
+        "name": "Wonderstruck Games",
+        "slug": "wonderstruck-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4745,
+        "name": "JoyMasher",
+        "slug": "joymasher",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4895,
+        "name": "Supermassive Games",
+        "slug": "supermassive-games",
+        "average_rating": "8.80044066425089",
+        "founded_year": 2008,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/supermassive-games/images/company_logos/em/supermassive-games_logo_thumb.png",
+            "width": 330,
+            "height": 93
+        }
+    },
+    {
+        "id": 4899,
+        "name": "Ubisoft Red Storm ",
+        "slug": "ubisoft-red-storm--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4933,
+        "name": "Mindfield Games",
+        "slug": "mindfield-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4942,
+        "name": "Square Enix Deutschland",
+        "slug": "square-enix-deutschland",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4937,
+        "name": "Vicon",
+        "slug": "vicon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4938,
+        "name": "Engine Room Games",
+        "slug": "engine-room-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4756,
+        "name": "Area 52 Games",
+        "slug": "area-52-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4738,
+        "name": "Rake in Grass",
+        "slug": "rake-in-grass",
+        "average_rating": null,
+        "parent": null
+    }
+]

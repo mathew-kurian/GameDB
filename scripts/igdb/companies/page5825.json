@@ -1,0 +1,195 @@
+[
+    {
+        "id": 6140,
+        "name": "Propeller",
+        "slug": "propeller",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6137,
+        "name": "GriN Gamestudio",
+        "slug": "grin-gamestudio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3956,
+        "name": "IronMonkey Studios",
+        "slug": "ironmonkey-studios",
+        "average_rating": "6.73683182196367",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/ironmonkey-studios/images/company_logos/e8/ironmonkey-studios_logo_thumb.png",
+            "width": 160,
+            "height": 57
+        }
+    },
+    {
+        "id": 6142,
+        "name": "Fishing Cactus",
+        "slug": "fishing-cactus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6143,
+        "name": "DDD Wares",
+        "slug": "ddd-wares",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6146,
+        "name": "Commodore Gaming",
+        "slug": "commodore-gaming",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6149,
+        "name": "Army Game Studio",
+        "slug": "army-game-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6144,
+        "name": "Helsinki GameWorks Ltd.",
+        "slug": "helsinki-gameworks-ltd",
+        "average_rating": null,
+        "founded_year": 2014,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/helsinki-gameworks-ltd/images/company_logos/ec/helsinki-gameworks-ltd_logo_thumb.png",
+            "width": 640,
+            "height": 640
+        }
+    },
+    {
+        "id": 6148,
+        "name": "Virtual Heroes",
+        "slug": "virtual-heroes",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6270,
+        "name": "Softword",
+        "slug": "softword",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6145,
+        "name": "Codebrush Games",
+        "slug": "codebrush-games",
+        "average_rating": null,
+        "founded_year": 2008,
+        "parent": 3911
+    },
+    {
+        "id": 6271,
+        "name": "Comm4u",
+        "slug": "comm4u",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6272,
+        "name": "Character Localization",
+        "slug": "character-localization",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2601,
+        "name": "Recoil Games",
+        "slug": "recoil-games",
+        "average_rating": "5.76385150699547",
+        "founded_year": 2006,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/recoil-games/images/company_logos/eb/recoil-games_logo_thumb.png",
+            "width": 277,
+            "height": 80
+        }
+    },
+    {
+        "id": 6175,
+        "name": "Bones Park Software Artistic",
+        "slug": "bones-park-software-artistic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6176,
+        "name": "The Oliver Twins",
+        "slug": "the-oliver-twins",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6177,
+        "name": "Anisoptera Games",
+        "slug": "anisoptera-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6204,
+        "name": "earrgames",
+        "slug": "earrgames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6198,
+        "name": "Fishcow Studio",
+        "slug": "fishcow-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6202,
+        "name": "Flying Interactive",
+        "slug": "flying-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6205,
+        "name": "Digital Arrow",
+        "slug": "digital-arrow",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6196,
+        "name": "American Game Cartridges",
+        "slug": "american-game-cartridges",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6197,
+        "name": "Horror Soft",
+        "slug": "horror-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6199,
+        "name": "Fishcow Studio",
+        "slug": "fishcow-studio--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6120,
+        "name": "DeNA Co., Ltd.",
+        "slug": "dena-co-dot-ltd",
+        "average_rating": null,
+        "parent": null
+    }
+]

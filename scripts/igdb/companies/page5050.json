@@ -1,0 +1,183 @@
+[
+    {
+        "id": 5454,
+        "name": "Phosphor Games ",
+        "slug": "phosphor-games--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5460,
+        "name": "Auric Vision",
+        "slug": "auric-vision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5513,
+        "name": "Icons by Lorc",
+        "slug": "icons-by-lorc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5461,
+        "name": "Game Refuge Inc",
+        "slug": "game-refuge-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5505,
+        "name": "Centauro Comunicaciones",
+        "slug": "centauro-comunicaciones",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5506,
+        "name": "DNA Diseño en Audio",
+        "slug": "dna-diseno-en-audio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5507,
+        "name": "Spring Media Studio",
+        "slug": "spring-media-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5508,
+        "name": "Som de Vera Cruz Estúdios Cinematográficos",
+        "slug": "som-de-vera-cruz-estudios-cinematograficos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5514,
+        "name": "Annosoft LLC",
+        "slug": "annosoft-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5515,
+        "name": "RAD Software",
+        "slug": "rad-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5516,
+        "name": "Side Effects Software",
+        "slug": "side-effects-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5517,
+        "name": "Welcome to 1979 Studios",
+        "slug": "welcome-to-1979-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5518,
+        "name": "Innovative Leisure",
+        "slug": "innovative-leisure",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5519,
+        "name": "At The End Studios",
+        "slug": "at-the-end-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5520,
+        "name": "Basement Records",
+        "slug": "basement-records",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5521,
+        "name": "Cutting Edge Music Services",
+        "slug": "cutting-edge-music-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5522,
+        "name": "Zip Global",
+        "slug": "zip-global",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5523,
+        "name": "Goblin",
+        "slug": "goblin",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5524,
+        "name": "Sound Racer",
+        "slug": "sound-racer",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5525,
+        "name": "Paon Corporation",
+        "slug": "paon-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5526,
+        "name": "Rideon",
+        "slug": "rideon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 61,
+        "name": "Gameloft",
+        "slug": "gameloft",
+        "average_rating": "7.6526134538872",
+        "founded_year": 1999,
+        "parent": 2699,
+        "company_logo": {
+            "url": "/companies/gameloft/images/company_logos/39/gameloft_logo_thumb.png",
+            "width": 290,
+            "height": 206
+        }
+    },
+    {
+        "id": 5527,
+        "name": "Rainbow Train",
+        "slug": "rainbow-train",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5530,
+        "name": "Blue Mammoth Games",
+        "slug": "blue-mammoth-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5462,
+        "name": "Finji",
+        "slug": "finji",
+        "average_rating": null,
+        "parent": null
+    }
+]

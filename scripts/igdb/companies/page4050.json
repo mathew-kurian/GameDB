@@ -1,0 +1,188 @@
+[
+    {
+        "id": 4527,
+        "name": "Boondoggle Studios",
+        "slug": "boondoggle-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4528,
+        "name": "Revolution Studios",
+        "slug": "revolution-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4549,
+        "name": "14th Street Music",
+        "slug": "14th-street-music",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 224,
+        "name": "3D Realms",
+        "slug": "3d-realms",
+        "average_rating": "8.18036833426374",
+        "founded_year": 1987,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/3d-realms/images/company_logos/bt/3d-realms_logo_thumb.png",
+            "width": 1210,
+            "height": 564
+        }
+    },
+    {
+        "id": 4537,
+        "name": "Nerd³ Games",
+        "slug": "nerd3-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4440,
+        "name": "Adult Swim Games",
+        "slug": "adult-swim-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4509,
+        "name": "Mystique",
+        "slug": "mystique",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/mystique/images/company_logos/d6/mystique_logo_thumb.png",
+            "width": 300,
+            "height": 76
+        }
+    },
+    {
+        "id": 4501,
+        "name": "DotEmu",
+        "slug": "dotemu",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4551,
+        "name": "PandaPanther",
+        "slug": "pandapanther",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4529,
+        "name": "Macadamia Soft",
+        "slug": "macadamia-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4531,
+        "name": "Micro Cabin",
+        "slug": "micro-cabin",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4542,
+        "name": "Eden Industries",
+        "slug": "eden-industries",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4544,
+        "name": "PicsAndPixels",
+        "slug": "picsandpixels",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4545,
+        "name": "Clickteam",
+        "slug": "clickteam",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4552,
+        "name": "SuperGenius",
+        "slug": "supergenius",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4539,
+        "name": "PlayEveryWare",
+        "slug": "playeveryware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4540,
+        "name": "Ansimuz Games",
+        "slug": "ansimuz-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4546,
+        "name": "KaggyFilms",
+        "slug": "kaggyfilms",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4547,
+        "name": "RO Design",
+        "slug": "ro-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4548,
+        "name": "Creata (USA)",
+        "slug": "creata-usa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4553,
+        "name": "Jump Comics",
+        "slug": "jump-comics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4554,
+        "name": "On-Lead",
+        "slug": "on-lead",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4555,
+        "name": "E-Smile",
+        "slug": "e-smile",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4556,
+        "name": "Aether",
+        "slug": "aether",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4557,
+        "name": "Graphinica",
+        "slug": "graphinica",
+        "average_rating": null,
+        "parent": null
+    }
+]

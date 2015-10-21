@@ -39,9 +39,7 @@ var App = React.createClass({
             </div>
           </div>
         </Parallax>
-        <Parallax
-          bgImage={$ASSETS + "images/utaustin-0.jpg"}
-          strength={100}>
+        <Parallax bgImage={$ASSETS + "images/utaustin-0.jpg"} strength={100}>
           <div style={{height:350,textAlign:"center"}}>
             <div className='center-vertical' style={{width:430,margin: "0 auto"}}>
               <div
@@ -62,26 +60,26 @@ var App = React.createClass({
 
         <div className="flex" style={{height:H,position:'fixed',bottom:0,left:0,right:0}}>
           <div className="box full">
-            <a  href="about.html"
-              style={{background: '#ffc846', color: '#000', display: 'inline-block', fontSize: 12, textTransform: 'uppercase', letterSpacing: 1, fontWeight: 400, lineHeight: H + 'px',borderRight:'1px solid #e4ae29', textDecoration:'none',textAlign:'center',width:'100%'}}>
+            <a href="about.html"
+               style={{background: '#ffc846', color: '#000', display: 'inline-block', fontSize: 12, textTransform: 'uppercase', letterSpacing: 1, fontWeight: 400, lineHeight: H + 'px',borderRight:'1px solid #e4ae29', textDecoration:'none',textAlign:'center',width:'100%'}}>
               <b>About</b> Team
             </a>
           </div>
           <div className="box full">
-            <a  href="games.html"
-              style={{background: '#ffc846', color: '#000', display: 'inline-block', fontSize: 12, textTransform: 'uppercase', letterSpacing: 1, fontWeight: 400, lineHeight: H + 'px',borderRight:'1px solid #e4ae29',textDecoration:'none', textAlign:'center',width:'100%'}}>
+            <a href="games.html"
+               style={{background: '#ffc846', color: '#000', display: 'inline-block', fontSize: 12, textTransform: 'uppercase', letterSpacing: 1, fontWeight: 400, lineHeight: H + 'px',borderRight:'1px solid #e4ae29',textDecoration:'none', textAlign:'center',width:'100%'}}>
               <b>Games</b> Model
             </a>
           </div>
           <div className="box full">
-            <a  href="releases.html"
-              style={{background: '#ffc846', color: '#000', display: 'inline-block', fontSize: 12, textTransform: 'uppercase', letterSpacing: 1, fontWeight: 400, lineHeight: H + 'px',borderRight:'1px solid #e4ae29', textDecoration:'none',textAlign:'center',width:'100%'}}>
+            <a href="releases.html"
+               style={{background: '#ffc846', color: '#000', display: 'inline-block', fontSize: 12, textTransform: 'uppercase', letterSpacing: 1, fontWeight: 400, lineHeight: H + 'px',borderRight:'1px solid #e4ae29', textDecoration:'none',textAlign:'center',width:'100%'}}>
               <b>Releases</b> Model
             </a>
           </div>
           <div className="box full">
             <a href="publishers.html"
-              style={{background: '#ffc846', color: '#000', display: 'inline-block', fontSize: 12, textTransform: 'uppercase', letterSpacing: 1, fontWeight: 400, lineHeight: H + 'px', textDecoration:'none',textAlign:'center',width:'100%'}}>
+               style={{background: '#ffc846', color: '#000', display: 'inline-block', fontSize: 12, textTransform: 'uppercase', letterSpacing: 1, fontWeight: 400, lineHeight: H + 'px', textDecoration:'none',textAlign:'center',width:'100%'}}>
               <b>Publishers</b> Model
             </a>
           </div>

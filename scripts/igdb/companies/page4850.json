@@ -1,0 +1,189 @@
+[
+    {
+        "id": 2925,
+        "name": "Seibu Kaihatsu",
+        "slug": "seibu-kaihatsu",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5352,
+        "name": "Clever Beans",
+        "slug": "clever-beans",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5353,
+        "name": "Infogrames Studios",
+        "slug": "infogrames-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5354,
+        "name": "Flow Combine",
+        "slug": "flow-combine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5355,
+        "name": "YUKE’S Co., Ltd.",
+        "slug": "yukes-co-dot-ltd",
+        "average_rating": "6.49380834773093",
+        "parent": null
+    },
+    {
+        "id": 5356,
+        "name": "Beavis Soft",
+        "slug": "beavis-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5311,
+        "name": "Gray Design Associates",
+        "slug": "gray-design-associates",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5424,
+        "name": "Dayjob Studios",
+        "slug": "dayjob-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5358,
+        "name": "Lucky Frame",
+        "slug": "lucky-frame",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5361,
+        "name": "NG:DEV.TEAM",
+        "slug": "ng-dev-dot-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5425,
+        "name": "The Poppenkast",
+        "slug": "the-poppenkast",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 293,
+        "name": "TT Games",
+        "slug": "tt-games",
+        "average_rating": "8.30231201231398",
+        "founded_year": 2005,
+        "parent": 50,
+        "company_logo": {
+            "url": "/companies/tt-games/images/company_logos/1y/tt-games_logo_thumb.png",
+            "width": 300,
+            "height": 273
+        }
+    },
+    {
+        "id": 5262,
+        "name": "DigitalDNA Games LLC",
+        "slug": "digitaldna-games-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5264,
+        "name": "The Indie Forge",
+        "slug": "the-indie-forge",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5265,
+        "name": "Cobra Mobile",
+        "slug": "cobra-mobile",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5266,
+        "name": "Steve Jarman",
+        "slug": "steve-jarman",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5267,
+        "name": "Colossal Games",
+        "slug": "colossal-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5268,
+        "name": "Spotkin",
+        "slug": "spotkin",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3158,
+        "name": "Knuckle Cracker",
+        "slug": "knuckle-cracker",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5269,
+        "name": "Nerdook Productions",
+        "slug": "nerdook-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5270,
+        "name": "Manic Game Studios",
+        "slug": "manic-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5271,
+        "name": "Ludochip",
+        "slug": "ludochip",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5272,
+        "name": "Nicolas Pierre-Loti-Viaud",
+        "slug": "nicolas-pierre-loti-viaud",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 243,
+        "name": "Sony Online Entertainment",
+        "slug": "sony-online-entertainment",
+        "average_rating": "7.28784969504341",
+        "founded_year": 1995,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/sony-online-entertainment/images/company_logos/c4/sony-online-entertainment_logo_thumb.png",
+            "width": 450,
+            "height": 297
+        }
+    },
+    {
+        "id": 5286,
+        "name": "Plastic Reality Technologies",
+        "slug": "plastic-reality-technologies",
+        "average_rating": null,
+        "parent": null
+    }
+]

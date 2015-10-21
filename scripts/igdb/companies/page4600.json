@@ -1,0 +1,201 @@
+[
+    {
+        "id": 753,
+        "name": "Nordic Games Publishing",
+        "slug": "nordic-games-publishing",
+        "average_rating": "8.10278437529997",
+        "parent": null
+    },
+    {
+        "id": 10,
+        "name": "LucasArts Entertainment",
+        "slug": "lucasarts-entertainment",
+        "average_rating": "8.29695145768923",
+        "founded_year": 1982,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/lucasarts-entertainment/images/company_logos/1o/lucasarts-entertainment_logo_thumb.png",
+            "width": 500,
+            "height": 333
+        }
+    },
+    {
+        "id": 2191,
+        "name": "Funbox Media",
+        "slug": "funbox-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 53,
+        "name": "Microsoft Game Studios",
+        "slug": "microsoft-game-studios",
+        "average_rating": "7.95152574426494",
+        "founded_year": 2002,
+        "parent": 128,
+        "company_logo": {
+            "url": "/companies/microsoft-game-studios/images/company_logos/3o/microsoft-game-studios_logo_thumb.png",
+            "width": 176,
+            "height": 60
+        }
+    },
+    {
+        "id": 3689,
+        "name": "Roll7",
+        "slug": "roll7",
+        "average_rating": "7.72977368514797",
+        "parent": null
+    },
+    {
+        "id": 5055,
+        "name": "Tale of Tales",
+        "slug": "tale-of-tales",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5082,
+        "name": "Lab Zero Games",
+        "slug": "lab-zero-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2850,
+        "name": "Nintendo of America",
+        "slug": "nintendo-of-america",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 873,
+        "name": "Cloud Imperium Games Corporation",
+        "slug": "cloud-imperium-games-corporation",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/cloud-imperium-games-corporation/images/company_logos/c2/cloud-imperium-games-corporation_logo_thumb.png",
+            "width": 164,
+            "height": 164
+        }
+    },
+    {
+        "id": 5131,
+        "name": "CipSoft",
+        "slug": "cipsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5130,
+        "name": "Yoostar Entertainment Group",
+        "slug": "yoostar-entertainment-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5137,
+        "name": "Taiko Team",
+        "slug": "taiko-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5136,
+        "name": "Refract Studios",
+        "slug": "refract-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5143,
+        "name": "Robotronic Games",
+        "slug": "robotronic-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5125,
+        "name": "Ozark Softscape",
+        "slug": "ozark-softscape",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1125,
+        "name": "Kuju Entertainment",
+        "slug": "kuju-entertainment",
+        "average_rating": "7.60950002453565",
+        "parent": null
+    },
+    {
+        "id": 2050,
+        "name": "Jagex Games Studio",
+        "slug": "jagex-games-studio",
+        "average_rating": "7.70058267292343",
+        "founded_year": 2001,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/jagex-games-studio/images/company_logos/8j/jagex-games-studio_logo_thumb.png",
+            "width": 2000,
+            "height": 617
+        }
+    },
+    {
+        "id": 2728,
+        "name": "Gaijin Games",
+        "slug": "gaijin-games",
+        "average_rating": "7.72830690794832",
+        "parent": null
+    },
+    {
+        "id": 5111,
+        "name": "Size Five Games",
+        "slug": "size-five-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5099,
+        "name": "Koboldgames",
+        "slug": "koboldgames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5101,
+        "name": "Antagonist",
+        "slug": "antagonist",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5102,
+        "name": "Chivalry Software",
+        "slug": "chivalry-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5114,
+        "name": " Eclipse Games\t",
+        "slug": "eclipse-games--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4759,
+        "name": "Swing Swing Submarine",
+        "slug": "swing-swing-submarine",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1933,
+        "name": "Neko Entertainment",
+        "slug": "neko-entertainment",
+        "average_rating": null,
+        "parent": null
+    }
+]

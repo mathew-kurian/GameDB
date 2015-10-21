@@ -1,0 +1,192 @@
+[
+    {
+        "id": 4677,
+        "name": "X-Legend",
+        "slug": "x-legend",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4675,
+        "name": "Monkey Business",
+        "slug": "monkey-business",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4678,
+        "name": "Beijing Perfect World",
+        "slug": "beijing-perfect-world",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4689,
+        "name": "LA Studios",
+        "slug": "la-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1725,
+        "name": "Bandai America",
+        "slug": "bandai-america",
+        "average_rating": null,
+        "parent": 3958,
+        "company_logo": {
+            "url": "/companies/bandai-america/images/company_logos/at/bandai-america_logo_thumb.png",
+            "width": 200,
+            "height": 201
+        }
+    },
+    {
+        "id": 4690,
+        "name": "Officine Pixel",
+        "slug": "officine-pixel",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 688,
+        "name": "S2 Games",
+        "slug": "s2-games",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/s2-games/images/company_logos/au/s2-games_logo_thumb.png",
+            "width": 222,
+            "height": 256
+        }
+    },
+    {
+        "id": 4682,
+        "name": "G Factory",
+        "slug": "g-factory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4683,
+        "name": "Hydrogen Whiskey",
+        "slug": "hydrogen-whiskey",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4684,
+        "name": "Studio Jory",
+        "slug": "studio-jory",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4691,
+        "name": "Kamehan Studios",
+        "slug": "kamehan-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4692,
+        "name": "Interactive Data Visualization, Inc.",
+        "slug": "interactive-data-visualization-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4693,
+        "name": "Fantasy Productions",
+        "slug": "fantasy-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2233,
+        "name": "Red Entertainment",
+        "slug": "red-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2253,
+        "name": "Hyper-Devbox Japan",
+        "slug": "hyper-devbox-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4715,
+        "name": "epiphany games",
+        "slug": "epiphany-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4697,
+        "name": "Noodlecake Studios Inc.",
+        "slug": "noodlecake-studios-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4704,
+        "name": "The OGRE Team",
+        "slug": "the-ogre-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4680,
+        "name": "Beam Team Games",
+        "slug": "beam-team-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4698,
+        "name": "Blue Bottle Games",
+        "slug": "blue-bottle-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4717,
+        "name": "Evolutionary Games",
+        "slug": "evolutionary-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4718,
+        "name": "Rogue Factor",
+        "slug": "rogue-factor",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4700,
+        "name": "SkyZone Entertainment",
+        "slug": "skyzone-entertainment",
+        "average_rating": "4.57848338996531",
+        "parent": null
+    },
+    {
+        "id": 4954,
+        "name": "Studio Karisma",
+        "slug": "studio-karisma",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4935,
+        "name": "Bevel Studios",
+        "slug": "bevel-studios",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/bevel-studios/images/company_logos/bv/bevel-studios_logo_thumb.png",
+            "width": 900,
+            "height": 990
+        }
+    }
+]

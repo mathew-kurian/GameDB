@@ -1,0 +1,201 @@
+[
+    {
+        "id": 5095,
+        "name": "Team Gigglesquid",
+        "slug": "team-gigglesquid",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1821,
+        "name": "ASCII Entertainment",
+        "slug": "ascii-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2471,
+        "name": "SQUARE ENIX, Eidos Interactive",
+        "slug": "square-enix-eidos-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3405,
+        "name": "Natural Motion",
+        "slug": "natural-motion",
+        "average_rating": null,
+        "founded_year": 2001,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/natural-motion/images/company_logos/bz/natural-motion_logo_thumb.png",
+            "width": 296,
+            "height": 243
+        }
+    },
+    {
+        "id": 5091,
+        "name": "Mousechief",
+        "slug": "mousechief",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2499,
+        "name": "Hi-Rez Studios",
+        "slug": "hi-rez-studios",
+        "average_rating": "7.1998341122552",
+        "parent": null
+    },
+    {
+        "id": 5106,
+        "name": "Rabid Viper Productions",
+        "slug": "rabid-viper-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 656,
+        "name": "Angel Studios",
+        "slug": "angel-studios",
+        "average_rating": "8.50780214219932",
+        "founded_year": 1984,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/angel-studios/images/company_logos/c1/angel-studios_logo_thumb.png",
+            "width": 174,
+            "height": 99
+        }
+    },
+    {
+        "id": 5096,
+        "name": "Diviad",
+        "slug": "diviad",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5107,
+        "name": "Infinity Plus 2",
+        "slug": "infinity-plus-2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5093,
+        "name": "Expansive Worlds",
+        "slug": "expansive-worlds",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5094,
+        "name": "Emote Games",
+        "slug": "emote-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5097,
+        "name": "SEK GmbH",
+        "slug": "sek-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5098,
+        "name": "Innonics",
+        "slug": "innonics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5092,
+        "name": "Adam Cadre",
+        "slug": "adam-cadre",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5103,
+        "name": "DoubleDutch Games",
+        "slug": "doubledutch-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5132,
+        "name": "Titanic Entertainment",
+        "slug": "titanic-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 27,
+        "name": "Eidos Montreal",
+        "slug": "eidos-montreal",
+        "average_rating": "7.58906143852144",
+        "parent": null
+    },
+    {
+        "id": 1212,
+        "name": "CI Games",
+        "slug": "ci-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1854,
+        "name": "Enix Corporation",
+        "slug": "enix-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5128,
+        "name": "Mindscape Group",
+        "slug": "mindscape-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1604,
+        "name": "Alienware",
+        "slug": "alienware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5122,
+        "name": "Electronic Arts - dup",
+        "slug": "electronic-arts-dup",
+        "average_rating": "7.63775399715545",
+        "parent": null
+    },
+    {
+        "id": 5040,
+        "name": "tinyBuild",
+        "slug": "tinybuild",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/tinybuild/images/company_logos/gi/tinybuild_logo_thumb.png",
+            "width": 5500,
+            "height": 2000
+        }
+    },
+    {
+        "id": 110,
+        "name": "Focus Home Interactive",
+        "slug": "focus-home-interactive",
+        "average_rating": "7.71153540179526",
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/focus-home-interactive/images/company_logos/98/focus-home-interactive_logo_thumb.png",
+            "width": 2000,
+            "height": 551
+        }
+    }
+]

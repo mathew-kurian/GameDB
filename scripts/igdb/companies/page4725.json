@@ -1,0 +1,183 @@
+[
+    {
+        "id": 5634,
+        "name": "Crytek Shanghai",
+        "slug": "crytek-shanghai",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5654,
+        "name": "Project Synthesis",
+        "slug": "project-synthesis",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5662,
+        "name": "AT&T",
+        "slug": "at-and-t",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5663,
+        "name": "Dacom",
+        "slug": "dacom",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5664,
+        "name": "Exodus",
+        "slug": "exodus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5665,
+        "name": "Telia",
+        "slug": "telia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5943,
+        "name": "3dinchina",
+        "slug": "3dinchina",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5944,
+        "name": "Ground Studios",
+        "slug": "ground-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5945,
+        "name": "wolff interactive",
+        "slug": "wolff-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5154,
+        "name": "Zachtronics",
+        "slug": "zachtronics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5179,
+        "name": "Fuero Games",
+        "slug": "fuero-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5181,
+        "name": "XGen Studios",
+        "slug": "xgen-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5180,
+        "name": "Dancing Dragon Games",
+        "slug": "dancing-dragon-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5186,
+        "name": "increpare",
+        "slug": "increpare",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5189,
+        "name": "Saffran Prod",
+        "slug": "saffran-prod",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5190,
+        "name": "Seams",
+        "slug": "seams",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5191,
+        "name": "Kaga Create",
+        "slug": "kaga-create",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5192,
+        "name": "Subsoap",
+        "slug": "subsoap",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1045,
+        "name": "Viacom New Media",
+        "slug": "viacom-new-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 267,
+        "name": "TalonSoft",
+        "slug": "talonsoft",
+        "average_rating": "8.49675042241737",
+        "parent": null
+    },
+    {
+        "id": 175,
+        "name": "Haemimont Games",
+        "slug": "haemimont-games",
+        "average_rating": "7.70072750903658",
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/haemimont-games/images/company_logos/96/haemimont-games_logo_thumb.png",
+            "width": 300,
+            "height": 87
+        }
+    },
+    {
+        "id": 5195,
+        "name": "BOOTDISK REVOLUTION",
+        "slug": "bootdisk-revolution",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5182,
+        "name": "SpikySnail",
+        "slug": "spikysnail",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5184,
+        "name": "The Working Parts",
+        "slug": "the-working-parts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5185,
+        "name": "Four Leaf Studios",
+        "slug": "four-leaf-studios",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,207 @@
+[
+    {
+        "id": 6381,
+        "name": "Light Shock Software",
+        "slug": "light-shock-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6377,
+        "name": "Serious Games Interactive",
+        "slug": "serious-games-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6378,
+        "name": "Good Enough Gaming",
+        "slug": "good-enough-gaming",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 334,
+        "name": "Sony Computer Entertainment Europe",
+        "slug": "sony-computer-entertainment-europe",
+        "average_rating": "8.38512534866797",
+        "parent": null
+    },
+    {
+        "id": 1108,
+        "name": "Two Tribes B.V.",
+        "slug": "two-tribes-b-v",
+        "average_rating": null,
+        "founded_year": 2001,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/two-tribes-b-v/images/company_logos/e6/two-tribes-b-v_logo_thumb.png",
+            "width": 303,
+            "height": 65
+        }
+    },
+    {
+        "id": 6467,
+        "name": "The Sea Snipers",
+        "slug": "the-sea-snipers",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6470,
+        "name": "Remington Arms Company",
+        "slug": "remington-arms-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6382,
+        "name": "Byron Preiss Multimedia",
+        "slug": "byron-preiss-multimedia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5845,
+        "name": "Brooklyn Multimedia",
+        "slug": "brooklyn-multimedia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6383,
+        "name": "Microsoft Home",
+        "slug": "microsoft-home",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1031,
+        "name": "Core Design",
+        "slug": "core-design--2",
+        "average_rating": "7.83604120930673",
+        "founded_year": 1988,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/core-design--2/images/company_logos/5w/core-design--2_logo_thumb.png",
+            "width": 250,
+            "height": 100
+        }
+    },
+    {
+        "id": 2384,
+        "name": "The Eighth Day",
+        "slug": "the-eighth-day",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6385,
+        "name": "Liarsoft",
+        "slug": "liarsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6471,
+        "name": "T26 Digital Type Foundry",
+        "slug": "t26-digital-type-foundry",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 170,
+        "name": "Kojima Productions",
+        "slug": "kojima-productions",
+        "average_rating": "8.31371309002676",
+        "founded_year": 2005,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/kojima-productions/images/company_logos/cl/kojima-productions_logo_thumb.png",
+            "width": 284,
+            "height": 387
+        }
+    },
+    {
+        "id": 6472,
+        "name": "Corbis Motion",
+        "slug": "corbis-motion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4289,
+        "name": "Unlimited Software",
+        "slug": "unlimited-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6482,
+        "name": "Kenproduction Company",
+        "slug": "kenproduction-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6483,
+        "name": "STYLE CUBE",
+        "slug": "style-cube",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6484,
+        "name": "Tokyo Actor's Consumer's Cooperative Society",
+        "slug": "tokyo-actors-consumers-cooperative-society",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6485,
+        "name": "dwango creative school",
+        "slug": "dwango-creative-school",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6486,
+        "name": "HIRATA OFFICE",
+        "slug": "hirata-office",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 32,
+        "name": "Sierra On-Line",
+        "slug": "sierra-on-line",
+        "average_rating": "8.58398966076021",
+        "founded_year": 1979,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/sierra-on-line/images/company_logos/40/sierra-on-line_logo_thumb.png",
+            "width": 463,
+            "height": 153
+        }
+    },
+    {
+        "id": 6495,
+        "name": "DENGEKI Online",
+        "slug": "dengeki-online",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4435,
+        "name": "Incredible Technologies",
+        "slug": "incredible-technologies",
+        "average_rating": null,
+        "founded_year": 1985,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/incredible-technologies/images/company_logos/b2/incredible-technologies_logo_thumb.png",
+            "width": 2000,
+            "height": 2865
+        }
+    }
+]

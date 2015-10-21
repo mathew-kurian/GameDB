@@ -1,0 +1,189 @@
+[
+    {
+        "id": 6159,
+        "name": "Mediamond",
+        "slug": "mediamond",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6160,
+        "name": "William Rieder",
+        "slug": "william-rieder",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6161,
+        "name": "MobyGames",
+        "slug": "mobygames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6162,
+        "name": "Future Vision",
+        "slug": "future-vision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6163,
+        "name": "Interactive Strip",
+        "slug": "interactive-strip",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6164,
+        "name": "Millennium Media Group",
+        "slug": "millennium-media-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6165,
+        "name": "Deep River Publishing",
+        "slug": "deep-river-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6173,
+        "name": "Rovio Stars",
+        "slug": "rovio-stars",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6274,
+        "name": "Brighton Indies",
+        "slug": "brighton-indies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6179,
+        "name": "Anisoptera Games",
+        "slug": "anisoptera-games--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6178,
+        "name": "Indie Voyage",
+        "slug": "indie-voyage",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6180,
+        "name": "Analgesic Productions",
+        "slug": "analgesic-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6174,
+        "name": "Instinct Corporation",
+        "slug": "instinct-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2246,
+        "name": "Her Interactive",
+        "slug": "her-interactive",
+        "average_rating": null,
+        "founded_year": 1995,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/her-interactive/images/company_logos/25/her-interactive_logo_thumb.png",
+            "width": 228,
+            "height": 135
+        }
+    },
+    {
+        "id": 6192,
+        "name": "Rick Raddatz",
+        "slug": "rick-raddatz",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6182,
+        "name": "Whole Hog Games",
+        "slug": "whole-hog-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6185,
+        "name": "Visual Entertainment And Technologies",
+        "slug": "visual-entertainment-and-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6183,
+        "name": "Nkidu Games",
+        "slug": "nkidu-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6191,
+        "name": "Double Damage Games",
+        "slug": "double-damage-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6189,
+        "name": "InterAction Studios",
+        "slug": "interaction-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6188,
+        "name": "Digital Happiness",
+        "slug": "digital-happiness",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6190,
+        "name": "InterAction Sudios",
+        "slug": "interaction-sudios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6186,
+        "name": "Team Fractal Alligator",
+        "slug": "team-fractal-alligator",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6187,
+        "name": "Robot Gentleman Studios",
+        "slug": "robot-gentleman-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4777,
+        "name": "SkyGoblin",
+        "slug": "skygoblin",
+        "average_rating": null,
+        "founded_year": 2005,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/skygoblin/images/company_logos/eq/skygoblin_logo_thumb.png",
+            "width": 270,
+            "height": 346
+        }
+    }
+]

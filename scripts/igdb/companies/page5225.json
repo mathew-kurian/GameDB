@@ -1,0 +1,183 @@
+[
+    {
+        "id": 5648,
+        "name": "Bright Pictures",
+        "slug": "bright-pictures",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5649,
+        "name": "Virtual World Entertainment",
+        "slug": "virtual-world-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5650,
+        "name": "Ben Kitay Studios",
+        "slug": "ben-kitay-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5651,
+        "name": "Mix Magic",
+        "slug": "mix-magic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5655,
+        "name": "The Effects Network",
+        "slug": "the-effects-network",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5656,
+        "name": "ADL Services",
+        "slug": "adl-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5657,
+        "name": "Eldorado High School ROTC",
+        "slug": "eldorado-high-school-rotc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5658,
+        "name": "Hahn's World of Surplus",
+        "slug": "hahns-world-of-surplus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5659,
+        "name": "Buzzy's Recording",
+        "slug": "buzzys-recording",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5660,
+        "name": "Junco MultiMedia",
+        "slug": "junco-multimedia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5661,
+        "name": "TL Goh",
+        "slug": "tl-goh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5666,
+        "name": "Soo Hoo Design",
+        "slug": "soo-hoo-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5667,
+        "name": "Studio City",
+        "slug": "studio-city",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5668,
+        "name": "Kenyon Wells",
+        "slug": "kenyon-wells",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5669,
+        "name": "Square Enix Publishing",
+        "slug": "square-enix-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5670,
+        "name": "Square Enix America",
+        "slug": "square-enix-america",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5671,
+        "name": "Square Enix Japan \"EXTREME EDGES\" Team",
+        "slug": "square-enix-japan-extreme-edges-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5672,
+        "name": "Sid Lee",
+        "slug": "sid-lee",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5673,
+        "name": "Urstadt.Swan",
+        "slug": "urstadt-dot-swan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5674,
+        "name": "Original Force 3D",
+        "slug": "original-force-3d",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5675,
+        "name": "Yumekobo",
+        "slug": "yumekobo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5676,
+        "name": "Logic Artists",
+        "slug": "logic-artists",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/logic-artists/images/company_logos/cu/logic-artists_logo_thumb.png",
+            "width": 1445,
+            "height": 523
+        }
+    },
+    {
+        "id": 5677,
+        "name": "America Video Entertainment",
+        "slug": "america-video-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5679,
+        "name": "ALICE IN DISSONANCE",
+        "slug": "alice-in-dissonance--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5678,
+        "name": "ALICE IN DISSONANCE",
+        "slug": "alice-in-dissonance",
+        "average_rating": null,
+        "parent": null
+    }
+]

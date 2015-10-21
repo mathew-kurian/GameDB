@@ -1,0 +1,195 @@
+[
+    {
+        "id": 5251,
+        "name": "InsGames",
+        "slug": "insgames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5252,
+        "name": "BulkyPix",
+        "slug": "bulkypix",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5253,
+        "name": "Streko Graphics",
+        "slug": "streko-graphics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5259,
+        "name": "Halycon Media",
+        "slug": "halycon-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5254,
+        "name": "ClockStone Studios",
+        "slug": "clockstone-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2603,
+        "name": "Free Lives Games",
+        "slug": "free-lives-games",
+        "average_rating": "8.17164625722057",
+        "founded_year": 2012,
+        "parent": null
+    },
+    {
+        "id": 5350,
+        "name": "The Metrotainment Network",
+        "slug": "the-metrotainment-network",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5218,
+        "name": "Kingsoft",
+        "slug": "kingsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5310,
+        "name": "Subaltern Games ",
+        "slug": "subaltern-games--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 468,
+        "name": "Meridian4",
+        "slug": "meridian4",
+        "average_rating": "8.08409961868582",
+        "parent": null
+    },
+    {
+        "id": 1975,
+        "name": "2K Sports",
+        "slug": "2k-sports",
+        "average_rating": "7.34674596334225",
+        "founded_year": 2005,
+        "parent": 8,
+        "company_logo": {
+            "url": "/companies/2k-sports/images/company_logos/12/2k-sports_logo_thumb.png",
+            "width": 782,
+            "height": 621
+        }
+    },
+    {
+        "id": 395,
+        "name": "Sonic Team",
+        "slug": "sonic-team",
+        "average_rating": "7.09062533927305",
+        "founded_year": 1990,
+        "parent": 112,
+        "company_logo": {
+            "url": "/companies/sonic-team/images/company_logos/2d/sonic-team_logo_thumb.png",
+            "width": 666,
+            "height": 202
+        }
+    },
+    {
+        "id": 5255,
+        "name": "Remar Games",
+        "slug": "remar-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5261,
+        "name": "Elecom",
+        "slug": "elecom",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5263,
+        "name": "Silden",
+        "slug": "silden",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5307,
+        "name": "Alda Games",
+        "slug": "alda-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5299,
+        "name": "BSK Games",
+        "slug": "bsk-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5300,
+        "name": "Zomboko Entertainment",
+        "slug": "zomboko-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4755,
+        "name": "Winter Wolves",
+        "slug": "winter-wolves",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5303,
+        "name": "Miniboss",
+        "slug": "miniboss",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5304,
+        "name": "Moonshot Games",
+        "slug": "moonshot-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5308,
+        "name": "Screwy Lightbulb",
+        "slug": "screwy-lightbulb",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 405,
+        "name": "Spiders",
+        "slug": "spiders",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/spiders/images/company_logos/cr/spiders_logo_thumb.png",
+            "width": 605,
+            "height": 521
+        }
+    },
+    {
+        "id": 5344,
+        "name": "Soft-World International Corporation",
+        "slug": "soft-world-international-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5346,
+        "name": "HAMSTER Corporation",
+        "slug": "hamster-corporation",
+        "average_rating": null,
+        "parent": null
+    }
+]

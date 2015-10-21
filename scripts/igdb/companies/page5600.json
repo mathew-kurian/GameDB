@@ -1,0 +1,214 @@
+[
+    {
+        "id": 6086,
+        "name": "TORaIKI",
+        "slug": "toraiki",
+        "average_rating": null,
+        "founded_year": 2011,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/toraiki/images/company_logos/ep/toraiki_logo_thumb.png",
+            "width": 372,
+            "height": 70
+        }
+    },
+    {
+        "id": 6089,
+        "name": "Tenco",
+        "slug": "tenco",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6098,
+        "name": "Hesketh Studios",
+        "slug": "hesketh-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1228,
+        "name": "The Behemoth",
+        "slug": "the-behemoth",
+        "average_rating": "7.48030666538824",
+        "parent": null
+    },
+    {
+        "id": 5985,
+        "name": "Dynamighty",
+        "slug": "dynamighty",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 606,
+        "name": "DreamForge Intertainment",
+        "slug": "dreamforge-intertainment",
+        "average_rating": "9.00421033183178",
+        "founded_year": 1993,
+        "parent": null
+    },
+    {
+        "id": 5986,
+        "name": "Game Design Sweden AB",
+        "slug": "game-design-sweden-ab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5989,
+        "name": "Playful Entertainment",
+        "slug": "playful-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 620,
+        "name": "Bungie",
+        "slug": "bungie",
+        "average_rating": "8.04921556710479",
+        "founded_year": 1991,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/bungie/images/company_logos/2a/bungie_logo_thumb.png",
+            "width": 615,
+            "height": 233
+        }
+    },
+    {
+        "id": 5990,
+        "name": "Konami America",
+        "slug": "konami-america",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6005,
+        "name": "Alive",
+        "slug": "alive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5991,
+        "name": "Holotech Sudios",
+        "slug": "holotech-sudios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6001,
+        "name": "Baggy Cat Ltd",
+        "slug": "baggy-cat-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5995,
+        "name": "5pb. Division 2",
+        "slug": "5pb-division-2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5992,
+        "name": "Tomoaki Sugeno",
+        "slug": "tomoaki-sugeno",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5993,
+        "name": "eigoMANGA",
+        "slug": "eigomanga",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5994,
+        "name": "Axel Tribe",
+        "slug": "axel-tribe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 234,
+        "name": "Cryo Interactive",
+        "slug": "cryo-interactive",
+        "average_rating": null,
+        "founded_year": 1992,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/cryo-interactive/images/company_logos/93/cryo-interactive_logo_thumb.png",
+            "width": 113,
+            "height": 163
+        }
+    },
+    {
+        "id": 6082,
+        "name": "Orange_Juice",
+        "slug": "orange-juice",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6033,
+        "name": "Grolier Interactive",
+        "slug": "grolier-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6083,
+        "name": "Fruitbat Factory",
+        "slug": "fruitbat-factory",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/fruitbat-factory/images/company_logos/e5/fruitbat-factory_logo_thumb.png",
+            "width": 562,
+            "height": 326
+        }
+    },
+    {
+        "id": 5988,
+        "name": "Zip Technologies",
+        "slug": "zip-technologies",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5987,
+        "name": "Lilith",
+        "slug": "lilith",
+        "average_rating": null,
+        "founded_year": 2015,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/lilith/images/company_logos/f8/lilith_logo_thumb.png",
+            "width": null,
+            "height": null
+        }
+    },
+    {
+        "id": 263,
+        "name": "Namco",
+        "slug": "namco",
+        "average_rating": "7.9503108991619",
+        "founded_year": 1955,
+        "parent": 248,
+        "company_logo": {
+            "url": "/companies/namco/images/company_logos/27/namco_logo_thumb.png",
+            "width": 800,
+            "height": 120
+        }
+    },
+    {
+        "id": 6017,
+        "name": "Choice Provisions",
+        "slug": "choice-provisions",
+        "average_rating": null,
+        "parent": null
+    }
+]

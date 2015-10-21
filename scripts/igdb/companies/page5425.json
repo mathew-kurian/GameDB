@@ -1,0 +1,212 @@
+[
+    {
+        "id": 5840,
+        "name": "Seika Corporation",
+        "slug": "seika-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5846,
+        "name": "Team GrisGris",
+        "slug": "team-grisgris",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5837,
+        "name": "MiCROViSion",
+        "slug": "microvision",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5843,
+        "name": "Shark Punch",
+        "slug": "shark-punch",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/shark-punch/images/company_logos/d0/shark-punch_logo_thumb.png",
+            "width": 960,
+            "height": 960
+        }
+    },
+    {
+        "id": 905,
+        "name": "Overkill Software",
+        "slug": "overkill-software",
+        "average_rating": "7.46200843751016",
+        "founded_year": 2009,
+        "parent": 280,
+        "company_logo": {
+            "url": "/companies/overkill-software/images/company_logos/d1/overkill-software_logo_thumb.png",
+            "width": 320,
+            "height": 111
+        }
+    },
+    {
+        "id": 4,
+        "name": "Eidos Interactive",
+        "slug": "eidos-interactive",
+        "average_rating": "8.04073111441886",
+        "founded_year": 1990,
+        "parent": 26,
+        "company_logo": {
+            "url": "/companies/eidos-interactive/images/company_logos/9x/eidos-interactive_logo_thumb.png",
+            "width": 640,
+            "height": 142
+        }
+    },
+    {
+        "id": 5933,
+        "name": "Perforce-Antycip",
+        "slug": "perforce-antycip",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5850,
+        "name": "Qizz",
+        "slug": "qizz",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5934,
+        "name": "Project Telling",
+        "slug": "project-telling",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5935,
+        "name": "Cosmocover",
+        "slug": "cosmocover",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5936,
+        "name": "Solidanim",
+        "slug": "solidanim",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5937,
+        "name": "SWRPP",
+        "slug": "swrpp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5938,
+        "name": "Toy Films",
+        "slug": "toy-films",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5940,
+        "name": "Ayzenberg Group",
+        "slug": "ayzenberg-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5941,
+        "name": "Egg Plant Productions",
+        "slug": "egg-plant-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 280,
+        "name": "Starbreeze Studios",
+        "slug": "starbreeze-studios",
+        "average_rating": "7.98740999876509",
+        "founded_year": 2002,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/starbreeze-studios/images/company_logos/1l/starbreeze-studios_logo_thumb.png",
+            "width": 204,
+            "height": 205
+        }
+    },
+    {
+        "id": 5848,
+        "name": "BrandGames",
+        "slug": "brandgames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2046,
+        "name": "Zombie Studios",
+        "slug": "zombie-studios",
+        "average_rating": null,
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/zombie-studios/images/company_logos/19/zombie-studios_logo_thumb.png",
+            "width": 1920,
+            "height": 1080
+        }
+    },
+    {
+        "id": 5847,
+        "name": "Hardsuit Labs",
+        "slug": "hardsuit-labs",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5849,
+        "name": "Silver Dollar Games",
+        "slug": "silver-dollar-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 122,
+        "name": "Crytek Frankfurt",
+        "slug": "crytek-frankfurt",
+        "average_rating": "7.9904749127452",
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/crytek-frankfurt/images/company_logos/3x/crytek-frankfurt_logo_thumb.png",
+            "width": 1500,
+            "height": 503
+        }
+    },
+    {
+        "id": 5873,
+        "name": "Omnibus Japan",
+        "slug": "omnibus-japan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5874,
+        "name": "Transistor Studio",
+        "slug": "transistor-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5875,
+        "name": "Sasaharagumi Inc.",
+        "slug": "sasaharagumi-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5876,
+        "name": "Digital Media Factory",
+        "slug": "digital-media-factory",
+        "average_rating": null,
+        "parent": null
+    }
+]

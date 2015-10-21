@@ -1,0 +1,189 @@
+[
+    {
+        "id": 6224,
+        "name": "MeDungeon Ltd.",
+        "slug": "medungeon-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6218,
+        "name": "Wales Interactive",
+        "slug": "wales-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6221,
+        "name": "Silverrock Productions (ITE)",
+        "slug": "silverrock-productions-ite",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6226,
+        "name": "Ultra Runaway Games",
+        "slug": "ultra-runaway-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6231,
+        "name": "Glass Ghost",
+        "slug": "glass-ghost",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6225,
+        "name": "Mi-Clos Studio",
+        "slug": "mi-clos-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6227,
+        "name": "Four Quarters",
+        "slug": "four-quarters",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6228,
+        "name": "Timo Kauppinen",
+        "slug": "timo-kauppinen",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6235,
+        "name": "Abyss Lights Studios",
+        "slug": "abyss-lights-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6232,
+        "name": "Simis",
+        "slug": "simis",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6233,
+        "name": "R&P Electronic Media",
+        "slug": "r-and-p-electronic-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6236,
+        "name": "Kaamos Sound",
+        "slug": "kaamos-sound",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6237,
+        "name": "Newton Game Dynamics",
+        "slug": "newton-game-dynamics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6238,
+        "name": "Angel Code",
+        "slug": "angel-code",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6239,
+        "name": "DevIL Image Library",
+        "slug": "devil-image-library",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6240,
+        "name": "LibSDL",
+        "slug": "libsdl",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1983,
+        "name": "tri-Ace",
+        "slug": "tri-ace",
+        "average_rating": "7.98305691675838",
+        "parent": null
+    },
+    {
+        "id": 6315,
+        "name": "Gamesquad",
+        "slug": "gamesquad",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6316,
+        "name": "Minato Soft",
+        "slug": "minato-soft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2428,
+        "name": "5pb.",
+        "slug": "5pb",
+        "average_rating": null,
+        "founded_year": 2005,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/5pb/images/company_logos/38/5pb_logo_thumb.png",
+            "width": 200,
+            "height": 40
+        }
+    },
+    {
+        "id": 401,
+        "name": "Naughty Dog",
+        "slug": "naughty-dog",
+        "average_rating": "8.56587100069855",
+        "founded_year": 1989,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/naughty-dog/images/company_logos/eg/naughty-dog_logo_thumb.png",
+            "width": 504,
+            "height": 100
+        }
+    },
+    {
+        "id": 6319,
+        "name": "Zero Rock Entertainment",
+        "slug": "zero-rock-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6229,
+        "name": "guyzware",
+        "slug": "guyzware",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6317,
+        "name": "Continuum Entertainment",
+        "slug": "continuum-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 539,
+        "name": "SimBin",
+        "slug": "simbin",
+        "average_rating": null,
+        "parent": null
+    }
+]

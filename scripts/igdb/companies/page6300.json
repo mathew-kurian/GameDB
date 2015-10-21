@@ -1,0 +1,206 @@
+[
+    {
+        "id": 6625,
+        "name": "IGIOS Ltd.",
+        "slug": "igios-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6547,
+        "name": "Asteroid Base",
+        "slug": "asteroid-base",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6548,
+        "name": "Urban Games",
+        "slug": "urban-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 748,
+        "name": "Double Eleven",
+        "slug": "double-eleven",
+        "average_rating": "8.33717967229563",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/double-eleven/images/company_logos/fb/double-eleven_logo_thumb.png",
+            "width": 240,
+            "height": 224
+        }
+    },
+    {
+        "id": 6549,
+        "name": "Gambitious Digital Entertainment",
+        "slug": "gambitious-digital-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6545,
+        "name": "tobyfox",
+        "slug": "tobyfox",
+        "average_rating": null,
+        "founded_year": 2013,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/tobyfox/images/company_logos/fa/tobyfox_logo_thumb.png",
+            "width": 700,
+            "height": 335
+        }
+    },
+    {
+        "id": 4598,
+        "name": "Bloober Team",
+        "slug": "bloober-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6617,
+        "name": "Medialocate",
+        "slug": "medialocate",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6626,
+        "name": "3DRT",
+        "slug": "3drt",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6627,
+        "name": "Gerzi 3D Art",
+        "slug": "gerzi-3d-art",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6628,
+        "name": "Loopix-Project",
+        "slug": "loopix-project",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6629,
+        "name": "Shapes & Lines",
+        "slug": "shapes-and-lines",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6630,
+        "name": "Tridinaut",
+        "slug": "tridinaut",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6631,
+        "name": "Studio Anatole",
+        "slug": "studio-anatole",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6632,
+        "name": "SDI Media",
+        "slug": "sdi-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6633,
+        "name": "AVEK",
+        "slug": "avek",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6634,
+        "name": "ARTO",
+        "slug": "arto",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 152,
+        "name": "MicroProse",
+        "slug": "microprose",
+        "average_rating": "8.49036110826765",
+        "founded_year": 1982,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/microprose/images/company_logos/9k/microprose_logo_thumb.png",
+            "width": 2000,
+            "height": 426
+        }
+    },
+    {
+        "id": 4464,
+        "name": "audissi",
+        "slug": "audissi",
+        "average_rating": null,
+        "founded_year": 2001,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/audissi/images/company_logos/fe/audissi_logo_thumb.png",
+            "width": 400,
+            "height": 400
+        }
+    },
+    {
+        "id": 6645,
+        "name": "Virtual Air Guitar Company",
+        "slug": "virtual-air-guitar-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4673,
+        "name": "Pocketwatch Games",
+        "slug": "pocketwatch-games",
+        "average_rating": null,
+        "founded_year": 2005,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/pocketwatch-games/images/company_logos/fd/pocketwatch-games_logo_thumb.png",
+            "width": 360,
+            "height": 360
+        }
+    },
+    {
+        "id": 1976,
+        "name": "NOW Production",
+        "slug": "now-production",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1403,
+        "name": "Minakuchi Engineering",
+        "slug": "minakuchi-engineering",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6647,
+        "name": "Studio Piccolo",
+        "slug": "studio-piccolo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 436,
+        "name": "ZootFly",
+        "slug": "zootfly",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,223 @@
+[
+    {
+        "id": 6429,
+        "name": "Type-Moon",
+        "slug": "type-moon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3010,
+        "name": "Headup Games",
+        "slug": "headup-games",
+        "average_rating": "7.4253143713516",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/headup-games/images/company_logos/3t/headup-games_logo_thumb.png",
+            "width": 1063,
+            "height": 2008
+        }
+    },
+    {
+        "id": 2614,
+        "name": "Arcen Games",
+        "slug": "arcen-games",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/arcen-games/images/company_logos/c7/arcen-games_logo_thumb.png",
+            "width": 432,
+            "height": 74
+        }
+    },
+    {
+        "id": 6533,
+        "name": "Big Ben Interactive",
+        "slug": "big-ben-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6532,
+        "name": "Scriptwelder",
+        "slug": "scriptwelder",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6618,
+        "name": "Roboto",
+        "slug": "roboto",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6550,
+        "name": "Biox",
+        "slug": "biox",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 14,
+        "name": "Bullfrog Productions",
+        "slug": "bullfrog-productions",
+        "average_rating": "8.54100421134763",
+        "founded_year": 1987,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/bullfrog-productions/images/company_logos/42/bullfrog-productions_logo_thumb.png",
+            "width": 1280,
+            "height": 960
+        }
+    },
+    {
+        "id": 2092,
+        "name": "Imageepoch",
+        "slug": "imageepoch",
+        "average_rating": null,
+        "founded_year": 2005,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/imageepoch/images/company_logos/ez/imageepoch_logo_thumb.png",
+            "width": 278,
+            "height": 234
+        }
+    },
+    {
+        "id": 782,
+        "name": "Marvelous Entertainment",
+        "slug": "marvelous-entertainment",
+        "average_rating": "7.27259484512249",
+        "founded_year": 1997,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/marvelous-entertainment/images/company_logos/du/marvelous-entertainment_logo_thumb.png",
+            "width": 665,
+            "height": 225
+        }
+    },
+    {
+        "id": 6534,
+        "name": "Race Room Entertainment AG",
+        "slug": "race-room-entertainment-ag",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6537,
+        "name": "39 steps",
+        "slug": "39-steps",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6538,
+        "name": "Tigress Marketing",
+        "slug": "tigress-marketing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6541,
+        "name": "Cameron Kunzelman",
+        "slug": "cameron-kunzelman",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6543,
+        "name": "POMERA Studios",
+        "slug": "pomera-studios",
+        "average_rating": null,
+        "founded_year": 2007,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/pomera-studios/images/company_logos/f9/pomera-studios_logo_thumb.png",
+            "width": 400,
+            "height": 400
+        }
+    },
+    {
+        "id": 6544,
+        "name": "Nine Dots Studio",
+        "slug": "nine-dots-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6542,
+        "name": "Airship Syndicate",
+        "slug": "airship-syndicate",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6540,
+        "name": "Studio Pound Sand",
+        "slug": "studio-pound-sand",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2765,
+        "name": "Almost Human Ltd.",
+        "slug": "almost-human-ltd",
+        "average_rating": "8.59435713442046",
+        "founded_year": 2011,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/almost-human-ltd/images/company_logos/fc/almost-human-ltd_logo_thumb.png",
+            "width": 400,
+            "height": 400
+        }
+    },
+    {
+        "id": 6539,
+        "name": "Betson Enterprises",
+        "slug": "betson-enterprises",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6546,
+        "name": "SassyBot Studio",
+        "slug": "sassybot-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6535,
+        "name": "Snowhydra",
+        "slug": "snowhydra",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6536,
+        "name": "Atrax Game",
+        "slug": "atrax-game",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3798,
+        "name": "5 Bits Games",
+        "slug": "5-bits-games",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/5-bits-games/images/company_logos/5u/5-bits-games_logo_thumb.png",
+            "width": 2000,
+            "height": 1188
+        }
+    },
+    {
+        "id": 6619,
+        "name": "Kinda Funny",
+        "slug": "kinda-funny",
+        "average_rating": null,
+        "parent": null
+    }
+]

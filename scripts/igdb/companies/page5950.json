@@ -1,0 +1,200 @@
+[
+    {
+        "id": 2786,
+        "name": "Doctor Entertainment",
+        "slug": "doctor-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 538,
+        "name": "Viva Media",
+        "slug": "viva-media",
+        "average_rating": "8.09434406138926",
+        "parent": null
+    },
+    {
+        "id": 6369,
+        "name": "The Brotherhood Games",
+        "slug": "the-brotherhood-games",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/the-brotherhood-games/images/company_logos/f0/the-brotherhood-games_logo_thumb.png",
+            "width": 848,
+            "height": 753
+        }
+    },
+    {
+        "id": 6318,
+        "name": "Gamerizon",
+        "slug": "gamerizon",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 26,
+        "name": "Square Enix",
+        "slug": "square-enix",
+        "average_rating": "8.39067044427153",
+        "founded_year": 2003,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/square-enix/images/company_logos/3d/square-enix_logo_thumb.png",
+            "width": 760,
+            "height": 95
+        }
+    },
+    {
+        "id": 6320,
+        "name": "Boss Baddie",
+        "slug": "boss-baddie",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2852,
+        "name": "Ripstone",
+        "slug": "ripstone",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6230,
+        "name": "âge",
+        "slug": "age",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 749,
+        "name": "SCE Cambridge Studio",
+        "slug": "sce-cambridge-studio",
+        "average_rating": "8.28952526319326",
+        "parent": null
+    },
+    {
+        "id": 4694,
+        "name": "United Independent Entertainment",
+        "slug": "united-independent-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1044,
+        "name": "Spectrum Holobyte, Inc.",
+        "slug": "spectrum-holobyte-inc",
+        "average_rating": "9.48543958365804",
+        "parent": null
+    },
+    {
+        "id": 6219,
+        "name": "Dingo",
+        "slug": "dingo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1174,
+        "name": "Kyodai Software Marketing",
+        "slug": "kyodai-software-marketing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5464,
+        "name": "California Dreams",
+        "slug": "california-dreams",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6406,
+        "name": "Logical Design Works",
+        "slug": "logical-design-works",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 45,
+        "name": "Sony Computer Entertainment",
+        "slug": "sony-computer-entertainment",
+        "average_rating": "8.19950938229764",
+        "parent": null
+    },
+    {
+        "id": 4897,
+        "name": "Sony Computer Entertainment ",
+        "slug": "sony-computer-entertainment--1",
+        "average_rating": "8.80044066425089",
+        "parent": null
+    },
+    {
+        "id": 2580,
+        "name": "Facepalm Games",
+        "slug": "facepalm-games",
+        "average_rating": "6.97727847407678",
+        "founded_year": 2011,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/facepalm-games/images/company_logos/ey/facepalm-games_logo_thumb.png",
+            "width": 720,
+            "height": 148
+        }
+    },
+    {
+        "id": 6326,
+        "name": "Corbie Games",
+        "slug": "corbie-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6321,
+        "name": "The Tiniest Shark",
+        "slug": "the-tiniest-shark",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6322,
+        "name": "Owl Cave",
+        "slug": "owl-cave",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5,
+        "name": "Interplay Entertainment",
+        "slug": "interplay-entertainment",
+        "average_rating": "8.47626415588304",
+        "parent": null
+    },
+    {
+        "id": 6323,
+        "name": "SoftLab-NSK",
+        "slug": "softlab-nsk",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4027,
+        "name": "Focus Multimedia",
+        "slug": "focus-multimedia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 197,
+        "name": "THQ",
+        "slug": "thq",
+        "average_rating": "7.82786215284787",
+        "founded_year": 1989,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/thq/images/company_logos/2v/thq_logo_thumb.png",
+            "width": 200,
+            "height": 90
+        }
+    }
+]

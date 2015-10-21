@@ -1,0 +1,183 @@
+[
+    {
+        "id": 5366,
+        "name": "Chair Entertamet",
+        "slug": "chair-entertamet",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5367,
+        "name": "Infinite Dreams sp. z o.o",
+        "slug": "infinite-dreams-sp-z-oo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5360,
+        "name": "Lazy 8 Studios",
+        "slug": "lazy-8-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5390,
+        "name": "Studio Grammy Pair",
+        "slug": "studio-grammy-pair",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5368,
+        "name": "Infinite Dreams sp. z o.o ",
+        "slug": "infinite-dreams-sp-z-oo--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5391,
+        "name": "CO-RUN",
+        "slug": "co-run",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5392,
+        "name": "Sound Prestiege",
+        "slug": "sound-prestiege",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5393,
+        "name": "X-Over-Records",
+        "slug": "x-over-records",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5394,
+        "name": "Water Orion",
+        "slug": "water-orion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5369,
+        "name": "Playtonic",
+        "slug": "playtonic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5371,
+        "name": "Steffen Gerlach",
+        "slug": "steffen-gerlach",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5370,
+        "name": "Panache Digital Games",
+        "slug": "panache-digital-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5395,
+        "name": "T-Project",
+        "slug": "t-project",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4133,
+        "name": "11 bit studios",
+        "slug": "11-bit-studios",
+        "average_rating": "8.11646034089654",
+        "founded_year": 2007,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/11-bit-studios/images/company_logos/av/11-bit-studios_logo_thumb.png",
+            "width": 400,
+            "height": 192
+        }
+    },
+    {
+        "id": 5396,
+        "name": "Nirai-Kanai",
+        "slug": "nirai-kanai",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5397,
+        "name": "Connect Wizard",
+        "slug": "connect-wizard",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5398,
+        "name": "The Green Kingdom",
+        "slug": "the-green-kingdom",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5372,
+        "name": "Mythologic Interactive",
+        "slug": "mythologic-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5373,
+        "name": "Adia Entertainment",
+        "slug": "adia-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5374,
+        "name": "Jobin",
+        "slug": "jobin",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5375,
+        "name": "Sunchos Software",
+        "slug": "sunchos-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5376,
+        "name": "Tose Software",
+        "slug": "tose-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5377,
+        "name": "Mix Inc.",
+        "slug": "mix-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5378,
+        "name": "NTT PC Communications",
+        "slug": "ntt-pc-communications",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5379,
+        "name": "Speed",
+        "slug": "speed",
+        "average_rating": null,
+        "parent": null
+    }
+]

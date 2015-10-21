@@ -1,0 +1,214 @@
+[
+    {
+        "id": 7005,
+        "name": "Still Games",
+        "slug": "still-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7009,
+        "name": "Mamba Games",
+        "slug": "mamba-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7008,
+        "name": "Phantomery Interactive",
+        "slug": "phantomery-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 593,
+        "name": "The Adventure Company",
+        "slug": "the-adventure-company",
+        "average_rating": "7.74782727836239",
+        "founded_year": 2002,
+        "parent": 753,
+        "company_logo": {
+            "url": "/companies/the-adventure-company/images/company_logos/as/the-adventure-company_logo_thumb.png",
+            "width": 169,
+            "height": 64
+        }
+    },
+    {
+        "id": 7011,
+        "name": "34BigThings",
+        "slug": "34bigthings",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7012,
+        "name": "Unknown Games",
+        "slug": "unknown-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7006,
+        "name": "South East Games",
+        "slug": "south-east-games",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/south-east-games/images/company_logos/h0/south-east-games_logo_thumb.png",
+            "width": 2000,
+            "height": 900
+        }
+    },
+    {
+        "id": 7007,
+        "name": "Kajak Games",
+        "slug": "kajak-games",
+        "average_rating": null,
+        "founded_year": 2014,
+        "parent": null
+    },
+    {
+        "id": 6997,
+        "name": "Daybreak Game Company",
+        "slug": "daybreak-game-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6998,
+        "name": "Sileni Studios",
+        "slug": "sileni-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6999,
+        "name": "SOEDESCO Publishing",
+        "slug": "soedesco-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7004,
+        "name": "Mechabit",
+        "slug": "mechabit",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7046,
+        "name": "RedBedlam",
+        "slug": "redbedlam",
+        "average_rating": null,
+        "founded_year": 2001,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/redbedlam/images/company_logos/h5/redbedlam_logo_thumb.png",
+            "width": 940,
+            "height": 420
+        }
+    },
+    {
+        "id": 7000,
+        "name": "Crazy Monkey Studios",
+        "slug": "crazy-monkey-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 294,
+        "name": "Telltale Games",
+        "slug": "telltale-games",
+        "average_rating": "8.55906843911866",
+        "founded_year": 2004,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/telltale-games/images/company_logos/70/telltale-games_logo_thumb.png",
+            "width": 2000,
+            "height": 1395
+        }
+    },
+    {
+        "id": 7013,
+        "name": "Madruga Works",
+        "slug": "madruga-works",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7047,
+        "name": "Dominique Grieshofer",
+        "slug": "dominique-grieshofer",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7050,
+        "name": "Toasty Games",
+        "slug": "toasty-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7014,
+        "name": "Team Muramasa",
+        "slug": "team-muramasa",
+        "average_rating": null,
+        "founded_year": 2007,
+        "parent": 5324
+    },
+    {
+        "id": 108,
+        "name": "Techland",
+        "slug": "techland",
+        "average_rating": "7.39660836749177",
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/techland/images/company_logos/7/techland_logo_thumb.png",
+            "width": 2547,
+            "height": 1113
+        }
+    },
+    {
+        "id": 7031,
+        "name": "Will O'Neill",
+        "slug": "will-oneill",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 139,
+        "name": "Take-Two Interactive",
+        "slug": "take-two-interactive",
+        "average_rating": "8.28586295828727",
+        "founded_year": 1993,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/take-two-interactive/images/company_logos/11/take-two-interactive_logo_thumb.png",
+            "width": 500,
+            "height": 358
+        }
+    },
+    {
+        "id": 7015,
+        "name": "radiostatic",
+        "slug": "radiostatic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7016,
+        "name": "Dreamsite Games",
+        "slug": "dreamsite-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 7017,
+        "name": "Reality Twist",
+        "slug": "reality-twist",
+        "average_rating": null,
+        "parent": null
+    }
+]

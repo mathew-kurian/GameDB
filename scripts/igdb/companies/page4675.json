@@ -1,0 +1,189 @@
+[
+    {
+        "id": 5169,
+        "name": "Armor Games",
+        "slug": "armor-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5147,
+        "name": "Walaber",
+        "slug": "walaber",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5158,
+        "name": "TreeMenGames",
+        "slug": "treemengames",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5148,
+        "name": "BBC Worldwide Digital Entertainment",
+        "slug": "bbc-worldwide-digital-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1863,
+        "name": "XPEC",
+        "slug": "xpec",
+        "average_rating": null,
+        "founded_year": 2015,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/xpec/images/company_logos/c3/xpec_logo_thumb.png",
+            "width": 362,
+            "height": 137
+        }
+    },
+    {
+        "id": 5149,
+        "name": "Niels Bauer Games",
+        "slug": "niels-bauer-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5155,
+        "name": "Hellforge Entertainment",
+        "slug": "hellforge-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5151,
+        "name": "Blind Mind Studios",
+        "slug": "blind-mind-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2826,
+        "name": "Adeline Software International",
+        "slug": "adeline-software-international",
+        "average_rating": null,
+        "founded_year": 1993,
+        "parent": 501,
+        "company_logo": {
+            "url": "/companies/adeline-software-international/images/company_logos/9c/adeline-software-international_logo_thumb.png",
+            "width": 200,
+            "height": 253
+        }
+    },
+    {
+        "id": 4696,
+        "name": "Tortuga Team",
+        "slug": "tortuga-team",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2225,
+        "name": "NanaOn-Sha",
+        "slug": "nanaon-sha",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5153,
+        "name": "Zeppelin Studio",
+        "slug": "zeppelin-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1377,
+        "name": "Uber Entertainment",
+        "slug": "uber-entertainment",
+        "average_rating": "7.6355099939955",
+        "parent": null
+    },
+    {
+        "id": 1095,
+        "name": "Genius Sonority",
+        "slug": "genius-sonority",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5168,
+        "name": "Chris McFarland",
+        "slug": "chris-mcfarland",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5159,
+        "name": "Game Crafters",
+        "slug": "game-crafters",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5160,
+        "name": "Kingsisle",
+        "slug": "kingsisle",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5161,
+        "name": "KranX Productions\t",
+        "slug": "kranx-productions--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5164,
+        "name": "KnapNok Games",
+        "slug": "knapnok-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5162,
+        "name": "Polestar",
+        "slug": "polestar",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5156,
+        "name": "Fallstreak Studio",
+        "slug": "fallstreak-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5157,
+        "name": "HuniePot",
+        "slug": "huniepot",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1016,
+        "name": "Twisted Tree",
+        "slug": "twisted-tree",
+        "average_rating": "6.19614955595562",
+        "parent": null
+    },
+    {
+        "id": 5165,
+        "name": "Nifflas' Games",
+        "slug": "nifflas-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5166,
+        "name": "SGI N64 Project Staff",
+        "slug": "sgi-n64-project-staff",
+        "average_rating": null,
+        "parent": null
+    }
+]

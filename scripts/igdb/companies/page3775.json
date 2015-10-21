@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4245,
+        "name": "Alvion",
+        "slug": "alvion",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4246,
+        "name": "Orbitallink",
+        "slug": "orbitallink",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4247,
+        "name": "Digital Environment Creations",
+        "slug": "digital-environment-creations",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4248,
+        "name": "Digital Works Entertainment",
+        "slug": "digital-works-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4223,
+        "name": "The Odd Gentlemen",
+        "slug": "the-odd-gentlemen",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4252,
+        "name": "B.B. Studio",
+        "slug": "bb-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4253,
+        "name": "Tightrope",
+        "slug": "tightrope",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4226,
+        "name": "Broken Rules",
+        "slug": "broken-rules",
+        "average_rating": null,
+        "founded_year": 2009,
+        "parent": 3911,
+        "company_logo": {
+            "url": "/companies/broken-rules/images/company_logos/e7/broken-rules_logo_thumb.png",
+            "width": 433,
+            "height": 512
+        }
+    },
+    {
+        "id": 469,
+        "name": "JoWooD Entertainment AG",
+        "slug": "jowood-entertainment-ag",
+        "average_rating": "7.60203167389009",
+        "parent": null
+    },
+    {
+        "id": 4254,
+        "name": "Highwind Production",
+        "slug": "highwind-production",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4255,
+        "name": "Magic House",
+        "slug": "magic-house",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4256,
+        "name": "TAP",
+        "slug": "tap",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4257,
+        "name": "Kagura",
+        "slug": "kagura",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4258,
+        "name": "Wish",
+        "slug": "wish",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4259,
+        "name": "Buyu",
+        "slug": "buyu",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4260,
+        "name": "Sanko Production",
+        "slug": "sanko-production",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4261,
+        "name": "Cresco Motion Design",
+        "slug": "cresco-motion-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4262,
+        "name": "Layup",
+        "slug": "layup",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4263,
+        "name": "Motion Area",
+        "slug": "motion-area",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4264,
+        "name": "Diplomatic Cover",
+        "slug": "diplomatic-cover",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4273,
+        "name": "Switch Entertainment",
+        "slug": "switch-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4274,
+        "name": "Sound Arts",
+        "slug": "sound-arts",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4275,
+        "name": "Onkio Haus",
+        "slug": "onkio-haus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4276,
+        "name": "Theatre Academy",
+        "slug": "theatre-academy",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4277,
+        "name": "Uchida Music Office",
+        "slug": "uchida-music-office",
+        "average_rating": null,
+        "parent": null
+    }
+]

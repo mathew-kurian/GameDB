@@ -1,0 +1,202 @@
+[
+    {
+        "id": 6922,
+        "name": "Tuesday Society",
+        "slug": "tuesday-society",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6923,
+        "name": "Big Fat Alien",
+        "slug": "big-fat-alien",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2859,
+        "name": "Flight-Plan",
+        "slug": "flight-plan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6916,
+        "name": "Bedtime Digital Games",
+        "slug": "bedtime-digital-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6941,
+        "name": "Hailstorm Games",
+        "slug": "hailstorm-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6940,
+        "name": "Milky Tea Studios",
+        "slug": "milky-tea-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4712,
+        "name": "Ustwo",
+        "slug": "ustwo",
+        "average_rating": "8.83574107570218",
+        "founded_year": 2004,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/ustwo/images/company_logos/gj/ustwo_logo_thumb.png",
+            "width": 600,
+            "height": 450
+        }
+    },
+    {
+        "id": 6947,
+        "name": "Ghost A/S",
+        "slug": "ghost-a-slash-s",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6949,
+        "name": "9heads Game Studios",
+        "slug": "9heads-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6950,
+        "name": "Choice of Games",
+        "slug": "choice-of-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6948,
+        "name": "Data Realms",
+        "slug": "data-realms",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6951,
+        "name": "Skahal",
+        "slug": "skahal",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6925,
+        "name": "Innocent Grey",
+        "slug": "innocent-grey",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6955,
+        "name": "SmokingWOLF",
+        "slug": "smokingwolf",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6956,
+        "name": "sparsevector",
+        "slug": "sparsevector",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6919,
+        "name": "Acttil",
+        "slug": "acttil",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 347,
+        "name": "Criterion Games",
+        "slug": "criterion-games",
+        "average_rating": "7.61379160669058",
+        "founded_year": 1993,
+        "parent": 1,
+        "company_logo": {
+            "url": "/companies/criterion-games/images/company_logos/gh/criterion-games_logo_thumb.png",
+            "width": 573,
+            "height": 158
+        }
+    },
+    {
+        "id": 4496,
+        "name": "Renegade Kid",
+        "slug": "renegade-kid",
+        "average_rating": null,
+        "founded_year": 2007,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/renegade-kid/images/company_logos/gk/renegade-kid_logo_thumb.png",
+            "width": 585,
+            "height": 481
+        }
+    },
+    {
+        "id": 1956,
+        "name": "Idea Factory",
+        "slug": "idea-factory",
+        "average_rating": null,
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/idea-factory/images/company_logos/dq/idea-factory_logo_thumb.png",
+            "width": 520,
+            "height": 107
+        }
+    },
+    {
+        "id": 6929,
+        "name": "TAD Productions AB",
+        "slug": "tad-productions-ab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6934,
+        "name": "FERNANDO RAMALLO",
+        "slug": "fernando-ramallo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6930,
+        "name": "Rostok",
+        "slug": "rostok",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6935,
+        "name": "DAVID KANAGA",
+        "slug": "david-kanaga",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6952,
+        "name": "Playlore",
+        "slug": "playlore",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5887,
+        "name": "Matthew Brown",
+        "slug": "matthew-brown",
+        "average_rating": null,
+        "founded_year": 2012,
+        "parent": null
+    }
+]

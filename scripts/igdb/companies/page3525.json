@@ -1,0 +1,185 @@
+[
+    {
+        "id": 4026,
+        "name": "Gakken",
+        "slug": "gakken",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4317,
+        "name": "Textfarm",
+        "slug": "textfarm",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4318,
+        "name": "GodSpeed Games",
+        "slug": "godspeed-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2492,
+        "name": "2k Australia",
+        "slug": "2k-australia",
+        "average_rating": "7.03251855174924",
+        "parent": null
+    },
+    {
+        "id": 4430,
+        "name": "Black Market Games",
+        "slug": "black-market-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4323,
+        "name": "Mirage Interactive",
+        "slug": "mirage-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4378,
+        "name": "Johnson Voorsanger Productions",
+        "slug": "johnson-voorsanger-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4379,
+        "name": "Puny Human",
+        "slug": "puny-human",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4367,
+        "name": "SelectSoft Publishing",
+        "slug": "selectsoft-publishing",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4432,
+        "name": "Brandenburgisches Staatorchester",
+        "slug": "brandenburgisches-staatorchester",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 285,
+        "name": "Tiertex Design Studios",
+        "slug": "tiertex-design-studios",
+        "average_rating": "8.71369518223816",
+        "founded_year": 1987,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/tiertex-design-studios/images/company_logos/7t/tiertex-design-studios_logo_thumb.png",
+            "width": 375,
+            "height": 250
+        }
+    },
+    {
+        "id": 2340,
+        "name": "Codemasters Birmingham",
+        "slug": "codemasters-birmingham",
+        "average_rating": "6.58383766972647",
+        "founded_year": 2008,
+        "parent": 115
+    },
+    {
+        "id": 3968,
+        "name": "Project Sam",
+        "slug": "project-sam",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3969,
+        "name": "East West",
+        "slug": "east-west",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3970,
+        "name": "globalvoX",
+        "slug": "globalvox",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3971,
+        "name": "Master Symphony Orchestra Valencia",
+        "slug": "master-symphony-orchestra-valencia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3997,
+        "name": "Gamebase Co., Ltd.",
+        "slug": "gamebase-co-dot-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3972,
+        "name": "The Bratislawa Symphony Orchestra",
+        "slug": "the-bratislawa-symphony-orchestra",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3989,
+        "name": "Playcast-media",
+        "slug": "playcast-media",
+        "average_rating": "8.99700077048797",
+        "parent": null
+    },
+    {
+        "id": 3959,
+        "name": "Sos",
+        "slug": "sos",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3973,
+        "name": "The Bratislawa Symphnoy Choir",
+        "slug": "the-bratislawa-symphnoy-choir",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3974,
+        "name": "The Slovak National Symphony Orchestra",
+        "slug": "the-slovak-national-symphony-orchestra",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3975,
+        "name": "Konami UK Studio",
+        "slug": "konami-uk-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 222,
+        "name": "BioWare Edmonton",
+        "slug": "bioware-edmonton",
+        "average_rating": "9.0835631349055",
+        "founded_year": 1995,
+        "parent": 2
+    },
+    {
+        "id": 3998,
+        "name": "Gamebase USA",
+        "slug": "gamebase-usa",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,188 @@
+[
+    {
+        "id": 6076,
+        "name": "Linden Research",
+        "slug": "linden-research",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6077,
+        "name": "Ys Net",
+        "slug": "ys-net",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6078,
+        "name": "Glass Knuckle Games",
+        "slug": "glass-knuckle-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4769,
+        "name": "17-BIT",
+        "slug": "17-bit",
+        "average_rating": null,
+        "founded_year": 2010,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/17-bit/images/company_logos/e1/17-bit_logo_thumb.png",
+            "width": 3000,
+            "height": 1400
+        }
+    },
+    {
+        "id": 6079,
+        "name": "Hangar 13",
+        "slug": "hangar-13",
+        "average_rating": null,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/hangar-13/images/company_logos/e2/hangar-13_logo_thumb.png",
+            "width": 3300,
+            "height": 3300
+        }
+    },
+    {
+        "id": 6241,
+        "name": "Dimagic",
+        "slug": "dimagic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6242,
+        "name": "Office Yoshikawa",
+        "slug": "office-yoshikawa",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6243,
+        "name": "CA-Co-Caro",
+        "slug": "ca-co-caro",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6244,
+        "name": "Kokusai Shuppan",
+        "slug": "kokusai-shuppan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6245,
+        "name": "Studio Ibuki",
+        "slug": "studio-ibuki",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6246,
+        "name": "Digi Plannet",
+        "slug": "digi-plannet",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6247,
+        "name": "Active Work Corporation",
+        "slug": "active-work-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6248,
+        "name": "Lapiz",
+        "slug": "lapiz",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6249,
+        "name": "TV Asahi Create",
+        "slug": "tv-asahi-create",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6250,
+        "name": "Spiced Graphics",
+        "slug": "spiced-graphics",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6251,
+        "name": "Quixote Studios",
+        "slug": "quixote-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6252,
+        "name": "Next Management",
+        "slug": "next-management",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6253,
+        "name": "Logan",
+        "slug": "logan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6258,
+        "name": "Logan Media",
+        "slug": "logan-media",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6259,
+        "name": "Huke",
+        "slug": "huke",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6260,
+        "name": "Eurotek Multilingual",
+        "slug": "eurotek-multilingual",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6261,
+        "name": "Monitoring Center",
+        "slug": "monitoring-center",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6266,
+        "name": "Sphereframe",
+        "slug": "sphereframe",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6267,
+        "name": "shaft Inc.",
+        "slug": "shaft-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6268,
+        "name": "JIMAS Motion Capture Studio",
+        "slug": "jimas-motion-capture-studio",
+        "average_rating": null,
+        "parent": null
+    }
+]

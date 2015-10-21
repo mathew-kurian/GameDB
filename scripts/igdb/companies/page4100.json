@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4582,
+        "name": "HC Languace Solutions",
+        "slug": "hc-languace-solutions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4583,
+        "name": "Mouse Power",
+        "slug": "mouse-power--1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4584,
+        "name": "Flo-Trans",
+        "slug": "flo-trans",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4585,
+        "name": "U-Trax Multi Media Localisations B.V.",
+        "slug": "u-trax-multi-media-localisations-bv",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4586,
+        "name": "Creative Sounds Thijs Koerselman",
+        "slug": "creative-sounds-thijs-koerselman",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4587,
+        "name": "Local Transit - Rome",
+        "slug": "local-transit-rome",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4588,
+        "name": "Sound Land Madrid Agua Massmedia",
+        "slug": "sound-land-madrid-agua-massmedia",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4589,
+        "name": "Tonprod Krauthausen - Köln",
+        "slug": "tonprod-krauthausen-koln",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4590,
+        "name": "Bug-Tracker",
+        "slug": "bug-tracker",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4594,
+        "name": "Qubic Games",
+        "slug": "qubic-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4636,
+        "name": "Scoring Helsinki",
+        "slug": "scoring-helsinki",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4618,
+        "name": "GameCoder Studios",
+        "slug": "gamecoder-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4543,
+        "name": "Horberg Productions",
+        "slug": "horberg-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4591,
+        "name": "VD-Dev",
+        "slug": "vd-dev",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4593,
+        "name": "Sonic Powered",
+        "slug": "sonic-powered",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4595,
+        "name": "WeirdBeard",
+        "slug": "weirdbeard",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4592,
+        "name": "Fadeen Games",
+        "slug": "fadeen-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4596,
+        "name": "Jakub Dvorský",
+        "slug": "jakub-dvorsky",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4597,
+        "name": "Marionette",
+        "slug": "marionette",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4599,
+        "name": "Konjak",
+        "slug": "konjak",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4625,
+        "name": "MachineZone",
+        "slug": "machinezone",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4637,
+        "name": "amorphous",
+        "slug": "amorphous",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4530,
+        "name": "Riverhillsoft",
+        "slug": "riverhillsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4624,
+        "name": "HumaNature Studios",
+        "slug": "humanature-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4532,
+        "name": "Xatrix Entertainment",
+        "slug": "xatrix-entertainment",
+        "average_rating": null,
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/xatrix-entertainment/images/company_logos/ah/xatrix-entertainment_logo_thumb.png",
+            "width": 185,
+            "height": 146
+        }
+    }
+]

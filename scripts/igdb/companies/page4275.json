@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4969,
+        "name": "Appo Sound Project",
+        "slug": "appo-sound-project",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4970,
+        "name": "Gey's AX",
+        "slug": "geys-ax",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4971,
+        "name": "Imagine Inc.",
+        "slug": "imagine-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4972,
+        "name": "Blue One Music",
+        "slug": "blue-one-music",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4739,
+        "name": "Reverie World Studios, INC",
+        "slug": "reverie-world-studios-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4730,
+        "name": "Nexus Game Studios",
+        "slug": "nexus-game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4883,
+        "name": "Drunken Monkey Coffee Bar",
+        "slug": "drunken-monkey-coffee-bar",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4731,
+        "name": "dark7god",
+        "slug": "dark7god",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4727,
+        "name": "GAME Studios",
+        "slug": "game-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4728,
+        "name": "Interactive Binary Illusions",
+        "slug": "interactive-binary-illusions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4742,
+        "name": "The Binary Mill",
+        "slug": "the-binary-mill",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4743,
+        "name": "Kyle Pulver",
+        "slug": "kyle-pulver",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4744,
+        "name": "Nemoria Entertainment",
+        "slug": "nemoria-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4746,
+        "name": "K-D Lab",
+        "slug": "k-d-lab",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4884,
+        "name": "Dewolfe Music",
+        "slug": "dewolfe-music",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4752,
+        "name": "Arkadium",
+        "slug": "arkadium",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4754,
+        "name": "NinjaBee",
+        "slug": "ninjabee",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 680,
+        "name": "Pipeworks Software",
+        "slug": "pipeworks-software",
+        "average_rating": "8.7026848441947",
+        "founded_year": 1999,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/pipeworks-software/images/company_logos/7s/pipeworks-software_logo_thumb.png",
+            "width": 230,
+            "height": 219
+        }
+    },
+    {
+        "id": 4757,
+        "name": "Secret Base",
+        "slug": "secret-base",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4758,
+        "name": "Third Wave Games",
+        "slug": "third-wave-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4733,
+        "name": "Old School Games",
+        "slug": "old-school-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4734,
+        "name": "Pawl Mogila",
+        "slug": "pawl-mogila",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4735,
+        "name": "David Williamson",
+        "slug": "david-williamson",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4736,
+        "name": "Browny Application",
+        "slug": "browny-application",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4737,
+        "name": "Stolen Couch Games",
+        "slug": "stolen-couch-games",
+        "average_rating": null,
+        "parent": null
+    }
+]

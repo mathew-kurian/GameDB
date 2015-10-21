@@ -1,0 +1,177 @@
+[
+    {
+        "id": 6002,
+        "name": "SEGA AM1",
+        "slug": "sega-am1",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1112,
+        "name": "Square Product Development Division 2",
+        "slug": "square-product-development-division-2",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6003,
+        "name": "SEGA AM7",
+        "slug": "sega-am7",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5997,
+        "name": "Studio Med-Art",
+        "slug": "studio-med-art",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5999,
+        "name": "Chair Enertainment",
+        "slug": "chair-enertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5998,
+        "name": "Waystone games",
+        "slug": "waystone-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6006,
+        "name": "Big Fish NW",
+        "slug": "big-fish-nw",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6004,
+        "name": "Friendware",
+        "slug": "friendware",
+        "average_rating": "7.55011135857461",
+        "parent": null
+    },
+    {
+        "id": 6007,
+        "name": "Sugar Studios",
+        "slug": "sugar-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6008,
+        "name": "DC5 Talent",
+        "slug": "dc5-talent",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6000,
+        "name": "Kixx",
+        "slug": "kixx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 236,
+        "name": "DreamCatcher Interactive",
+        "slug": "dreamcatcher-interactive",
+        "average_rating": "6.7825130466995",
+        "parent": null
+    },
+    {
+        "id": 6009,
+        "name": "Art Bully Productions, LLC",
+        "slug": "art-bully-productions-llc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6010,
+        "name": "Weapon Outfitters",
+        "slug": "weapon-outfitters",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6011,
+        "name": "Wade's Eastside Guns",
+        "slug": "wades-eastside-guns",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6012,
+        "name": "Media Design Interactive",
+        "slug": "media-design-interactive",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6016,
+        "name": "Flying Cafe for Semianimals",
+        "slug": "flying-cafe-for-semianimals",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6018,
+        "name": "Olle Hemmendorff",
+        "slug": "olle-hemmendorff",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6013,
+        "name": "Mechadeus",
+        "slug": "mechadeus",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6014,
+        "name": "PalmSoft",
+        "slug": "palmsoft",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5996,
+        "name": "MAGES.",
+        "slug": "mages",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6021,
+        "name": "coreplay gmbh",
+        "slug": "coreplay-gmbh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6022,
+        "name": "Black inc",
+        "slug": "black-inc",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6024,
+        "name": "Square One",
+        "slug": "square-one",
+        "average_rating": "8.84654209906693",
+        "parent": null
+    },
+    {
+        "id": 6035,
+        "name": "Digital Artist Managment",
+        "slug": "digital-artist-managment",
+        "average_rating": null,
+        "parent": null
+    }
+]

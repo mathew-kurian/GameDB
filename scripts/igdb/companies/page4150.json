@@ -1,0 +1,183 @@
+[
+    {
+        "id": 4633,
+        "name": "Shadow Software",
+        "slug": "shadow-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4639,
+        "name": "Commodore",
+        "slug": "commodore",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4634,
+        "name": "Flat Rock Software",
+        "slug": "flat-rock-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4635,
+        "name": "I-Illusions",
+        "slug": "i-illusions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4640,
+        "name": "ISOTX",
+        "slug": "isotx",
+        "average_rating": null,
+        "founded_year": 2005,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/isotx/images/company_logos/aj/isotx_logo_thumb.png",
+            "width": 159,
+            "height": 53
+        }
+    },
+    {
+        "id": 4643,
+        "name": "Kasedo Games",
+        "slug": "kasedo-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4641,
+        "name": "Smoking Car Productions",
+        "slug": "smoking-car-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4644,
+        "name": "Stabyourself.net",
+        "slug": "stabyourself-dot-net",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4695,
+        "name": "Flat Earth Games",
+        "slug": "flat-earth-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1190,
+        "name": "Attic Entertainment Software",
+        "slug": "attic-entertainment-software",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4685,
+        "name": "740 Sound Design",
+        "slug": "740-sound-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4645,
+        "name": "Exploding Rabbit",
+        "slug": "exploding-rabbit",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4647,
+        "name": "Pixable",
+        "slug": "pixable",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4648,
+        "name": "Knights of Soundtrack",
+        "slug": "knights-of-soundtrack",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4650,
+        "name": "23 Studios",
+        "slug": "23-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4651,
+        "name": "Attic",
+        "slug": "attic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4652,
+        "name": "Pole To Win International",
+        "slug": "pole-to-win-international",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4653,
+        "name": "ILCA",
+        "slug": "ilca",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4654,
+        "name": "Game Chain",
+        "slug": "game-chain",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4655,
+        "name": "Cornflakes",
+        "slug": "cornflakes",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4656,
+        "name": "D3D",
+        "slug": "d3d",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4657,
+        "name": "Prélude Animation SARL",
+        "slug": "prelude-animation-sarl",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4658,
+        "name": "Monaca",
+        "slug": "monaca",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4659,
+        "name": "Stereotype Smartile",
+        "slug": "stereotype-smartile",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 4660,
+        "name": "AI Inc.",
+        "slug": "ai-inc",
+        "average_rating": null,
+        "parent": null
+    }
+]

@@ -1,0 +1,189 @@
+[
+    {
+        "id": 5806,
+        "name": "Rancho Canada Elementary School",
+        "slug": "rancho-canada-elementary-school",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5820,
+        "name": "Arts Pro",
+        "slug": "arts-pro",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5793,
+        "name": "Team17 Digital Ltd",
+        "slug": "team17-digital-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 274,
+        "name": "Sir-Tech Canada",
+        "slug": "sir-tech-canada",
+        "average_rating": "8.99596273291925",
+        "founded_year": 1994,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/sir-tech-canada/images/company_logos/9m/sir-tech-canada_logo_thumb.png",
+            "width": 400,
+            "height": 59
+        }
+    },
+    {
+        "id": 6028,
+        "name": "Dreadbit",
+        "slug": "dreadbit",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6034,
+        "name": "MiST Land",
+        "slug": "mist-land",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6044,
+        "name": "Emptage Hallet Talent Agency",
+        "slug": "emptage-hallet-talent-agency",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6045,
+        "name": "Slide London",
+        "slug": "slide-london",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5807,
+        "name": "Creative Services EARS",
+        "slug": "creative-services-ears",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5808,
+        "name": "Links Digiworks",
+        "slug": "links-digiworks",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5809,
+        "name": "New Japan Philharmonic",
+        "slug": "new-japan-philharmonic",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5810,
+        "name": "Amuse",
+        "slug": "amuse",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5811,
+        "name": "Echo Studio",
+        "slug": "echo-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5812,
+        "name": "Opus Corp.",
+        "slug": "opus-corp",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5813,
+        "name": "Toei Advertising",
+        "slug": "toei-advertising",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5814,
+        "name": "Kyokousendan Parametrick",
+        "slug": "kyokousendan-parametrick",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5815,
+        "name": "Team Kukai",
+        "slug": "team-kukai",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5816,
+        "name": "Fu Long Production",
+        "slug": "fu-long-production",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5817,
+        "name": "Planning You",
+        "slug": "planning-you",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5818,
+        "name": "The Second Company",
+        "slug": "the-second-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5819,
+        "name": "EKO Media Design",
+        "slug": "eko-media-design",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5829,
+        "name": "Tantrum Entertainment",
+        "slug": "tantrum-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5821,
+        "name": "Ex-Hummer",
+        "slug": "ex-hummer",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 12,
+        "name": "Black Isle Studios",
+        "slug": "black-isle-studios",
+        "average_rating": "8.75911060144712",
+        "founded_year": 1996,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/black-isle-studios/images/company_logos/1q/black-isle-studios_logo_thumb.png",
+            "width": 357,
+            "height": 721
+        }
+    },
+    {
+        "id": 5822,
+        "name": "Cyberflix",
+        "slug": "cyberflix",
+        "average_rating": null,
+        "parent": null
+    }
+]

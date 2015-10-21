@@ -1,0 +1,189 @@
+[
+    {
+        "id": 6387,
+        "name": "Fuguriya",
+        "slug": "fuguriya",
+        "average_rating": null,
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/fuguriya/images/company_logos/f2/fuguriya_logo_thumb.png",
+            "width": 366,
+            "height": 110
+        }
+    },
+    {
+        "id": 6487,
+        "name": "Production Baobab Company",
+        "slug": "production-baobab-company",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6488,
+        "name": "RETREAT",
+        "slug": "retreat",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6489,
+        "name": "5pb. Records",
+        "slug": "5pb-records",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6490,
+        "name": "heikurou",
+        "slug": "heikurou",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6491,
+        "name": "SUCCESS BEIJING STUDIO",
+        "slug": "success-beijing-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6492,
+        "name": "Shanghai PiTaiShanHospital Investment Management",
+        "slug": "shanghai-pitaishanhospital-investment-management",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6493,
+        "name": "Digital TIS",
+        "slug": "digital-tis",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6494,
+        "name": "DENGEKI PlayStation",
+        "slug": "dengeki-playstation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6496,
+        "name": "David Production",
+        "slug": "david-production",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6497,
+        "name": "BOWWOW Productions",
+        "slug": "bowwow-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6498,
+        "name": "The American Conservatory Theater",
+        "slug": "the-american-conservatory-theater",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6499,
+        "name": "RODEX Pest Control",
+        "slug": "rodex-pest-control",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6500,
+        "name": "University of California",
+        "slug": "university-of-california",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6514,
+        "name": "IAH",
+        "slug": "iah",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6515,
+        "name": "FunTown",
+        "slug": "funtown",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6516,
+        "name": "Aria Systems",
+        "slug": "aria-systems",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6517,
+        "name": "Online Game Services",
+        "slug": "online-game-services",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 445,
+        "name": "505 Games",
+        "slug": "505-games",
+        "average_rating": "7.73230933273552",
+        "founded_year": 2006,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/505-games/images/company_logos/cd/505-games_logo_thumb.png",
+            "width": 640,
+            "height": 212
+        }
+    },
+    {
+        "id": 6354,
+        "name": "Discovery Software International",
+        "slug": "discovery-software-international",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6384,
+        "name": "Cope-com",
+        "slug": "cope-com",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 2997,
+        "name": "Alchemist",
+        "slug": "alchemist",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6389,
+        "name": "marbenx",
+        "slug": "marbenx",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6388,
+        "name": "Mike Salyh",
+        "slug": "mike-salyh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6390,
+        "name": "Telepaths' Tree",
+        "slug": "telepaths-tree",
+        "average_rating": null,
+        "parent": null
+    }
+]

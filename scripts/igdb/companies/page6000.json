@@ -1,0 +1,177 @@
+[
+    {
+        "id": 6449,
+        "name": "CDM Sound Studios",
+        "slug": "cdm-sound-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6459,
+        "name": "Motion Analysis Studios",
+        "slug": "motion-analysis-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6460,
+        "name": "MISI3D",
+        "slug": "misi3d",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6461,
+        "name": "Partly Cloudy Games",
+        "slug": "partly-cloudy-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6462,
+        "name": "The Syndicate",
+        "slug": "the-syndicate",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6463,
+        "name": "Advanced Micro Devices",
+        "slug": "advanced-micro-devices",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6464,
+        "name": "Studo Center Corporation",
+        "slug": "studo-center-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6476,
+        "name": "sound & records ABSOLUTE STUDIO",
+        "slug": "sound-and-records-absolute-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6477,
+        "name": "I'm enterprise",
+        "slug": "im-enterprise",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6478,
+        "name": "Aoni Production",
+        "slug": "aoni-production",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6479,
+        "name": "Amuleto",
+        "slug": "amuleto",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6480,
+        "name": "VIMS",
+        "slug": "vims",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6481,
+        "name": "OGIPRO THE NEXT",
+        "slug": "ogipro-the-next",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6513,
+        "name": "The9",
+        "slug": "the9",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6328,
+        "name": "JIW-Games",
+        "slug": "jiw-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6339,
+        "name": "Killmonday Games HB",
+        "slug": "killmonday-games-hb",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6327,
+        "name": "ELF",
+        "slug": "elf",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6341,
+        "name": "Deep Red Games",
+        "slug": "deep-red-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6338,
+        "name": "Mykhail Konokh",
+        "slug": "mykhail-konokh",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6329,
+        "name": "Monkey Do Productions",
+        "slug": "monkey-do-productions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 3006,
+        "name": "Gaming Minds Studios",
+        "slug": "gaming-minds-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5024,
+        "name": "Bandai Namco Games ",
+        "slug": "bandai-namco-games--1",
+        "average_rating": "9.3801203763221",
+        "parent": null
+    },
+    {
+        "id": 3994,
+        "name": "Eidos Interactive US",
+        "slug": "eidos-interactive-us",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6334,
+        "name": "Ameba",
+        "slug": "ameba",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 6368,
+        "name": "Computer Graphics Technology Group of PUC-Rio",
+        "slug": "computer-graphics-technology-group-of-puc-rio",
+        "average_rating": null,
+        "parent": null
+    }
+]

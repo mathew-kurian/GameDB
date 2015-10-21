@@ -1,0 +1,183 @@
+[
+    {
+        "id": 5756,
+        "name": "Chuck Benton",
+        "slug": "chuck-benton",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5788,
+        "name": "Chen PR",
+        "slug": "chen-pr",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5789,
+        "name": "Lambo Creative",
+        "slug": "lambo-creative",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5790,
+        "name": "Big Idea Group",
+        "slug": "big-idea-group",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5791,
+        "name": "Three8 Creative",
+        "slug": "three8-creative",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5779,
+        "name": "Sierra Attractions",
+        "slug": "sierra-attractions",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5780,
+        "name": "Aces Studio",
+        "slug": "aces-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5796,
+        "name": "McClear Digital",
+        "slug": "mcclear-digital",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5782,
+        "name": "Actainment",
+        "slug": "actainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5781,
+        "name": "Ongakukan",
+        "slug": "ongakukan",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5783,
+        "name": "Days of Wonder",
+        "slug": "days-of-wonder",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 1054,
+        "name": "Next level games",
+        "slug": "next-level-games",
+        "average_rating": "6.07164805738727",
+        "parent": null
+    },
+    {
+        "id": 5797,
+        "name": "Bazooka Studio",
+        "slug": "bazooka-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5784,
+        "name": "Wingman Games",
+        "slug": "wingman-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 273,
+        "name": "Sir-tech Software",
+        "slug": "sir-tech-software",
+        "average_rating": null,
+        "founded_year": 1980,
+        "parent": null,
+        "company_logo": {
+            "url": "/companies/sir-tech-software/images/company_logos/9l/sir-tech-software_logo_thumb.png",
+            "width": 400,
+            "height": 69
+        }
+    },
+    {
+        "id": 5798,
+        "name": "Raphael Digit & Studio",
+        "slug": "raphael-digit-and-studio",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5794,
+        "name": "Backstab Games",
+        "slug": "backstab-games",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5795,
+        "name": "Digimation Corporation",
+        "slug": "digimation-corporation",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5799,
+        "name": "Dancing Office Saijo",
+        "slug": "dancing-office-saijo",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5800,
+        "name": "Audio Motion Studios Ltd.",
+        "slug": "audio-motion-studios-ltd",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5801,
+        "name": "The Third Floor",
+        "slug": "the-third-floor",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5802,
+        "name": "E4E Interactive Entertainment",
+        "slug": "e4e-interactive-entertainment",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5803,
+        "name": "PCB Productions, Encino, CA",
+        "slug": "pcb-productions-encino-ca",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5804,
+        "name": "WIlco Dream Studios",
+        "slug": "wilco-dream-studios",
+        "average_rating": null,
+        "parent": null
+    },
+    {
+        "id": 5805,
+        "name": "Mutato Muzika",
+        "slug": "mutato-muzika",
+        "average_rating": null,
+        "parent": null
+    }
+]
