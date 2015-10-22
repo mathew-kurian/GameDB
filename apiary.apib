@@ -1,5 +1,5 @@
 FORMAT: 1A
-HOST: http://4play.apiblueprint.org/
+HOST: http://res.4playdb.com/
 
 # 4Play
 
@@ -7,211 +7,292 @@ HOST: http://4play.apiblueprint.org/
 
 # Group Game
 
-## Game [/games]
+## List [GET /games?{offset}=number&{limit}=number]
 
-List of Games returns the total list of games in our data model
+Returns a list of games between the given range
 
-### List of Games [GET]
++ Parameters
+    + offset: 1 (required, number) - Start index
+    + limit: 1 (required, number) - Number of games to get (max: 25)
 
-+ Response 200 (application/json)
++ Response 201 (application/json)
 
         [
             {
-                "Name": "Name",
-                "Platform": "Platform",
-                "Company": "Company",
-                "Engine": "Engine",
-                "Tags": [
-                    "Tag One",
-                    "Tag 2"
-                ],
-                "Rating": "Rating",
-                "ID": "id"
+                "Id": 40080,
+                "Name": "Monopoly Millionaire"
+            },
+            {
+                "Id": 5000,
+                "Name": "Battlefield 4"
             }
         ]
 
-### Game [/games/{game_id}]
+#### Get [GET /games/{game_id}]
 
-These are the fields that will describe a game:
-
-+ Name
-+ Platform
-+ Company
-+ Engine
-+ Tags - An array of special fields.
-+ Rating - The average rating of the game
-+ ID - the id of the game in our database
+Get the detailed view of a game
 
 + Parameters
-    + game_id: 1 (required, number) - The game's id which is unique to each game
-
-### View a Game [GET]
-
-+ Response 201 (application/json)
-
-        {
-                "Name": "Name",
-                "Platform": "Platform",
-                "Company": "Company",
-                "Engine": "Engine",
-                "Tags": [
-                    "Tag One",
-                    "Tag Two"
-                ],
-                "Rating": "Rating",
-                "ID": "id"
-        }
-
-# Group Company
-
-## Company [/company]
-
-List of Company returns the total list of companies in our data model
-
-### Company List [GET]
-
+    + offset: 1 (required, game_id) - Game ID
+    
 + Response 201 (application/json)
 
         [
             {
-                "Name": "Name",
-                "Location": "Location",
-                "Engine": "Engine",
-                "Rating": "Rating",
-                "Tags": [
-                    "one",
-                    "two"
+                "Id": 40080,
+                "Name": "Monopoly Millionaire",
+                "Release Date": "Thu Oct 22 2015 14:20:44 GMT-0500 (CDT)",
+                "Genres": [ "First-Person Shooter" ],
+                "Description": null,
+                "Deck": "The next installment of the Mass Effect franchise is in development at BioWare Montreal.",
+                "Images": [
+                    "http://static.giantbomb.com/uploads/scale_medium/5/57793/2758765-6463613486-joxkD.jpg",
                 ],
-                "ID": "id"
-            }
-        ]
-
-### Company [/company/{company_id}]
-
-These are the fields that will describe a company:
-
-+ Name
-+ Location
-+ Engine
-+ Tags - An array of special fields.
-+ Rating - The average rating of games by the company
-+ ID - the id of the developer in our database
-
-+ Parameters
-    + company_id: 1 (required, number) - The company's id which is unique to each company
-
-### View a Company [GET]
-
-+ Response 201 (application/json)
-
-        {
-                "Name": "Name",
-                "Location": "Location",
-                "Engine": "Engine",
-                "Tags": [
-                    "one",
-                    "two"
+                "Videos": [
+                    "https://www.youtube.com/embed/GsehtC-9yI4",
+                    "https://www.youtube.com/embed/FqnKB22pOC0"
                 ],
-                "Rating": "Rating",
-                "ID": "id"
-        }
-
-# Group Platform
-
-## Platform [/platform]
-
-List of Platforms returns the total list of platforms in our data model
-
-### Platforms List [GET]
-
-+ Response 201 (application/json)
-
-        [
-            {
-                "Name": "Name",
-                "Release Date": "MM/DD/YYYY",
-                "Rating": "Rating",
-                "Number of Units": "Quantity",
-                "Generation": "Number",
-                "ID": "id"
-            }
-        ]
-
-### Platform [/platform/{platform_id}]
-
-These are the fields that will describe a platform:
-
-+ Name
-+ Release Date
-+ Rating
-+ Number of Units
-+ Generation
-+ Rating - The average rating of the platform
-+ ID - the id of the platform in our database
-
-+ Parameters
-    + platform_id: 1 (required, number) - The platform's id which is unique to each platform
-
-### View a Platform [GET]
-
-+ Response 201 (application/json)
-
-        {
-            "Name": "Name",
-            "Release Date": "MM/DD/YYYY",
-            "Rating": "Rating",
-            "Number of Units": "Quantity",
-            "Generation": "Number",
-            "ID": "id"
-        }
-
-# Group Image
-
-## Image [/image]
-
-List of images returns the total list of images in our data model
-
-### Images List [GET]
-
-+ Response 201 (application/json)
-
-        [
-            {
-                "Name": "Name",
-                "Source": "Source",
-                "Entity": "Entity",
-                "Key": "Key",
-                "Type": [
-                    "TypeA",
-                    "TypeB"
+                "Publishers": [
+                    {
+                        "Id": 40080,
+                        "Name": "Riot Games"
+                    },
+                    {
+                        "Id": 5000,
+                        "Name": "Codemasters"
+                    }
+                ],
+                "Developers": [
+                    {
+                        "Id": 40080,
+                        "Name": "Electronic Arts"
+                    }
+                ],
+                "Platforms": [
+                    {
+                        "Id": 40080,
+                        "Name": "PC"
+                    }
                 ]
             }
         ]
 
-### Image [/image/{image_id}]
+#### Search [GET /games/search]
 
-These are the fields that will describe an image:
+These are the fields that will describe a game:
 
-+ Name
-+ Source
-+ Entity
-+ Key
-+ Type
-
-+ Parameters
-    + image_id: 1 (required, number) - The image's id which is unique to each image
-
-### View an Image [GET]
++ Name: Name of the game
++ ReleaseDate: Original release date of the game
++ Genres: Array of Genres
++ Description: Summary of game
++ Deck: Overview of game
++ Videos: Array of related (embeddable) videos URLs
++ Images: Array of related image URLs
++ Developers: Array of companies which developed game
++ Publishers: Array of companies which published game
++ Platforms: Array of platforms game has been released on
 
 + Response 201 (application/json)
 
-        {
-            "Name": "Name",
-            "Source": "Source",
-            "Entity": "Entity",
-            "Key": "Key",
-            "Type": [
-                "TypeA",
-                "TypeB"
-            ]
-        }
+        [
+            {
+                "Id": 40080,
+                "Name": "Monopoly Millionaire"
+            },
+            {
+                "Id": 5000,
+                "Name": "Battlefield 4"
+            }
+        ]
+
+# Group Company
+
+## List [GET /companies?{offset}=number&{limit}=number]
+
+Returns a list of games between the given range
+
++ Parameters
+    + offset: 1 (required, number) - Start index
+    + limit: 1 (required, number) - Number of companies to get (max: 25)
+
++ Response 201 (application/json)
+
+        [
+            {
+                "Id": 43534,
+                "Name": "Codemasters"
+            },
+            {
+                "Id": 6574,
+                "Name": "Electronic Arts"
+            }
+        ]
+        
+#### Get [GET /companies/{company_id}]
+
+Get the detailed view of a company
+
++ Parameters
+    + offset: 1 (required, game_id) - Company ID
+    
++ Response 201 (application/json)
+
+        [
+            {
+                "Id": 40080,
+                "Name": "Electronic Arts",
+                "LocationAddress": "209 Redwood Shores Parkway",
+                "LocationCity": "Redwood City",
+                "LocationState": "Texas",
+                "LocationCountry": "USA",
+                "Description": null,
+                "Images": [
+                    "http://static.giantbomb.com/uploads/scale_medium/5/57793/2758765-6463613486-joxkD.jpg",
+                ],
+                "PublishedGames": [
+                    {
+                        "Id": 40080,
+                        "Name": "BattleStar Galactica"
+                    },
+                    {
+                        "Id": 5000,
+                        "Name": "Crysis 2"
+                    }
+                ],
+                "DevelopedGames": [
+                    {
+                        "Id": 40080,
+                        "Name": "Crysis 3"
+                    }
+                ],
+                "Platforms": [
+                    {
+                        "Id": 40080,
+                        "Name": "PC"
+                    }
+                ]
+            }
+        ]
+
+#### Search [GET /companies/search]
+
+These are the fields that will describe a game:
+
++ Name
++ LocationAddress
++ LocationCity
++ LocationState
++ LocationCountry
++ Phone
++ Images: Array of images
++ Website: Company website
++ Description: Summary of game
++ DevelopedGames: Array of games developed
++ PublishedGames: Array of games published
++ Platforms: Array of platforms developed/published on
+
++ Response 201 (application/json)
+
+        [
+            {
+                "Id": 40080,
+                "Name": "Riot Games"
+            },
+            {
+                "Id": 5000,
+                "Name": "Codemasters"
+            }
+        ]
+        
+# Group Platform
+
+## List [GET /platforms?{offset}=number&{limit}=number]
+
+Returns a list of platforms between the given range
+
++ Parameters
+    + offset: 1 (required, number) - Start index
+    + limit: 1 (required, number) - Number of platforms to get (max: 25)
+
++ Response 201 (application/json)
+
+        [
+            {
+                "Id": 43534,
+                "Name": "Platstation 3"
+            },
+            {
+                "Id": 6574,
+                "Name": "XBox One"
+            }
+        ]
+        
+#### Get [GET /platforms/{platform_id}]
+
+Get the detailed view of a platform
+
++ Parameters
+    + offset: 1 (required, platform_id) - Platform ID
+    
++ Response 201 (application/json)
+
+        [
+            {
+                "Id": 40080,
+                "Name": "Monopoly Millionaire",
+                "Price": "650-628-1500",
+                "OnlineSupport": true,
+                "Description": null,
+                "ReleaseDate": "Thu Oct 22 2015 14:20:44 GMT-0500 (CDT)",
+                "Deck": "The next installment of the Mass Effect franchise is in development at BioWare Montreal.",
+                "Images": [
+                    "http://static.giantbomb.com/uploads/scale_medium/5/57793/2758765-6463613486-joxkD.jpg",
+                ],
+                "Companies": [
+                    {
+                        "Id": 40080,
+                        "Name": "Riot Games"
+                    },
+                    {
+                        "Id": 5000,
+                        "Name": "Codemasters"
+                    }
+                ],
+                "Games": [
+                    {
+                        "Id": 40080,
+                        "Name": "Battlefield 4"
+                    }
+                ]
+            }
+        ]
+
+#### Search [GET /platforms/search]
+
+These are the fields that will describe a game:
+
++ Name
++ ReleaseDate
++ Price
++ OnlineSupport: Platform provides online support
++ Description=
++ Deck: Short summary
++ Images: Array of images
++ Companies: Array of related companies
++ Games: Array of related games
+
++ Response 201 (application/json)
+
+        [
+            {
+                "Id": 40080,
+                "Name": "Riot Games"
+            },
+            {
+                "Id": 5000,
+                "Name": "Codemasters"
+            }
+        ]
+        
+
+
