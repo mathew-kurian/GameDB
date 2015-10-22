@@ -48,12 +48,12 @@ var App = React.createClass({
         <div className="row" key={i}>
           <div className="col-md-6">
             <iframe style={{marginBottom:20}} className='full-width'
-                    src={'https://www.youtube.com/embed/' + videos[i].uid}
+                    src={videos[i].embed_url}
                     width="500" height="213" frameBorder="0" allowFullScreen></iframe>
           </div>
           {videos[i + 1] ? <div className="col-md-6">
             <iframe style={{marginBottom:20}} className='full-width'
-                    src={'https://www.youtube.com/embed/' + videos[i + 1].uid}
+                    src={videos[i + 1].embed_url}
                     width="500" height="213" frameBorder="0" allowFullScreen></iframe>
           </div> : null }
         </div>
@@ -67,22 +67,6 @@ var App = React.createClass({
         <div className='container' style={{marginTop:40}}>
           <div className='col-md-9' role='main'>
             <h1>Summary</h1>
-            {
-              this.state.mode === 'publishers' ?
-                <div>
-                  <h3 scope="row">Concepts</h3>
-
-                  <p>{(this.state.concepts || ["Not found"]).join('; ')}</p>
-
-                  <h3 scope="row">Developed Games</h3>
-
-                  <p>{(this.state.developed_games || ["Not found"]).join('; ')}</p>
-
-                  <h3 scope="row">Published Games</h3>
-
-                  <p>{(this.state.published_games || ["Not found"]).join('; ')}</p>
-                </div> : null
-            }
 
             <div className="lead"
                  dangerouslySetInnerHTML={{__html:(this.state.summary || this.state.description || "No summary found").replace(/<a[^>]*>(.*?)<\/a>/g,"$1")}}></div>

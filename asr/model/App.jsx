@@ -2,6 +2,7 @@ var React = require('react');
 var Header = require('./Header.jsx');
 var FixedDataTable = require('fixed-data-table');
 var _ = require('underscore');
+var moment = require ('moment');
 var Path = require('object-path');
 
 var Table = FixedDataTable.Table;
@@ -105,7 +106,7 @@ var App = React.createClass({
   _cellRenderer(data, column, row){
     if (column > 1)
       return <div
-        style={{whiteSpace: 'nowrap', opacity: column > 1 ? 0.5 : 1, textOverflow: 'ellipsis', overflow: 'hidden', width: 250}}>{typeof data === 'string' && data.length > 50 ? data.substring(0, 50) : data}</div>;
+        style={{whiteSpace: 'nowrap', opacity: column > 1 ? 0.5 : 1, textOverflow: 'ellipsis', overflow: 'hidden', width: 250}}>{typeof data === 'string' && data.length > 50 ? data.substring(0, 50) : (this.state.columns[column].indexOf('date') > -1 ? (data ? moment(data).format('lll') : 'TBD') : String(data))}</div>;
     return <a style={{whiteSpace: 'nowrap'}} href={this.state.mode + "/" + row[0]}>{data}</a>
   },
   render() {
@@ -121,31 +122,6 @@ var App = React.createClass({
       return self.state.rows[rowIndex];
     }
 
-    var videos = this.state.videos;
-
-    if (videos.length % 2 === 1) {
-      videos.push(null);
-    }
-
-    var videoRows = [];
-
-    for (var i = 0; i < videos.length; i += 2) {
-      videoRows.push(
-        <div className="row" key={i}>
-          <div className="col-md-6">
-            <iframe style={{marginBottom:20}} className='full-width'
-                    src={videos[i]}
-                    width="500" height="213" frameBorder="0" allowFullScreen></iframe>
-          </div>
-          {videos[i + 1] ? <div className="col-md-6">
-            <iframe style={{marginBottom:20}} className='full-width'
-                    src={videos[i + 1]}
-                    width="500" height="213" frameBorder="0" allowFullScreen></iframe>
-          </div> : null }
-        </div>
-      );
-    }
-
     return (
       <div style={{width:'100%'}}>
         <Header {...this.state} />
@@ -159,7 +135,7 @@ var App = React.createClass({
             <div className='table-box' ref='tableBox'>
               <div className='title'>Model</div>
               <Table rowHeight={37} rowGetter={rowGetter} rowsCount={this.state.rows.length} width={this.state.width}
-                     height={Math.min(38 * (this.state.rows.length + 1), 500)}
+                     height={Math.min(45 * (this.state.rows.length + 1), 500)}
                      headerHeight={37}>{
                 this.state.columns.map(function (col, i) {
                   return (
@@ -173,20 +149,12 @@ var App = React.createClass({
             </div>
             <br />
 
-            <h3>Related Videos</h3>
-
-            <p>Get the lowdown on the key pieces of Bootstrap's infrastructure, including our approach</p>
-
-            {videoRows}
             <div style={{height:30}}></div>
           </div>
           <div className='col-md-3' role='complementary'>
-            <h4>Related Images</h4>
-
-            <p>Get the latest screenshots</p>
-            {this.state.images.map(function (url, i) {
-              return (<img src={url} key={i}
-                           className="img-rounded full-width"/>)
+            <h4>Important Attributes</h4>
+            {this.state.columns.map(function (col, i) {
+              return (<div className="columns" key={i}>{col}</div>)
             })}
             <div style={{height:30}}></div>
           </div>

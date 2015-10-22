@@ -7636,20 +7636,26 @@ p {
   background: #555;
 }
 .table-box a {
-  color: #CCC;
-  font-weight: bold;
-  -webkit-transition: color 300ms;
-          transition: color 300ms;
+  text-decoration: none !important;
+  background: rgba(120, 120, 120, 0.7);
+  -webkit-transition: all 300ms;
+          transition: all 300ms;
+  color: #ddd;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 1px 5px;
+  letter-spacing: 1px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  font-size: 11px;
 }
 .table-box a:hover {
-  text-decoration: none;
+  background: rgba(120, 120, 120, 0.8);
   color: #fff;
 }
 .table-box a:visited {
-  color: #999;
-}
-.table-box a:visited:hover {
-  color: #fff;
+  background: rgba(120, 120, 120, 0.5);
+  color: #ccc;
 }
 .table-box table {
   margin-bottom: 0;
@@ -7745,4 +7751,17 @@ iframe {
 
 .fixedDataTableCellGroupLayout_cellGroup {
   background: #555 !important;
+}
+
+.columns {
+  text-transform: uppercase;
+  padding: 1px 4px;
+  border: 1px solid #777;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  font-size: 12px;
 }

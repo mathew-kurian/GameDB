@@ -5,11 +5,11 @@ block props
     window.props = {
       mode: 'platforms',
       title: 'Platforms',
-      description: "Structured playing, usually undertaken for enjoyment and sometimes used as an educational tool. Games are distinct from work, which is usually carried out for remuneration, and from art, which is more often an expression of aesthetic or ideological elements.",
-      overview: "Get the lowdown on the key pieces of Bootstrap's infrastructure, including our approach to better, faster, stronger web development.",
+      description: "A video game console is a device that outputs a video signal or visual image to display a video game. The term \"video game console\" is used to distinguish a console machine primarily designed for consumers to use for playing video games in contrast to arcade machines or home computers. It includes home video game consoles, handheld game consoles, microconsoles and dedicated consoles.",
+      overview: "See all the platforms available in the database",
       theme: '#1abc9c',
       rows: JSON.parse(document.getElementById('props').textContent),
-      columns: ["id", "name", "release_date", "original_price", "company.name", "description", "deck"],
-      videos: ["https://player.vimeo.com/video/122622348?byline=0&portrait=0&badge=0", "https://player.vimeo.com/video/57330981?byline=0&portrait=0&badge=0"],
+      columns: ["id", "name", "original_price", "online_support", "release_date", "site_detail_url", "deck", "description"],
+      videos: [],
       images: ["#{assets}images/killzone-0.png", "#{assets}images/battlefield-1.jpg"]
     }

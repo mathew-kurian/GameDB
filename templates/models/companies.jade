@@ -1,0 +1,15 @@
+extends ./models/_model.jade
+block props
+  script#props(style='display:none')!=props
+  script.
+    window.props = {
+      mode: 'companies',
+      title: 'Companies',
+      description: "A video game publisher is a company that publishes video games that they have either developed internally or have had developed by a video game developer; while a video game developer is a software developer that specializes in video game development – the process and related disciplines of creating video games.",
+      overview: "See all the companies available in the database",
+      theme: '#e67e22',
+      rows: JSON.parse(document.getElementById('props').textContent),
+      columns: ["id", "name", "location_address", "location_city", "location_country", "location_state", "phone", "website", "description"],
+      videos: [],
+      images: ["#{assets}images/killzone-0.png", "#{assets}images/battlefield-1.jpg"]
+    }

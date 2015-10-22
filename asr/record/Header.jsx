@@ -8,6 +8,19 @@ var Header = React.createClass({
   getInitialState(){
     return {}
   },
+  _getRelatedDOM(title, key, path){
+    if (!this.props[key]) return null;
+    return (
+      <tr className='related-link'>
+        <th scope="row">{title}</th>
+        <td>{_.map(this.props[key], function (item, i) {
+          return (
+            <a key={i} href={path + item.id}>{item.name}</a>
+          )
+        })}</td>
+      </tr>
+    )
+  },
   render(){
     var tbody;
 
@@ -20,21 +33,20 @@ var Header = React.createClass({
             <td>{_.pluck(this.props.genres, 'name').join('; ') || NOT_AVAILABLE}</td>
           </tr>
           <tr>
-            <th scope="row">Platforms</th>
-            <td>{_.pluck(this.props.release_dates, 'platform_name').join('; ') || NOT_AVAILABLE}</td>
+            <th scope="row">Deck</th>
+            <td>{this.props.deck || NOT_AVAILABLE}</td>
           </tr>
           <tr>
-            <th scope="row">Themes</th>
-            <td>{_.pluck(this.props.themes, 'name').join('; ') || NOT_AVAILABLE}</td>
+            <th scope="row">Release Date</th>
+            <td>{moment(this.props.original_release_date).format('lll') || NOT_AVAILABLE}</td>
           </tr>
-          <tr>
-            <th scope="row">Rating</th>
-            <td>{Number(this.props.rating || this.props.rating || "Not available").toFixed(2)}</td>
-          </tr>
+          {this._getRelatedDOM('Publishers', 'publishers', '/companies/')}
+          {this._getRelatedDOM('Developers', 'developers', '/companies/')}
+          {this._getRelatedDOM('Platforms', 'platforms', '/platforms/')}
           </tbody>
         );
         break;
-      case "publishers":
+      case "companies":
         tbody = (
           <tbody>
           <tr>
@@ -69,6 +81,9 @@ var Header = React.createClass({
             <th scope="row">Deck</th>
             <td>{this.props.deck}</td>
           </tr>
+          {this._getRelatedDOM('Developed Games', 'developed_games', '/games/')}
+          {this._getRelatedDOM('Published Games', 'published_games', '/games/')}
+          {this._getRelatedDOM('Platforms', 'platforms', '/platforms/')}
           </tbody>
         );
         break;
@@ -91,6 +106,8 @@ var Header = React.createClass({
             <th scope="row">Deck</th>
             <td>{this.props.deck || NOT_AVAILABLE}</td>
           </tr>
+          {this._getRelatedDOM('Games', 'games', '/games/')}
+          {this._getRelatedDOM('Companies', 'companies', '/companies/')}
           </tbody>
         );
         break;
@@ -118,8 +135,8 @@ var Header = React.createClass({
                    href="../platforms.html">Platforms</a>
               </li>
               <li>
-                <a className={this.props.mode === 'publishers' ? 'active nav-active' : null}
-                   href="../publishers.html">Publishers</a>
+                <a className={this.props.mode === 'companies' ? 'active nav-active' : null}
+                   href="../companies.html">Companies</a>
               </li>
             </ul>
           </nav>

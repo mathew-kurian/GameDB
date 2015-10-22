@@ -69,21 +69,25 @@ p {
   padding: 30px;
   background: #555;
 
-
   a {
-    color: #CCC;
-    font-weight: bold;
-    transition: color 300ms;
-  }
-  a:hover {
-    text-decoration: none;
-    color: #fff;
-  }
-  a:visited {
-    color: #999;
-  }
-  a:visited:hover {
-    color: #fff;
+    text-decoration: none !important;
+    background: rgba(120, 120, 120, 0.7);
+    transition: all 300ms;
+    color: #ddd;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 1px 5px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    font-size: 11px;
+    &:hover {
+      background: rgba(120, 120, 120, 0.8);
+      color: #fff;
+    }
+    &:visited {
+      background: rgba(120, 120, 120, 0.5);
+      color: #ccc;
+    }
   }
 
   table {
@@ -177,6 +181,18 @@ iframe {
   background-color: #EEE !important;
 }
 
-.fixedDataTableCellGroupLayout_cellGroup{
+.fixedDataTableCellGroupLayout_cellGroup {
   background: #555 !important;
+}
+
+.columns {
+  text-transform: uppercase;
+  padding: 1px 4px;
+  border: 1px solid #777;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  font-size: 12px;
 }

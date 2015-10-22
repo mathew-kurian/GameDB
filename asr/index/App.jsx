@@ -78,7 +78,7 @@ var App = React.createClass({
             </a>
           </div>
           <div className="box full">
-            <a href="publishers.html"
+            <a href="companies.html"
                style={{background: '#ffc846', color: '#000', display: 'inline-block', fontSize: 12, textTransform: 'uppercase', letterSpacing: 1, fontWeight: 400, lineHeight: H + 'px', textDecoration:'none',textAlign:'center',width:'100%'}}>
               <b>Publishers</b> Model
             </a>

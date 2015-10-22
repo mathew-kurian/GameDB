@@ -16,13 +16,13 @@ Compress(app)
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 app.debug = True
 
-with open('scripts/igdb/games/hyped0.json') as f:
+with open('scripts/giantbomb/db/games.connected.json') as f:
     games_db = json.load(f)
 
-with open('scripts/giantbomb/companies/page0.json') as f:
-    publishers_db = json.load(f)
+with open('scripts/giantbomb/db/companies.connected.json') as f:
+    companies_db = json.load(f)
 
-with open('scripts/giantbomb/platforms/page0.json') as f:
+with open('scripts/giantbomb/db/platforms.connected.json') as f:
     platforms_db = json.load(f)
 
 def router(db, model, id=-1):
@@ -61,12 +61,12 @@ def platforms(id=-1):
     return router(platforms_db, 'platforms', id)
 
 
-@app.route('/publishers')
-@app.route('/publishers/<int:id>')
-@app.route('/publishers.html')
-def publishers(id=-1):
-    return router(publishers_db, 'publishers', id)
+@app.route('/companies')
+@app.route('/companies/<int:id>')
+@app.route('/companies.html')
+def companies(id=-1):
+    return router(companies_db, 'companies', id)
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=5000)

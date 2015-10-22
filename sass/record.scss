@@ -183,3 +183,39 @@ table.compressed {
     color: #fff;
   }
 }
+
+.related-link {
+  a {
+    text-decoration: none !important;
+    background: rgba(95, 97, 239, 0.7);
+    transition: all 300ms;
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 1px 5px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    margin-right: 4px;
+    font-size: 11px;
+    //&:after {
+    //  content: ', ';
+    //}
+    //&:last-child {
+    //  &:after {
+    //    content: '';
+    //  }
+    //}
+    &:hover {
+      background: rgba(95, 97, 239, 0.8);
+      color: #fff;
+    }
+    &:visited {
+      background: rgba(95, 97, 239, 0.5);
+      color: #ccc;
+    }
+  }
+}
+
+tr.related-link th {
+  width: 200px;
+}
