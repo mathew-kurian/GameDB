@@ -80,8 +80,8 @@ var App = React.createClass({
               <div className="col-md-8">
                 <h5>Mattew Kim</h5>
 
-                <p>The purpose of this project to is provide an interactive way to track the dependencies between
-                  video-games, platforms, and game companies.</p>
+                <p>Student at the University of Texas at Austin completing a bachelor's degree in Computer Science. This is my final semester, and I plan on building a career in software engineering after graduation.
+                During this project, I worked on creating the unit tests and the data models. During my time working in phase 1, I submitted 4 commits and wrote 9 unit tests.</p>
               </div>
             </div>
             <hr />
