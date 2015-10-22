@@ -1,0 +1,39 @@
+.profile-rounded {
+  width: 90px;
+  height: 90px;
+  border-radius: 4px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.col-md-3 {
+  text-align: left;
+}
+
+h5 {
+  margin-top: 0;
+}
+
+hr {
+  opacity: 0.5;
+}
+
+.about {
+  a {
+    color: #CCC;
+    transition: color 300ms;
+  }
+  a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  a:visited {
+    color: #999;
+  }
+  a:visited:hover {
+    color: #fff;
+  }
+}
