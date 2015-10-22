@@ -6,10 +6,8 @@ app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = '' #insert URI
 db = SQLALchemy(app)
 
-Game_Developer_table = Table('game-company association', Base.metadata, Column('game_id', Integer, ForeignKey('game.id')), Column('company_id', Integer, ForeignKey('company.id')))
-Game_Publisher_table = Table('game-company association', Base.metadata, Column('game_id', Integer, ForeignKey('game.id')), Column('company_id', Integer, ForeignKey('company.id')))
+Game_Company_table = Table('game-company association', Base.metadata, Column('game_id', Integer, ForeignKey('game.id')), Column('company_id', Integer, ForeignKey('company.id')))
 Game_Platform_table = Table('game-platform association', Base.metadata, Column('game_id', Integer, ForeignKey('game.id')), Column('platform_id', Integer, ForeignKey('platform.id')))
-Platform_Company_table = Table('platform-company association', Base.metadata, Column('platform_id', Integer, ForeignKey('platform.id')), Column('company_id', Integer, ForeignKey('company.id')))
 
 class Game(db.Model):
 	__tablename__ = 'game'
@@ -23,8 +21,8 @@ class Game(db.Model):
 	images = db.Column(db.PickleType(), unique = True)
 
 	platforms = relationship('Platform', secondary=Game_Platform_table, backref = db.backref('game', lazy = 'dynamic'))
-	developers = relationship('Company', secondary=Game_Developer_table, backref = db.backref('game', lazy = 'dynamic'))
-	publishers = relationship('Company', secondary=Game_Publisher_table, backref = db.backref('game', lazy = 'dynamic'))
+	developers = relationship('Company', secondary=Game_Company_table, backref = db.backref('game', lazy = 'dynamic'))
+	publishers = relationship('Company', secondary=Game_Company_table, backref = db.backref('game', lazy = 'dynamic'))
 	
 	def __init__(self, name, release_date, **args):
 		self.name = name
@@ -53,9 +51,9 @@ class Company(db.Model):
 	website = db.Column(db.String(), unique = True)
 	description = db.Column(db.String(), unique = True)
 
-	platforms = relationship('Platform', secondary=Platform_Company_table, backref = db.backref('game', lazy = 'dynamic'))
-	developed_games = relationship('Game', secondary=Game_Developer_table, backref = db.backref('company', lazy = 'dynamic'))
-	published_games = relationship('Game', secondary=Game_Publisher_table, backref = db.backref('company', lazy = 'dynamic'))
+	platforms = db.relationship('Platform', backref = db.backref('game', lazy = 'dynamic'))
+	developed_games = relationship('Game', secondary=Game_Company_table, backref = db.backref('company', lazy = 'dynamic'))
+	published_games = relationship('Game', secondary=Game_Company_table, backref = db.backref('company', lazy = 'dynamic'))
 	def __init__(self, name, location_address, location_city, location_state, location_country, phone, website, description, **args):
 		self.name = name
 		self.location_address = location_address
@@ -82,8 +80,8 @@ class Platform(db.Model):
 	deck = db.Column(db.String(), unique = True)
 	images = db.Column(db.PickleType(), unique = True)
 	
-	companies = relationship('Company', secondary=Platform_Company_table, backref = db.backref('platform', lazy = 'dynamic'))
-	games = relationship('Game', secondary=Game_Platform_table, backref = db.backref('platform', lazy = 'dynamic'))
+	companies = db.relationship('Company', secondary=Platform_Company_table, backref = db.backref('platform', lazy = 'dynamic'))
+	games = relationship('Game', backref = db.backref('platform', lazy = 'dynamic'))
 	def __init__(self, release_date, name, price, online_support, description, deck, **args):
 		self.release_date = release_date
 		self.name = name
