@@ -94,10 +94,12 @@ var App = React.createClass({
               </div>
 
               <div className="col-md-8">
-                <h5>Rahul Rahevel</h5>
+                <h5>Rahul Rajavel</h5>
 
-                <p>The purpose of this project to is provide an interactive way to track the dependencies between
-                  video-games, platforms, and game companies.</p>
+                <p>Computer Science and Electrical Engineering Double Major Student at the 
+                University of Texas at Austin. This is my 3rd year. My hobbies are basketball and tennis. 
+                During the project, I focused on documentation, working on the Apiary and the UML diagram.
+                I made 11 commits, filed 5 issues, wrote 0 unit tests.</p>
               </div>
             </div>
             <hr />
