@@ -14,7 +14,8 @@ var Header = React.createClass({
                 <a href="index.html">Home</a>
               </li>
               <li>
-                <a href="about.html">About</a>
+                <a className={this.props.mode === 'about' ? 'active nav-active' : null}
+                  href="about.html">About</a>
               </li>
               <li>
                 <a className={this.props.mode === 'games' ? 'active nav-active' : null}
