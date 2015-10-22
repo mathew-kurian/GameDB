@@ -1,0 +1,17 @@
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', type='text/css', href=assets + 'dist/css/model.min.css')
+    link(rel='stylesheet', type='text/css', href=assets + 'css/fixed-data-table.css')
+    script(src=(assets + 'dist/asr/about/Bootstrap.min.js') defer)
+  body
+  script.
+    var $ASSETS = '#{assets}';
+  script#props(style='display:none')!=props
+  script.
+    window.props = {
+      mode: 'about',
+      title: 'About',
+      overview: "See all the companies available in the database",
+      theme: '#e67e22'
+    }
