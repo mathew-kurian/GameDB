@@ -26,41 +26,45 @@ class TestGames (TestCase) :
     # ----
 
     def test_game1 (self) :
-        game = Game("Halo", "Shooter", "Xbox", "Bungie Studios", "Havok", "tag1", 4.5)
+        game = Game("Halo", "2001")
         self.assertEqual(game.__name__, "Halo")
     def test_game2 (self) :
-        game = Game("Smashy Road", "Driving", "IOS", "RK Games", "Some Engine", "tag1", 4.5)
-        self.assertEqual(game.company.__name__, "RK Games")
+        args = {"developers":["RK Games"], "platforms":["IOS", "Android"]}
+        game = Game("Smashy Road", "2014", args)
         self.assertEqual(game.__name__, "Smashy Road")
     def test_game3 (self) :
-        game = Game("Super Mario Bros.", "Platformer", "Ancient Computer", "Nintendo", "Ancient Engine", "tag1", 4.5)
-        self.assertEqual(game.platform.__name__, "Ancient Computer")
+        args = {"developers":["Nintendo"], "platforms":["Some Ancient Console"]}
+        game = Game("Super Mario Bros.", "1985", args)
         self.assertEqual(game.__name__, "Halo")
     # ----
     # Developer
     # ----
 
     def test_company1 (self) :
-        company = Company("Nintendo", "Japan", "Nintendo Games", 1950, "Mr. Nintendo", "Dr. Nintendo", 5000)
+        company = Company("Nintendo", "address", "city", "state", "Japan", "123-456-7890", "nintendo.com", "It's nintendo")
         self.assertEqual(company.__name__, "Nintendo")
     def test_company2 (self) :
-        company = Company("Sega", "Japan", "Sega Games", 1960, "Mr. Sega", "Mrs. Sega", 4000)
-        self.assertEqual(company.__name__, "Nintendo")
+        args = {"developed_games": ["Sonic"], "published_games":["Also Sonic?"]}
+        company = Company("Sega", "address", "city", "state", "Japan", "123-456-7890", "sega.com", "It's sega", args)
+        self.assertEqual(company.__name__, "Sega")
     def test_company3 (self) :
-        company = Company("EA Games", "America", "EA games", 1970, "Mr. EA", "Mrs. EA", 3000)
-        self.assertEqual(company.__name__, "Nintendo")
+        args = {"developed_games":["Sports simulator 2015", "Another Sports simluator 2014"], "published_games":["the Sims 1", "The Sims 2-4"]}
+        company = Company("EA Games", "address", "city", "state", "USA", "123-456-7890", "EA.com", "It's EA")
+        self.assertEqual(company.__name__, "EA Games")
     # ----
     # Platform
     # ----
 
     def test_platform1 (self) :
-        platform = Platform("2000", 4.5, "PS2", 1000000, 2)
+        platform = Platform("2000", "PS2", 400, False, "asdf", "asdf")
         self.assertEqual(platform.__name__, "PS2")
     def test_platform2 (self) :
-        platform = Platform("2000", 4.5, "GameCube", 1000000, 2)
+        args = {"games":["Super Smash Bros. Melee", "Mario Party 5"]}
+        platform = Platform("2000", "GameCube", 300, False, "asdf", "asdf", args)
         self.assertEqual(platform.__name__, "GameCube")
     def test_platform3 (self) :
-        platform = Platform("2000", 4.5, "Xbox", 1000000, 2)
+        args = {"games":["Halo", "Star Wars Battlefront 2", "Call of Duty: Modern Warfare"], "companies":["Bungie", "Infinity Ward"]}
+        platform = Platform("2000", "Xbox", 300, False, "asdf", "asdf", args)
         self.assertEqual(platform.__name__, "Xbox")
 
 # ----
