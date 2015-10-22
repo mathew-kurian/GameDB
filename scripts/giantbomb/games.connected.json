@@ -1,0 +1,1690 @@
+{
+  "40080": {
+    "aliases": null,
+    "api_detail_url": "http://www.giantbomb.com/api/game/3030-40080/",
+    "date_added": "2012-10-16 19:41:50",
+    "date_last_updated": "2012-10-16 19:51:37",
+    "deck": "Monopoly Millionaire is an iOS game based on the Monopoly Millionaire board game.",
+    "description": "<h2>Overview</h2><p style=\"\">Monopoly Millionaire is a board game developed and published by <a data-ref-id=\"3010-1\" href=\"/electronic-arts/3010-1/\" slug=\"electronic-arts\">Electronic Arts</a> for the <a data-ref-id=\"3045-96\" href=\"/iphone/3045-96/\" slug=\"iphone\">iPhone</a> and <a data-ref-id=\"3045-121\" href=\"/ipad/3045-121/\" slug=\"ipad\">iPad</a> platforms.</p><h2>Gameplay</h2><p style=\"\">Monopoly Millionaire takes the traditional Monopoly game and adds some twists and gameplay changes. In this version of Monopoly the goal is to be the first player to obtain one million dollars.</p><p style=\"\">Monopoly Millionaire also adds two types of power up cards called lucky and fortune cards.</p><h3>Multiplayer</h3><p style=\"\">Monopoly Millionaire supports two types of multiplayer, the first is a hot seat style pass and play and the other is over wifi.</p>",
+    "expected_release_day": null,
+    "expected_release_month": null,
+    "expected_release_quarter": null,
+    "expected_release_year": null,
+    "id": 40080,
+    "image": {
+      "icon_url": "http://static.giantbomb.com/uploads/square_avatar/10/103881/2345937-monopoly_millionaire.jpg",
+      "medium_url": "http://static.giantbomb.com/uploads/scale_medium/10/103881/2345937-monopoly_millionaire.jpg",
+      "screen_url": "http://static.giantbomb.com/uploads/screen_medium/10/103881/2345937-monopoly_millionaire.jpg",
+      "small_url": "http://static.giantbomb.com/uploads/scale_small/10/103881/2345937-monopoly_millionaire.jpg",
+      "super_url": "http://static.giantbomb.com/uploads/scale_large/10/103881/2345937-monopoly_millionaire.jpg",
+      "thumb_url": "http://static.giantbomb.com/uploads/scale_avatar/10/103881/2345937-monopoly_millionaire.jpg",
+      "tiny_url": "http://static.giantbomb.com/uploads/square_mini/10/103881/2345937-monopoly_millionaire.jpg"
+    },
+    "name": "Monopoly Millionaire",
+    "number_of_user_reviews": 0,
+    "original_game_rating": null,
+    "original_release_date": "2012-10-11 00:00:00",
+    "platforms": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/platform/3045-96/",
+        "id": 96,
+        "name": "iPhone",
+        "site_detail_url": "http://www.giantbomb.com/iphone/3045-96/",
+        "abbreviation": "IPHN"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/platform/3045-121/",
+        "id": 121,
+        "name": "iPad",
+        "site_detail_url": "http://www.giantbomb.com/ipad/3045-121/",
+        "abbreviation": "IPAD"
+      }
+    ],
+    "site_detail_url": "http://www.giantbomb.com/monopoly-millionaire/3030-40080/",
+    "images": [
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/10/103881/2345941-monopoly_millionaire_4.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/10/103881/2345941-monopoly_millionaire_4.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/10/103881/2345941-monopoly_millionaire_4.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/10/103881/2345941-monopoly_millionaire_4.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/10/103881/2345941-monopoly_millionaire_4.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/10/103881/2345941-monopoly_millionaire_4.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/10/103881/2345941-monopoly_millionaire_4.jpg",
+        "tags": "All Images, Screenshots"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/10/103881/2345940-monopoly_millionaire_3.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/10/103881/2345940-monopoly_millionaire_3.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/10/103881/2345940-monopoly_millionaire_3.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/10/103881/2345940-monopoly_millionaire_3.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/10/103881/2345940-monopoly_millionaire_3.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/10/103881/2345940-monopoly_millionaire_3.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/10/103881/2345940-monopoly_millionaire_3.jpg",
+        "tags": "All Images, Screenshots"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/10/103881/2345939-monopoly_millionaire_2.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/10/103881/2345939-monopoly_millionaire_2.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/10/103881/2345939-monopoly_millionaire_2.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/10/103881/2345939-monopoly_millionaire_2.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/10/103881/2345939-monopoly_millionaire_2.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/10/103881/2345939-monopoly_millionaire_2.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/10/103881/2345939-monopoly_millionaire_2.jpg",
+        "tags": "All Images, Screenshots"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/10/103881/2345938-monopoly_millionaire_1.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/10/103881/2345938-monopoly_millionaire_1.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/10/103881/2345938-monopoly_millionaire_1.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/10/103881/2345938-monopoly_millionaire_1.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/10/103881/2345938-monopoly_millionaire_1.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/10/103881/2345938-monopoly_millionaire_1.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/10/103881/2345938-monopoly_millionaire_1.jpg",
+        "tags": "All Images, Screenshots"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/10/103881/2345937-monopoly_millionaire.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/10/103881/2345937-monopoly_millionaire.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/10/103881/2345937-monopoly_millionaire.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/10/103881/2345937-monopoly_millionaire.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/10/103881/2345937-monopoly_millionaire.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/10/103881/2345937-monopoly_millionaire.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/10/103881/2345937-monopoly_millionaire.jpg",
+        "tags": "All Images, Box Art"
+      }
+    ],
+    "videos": [],
+    "characters": null,
+    "concepts": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2329/",
+        "id": 2329,
+        "name": "Digital Distribution",
+        "site_detail_url": "http://www.giantbomb.com/digital-distribution/3015-2329/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1910/",
+        "id": 1910,
+        "name": "Board Game",
+        "site_detail_url": "http://www.giantbomb.com/board-game/3015-1910/"
+      }
+    ],
+    "developers": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/company/3010-1/",
+        "id": 1,
+        "name": "Electronic Arts",
+        "site_detail_url": "http://www.giantbomb.com/electronic-arts/3010-1/"
+      }
+    ],
+    "first_appearance_characters": null,
+    "first_appearance_concepts": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2329/",
+        "id": 2329,
+        "name": "Digital Distribution",
+        "site_detail_url": "http://www.giantbomb.com/digital-distribution/3015-2329/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1910/",
+        "id": 1910,
+        "name": "Board Game",
+        "site_detail_url": "http://www.giantbomb.com/board-game/3015-1910/"
+      }
+    ],
+    "first_appearance_locations": null,
+    "first_appearance_objects": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-2435/",
+        "id": 2435,
+        "name": "Paper Money",
+        "site_detail_url": "http://www.giantbomb.com/paper-money/3055-2435/"
+      }
+    ],
+    "first_appearance_people": null,
+    "franchises": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/franchise/3025-887/",
+        "id": 887,
+        "name": "Monopoly",
+        "site_detail_url": "http://www.giantbomb.com/monopoly/3025-887/"
+      }
+    ],
+    "genres": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/genre/3060-14/",
+        "id": 14,
+        "name": "Trivia/Board Game",
+        "site_detail_url": "http://www.giantbomb.com/games/?wikiSlug=triviaboard-game&wikiTypeId=3060&wikiId=14&genre=14"
+      }
+    ],
+    "killed_characters": null,
+    "locations": null,
+    "objects": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-2435/",
+        "id": 2435,
+        "name": "Paper Money",
+        "site_detail_url": "http://www.giantbomb.com/paper-money/3055-2435/"
+      }
+    ],
+    "people": null,
+    "publishers": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/publisher/3010-1/",
+        "id": 1,
+        "name": "Electronic Arts",
+        "site_detail_url": "http://www.giantbomb.com/electronic-arts/3010-1/"
+      }
+    ],
+    "similar_games": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/game/3030-44982/",
+        "id": 44982,
+        "name": "Chess",
+        "site_detail_url": "http://www.giantbomb.com/chess/3030-44982/"
+      }
+    ]
+  },
+  "46631": {
+    "aliases": null,
+    "api_detail_url": "http://www.giantbomb.com/api/game/3030-46631/",
+    "date_added": "2014-06-15 07:03:59",
+    "date_last_updated": "2015-07-18 14:07:43",
+    "deck": "The next installment of the Mass Effect franchise is in development at BioWare Montreal.",
+    "description": null,
+    "expected_release_day": null,
+    "expected_release_month": null,
+    "expected_release_quarter": null,
+    "expected_release_year": 2016,
+    "id": 46631,
+    "image": {
+      "icon_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758765-6463613486-joxkD.jpg",
+      "medium_url": "http://static.giantbomb.com/uploads/scale_medium/5/57793/2758765-6463613486-joxkD.jpg",
+      "screen_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758765-6463613486-joxkD.jpg",
+      "small_url": "http://static.giantbomb.com/uploads/scale_small/5/57793/2758765-6463613486-joxkD.jpg",
+      "super_url": "http://static.giantbomb.com/uploads/scale_large/5/57793/2758765-6463613486-joxkD.jpg",
+      "thumb_url": "http://static.giantbomb.com/uploads/scale_avatar/5/57793/2758765-6463613486-joxkD.jpg",
+      "tiny_url": "http://static.giantbomb.com/uploads/square_mini/5/57793/2758765-6463613486-joxkD.jpg"
+    },
+    "name": "Mass Effect: Andromeda",
+    "number_of_user_reviews": 0,
+    "original_game_rating": null,
+    "original_release_date": null,
+    "platforms": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/platform/3045-94/",
+        "id": 94,
+        "name": "PC",
+        "site_detail_url": "http://www.giantbomb.com/pc/3045-94/",
+        "abbreviation": "PC"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/platform/3045-145/",
+        "id": 145,
+        "name": "Xbox One",
+        "site_detail_url": "http://www.giantbomb.com/xbox-one/3045-145/",
+        "abbreviation": "XONE"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/platform/3045-146/",
+        "id": 146,
+        "name": "PlayStation 4",
+        "site_detail_url": "http://www.giantbomb.com/playstation-4/3045-146/",
+        "abbreviation": "PS4"
+      }
+    ],
+    "site_detail_url": "http://www.giantbomb.com/mass-effect-andromeda/3030-46631/",
+    "images": [
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758769-3445163468-scree.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758769-3445163468-scree.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758769-3445163468-scree.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758769-3445163468-scree.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/5/57793/2758769-3445163468-scree.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/5/57793/2758769-3445163468-scree.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/5/57793/2758769-3445163468-scree.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758768-7984913900-scree.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758768-7984913900-scree.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758768-7984913900-scree.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758768-7984913900-scree.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/5/57793/2758768-7984913900-scree.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/5/57793/2758768-7984913900-scree.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/5/57793/2758768-7984913900-scree.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758767-3893504744-CHkRWhKUwAMwvlG.jpg%3Aorig",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758767-3893504744-CHkRWhKUwAMwvlG.jpg%3Aorig",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758767-3893504744-CHkRWhKUwAMwvlG.jpg%3Aorig",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758767-3893504744-CHkRWhKUwAMwvlG.jpg%3Aorig",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/5/57793/2758767-3893504744-CHkRWhKUwAMwvlG.jpg%3Aorig",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/5/57793/2758767-3893504744-CHkRWhKUwAMwvlG.jpg%3Aorig",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/5/57793/2758767-3893504744-CHkRWhKUwAMwvlG.jpg%3Aorig",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758766-9419651541-jKmG3.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758766-9419651541-jKmG3.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758766-9419651541-jKmG3.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758766-9419651541-jKmG3.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/5/57793/2758766-9419651541-jKmG3.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/5/57793/2758766-9419651541-jKmG3.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/5/57793/2758766-9419651541-jKmG3.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758765-6463613486-joxkD.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758765-6463613486-joxkD.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758765-6463613486-joxkD.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758765-6463613486-joxkD.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/5/57793/2758765-6463613486-joxkD.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/5/57793/2758765-6463613486-joxkD.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/5/57793/2758765-6463613486-joxkD.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758764-0893815073-MEA_s.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758764-0893815073-MEA_s.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/5/57793/2758764-0893815073-MEA_s.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/5/57793/2758764-0893815073-MEA_s.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/5/57793/2758764-0893815073-MEA_s.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/5/57793/2758764-0893815073-MEA_s.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/5/57793/2758764-0893815073-MEA_s.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/14/146870/2737957-mocapme4.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/14/146870/2737957-mocapme4.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/14/146870/2737957-mocapme4.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/14/146870/2737957-mocapme4.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/14/146870/2737957-mocapme4.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/14/146870/2737957-mocapme4.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/14/146870/2737957-mocapme4.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/14/146870/2737956-meconceptart.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/14/146870/2737956-meconceptart.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/14/146870/2737956-meconceptart.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/14/146870/2737956-meconceptart.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/14/146870/2737956-meconceptart.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/14/146870/2737956-meconceptart.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/14/146870/2737956-meconceptart.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/3699/2723298-mass+effect+-+armor+1.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/3699/2723298-mass+effect+-+armor+1.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/3699/2723298-mass+effect+-+armor+1.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/3699/2723298-mass+effect+-+armor+1.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/3699/2723298-mass+effect+-+armor+1.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/3699/2723298-mass+effect+-+armor+1.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/3699/2723298-mass+effect+-+armor+1.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/3699/2723301-screenshot+1.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/3699/2723301-screenshot+1.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/3699/2723301-screenshot+1.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/3699/2723301-screenshot+1.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/3699/2723301-screenshot+1.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/3699/2723301-screenshot+1.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/3699/2723301-screenshot+1.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/3699/2723300-mass+effect+-+armor+3.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/3699/2723300-mass+effect+-+armor+3.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/3699/2723300-mass+effect+-+armor+3.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/3699/2723300-mass+effect+-+armor+3.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/3699/2723300-mass+effect+-+armor+3.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/3699/2723300-mass+effect+-+armor+3.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/3699/2723300-mass+effect+-+armor+3.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/3699/2723299-mass+effect+-+armor+2.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/3699/2723299-mass+effect+-+armor+2.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/3699/2723299-mass+effect+-+armor+2.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/3699/2723299-mass+effect+-+armor+2.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/3699/2723299-mass+effect+-+armor+2.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/3699/2723299-mass+effect+-+armor+2.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/3699/2723299-mass+effect+-+armor+2.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/1992/2643038-screen+shot+2014-06-09+at+5.33.33+pm.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/1992/2643038-screen+shot+2014-06-09+at+5.33.33+pm.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/1992/2643038-screen+shot+2014-06-09+at+5.33.33+pm.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/1992/2643038-screen+shot+2014-06-09+at+5.33.33+pm.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/1992/2643038-screen+shot+2014-06-09+at+5.33.33+pm.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/1992/2643038-screen+shot+2014-06-09+at+5.33.33+pm.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/1992/2643038-screen+shot+2014-06-09+at+5.33.33+pm.jpg",
+        "tags": "All Images"
+      }
+    ],
+    "videos": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/video/2300-8992/",
+        "id": 8992,
+        "name": "E3 2014: BioWare Wants Your Ideas on a New Mass Effect",
+        "site_detail_url": "http://www.giantbomb.com/videos/e3-2014-bioware-wants-your-ideas-on-a-new-mass-eff/2300-8992/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/video/2300-10292/",
+        "id": 10292,
+        "name": "E3 2015: It's the Return of the Mako in Mass Effect: Andromeda",
+        "site_detail_url": "http://www.giantbomb.com/videos/e3-2015-it-s-the-return-of-the-mako-in-mass-effect/2300-10292/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/video/2300-10316/",
+        "id": 10316,
+        "name": "E3 2015: We Talk Over the EA Press Conference",
+        "site_detail_url": "http://www.giantbomb.com/videos/e3-2015-we-talk-over-the-ea-press-conference/2300-10316/"
+      }
+    ],
+    "characters": null,
+    "concepts": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-579/",
+        "id": 579,
+        "name": "Krogan",
+        "site_detail_url": "http://www.giantbomb.com/krogan/3015-579/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-7932/",
+        "id": 7932,
+        "name": "E3 2014",
+        "site_detail_url": "http://www.giantbomb.com/e3-2014/3015-7932/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-8592/",
+        "id": 8592,
+        "name": "Action RPG",
+        "site_detail_url": "http://www.giantbomb.com/action-rpg/3015-8592/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-769/",
+        "id": 769,
+        "name": "Pick Your Gender",
+        "site_detail_url": "http://www.giantbomb.com/pick-your-gender/3015-769/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-810/",
+        "id": 810,
+        "name": "Human",
+        "site_detail_url": "http://www.giantbomb.com/human/3015-810/"
+      }
+    ],
+    "developers": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/company/3010-9298/",
+        "id": 9298,
+        "name": "BioWare Montreal",
+        "site_detail_url": "http://www.giantbomb.com/bioware-montreal/3010-9298/"
+      }
+    ],
+    "first_appearance_characters": null,
+    "first_appearance_concepts": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-579/",
+        "id": 579,
+        "name": "Krogan",
+        "site_detail_url": "http://www.giantbomb.com/krogan/3015-579/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-7932/",
+        "id": 7932,
+        "name": "E3 2014",
+        "site_detail_url": "http://www.giantbomb.com/e3-2014/3015-7932/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-8592/",
+        "id": 8592,
+        "name": "Action RPG",
+        "site_detail_url": "http://www.giantbomb.com/action-rpg/3015-8592/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-769/",
+        "id": 769,
+        "name": "Pick Your Gender",
+        "site_detail_url": "http://www.giantbomb.com/pick-your-gender/3015-769/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-810/",
+        "id": 810,
+        "name": "Human",
+        "site_detail_url": "http://www.giantbomb.com/human/3015-810/"
+      }
+    ],
+    "first_appearance_locations": null,
+    "first_appearance_objects": null,
+    "first_appearance_people": null,
+    "franchises": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/franchise/3025-560/",
+        "id": 560,
+        "name": "Mass Effect",
+        "site_detail_url": "http://www.giantbomb.com/mass-effect/3025-560/"
+      }
+    ],
+    "killed_characters": null,
+    "locations": null,
+    "objects": null,
+    "people": null,
+    "publishers": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/publisher/3010-1/",
+        "id": 1,
+        "name": "Electronic Arts",
+        "site_detail_url": "http://www.giantbomb.com/electronic-arts/3010-1/"
+      }
+    ],
+    "similar_games": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/game/3030-41347/",
+        "id": 41347,
+        "name": "Xenoblade Chronicles X",
+        "site_detail_url": "http://www.giantbomb.com/xenoblade-chronicles-x/3030-41347/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/game/3030-49458/",
+        "id": 49458,
+        "name": "Star Ocean: Integrity and Faithlessness",
+        "site_detail_url": "http://www.giantbomb.com/star-ocean-integrity-and-faithlessness/3030-49458/"
+      }
+    ],
+    "themes": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/theme/3032-3/",
+        "id": 3,
+        "name": "Sci-Fi",
+        "site_detail_url": "http://www.giantbomb.com/games/?wikiSlug=sci-fi&wikiTypeId=3032&wikiId=3&theme=3"
+      }
+    ]
+  },
+  "48190": {
+    "aliases": null,
+    "api_detail_url": "http://www.giantbomb.com/api/game/3030-48190/",
+    "date_added": "2014-11-07 12:10:07",
+    "date_last_updated": "2015-08-02 12:01:32",
+    "deck": "Overwatch is a stylish, hero-based first-person multiplayer shooter created by Blizzard. A beta is set to launch in Fall 2015.",
+    "description": "<p style=\"\"> </p><h2>Development History</h2><p style=\"\">Overwatch rises from the ashes of <a href=\"/titan-working-title/3030-33432/\" data-ref-id=\"3030-33432\">Titan</a>, Blizzard's canceled MMO-project. Overwatch was the name of Titan's PVP component, featuring some of the same basic characters now found in Overwatch, albeit with different names. Overwatch uses the engine initially developed for Titan.</p>",
+    "expected_release_day": null,
+    "expected_release_month": null,
+    "expected_release_quarter": null,
+    "expected_release_year": 2016,
+    "id": 48190,
+    "image": {
+      "icon_url": "http://static.giantbomb.com/uploads/square_avatar/18/187968/2699288-logo-burst-tablet.258zx.jpg",
+      "medium_url": "http://static.giantbomb.com/uploads/scale_medium/18/187968/2699288-logo-burst-tablet.258zx.jpg",
+      "screen_url": "http://static.giantbomb.com/uploads/screen_medium/18/187968/2699288-logo-burst-tablet.258zx.jpg",
+      "small_url": "http://static.giantbomb.com/uploads/scale_small/18/187968/2699288-logo-burst-tablet.258zx.jpg",
+      "super_url": "http://static.giantbomb.com/uploads/scale_large/18/187968/2699288-logo-burst-tablet.258zx.jpg",
+      "thumb_url": "http://static.giantbomb.com/uploads/scale_avatar/18/187968/2699288-logo-burst-tablet.258zx.jpg",
+      "tiny_url": "http://static.giantbomb.com/uploads/square_mini/18/187968/2699288-logo-burst-tablet.258zx.jpg"
+    },
+    "name": "Overwatch",
+    "number_of_user_reviews": 0,
+    "original_game_rating": null,
+    "original_release_date": null,
+    "platforms": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/platform/3045-94/",
+        "id": 94,
+        "name": "PC",
+        "site_detail_url": "http://www.giantbomb.com/pc/3045-94/",
+        "abbreviation": "PC"
+      }
+    ],
+    "site_detail_url": "http://www.giantbomb.com/overwatch/3030-48190/",
+    "images": [
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770854-gibraltar_06.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770854-gibraltar_06.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770854-gibraltar_06.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770854-gibraltar_06.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770854-gibraltar_06.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770854-gibraltar_06.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770854-gibraltar_06.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770861-mccree_03.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770861-mccree_03.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770861-mccree_03.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770861-mccree_03.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770861-mccree_03.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770861-mccree_03.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770861-mccree_03.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770868-zarya_04.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770868-zarya_04.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770868-zarya_04.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770868-zarya_04.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770868-zarya_04.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770868-zarya_04.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770868-zarya_04.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770850-gibraltar_02.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770850-gibraltar_02.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770850-gibraltar_02.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770850-gibraltar_02.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770850-gibraltar_02.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770850-gibraltar_02.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770850-gibraltar_02.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770857-gibraltar_10.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770857-gibraltar_10.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770857-gibraltar_10.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770857-gibraltar_10.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770857-gibraltar_10.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770857-gibraltar_10.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770857-gibraltar_10.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770864-mccree_06.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770864-mccree_06.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770864-mccree_06.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770864-mccree_06.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770864-mccree_06.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770864-mccree_06.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770864-mccree_06.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770853-gibraltar_05.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770853-gibraltar_05.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770853-gibraltar_05.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770853-gibraltar_05.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770853-gibraltar_05.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770853-gibraltar_05.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770853-gibraltar_05.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770860-mccree_02.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770860-mccree_02.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770860-mccree_02.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770860-mccree_02.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770860-mccree_02.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770860-mccree_02.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770860-mccree_02.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770867-zarya_03.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770867-zarya_03.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770867-zarya_03.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770867-zarya_03.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770867-zarya_03.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770867-zarya_03.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770867-zarya_03.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770849-gibraltar_01.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770849-gibraltar_01.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770849-gibraltar_01.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770849-gibraltar_01.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770849-gibraltar_01.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770849-gibraltar_01.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770849-gibraltar_01.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770856-gibraltar_09.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770856-gibraltar_09.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770856-gibraltar_09.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770856-gibraltar_09.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770856-gibraltar_09.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770856-gibraltar_09.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770856-gibraltar_09.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770863-mccree_05.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770863-mccree_05.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770863-mccree_05.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770863-mccree_05.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770863-mccree_05.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770863-mccree_05.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770863-mccree_05.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770852-gibraltar_04.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770852-gibraltar_04.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770852-gibraltar_04.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770852-gibraltar_04.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770852-gibraltar_04.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770852-gibraltar_04.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770852-gibraltar_04.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770859-mccree_01.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770859-mccree_01.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770859-mccree_01.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770859-mccree_01.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770859-mccree_01.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770859-mccree_01.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770859-mccree_01.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770866-zarya_02.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770866-zarya_02.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770866-zarya_02.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770866-zarya_02.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770866-zarya_02.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770866-zarya_02.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770866-zarya_02.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770855-gibraltar_08.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770855-gibraltar_08.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770855-gibraltar_08.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770855-gibraltar_08.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770855-gibraltar_08.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770855-gibraltar_08.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770855-gibraltar_08.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770862-mccree_04.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770862-mccree_04.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770862-mccree_04.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770862-mccree_04.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770862-mccree_04.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770862-mccree_04.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770862-mccree_04.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770851-gibraltar_03.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770851-gibraltar_03.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770851-gibraltar_03.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770851-gibraltar_03.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770851-gibraltar_03.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770851-gibraltar_03.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770851-gibraltar_03.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770858-gibraltar_11.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770858-gibraltar_11.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770858-gibraltar_11.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770858-gibraltar_11.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770858-gibraltar_11.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770858-gibraltar_11.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770858-gibraltar_11.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770865-zarya_01.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770865-zarya_01.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770865-zarya_01.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770865-zarya_01.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770865-zarya_01.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770865-zarya_01.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770865-zarya_01.jpg",
+        "tags": "All Images"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770835-seventysix_01.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770835-seventysix_01.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770835-seventysix_01.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770835-seventysix_01.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770835-seventysix_01.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770835-seventysix_01.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770835-seventysix_01.jpg",
+        "tags": "All Images, Soldier 76"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770843-seventysix_3p_02.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770843-seventysix_3p_02.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770843-seventysix_3p_02.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770843-seventysix_3p_02.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770843-seventysix_3p_02.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770843-seventysix_3p_02.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770843-seventysix_3p_02.jpg",
+        "tags": "All Images, Soldier 76"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770839-seventysix_1p_03.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770839-seventysix_1p_03.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770839-seventysix_1p_03.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770839-seventysix_1p_03.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770839-seventysix_1p_03.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770839-seventysix_1p_03.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770839-seventysix_1p_03.jpg",
+        "tags": "All Images, Soldier 76"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770846-seventysix_04.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770846-seventysix_04.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770846-seventysix_04.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770846-seventysix_04.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770846-seventysix_04.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770846-seventysix_04.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770846-seventysix_04.jpg",
+        "tags": "All Images, Soldier 76"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770842-seventysix_3p_01.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770842-seventysix_3p_01.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770842-seventysix_3p_01.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770842-seventysix_3p_01.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770842-seventysix_3p_01.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770842-seventysix_3p_01.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770842-seventysix_3p_01.jpg",
+        "tags": "All Images, Soldier 76"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770838-seventysix_1p_02.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770838-seventysix_1p_02.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770838-seventysix_1p_02.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770838-seventysix_1p_02.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770838-seventysix_1p_02.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770838-seventysix_1p_02.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770838-seventysix_1p_02.jpg",
+        "tags": "All Images, Soldier 76"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770845-seventysix_3p_05.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770845-seventysix_3p_05.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770845-seventysix_3p_05.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770845-seventysix_3p_05.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770845-seventysix_3p_05.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770845-seventysix_3p_05.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770845-seventysix_3p_05.jpg",
+        "tags": "All Images, Soldier 76"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770841-seventysix_03.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770841-seventysix_03.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770841-seventysix_03.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770841-seventysix_03.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770841-seventysix_03.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770841-seventysix_03.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770841-seventysix_03.jpg",
+        "tags": "All Images, Soldier 76"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770848-seventysix_ult_02.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770848-seventysix_ult_02.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770848-seventysix_ult_02.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770848-seventysix_ult_02.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770848-seventysix_ult_02.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770848-seventysix_ult_02.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770848-seventysix_ult_02.jpg",
+        "tags": "All Images, Soldier 76"
+      },
+      {
+        "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770837-seventysix_1p_01.jpg",
+        "medium_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770837-seventysix_1p_01.jpg",
+        "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/5057/2770837-seventysix_1p_01.jpg",
+        "small_url": "http://static.giantbomb.com/uploads/square_avatar/0/5057/2770837-seventysix_1p_01.jpg",
+        "super_url": "http://static.giantbomb.com/uploads/scale_large/0/5057/2770837-seventysix_1p_01.jpg",
+        "thumb_url": "http://static.giantbomb.com/uploads/scale_small/0/5057/2770837-seventysix_1p_01.jpg",
+        "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/5057/2770837-seventysix_1p_01.jpg",
+        "tags": "All Images, Soldier 76"
+      }
+    ],
+    "videos": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/video/2300-9682/",
+        "id": 9682,
+        "name": "Blizzard Debuted Overwatch With This Beautiful Cinematic",
+        "site_detail_url": "http://www.giantbomb.com/videos/blizzard-debuted-overwatch-with-this-beautiful-cin/2300-9682/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/video/2300-9683/",
+        "id": 9683,
+        "name": "A Lengthy Look at Overwatch's Team-Based Gameplay",
+        "site_detail_url": "http://www.giantbomb.com/videos/a-lengthy-look-at-overwatchs-team-based-gameplay/2300-9683/"
+      }
+    ],
+    "characters": null,
+    "concepts": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-405/",
+        "id": 405,
+        "name": "Classes",
+        "site_detail_url": "http://www.giantbomb.com/classes/3015-405/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-559/",
+        "id": 559,
+        "name": "Online",
+        "site_detail_url": "http://www.giantbomb.com/online/3015-559/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-7541/",
+        "id": 7541,
+        "name": "Pre-Release Public Testing",
+        "site_detail_url": "http://www.giantbomb.com/pre-release-public-testing/3015-7541/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2329/",
+        "id": 2329,
+        "name": "Digital Distribution",
+        "site_detail_url": "http://www.giantbomb.com/digital-distribution/3015-2329/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-3377/",
+        "id": 3377,
+        "name": "Indian Accent",
+        "site_detail_url": "http://www.giantbomb.com/indian-accent/3015-3377/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2835/",
+        "id": 2835,
+        "name": "English Accent",
+        "site_detail_url": "http://www.giantbomb.com/english-accent/3015-2835/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-5516/",
+        "id": 5516,
+        "name": "Ape",
+        "site_detail_url": "http://www.giantbomb.com/ape/3015-5516/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-278/",
+        "id": 278,
+        "name": "Robots",
+        "site_detail_url": "http://www.giantbomb.com/robots/3015-278/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2944/",
+        "id": 2944,
+        "name": "Cybernetics",
+        "site_detail_url": "http://www.giantbomb.com/cybernetics/3015-2944/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-218/",
+        "id": 218,
+        "name": "Artificial Intelligence",
+        "site_detail_url": "http://www.giantbomb.com/artificial-intelligence/3015-218/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-6735/",
+        "id": 6735,
+        "name": "Cyberpunk",
+        "site_detail_url": "http://www.giantbomb.com/cyberpunk/3015-6735/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-8/",
+        "id": 8,
+        "name": "Teleportation",
+        "site_detail_url": "http://www.giantbomb.com/teleportation/3015-8/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1321/",
+        "id": 1321,
+        "name": "Assassin",
+        "site_detail_url": "http://www.giantbomb.com/assassin/3015-1321/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-3355/",
+        "id": 3355,
+        "name": "Archer",
+        "site_detail_url": "http://www.giantbomb.com/archer/3015-3355/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1798/",
+        "id": 1798,
+        "name": "Superhero",
+        "site_detail_url": "http://www.giantbomb.com/superhero/3015-1798/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-4311/",
+        "id": 4311,
+        "name": "Damage Shield",
+        "site_detail_url": "http://www.giantbomb.com/damage-shield/3015-4311/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-330/",
+        "id": 330,
+        "name": "First-Person Perspective",
+        "site_detail_url": "http://www.giantbomb.com/first-person-perspective/3015-330/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2073/",
+        "id": 2073,
+        "name": "Mercenary",
+        "site_detail_url": "http://www.giantbomb.com/mercenary/3015-2073/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-224/",
+        "id": 224,
+        "name": "Payload",
+        "site_detail_url": "http://www.giantbomb.com/payload/3015-224/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2077/",
+        "id": 2077,
+        "name": "Battle.net",
+        "site_detail_url": "http://www.giantbomb.com/battlenet/3015-2077/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-718/",
+        "id": 718,
+        "name": "Steam",
+        "site_detail_url": "http://www.giantbomb.com/steam/3015-718/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-3061/",
+        "id": 3061,
+        "name": "Gunslinger",
+        "site_detail_url": "http://www.giantbomb.com/gunslinger/3015-3061/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-4858/",
+        "id": 4858,
+        "name": "Guards",
+        "site_detail_url": "http://www.giantbomb.com/guards/3015-4858/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2906/",
+        "id": 2906,
+        "name": "Agents",
+        "site_detail_url": "http://www.giantbomb.com/agents/3015-2906/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1011/",
+        "id": 1011,
+        "name": "Police",
+        "site_detail_url": "http://www.giantbomb.com/police/3015-1011/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1009/",
+        "id": 1009,
+        "name": "Military",
+        "site_detail_url": "http://www.giantbomb.com/military/3015-1009/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-515/",
+        "id": 515,
+        "name": "Martial Arts",
+        "site_detail_url": "http://www.giantbomb.com/martial-arts/3015-515/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-186/",
+        "id": 186,
+        "name": "Aliens",
+        "site_detail_url": "http://www.giantbomb.com/aliens/3015-186/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1169/",
+        "id": 1169,
+        "name": "Good vs. Evil",
+        "site_detail_url": "http://www.giantbomb.com/good-vs-evil/3015-1169/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-315/",
+        "id": 315,
+        "name": "Heroes",
+        "site_detail_url": "http://www.giantbomb.com/heroes/3015-315/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-870/",
+        "id": 870,
+        "name": "Saving the World",
+        "site_detail_url": "http://www.giantbomb.com/saving-the-world/3015-870/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-810/",
+        "id": 810,
+        "name": "Human",
+        "site_detail_url": "http://www.giantbomb.com/human/3015-810/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-3603/",
+        "id": 3603,
+        "name": "RPG Elements",
+        "site_detail_url": "http://www.giantbomb.com/rpg-elements/3015-3603/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2366/",
+        "id": 2366,
+        "name": "Monkeys",
+        "site_detail_url": "http://www.giantbomb.com/monkeys/3015-2366/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2958/",
+        "id": 2958,
+        "name": "Soldier",
+        "site_detail_url": "http://www.giantbomb.com/soldier/3015-2958/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1382/",
+        "id": 1382,
+        "name": "Law",
+        "site_detail_url": "http://www.giantbomb.com/law/3015-1382/"
+      }
+    ],
+    "developers": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/company/3010-1088/",
+        "id": 1088,
+        "name": "Blizzard Entertainment",
+        "site_detail_url": "http://www.giantbomb.com/blizzard-entertainment/3010-1088/"
+      }
+    ],
+    "first_appearance_characters": null,
+    "first_appearance_concepts": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-405/",
+        "id": 405,
+        "name": "Classes",
+        "site_detail_url": "http://www.giantbomb.com/classes/3015-405/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-559/",
+        "id": 559,
+        "name": "Online",
+        "site_detail_url": "http://www.giantbomb.com/online/3015-559/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-7541/",
+        "id": 7541,
+        "name": "Pre-Release Public Testing",
+        "site_detail_url": "http://www.giantbomb.com/pre-release-public-testing/3015-7541/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2329/",
+        "id": 2329,
+        "name": "Digital Distribution",
+        "site_detail_url": "http://www.giantbomb.com/digital-distribution/3015-2329/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-3377/",
+        "id": 3377,
+        "name": "Indian Accent",
+        "site_detail_url": "http://www.giantbomb.com/indian-accent/3015-3377/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2835/",
+        "id": 2835,
+        "name": "English Accent",
+        "site_detail_url": "http://www.giantbomb.com/english-accent/3015-2835/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-5516/",
+        "id": 5516,
+        "name": "Ape",
+        "site_detail_url": "http://www.giantbomb.com/ape/3015-5516/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-278/",
+        "id": 278,
+        "name": "Robots",
+        "site_detail_url": "http://www.giantbomb.com/robots/3015-278/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2944/",
+        "id": 2944,
+        "name": "Cybernetics",
+        "site_detail_url": "http://www.giantbomb.com/cybernetics/3015-2944/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-218/",
+        "id": 218,
+        "name": "Artificial Intelligence",
+        "site_detail_url": "http://www.giantbomb.com/artificial-intelligence/3015-218/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-6735/",
+        "id": 6735,
+        "name": "Cyberpunk",
+        "site_detail_url": "http://www.giantbomb.com/cyberpunk/3015-6735/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-8/",
+        "id": 8,
+        "name": "Teleportation",
+        "site_detail_url": "http://www.giantbomb.com/teleportation/3015-8/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1321/",
+        "id": 1321,
+        "name": "Assassin",
+        "site_detail_url": "http://www.giantbomb.com/assassin/3015-1321/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-3355/",
+        "id": 3355,
+        "name": "Archer",
+        "site_detail_url": "http://www.giantbomb.com/archer/3015-3355/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1798/",
+        "id": 1798,
+        "name": "Superhero",
+        "site_detail_url": "http://www.giantbomb.com/superhero/3015-1798/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-4311/",
+        "id": 4311,
+        "name": "Damage Shield",
+        "site_detail_url": "http://www.giantbomb.com/damage-shield/3015-4311/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-330/",
+        "id": 330,
+        "name": "First-Person Perspective",
+        "site_detail_url": "http://www.giantbomb.com/first-person-perspective/3015-330/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2073/",
+        "id": 2073,
+        "name": "Mercenary",
+        "site_detail_url": "http://www.giantbomb.com/mercenary/3015-2073/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-224/",
+        "id": 224,
+        "name": "Payload",
+        "site_detail_url": "http://www.giantbomb.com/payload/3015-224/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2077/",
+        "id": 2077,
+        "name": "Battle.net",
+        "site_detail_url": "http://www.giantbomb.com/battlenet/3015-2077/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-718/",
+        "id": 718,
+        "name": "Steam",
+        "site_detail_url": "http://www.giantbomb.com/steam/3015-718/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-3061/",
+        "id": 3061,
+        "name": "Gunslinger",
+        "site_detail_url": "http://www.giantbomb.com/gunslinger/3015-3061/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-4858/",
+        "id": 4858,
+        "name": "Guards",
+        "site_detail_url": "http://www.giantbomb.com/guards/3015-4858/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2906/",
+        "id": 2906,
+        "name": "Agents",
+        "site_detail_url": "http://www.giantbomb.com/agents/3015-2906/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1011/",
+        "id": 1011,
+        "name": "Police",
+        "site_detail_url": "http://www.giantbomb.com/police/3015-1011/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1009/",
+        "id": 1009,
+        "name": "Military",
+        "site_detail_url": "http://www.giantbomb.com/military/3015-1009/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-515/",
+        "id": 515,
+        "name": "Martial Arts",
+        "site_detail_url": "http://www.giantbomb.com/martial-arts/3015-515/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-186/",
+        "id": 186,
+        "name": "Aliens",
+        "site_detail_url": "http://www.giantbomb.com/aliens/3015-186/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1169/",
+        "id": 1169,
+        "name": "Good vs. Evil",
+        "site_detail_url": "http://www.giantbomb.com/good-vs-evil/3015-1169/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-315/",
+        "id": 315,
+        "name": "Heroes",
+        "site_detail_url": "http://www.giantbomb.com/heroes/3015-315/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-870/",
+        "id": 870,
+        "name": "Saving the World",
+        "site_detail_url": "http://www.giantbomb.com/saving-the-world/3015-870/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-810/",
+        "id": 810,
+        "name": "Human",
+        "site_detail_url": "http://www.giantbomb.com/human/3015-810/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-3603/",
+        "id": 3603,
+        "name": "RPG Elements",
+        "site_detail_url": "http://www.giantbomb.com/rpg-elements/3015-3603/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2366/",
+        "id": 2366,
+        "name": "Monkeys",
+        "site_detail_url": "http://www.giantbomb.com/monkeys/3015-2366/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-2958/",
+        "id": 2958,
+        "name": "Soldier",
+        "site_detail_url": "http://www.giantbomb.com/soldier/3015-2958/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/concept/3015-1382/",
+        "id": 1382,
+        "name": "Law",
+        "site_detail_url": "http://www.giantbomb.com/law/3015-1382/"
+      }
+    ],
+    "first_appearance_locations": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-492/",
+        "id": 492,
+        "name": "United Kingdom",
+        "site_detail_url": "http://www.giantbomb.com/united-kingdom/3035-492/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-212/",
+        "id": 212,
+        "name": "London",
+        "site_detail_url": "http://www.giantbomb.com/london/3035-212/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-37/",
+        "id": 37,
+        "name": "Japan",
+        "site_detail_url": "http://www.giantbomb.com/japan/3035-37/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-878/",
+        "id": 878,
+        "name": "Egypt",
+        "site_detail_url": "http://www.giantbomb.com/egypt/3035-878/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-343/",
+        "id": 343,
+        "name": "China",
+        "site_detail_url": "http://www.giantbomb.com/china/3035-343/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-38/",
+        "id": 38,
+        "name": "Russia",
+        "site_detail_url": "http://www.giantbomb.com/russia/3035-38/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-396/",
+        "id": 396,
+        "name": "The United States of America",
+        "site_detail_url": "http://www.giantbomb.com/the-united-states-of-america/3035-396/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-65/",
+        "id": 65,
+        "name": "Earth",
+        "site_detail_url": "http://www.giantbomb.com/earth/3035-65/"
+      }
+    ],
+    "first_appearance_objects": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-43/",
+        "id": 43,
+        "name": "Turret",
+        "site_detail_url": "http://www.giantbomb.com/turret/3055-43/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-73/",
+        "id": 73,
+        "name": "Bow",
+        "site_detail_url": "http://www.giantbomb.com/bow/3055-73/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-4447/",
+        "id": 4447,
+        "name": "Arrow",
+        "site_detail_url": "http://www.giantbomb.com/arrow/3055-4447/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-729/",
+        "id": 729,
+        "name": "War Hammer",
+        "site_detail_url": "http://www.giantbomb.com/war-hammer/3055-729/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-574/",
+        "id": 574,
+        "name": "Armor",
+        "site_detail_url": "http://www.giantbomb.com/armor/3055-574/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-6/",
+        "id": 6,
+        "name": "Jet Pack",
+        "site_detail_url": "http://www.giantbomb.com/jet-pack/3055-6/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-67/",
+        "id": 67,
+        "name": "Sniper Rifle",
+        "site_detail_url": "http://www.giantbomb.com/sniper-rifle/3055-67/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-114/",
+        "id": 114,
+        "name": "Shotgun",
+        "site_detail_url": "http://www.giantbomb.com/shotgun/3055-114/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-644/",
+        "id": 644,
+        "name": "Energy Force Shield",
+        "site_detail_url": "http://www.giantbomb.com/energy-force-shield/3055-644/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-140/",
+        "id": 140,
+        "name": "Laser",
+        "site_detail_url": "http://www.giantbomb.com/laser/3055-140/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-1452/",
+        "id": 1452,
+        "name": "Glasses",
+        "site_detail_url": "http://www.giantbomb.com/glasses/3055-1452/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-322/",
+        "id": 322,
+        "name": "Car",
+        "site_detail_url": "http://www.giantbomb.com/car/3055-322/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-118/",
+        "id": 118,
+        "name": "Gun",
+        "site_detail_url": "http://www.giantbomb.com/gun/3055-118/"
+      }
+    ],
+    "first_appearance_people": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/person/3040-79993/",
+        "id": 79993,
+        "name": "Crispin Freeman",
+        "site_detail_url": "http://www.giantbomb.com/crispin-freeman/3040-79993/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/person/3040-24301/",
+        "id": 24301,
+        "name": "Jeff Chamberlain",
+        "site_detail_url": "http://www.giantbomb.com/jeff-chamberlain/3040-24301/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/person/3040-3469/",
+        "id": 3469,
+        "name": "Bill Petras",
+        "site_detail_url": "http://www.giantbomb.com/bill-petras/3040-3469/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/person/3040-3445/",
+        "id": 3445,
+        "name": "Chris Metzen",
+        "site_detail_url": "http://www.giantbomb.com/chris-metzen/3040-3445/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/person/3040-106479/",
+        "id": 106479,
+        "name": "John Gilpin",
+        "site_detail_url": "http://www.giantbomb.com/john-gilpin/3040-106479/"
+      }
+    ],
+    "franchises": null,
+    "genres": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/genre/3060-32/",
+        "id": 32,
+        "name": "First-Person Shooter",
+        "site_detail_url": "http://www.giantbomb.com/games/?wikiSlug=first-person-shooter&wikiTypeId=3060&wikiId=32&genre=32"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/genre/3060-50/",
+        "id": 50,
+        "name": "MOBA",
+        "site_detail_url": "http://www.giantbomb.com/games/?wikiSlug=moba&wikiTypeId=3060&wikiId=50&genre=50"
+      }
+    ],
+    "killed_characters": null,
+    "locations": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-492/",
+        "id": 492,
+        "name": "United Kingdom",
+        "site_detail_url": "http://www.giantbomb.com/united-kingdom/3035-492/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-212/",
+        "id": 212,
+        "name": "London",
+        "site_detail_url": "http://www.giantbomb.com/london/3035-212/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-37/",
+        "id": 37,
+        "name": "Japan",
+        "site_detail_url": "http://www.giantbomb.com/japan/3035-37/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-878/",
+        "id": 878,
+        "name": "Egypt",
+        "site_detail_url": "http://www.giantbomb.com/egypt/3035-878/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-343/",
+        "id": 343,
+        "name": "China",
+        "site_detail_url": "http://www.giantbomb.com/china/3035-343/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-38/",
+        "id": 38,
+        "name": "Russia",
+        "site_detail_url": "http://www.giantbomb.com/russia/3035-38/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-396/",
+        "id": 396,
+        "name": "The United States of America",
+        "site_detail_url": "http://www.giantbomb.com/the-united-states-of-america/3035-396/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/location/3035-65/",
+        "id": 65,
+        "name": "Earth",
+        "site_detail_url": "http://www.giantbomb.com/earth/3035-65/"
+      }
+    ],
+    "objects": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-43/",
+        "id": 43,
+        "name": "Turret",
+        "site_detail_url": "http://www.giantbomb.com/turret/3055-43/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-73/",
+        "id": 73,
+        "name": "Bow",
+        "site_detail_url": "http://www.giantbomb.com/bow/3055-73/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-4447/",
+        "id": 4447,
+        "name": "Arrow",
+        "site_detail_url": "http://www.giantbomb.com/arrow/3055-4447/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-729/",
+        "id": 729,
+        "name": "War Hammer",
+        "site_detail_url": "http://www.giantbomb.com/war-hammer/3055-729/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-574/",
+        "id": 574,
+        "name": "Armor",
+        "site_detail_url": "http://www.giantbomb.com/armor/3055-574/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-6/",
+        "id": 6,
+        "name": "Jet Pack",
+        "site_detail_url": "http://www.giantbomb.com/jet-pack/3055-6/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-67/",
+        "id": 67,
+        "name": "Sniper Rifle",
+        "site_detail_url": "http://www.giantbomb.com/sniper-rifle/3055-67/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-114/",
+        "id": 114,
+        "name": "Shotgun",
+        "site_detail_url": "http://www.giantbomb.com/shotgun/3055-114/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-644/",
+        "id": 644,
+        "name": "Energy Force Shield",
+        "site_detail_url": "http://www.giantbomb.com/energy-force-shield/3055-644/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-140/",
+        "id": 140,
+        "name": "Laser",
+        "site_detail_url": "http://www.giantbomb.com/laser/3055-140/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-1452/",
+        "id": 1452,
+        "name": "Glasses",
+        "site_detail_url": "http://www.giantbomb.com/glasses/3055-1452/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-322/",
+        "id": 322,
+        "name": "Car",
+        "site_detail_url": "http://www.giantbomb.com/car/3055-322/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/object/3055-118/",
+        "id": 118,
+        "name": "Gun",
+        "site_detail_url": "http://www.giantbomb.com/gun/3055-118/"
+      }
+    ],
+    "people": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/person/3040-79993/",
+        "id": 79993,
+        "name": "Crispin Freeman",
+        "site_detail_url": "http://www.giantbomb.com/crispin-freeman/3040-79993/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/person/3040-24301/",
+        "id": 24301,
+        "name": "Jeff Chamberlain",
+        "site_detail_url": "http://www.giantbomb.com/jeff-chamberlain/3040-24301/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/person/3040-3469/",
+        "id": 3469,
+        "name": "Bill Petras",
+        "site_detail_url": "http://www.giantbomb.com/bill-petras/3040-3469/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/person/3040-3445/",
+        "id": 3445,
+        "name": "Chris Metzen",
+        "site_detail_url": "http://www.giantbomb.com/chris-metzen/3040-3445/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/person/3040-106479/",
+        "id": 106479,
+        "name": "John Gilpin",
+        "site_detail_url": "http://www.giantbomb.com/john-gilpin/3040-106479/"
+      }
+    ],
+    "publishers": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/publisher/3010-1088/",
+        "id": 1088,
+        "name": "Blizzard Entertainment",
+        "site_detail_url": "http://www.giantbomb.com/blizzard-entertainment/3010-1088/"
+      }
+    ],
+    "similar_games": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/game/3030-18162/",
+        "id": 18162,
+        "name": "Team Fortress 2",
+        "site_detail_url": "http://www.giantbomb.com/team-fortress-2/3030-18162/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/game/3030-38788/",
+        "id": 38788,
+        "name": "Warframe",
+        "site_detail_url": "http://www.giantbomb.com/warframe/3030-38788/"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/game/3030-46940/",
+        "id": 46940,
+        "name": "Battleborn",
+        "site_detail_url": "http://www.giantbomb.com/battleborn/3030-46940/"
+      }
+    ],
+    "themes": [
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/theme/3032-2/",
+        "id": 2,
+        "name": "Fantasy",
+        "site_detail_url": "http://www.giantbomb.com/games/?wikiSlug=fantasy&wikiTypeId=3032&wikiId=2&theme=2"
+      },
+      {
+        "api_detail_url": "http://www.giantbomb.com/api/theme/3032-3/",
+        "id": 3,
+        "name": "Sci-Fi",
+        "site_detail_url": "http://www.giantbomb.com/games/?wikiSlug=sci-fi&wikiTypeId=3032&wikiId=3&theme=3"
+      }
+    ]
+  }
+}

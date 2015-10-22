@@ -128,7 +128,7 @@ var Header = React.createClass({
           <div className="container">
             <div className='col-md-3'>
               <div
-                style={{width:'100%', display:'inline-block', height: 250, borderRadius: 5,backgroundImage: 'url(' + (this.props.company_logo ? "http://igdb.com/" +  this.props.company_logo.url : this.props.images[0]) + ')',backgroundPosition:'center center',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#888',verticalAlign:'top'}}
+                style={{width:'100%', display:'inline-block', height: 250, borderRadius: 5,backgroundImage: 'url(' + (this.props.company_logo ? "http://igdb.com/" +  this.props.company_logo.url : this.props.images[0]) + ')',backgroundPosition:'center center',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#555',verticalAlign:'top'}}
                 className='img-rounded'/>
             </div>
             <div className="col-md-9">
