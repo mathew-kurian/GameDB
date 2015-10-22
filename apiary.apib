@@ -30,7 +30,18 @@ Returns a list of games between the given range
 
 #### Get [GET /games/{game_id}]
 
-Get the detailed view of a game
+These are the fields that will describe a game:
+
++ Name: Name of the game
++ ReleaseDate: Original release date of the game
++ Genres: Array of Genres
++ Description: Summary of game
++ Deck: Overview of game
++ Videos: Array of related (embeddable) videos URLs
++ Images: Array of related image URLs
++ Developers: Array of companies which developed game
++ Publishers: Array of companies which published game
++ Platforms: Array of platforms game has been released on
 
 + Parameters
     + offset: 1 (required, game_id) - Game ID
@@ -77,20 +88,9 @@ Get the detailed view of a game
             }
         ]
 
-#### Search [GET /games/search]
+#### Search [GET /games/search?filter[column_operation]={val}]
 
-These are the fields that will describe a game:
-
-+ Name: Name of the game
-+ ReleaseDate: Original release date of the game
-+ Genres: Array of Genres
-+ Description: Summary of game
-+ Deck: Overview of game
-+ Videos: Array of related (embeddable) videos URLs
-+ Images: Array of related image URLs
-+ Developers: Array of companies which developed game
-+ Publishers: Array of companies which published game
-+ Platforms: Array of platforms game has been released on
+Output a list of games that meet the search criteria
 
 + Response 201 (application/json)
 
@@ -101,7 +101,7 @@ These are the fields that will describe a game:
             },
             {
                 "Id": 5000,
-                "Name": "Battlefield 4"
+                "Name": "Codemasters"
             }
         ]
 
@@ -109,7 +109,7 @@ These are the fields that will describe a game:
 
 ## List [GET /companies?{offset}=number&{limit}=number]
 
-Returns a list of games between the given range
+Returns a list of companies between the given range
 
 + Parameters
     + offset: 1 (required, number) - Start index
@@ -130,7 +130,20 @@ Returns a list of games between the given range
         
 #### Get [GET /companies/{company_id}]
 
-Get the detailed view of a company
+These are the fields that will describe a company:
+
++ Name
++ LocationAddress
++ LocationCity
++ LocationState
++ LocationCountry
++ Phone
++ Images: Array of images
++ Website: Company website
++ Description: Summary of game
++ DevelopedGames: Array of games developed
++ PublishedGames: Array of games published
++ Platforms: Array of platforms developed/published on
 
 + Parameters
     + offset: 1 (required, game_id) - Company ID
@@ -174,22 +187,9 @@ Get the detailed view of a company
             }
         ]
 
-#### Search [GET /companies/search]
+#### Search [GET /companies/search?filter[column_operation]={val}]
 
-These are the fields that will describe a game:
-
-+ Name
-+ LocationAddress
-+ LocationCity
-+ LocationState
-+ LocationCountry
-+ Phone
-+ Images: Array of images
-+ Website: Company website
-+ Description: Summary of game
-+ DevelopedGames: Array of games developed
-+ PublishedGames: Array of games published
-+ Platforms: Array of platforms developed/published on
+Output a list of companies that meet the search criteria
 
 + Response 201 (application/json)
 
@@ -219,7 +219,7 @@ Returns a list of platforms between the given range
         [
             {
                 "Id": 43534,
-                "Name": "Platstation 3"
+                "Name": "Playstation 3"
             },
             {
                 "Id": 6574,
@@ -229,7 +229,19 @@ Returns a list of platforms between the given range
         
 #### Get [GET /platforms/{platform_id}]
 
-Get the detailed view of a platform
+These are the fields that will describe a platform:
+
++ Name
++ ReleaseDate
++ Price
++ OnlineSupport: Platform provides online support
++ Description=
++ Deck: Short summary
++ Images: Array of images
++ Companies: Array of related companies
++ Games: Array of related games
+
++ Response 201 (application/json)
 
 + Parameters
     + offset: 1 (required, platform_id) - Platform ID
@@ -267,21 +279,10 @@ Get the detailed view of a platform
             }
         ]
 
-#### Search [GET /platforms/search]
+#### Search [GET /platforms/search?filter[column_operation]={val}]
 
-These are the fields that will describe a game:
+Output a list of platforms based on the search criteria
 
-+ Name
-+ ReleaseDate
-+ Price
-+ OnlineSupport: Platform provides online support
-+ Description=
-+ Deck: Short summary
-+ Images: Array of images
-+ Companies: Array of related companies
-+ Games: Array of related games
-
-+ Response 201 (application/json)
 
         [
             {
@@ -293,6 +294,3 @@ These are the fields that will describe a game:
                 "Name": "Codemasters"
             }
         ]
-        
-
-
