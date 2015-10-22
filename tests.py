@@ -8,6 +8,13 @@ from io       import StringIO
 from unittest import main, TestCase
 
 from models import Game, Developer, Platform, Image
+from flask import Flask
+from flask.ext.sqlalchemy import SQLAlchemy
+
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = '' #insert URI
+db = SQLALchemy(app)
 
 # -----------
 # Test Games
@@ -19,40 +26,40 @@ class TestGames (TestCase) :
     # ----
 
     def test_game1 (self) :
-
+        game = Game("Halo", "Shooter", "Xbox", "Bungie Studios", "Havok", "tag1", 4.5)
+        self.assertEqual(game.__name__, "Halo")
     def test_game2 (self) :
-
+        game = Game("Halo", "Shooter", "Xbox", "Bungie Studios", "Havok", "tag1", 4.5)
+        self.assertEqual(game.__name__, "Halo")
     def test_game3 (self) :
-
+        game = Game("Halo", "Shooter", "Xbox", "Bungie Studios", "Havok", "tag1", 4.5)
+        self.assertEqual(game.__name__, "Halo")
     # ----
     # Developer
     # ----
 
-    def test_dev1 (self) :
-
-    def test_dev2 (self) :
-
-    def test_dev3 (self) :
-
+    def test_company1 (self) :
+        company = Company("Nintendo", "Japan", "games", 1950, "CEO man", "COO man", 5000)
+        self.assertEqual(company.__name__, "Nintendo")
+    def test_company2 (self) :
+        company = Company("Nintendo", "Japan", "games", 1950, "CEO man", "COO man", 5000)
+        self.assertEqual(company.__name__, "Nintendo")
+    def test_company3 (self) :
+        company = Company("Nintendo", "Japan", "games", 1950, "CEO man", "COO man", 5000)
+        self.assertEqual(company.__name__, "Nintendo")
     # ----
     # Platform
     # ----
 
     def test_platform1 (self) :
-
+        platform = Platform("2000", 4.5, "PS2", 1000000, 2)
+        self.assertEqual(platform.__name__, "PS2")
     def test_platform2 (self) :
-
+        platform = Platform("2000", 4.5, "PS2", 1000000, 2)
+        self.assertEqual(platform.__name__, "PS2")
     def test_platform3 (self) :
-
-    # ----
-    # Image
-    # ----
-
-    def test_image1 (self) :
-
-    def test_image2 (self) :
-
-    def test_image3 (self) :
+        platform = Platform("2000", 4.5, "PS2", 1000000, 2)
+        self.assertEqual(platform.__name__, "PS2")
 
 # ----
 # main

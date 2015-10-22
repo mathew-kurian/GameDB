@@ -14,8 +14,8 @@ class Game(db.Model):
 	
 	platform_id = db.Column(db.Integer, db.ForeignKey('platform.id'))
 	platform = db.relationship('Platform', backref = db.backref('games', lazy = 'dynamic'))
-	developer_id = db.Column(db.Integer, db.ForeignKey('developer.id'))
-	developer = db.relationship('Developer', backref = db.backref('games', lazy = 'dynamic'))
+	company_id = db.Column(db.Integer, db.ForeignKey('company.id'))
+	company = db.relationship('Company', backref = db.backref('games', lazy = 'dynamic'))
 	
 	engine = db.Column(db.String(), unique = True)
 	tags = db.Column(db.String(), unique = True)
@@ -24,13 +24,14 @@ class Game(db.Model):
 		self.name = name
 		self.genre = genre
 		self.platform = platform
-		self.developer = developer
+		self.company = company
 		self.engine = engine
 		self.tags = tags
 		self.rating = rating
 	def __repr__(self):
 		return '<Game %r>' % self.name
-class Developer(db.Model):
+
+class Company(db.Model):
 	__tablename__ = 'developers'
 	id = db.Column(db.Integer, primary_key = True)
 	name = db.Column(db.String(), unique = True)
@@ -47,7 +48,7 @@ class Developer(db.Model):
 		self.year = year
 		self.CEO = CEO
 		self.COO = COO
-		self.employee_count = employee_count
+		self.employee_count = employee_coun
 	def __repr__(self):
 		return '<Developer %r>' % self.name
 class Platform(db.Model):
@@ -66,17 +67,3 @@ class Platform(db.Model):
 		self.generation = generation
 	def __repr__(self):
 		return '<Platform %r>' % self.name
-class Image(db.Model):
-	__tablename__ = 'images'
-	id = db.Column(db.Integer, primary_key = True)
-	source = db.Column(db.String(), unique = True)
-	entity = db.Column(db.String(), unique = True)
-	key = db.Column(db.String(), unique = True)
-	type = db.Column(db.String(), unique = True)
-	def __init__(self, source, entity, key, type):
-		self.source = source
-		self.entity = entity
-		self.key = key
-		self.type = type
-	def __repr__(self):
-		return '<Image %r>' % self.source
