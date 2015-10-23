@@ -52,7 +52,7 @@ var App = React.createClass({
             <div style={{height:30}}></div>
           </div>
           <div className='col-md-6' role='complementary'>
-            <h1>Team</h1>
+            <h1>4Play Team</h1>
 
             <div className="row">
               <div className="col-md-3">

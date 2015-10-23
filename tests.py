@@ -7,7 +7,7 @@
 from io       import StringIO
 from unittest import main, TestCase
 
-from models import Game, Developer, Platform, Image
+from models import Game, Company, Platform
 from flask import Flask
 from flask.ext.sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import sessionmaker
@@ -15,7 +15,7 @@ from sqlalchemy.orm import sessionmaker
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = '' #insert URI
-db = SQLALchemy(app)
+db = SQLAlchemy(app)
 Session = sessionmaker()
 session = Session()
 # -----------
@@ -28,19 +28,19 @@ class TestGames (TestCase) :
     # ----
 
     def test_game1 (self) :
-        game = Game("Halo", "2001")
+        game = Game("Halo", "2001", "asdf", "asdf")
         session.add(game)
         session.commit()
         self.assertEqual(game.__name__, "Halo")
     def test_game2 (self) :
         args = {"developers":["RK Games"], "platforms":["IOS", "Android"]}
-        game = Game("Smashy Road", "2014", args)
+        game = Game("Smashy Road", "2014", "asdf", "asdf", args)
         session.add(game)
         session.commit()
         self.assertEqual(game.__name__, "Smashy Road")
     def test_game3 (self) :
         args = {"developers":["Nintendo"], "platforms":["Some Ancient Console"]}
-        game = Game("Super Mario Bros.", "1985", args)
+        game = Game("Super Mario Bros.", "1985", "asdf", "asdf", args)
         session.add(game)
         session.commit()
         for instance in session.query(Game).order_by(Game.id): 
