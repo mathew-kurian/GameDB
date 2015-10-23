@@ -64,8 +64,8 @@ var App = React.createClass({
                 <h5>Cathy Feng</h5>
 
                 <p>I moved here from China in 2005 and was vastly disappointed that drive thrus were, in fact, not robots
-                  who brought your food out for you. Other than that I've been pretty satisfied with the US and hopes
-                  to get a job in something that has nothing to do with threads and concurrency one day. During phase 1 most of my effort was put into the technical report, writing ~1/3 of it as well as editing. I made 3 commits, did not make any issues and has not yet written any unit tests.</p>
+                  who brought your food out for you. Other than that I've been pretty satisfied with the US and hope
+                  to get a job in something that has nothing to do with threads and concurrency one day. During phase 1 most of my effort was put into the technical report, writing ~1/3 of it as well as editing. I made 3 commits, did not make any issues and have not yet written any unit tests.</p>
               </div>
             </div>
             <hr />
