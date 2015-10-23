@@ -26,8 +26,8 @@ var App = React.createClass({
               <li>Total commits: 70</li>
               <li>Total issues: 21</li>
               <li>Unit tests: 10</li>
-              <li><a href="htts://docs.games10.apiary.io/#">Apiary Documentation</a></li>
-              <li><a href="http://www.cs.utexas.edu/users/downing/cs373/">Public Repository</a></li>
+              <li><a href="http://docs.games10.apiary.io/#">Apiary Documentation</a></li>
+              <li><a href="https://github.com/bluejamesbond/cs373-idb/">Public Repository</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/wiki">Wiki</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/issues">Issue Tracker</a></li>
               <li>Total commits: 70</li>
@@ -38,11 +38,11 @@ var App = React.createClass({
               <li><a href="http://www.giantbomb.com/api/">GiantBomb</a> provided a REST API for their game data. Using
                 NodeJS scripts and graph traversal techniques, we were able to download games, platforms, and companies.
               </li>
-              <li><a href="http://www.giantbomb.com/api/">Google Images</a> allowed (not exactly) us to scrape for
+              <li><a href="http://images.google.com/">Google Images</a> allowed (not exactly) us to scrape for
                 images. Techniques such as DOM manipulation via. JQuery, we were able to extract images. We also spoofed
                 the header in order to get the "large" images for best quality on the webpages.
               </li>
-              <li><a href="http://www.giantbomb.com/api/">IGDB</a> with their well-documented a set of REST api
+              <li><a href="https://www.igdb.com/api/v1/documentation/">IGDB</a> with their well-documented a set of REST api
                 endpoints which helped us collect more detailed information about the games. We found different media
                 such as logos, walkthroughs, and screenshots. We hope to acquire more information in Phase 2 such as
                 rating and game priace.

@@ -52,7 +52,7 @@ var App = React.createClass({
               </div>
               <div
                 style={{color: '#fff', fontSize: 14, opacity: '0.9', width: '100%', textTransform: 'none', fontWeight: 'normal', lineHeight: '18px', marginTop: 10, letterSpacing: 0}}
-                className="subtitle">Easy to manage system allows you to search your favorite games and understand.
+                className="subtitle">Special thanks to IGDB, GiantBomb, and Google Images for providing the data. Hook em' horns
               </div>
             </div>
           </div>
