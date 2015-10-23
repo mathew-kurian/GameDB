@@ -37,7 +37,7 @@ var Header = React.createClass({
               style={{fontSize:'41px',color:'#000',fontWeight:'bold',letterSpacing:'1px',textTransform:'uppercase'}}>{this.props.title}</h1>
 
             <h4
-              style={{fontWeight:300,lineHeight: 1.4,color: 'rgba(0, 0, 0, 0.4)',fontSize: 24}}>{this.props.description}</h4>
+              style={{fontWeight:400,lineHeight: 1.4,color: 'rgba(0, 0, 0, 0.4)',fontSize: 24}}>{this.props.description}</h4>
           </div>
         </div>
       </div>
