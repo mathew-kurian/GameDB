@@ -9,7 +9,7 @@ HOST: http://res.4playdb.com/
 
 ## List [GET /games?{offset}=number&{limit}=number]
 
-Returns a list of games between the given range
+Returns a list of games starting at ID = offset and going up to ID = offset + min(25, limit)
 
 + Parameters
     + offset: 1 (required, number) - Start index
@@ -30,6 +30,8 @@ Returns a list of games between the given range
 
 #### Get [GET /games/{game_id}]
 
+Returns the game specified by ID = game_id
+
 These are the fields that will describe a game:
 
 + Name: Name of the game
@@ -48,7 +50,7 @@ These are the fields that will describe a game:
     
 + Response 201 (application/json)
 
-        [
+        
             {
                 "Id": 40080,
                 "Name": "Monopoly Millionaire",
@@ -86,11 +88,14 @@ These are the fields that will describe a game:
                     }
                 ]
             }
-        ]
+        
 
 #### Search [GET /games/search?filter[column_operation]={val}]
 
-Output a list of games that meet the search criteria
+Output a list of games that meet the search criteria {key} = {val}
+
+Example: GET /games/search?Name=Monopoly+Millionaire 
+returns a list of games with name "Monopoly Millionaire"
 
 + Response 201 (application/json)
 
@@ -109,7 +114,7 @@ Output a list of games that meet the search criteria
 
 ## List [GET /companies?{offset}=number&{limit}=number]
 
-Returns a list of companies between the given range
+Returns a list of companies starting at ID = offset and going up to ID = offset + min(25, limit)
 
 + Parameters
     + offset: 1 (required, number) - Start index
@@ -129,6 +134,8 @@ Returns a list of companies between the given range
         ]
         
 #### Get [GET /companies/{company_id}]
+
+Returns the company specified by ID = company_id
 
 These are the fields that will describe a company:
 
@@ -151,7 +158,7 @@ These are the fields that will describe a company:
     
 + Response 201 (application/json)
 
-        [
+        
             {
                 "Id": 40080,
                 "Name": "Electronic Arts",
@@ -186,11 +193,14 @@ These are the fields that will describe a company:
                     }
                 ]
             }
-        ]
+        
 
 #### Search [GET /companies/search?filter[column_operation]={val}]
 
-Output a list of companies that meet the search criteria
+Output a list of companies that meet the search criteria {key} = {val}
+
+Example: GET /companies/search?Name=Riot+Games 
+returns a list of companies with name "Riot Games"
 
 + Response 201 (application/json)
 
@@ -209,7 +219,7 @@ Output a list of companies that meet the search criteria
 
 ## List [GET /platforms?{offset}=number&{limit}=number]
 
-Returns a list of platforms between the given range
+Returns a list of platforms starting at ID = offset and going up to ID = offset + min(25, limit)
 
 + Parameters
     + offset: 1 (required, number) - Start index
@@ -229,6 +239,8 @@ Returns a list of platforms between the given range
         ]
         
 #### Get [GET /platforms/{platform_id}]
+
+Returns the platform specified by ID = platform_id
 
 These are the fields that will describe a platform:
 
@@ -250,50 +262,46 @@ These are the fields that will describe a platform:
     
 + Response 201 (application/json)
 
-        [
+{
+       "companies":[ {
+            "api_detail_url": "http://www.giantbomb.com/api/company/3010-995/",
+            "id": 995,
+            "name": "Sony Computer Entertainment Incorporated"
+        }],
+        "deck": "PlayStation 4 is Sony's fourth home video game console, released on November 15, 2013 in North America, and November 29, 2013 in Europe.",
+        "id": 146,
+        "name": "PlayStation 4",
+        "online_support": true,
+        "price": "399.00",
+        "release_date": "2013-11-15 00:00:00",
+        "games": [
             {
-                "Id": 40080,
-                "Name": "Monopoly Millionaire",
-                "Price": "650-628-1500",
-                "OnlineSupport": true,
-                "Description": null,
-                "ReleaseDate": "Thu Oct 22 2015 14:20:44 GMT-0500 (CDT)",
-                "Deck": "The next installment of the Mass Effect franchise is in development at BioWare Montreal.",
-                "Images": [
-                    "http://static.giantbomb.com/uploads/scale_medium/5/57793/2758765-6463613486-joxkD.jpg",
-                ],
-                "Companies": [
-                    {
-                        "Id": 40080,
-                        "Name": "Riot Games"
-                    },
-                    {
-                        "Id": 5000,
-                        "Name": "Codemasters"
-                    }
-                ],
-                "Games": [
-                    {
-                        "Id": 40080,
-                        "Name": "Battlefield 4"
-                    }
-                ]
+                "api_detail_url": "http://www.giantbomb.com/api/game/3030-46631/",
+                "id": 46631,
+                "name": "Mass Effect: Andromeda"
             }
+        ],
+        "images": [
+            "http://static.giantbomb.com/uploads/scale_medium/5/56742/2495936-9012444134_80ba47fd6e_o.jpg"
         ]
+}
 
 #### Search [GET /platforms/search?filter[column_operation]={val}]
 
-Output a list of platforms based on the search criteria
+Output a list of games that meet the search criteria {key} = {val}
+
+Example: GET /platforms/search?Name=PS4 
+returns a list of platforms with name "PS4"
 
 + Response 201 (application/json)
 
         [
             {
-                "Id": 40080,
-                "Name": "Riot Games"
+                "Id": 211,
+                "Name": "PS4"
             },
             {
-                "Id": 5000,
-                "Name": "Codemasters"
+                "Id": 3981,
+                "Name": "Xbox"
             }
         ]
