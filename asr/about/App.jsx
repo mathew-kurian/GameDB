@@ -24,7 +24,7 @@ var App = React.createClass({
             <h2>Vitals</h2>
             <ul>
               <li>Total commits: 70</li>
-              <li>Total issues: 21</li>
+              <li>Total issues: 23</li>
               <li>Unit tests: 10</li>
               <li><a href="http://docs.games10.apiary.io/#">Apiary Documentation</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/">Public Repository</a></li>
