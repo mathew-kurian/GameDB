@@ -33,3 +33,5 @@ node_modules
 .idea/
 
 token.json
+
+__pycache__/
