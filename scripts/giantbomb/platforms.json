@@ -1,148 +1,688 @@
 {
-    "94": {
-        "abbreviation": "PC",
-        "aliases": "Personal Computer\r\nMicrosoft Windows\r\nDOS\r\nIBM\r\nIBM Jr.\r\nPC Booter",
-        "api_detail_url": "http://www.giantbomb.com/api/platform/3045-94/",
-        "company": null,
-        "date_added": "2008-05-12 19:09:54",
-        "date_last_updated": "2015-09-09 19:59:20",
-        "deck": "The PC (Personal Computer) is a highly configurable and upgradable gaming platform that, among home systems, sports the widest variety of control methods, largest library of games, and cutting edge graphics and sound capabilities.",
-        "description": "<h2>Overview</h2><p style=\"\">In terms of home video games, the PC is the oldest gaming platform still in use today, having an established library of tens of thousands of games. Chances are, you're probably reading this wiki on a PC right now. While there were various different personal computer platforms in the past (from manufacturers like <a href=\"/nec-home-electronics-ltd/3010-2708/\" data-ref-id=\"3010-2708\">NEC</a>, <a href=\"/apple-inc/3010-5815/\" data-ref-id=\"3010-5815\">Apple</a>, Hitachi, <a href=\"/fujitsu/3010-6596/\" data-ref-id=\"3010-6596\">Fujitsu</a>, <a href=\"/commodore/3010-2000/\" data-ref-id=\"3010-2000\">Commodore</a>, <a href=\"/sharp-corporation/3010-6509/\" data-ref-id=\"3010-6509\">Sharp</a>, and <a href=\"/microsoft-studios/3010-340/\" data-ref-id=\"3010-340\">Microsoft</a>), the modern PC is largely descended from the <a href=\"/ibm/3010-190/\" data-ref-id=\"3010-190\">IBM</a> PC, which originally released in 1981 for $1561 (nearly $4000 in 2013 dollars).</p><h2>History</h2><figure data-align=\"right\" data-img-src=\"http://static.giantbomb.com/uploads/original/0/3661/1650285-ibm_pc_5150.jpg\" data-ref-id=\"1300-1650285\" data-size=\"small\" data-ratio=\"0.8475\" data-width=\"320\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\" style=\"width: 320px\"><a class=\"fluid-height\" style=\"padding-bottom:84.8%\" href=\"http://static.giantbomb.com/uploads/original/0/3661/1650285-ibm_pc_5150.jpg\" data-ref-id=\"1300-1650285\"><img src=\"http://static.giantbomb.com/uploads/scale_small/0/3661/1650285-ibm_pc_5150.jpg\"></a><figcaption>An old IBM PC.</figcaption></figure><p style=\"\">The first electronic computers were created between the 1930s and the 1940s. The first binary computer was the Z1 Computer, created by the German inventor Konrad Zuse. Other electronic computers would be created throughout the time period, including the ENIAC and the Harvard Mark I. Many of the first computers were used during <a href=\"/world-war-ii/3015-471/\" data-ref-id=\"3015-471\">World War II</a> by both factions and would be later used for scientific research. Early computers were large enough to fill a room, making them unusable for practical, personal use. Later it would be used by banks and large businesses for economic calculations. Companies like <a href=\"/ibm/3010-190/\" data-ref-id=\"3010-190\">IBM</a> have supplied many businesses with computers years before the personal computer .</p><h3>1970s</h3><p style=\"\">It wasn't until the 1970s where computers usable for the average person were being made. Invented in 1970 by John V. Blakenbaker of the Kenbak Corporation, the Kenbak-1 is considered by the <a href=\"http://www.computerhistory.org/timeline/?year=1971\" rel=\"nofollow\">Computer History Museum</a> to be the world's \"first personal computer\". Starting in 1971, it was sold for $750 and only 40 machines were ever built and sold. In 1973, Kenbak folded and stopped production. However, it was based on TTL (transistor-transistor-logic) discrete circuitry (much like the <a href=\"/odyssey/3045-74/\" data-ref-id=\"3045-74\">Magnavox Odyssey</a> and <a href=\"/pong/3030-22195/\" data-ref-id=\"3030-22195\">Pong</a>) rather than microprocessor technology. As such, it wasn't until the late 1970s that the first \"true\" personal computers began appearing.</p><p style=\"\">Several revolutionary inventions would later pave the way to the modern personal computer, most importantly the microprocessor. The project originated in 1969, when <a href=\"/japan/3035-37/\" data-ref-id=\"3035-37\">Japanese</a> <a href=\"/calculator/3055-2985/\" data-ref-id=\"3055-2985\">calculator </a>manufacturer Busicom proposed the idea to <a href=\"/the-united-states-of-america/3035-396/\" data-ref-id=\"3035-396\">American</a> manufacturer Intel, and both soon collaborated to produce the first microprocessor. By 1971, Intel's engineers Bob Noyce and Gordon Moore, and Busicom's engineer Masatoshi Shima, succeeded in creating the world's first microprocessor, the 4-bit Intel 4004. The microprocessor helped in creating a more powerful central processing unit than the ones used in computers at the time and shrunk it so computers could be smaller. The microprocessor was the major invention that gave birth to the microcomputer, or the personal computer as it is known today.</p><p style=\"\">The first microprocessor-based personal computer, i.e. the first microcomputer, was the SMP80/X, released by Sord (now <a href=\"/toshiba-corporation/3010-2638/\" data-ref-id=\"3010-2638\">Toshiba Personal Computer System Corporation</a>) in 1974, utilizing the 8-bit Intel 8080 processor (its unreleased 1972 predecessor, the SMP80/08, used the first general-purpose microprocessor, the 8-bit Intel 8008). It was soon followed in 1975 by the Altair 8800, which also used the Intel 8080 as its CPU; since the computer's main language was binary code and only had an output of flashing lights, the computer was unusable by the common person. A similar microcomputer was released by <a href=\"/nec-home-electronics-ltd/3010-2708/\" data-ref-id=\"3010-2708\">NEC </a>in 1976, the TK-80, which used the Intel 8080A.</p><p style=\"\">It wasn't until 1977 when two <a href=\"/california/3035-1719/\" data-ref-id=\"3035-1719\">California </a>college students, <a href=\"/steve-jobs/3040-9951/\" data-ref-id=\"3040-9951\">Steve Jobs</a> and <a href=\"/steve-wozniak/3040-93519/\" data-ref-id=\"3040-93519\">Steve Wozniak</a>, created the first personal computer with a monitor, the Apple I. Thanks to the monitor, programming became much easier and programmers could see exactly what they were doing. Also, it helped the average user see the programs people created. This sparked a new revolution in the computer industry, bringing the creation of <a href=\"/apple-inc/3010-5815/\" data-ref-id=\"3010-5815\">Apple Computers</a> and starting the personal computer market. Other competing desktop computers with CRT display monitors soon followed in the late 1970s, including the M200 by Sord (now <a href=\"/toshiba-corporation/3010-2638/\" data-ref-id=\"3010-2638\">Toshiba Personal Computer System Corporation</a>) in 1977, Hitachi's Basic Master in 1978, and <a href=\"/acornsoft/3010-4956/\" data-ref-id=\"3010-4956\">Acorn</a>'s System 1 in 1979.</p><h3>1980s</h3><figure data-align=\"right\" data-img-src=\"http://static.giantbomb.com/uploads/original/0/3661/1650295-alienware_malx_back.jpg\" data-ref-id=\"1300-1650295\" data-size=\"small\" data-ratio=\"1.0761904761905\" data-width=\"320\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\" style=\"width: 320px\"><a class=\"fluid-height\" style=\"padding-bottom:107.6%\" href=\"http://static.giantbomb.com/uploads/original/0/3661/1650295-alienware_malx_back.jpg\" data-ref-id=\"1300-1650295\"><img src=\"http://static.giantbomb.com/uploads/scale_small/0/3661/1650295-alienware_malx_back.jpg\"></a><figcaption>Powerful laptops have made PC gaming mobile.</figcaption></figure><p style=\"\">After the release of the <a href=\"/apple-ii/3045-12/\" data-ref-id=\"3045-12\">Apple II</a>, many competitors formed in the early 1980s, including the <a href=\"/ibm/3010-190/\" data-ref-id=\"3010-190\">IBM</a> Personal Computer, which would later dominate the market in the 1990s. The IBM PC was also one of the first 16-bit home computers, along with <a href=\"/mitsubishi-motors-corporation/3015-4147/\" data-ref-id=\"3015-4147\">Mitsubishi</a>'s MULTI16 in 1981. Other leading competitors in the 1980s included <a href=\"/commodore/3010-2000/\" data-ref-id=\"3010-2000\">Commodore</a>, <a href=\"/atari/3010-182/\" data-ref-id=\"3010-182\">Atari</a> and <a href=\"/amiga-corporation/3010-6153/\" data-ref-id=\"3010-6153\">Amiga</a> in Western markets, and <a href=\"/nec-technologies-inc/3010-1741/\" data-ref-id=\"3010-1741\">NEC</a>, <a href=\"/sharp-corporation/3010-6509/\" data-ref-id=\"3010-6509\">Sharp</a> and <a href=\"/fujitsu/3010-6596/\" data-ref-id=\"3010-6596\">Fujitsu</a> in Eastern markets. Due to the gaming crash of 1983, many computer manufacturers focused on the business aspects of these machines, leaving gaming as an afterthought.</p><p style=\"\">However, there were many computers that were well-known for their gaming libraries. The leading 8-bit gaming computer platforms in the 1980s included the <a href=\"/apple-ii/3045-12/\" data-ref-id=\"3045-12\">Apple II</a> in North America, the <a href=\"/commodore-64/3045-14/\" data-ref-id=\"3045-14\">Commodore 64</a> and Atari 400/800 in the West, the <a href=\"/zx-spectrum/3045-16/\" data-ref-id=\"3045-16\">ZX Spectrum</a> and <a href=\"/bbc-micro/3045-110/\" data-ref-id=\"3045-110\">BBC Micro</a> in the <a href=\"/united-kingdom/3035-492/\" data-ref-id=\"3035-492\">UK</a>, the <a href=\"/msx/3045-15/\" data-ref-id=\"3045-15\">MSX </a>in <a href=\"/japan/3035-37/\" data-ref-id=\"3035-37\">Japan </a>and <a href=\"/europe/3035-289/\" data-ref-id=\"3035-289\">Europe</a>, the high-resolution <a href=\"/nec-pc-8801/3045-109/\" data-ref-id=\"3045-109\">NEC PC-88</a> in <a href=\"/japan/3035-37/\" data-ref-id=\"3035-37\">Japan</a>, and the high-colour <a href=\"/fm-7/3045-114/\" data-ref-id=\"3045-114\">FM-7</a> and <a href=\"/sharp-x1/3045-113/\" data-ref-id=\"3045-113\">Sharp X1</a> in Japan. The leading 16/32-bit gaming computers in the late 1980s to early 1990s were the <a href=\"/nec-pc-9801/3045-112/\" data-ref-id=\"3045-112\">NEC PC-98</a> in Japan, the <a href=\"/amiga/3045-1/\" data-ref-id=\"3045-1\">Amiga</a> and <a href=\"/atari-st/3045-13/\" data-ref-id=\"3045-13\">Atari ST</a> in the West, the MS-DOS Compatible computers worldwide, and the more powerful (near <a href=\"/arcade/3045-84/\" data-ref-id=\"3045-84\">arcade</a> quality) <a href=\"/sharp-x68000/3045-95/\" data-ref-id=\"3045-95\">Sharp X68000</a> and <a href=\"/fm-towns/3045-108/\" data-ref-id=\"3045-108\">FM Towns</a> computers in Japan. The best-selling computer models of the 20th century were the <a href=\"/commodore-64/3045-14/\" data-ref-id=\"3045-14\">Commodore 64</a> (17 million units sold worldwide) and <a href=\"/nec-pc-9801/3045-112/\" data-ref-id=\"3045-112\">NEC PC-98</a> (over 18 million units sold in Japan). By the 1990s, companies like <a href=\"/origin-systems/3010-344/\" data-ref-id=\"3010-344\">Origin Systems</a> and <a href=\"/ea-games/3010-6256/\" data-ref-id=\"3010-6256\">EA</a> became leading PC game developers.</p><p style=\"\">In the mid-1980s, the graphical user interface was implemented on new PCs. Now it was easier for people to see what they were doing with computers thanks to computers like the <a href=\"/mac/3045-17/\" data-ref-id=\"3045-17\">Macintosh</a> and the DOS extension Windows. The GUI was first created by Xerox in the 1960s, but the company was not interested in entering the computer market. Apple was given the rights to use GUI for the Macintosh, however, Microsoft was able to trick Apple into lending them prototype Macintosh computers to create programs for the new machines. They used the coding of the operating system to create Windows, an extension to DOS. Thanks to the cheap $100 price point and its compatibility with all DOS computers, Windows became a success, becoming the new standard of computers by the mid-1990s.</p><p style=\"\">The 1980s also saw the emergence of portable laptop computers. The world's first laptop computer was the Epson HX-20 in 1981. The first commercially successful laptop was Kyocera's Kyotronic 85, originally released in 1983 and re-branded by <a href=\"/tandy-corporation/3010-1602/\" data-ref-id=\"3010-1602\">Tandy</a> as the <a href=\"/trs-80/3045-63/\" data-ref-id=\"3045-63\">TRS-80</a> Model 100, selling 6 million units worldwide. Other competitors soon followed, including <a href=\"/sharp-corporation/3010-6509/\" data-ref-id=\"3010-6509\">Sharp</a>'s PC-5000 which had a <a href=\"/touch-controls/3015-2256/\" data-ref-id=\"3015-2256\">touchpad</a> pointing device in 1983, and <a href=\"/commodore/3010-2000/\" data-ref-id=\"3010-2000\">Commodore</a>'s SX 64 in 1984. The first mass-market laptop was <a href=\"/toshiba-corporation/3010-2638/\" data-ref-id=\"3010-2638\">Toshiba</a>'s 16-bit T-1100 in 1985, which they followed with the T-3100 (the first with a built-in hard drive) in 1986. Other competitors soon followed, including <a href=\"/nec-home-electronics-ltd/3010-2708/\" data-ref-id=\"3010-2708\">NEC</a>'s <a href=\"/nec-pc-9801/3045-112/\" data-ref-id=\"3045-112\">PC-98 </a>LT and <a href=\"/ibm/3010-190/\" data-ref-id=\"3010-190\">IBM</a>'s PC Convertible in 1986 and <a href=\"/apple-inc/3010-5815/\" data-ref-id=\"3010-5815\">Apple</a>'s <a href=\"/mac/3045-17/\" data-ref-id=\"3045-17\">Macintosh</a> Portable in 1989. The first notebook computer was released in 1989, NEC's UltraLite, which they followed with the first colour TFT LCD laptop in 1990, the 32-bit <a href=\"/nec-pc-9801/3045-112/\" data-ref-id=\"3045-112\">PC-9801</a> NC. Apple soon followed with the PowerBook series from 1991 onwards, further popularizing laptop computers in the 1990s.</p><h3>1990s</h3><p style=\"\">In the 1990s, the Internet was released to the public after originally being used to connect college computers and military computers to different networks. Since the Internet was introduced to the public, it became a major part of modern society. Now the average computer user is able to access files from many different servers, and have the ability to communicate with people from around the world. This new technology was a revolution in gaming, with <a href=\"/online/3015-559/\" data-ref-id=\"3015-559\">online</a> gaming becoming a standard on the PC by the mid 1990s.</p><p style=\"\">Another important revolution for PC gaming was the introduction of <a href=\"/polygonal-3d/3015-1430/\" data-ref-id=\"3015-1430\">3D graphics</a> accelerator cards in the late 1990s, which allowed the PC to take the lead in cutting-edge 3D graphics technology by the 21st century. The first 3D graphics card for a home computer was <a href=\"/nec-home-electronics-ltd/3010-2708/\" data-ref-id=\"3010-2708\">NEC</a>'s PC-FXGA, released for their <a href=\"/nec-pc-9801/3045-112/\" data-ref-id=\"3045-112\">PC-98</a> platform in 1995, which could produce 3D graphics surpassing the <a href=\"/playstation/3045-22/\" data-ref-id=\"3045-22\">PlayStation </a>console and rivaling the <a href=\"/nintendo-64/3045-43/\" data-ref-id=\"3045-43\">Nintendo 64</a> in terms of polygon rendering performance. The first 3D graphics cards for IBM-compatible PC's soon followed in early 1996: Creative Labs' 3D Blaster, <a href=\"/nvidia-corporation/3010-6345/\" data-ref-id=\"3010-6345\">NVIDIA</a>'s NV1, and particularly <a href=\"/nec-home-electronics-ltd/3010-2708/\" data-ref-id=\"3010-2708\">NEC</a>'s PowerVR. While the 3D Blaster and NV1 (with the first game to support them being PlayStation port <a href=\"/battle-arena-toshinden/3030-5238/\" data-ref-id=\"3030-5238\">Toshinden</a>) were unable to rival the PlayStation, the PowerVR surpassed the PlayStation and even approached <a href=\"/arcade/3045-84/\" data-ref-id=\"3045-84\">arcade</a> quality graphics, with a near arcade quality PowerVR demo of <a href=\"/namco/3010-7420/\" data-ref-id=\"3010-7420\">Namco</a>'s <a href=\"/rave-racer/3030-23244/\" data-ref-id=\"3030-23244\">Rave Racer</a> (though this PC port was later cancelled). Similarly, the NV1 card received PC ports of <a href=\"/sega/3010-62/\" data-ref-id=\"3010-62\">Sega</a> titles <a href=\"/virtua-fighter-remix/3030-17431/\" data-ref-id=\"3030-17431\">Virtua Fighter Remix</a> and <a href=\"/virtua-cop/3030-10543/\" data-ref-id=\"3030-10543\">Virtua Cop</a> (which surpassed the <a href=\"/saturn/3045-42/\" data-ref-id=\"3045-42\">Saturn</a> versions, but couldn't rival the arcade originals). In late 1996, 3dfx launched the Voodoo line, which rivalled the PowerVR in quality and would soon become the most popular PC graphics cards of the late 1990s. <a href=\"/fujitsu/3010-6596/\" data-ref-id=\"3010-6596\">Fujitsu</a> soon introduced the FXG-1 \"Pinolite\" geometry processor, the first GPU with T&amp;L (Transform &amp; Lighting) hardware capabilities, in 1997, paving the way for NVIDIA's GeForce and ATI's Radeon, both of which would later dominate the PC graphics card market in the 21st century.</p><h3>21st century</h3><p style=\"\">Today, more than a billion people around the world use the PC platform, with the majority of them being connected to the internet. A majority of PC gamers today are located in <a href=\"/asia/3035-1663/\" data-ref-id=\"3035-1663\">Asia</a>, with <a href=\"/china/3035-343/\" data-ref-id=\"3035-343\">China </a>alone accounting for nearly a third of the worldwide PC gaming market, the growth of which has largely been fueled by the rise of <a href=\"/online/3015-559/\" data-ref-id=\"3015-559\">online</a> gaming.</p><h2>Operating Systems</h2><p style=\"\">Before operating systems, one had to learn complex coding in order to get something to work. With the creation of operating systems, computers became more accessible to the public.</p><h3>Microsoft Windows</h3><figure data-align=\"right\" data-img-src=\"http://static.giantbomb.com/uploads/original/0/3661/1650296-1231525922_2.jpg\" data-ref-id=\"1300-1650296\" data-size=\"medium\" data-ratio=\"0.74909090909091\" data-width=\"480\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\" style=\"width: 480px\"><a class=\"fluid-height\" style=\"padding-bottom:74.9%\" href=\"http://static.giantbomb.com/uploads/original/0/3661/1650296-1231525922_2.jpg\" data-ref-id=\"1300-1650296\"><img class=\"js-lazy-load-image\" data-src=\"http://static.giantbomb.com/uploads/scale_medium/0/3661/1650296-1231525922_2.jpg\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\"><noscript><img src=\"http://static.giantbomb.com/uploads/scale_medium/0/3661/1650296-1231525922_2.jpg\"></noscript></a><figcaption>Almost all PC games are designed for MS Windows.</figcaption></figure><p style=\"\">Windows was originally an extension to <a href=\"/microsoft-game-studios/3010-340/\" data-ref-id=\"3010-340\">Microsoft</a>'s own coding system MS-DOS back in 1985. With Windows, people could easily browse through their files and do other simple functions much more quickly. Windows has grown in popularity and became the most popular OS in the world, having the support of PC makers like <a href=\"/dell-inc/3010-4850/\" data-ref-id=\"3010-4850\">Dell</a>, Gateway, and HP. Windows has gone through many iterations, starting with the MS-DOS days having Windows versions 1.0, 2.0, 3.0, 3.1, and 3.11. Then came Windows NT 3.0-4.0 and Windows 2000 (oriented toward business) and the Windows 9x operating systems including Windows 95, 98, and ME (oriented toward home users). The 9x line was dropped and later versions of Windows have been based on NT, continuing the line from 2000 through XP, Vista, Windows 7, and now Windows 8.</p><p style=\"\">The preferred platform for modern PC games is a Windows PC running either Windows XP, Vista, 7, or 8(.1). Windows XP does not support <a href=\"/directx/3015-5193/\" data-ref-id=\"3015-5193\">DirectX</a> 10 but does not suffer from incompatibilities with older games like Vista, 7, or 8 may. Vista and 7 have the advantage of DirectX 10 or 11 while Windows 8.1 can support up to DirectX 11.2, and some exclusive games tied to the OS such as <a href=\"/halo-2/3030-7110/\" data-ref-id=\"3030-7110\">Halo 2</a>. Because of the negative feedback that came from Vista, game developers were reluctant to make DirectX 10 only games. Thanks to the success of Windows 7, more DirectX 10/11 only games are being made, most notably <a href=\"/shattered-horizon/3030-23436/\" data-ref-id=\"3030-23436\">Shattered Horizon</a>, <a href=\"/just-cause-2/3030-20742/\" data-ref-id=\"3030-20742\">Just Cause 2</a>, and <a href=\"/battlefield-3/3030-27006/\" data-ref-id=\"3030-27006\">Battlefield 3</a>.</p><p style=\"\">Windows 7 provides gamers with a games browser that notifies the user of patches and updates for some games as they become available. Windows 7 is generally faster than Vista and fixes many of the issues people had with that OS such as intrusive Security settings and sluggish performance, Windows 7 also comes with DirectX 11. <a href=\"/dirt-2/3030-24513/\" data-ref-id=\"3030-24513\">Dirt2</a> was among the first games to support this.</p><p style=\"\">On October 25, 2012, Microsoft released Windows 8 to the public. This new operating system introduces the \"Metro\" interface, which makes menus more easily accessible to people who are using tablets and touch controls. Windows 8 also introduces its own app store which will allow developers to publish and distribute their Metro applications and games. <a href=\"//www.giantbomb.com/xbox-live/3015-1404/\" data-ref-id=\"3015-1404\">Xbox Live</a> is integrated with the OS which can be used as a user account for the computer and can earn <a href=\"//www.giantbomb.com/achievements/3015-29/\" data-ref-id=\"3015-29\">achievement points</a> on games downloaded from the app store. There have been complaints about the new OS because of its lackluster desktop interface and the removal of the standard Start menu in favor of the Metro interface, but Windows 8.1 addressed some of these issues with the return of the Start menu and the ability to use windowed Metro apps.</p><p style=\"\">On July 29, 2015, Microsoft released Windows 10 to the public. It's a free update for all Windows 7 and 8 users for the first year of release, making it the first Windows OS that is available for free. One of the major features of Windows 10 is it's cross compatibility with tablets and smartphones as well as desktop and laptop PCs, as well as being implemented for <a href=\"/xbox-one/3045-145/\" data-ref-id=\"3045-145\">Xbox One</a> consoles in the future. It also features a new voice companion called <a href=\"/cortana/3005-315/\" data-ref-id=\"3005-315\">Cortana</a>, which is meant to compete with Apple's Siri. For gaming, Windows 10 introduces DirectX 12, which allows programmers to get better performance out of older graphics hardware with less oversight. Although current graphics cards can support some of the features of DirectX 12, fully-featured DX12 cards are not expected to release until 2016. The first game to support DX12 will be Fable Legends, which is releasing as a free-to-play title by the end of 2015. It also introduces further connections with the Xbox brand, where Microsoft will be selling games with the Xbox brand on the App Store as well as allow you to stream games from the Xbox One on all Windows 10 devices.</p><h3>Mac OS</h3><figure data-align=\"right\" data-img-src=\"http://static.giantbomb.com/uploads/original/0/3661/1650297-macosx102.png\" data-ref-id=\"1300-1650297\" data-size=\"medium\" data-ratio=\"0.75\" data-width=\"480\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\" style=\"width: 480px\"><a class=\"fluid-height\" style=\"padding-bottom:75.0%\" href=\"http://static.giantbomb.com/uploads/original/0/3661/1650297-macosx102.png\" data-ref-id=\"1300-1650297\"><img class=\"js-lazy-load-image\" data-src=\"http://static.giantbomb.com/uploads/scale_medium/0/3661/1650297-macosx102.png\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\"><noscript><img src=\"http://static.giantbomb.com/uploads/scale_medium/0/3661/1650297-macosx102.png\"></noscript></a><figcaption>Apple's Mac OS has a limited but growing game library.</figcaption></figure><p style=\"\">In 1977, <a href=\"/steve-wozniak/3040-93519/\" data-ref-id=\"3040-93519\">Steve Wozniak</a> and <a href=\"/steve-jobs/3040-9951/\" data-ref-id=\"3040-9951\">Steve Jobs</a> made the Apple 1, Apple's first computer. They later gained popularity with the <a href=\"/apple-ii/3045-12/\" data-ref-id=\"3045-12\">Apple II</a>. In 1984, Apple released the <a href=\"/mac/3045-17/\" data-ref-id=\"3045-17\">Macintosh</a>, which was the first Apple computer to have an operating system. The Mac OS lineup was born. Later, Apple switched to Unix-like coding, creating the Mac OS X lineup, which is still used in the new Apple computer lineup today.</p><p style=\"\">The main issue with gaming on a Mac OS is that almost all earlier Mac PCs were not compatible with Windows based video games. More recently however with the creation of applications such as Boot Camp and Parallels more games are able to be run. The development of Intel based Macs also helps reduce this barrier by lifting some of the hardware restrictions.</p><p style=\"\">In May 2010, Valve released Steam for Mac OS X, and ported all of their Source games to the Mac platform by the end of 2010. Valve is hoping for the expansion of Mac gaming in the near future.</p><p style=\"\">During the WDCC in 2014, Apple has announced their own graphics API, Metal. It allows game developers to use more hardware resources from devices using Mac OS X or <a href=\"/iphone/3045-96/\" data-ref-id=\"3045-96\">iOS</a> to gain better performance. This allows devices such as Macbooks and the <a href=\"/ipad/3045-121/\" data-ref-id=\"3045-121\">iPad</a> to run games with comparable performance to Windows PCs and consoles. Because of Metal, it was announced that Frostbite 3 is coming to Mac OS X and iOS, with its flagship title being <a href=\"/plants-vs-zombies-garden-warfare/3030-42887/\" data-ref-id=\"3030-42887\">Plants vs. Zombies: Garden Warfare</a>.</p><h3>Linux</h3><p style=\"\"><a href=\"/linux/3045-152/\" data-ref-id=\"3045-152\">Linux</a> is a Unix-like OS licenced under the GPL. Unlike Windows and Mac OS, which require specific hardware for the OS to work properly, Linux is a software-based OS, which can be installed on a variety of devices, including devices which are not PC-based. Linux comes in various distributions, or \"distros,\" such as Ubuntu or Gentoo. Being an open source OS, the Linux community actively develops open source software, including games, for the Linux platform. However, there is no requirement that Linux software be open-source. You can get many Windows applications to work on Linux using specific Windows coding software for Linux (such as <a href=\"/playable-via-wine/3015-2497/\" data-ref-id=\"3015-2497\">WINE</a>) but it is generally not a preferable way of playing Windows games compared to running them in Windows on the same machine. Furthermore, WINE is not compatible with PowerPCs including PS3s with Linux installed. A popular option for overcoming Windows compatibility issues is to multi-boot the Linux distro with a version of Windows so that both operating systems are installed on the same PC at once and the user can switch between them.</p><p style=\"\">There has been increased development for Linux games in recent years, with many indie games, such as <a href=\"/minecraft/3030-30475/\" data-ref-id=\"3030-30475\">Minecraft</a>, releasing a Linux version. The <a href=\"/humble-bundle/3015-6612/\" data-ref-id=\"3015-6612\">Humble Indie Bundle</a> typically includes Linux versions of games in addition to Mac and PC. Valve released the beta of their popular <a href=\"/steam/3015-718/\" data-ref-id=\"3015-718\">Steam platform</a> for Linux (Starting with Ubuntu) in Nov. 2012 after their founder <a href=\"/gabe-newell/3040-4498/\" data-ref-id=\"3040-4498\">Gabe Newell</a> expressed support for the platform. In 2013, Valve announced that they will be releasing their own Linux distro called SteamOS, which will be installed in all \"Steam Boxes\". It is a derivative of Ubuntu that has an interface similar to Big Picture Mode that can be navigated using a controller. It allows users to stream games from another PC so users can run games that are currently not compatible with Linux. However, support for Linux gaming has been growing over the years, with many games, including indie and AAA titles, having Linux versions being released at launch.</p><p style=\"\">The most popular Linux-based OS on the market right now is <a href=\"/android/3045-123/\" data-ref-id=\"3045-123\">Android</a>. It is a growing, open source mobile operating system with a growing gaming library. However, it is important to note that most Linux-PC applications are incompatible with Android and vice-verse (without a significant amount of effort).</p><h2>Components of a PC</h2><p style=\"\">There are many replaceable parts in a PC, which is a main aspect separating them from consoles. PCs may be upgraded and maintained as time passes to keep up with the latest games, and a user's configuration will affect which games they can play. The main parts of a computer are as follows:</p><ul><li><b>CPU</b> <i>(Central Processing Unit)</i> - The processing unit that executes operations in a computer. It consists of an integrated circuit built of many transistors that runs on binary code. The CPU communicates with the rest of the computer through the Northbridge via a front side bus. Most medium and high end processors are 64-bit and have several cores which is known as parallel processing. The CPU creates a lot of heat and as a result requires its own dedicated heatsink or waterblock even on a low end computer.</li><li><b>GPU</b> <i>(Graphics Processing Unit)</i> - The dedicated graphics rendering device, very important for games. The GPU generally has its own circuit board which is slotted into the motherboard, the processing unit its self is also made up of many transistors and is heavily based on parallel processing. The GPU also uses its own dedicated RAM for storing texture data to be processed. Current generation GPUs are capable of rendering shader model 4.1 processes as part of the DirectX 11 package. Many graphics cards are also compatible with <a href=\"/opengl/3015-5192/\" data-ref-id=\"3015-5192\">OpenGL</a>.</li><li><b>Motherboard</b> - The main circuit board in a PC that all the components connect to. Its through this board that all other components may communicate between each other and is run by a set of North and South bridge chipsets, though newer CPUs actually include an integrated nothrbridge.</li><li><b>RAM</b> (<i>Random Access Memory</i>) - Volatile dynamic memory of a system. Data can be temporarily loaded here to be accessed much faster than from the hard drive or even a solid state drive so not to slow the calculations made by the CPU. The current standard is DDR3.</li><li><b>PSU</b> <i>(Power Supply Unit)</i> - Supplies power to the PC. Needs to have high enough power (measured in Watts) to run all the components in the system under high load.</li><li><b>HDD</b> <i>(Hard Disk Drive)</i> - The main storage device of a PC.</li><li><strong>SSD</strong> <em>(Solid State Drive)</em> - A type of storage similar to a hard drive, but contain no moving parts. Because of this, data stored in solid state drives can be accessed and written quicker than hard drives.</li><li><b>Sound Card</b> - An expansion card that processes audio on a separate chip. Most motherboards provide integrated sound chips making sound cards an optional upgrade.</li><li><b>ODD</b> <i>(Optical Disc Drive)</i> - The peripheral device that reads optical discs such as DVDs, BDs, and CDs.</li><li><b>Case</b> - Houses the components.</li><li><b>Monitor</b> - The visual display unit of a computer.</li><li><strong>Input Devices</strong> - Mouse, keyboard, microphone, etc. Because of the uptake of the Xbox 360 most games from 2005 onward will work with the Xbox 360 controller. This is also helped by the fact that the Xbox 360 has a USB connection that allows game developers to easily port the control system from current console games to the PC. In 2014, Microsoft released drivers that allowed Xbox One controllers to work for all 360 controller-compatible games.</li><li><b>Cooling</b> - Commonly either water or air based. With standard cooling devices the lowest possible temperature is the ambient temperature, that of the room the system resides in. To further lower the temperature elaborate devices such as Peltier coolers, liquid gases or phase cooling may be installed, though this is best left to the extreme enthusiast due to the risk of most of these options.</li></ul><h2>Graphic Settings</h2><p style=\"\">Unlike their console equivalents most PC games have the ability to vary the graphical settings. This feature is inherent to PCs as few systems bear the same hardware and so the user must tailor the game's settings for optimal performance and visual quality. With modern hardware PCs can often surpass their console counterparts in terms of technical graphics. Recent titles offer the option to set the ideal configuration of a game automatically. Such settings include:</p><ul><li><b>Resolution</b> - The number of pixels along the x and y axes to which the game will render.</li><li><b>Anti-Aliasing</b> - Raises the quality of the edges of polygon based models using smoothing algorithms.</li><li><b>Anisotropic Filtering</b> - Raises the quality of textures viewed from obtuse angles.</li><li><b>Texture Quality</b> - General resolution of the paint scheme of each model.</li><li><b>Model Quality</b> - General number of polygons used for each model.</li><li><a href=\"/hdr-high-dynamic-range/3015-618/\" data-ref-id=\"3015-618\"><b>High Dynamic Range lighting</b></a> - Allows for dynamic tone mapping in games.</li><li><b>Shader Model</b> - Technology a game can use to render advanced visual effects.</li><li><b>Vsync</b> - Reduces an artifact known as <i>tearing</i> by synchronizing the frame rate and refresh rate of the monitor.</li></ul><h2>Game Lineup</h2><h3>Early History</h3><figure data-align=\"right\" data-img-src=\"http://static.giantbomb.com/uploads/original/0/6384/614050-worldofwarcraftboxart.jpg\" data-ref-id=\"1300-614050\" data-size=\"small\" data-ratio=\"1.4320652173913\" data-width=\"320\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\" style=\"width: 320px\"><a class=\"fluid-height\" style=\"padding-bottom:143.2%\" href=\"http://static.giantbomb.com/uploads/original/0/6384/614050-worldofwarcraftboxart.jpg\" data-ref-id=\"1300-614050\"><img class=\"js-lazy-load-image\" data-src=\"http://static.giantbomb.com/uploads/scale_small/0/6384/614050-worldofwarcraftboxart.jpg\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\"><noscript><img src=\"http://static.giantbomb.com/uploads/scale_small/0/6384/614050-worldofwarcraftboxart.jpg\"></noscript></a><figcaption>Blizzard is one of the most prominent PC developers.</figcaption></figure><p style=\"\">Computers first featured simple titles similar to <a href=\"/spacewar/3030-21514/\" data-ref-id=\"3030-21514\">SpaceWar!</a> or simple text-input games such as <a href=\"/pool-of-radiance/3030-16452/\" data-ref-id=\"3030-16452\">Adventure</a> but have since evolved to become the leading platform for cutting-edge game development in the 21st century due to their seemingly limitless potential.</p><p style=\"\">Old computers such as the <a href=\"/commodore-64/3045-14/\" data-ref-id=\"3045-14\">Commodore 64</a> and <a href=\"/nec-pc-9801/3045-112/\" data-ref-id=\"3045-112\">NEC PC-98</a> featured a built-in controller port, for C64 controllers as well as <a href=\"/atari-2600/3045-40/\" data-ref-id=\"3045-40\">Atari 2600</a> and other controllers. Many games supported both keyboard and joystick input. Since mice have become standard, they have become the preferable method of input for many games, with various manufacturers branding mice specifically for gaming. Joysticks are still widely used via USB. Early games were simply saved onto floppy disks by a publisher or even the programmer themselves. These disks were sold in Ziploc bags and Vinyl slips; they generally had a bland manual and had nowhere near the shelf-presentation of a modern game. Modern games are distributed mainly on optical discs in hard plastic cases or cardboard boxes. There has been a large surge in digital distribution as well.</p><h3>Evolution in the 1990s</h3><p style=\"\">In the early days of computer gaming, most games were developed by a single programmer, and were often simple <a href=\"/games/?sort=release_date&amp;filter_type=genre&amp;filter_value=36/\">text adventures</a> or downgraded ports/clones of more powerful <a href=\"/arcade/3045-84/\" data-ref-id=\"3045-84\">arcade</a> games. PC gaming has since evolved to encompass a wide variety of genres, some faring better than others.</p><p style=\"\">The most popular genres that have evolved on the platform are the <a href=\"/games/?sort=release_date&amp;filter_type=genre&amp;filter_value=5/\">CRPG</a> (<i>Computer Role-Playing Game</i>), <a href=\"/games/?sort=release_date&amp;filter_type=genre&amp;filter_value=12/\">RTS</a> <i>(<a href=\"/real-time-combat/3015-2332/\" data-ref-id=\"3015-2332\">Real-Time</a> Strategy</i>), and <a href=\"/games/?sort=release_date&amp;filter_type=genre&amp;filter_value=32/\">FPS</a> (<em><a href=\"/first-person-perspective/3015-330/\" data-ref-id=\"3015-330\">First-Person</a> Shooter</em>).</p><p style=\"\">CRPG's were largely inspired by pen &amp; paper role playing games such as <a href=\"/dungeons-dragons/3025-167/\" data-ref-id=\"3025-167\">Dungeons &amp; Dragons</a>. The genre spans early ASCII adventures such as <a href=\"/rogue/3030-22309/\" data-ref-id=\"3030-22309\">Rogue</a>, action RPG's such as <a href=\"/dragon-slayer/3025-783/\" data-ref-id=\"3025-783\">Dragon Slayer</a> and <a href=\"/diablo/3030-5985/\" data-ref-id=\"3030-5985\">Diablo</a>, and <a href=\"/games/?sort=release_date&amp;filter_type=genre&amp;filter_value=16/\">MMORPGs</a> (Massively Multiplayer Online RPGs) such as <a href=\"/lineage/3025-623/\" data-ref-id=\"3025-623\">Lineage</a> and <a href=\"/world-of-warcraft/3030-19783/\" data-ref-id=\"3030-19783\">World of Warcraft</a>. Freedom is a main element that has evolved with CRPG's. The earlier games were more linear in their approach, sometimes even approaching level design from a distinct \"stages\" standpoint. CRPGs evolved to have <a href=\"/polygonal-3d/3015-1430/\" data-ref-id=\"3015-1430\">3D</a> <a href=\"/dungeon/3035-1131/\" data-ref-id=\"3035-1131\">dungeons</a>, <a href=\"/real-time-combat/3015-2332/\" data-ref-id=\"3015-2332\">real time combat</a>, and huge multiplayer, <a href=\"/open-world/3015-207/\" data-ref-id=\"3015-207\">non-linear worlds</a>.</p><p style=\"\">Real-Time Strategy games, such as <a href=\"/starcraft/3030-13062/\" data-ref-id=\"3030-13062\">Starcraft</a> and <a href=\"/command-conquer/3030-4384/\" data-ref-id=\"3030-4384\">Command &amp; Conquer</a>, is a genre that was at the heart of PC gaming in the 1990s and continues to remain a dominant PC genre in <a href=\"/asia/3035-1663/\" data-ref-id=\"3035-1663\">Asian</a> countries like <a href=\"/south-korea/3035-2410/\" data-ref-id=\"3035-2410\">South Korea</a> and <a href=\"/china/3035-343/\" data-ref-id=\"3035-343\">China</a>. The genre requires fast-paced clicking using a mouse, making implementation on consoles very difficult; ironically, the game often considered the first RTS, <a href=\"/herzog-zwei/3030-11439/\" data-ref-id=\"3030-11439\">Herzog Zwei</a>, was a <a href=\"/genesis/3045-6/\" data-ref-id=\"3045-6\">Sega Mega Drive / Genesis</a> console game. The genre has certainly seen evolution, but the premise of collecting resources, spawning an army, and sending it into battle, has remained relatively constant throughout RTS history. Today, the most popular RTS games are called <a href=\"/multiplayer-online-battle-arena/3015-6598/\" data-ref-id=\"3015-6598\">MOBAs</a> (Multiplayer Online Battle Arenas), with games such as <a href=\"/league-of-legends/3030-24024/\" data-ref-id=\"3030-24024\">League of Legends</a> and <a href=\"/dota-2/3030-32887/\" data-ref-id=\"3030-32887\">DOTA 2</a> being some of the most played games in the world.</p><figure data-align=\"right\" data-img-src=\"http://static.giantbomb.com/uploads/original/1/14982/1228664-steam2.jpg\" data-ref-id=\"1300-1228664\" data-size=\"medium\" data-ratio=\"0.75\" data-width=\"480\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\" style=\"width: 480px\"><a class=\"fluid-height\" style=\"padding-bottom:75.0%\" href=\"http://static.giantbomb.com/uploads/original/1/14982/1228664-steam2.jpg\" data-ref-id=\"1300-1228664\"><img class=\"js-lazy-load-image\" data-src=\"http://static.giantbomb.com/uploads/scale_medium/1/14982/1228664-steam2.jpg\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\"><noscript><img src=\"http://static.giantbomb.com/uploads/scale_medium/1/14982/1228664-steam2.jpg\"></noscript></a><figcaption>Steam comprises over 70% of the digital distribution market.</figcaption></figure><p style=\"\">The third, and arguably most popular, PC genre is the FPS. After being popularized with <a href=\"/id-software/3010-347/\" data-ref-id=\"3010-347\">iD Software</a>'s <a href=\"/wolfenstein-3d/3030-7694/\" data-ref-id=\"3030-7694\">Wolfenstein 3D</a>, the genre exploded into popularity with <a href=\"/doom/3025-156/\" data-ref-id=\"3025-156\">Doom</a>. The use of mouse a mouse to look around was later popularized by <a href=\"/duke-nukem-3d/3030-3407/\" data-ref-id=\"3030-3407\">Duke Nukem 3D</a> and <a href=\"/quake/3025-425/\" data-ref-id=\"3025-425\">Quake</a>. It's a genre that has been ported to consoles, but still controls better on PC due to quick, precise aiming with mice. Landmark PC FPS games include <a href=\"/doom/3030-7326/\" data-ref-id=\"3030-7326\">Doom</a>, <a href=\"/quake/3030-8015/\" data-ref-id=\"3030-8015\">Quake</a>, <a href=\"/counter-strike/3025-114/\" data-ref-id=\"3025-114\">Counter-Strike</a>, and <a href=\"/half-life/3030-2980/\" data-ref-id=\"3030-2980\">Half-Life</a>.</p><p style=\"\">The PC game industry has seen a steady push towards consoles for many years now, due to low sales numbers. These sales are often attributed to illegal downloading as well as the cost of upgrading one's system. The PC industry is largely kept alive by the convenience of having many games at ones fingertips on a PC as well as the superiority of certain genres on the platform.</p><p style=\"\">However, PC gaming has seen a massive resurgence of popularity within the last few years thanks to the growing popularity of Steam, the massive success of indie titles such as <a href=\"/minecraft/3030-30475/\" data-ref-id=\"3030-30475\">Minecraft</a> and <a href=\"/dayz/3030-39256/\" data-ref-id=\"3030-39256\">DayZ</a>, and the rise of eSports with games such as League of Legends, DOTA 2, and <a href=\"/counter-strike-global-offensive/3030-36113/\" data-ref-id=\"3030-36113\">Counter Strike: Global Offensive</a>.</p><h3>Digital Distribution</h3><p style=\"\">However, even with retail PC game sales slowing, digital distribution has been expanding within the last few years. Popular digital distribution services like <a href=\"/valve-corporation/3010-1374/\" data-ref-id=\"3010-1374\">Valve</a>'s <a href=\"/steam/3015-718/\" data-ref-id=\"3015-718\">Steam</a>, <a href=\"//www.giantbomb.com/electronic-arts/3010-1/\" data-ref-id=\"3010-1\">EA</a>'s <a href=\"//www.giantbomb.com/origin/3015-7040/\" data-ref-id=\"3015-7040\">Origin</a>, and <a href=\"//www.giantbomb.com/desura/3015-6514/\" data-ref-id=\"3015-6514\">Desura</a> helped in boosting the sales of PC games and have helped in making many indie games popular. Other digital distributors, like <a href=\"/good-old-games/3015-2379/\" data-ref-id=\"3015-2379\">GOG</a>, sell older PC games that either don't sell in retail anymore or are too old to be compatible with newer operating systems. These services allow you to play older games and usually sell them for less than $10 while also being free of DRM. The <a href=\"//www.giantbomb.com/humble-bundle/3015-6612/\" data-ref-id=\"3015-6612\">Humble Indie Bundle</a> and other alternatives have been a great resource in downloading numerous indie and retail games for prices set by the end user. The majority of the proceeds go to the game developers as well as numerous charities. These type of services help in having an easy way to play PC games and having developers keep in touch with their communities.</p><h2>Issues</h2><h3>Upgrading</h3><figure data-align=\"right\" data-img-src=\"http://static.giantbomb.com/uploads/original/0/3661/1650290-nvidia_fermi_class_quadro_professional_gpus_announced_2.jpg\" data-ref-id=\"1300-1650290\" data-size=\"medium\" data-ratio=\"0.61487603305785\" data-width=\"480\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\" style=\"width: 480px\"><a class=\"fluid-height\" style=\"padding-bottom:61.5%\" href=\"http://static.giantbomb.com/uploads/original/0/3661/1650290-nvidia_fermi_class_quadro_professional_gpus_announced_2.jpg\" data-ref-id=\"1300-1650290\"><img class=\"js-lazy-load-image\" data-src=\"http://static.giantbomb.com/uploads/scale_medium/0/3661/1650290-nvidia_fermi_class_quadro_professional_gpus_announced_2.jpg\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\"><noscript><img src=\"http://static.giantbomb.com/uploads/scale_medium/0/3661/1650290-nvidia_fermi_class_quadro_professional_gpus_announced_2.jpg\"></noscript></a><figcaption>NVidia's popular GeForce series of GPUs.</figcaption></figure><p style=\"\">A primary issue with PC gaming is the barrier to entry due to cost. Pricing of a PC depends on what type of performance a user wants when it comes to playing games, but for people who want to play games at maximum settings, it can cost at least $1000 to build and up to $3000 to buy from a manufacturer. In order to play some of the biggest, most graphically impressive games on PC at maximum settings with a stable framerate, it may require a user to upgrade their computer components every 2-3 years. However, thanks to better optimization of games and the creation of lower level APIs such as AMD's Mantle, the barrier of entry for PC gaming has been decreasing and lower-end hardware can be used to run games with decent performance.</p><p style=\"\">The ability to selectively upgrade hardware also gives PC gamers a flexibility absent in console gaming. Users can upgrade RAM, GPU or hard drives to make their computers more powerful as the games become more demanding. In turn, this flexibility and constant increase in performance allows developers to create games that can fully utilize the latest hardware, often leading to more complex or better looking games.</p><h3>Piracy and Digital Rights Management</h3><p style=\"\">One huge problem reported by publishers with PC gaming is the excessive piracy of games. Bootleg copies of games have been a problem since the introduction of the personal computer. Many computer experts were able to copy floppy disks and distribute them to either share with friends or profit off them. Since the introduction of the internet, it has been easier to distribute pirated software than ever before (including games). Bittorrent sites make it easier for people to put up game files where everyone can download and play.</p><p style=\"\">Although piracy ranges across the world, the areas with the most piracy are developing nations. These are areas that either have poor game distribution or have gamers that are too poor to afford many games. Piracy has also gone up since the economic crash of 2008.</p><p style=\"\">There are many measures that game publishers use in attempts to prevent piracy. Floppy disk games of the 1980's included items in their game boxes called \"feelies\", or items necessary to have in order to play the game. Some games required the player to look in the instruction manual and type in a specific word to play the game while others had the player decrypt a code displayed on a screen using one of the items in the box. As CD games became more popular and CD copiers were gaining traction, CD keys, unique codes to identify legitimately purchased games, were introduced. Sometimes CD keys are used to access certain parts of a game such as multiplayer and Live features in <a href=\"//www.giantbomb.com/games-for-windows-live/3015-2452/\" data-ref-id=\"3015-2452\">Games for Windows Live</a> games. There have been many issues with CD keys. If you were to lose your CD key and needed to reinstall a game, you had to buy your game again. This type of security did not last long because pirates were finding ways to create fake CD keys that they could use to play pirated games. Digital Distribution has made CD keys mostly obsolete.</p><p style=\"\">This led game publishers and various third parties to develop forms of <a href=\"/digital-rights-management/3015-1704/\" data-ref-id=\"3015-1704\">Digital Rights Management</a> (DRM). DRM is digtal software protection that prevents the user from using copied game discs and downloaded disc images or installing games on multiple machines. Some early forms of DRM may interfere with some applications such as disc drive emulation software used for mounting disc images.</p><figure data-align=\"right\" data-img-src=\"http://static.giantbomb.com/uploads/original/0/3661/1650293-activationfailed2.jpg\" data-ref-id=\"1300-1650293\" data-size=\"small\" data-ratio=\"0.875\" data-width=\"320\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\" style=\"width: 320px\"><a class=\"fluid-height\" style=\"padding-bottom:87.5%\" href=\"http://static.giantbomb.com/uploads/original/0/3661/1650293-activationfailed2.jpg\" data-ref-id=\"1300-1650293\"><img class=\"js-lazy-load-image\" data-src=\"http://static.giantbomb.com/uploads/scale_small/0/3661/1650293-activationfailed2.jpg\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\"><noscript><img src=\"http://static.giantbomb.com/uploads/scale_small/0/3661/1650293-activationfailed2.jpg\"></noscript></a><figcaption>Activation failure screen for GTA IV.</figcaption></figure><p style=\"\">There have been controversial uses of DRM within the last few years. In 2008, <a href=\"/ea-games/3010-6256/\" data-ref-id=\"3010-6256\">EA</a> announced that they are going to use a new version of <a href=\"/securom/3015-2720/\" data-ref-id=\"3015-2720\">SecuROM</a> DRM that limits the number of simultaneous activated installs for all of their new PC games (starting with <a href=\"/mass-effect/3030-16909/\" data-ref-id=\"3030-16909\">Mass Effect</a> and <a href=\"/spore/3030-14139/\" data-ref-id=\"3030-14139\">Spore</a>). Since then there has been a huge controversy over DRM, even questioning the legality of it.</p><p style=\"\">In 2009, <a href=\"/ubisoft-entertainment/3010-82/\" data-ref-id=\"3010-82\">Ubisoft</a> introduced a new DRM that will require you to be online at all times when playing a game. If you are disconnected from the internet for any reason, gameplay will stop. The first games to utilize the new DRM were <a href=\"/assassins-creed-ii/3030-22928/\" data-ref-id=\"3030-22928\">Assassin's Creed II</a> and <a href=\"/silent-hunter-v-battle-of-the-atlantic/3030-28094/\" data-ref-id=\"3030-28094\">Silent Hunter 5</a>. As of 2011, Ubisoft decided to discontinue and retool their online DRM system with the release of <a href=\"/assassins-creed-brotherhood/3030-31001/\" data-ref-id=\"3030-31001\">Assassin's Creed Brotherhood</a>, and was relaunched with the release of <a href=\"/driver-san-francisco/3030-31634/\" data-ref-id=\"3030-31634\">Driver: San Francisco</a>. Today, Ubisoft has their own digital platform, <a href=\"//www.giantbomb.com/uplay/3015-4289/\" data-ref-id=\"3015-4289\">Uplay</a>, that is needed to access many of their games.</p><p style=\"\">Common complaints about this type of DRM are losing game progress and not being able to play when an internet connection is unavailable. Other companies are using similar DRM including EA with <a href=\"/command-conquer-4-tiberian-twilight/3030-27130/\" data-ref-id=\"3030-27130\">Command and Conquer 4</a> and <a href=\"/blizzard-entertainment/3010-1088/\" data-ref-id=\"3010-1088\">Blizzard</a> with <a href=\"/starcraft-ii-wings-of-liberty/3030-20674/\" data-ref-id=\"3030-20674\">StarCraft II: Wings of Liberty</a> and <a href=\"/diablo-iii/3030-20803/\" data-ref-id=\"3030-20803\">Diablo III</a>. Both <a href=\"/command-conquer-4-tiberian-twilight/3030-27130/\" data-ref-id=\"3030-27130\">C&amp;C4</a> and <a href=\"/diablo-iii/3030-20803/\" data-ref-id=\"3030-20803\">D3</a> require a constant, active connection to the host servers, but Blizzard's implementation in <a href=\"/starcraft-ii-wings-of-liberty/3030-20674/\" data-ref-id=\"3030-20674\">SC2</a> allows offline play of the single player campaign and AI versus modes with achievement functionality disabled.</p><p style=\"\">Many digital distributors feature their own DRM. Steam requires users to connect to their servers at least once and enable offline mode before playing games offline. In Steam's offline mode, achievements are deactivated. Microsoft's Games For Windows Live has similar restrictions.</p>",
-        "id": 94,
-        "image": {
-            "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/3661/1650285-ibm_pc_5150.jpg",
-            "medium_url": "http://static.giantbomb.com/uploads/scale_medium/0/3661/1650285-ibm_pc_5150.jpg",
-            "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/3661/1650285-ibm_pc_5150.jpg",
-            "small_url": "http://static.giantbomb.com/uploads/scale_small/0/3661/1650285-ibm_pc_5150.jpg",
-            "super_url": "http://static.giantbomb.com/uploads/scale_large/0/3661/1650285-ibm_pc_5150.jpg",
-            "thumb_url": "http://static.giantbomb.com/uploads/scale_avatar/0/3661/1650285-ibm_pc_5150.jpg",
-            "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/3661/1650285-ibm_pc_5150.jpg"
-        },
-        "install_base": "1250000000",
-        "name": "PC",
-        "online_support": true,
-        "original_price": "1565.00",
-        "release_date": "1981-08-12 00:00:00",
-        "site_detail_url": "http://www.giantbomb.com/pc/3045-94/"
-    },
-    "96": {
-        "abbreviation": "IPHN",
-        "aliases": "iPod Touch\niOS\niConsoles",
-        "api_detail_url": "http://www.giantbomb.com/api/platform/3045-96/",
-        "company": {
-            "api_detail_url": "http://www.giantbomb.com/api/company/3010-5815/",
-            "id": 5815,
-            "name": "Apple Inc."
-        },
-        "date_added": "2008-06-09 10:55:31",
-        "date_last_updated": "2013-10-04 14:42:33",
-        "deck": "The iPhone is a multimedia multi-touch smartphone created by Apple Inc.",
-        "description": "<h2>About</h2><p style=\"\">iPhone is a smartphone designed by <a href=\"/apple-inc/3010-5815/\" data-ref-id=\"3010-5815\">Apple</a>, sold in many countries and on many mobile carriers. What makes iPhone special from past mobile phones is its minimalist design and heavily reliance on a touch screen instead of buttons. iPhone sports many features that make it attractive as not only a phone, but a general purpose computing device. More importantly, iPhone has recently gained a massive foothold in the handheld gaming market through the App Store, allowing users to easily download apps from the device itself. With iPhone's massive popularity and considered by many to be their primary gaming platform, major publishers such as <a href=\"/gameloft-china/3010-6003/\" data-ref-id=\"3010-6003\">Gameloft</a>, <a href=\"/ea-games/3010-6256/\" data-ref-id=\"3010-6256\">EA</a>, <a href=\"/epic-games/3010-149/\" data-ref-id=\"3010-149\">Epic Games</a> and <a href=\"/sega/3010-62/\" data-ref-id=\"3010-62\">Sega</a> have all released games for iPhone.</p><h2>Specifications</h2><p style=\"\">The iPhone is a very capable platform in terms of processing power. It has a 620 MHz ARM 1176 underclocked to 400 MHz processor, 128 MB eDRAM as well as a PowerVR MBX graphics processing unit. This allows it to run 3D and sprite-based games which put most phones' graphical capabilities to shame. Graphics are run through OpenGL, however it is the less-powerful Embedded System version. The iPhone 3GS has a 833 MHz ARM Cortex-A8 underclocked to 600 MHz, 256 MB eDRAM, and a PowerVR SGX GPU.</p><p style=\"\">The iPhone 4 has the ARM Cortex-A8CPU integrated with a PowerVR SGX 535 GPU and 515 MB eDRAM.</p><p style=\"\">There are some issues for running games on the iPhone, the main one being a lack of a tactile input. The iPhone is controlled via a combination of a touch screen, which can recognize multiple points of contact, as well as an accelerometer, which can sense movement of the device. These methods of input can work well for many genres, including racing, puzzle, and adventure games. However the lack of physical button-based input can inhibit more traditional action-based games, platformers, etc. due to the finger needing to obscure the screen. <a href=\"/virtual-joystick/3015-4951/\" data-ref-id=\"3015-4951\">Virtual buttons</a> may be used instead, but that takes up space on the rather small screen and lacks tactile feedback and the ability to be pressure sensitive. Unlike the <a href=\"/nintendo-ds/3045-52/\" data-ref-id=\"3045-52\">Nintendo DS</a>, the iPhone's screen is not sensitive to physical pressure, but only disturbances through bioelectric contact such as skin -- the former being known as resistive and the latter capacitive. This is why using a plastic stylus or most inorganic objects will not register input.</p><p style=\"\"> </p><h2>Different Models</h2><p style=\"\">Since the original iPhone release, Apple have upgraded the model with three new releases, the iPhone 3G boasted a new streamlined design, replacing the aluminum backing for a more suited black plastic. It also introduced 3G to the iPhone, which was a feature that many critics complained about the original not having, considering it was a smartphone and a GPS. The iPhone 3GS released in 2009 claimed to be \"twice as fast\" as the 3G, it also has a 3.0 megapixel camera that takes stills and video, compared to the iPhone and the 3G's fixed focus 2.0 megapixel camera, which could not record video. Additionally, the 3GS added a digital compass.</p><p style=\"\">In June 2010, the iPhone 4 was released. The iPhone was vastly improved now, with a faster CPU, a higher resolution \"retina\" display, noise suppressing dual microphones, a 5.0 megapixel camera and a newly added front-facing camera, longer battery life, and a design change which made it distinct from older models.</p><h3>iPhone 4S</h3><p style=\"\">On October 4 2011, Apple announced the iPhone 4S. Changes include a new 8MP camera,1080p video recording, an improved antenna, Apple's A5 dual core processor and Siri, a voice controlled assistant. It released on October 14, 2011.</p><h3>iPhone 5</h3><p style=\"\">The iPhone 5 was released on September 21, 2012. The phone is slimmer, lighter, and also introduced the first 4\" screen. It was also the first iPhone to support LTE. Apple put a their new A6 processor, and added 1GB of RAM.</p><h3>iPhone 5s and 5c</h3><p style=\"\">The iPhone 5s and 5c were announced on September 10, 2013 and launched on September 20, 2013. The iPhone 5s uses a 64-bit A7 processor, while the lower-end iPhone 5c uses the A6 processor previously used in the iPhone 5. The iPhone 5s also adds a fingerprint scanner, which is not present on the iPhone 5c. Fingerprint data is stored within a \"secure enclave\" on the A7 chip.</p><h2>Jailbreaking</h2><p style=\"\">Jailbreaking is a process that allows the iPhone and iPod Touch to run unsigned code on, bypassing Apple's official distribution platform, the App Store. Once jailbroken, iPhone users are able to download many applications previously unavailable through the App Store due to Apple's rules.</p><p style=\"\">Jailbreaking is condemned by Apple and will cause any standing warranty on an iPhone or iPod Touch product to become null and void.</p><p style=\"\"> </p><h2>The iPod Touch</h2><p style=\"\">The iPod Touch looks a lot like the iPhone, but there are a few key differences between the two. The most notable of these differences is the fact that the iPod touch does not have a GSM radio built into it, and therefore cannot use a cellular network with which to make phone calls or access the internet, though it does include Wi-Fi. The first generations did not have a built-in camera or microphone, but the second generation (2G, 2008) of the hardware does include an internal speaker and adds support for an external microphone. The fourth generation (4G, 2010) now includes a built-in microphone and also a camera which can record both images and video. Like the iPhone, the iPod touch runs iPhone OS. The iPhone OS 3.0 on the iPod touch unlocks Bluetooth (for 2G touch), landscape keyboard in more apps, peer-to-peer gameplay, and several other new features. The iPod Touch functions much like the iPhone, but is slightly smaller, lighter, and can be purchased without a phone contract.</p><p style=\"\"> </p><h2>Game Center</h2><p style=\"\">Game Center is Apple's gaming platform for the iPod Touch, iPhone and <a href=\"/ipad/3045-121/\" data-ref-id=\"3045-121\">iPad</a>, which was announced as part of the iPhone OS 4.0 on April 8, 2010. The new platform will work as a social gaming network, with the ability to track friends and invite them to games, matchmaking, <a href=\"/leaderboard/3015-30/\" data-ref-id=\"3015-30\">leaderboards</a> and <a href=\"/achievements/3015-29/\" data-ref-id=\"3015-29\">achievements</a>. Game Center will replace other gaming networks on the iPhone such as <a href=\"/openfeint/3015-4240/\" data-ref-id=\"3015-4240\">OpenFeint</a>, and allow for a more wholesome experience. The network was supposed to launch as part of iPhone OS 4.0 in June 2010, but was delayed to September 2010.</p>",
-        "id": 96,
-        "image": {
-            "icon_url": "http://static.giantbomb.com/uploads/square_avatar/3/38405/1750597-apple_iphone_4_101.jpg",
-            "medium_url": "http://static.giantbomb.com/uploads/scale_medium/3/38405/1750597-apple_iphone_4_101.jpg",
-            "screen_url": "http://static.giantbomb.com/uploads/screen_medium/3/38405/1750597-apple_iphone_4_101.jpg",
-            "small_url": "http://static.giantbomb.com/uploads/scale_small/3/38405/1750597-apple_iphone_4_101.jpg",
-            "super_url": "http://static.giantbomb.com/uploads/scale_large/3/38405/1750597-apple_iphone_4_101.jpg",
-            "thumb_url": "http://static.giantbomb.com/uploads/scale_avatar/3/38405/1750597-apple_iphone_4_101.jpg",
-            "tiny_url": "http://static.giantbomb.com/uploads/square_mini/3/38405/1750597-apple_iphone_4_101.jpg"
-        },
-        "install_base": "250000000",
-        "name": "iPhone",
-        "online_support": true,
-        "original_price": "599.00",
-        "release_date": "2007-06-01 00:00:00",
-        "site_detail_url": "http://www.giantbomb.com/iphone/3045-96/"
-    },
-    "121": {
-        "abbreviation": "IPAD",
-        "aliases": "Apple iPad",
-        "api_detail_url": "http://www.giantbomb.com/api/platform/3045-121/",
-        "company": {
-            "api_detail_url": "http://www.giantbomb.com/api/company/3010-5815/",
-            "id": 5815,
-            "name": "Apple Inc."
-        },
-        "date_added": "2010-04-10 10:07:02",
-        "date_last_updated": "2013-10-04 14:26:10",
-        "deck": "The iPad is a \"multimedia tablet computer\" with a 9.7\" touchscreen, and has a 7.9\" derivative, the iPad mini. The iPad can browse the web, playback local and streamed content, and run a large variety of third party apps, including games.",
-        "description": "<p style=\"\">The iPad is <a data-ref-id=\"3010-5815\" href=\"/apple-inc/3010-5815/\">Apple</a>'s foray into a new consumer electronics territory called tablet computing. The device uses a 9.7\" multi-touch screen and runs Apple's iOS mobile operating system, based on OS X. Similar to the <a data-ref-id=\"3045-96\" href=\"/iphone/3045-96/\">iPhone</a> and <a data-ref-id=\"3045-96\" href=\"/iphone/3045-96/\">iPod Touch</a>, the iPad features minimal use of physical buttons, providing only for Power, the Home screen, volume control, and an orientation lock which prevents the tablet's display from rotating with the user's movement, which can be configured to mute the iPad instead. It gained many good reviews from critics when it launched on April 3rd 2010, and sold 3 million units in 80 days.</p><h2>Configurations</h2><p style=\"\">The iPad has two models on that runs on wifi and the other has a 3G network. The 3G version has a $130 premium. The launch prices are as follows.</p><table class=\"t-editor with-border full-width\"><tbody><tr><th>Model</th><th>16 GB</th><th>32 GB</th><th>64 GB</th></tr><tr><td><b>WiFi</b></td><td>$499</td><td>$599</td><td>$699</td></tr><tr><td><b>WiFi 3G</b></td><td>$629</td><td>$729</td><td>$829</td></tr></tbody></table><p style=\"\">All six configurations and even their prices have remained the same for iPad 2 and iPad 3 launches. However, alongside the launch of both newer-model iPads, the price of the previous iteration may receive a price cut until stock is cleared.</p><p style=\"\"><a data-ref-id=\"3040-9951\" href=\"/steve-jobs/3040-9951/\">Steve Jobs</a> has said that there is room to lower pricing in the future if necessary. To date this has not happened. Instead, the iPad has received yearly model revisions to improve the value proposition, with things like upgraded specs, and added features such as cameras, tilt sensor, and retina display.</p><h2>iPhone/iPod Touch apps</h2><p style=\"\">iPhone/iPod Touch apps and games are compatible with the iPad, and can be run at original resolution or a full-screen \"double\" resolution. The iPad also features exclusive games, which can be run by the more powerful 1 GHz processor with the 256 MB of memory.</p><h2>iBooks</h2><p style=\"\">One of the key features of the iPad is its iBooks support. iBooks are essentially .pub formatted documents which is presented similarly to how a normal book would look. iBooks can be purchased from the iBooks Store and will be available to iPhone users as well later in the year with iPhone OS 4.0.</p><h2>iPad's 3G Plan</h2><p style=\"\">Although the iPad 3G adds a $130 premium, the deal Apple struck with AT&amp;T for the iPad's 3G plan is a pay as you go plan with no contract and no added fees. You purchase time through itunes, using the credit card that you have on file with Apple, or a unique one for AT&amp;T. Prices start at $14.99 a month for limited access and $29.99 a month for unlimited access (both include free use at AT&amp;T hotspots). Some of the features in the plan include no billing, no checks, no pay by phone surcharges, no added set up fees, and cancel at any time.</p><p style=\"\">Verizon has a tiered data plan. The cheapest is $20 a month for 1 GB, and the most expensive plan is $80 a month for 10 GB.</p><h2>Game Center</h2><p style=\"\">Game Center is an unified log-in for iPad games which allows match-making, friends lists, achievements, leader-boards, and online play. Game Center has been compared to Microsoft's <a data-ref-id=\"3015-1404\" href=\"/xbox-live/3015-1404/\">Xbox LIVE</a> service.</p><h2>iPad 2</h2><p style=\"\">The second generation iPad was released in March 2011. It features a thinner case, forward and back facing camera, and the Apple A5 core processor.</p><h2>iPad 3</h2><p style=\"\">The third generation iPad, released in March 2012, has the Apple A5X dual-core processor and was the first iPad with a ''retina display''. It has a higher resolution than HDTV's, with such a high pixel density that they cannot be seen with the naked eye.</p><h2>iPad 4</h2><p style=\"\">The fourth generation iPad was released in November 2012, breaking the annual cycle of the release of iPads for the first time. It saw the introduction of Lightning connectors on iPads, a HD front-facing camera and an Apple A6X processor.</p><h2>iPad mini</h2><p style=\"\">The iPad mini was Apple's first tablet smaller than 9.7\", measuring 7.9\" in diameter, and weighing significantly less. It was released in November 2012 alongside the iPad 4. It had the same specs as an iPad 2, with a smaller, non-retina screen and a HD front-facing camera.</p><h2>Foxconn controversy</h2><p style=\"\">Apple products are manufactured by a Taiwanese manufacturing company named Foxconn which has a track record of employee suicides. At least 14 suicides are confirmed in 2010. Long working hours and racial discrimination are cited as potential contributing factors.</p><p style=\"\">There has also been evidence reported of illegal overtime and failure by Foxconn management to report accidents. Workers complained they were forced to stand for more then eight hours at a time.</p><p style=\"\">In 2011, Apple admitted that they were finding <a href=\"http://www.telegraph.co.uk/technology/apple/8324867/Apples-child-labour-issues-worsen.html\" rel=\"nofollow\">more and more child laborers in their factories</a>.</p>",
-        "id": 121,
-        "image": {
-            "icon_url": "http://static.giantbomb.com/uploads/square_avatar/8/88754/1325874-ipad_hero_20100127.jpg",
-            "medium_url": "http://static.giantbomb.com/uploads/scale_medium/8/88754/1325874-ipad_hero_20100127.jpg",
-            "screen_url": "http://static.giantbomb.com/uploads/screen_medium/8/88754/1325874-ipad_hero_20100127.jpg",
-            "small_url": "http://static.giantbomb.com/uploads/scale_small/8/88754/1325874-ipad_hero_20100127.jpg",
-            "super_url": "http://static.giantbomb.com/uploads/scale_large/8/88754/1325874-ipad_hero_20100127.jpg",
-            "thumb_url": "http://static.giantbomb.com/uploads/scale_avatar/8/88754/1325874-ipad_hero_20100127.jpg",
-            "tiny_url": "http://static.giantbomb.com/uploads/square_mini/8/88754/1325874-ipad_hero_20100127.jpg"
-        },
-        "install_base": "15000000",
-        "name": "iPad",
-        "online_support": true,
-        "original_price": "499.00",
-        "release_date": "2010-04-27 00:00:00",
-        "site_detail_url": "http://www.giantbomb.com/ipad/3045-121/"
-    },
-    "145": {
-        "abbreviation": "XONE",
-        "aliases": "Xbox Durango\r\nXONE\r\nXBONE\r\nXbox 1",
-        "api_detail_url": "http://www.giantbomb.com/api/platform/3045-145/",
-        "company": {
-            "api_detail_url": "http://www.giantbomb.com/api/company/3010-340/",
-            "id": 340,
-            "name": "Microsoft Studios"
-        },
-        "date_added": "2012-06-01 11:19:06",
-        "date_last_updated": "2015-01-15 17:48:12",
-        "deck": "The Xbox One is Microsoft's third video game console. It was released on November 22nd 2013 in 13 countries.",
-        "description": "<h2>Overview</h2><p style=\"\">The Xbox One is <a href=\"//www.giantbomb.com/microsoft-studios/3010-340/\" data-ref-id=\"3010-340\">Microsoft</a>'s third home console. It was officially unveiled on May 21, 2013.</p><h2>Xbox Live</h2><p style=\"\">The next generation of <a href=\"http://www.giantbomb.com/xbox-live/3015-1404/\" data-ref-id=\"3015-1404\">Xbox Live</a> will debut with the Xbox One. Confirmed features include an expanded Friends List of over 1000 players — up from the Xbox 360's 100. Xbox Live will be compatible across the Xbox 360 and Xbox One, including support for cross-generation chat. Existing subscriptions will carry forward, and will be usable on both systems.</p><p style=\"\"> </p><h2>Xbox Reveal</h2><figure data-align=\"right\" data-size=\"small\" data-img-src=\"http://static.giantbomb.com/uploads/original/0/1992/2473615-screen+shot+2013-04-24+at+6.33.57+pm.png\" data-ref-id=\"1300-2473615\" style=\"width: 320px\" data-ratio=\"0.99663865546218\" data-width=\"320\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\"><a class=\"fluid-height\" style=\"padding-bottom:99.7%\" href=\"http://static.giantbomb.com/uploads/original/0/1992/2473615-screen+shot+2013-04-24+at+6.33.57+pm.png\" data-ref-id=\"1300-2473615\"><img src=\"http://static.giantbomb.com/uploads/scale_small/0/1992/2473615-screen+shot+2013-04-24+at+6.33.57+pm.png\"></a><figcaption>An invitation to the Xbox Reveal.</figcaption></figure><p style=\"\">On April 24, 2013, Microsoft announced they would hold an event hosted by <a href=\"/don-mattrick/3040-2846/\" data-ref-id=\"3040-2846\">Don Mattrick</a> on May 21, 2013 at their home office in Redmond, <a href=\"/washington/3035-2434/\" data-ref-id=\"3035-2434\">Washington</a> to reveal the new generation of Xbox.</p><p style=\"\">Microsoft's Director of Programming for Xbox Live, <a href=\"/larry-hryb/3040-89829/\" data-ref-id=\"3040-89829\">Larry Hryb</a>, commented that the Xbox Reveal event would focus on the hardware and features of the system, while most of the major game announcements would be presented at <a href=\"//www.giantbomb.com/e3-2013/3015-7534/\" data-ref-id=\"3015-7534\">E3 2013</a>, which is less than three weeks later.</p><p style=\"\"> </p><p style=\"\"> </p><h2>Hardware</h2><h3>System Specs</h3><figure data-align=\"right\" data-size=\"small\" data-img-src=\"http://static.giantbomb.com/uploads/original/0/4165/2486472-8689956554-xbox-.jpg\" data-ref-id=\"1300-2486472\" style=\"width: 320px\" data-ratio=\"0.66558966074313\" data-width=\"320\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\"><a class=\"fluid-height\" style=\"padding-bottom:66.6%\" href=\"http://static.giantbomb.com/uploads/original/0/4165/2486472-8689956554-xbox-.jpg\" data-ref-id=\"1300-2486472\"><img src=\"http://static.giantbomb.com/uploads/scale_small/0/4165/2486472-8689956554-xbox-.jpg\"></a></figure><ul><li>8 Core CPU clocked at 1.75GHZ</li><li>8GB Memory</li><li>500GB HDD</li><li>Blu-Ray Drive</li><li>802.11n Wireless with Wi-Fi direct</li><li>HDMI In/Out</li><li>USB 3.0</li></ul><p style=\"\"> </p><h3>Controller</h3><p style=\"\">The new controller is similar to the design of the Xbox 360 controller with some slight alterations. The controller features area specific rumble feedback at the triggers (one motor per side), in addition to the two \"normal\" rumble motors as used in the 360s controller.</p><p style=\"\">The D-pad has been changed to the cross designed as Nintendo's patent has expired in 2005.</p><p style=\"\">The two face buttons on the Xbox One (back and start on the Xbox 360) are functioned as view and menu.</p><h3>Kinect</h3><p style=\"\">The Xbox One can come bundled with version 2 of the Kinect sensor. It features a 1080p camera, a time-of-flight depth camera, and an array of microphones. Originally, the Kinect had to be plugged in at all times for the console to function. It was later revealed by <a href=\"http://www.giantbomb.com/marc-whitten/3040-89879/\" data-ref-id=\"3040-89879\">Marc Whitten</a> that the system would work without the Kinect, but certain features are disabled (such as turning off your tv).</p><p style=\"\">The sensor motors have been removed and the field of view increased to detect users 3 feet away from the sensor. The increased tracking resolution allows the sensor to detect your heartbeat, facial expressions, fingers, weight on joints, and movement speed.</p><p style=\"\">On June 9, 2014, a cheaper Xbox One version was introduced, which does not include the Kinect.</p><h2>Dashboard</h2><p style=\"\">Heavily media based, the new Dashboard will include features such as Snap screen, existing voice commands and new gestures based on the Kinect. A \"trending\" feature will be in place to allow users to see the most popular content in use by other users, and to allow for more tailor made media and gaming consumption. Snap Screen allows users to view simultaneous and separate content without losing focus on the main task in hand, whether watching media or gaming. A Pin system was added to allow users to select games or apps to appear on the home dashboard for quick access.</p><h2><a href=\"http://www.ign.com/wikis/xbox-one/Xbox_One_Launch_Titles\" rel=\"nofollow\" data-ref-id=\"false\">Launch</a> Lineup</h2><p style=\"\">The Xbox One launched with the following titles:</p><ul><li><a href=\"//www.giantbomb.com/assassin-s-creed-iv-black-flag/3030-41518/\" data-ref-id=\"3030-41518\">Assassin's Creed IV: Black Flag</a></li><li><a href=\"//www.giantbomb.com/battlefield-4/3030-39035/\" data-ref-id=\"3030-39035\">Battlefield 4</a></li><li><a href=\"//www.giantbomb.com/call-of-duty-ghosts/3030-41520/\" data-ref-id=\"3030-41520\">Call of Duty: Ghosts</a></li><li><a href=\"//www.giantbomb.com/crimson-dragon/3030-32708/\" data-ref-id=\"3030-32708\">Crimson Dragon</a></li><li><a href=\"//www.giantbomb.com/dead-rising-3/3030-42902/\" data-ref-id=\"3030-42902\">Dead Rising 3</a></li><li><a href=\"//www.giantbomb.com/fifa-14/3030-42410/\" data-ref-id=\"3030-42410\">FIFA 14</a></li><li><a href=\"//www.giantbomb.com/fighter-within/3030-43834/\" data-ref-id=\"3030-43834\">Fighter Within</a></li><li><a href=\"//www.giantbomb.com/forza-motorsport-5/3030-42693/\" data-ref-id=\"3030-42693\">Forza Motorsport 5</a></li><li><a href=\"//www.giantbomb.com/just-dance-2014/3030-42907/\" data-ref-id=\"3030-42907\">Just Dance 2014</a></li><li><a href=\"//www.giantbomb.com/killer-instinct/3030-42896/\" data-ref-id=\"3030-42896\">Killer Instinct</a></li><li><a href=\"//www.giantbomb.com/lego-marvel-super-heroes/3030-41090/\" data-ref-id=\"3030-41090\">LEGO Marvel Super Heroes</a></li><li><a href=\"//www.giantbomb.com/lococycle/3030-38529/\" data-ref-id=\"3030-38529\">LocoCycle</a></li><li><a href=\"//www.giantbomb.com/madden-nfl-25/3030-41459/\" data-ref-id=\"3030-41459\">Madden NFL 25</a></li><li><a href=\"//www.giantbomb.com/nba-2k14/3030-42632/\" data-ref-id=\"3030-42632\">NBA 2K14</a></li><li><a href=\"//www.giantbomb.com/nba-live-14/3030-42864/\" data-ref-id=\"3030-42864\">NBA LIVE 14</a></li><li><a href=\"//www.giantbomb.com/need-for-speed-rivals/3030-42584/\" data-ref-id=\"3030-42584\">Need for Speed: Rivals</a></li><li><a href=\"//www.giantbomb.com/powerstar-golf/3030-42906/\" data-ref-id=\"3030-42906\">Powerstar Golf</a></li><li><a href=\"//www.giantbomb.com/ryse-son-of-rome/3030-31709/\" data-ref-id=\"3030-31709\">Ryse: Son of Rome</a></li><li><a href=\"//www.giantbomb.com/skylanders-swap-force/3030-41485/\" data-ref-id=\"3030-41485\">Skylanders: SWAP Force</a></li><li><a href=\"//www.giantbomb.com/zoo-tycoon/3030-42908/\" data-ref-id=\"3030-42908\">Zoo Tycoon</a></li><li><a href=\"//www.giantbomb.com/zumba-fitness-world-party/3030-42760/\" data-ref-id=\"3030-42760\">Zumba Fitness: World Party</a></li></ul>",
-        "id": 145,
-        "image": {
-            "icon_url": "http://static.giantbomb.com/uploads/square_avatar/0/1992/2485895-xboxd_logo_consle_sensr_controller_f_greenbg_rgb_2013_610x610.jpg",
-            "medium_url": "http://static.giantbomb.com/uploads/scale_medium/0/1992/2485895-xboxd_logo_consle_sensr_controller_f_greenbg_rgb_2013_610x610.jpg",
-            "screen_url": "http://static.giantbomb.com/uploads/screen_medium/0/1992/2485895-xboxd_logo_consle_sensr_controller_f_greenbg_rgb_2013_610x610.jpg",
-            "small_url": "http://static.giantbomb.com/uploads/scale_small/0/1992/2485895-xboxd_logo_consle_sensr_controller_f_greenbg_rgb_2013_610x610.jpg",
-            "super_url": "http://static.giantbomb.com/uploads/scale_large/0/1992/2485895-xboxd_logo_consle_sensr_controller_f_greenbg_rgb_2013_610x610.jpg",
-            "thumb_url": "http://static.giantbomb.com/uploads/scale_avatar/0/1992/2485895-xboxd_logo_consle_sensr_controller_f_greenbg_rgb_2013_610x610.jpg",
-            "tiny_url": "http://static.giantbomb.com/uploads/square_mini/0/1992/2485895-xboxd_logo_consle_sensr_controller_f_greenbg_rgb_2013_610x610.jpg"
-        },
-        "install_base": "10000000",
-        "name": "Xbox One",
-        "online_support": true,
-        "original_price": "499.00",
-        "release_date": "2013-11-22 00:00:00",
-        "site_detail_url": "http://www.giantbomb.com/xbox-one/3045-145/"
-    },
-    "146": {
-        "abbreviation": "PS4",
-        "aliases": "PS4\r\nOrbis",
-        "api_detail_url": "http://www.giantbomb.com/api/platform/3045-146/",
-        "company": {
-            "api_detail_url": "http://www.giantbomb.com/api/company/3010-995/",
-            "id": 995,
-            "name": "Sony Computer Entertainment Incorporated"
-        },
-        "date_added": "2012-06-01 11:26:05",
-        "date_last_updated": "2015-10-11 08:42:34",
-        "deck": "PlayStation 4 is Sony's fourth home video game console, released on November 15, 2013 in North America, and November 29, 2013 in Europe.",
-        "description": "<h2>Overview</h2><figure data-align=\"right\" data-size=\"small\" data-img-src=\"http://static.giantbomb.com/uploads/original/0/2840/2496289-playstation-4_2013_06-10-13_028.jpg\" data-ref-id=\"1300-2496289\" style=\"width: 320px\" data-ratio=\"0.66666666666667\" data-width=\"320\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\"><a class=\"fluid-height\" style=\"padding-bottom:66.7%\" href=\"http://static.giantbomb.com/uploads/original/0/2840/2496289-playstation-4_2013_06-10-13_028.jpg\" data-ref-id=\"1300-2496289\"><img src=\"http://static.giantbomb.com/uploads/scale_small/0/2840/2496289-playstation-4_2013_06-10-13_028.jpg\"></a><figcaption>Sony PlayStation 4</figcaption></figure><p style=\"\">The PlayStation 4 is the fourth video game console produced by the <a href=\"/sony-corporation/3010-3223/\" data-ref-id=\"3010-3223\">Sony Corporation</a>, and was released November 15th in North America and November 29th in Europe and Australia. It uses the x86 processor and 8GB of GDDR5 memory, making it much more PC-like (and easier to code for) than Sony's previous console, the <a href=\"/playstation-3/3045-35/\" data-ref-id=\"3045-35\">PlayStation 3</a>. It is capable of streaming games via Gaikai's streaming service, and features options such as gameplay video sharing, instant game resume from hibernation, a robust social network-like friends list, <a href=\"//www.giantbomb.com/playstation-vita/3045-129/\" data-ref-id=\"3045-129\">PS Vita</a> integration &amp; remote play, and background uploading and downloading. The new controller also gives players new input options via a touchpad and motion sensor light bar.</p><p style=\"\">For the first time on a Sony console, a paid membership to their <a href=\"//www.giantbomb.com/playstation-plus/3015-5817/\" data-ref-id=\"3015-5817\">PlayStation Plus</a> program will be required to play online multiplayer on the PS4. Free-to-play &amp; subscription-based games are however exempt, as are other online services such as Netflix. A single PS+ membership applies across the <a href=\"//www.giantbomb.com/playstation-vita/3045-129/\" data-ref-id=\"3045-129\">PS Vita</a>, <a href=\"//www.giantbomb.com/playstation-3/3045-35/\" data-ref-id=\"3045-35\">PS3</a>, and PS4 consoles.</p><p style=\"\">During Sony's Gamescom 2014 briefing, the company announced that as of August 10th 2014 they had sold 10 million PS4 units to consumers. On March 3, 2015 Sony revealed the console had surpassed 20 million PS4 units sold to consumers.</p><h2>Announcement</h2><figure data-ref-id=\"1300-2440417\" data-img-src=\"http://static.giantbomb.com/uploads/original/0/176/2440417-lb_0282_large_extra_large.jpeg\" data-size=\"small\" data-align=\"right\" style=\"width: 320px\" data-ratio=\"0.66666666666667\" data-width=\"320\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\"><a class=\"fluid-height\" style=\"padding-bottom:66.7%\" href=\"http://static.giantbomb.com/uploads/original/0/176/2440417-lb_0282_large_extra_large.jpeg\" data-ref-id=\"1300-2440417\"><img src=\"http://static.giantbomb.com/uploads/scale_small/0/176/2440417-lb_0282_large_extra_large.jpeg\"></a></figure><p style=\"\"><a href=\"/sony-computer-entertainment-incorporated/3010-995/\" data-ref-id=\"3010-995\">Sony</a> officially announced the PlayStation 4 on February 20, 2013 at a 2 hour event called PlayStation Meeting 2013, which was hosted by <a href=\"/andrew-house/3040-665/\" data-ref-id=\"3040-665\">Andrew House</a> &amp; held at the Hammerstein Ballroom in <a href=\"/new-york-city/3035-109/\" data-ref-id=\"3035-109\">New York City</a>.</p><p style=\"\">The hardware specifications and interface of the new console were presented by <a href=\"/mark-cerny/3040-18965/\" data-ref-id=\"3040-18965\">Mark Cerny</a>, who also showed off the newly redesigned DualShock 4 controller.</p><p style=\"\">Gaikai CEO, <a href=\"/david-perry/3040-6461/\" data-ref-id=\"3040-6461\">David Perry</a>, took the stage to talk about the potential their streaming and cloud gaming service can bring to the console.</p><p style=\"\">Various developers then took the stage to show a few of the games &amp; concepts being developed for the platform, including <a href=\"/drive-club/3030-41693/\" data-ref-id=\"3030-41693\">DriveClub</a>, <a href=\"/killzone-shadow-fall/3030-41690/\" data-ref-id=\"3030-41690\">Killzone: Shadow Fall</a>, <a href=\"/watch-dogs/3030-38538/\" data-ref-id=\"3030-38538\">Watch_Dogs</a>, <a href=\"/the-witness/3030-27668/\" data-ref-id=\"3030-27668\">The Witness</a>, and <a href=\"/infamous-second-son/3030-41695/\" data-ref-id=\"3030-41695\">inFamous: Second Son</a>. The console itself was not revealed at this event.</p><p style=\"\"> </p><h2>Launch Console &amp; Software</h2><figure data-ref-id=\"1300-2495967\" data-img-src=\"http://static.giantbomb.com/uploads/original/5/56742/2495967-9012525808_5a9ac7398d_o.jpg\" data-size=\"small\" data-align=\"right\" style=\"width: 320px\" data-ratio=\"0.66666666666667\" data-width=\"320\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\"><a class=\"fluid-height\" style=\"padding-bottom:66.7%\" href=\"http://static.giantbomb.com/uploads/original/5/56742/2495967-9012525808_5a9ac7398d_o.jpg\" data-ref-id=\"1300-2495967\"><img class=\"js-lazy-load-image\" data-src=\"http://static.giantbomb.com/uploads/scale_small/5/56742/2495967-9012525808_5a9ac7398d_o.jpg\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\"><noscript><img src=\"http://static.giantbomb.com/uploads/scale_small/5/56742/2495967-9012525808_5a9ac7398d_o.jpg\"></noscript></a><figcaption>PlayStation 4 console</figcaption></figure><p style=\"\">The public got its first look at the console on stage at Sony's press conference at E3 on June 10th, 2013, where it was revealed that it will cost $399 (US), contain a 500GB hard drive, and be packed with a controller and headset (ear bud + cord mic).</p><p style=\"\">On August 20th 2013 at Gamescom in Germany, Sony revealed the console would be released November 15th 2013 in the US and November 29th in Europe.</p><h3>Launch Software</h3><p style=\"\">The following games launched with the PS4:</p><ul><li><a href=\"//www.giantbomb.com/angry-birds-star-wars/3030-39945/\" data-ref-id=\"3030-39945\">Angry Birds Star Wars</a></li><li><a href=\"//www.giantbomb.com/assassin-s-creed-iv-black-flag/3030-41518/\" data-ref-id=\"3030-41518\">Assassin's Creed IV: Black Flag</a></li><li><a href=\"//www.giantbomb.com/battlefield-4/3030-39035/\" data-ref-id=\"3030-39035\">Battlefield 4</a></li><li><a href=\"//www.giantbomb.com/blacklight-retribution/3030-36230/\" data-ref-id=\"3030-36230\">Blacklight: Retribution</a></li><li><a href=\"//www.giantbomb.com/call-of-duty-ghosts/3030-41520/\" data-ref-id=\"3030-41520\">Call of Duty: Ghosts</a></li><li><a href=\"//www.giantbomb.com/contrast/3030-37669/\" data-ref-id=\"3030-37669\">Contrast</a></li><li><a href=\"//www.giantbomb.com/dc-universe-online/3030-21110/\" data-ref-id=\"3030-21110\">DC Universe Online</a></li><li><a href=\"//www.giantbomb.com/escape-plan/3030-36153/\" data-ref-id=\"3030-36153\">Escape Plan</a></li><li><a href=\"//www.giantbomb.com/fifa-14/3030-42410/\" data-ref-id=\"3030-42410\">FIFA 14</a></li><li><a href=\"//www.giantbomb.com/flow/3030-15849/\" data-ref-id=\"3030-15849\">flOw</a></li><li><a href=\"//www.giantbomb.com/flower/3030-21120/\" data-ref-id=\"3030-21120\">Flower</a></li><li><a href=\"//www.giantbomb.com/injustice-gods-among-us/3030-38480/\" data-ref-id=\"3030-38480\">Injustice: Gods Among Us</a></li><li><a href=\"//www.giantbomb.com/just-dance-2014/3030-42907/\" data-ref-id=\"3030-42907\">Just Dance 2014</a></li><li><a href=\"//www.giantbomb.com/killzone-shadow-fall/3030-41690/\" data-ref-id=\"3030-41690\">Killzone: Shadow Fall</a></li><li><a href=\"//www.giantbomb.com/knack/3030-41687/\" data-ref-id=\"3030-41687\">Knack</a></li><li><a href=\"//www.giantbomb.com/lego-marvel-super-heroes/3030-41090/\" data-ref-id=\"3030-41090\">LEGO Marvel Super Heroes</a></li><li><a href=\"//www.giantbomb.com/madden-nfl-25/3030-41459/\" data-ref-id=\"3030-41459\">Madden NFL 25</a></li><li><a href=\"//www.giantbomb.com/nba-2k14/3030-42632/\" data-ref-id=\"3030-42632\">NBA 2K14</a></li><li><a href=\"//www.giantbomb.com/nba-live-14/3030-42864/\" data-ref-id=\"3030-42864\">NBA Live 14</a></li><li><a href=\"//www.giantbomb.com/need-for-speed-rivals/3030-42584/\" data-ref-id=\"3030-42584\">Need For Speed: Rivals</a></li><li>Playroom</li><li><a href=\"//www.giantbomb.com/resogun/3030-43628/\" data-ref-id=\"3030-43628\">Resogun</a></li><li><a href=\"//www.giantbomb.com/skylanders-swap-force/3030-41485/\" data-ref-id=\"3030-41485\">Skylanders: Swap Force</a></li><li><a href=\"//www.giantbomb.com/sound-shapes/3030-35505/\" data-ref-id=\"3030-35505\">Sound Shapes</a></li><li><a href=\"//www.giantbomb.com/super-motherload/3030-41717/\" data-ref-id=\"3030-41717\">Super Motherload</a></li><li><a href=\"//www.giantbomb.com/switch-galaxy-ultra/3030-43675/\" data-ref-id=\"3030-43675\">Switch Galaxy Ultra</a></li><li><a href=\"//www.giantbomb.com/trine-2/3030-31661/\" data-ref-id=\"3030-31661\">Trine 2: The Complete Story</a></li><li><a href=\"//www.giantbomb.com/warframe/3030-38788/\" data-ref-id=\"3030-38788\">Warframe</a></li></ul><h3>PS4 Apps</h3><p style=\"\">The PlayStation 4 launched with the following digital entertainment apps in North America:</p><ul><li>Music Unlimited</li><li>Video Unlimited</li><li>Netflix</li><li>Hulu</li><li>Amazon Instant Video</li><li>Crackle</li><li>Crunchyroll</li><li>EPIX</li><li>NBA Game Time</li><li>NHL GameCenter</li><li>Redbox Instant</li><li>Vudu</li><li>YuppTV</li></ul><h2>DualShock 4 Controller</h2><figure data-align=\"right\" data-size=\"small\" data-img-src=\"http://static.giantbomb.com/uploads/original/11/119300/2439659-ps4controller.jpg\" data-ref-id=\"1300-2439659\" style=\"width: 320px\" data-ratio=\"0.51027397260274\" data-width=\"320\" data-resize-url=\"\" data-resized=\"\" data-embed-type=\"image\"><a class=\"fluid-height\" style=\"padding-bottom:51.0%\" href=\"http://static.giantbomb.com/uploads/original/11/119300/2439659-ps4controller.jpg\" data-ref-id=\"1300-2439659\"><img class=\"js-lazy-load-image\" data-src=\"http://static.giantbomb.com/uploads/scale_small/11/119300/2439659-ps4controller.jpg\" src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\"><noscript><img src=\"http://static.giantbomb.com/uploads/scale_small/11/119300/2439659-ps4controller.jpg\"></noscript></a><figcaption>Mark Cerny reveals the DualShock 4 during the PlayStation Meeting 2013.</figcaption></figure><p style=\"\">The PlayStation 4 uses the <a href=\"/dualshock-4/3000-42/\" data-ref-id=\"3000-42\">DualShock 4</a> controller. It is similar to previous DualShock controllers at first glance, but it contains a few significant additions &amp; alterations:</p><ul><li><strong>Touch Pad</strong> - The center of the controller now features a touch pad in the center, capable of dual-touch input.</li><li><strong>Speaker &amp; Headphone Jack</strong> - Below the touch pad is an external speaker for game sounds, and on the bottom of the controller is a headphone jack for headset communication.</li><li><strong>Light Bar</strong> - At the top of the controller is a color-changing light bar that is used in conjunction with the <a href=\"http://www.giantbomb.com/playstation-4-eye/3000-43/\" data-ref-id=\"3000-43\">PlayStation 4 Eye</a> to detect the movement &amp; position of the player, very similar in function to the <a href=\"/playstation-move/3000-36/\" data-ref-id=\"3000-36\">PlayStation Move</a> controller.</li><li><strong>New Buttons</strong> - The hallmark \"Start\" &amp; \"Select\" buttons that existed on every other PlayStation controller have been completely removed, with two new buttons flanking either side of the touch pad: <ul><li><strong>Share button</strong> - To the left of the touch pad is the Share button, which allows players to upload gameplay screenshots &amp; video with people on their friends list or on social media services.</li><li><strong>Options button</strong> - To the right of the touch pad is the Options button, which serves the function of the old Start button, for things like pausing the game and bringing up the in-game menus.</li></ul></li><li><strong>Analog Sticks &amp; Triggers Re-designed - </strong>The analog sticks are now concave, and the L2 &amp; R2 buttons are more trigger-shaped, more similar to both the Dreamcast and Xbox 360 controllers.</li></ul><p style=\"\">The DualShock 4 is available in Jet Black during the launch of PlayStation 4, and in Wave Blue and Magma Red on November 29th for Europe and before the end of 2013 for North America</p><h2>Gaikai Integration</h2><p style=\"\">Sony is leveraging its $380 million acquisition of the cloud service <a href=\"/gaikai/3010-7501/\" data-ref-id=\"3010-7501\">Gaikai </a>in the PlayStation 4. Gaikai CEO Dave Perry announced that the service will be fully integrated with the new system to provide background downloading of games, streaming of game content, and potentially providing backwards compatibility with the PS1, PS2 and PS3 libraries in the future. A major feature will be the ability to play instant demos on the new system, without the need to download files locally. Upon further clarification with <a href=\"/shuhei-yoshida/3040-63461/\" data-ref-id=\"3040-63461\">Shuhei Yoshida</a>, president of Worldwide Studios of Sony Computer Entertainment, not all games on the system will contain this feature, but Sony is \"highly recommending\" implementation. In addition, the Share functionality of the PS4 is tied to Gaikai, allowing for players on the system to share their gameplay to social networks such as Facebook and Ustream.</p><p style=\"\">Sony announced during their 2013 E3 press conference that the service would not be available at launch, but would be available sometime in 2014. The open beta for Playstation Now, the game streaming service powered by technology from Gaikai, began on July 31st 2014 in North America. It's only on the PS4 for now, but the company said it plans to later expand the service to other Sony gaming platforms.</p><p style=\"\"> </p><h2>Hardware Specifications</h2><ul><li><a href=\"http://www.scei.co.jp/corporate/release/pdf/130221a_e.pdf\" rel=\"nofollow\" data-ref-id=\"false\">PDF released by SCEI on February 21, 2013 after announcing the console</a></li></ul><ul><li><a href=\"http://www.scei.co.jp/corporate/release/pdf/130611a_e.pdf\" rel=\"nofollow\" data-ref-id=\"false\">PDF released by SCEI on June 10, 2013 following Sony's E3 press conference, with additional system specs</a></li></ul><p style=\"\"> </p><table data-max-width=\"true\"><tbody><tr><td>Main Processor</td><td><p style=\"\">Single-chip custom processor</p><p style=\"\">CPU: x86-64 AMD “Jaguar,” 8 cores</p><p style=\"\">GPU: 1.84 TFLOPS, AMD next-generation Radeon™-based graphics engine</p></td></tr><tr><td>Memory</td><td>GDDR5 8GB (Unified)</td></tr><tr><td>Hard Disk Drive</td><td><p style=\"\">500 GB (Built-in, user-replaceable)</p></td></tr><tr><td>External Dimensions</td><td><p style=\"\">275×53×305 mm (width × height × length) (tentative)</p></td></tr><tr><td><p style=\"\">Optical Drive</p><p style=\"\">(read only)</p></td><td><p style=\"\">Blu-ray 6xCAV</p><p style=\"\">DVD 8xCAV</p></td></tr><tr><td>I/O</td><td>Super-Speed USB (USB 3.0) port x2, AUX port x1</td></tr><tr><td><p style=\"\">Communication</p></td><td><p style=\"\">Ethernet (10BASE-T, 100BASE-TX, 1000BASE-T)</p><p style=\"\">IEEE 802.11 b/g/n</p><p style=\"\">Bluetooth® 2.1 (EDR)</p></td></tr><tr><td>AV output</td><td><p style=\"\">HDMI OUT port</p><p style=\"\">DIGITAL OUT (OPTICAL) port</p></td></tr><tr><td>Included</td><td><p style=\"\">PlayStation 4 system x1</p><p style=\"\">Wireless DUALSHOCK 4 controller x1</p><p style=\"\">Mono headset x1</p><p style=\"\">AC power cord x1</p><p style=\"\">HDMI cable x1</p><p style=\"\">USB cable x1</p></td></tr></tbody></table>",
-        "id": 146,
-        "image": {
-            "icon_url": "http://static.giantbomb.com/uploads/square_avatar/5/56742/2495936-9012444134_80ba47fd6e_o.jpg",
-            "medium_url": "http://static.giantbomb.com/uploads/scale_medium/5/56742/2495936-9012444134_80ba47fd6e_o.jpg",
-            "screen_url": "http://static.giantbomb.com/uploads/screen_medium/5/56742/2495936-9012444134_80ba47fd6e_o.jpg",
-            "small_url": "http://static.giantbomb.com/uploads/scale_small/5/56742/2495936-9012444134_80ba47fd6e_o.jpg",
-            "super_url": "http://static.giantbomb.com/uploads/scale_large/5/56742/2495936-9012444134_80ba47fd6e_o.jpg",
-            "thumb_url": "http://static.giantbomb.com/uploads/scale_avatar/5/56742/2495936-9012444134_80ba47fd6e_o.jpg",
-            "tiny_url": "http://static.giantbomb.com/uploads/square_mini/5/56742/2495936-9012444134_80ba47fd6e_o.jpg"
-        },
-        "install_base": "22300000",
-        "name": "PlayStation 4",
-        "online_support": true,
-        "original_price": "399.00",
-        "release_date": "2013-11-15 00:00:00",
-        "site_detail_url": "http://www.giantbomb.com/playstation-4/3045-146/"
-    }
+  "1": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-1/",
+    "id": 1,
+    "name": "Amiga",
+    "site_detail_url": "http://www.giantbomb.com/amiga/3045-1/",
+    "abbreviation": "AMI"
+  },
+  "3": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-3/",
+    "id": 3,
+    "name": "Game Boy",
+    "site_detail_url": "http://www.giantbomb.com/game-boy/3045-3/",
+    "abbreviation": "GB"
+  },
+  "4": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-4/",
+    "id": 4,
+    "name": "Game Boy Advance",
+    "site_detail_url": "http://www.giantbomb.com/game-boy-advance/3045-4/",
+    "abbreviation": "GBA"
+  },
+  "5": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-5/",
+    "id": 5,
+    "name": "Game Gear",
+    "site_detail_url": "http://www.giantbomb.com/game-gear/3045-5/",
+    "abbreviation": "GG"
+  },
+  "6": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-6/",
+    "id": 6,
+    "name": "Genesis",
+    "site_detail_url": "http://www.giantbomb.com/genesis/3045-6/",
+    "abbreviation": "GEN"
+  },
+  "7": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-7/",
+    "id": 7,
+    "name": "Atari Lynx",
+    "site_detail_url": "http://www.giantbomb.com/atari-lynx/3045-7/",
+    "abbreviation": "LYNX"
+  },
+  "8": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-8/",
+    "id": 8,
+    "name": "Sega Master System",
+    "site_detail_url": "http://www.giantbomb.com/sega-master-system/3045-8/",
+    "abbreviation": "SMS"
+  },
+  "9": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-9/",
+    "id": 9,
+    "name": "Super Nintendo Entertainment System",
+    "site_detail_url": "http://www.giantbomb.com/super-nintendo-entertainment-system/3045-9/",
+    "abbreviation": "SNES"
+  },
+  "11": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-11/",
+    "id": 11,
+    "name": "Amstrad CPC",
+    "site_detail_url": "http://www.giantbomb.com/amstrad-cpc/3045-11/",
+    "abbreviation": "CPC"
+  },
+  "12": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-12/",
+    "id": 12,
+    "name": "Apple II",
+    "site_detail_url": "http://www.giantbomb.com/apple-ii/3045-12/",
+    "abbreviation": "APL2"
+  },
+  "13": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-13/",
+    "id": 13,
+    "name": "Atari ST",
+    "site_detail_url": "http://www.giantbomb.com/atari-st/3045-13/",
+    "abbreviation": "AST"
+  },
+  "14": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-14/",
+    "id": 14,
+    "name": "Commodore 64",
+    "site_detail_url": "http://www.giantbomb.com/commodore-64/3045-14/",
+    "abbreviation": "C64"
+  },
+  "15": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-15/",
+    "id": 15,
+    "name": "MSX",
+    "site_detail_url": "http://www.giantbomb.com/msx/3045-15/",
+    "abbreviation": "MSX"
+  },
+  "16": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-16/",
+    "id": 16,
+    "name": "ZX Spectrum",
+    "site_detail_url": "http://www.giantbomb.com/zx-spectrum/3045-16/",
+    "abbreviation": "SPEC"
+  },
+  "17": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-17/",
+    "id": 17,
+    "name": "Mac",
+    "site_detail_url": "http://www.giantbomb.com/mac/3045-17/",
+    "abbreviation": "MAC"
+  },
+  "18": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-18/",
+    "id": 18,
+    "name": "PlayStation Portable",
+    "site_detail_url": "http://www.giantbomb.com/playstation-portable/3045-18/",
+    "abbreviation": "PSP"
+  },
+  "19": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-19/",
+    "id": 19,
+    "name": "PlayStation 2",
+    "site_detail_url": "http://www.giantbomb.com/playstation-2/3045-19/",
+    "abbreviation": "PS2"
+  },
+  "20": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-20/",
+    "id": 20,
+    "name": "Xbox 360",
+    "site_detail_url": "http://www.giantbomb.com/xbox-360/3045-20/",
+    "abbreviation": "X360"
+  },
+  "21": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-21/",
+    "id": 21,
+    "name": "Nintendo Entertainment System",
+    "site_detail_url": "http://www.giantbomb.com/nintendo-entertainment-system/3045-21/",
+    "abbreviation": "NES"
+  },
+  "22": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-22/",
+    "id": 22,
+    "name": "PlayStation",
+    "site_detail_url": "http://www.giantbomb.com/playstation/3045-22/",
+    "abbreviation": "PS1"
+  },
+  "23": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-23/",
+    "id": 23,
+    "name": "GameCube",
+    "site_detail_url": "http://www.giantbomb.com/gamecube/3045-23/",
+    "abbreviation": "GCN"
+  },
+  "24": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-24/",
+    "id": 24,
+    "name": "Atari 8-bit",
+    "site_detail_url": "http://www.giantbomb.com/atari-8-bit/3045-24/",
+    "abbreviation": "A800"
+  },
+  "25": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-25/",
+    "id": 25,
+    "name": "Neo Geo",
+    "site_detail_url": "http://www.giantbomb.com/neo-geo/3045-25/",
+    "abbreviation": "NEO"
+  },
+  "26": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-26/",
+    "id": 26,
+    "name": "3DO",
+    "site_detail_url": "http://www.giantbomb.com/3do/3045-26/",
+    "abbreviation": "3DO"
+  },
+  "27": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-27/",
+    "id": 27,
+    "name": "CD-i",
+    "site_detail_url": "http://www.giantbomb.com/cd-i/3045-27/",
+    "abbreviation": "CDI"
+  },
+  "28": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-28/",
+    "id": 28,
+    "name": "Jaguar",
+    "site_detail_url": "http://www.giantbomb.com/jaguar/3045-28/",
+    "abbreviation": "JAG"
+  },
+  "29": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-29/",
+    "id": 29,
+    "name": "Sega CD",
+    "site_detail_url": "http://www.giantbomb.com/sega-cd/3045-29/",
+    "abbreviation": "SCD"
+  },
+  "30": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-30/",
+    "id": 30,
+    "name": "VIC-20",
+    "site_detail_url": "http://www.giantbomb.com/vic-20/3045-30/",
+    "abbreviation": "VC20"
+  },
+  "32": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-32/",
+    "id": 32,
+    "name": "Xbox",
+    "site_detail_url": "http://www.giantbomb.com/xbox/3045-32/",
+    "abbreviation": "XBOX"
+  },
+  "34": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-34/",
+    "id": 34,
+    "name": "N-Gage",
+    "site_detail_url": "http://www.giantbomb.com/n-gage/3045-34/",
+    "abbreviation": "NGE"
+  },
+  "35": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-35/",
+    "id": 35,
+    "name": "PlayStation 3",
+    "site_detail_url": "http://www.giantbomb.com/playstation-3/3045-35/",
+    "abbreviation": "PS3"
+  },
+  "36": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-36/",
+    "id": 36,
+    "name": "Wii",
+    "site_detail_url": "http://www.giantbomb.com/wii/3045-36/",
+    "abbreviation": "Wii"
+  },
+  "37": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-37/",
+    "id": 37,
+    "name": "Dreamcast",
+    "site_detail_url": "http://www.giantbomb.com/dreamcast/3045-37/",
+    "abbreviation": "DC"
+  },
+  "38": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-38/",
+    "id": 38,
+    "name": "Apple IIgs",
+    "site_detail_url": "http://www.giantbomb.com/apple-iigs/3045-38/",
+    "abbreviation": "A2GS"
+  },
+  "39": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-39/",
+    "id": 39,
+    "name": "Amiga CD32",
+    "site_detail_url": "http://www.giantbomb.com/amiga-cd32/3045-39/",
+    "abbreviation": "CD32"
+  },
+  "40": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-40/",
+    "id": 40,
+    "name": "Atari 2600",
+    "site_detail_url": "http://www.giantbomb.com/atari-2600/3045-40/",
+    "abbreviation": "2600"
+  },
+  "42": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-42/",
+    "id": 42,
+    "name": "Saturn",
+    "site_detail_url": "http://www.giantbomb.com/saturn/3045-42/",
+    "abbreviation": "SAT"
+  },
+  "43": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-43/",
+    "id": 43,
+    "name": "Nintendo 64",
+    "site_detail_url": "http://www.giantbomb.com/nintendo-64/3045-43/",
+    "abbreviation": "N64"
+  },
+  "47": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-47/",
+    "id": 47,
+    "name": "ColecoVision",
+    "site_detail_url": "http://www.giantbomb.com/colecovision/3045-47/",
+    "abbreviation": "CVIS"
+  },
+  "48": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-48/",
+    "id": 48,
+    "name": "TI-99/4A",
+    "site_detail_url": "http://www.giantbomb.com/ti-994a/3045-48/",
+    "abbreviation": "TI99"
+  },
+  "51": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-51/",
+    "id": 51,
+    "name": "Intellivision",
+    "site_detail_url": "http://www.giantbomb.com/intellivision/3045-51/",
+    "abbreviation": "INTV"
+  },
+  "52": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-52/",
+    "id": 52,
+    "name": "Nintendo DS",
+    "site_detail_url": "http://www.giantbomb.com/nintendo-ds/3045-52/",
+    "abbreviation": "DS"
+  },
+  "53": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-53/",
+    "id": 53,
+    "name": "TurboGrafx-CD",
+    "site_detail_url": "http://www.giantbomb.com/turbografx-cd/3045-53/",
+    "abbreviation": "TGCD"
+  },
+  "54": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-54/",
+    "id": 54,
+    "name": "WonderSwan Color",
+    "site_detail_url": "http://www.giantbomb.com/wonderswan-color/3045-54/",
+    "abbreviation": "WSC"
+  },
+  "55": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-55/",
+    "id": 55,
+    "name": "TurboGrafx-16",
+    "site_detail_url": "http://www.giantbomb.com/turbografx-16/3045-55/",
+    "abbreviation": "TG16"
+  },
+  "57": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-57/",
+    "id": 57,
+    "name": "Game Boy Color",
+    "site_detail_url": "http://www.giantbomb.com/game-boy-color/3045-57/",
+    "abbreviation": "GBC"
+  },
+  "58": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-58/",
+    "id": 58,
+    "name": "Commodore 128",
+    "site_detail_url": "http://www.giantbomb.com/commodore-128/3045-58/",
+    "abbreviation": "C128"
+  },
+  "59": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-59/",
+    "id": 59,
+    "name": "Neo Geo CD",
+    "site_detail_url": "http://www.giantbomb.com/neo-geo-cd/3045-59/",
+    "abbreviation": "NGCD"
+  },
+  "60": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-60/",
+    "id": 60,
+    "name": "Odyssey 2",
+    "site_detail_url": "http://www.giantbomb.com/odyssey-2/3045-60/",
+    "abbreviation": "ODY2"
+  },
+  "61": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-61/",
+    "id": 61,
+    "name": "Dragon 32/64",
+    "site_detail_url": "http://www.giantbomb.com/dragon-3264/3045-61/",
+    "abbreviation": "DRAG"
+  },
+  "63": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-63/",
+    "id": 63,
+    "name": "TRS-80",
+    "site_detail_url": "http://www.giantbomb.com/trs-80/3045-63/",
+    "abbreviation": "TRS8"
+  },
+  "65": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-65/",
+    "id": 65,
+    "name": "WonderSwan",
+    "site_detail_url": "http://www.giantbomb.com/wonderswan/3045-65/",
+    "abbreviation": "WSW"
+  },
+  "67": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-67/",
+    "id": 67,
+    "name": "Atari 5200",
+    "site_detail_url": "http://www.giantbomb.com/atari-5200/3045-67/",
+    "abbreviation": "5200"
+  },
+  "68": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-68/",
+    "id": 68,
+    "name": "TRS-80 CoCo",
+    "site_detail_url": "http://www.giantbomb.com/trs-80-coco/3045-68/",
+    "abbreviation": "COCO"
+  },
+  "70": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-70/",
+    "id": 70,
+    "name": "Atari 7800",
+    "site_detail_url": "http://www.giantbomb.com/atari-7800/3045-70/",
+    "abbreviation": "7800"
+  },
+  "72": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-72/",
+    "id": 72,
+    "name": "iPod",
+    "site_detail_url": "http://www.giantbomb.com/ipod/3045-72/",
+    "abbreviation": "IPOD"
+  },
+  "77": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-77/",
+    "id": 77,
+    "name": "Game.Com",
+    "site_detail_url": "http://www.giantbomb.com/gamecom/3045-77/",
+    "abbreviation": "GCOM"
+  },
+  "84": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-84/",
+    "id": 84,
+    "name": "Arcade",
+    "site_detail_url": "http://www.giantbomb.com/arcade/3045-84/",
+    "abbreviation": "ARC"
+  },
+  "85": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-85/",
+    "id": 85,
+    "name": "NUON",
+    "site_detail_url": "http://www.giantbomb.com/nuon/3045-85/",
+    "abbreviation": "NUON"
+  },
+  "86": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-86/",
+    "id": 86,
+    "name": "Xbox 360 Games Store",
+    "site_detail_url": "http://www.giantbomb.com/xbox-360-games-store/3045-86/",
+    "abbreviation": "XBGS"
+  },
+  "87": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-87/",
+    "id": 87,
+    "name": "Wii Shop",
+    "site_detail_url": "http://www.giantbomb.com/wii-shop/3045-87/",
+    "abbreviation": "WSHP"
+  },
+  "88": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-88/",
+    "id": 88,
+    "name": "PlayStation Network (PS3)",
+    "site_detail_url": "http://www.giantbomb.com/playstation-network-ps3/3045-88/",
+    "abbreviation": "PS3N"
+  },
+  "91": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-91/",
+    "id": 91,
+    "name": "Famicom Disk System",
+    "site_detail_url": "http://www.giantbomb.com/famicom-disk-system/3045-91/",
+    "abbreviation": "FDS"
+  },
+  "94": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-94/",
+    "id": 94,
+    "name": "PC",
+    "site_detail_url": "http://www.giantbomb.com/pc/3045-94/",
+    "abbreviation": "PC"
+  },
+  "96": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-96/",
+    "id": 96,
+    "name": "iPhone",
+    "site_detail_url": "http://www.giantbomb.com/iphone/3045-96/",
+    "abbreviation": "IPHN"
+  },
+  "98": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-98/",
+    "id": 98,
+    "name": "Satellaview",
+    "site_detail_url": "http://www.giantbomb.com/satellaview/3045-98/",
+    "abbreviation": "BS-X"
+  },
+  "101": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-101/",
+    "id": 101,
+    "name": "Nintendo 64DD",
+    "site_detail_url": "http://www.giantbomb.com/nintendo-64dd/3045-101/",
+    "abbreviation": "64DD"
+  },
+  "102": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-102/",
+    "id": 102,
+    "name": "Pippin",
+    "site_detail_url": "http://www.giantbomb.com/pippin/3045-102/",
+    "abbreviation": "PIPN"
+  },
+  "103": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-103/",
+    "id": 103,
+    "name": "R-Zone",
+    "site_detail_url": "http://www.giantbomb.com/r-zone/3045-103/",
+    "abbreviation": "RZON"
+  },
+  "106": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-106/",
+    "id": 106,
+    "name": "DSiWare",
+    "site_detail_url": "http://www.giantbomb.com/dsiware/3045-106/",
+    "abbreviation": "DSI"
+  },
+  "108": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-108/",
+    "id": 108,
+    "name": "FM Towns",
+    "site_detail_url": "http://www.giantbomb.com/fm-towns/3045-108/",
+    "abbreviation": "FMT"
+  },
+  "109": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-109/",
+    "id": 109,
+    "name": "NEC PC-8801",
+    "site_detail_url": "http://www.giantbomb.com/nec-pc-8801/3045-109/",
+    "abbreviation": "PC88"
+  },
+  "110": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-110/",
+    "id": 110,
+    "name": "BBC Micro",
+    "site_detail_url": "http://www.giantbomb.com/bbc-micro/3045-110/",
+    "abbreviation": "BBCM"
+  },
+  "112": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-112/",
+    "id": 112,
+    "name": "NEC PC-9801",
+    "site_detail_url": "http://www.giantbomb.com/nec-pc-9801/3045-112/",
+    "abbreviation": "PC98"
+  },
+  "113": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-113/",
+    "id": 113,
+    "name": "Sharp X1",
+    "site_detail_url": "http://www.giantbomb.com/sharp-x1/3045-113/",
+    "abbreviation": "X1"
+  },
+  "114": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-114/",
+    "id": 114,
+    "name": "FM-7",
+    "site_detail_url": "http://www.giantbomb.com/fm-7/3045-114/",
+    "abbreviation": "FM7"
+  },
+  "116": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-116/",
+    "id": 116,
+    "name": "PlayStation Network (PSP)",
+    "site_detail_url": "http://www.giantbomb.com/playstation-network-psp/3045-116/",
+    "abbreviation": "PSPN"
+  },
+  "117": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-117/",
+    "id": 117,
+    "name": "Nintendo 3DS",
+    "site_detail_url": "http://www.giantbomb.com/nintendo-3ds/3045-117/",
+    "abbreviation": "3DS"
+  },
+  "121": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-121/",
+    "id": 121,
+    "name": "iPad",
+    "site_detail_url": "http://www.giantbomb.com/ipad/3045-121/",
+    "abbreviation": "IPAD"
+  },
+  "122": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-122/",
+    "id": 122,
+    "name": "Zeebo",
+    "site_detail_url": "http://www.giantbomb.com/zeebo/3045-122/",
+    "abbreviation": "ZBO"
+  },
+  "123": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-123/",
+    "id": 123,
+    "name": "Android",
+    "site_detail_url": "http://www.giantbomb.com/android/3045-123/",
+    "abbreviation": "ANDR"
+  },
+  "124": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-124/",
+    "id": 124,
+    "name": "Windows Phone",
+    "site_detail_url": "http://www.giantbomb.com/windows-phone/3045-124/",
+    "abbreviation": "WP"
+  },
+  "125": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-125/",
+    "id": 125,
+    "name": "Acorn Archimedes",
+    "site_detail_url": "http://www.giantbomb.com/acorn-archimedes/3045-125/",
+    "abbreviation": "ACRN"
+  },
+  "128": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-128/",
+    "id": 128,
+    "name": "Sharp MZ",
+    "site_detail_url": "http://www.giantbomb.com/sharp-mz/3045-128/",
+    "abbreviation": "MZ"
+  },
+  "129": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-129/",
+    "id": 129,
+    "name": "PlayStation Vita",
+    "site_detail_url": "http://www.giantbomb.com/playstation-vita/3045-129/",
+    "abbreviation": "VITA"
+  },
+  "138": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-138/",
+    "id": 138,
+    "name": "Nintendo 3DS eShop",
+    "site_detail_url": "http://www.giantbomb.com/nintendo-3ds-eshop/3045-138/",
+    "abbreviation": "3DSE"
+  },
+  "139": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-139/",
+    "id": 139,
+    "name": "Wii U",
+    "site_detail_url": "http://www.giantbomb.com/wii-u/3045-139/",
+    "abbreviation": "WIIU"
+  },
+  "140": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-140/",
+    "id": 140,
+    "name": "Browser",
+    "site_detail_url": "http://www.giantbomb.com/browser/3045-140/",
+    "abbreviation": "BROW"
+  },
+  "141": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-141/",
+    "id": 141,
+    "name": "Sega SG-1000",
+    "site_detail_url": "http://www.giantbomb.com/sega-sg-1000/3045-141/",
+    "abbreviation": "SG1K"
+  },
+  "143": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-143/",
+    "id": 143,
+    "name": "PlayStation Network (Vita)",
+    "site_detail_url": "http://www.giantbomb.com/playstation-network-vita/3045-143/",
+    "abbreviation": "PSNV"
+  },
+  "145": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-145/",
+    "id": 145,
+    "name": "Xbox One",
+    "site_detail_url": "http://www.giantbomb.com/xbox-one/3045-145/",
+    "abbreviation": "XONE"
+  },
+  "146": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-146/",
+    "id": 146,
+    "name": "PlayStation 4",
+    "site_detail_url": "http://www.giantbomb.com/playstation-4/3045-146/",
+    "abbreviation": "PS4"
+  },
+  "150": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-150/",
+    "id": 150,
+    "name": "Commodore 16",
+    "site_detail_url": "http://www.giantbomb.com/commodore-16/3045-150/",
+    "abbreviation": "C16"
+  },
+  "152": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-152/",
+    "id": 152,
+    "name": "Linux",
+    "site_detail_url": "http://www.giantbomb.com/linux/3045-152/",
+    "abbreviation": "LIN"
+  },
+  "154": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-154/",
+    "id": 154,
+    "name": "Ouya",
+    "site_detail_url": "http://www.giantbomb.com/ouya/3045-154/",
+    "abbreviation": "OUYA"
+  },
+  "155": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-155/",
+    "id": 155,
+    "name": "Amazon Fire TV",
+    "site_detail_url": "http://www.giantbomb.com/amazon-fire-tv/3045-155/",
+    "abbreviation": "FIRE"
+  },
+  "157": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-157/",
+    "id": 157,
+    "name": "Nintendo NX (working title)",
+    "site_detail_url": "http://www.giantbomb.com/nintendo-nx-working-title/3045-157/",
+    "abbreviation": "NNX"
+  },
+  "159": {
+    "api_detail_url": "http://www.giantbomb.com/api/platform/3045-159/",
+    "id": 159,
+    "name": "Apple TV",
+    "site_detail_url": "http://www.giantbomb.com/apple-tv/3045-159/",
+    "abbreviation": "APTV"
+  }
 }

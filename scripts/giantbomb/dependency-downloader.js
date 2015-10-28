@@ -1,12 +1,47 @@
 var request = require('request');
 var async = require('async');
 var fs = require('fs');
-var tokens = require('./tokens.json');
 var _ = require('underscore');
+
+var MAX = 2;
 
 var games = {};
 var platforms = {};
 var companies = {};
+
+function multiRequest(path, cb) {
+  var done;
+  async.forEachOfSeries(JSON.parse(fs.readFileSync('./tokens.json')), function (token, key, callback) {
+    if (done) return callback();
+    var fullPath = path + '?api_key=' + token + '&format=json';
+    request(fullPath, function (err, res, body) {
+      var entity;
+      try {
+        entity = JSON.parse(body).results;
+      } catch (e) {
+        console.error(body);
+        return callback();
+      }
+
+      if (!entity.id) {
+        return callback();
+      }
+
+      console.info('Downloaded', entity.name, fullPath);
+      cb(entity);
+      done = true;
+      callback();
+    });
+  }, function () {
+    if (!done) {
+      forceWrite();
+      console.error("Waiting for 15 mins...");
+      setTimeout(function () {
+        multiRequest(path, cb);
+      }, 16 * 60 * 1000).ref();
+    }
+  });
+}
 
 var companyQueue = async.queue(function (company, callback) {
   downloadCompany(JSON.parse(JSON.stringify(company)), callback);
@@ -25,98 +60,88 @@ function finish(msg) {
   downloadPlatforms(forceWrite);
 }
 
+var dlPlatformsOnlyOnce = false;
 function downloadPlatforms(callback) {
-  var _platforms = {};
+  if (dlPlatformsOnlyOnce) return;
+  dlPlatformsOnlyOnce = true;
+
+  var dlPlatforms = {};
   async.forEachOfSeries(platforms, function (platform, key, callback) {
-
-    console.log('Downloading', platform.name);
-
-    request(platform.api_detail_url + '?api_key=' + tokens.token1 + '&format=json',
-      function (error, res, body) {
-        var platform = JSON.parse(body).results;
-        if (!platform.name) return finish("premature");
-
-        _.extend(_platforms, _.indexBy([platform], 'id'));
-        callback();
-      })
+    multiRequest(platform.api_detail_url, function (dlPlatform) {
+      dlPlatforms[dlPlatform.id] = dlPlatform;
+      callback();
+    });
   }, function () {
-    platforms = _platforms;
+    platforms = dlPlatforms;
     callback();
   })
 }
 
-function downloadCompany(_company, callback) {
-  if (companies[_company.id]) return callback();
-  companies[_company.id] = true;
+function downloadCompany(comp, callback) {
+  if (companies[comp.id]) return callback();
+  companies[comp.id] = true;
 
-  console.log('Downloading', _company.name);
+  multiRequest('http://www.giantbomb.com/api/company/' + comp.id, function (dlcomp) {
 
-  request('http://www.giantbomb.com/api/company/' + _company.id + '?api_key=' + tokens.token1 + '&format=json',
-    function (error, res, body) {
+    var published_games = dlcomp.published_games.slice(0).splice(0, MAX);
+    var developed_games = dlcomp.developed_games.slice(0).splice(0, MAX);
 
-      var company = JSON.parse(body).results;
-      if (!company.name) return finish("premature");
+    dlcomp.published_games = published_games;
+    dlcomp.developed_games = developed_games;
+    dlcomp.concepts = _.compact(_.pluck(dlcomp.concepts, 'name').splice(0, 5));
 
-      var published_games = company.published_games.slice(0).splice(0, 1);
-      var developed_games = company.developed_games.slice(0).splice(0, 1);
+    delete dlcomp.characters;
+    delete dlcomp.locations;
+    delete dlcomp.objects;
+    delete dlcomp.people;
 
-      company.published_games = published_games;
-      company.developed_games = developed_games;
-      company.concepts = _.compact(_.pluck(company.concepts, 'name').splice(0, 5));
+    companies[dlcomp.id] = JSON.parse(JSON.stringify(dlcomp));
 
-      delete company.characters;
-      delete company.locations;
-      delete company.objects;
-      delete company.people;
+    getRelatedGamesAndPlatforms(published_games);
+    getRelatedGamesAndPlatforms(developed_games);
 
-      companies[company.id] = JSON.parse(JSON.stringify(company));
+    setTimeout(callback, 500);
 
-      function getRelatedGamesAndPlatforms(_games, callback) {
-        async.eachSeries(_games, function (_game, callback) {
+    function getRelatedGamesAndPlatforms(gs) {
+      async.eachSeries(gs, function (game, callback) {
 
-          if (games[_game.id]) return callback();
-          games[_game.id] = true;
+        if (games[game.id]) return callback();
+        games[game.id] = true;
 
-          console.log('Downloading', _game.name);
+        multiRequest(game.api_detail_url, function (dlgame) {
 
-          request(_game.api_detail_url + '?api_key=' + tokens.token1 + '&format=json',
-            function (error, res, body) {
+          if (dlgame.platforms) {
+            for (var i = 0; i < dlgame.platforms.length; i++) {
+              platforms[dlgame.platforms[i].id] = dlgame.platforms[i];
+            }
+          }
 
-              var game = JSON.parse(body).results;
-              if (!game.name) return finish("premature");
+          if (dlgame.publishers) {
+            for (var i = 0; i < Math.min(MAX, dlgame.publishers.length); i++) {
+              companyQueue.push(dlgame.publishers[i]);
+            }
 
-              if (game.platforms)
-                for (var i = 0; i < game.platforms.length; i++)
-                  platforms[game.platforms[i].id] = game.platforms[i];
+            dlgame.publishers = dlgame.publishers.splice(0, MAX);
+          }
 
-              if (game.publishers) {
-                for (var i = 0; i < Math.min(1, game.publishers.length); i++)
-                  companyQueue.push(game.publishers[i]);
-                game.publishers = game.publishers.splice(0, 1);
-              }
+          if (dlgame.developers) {
+            for (var i = 0; i < Math.min(MAX, dlgame.developers.length); i++) {
+              companyQueue.push(dlgame.developers[i]);
+            }
 
-              if (game.developers) {
-                for (var i = 0; i < Math.min(1, game.developers.length); i++)
-                  companyQueue.push(game.developers[i]);
-                game.developers = game.developers.splice(0, 1);
-              }
+            dlgame.developers = dlgame.developers.splice(0, MAX);
+          }
 
-              games[game.id] = JSON.parse(JSON.stringify(game));
+          games[dlgame.id] = JSON.parse(JSON.stringify(dlgame));
 
-              process.nextTick(callback);
+          process.nextTick(callback);
 
-            });
-        }, function () {
-          console.log('Done with games of', company.name);
         });
-      }
-
-      getRelatedGamesAndPlatforms(published_games);
-      getRelatedGamesAndPlatforms(developed_games);
-
-      setTimeout(callback, 500);
-
-    });
+      }, function () {
+        console.error('Finished', dlcomp.name);
+      });
+    }
+  });
 }
 
 companyQueue.push({id: 1, name: "Electronic Arts"});
@@ -124,6 +149,6 @@ companyQueue.push({id: 1088, name: "Blizzard Entertainment"});
 
 process.on('exit', forceWrite);
 process.on('SIGINT', forceWrite);
-//process.on('uncaughtException', forceWrite);
+process.on('uncaughtException', forceWrite);
 
 companyQueue.drain = finish;
