@@ -9,6 +9,11 @@ var companies = require('./companies.json');
 
 for (var g in games) {
   var game = games[g];
+  if (!game.platforms) {
+    console.log(game.name);
+    game.platforms = [];
+  }
+
   game.platforms.forEach(function (platform) {
     var currPlatform = platforms[platform.id];
     if (!currPlatform.companies) currPlatform.companies = {};
