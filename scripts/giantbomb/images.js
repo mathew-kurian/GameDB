@@ -4,11 +4,12 @@ var fs = require('fs');
 
 async.eachSeries(fs.readdirSync('./connected'), function (file, callback) {
   var data = require('./connected/' + file);
+  if (file.indexOf('companies') > -1) return callback();
   async.eachSeries(data, function (data, callback) {
-    if (data.images.length > 5) {
-      console.info('Skipping', data.name);
-      return callback();
-    }
+    //if (data.images.length > 10) {
+    //  console.info('Skipping', data.name);
+    //  return callback();
+    //}
     goog({
       q: data.name,
       tbs: 'isz:l'
@@ -17,6 +18,7 @@ async.eachSeries(fs.readdirSync('./connected'), function (file, callback) {
       if (data.image && data.image.medium_url) {
         links.unshift(data.image.medium_url);
       }
+      delete data.image;
       data.images = links;
       console.log(data.name);
       setTimeout(callback, 200);
