@@ -4,7 +4,7 @@ var fs = require('fs');
 
 async.eachSeries(fs.readdirSync('./connected'), function (file, callback) {
   var data = require('./connected/' + file);
-  if (file.indexOf('companies') > -1) return callback();
+  if (file.indexOf('platforms') !== 0) return callback();
   async.eachSeries(data, function (data, callback) {
     //if (data.images.length > 10) {
     //  console.info('Skipping', data.name);
