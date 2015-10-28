@@ -51,17 +51,17 @@ module.exports = function (opts, callback) {
     var links = [];
 
     try {
-      links = body.match(/<a href=\"(.*?)\" jsaction=\"fire.ivg_o;mouseover:str.hmov;mouseout:str.hmou\" class=\"rg_l\">/g)
-        .map(function (a) {
-          var imgurl = a.match(/imgres\?imgurl=(.*?)\&amp;imgrefurl=/)[0];
+      links = body.match(/imgres\?imgurl=(.*?)\&amp;imgrefurl=/gm)
+        .map(function (imgurl) {
           imgurl = imgurl.replace('imgres\?imgurl=', '').replace('&amp;imgrefurl=', '');
           return decodeURIComponent(decodeURIComponent(imgurl));
         });
     } catch (e) {
+      console.log(body);
       console.error(q, params);
       return callback(e, []);
     }
-
-    callback(0, links)
+    
+    callback(0, links);
   });
 };

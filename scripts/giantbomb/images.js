@@ -5,6 +5,10 @@ var fs = require('fs');
 async.eachSeries(fs.readdirSync('./connected'), function (file, callback) {
   var data = require('./connected/' + file);
   async.eachSeries(data, function (data, callback) {
+    if (data.images.length > 5) {
+      console.info('Skipping', data.name);
+      return callback();
+    }
     goog({
       q: data.name,
       tbs: 'isz:l'
