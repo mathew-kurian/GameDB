@@ -11,7 +11,7 @@ async.eachSeries(fs.readdirSync('./connected'), function (file, callback) {
       if (typeof image === 'object') image = image.super_url;
       if (typeof image !== 'string') return;
       if (count++ > 10) return;
-      data.push({relation: file.replace('json', ''), id: a.id, image: image});
+      data.push({relation: file.replace('.json', ''), id: a.id, image: image});
     });
   });
 
