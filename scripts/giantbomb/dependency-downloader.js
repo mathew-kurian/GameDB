@@ -103,6 +103,7 @@ function downloadCompany(comp, callback) {
     setTimeout(callback, 500);
 
     function getRelatedGamesAndPlatforms(gs) {
+      gs = _.filter(gs, function(g){ return !games[g.id]; });
       async.eachSeries(gs, function (game, callback) {
 
         if (games[game.id]) return callback();
@@ -118,6 +119,7 @@ function downloadCompany(comp, callback) {
 
           if (dlgame.publishers) {
             for (var i = 0; i < Math.min(MAX, dlgame.publishers.length); i++) {
+              if (companies[dlgame.publishers[i].id]) continue;
               companyQueue.push(dlgame.publishers[i]);
             }
 
@@ -126,6 +128,7 @@ function downloadCompany(comp, callback) {
 
           if (dlgame.developers) {
             for (var i = 0; i < Math.min(MAX, dlgame.developers.length); i++) {
+              if (companies[dlgame.developers[i].id]) continue;
               companyQueue.push(dlgame.developers[i]);
             }
 
