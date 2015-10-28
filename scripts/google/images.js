@@ -37,11 +37,10 @@ module.exports = function (opts, callback) {
     method: 'get',
     headers: {
       'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.71 Safari/537.36',
+      'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36',
       'accept-encoding': 'gzip, deflate, sdch',
       'accept-language': 'en-US,en;q=0.8,de;q=0.6',
       'cache-control': 'max-age=0',
-      'dnt': 1,
       'referer': 'https://www.google.com/search?q=' + encodeQuery(q) + '&tbs=isz:l&tbm=isch'  // MUST change every 50 or so requests
     },
     gzip: true
@@ -61,7 +60,7 @@ module.exports = function (opts, callback) {
       console.error(q, params);
       return callback(e, []);
     }
-    
+
     callback(0, links);
   });
 };
