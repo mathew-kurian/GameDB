@@ -2,8 +2,8 @@ var goog = require('../google/images');
 var async = require('async');
 var fs = require('fs');
 
-async.eachSeries(fs.readdirSync('./db'), function (file, callback) {
-  var data = require('./db/' + file);
+async.eachSeries(fs.readdirSync('./connected'), function (file, callback) {
+  var data = require('./connected/' + file);
   async.eachSeries(data, function (data, callback) {
     goog({
       q: data.name,
@@ -14,10 +14,11 @@ async.eachSeries(fs.readdirSync('./db'), function (file, callback) {
         links.unshift(data.image.medium_url);
       }
       data.images = links;
-      setTimeout(callback, 1000);
+      console.log(data.name);
+      setTimeout(callback, 200);
     });
   }, function () {
-    fs.writeFileSync('./db/' + file, JSON.stringify(data, null, 4), {encoding: 'utf8'});
+    fs.writeFileSync('./connected/' + file, JSON.stringify(data, null, 4), {encoding: 'utf8'});
     console.log(file);
     callback();
   });

@@ -55,6 +55,6 @@ platforms = _.toArray(platforms);
 companies = _.toArray(companies);
 games = _.toArray(games);
 
-fs.writeFileSync('./db/companies.connected.json', JSON.stringify(companies, null, 2), {encoding: 'utf8'});
-fs.writeFileSync('./db/platforms.connected.json', JSON.stringify(platforms, null, 2), {encoding: 'utf8'});
-fs.writeFileSync('./db/games.connected.json', JSON.stringify(games, null, 2), {encoding: 'utf8'});
+fs.writeFileSync('./connected/companies.json', JSON.stringify(companies, null, 2), {encoding: 'utf8'});
+fs.writeFileSync('./connected/platforms.json', JSON.stringify(platforms, null, 2), {encoding: 'utf8'});
+fs.writeFileSync('./connected/games.json', JSON.stringify(games, null, 2), {encoding: 'utf8'});

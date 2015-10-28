@@ -50,9 +50,9 @@ var companyQueue = async.queue(function (company, callback) {
 function forceWrite() {
   console.log(arguments);
   console.log('Writing files');
-  fs.writeFileSync('./companies.json', JSON.stringify(companies, null, 2), {encoding: 'utf8'});
-  fs.writeFileSync('./platforms.json', JSON.stringify(platforms, null, 2), {encoding: 'utf8'});
-  fs.writeFileSync('./games.json', JSON.stringify(games, null, 2), {encoding: 'utf8'});
+  fs.writeFileSync('./raw/companies.json', JSON.stringify(companies, null, 2), {encoding: 'utf8'});
+  fs.writeFileSync('./raw/platforms.json', JSON.stringify(platforms, null, 2), {encoding: 'utf8'});
+  fs.writeFileSync('./raw/games.json', JSON.stringify(games, null, 2), {encoding: 'utf8'});
 }
 
 function finish(msg) {
