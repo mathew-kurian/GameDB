@@ -1,4 +1,6 @@
-from sqlalchemy.orm import relationship
+import decimal
+import json, datetime
+from sqlalchemy.orm import relationship, column_property
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import *
 
@@ -11,8 +13,38 @@ from sqlalchemy import *
 Base = declarative_base()
 
 
-class GamePlatform(Base):
+class Serializer(object):
+    __public__ = None
+
+    def to_serializable_dict(self):
+        dict = {}
+        for public_key in self.__public__:
+            value = getattr(self, public_key)
+            if value:
+                dict[public_key] = value
+        return dict
+
+
+class SWEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, Serializer):
+            return obj.to_serializable_dict()
+        if isinstance(obj, datetime.date):
+            return obj.isoformat()
+        if isinstance(obj, decimal.Decimal):
+            return float(obj)
+        return json.JSONEncoder.default(self, obj)
+
+
+def to_json(arg, **kwargs):
+    kwargs['cls'] = SWEncoder
+    return json.dumps(arg, **kwargs)
+
+
+class GamePlatform(Base, Serializer):
     __tablename__ = 'game_platforms'
+    __public__ = ['game_id', 'platform_id', 'platform_name', 'game_name']
+
     id = Column(Integer, primary_key=True)
     game_id = Column(Integer, ForeignKey('games.id'))
     platform_id = Column(Integer, ForeignKey('platforms.id'))
@@ -29,8 +61,10 @@ class GamePlatform(Base):
         self.platform_id = args.get('platform_id')
 
 
-class GameCompany(Base):
+class GameCompany(Base, Serializer):
     __tablename__ = 'games_companies'
+    __public__ = ['game_id', 'company_id', 'game_name', 'company_name']
+
     id = Column(Integer, primary_key=True)
     game_id = Column(Integer, ForeignKey('games.id'))
     company_id = Column(Integer, ForeignKey('companies.id'))
@@ -49,8 +83,10 @@ class GameCompany(Base):
         self.role = args.get('role')
 
 
-class Url(Base):
+class Url(Base, Serializer):
     __tablename__ = 'urls'
+    __public__ = ['source']
+
     id = Column(Integer, primary_key=True)
     entity_id = Column(Integer)
     source = Column(Text)
@@ -74,11 +110,14 @@ class Url(Base):
 # ------------
 # Game
 # ------------
-class Game(Base):
+class Game(Base, Serializer):
     """
     Data model for games, there are 2 dependencies on companies and 1 on platform
     """
     __tablename__ = 'games'
+    __public__ = ['id', 'name', 'rating', 'release_date', 'deck', 'genres', 'franchises', 'description', 'videos',
+                  'images', 'platforms', 'developers', 'publishers']
+
     id = Column(Integer, primary_key=True)
     name = Column(String(100))
     rating = Column(String(100))
@@ -120,11 +159,14 @@ class Game(Base):
 # ------------
 # Company
 # ------------
-class Company(Base):
+class Company(Base, Serializer):
     """
     Company data model, has 2 dependencies on a Game, one on platform
     """
     __tablename__ = 'companies'
+    __public__ = ['id', 'name', 'founded_date', 'address', 'city', 'country', 'state', 'deck', 'concepts',
+                  'phone', 'website', 'description', 'videos', 'images', 'developed_games', 'published_games']
+
     id = Column(Integer, primary_key=True)
     name = Column(String(100))
     founded_date = Column(DateTime)
@@ -173,11 +215,14 @@ class Company(Base):
 # ------------
 # Platform
 # ------------
-class Platform(Base):
+class Platform(Base, Serializer):
     """
     platform data model, has 1 dependency on Game model and 1 on Platform
     """
     __tablename__ = 'platforms'
+    __public__ = ['id', 'name', 'release_date', 'online_support', 'price', 'company', 'deck', 'install_base',
+                  'description', 'videos', 'images', 'games']
+
     id = Column(Integer, primary_key=True)
     name = Column(String(100))
     release_date = Column(DateTime)
@@ -212,3 +257,22 @@ class Platform(Base):
         self.deck = args.get("deck")
         self.install_base = args.get("install_base")
         self.description = args.get("description")
+
+
+# materialized columns
+
+GameCompany.game_name = column_property(
+    select([Game.name]).where(Game.id == GameCompany.game_id)
+)
+
+GameCompany.company_name = column_property(
+    select([Company.name]).where(Company.id == GameCompany.company_id)
+)
+
+GamePlatform.game_name = column_property(
+    select([Game.name]).where(Game.id == GamePlatform.game_id)
+)
+
+GamePlatform.platform_name = column_property(
+    select([Platform.name]).where(Platform.id == GamePlatform.platform_id)
+)
