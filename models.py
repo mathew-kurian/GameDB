@@ -2,12 +2,9 @@ from flask import Flask
 from flask.ext.sqlalchemy import SQLAlchemy
 # https://pythonhosted.org/Flask-SQLAlchemy/quickstart.html
 # http://newcoder.io/scrape/part-3/
-from sqlalchemy import Table, ForeignKey, Integer, Column
-from sqlalchemy.orm import relationship
+from sqlalchemy.orm import relationship, column_property
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy_searchable import make_searchable
-
-make_searchable()
+from sqlalchemy import *
 
 # ---------------------------
 # models.py
@@ -21,169 +18,145 @@ app.config['SQLALCHEMY_DATABASE_URI'] = ''  # insert URI
 db = SQLAlchemy(app)
 
 
-class Game_Company_table(db.Model):
-    __tablename__ = 'game-company association'
-    id = db.Column(db.Integer, primary_key=True)
-    game_id = db.Column(db.Integer, ForeignKey('game.id'))
-    company_id = db.Column(db.Integer, ForeignKey('company.id'))
+class GamesPlatforms(Base):
+    __tablename__ = 'GamesPlatforms'
+    game_id = Column(Integer, ForeignKey('Games.id'))
+    platform_id = Column(Integer, ForeignKey('Platforms.id'))
 
 
-class Game_Platform_table(db.Model):
-    __tablename__ = 'game-platform association'
-    id = db.Column(db.Integer, primary_key=True)
-    game_id = db.Column(db.Integer, ForeignKey('game.id'))
-    platform_id = db.Column(db.Integer, ForeignKey('platform.id'))
+class GamesCompanies(Base):
+    __tablename__ = 'GamesCompanies'
+    game_id = Column(Integer, ForeignKey('Games.id'))
+    company_id = Column(Integer, ForeignKey('Companies.id'))
+    relation = Column(String)
 
 
 # ------------
 # Game
 # ------------
-
-class Game(db.Model):
+class Games(Base):
     """
     Data model for games, there are 2 dependencies on companies and 1 on platform
     """
-    __tablename__ = 'game'
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(), unique=True)  # insert number into db.String()
-    release_date = db.Column(db.String(), unique=True)
-    genres = db.Column(db.PickleType(), unique=True)
-    description = db.Column(db.String(), unique=True)
-    deck = db.Column(db.String(), unique=True)
-    videos = db.Column(db.PickleType(), unique=True)
-    images = db.Column(db.PickleType(), unique=True)
+    __tablename__ = 'Games'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+    rating = Column(String)
+    release_date = Column(Date)
+    deck = Column(String)
+    genres = Column(String)
+    franchises = Column(String)
+    description = Column(String)
 
-    platforms = relationship('Platform', secondary=Game_Platform_table, backref=db.backref('game', lazy='dynamic'))
-    developers = relationship('Company', secondary=Game_Company_table, backref=db.backref('game', lazy='dynamic'))
-    publishers = relationship('Company', secondary=Game_Company_table, backref=db.backref('game', lazy='dynamic'))
+    platforms = relationship("Platforms", secondary=GamesPlatforms,
+                             primaryjoin=(GamesPlatforms.game_id == id), backref="games")
+    developers = relationship("Companies", secondary=GamesCompanies,
+                              primaryjoin=(GamesCompanies.game_id == id and
+                                           GamesCompanies.relation == 'developer'), backref="developed_games")
+    publishers = relationship("Companies", secondary=GamesCompanies,
+                              primaryjoin=(GamesCompanies.game_id == id and
+                                           GamesCompanies.relation == 'publishers'), backref="published_games")
 
     # ------------
     # __init__
     # ------------
-    def __init__(self, name, release_date, description, deck, **args):
+    def __init__(self, **args):
         """
         constructor, saves values into model object
         list args are optional for constructor
         """
-        self.name = name
-        self.release_date = release_date
-        self.genres = args.get("genres", None)
-        self.description = description
-        self.deck = deck
-        self.videos = args.get("videos", None)
-        self.images = args.get("images", None)
-        self.developers = args.get("developers", None)
-        self.publishers = args.get("publishers", None)
-        self.platforms = args.get("platforms", None)
-
-    # ------------
-    # __repr__
-    # ------------
-    def __repr__(self):
-        """
-        return name
-        """
-        return '<Game %r>' % self.name
+        self.id = args.get('id')
+        self.name = args.get('name')
+        self.rating = args.get('rating')
+        self.release_date = args.get('release_date')
+        self.deck = args.get('deck')
+        self.genres = args.get('genres')
+        self.franchises = args.get('franchises')
+        self.description = args.get('description')
 
 
 # ------------
 # Company
 # ------------
-class Company(db.Model):
+class Companies(Base):
     """
     Company data model, has 2 dependencies on a Game, one on platform
     """
-    __tablename__ = 'company'
-    id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(), unique=True)
-    location_address = db.Column(db.String(), unique=True)
-    location_city = db.Column(db.String(), unique=True)
-    location_state = db.Column(db.String(), unique=True)
-    location_country = db.Column(db.String(), unique=True)
-    phone = db.Column(db.String(), unique=True)
-    images = db.Column(db.PickleType, unique=True)
-    website = db.Column(db.String(), unique=True)
-    description = db.Column(db.String(), unique=True)
+    __tablename__ = 'Companies'
+    id = Column(Integer, primary_key=True)
+    name = Column(String)
+    founded_date = Column(Date)
+    address = Column(String)
+    city = Column(String)
+    country = Column(String)
+    state = Column(String)
+    deck = Column(String)
+    concepts = Column(String)
+    phone = Column(String)
+    website = Column(String)
+    description = Column(String)
 
-    platforms = db.relationship('Platform', backref=db.backref('game', lazy='dynamic'))
-    developed_games = relationship('Game', secondary=Game_Company_table, backref=db.backref('company', lazy='dynamic'))
-    published_games = relationship('Game', secondary=Game_Company_table, backref=db.backref('company', lazy='dynamic'))
+    developed_games = relationship("Companies", secondary=GamesCompanies,
+                                   primaryjoin=(GamesCompanies.company_id == id and
+                                                GamesCompanies.relation == 'developer'), backref="developers")
+    published_games = relationship("Companies", secondary=GamesCompanies,
+                                   primaryjoin=(GamesCompanies.company_id == id and
+                                                GamesCompanies.relation == 'publishers'), backref="publishers")
 
     # ------------
     # __init__
     # ------------
-    def __init__(self, name, location_address, location_city, location_state, location_country, phone, website,
-                 description, **args):
+    def __init__(self, **args):
         """
         constructor, saves values into model object
         return array args are optional for constructor
         """
-        self.name = name
-        self.location_address = location_address
-        self.location_city = location_city
-        self.location_state = location_state
-        self.location_country = location_country
-        self.phone = phone
-        self.images = args.get("images", None)
-        self.website = website
-        self.description = description
-        self.platforms = args.get("platforms", None)
-        self.developed_games = args.get("developed_games", None)
-        self.published_games = args.get("published_games", None)
-
-    # ------------
-    # __repr__
-    # ------------
-    def __repr__(self):
-        """
-        return name
-        """
-        return '<Developer %r>' % self.name
+        self.name = args.get("name")
+        self.founded_date = args.get("founded_date")
+        self.address = args.get("address")
+        self.city = args.get("city")
+        self.country = args.get("country")
+        self.state = args.get("state")
+        self.deck = args.get("deck")
+        self.concepts = args.get("concepts")
+        self.phone = args.get("phone")
+        self.website = args.get("website")
+        self.description = args.get("description")
 
 
 # ------------
 # Platform
 # ------------
-class Platform(db.Model):
+class Platforms(Base):
     """
     platform data model, has 1 dependency on Game model and 1 on Platform
     """
-    __tablename__ = 'platform'
-    id = db.Column(db.Integer, primary_key=True)
-    release_date = db.Column(db.String(), unique=True)
-    price = db.Column(db.Integer(), unique=True)
-    name = db.Column(db.String(), unique=True)
-    online_support = db.Column(db.Boolean(), unique=True)
-    description = db.Column(db.String(), unique=True)
-    deck = db.Column(db.String(), unique=True)
-    images = db.Column(db.PickleType(), unique=True)
+    __tablename__ = 'Platforms'
+    name = Column(String)
+    release_date = Column(Date)
+    online_support = Column(Boolean)
+    price = Column(Float)
+    company = Column(String)
+    deck = Column(String)
+    install_base = Column(Integer)
+    description = Column(String)
 
-    companies = db.relationship('Company',
-                                backref=db.backref('platform', lazy='dynamic'))
-    games = relationship('Game', backref=db.backref('platform', lazy='dynamic'))
+    # companies = db.relationship('Company', backref=db.backref('platform', lazy='dynamic')
+    games = relationship("Games", secondary=GamesPlatforms,
+                         primaryjoin=(GamesPlatforms.platform_id == id), backref="platforms")
 
     # ------------
     # __init__
     # ------------
-    def __init__(self, release_date, name, price, online_support, description, deck, **args):
+    def __init__(self, **args):
         """
         array args are optional
         """
-        self.release_date = release_date
-        self.name = name
-        self.price = price
-        self.online_support = online_support
-        self.description = description
-        self.deck = deck
-        self.images = args.get("images", None)
-        self.companies = args.get("companies", None)
-        self.games = args.get("games", None)
-
-    # ------------
-    # __repr__
-    # ------------
-    def __repr__(self):
-        """
-        return name
-        """
-        return '<Platform %r>' % self.name
+        self.name = args.get("name")
+        self.release_date = args.get("release_date")
+        self.online_support = args.get("online_support", False)
+        self.price = args.get("price")
+        self.company = args.get("company")
+        self.deck = args.get("deck")
+        self.install_base = args.get("install_base")
+        self.description = args.get("description")
