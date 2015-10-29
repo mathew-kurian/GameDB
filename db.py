@@ -1,42 +1,50 @@
-from datetime import datetime
-from models import *
-from sqlalchemy import *
 from sqlalchemy.orm import sessionmaker
-import json
+
+from models import *
 
 
-def date_cast(a):
-    if a:
-        return datetime.strptime(a, "%Y-%m-%dT%H:%M:%S.%fZ")
-
-
-def drop_table(e, t):
-    try:
-        t.__table__.drop(e)
-    except:
-        pass
-
-
-if __name__ == "__main__":
-    engine = create_engine("mysql+pymysql://root:123456@localhost/idb?charset=utf8", echo=True)
-
+def get_session():
+    engine = create_engine("mysql+pymysql://root:123456@localhost/idb?charset=utf8", echo=False)
     session = sessionmaker()
     session.configure(bind=engine)
+    return session()
 
-    s = session()
 
-    drop_table(engine, GamePlatform)
-    drop_table(engine, GameCompany)
-    drop_table(engine, Game)
-    drop_table(engine, Platform)
-    drop_table(engine, Company)
-    drop_table(engine, Url)
+def test():
+    session = get_session()
 
-    Base.metadata.create_all(engine)
+    print(to_json(session.query(Game).get(29935), sort_keys=True, indent=4))
+    print(to_json(session.query(Company).get(1), sort_keys=True, indent=4))
+    print(to_json(session.query(Platform).get(146), sort_keys=True, indent=4))
+
+    session.close()
+
+
+def migrate():
+    def date_cast(a):
+        if a:
+            return datetime.strptime(a, "%Y-%m-%dT%H:%M:%S.%fZ")
+
+    def drop_table(m, t):
+        try:
+            t.__table__.drop(m.bind)
+        except:
+            pass
+
+    session = get_session()
+
+    drop_table(session, GamePlatform)
+    drop_table(session, GameCompany)
+    drop_table(session, Game)
+    drop_table(session, Platform)
+    drop_table(session, Company)
+    drop_table(session, Url)
+
+    Base.metadata.create_all(session.bind)
 
     with open('scripts/giantbomb/csv/games.json') as f:
         for i in json.load(f):
-            s.add(Game(**{
+            session.add(Game(**{
                 'id': i["id"],
                 'name': i["name"],
                 'rating': i["rating"],
@@ -50,7 +58,7 @@ if __name__ == "__main__":
 
     with open('scripts/giantbomb/csv/companies.json') as f:
         for i in json.load(f):
-            s.add(Company(**{
+            session.add(Company(**{
                 'id': i['id'],
                 'name': i['name'],
                 'founded_date': date_cast(i['founded_date']),
@@ -67,7 +75,7 @@ if __name__ == "__main__":
 
     with open('scripts/giantbomb/csv/platforms.json') as f:
         for i in json.load(f):
-            s.add(Platform(**{
+            session.add(Platform(**{
                 'id': i['id'],
                 'name': i['name'],
                 'release_date': date_cast(i['release_date']),
@@ -81,7 +89,7 @@ if __name__ == "__main__":
 
     with open('scripts/giantbomb/csv/games-companies.json') as f:
         for i in json.load(f):
-            s.add(GameCompany(**{
+            session.add(GameCompany(**{
                 'game_id': i['game'],
                 'company_id': i['company'],
                 'role': i['relation']
@@ -89,7 +97,7 @@ if __name__ == "__main__":
 
     with open('scripts/giantbomb/csv/games-platforms.json') as f:
         for i in json.load(f):
-            s.add(GamePlatform(**{
+            session.add(GamePlatform(**{
                 'platform_id': i['platform'],
                 'game_id': i['game']
             }))
@@ -105,12 +113,12 @@ if __name__ == "__main__":
 
     with open('scripts/giantbomb/csv/videos.json') as f:
         for i in json.load(f):
-            s.add(Url(**{
+            session.add(Url(**{
                 'entity_id': i['id'],
                 'entity': i['relation'],
                 'type': 'video',
                 'source': i['video']
             }))
 
-    s.commit()
-    s.close()
+    session.commit()
+    session.close()
