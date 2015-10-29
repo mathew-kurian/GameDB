@@ -21,5 +21,6 @@ async.eachSeries(fs.readdirSync('./connected'), function (file, callback) {
     function (err, csv) {
       if (err) console.log(err);
       fs.writeFileSync('./csv/images.csv', csv, {encoding: 'utf8'});
+      fs.writeFileSync('./csv/images.json', JSON.stringify(data, null, 2));
     });
 });

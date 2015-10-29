@@ -2,6 +2,7 @@ var json2csv = require('json2csv');
 var _ = require('underscore');
 var fs = require('fs');
 var moment = require('moment');
+var path = require('object-path');
 
 var NULL = 'NULL';
 
@@ -27,7 +28,7 @@ var fields = [
     label: 'release_date',
     value: function (row) {
       if (row.original_release_date)
-        return new Date(row.original_release_date);
+        return moment(row.original_release_date).toDate();
       if (row.expected_release_year)
         return moment(row.expected_release_year +
           ' ' + row.expected_release_month, 'YYYY MM').toDate();
@@ -67,8 +68,19 @@ var fields = [
     default: NULL
   }];
 
+var data = [];
+
+require('./connected/games.json').forEach(function (game) {
+  var obj = {};
+  fields.forEach(function (field) {
+    obj[field.label] = (typeof field.value === 'string' ? path.get(game, field.value) : field.value(game)) || null;
+  });
+  data.push(obj);
+});
+
 json2csv({data: require('./connected/games.json'), fields: fields},
   function (err, csv) {
     if (err) console.log(err);
+    fs.writeFileSync('./csv/games.json', JSON.stringify(data, null, 2));
     fs.writeFileSync('./csv/games.csv', csv, {encoding: 'utf8'});
   });

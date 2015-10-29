@@ -1,8 +1,4 @@
-from flask import Flask
-from flask.ext.sqlalchemy import SQLAlchemy
-# https://pythonhosted.org/Flask-SQLAlchemy/quickstart.html
-# http://newcoder.io/scrape/part-3/
-from sqlalchemy.orm import relationship, column_property
+from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import *
 
@@ -13,49 +9,95 @@ from sqlalchemy import *
 # ---------------------------
 
 Base = declarative_base()
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = ''  # insert URI
-db = SQLAlchemy(app)
 
 
-class GamesPlatforms(Base):
-    __tablename__ = 'GamesPlatforms'
-    game_id = Column(Integer, ForeignKey('Games.id'))
-    platform_id = Column(Integer, ForeignKey('Platforms.id'))
+class GamePlatform(Base):
+    __tablename__ = 'game_platforms'
+    id = Column(Integer, primary_key=True)
+    game_id = Column(Integer, ForeignKey('games.id'))
+    platform_id = Column(Integer, ForeignKey('platforms.id'))
+
+    # ------------
+    # __init__
+    # ------------
+    def __init__(self, **args):
+        """
+        constructor, saves values into model object
+        list args are optional for constructor
+        """
+        self.game_id = args.get('game_id')
+        self.platform_id = args.get('platform_id')
 
 
-class GamesCompanies(Base):
-    __tablename__ = 'GamesCompanies'
-    game_id = Column(Integer, ForeignKey('Games.id'))
-    company_id = Column(Integer, ForeignKey('Companies.id'))
-    relation = Column(String)
+class GameCompany(Base):
+    __tablename__ = 'games_companies'
+    id = Column(Integer, primary_key=True)
+    game_id = Column(Integer, ForeignKey('games.id'))
+    company_id = Column(Integer, ForeignKey('companies.id'))
+    role = Column(String(20))
+
+    # ------------
+    # __init__
+    # ------------
+    def __init__(self, **args):
+        """
+        constructor, saves values into model object
+        list args are optional for constructor
+        """
+        self.game_id = args.get('game_id')
+        self.company_id = args.get('company_id')
+        self.role = args.get('role')
+
+
+class Url(Base):
+    __tablename__ = 'urls'
+    id = Column(Integer, primary_key=True)
+    entity_id = Column(Integer)
+    source = Column(Text)
+    entity = Column(String(20))
+    type = Column(String(20))
+
+    # ------------
+    # __init__
+    # ------------
+    def __init__(self, **args):
+        """
+        constructor, saves values into model object
+        list args are optional for constructor
+        """
+        self.entity_id = args.get('entity_id')
+        self.source = args.get('source')
+        self.entity = args.get('entity')
+        self.type = args.get('type')
 
 
 # ------------
 # Game
 # ------------
-class Games(Base):
+class Game(Base):
     """
     Data model for games, there are 2 dependencies on companies and 1 on platform
     """
-    __tablename__ = 'Games'
+    __tablename__ = 'games'
     id = Column(Integer, primary_key=True)
-    name = Column(String)
-    rating = Column(String)
-    release_date = Column(Date)
-    deck = Column(String)
-    genres = Column(String)
-    franchises = Column(String)
-    description = Column(String)
+    name = Column(String(100))
+    rating = Column(String(100))
+    release_date = Column(DateTime)
+    deck = Column(Text)
+    genres = Column(Text)
+    franchises = Column(Text)
+    description = Column(Text(4294967295))
 
-    platforms = relationship("Platforms", secondary=GamesPlatforms,
-                             primaryjoin=(GamesPlatforms.game_id == id), backref="games")
-    developers = relationship("Companies", secondary=GamesCompanies,
-                              primaryjoin=(GamesCompanies.game_id == id and
-                                           GamesCompanies.relation == 'developer'), backref="developed_games")
-    publishers = relationship("Companies", secondary=GamesCompanies,
-                              primaryjoin=(GamesCompanies.game_id == id and
-                                           GamesCompanies.relation == 'publishers'), backref="published_games")
+    videos = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'video'),
+                          foreign_keys=Url.entity_id)
+    images = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'image'),
+                          foreign_keys=Url.entity_id)
+
+    platforms = relationship(GamePlatform)
+    developers = relationship(GameCompany,
+                              primaryjoin=and_(GameCompany.game_id == id, GameCompany.role == 'developer'))
+    publishers = relationship(GameCompany,
+                              primaryjoin=and_(GameCompany.game_id == id, GameCompany.role == 'publisher'))
 
     # ------------
     # __init__
@@ -78,30 +120,33 @@ class Games(Base):
 # ------------
 # Company
 # ------------
-class Companies(Base):
+class Company(Base):
     """
     Company data model, has 2 dependencies on a Game, one on platform
     """
-    __tablename__ = 'Companies'
+    __tablename__ = 'companies'
     id = Column(Integer, primary_key=True)
-    name = Column(String)
-    founded_date = Column(Date)
-    address = Column(String)
-    city = Column(String)
-    country = Column(String)
-    state = Column(String)
-    deck = Column(String)
-    concepts = Column(String)
-    phone = Column(String)
-    website = Column(String)
-    description = Column(String)
+    name = Column(String(100))
+    founded_date = Column(DateTime)
+    address = Column(String(100))
+    city = Column(String(100))
+    country = Column(String(100))
+    state = Column(String(100))
+    deck = Column(Text)
+    concepts = Column(Text)
+    phone = Column(String(100))
+    website = Column(String(100))
+    description = Column(Text(4294967295))
 
-    developed_games = relationship("Companies", secondary=GamesCompanies,
-                                   primaryjoin=(GamesCompanies.company_id == id and
-                                                GamesCompanies.relation == 'developer'), backref="developers")
-    published_games = relationship("Companies", secondary=GamesCompanies,
-                                   primaryjoin=(GamesCompanies.company_id == id and
-                                                GamesCompanies.relation == 'publishers'), backref="publishers")
+    videos = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'video'),
+                          foreign_keys=Url.entity_id)
+    images = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'image'),
+                          foreign_keys=Url.entity_id)
+
+    developed_games = relationship(GameCompany,
+                                   primaryjoin=and_(GameCompany.company_id == id, GameCompany.role == 'developer'))
+    published_games = relationship(GameCompany,
+                                   primaryjoin=and_(GameCompany.company_id == id, GameCompany.role == 'publisher'))
 
     # ------------
     # __init__
@@ -111,6 +156,7 @@ class Companies(Base):
         constructor, saves values into model object
         return array args are optional for constructor
         """
+        self.id = args.get("id")
         self.name = args.get("name")
         self.founded_date = args.get("founded_date")
         self.address = args.get("address")
@@ -127,23 +173,28 @@ class Companies(Base):
 # ------------
 # Platform
 # ------------
-class Platforms(Base):
+class Platform(Base):
     """
     platform data model, has 1 dependency on Game model and 1 on Platform
     """
-    __tablename__ = 'Platforms'
-    name = Column(String)
-    release_date = Column(Date)
+    __tablename__ = 'platforms'
+    id = Column(Integer, primary_key=True)
+    name = Column(String(100))
+    release_date = Column(DateTime)
     online_support = Column(Boolean)
     price = Column(Float)
-    company = Column(String)
-    deck = Column(String)
+    company = Column(String(100))
+    deck = Column(Text)
     install_base = Column(Integer)
-    description = Column(String)
+    description = Column(Text(4294967295))
+
+    videos = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'video'),
+                          foreign_keys=Url.entity_id)
+    images = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'image'),
+                          foreign_keys=Url.entity_id)
 
     # companies = db.relationship('Company', backref=db.backref('platform', lazy='dynamic')
-    games = relationship("Games", secondary=GamesPlatforms,
-                         primaryjoin=(GamesPlatforms.platform_id == id), backref="platforms")
+    games = relationship(GamePlatform)
 
     # ------------
     # __init__
@@ -152,6 +203,7 @@ class Platforms(Base):
         """
         array args are optional
         """
+        self.id = args.get("id")
         self.name = args.get("name")
         self.release_date = args.get("release_date")
         self.online_support = args.get("online_support", False)
