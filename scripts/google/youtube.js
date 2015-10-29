@@ -4,24 +4,8 @@ var async = require('async');
 var cheerio = require('cheerio');
 var _ = require('underscore');
 
-encodeQuery = function (q) {
-  return q.replace(/\$/g, "%24")
-    .replace(/\+/g, '%2B')
-    .replace(/\s/g, '+')
-    .replace(/&/g, "%26")
-    .replace(/\//g, "%2F")
-    .replace(/\=/g, "%3D")
-    .replace(/%/g, "%25")
-    .replace(/@/g, "%40")
-    .replace(/#/g, "%23")
-    .replace(/\?/g, "%3F")
-    .replace(/;/g, "%3B")
-    .replace(/,/g, "%2C")
-    .replace(/['’]/g, "%27");
-};
-
 module.exports = function (opts, callback) {
-  var q = encodeQuery(opts.q);
+  var q = escape(opts.q);
   var params = '';
 
   delete opts.q;
@@ -39,7 +23,7 @@ module.exports = function (opts, callback) {
       'accept-encoding': 'gzip, deflate, sdch',
       'accept-language': 'en-US,en;q=0.8,de;q=0.6',
       'cache-control': 'max-age=0',
-      'referer': 'https://www.youtube.com/results?q=' + encodeQuery(q)  // MUST change every 50 or so requests
+      'referer': 'https://www.youtube.com/results?q=' + escape(q)  // MUST change every 50 or so requests
     },
     gzip: true
   }, function (err, res, body) {
