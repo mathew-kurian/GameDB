@@ -35,3 +35,4 @@ node_modules
 tokens.json
 
 __pycache__/
+*.pyc
