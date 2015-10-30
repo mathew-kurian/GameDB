@@ -93,6 +93,8 @@ class Url(Base, Serializer):
     entity = Column(String(20))
     type = Column(String(20))
 
+    Index("entity_index", entity_id, entity, type)
+
     # ------------
     # __init__
     # ------------
@@ -165,7 +167,8 @@ class Company(Base, Serializer):
     """
     __tablename__ = 'companies'
     __public__ = ['id', 'name', 'founded_date', 'address', 'city', 'country', 'state', 'deck', 'concepts',
-                  'phone', 'website', 'description', 'videos', 'images', 'developed_games', 'published_games']
+                  'phone', 'website', 'description', 'videos', 'images', 'developed_games', 'published_games',
+                  'platforms']
 
     id = Column(Integer, primary_key=True)
     name = Column(String(100))
@@ -221,7 +224,7 @@ class Platform(Base, Serializer):
     """
     __tablename__ = 'platforms'
     __public__ = ['id', 'name', 'release_date', 'online_support', 'price', 'company', 'deck', 'install_base',
-                  'description', 'videos', 'images', 'games']
+                  'description', 'videos', 'images', 'games', 'companies']
 
     id = Column(Integer, primary_key=True)
     name = Column(String(100))
@@ -238,7 +241,6 @@ class Platform(Base, Serializer):
     images = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'image'),
                           foreign_keys=Url.entity_id)
 
-    # companies = db.relationship('Company', backref=db.backref('platform', lazy='dynamic')
     games = relationship(GamePlatform)
 
     # ------------
@@ -276,3 +278,27 @@ GamePlatform.game_name = column_property(
 GamePlatform.platform_name = column_property(
     select([Platform.name]).where(Platform.id == GamePlatform.platform_id)
 )
+
+
+# views
+
+class CompanyPlatform(Base, Serializer):
+    __public__ = ['company_id', 'platform_id', 'platform_name', 'company_name']
+    __mapper_args__ = {
+        'primary_key': [GameCompany.company_id, GamePlatform.platform_id]}
+    __table__ = select(
+        [GameCompany.company_id, GamePlatform.platform_id, GamePlatform.platform_name.label('platform_name'),
+         GameCompany.company_name.label('company_name')]). \
+        select_from(
+        join(GameCompany, GamePlatform,
+             GameCompany.game_id == GamePlatform.game_id)
+    ).distinct().group_by('company_id', 'platform_id').alias()
+
+
+# dependent relations
+
+Platform.companies = relationship(CompanyPlatform, primaryjoin=and_(CompanyPlatform.platform_id == Platform.id),
+                                  viewonly=True)
+
+Company.platforms = relationship(CompanyPlatform, primaryjoin=and_(CompanyPlatform.company_id == Company.id),
+                                 viewonly=True)

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
+import traceback
 
-from flask import Flask, render_template, abort, make_response
+from flask import Flask, render_template, abort, make_response, request
 from flask.ext.compress import Compress
 
 from db import *
@@ -66,20 +67,42 @@ def companies(id=-1):
     return router(companies_db, 'companies', id)
 
 
-@app.route('/api/<string:table>/<int:id>')
-def api(table, id):
-    tables = {'companies': Company, 'games': Game, 'platforms': Platform}
-    if table not in tables: return abort(404)
-    try:
-        doc = session.query(tables[table]).get(id)
-        if doc:
-            res = make_response(to_json(doc, sort_keys=True))
-            res.mimetype = 'application/json'
-            return res
-    except:
-        pass
+def send_api_response(func, table):
+    res = {'status': 1, 'message': 'Success', 'results': []}
 
-    abort(404)
+    if table:
+        try:
+            doc = func(table)
+            print(doc)
+            if doc:
+                doc = to_dict(doc)
+                print(doc)
+                res['status'] = 0
+                res['results'] += doc if isinstance(doc, list) else [doc]
+            else:
+                res['message'] = 'ID not found'
+        except Exception as e:
+            res['message'] = str(e)
+            print(e)
+    else:
+        res['message'] = 'Table not found'
+
+    res = make_response(to_json(res), 404 if res['status'] else 200)
+    res.mimetype = 'application/json'
+    return res
+
+
+@app.route('/api/<string:table>')
+@app.route('/api/<string:table>/')
+@app.route('/api/<string:table>/<int:id>')
+def api(table, id=-1):
+    if id == -1:
+        offset = request.args.get('offset', default=0, type=int)
+        limit = max(min(request.args.get('limit', default=25, type=int), 25), 0)
+        return send_api_response(lambda t: session.query(t).limit(limit).offset(offset).all(),
+                                 {'companies': Company, 'games': Game, 'platforms': Platform}[table])
+    return send_api_response(lambda t: session.query(t).get(id),
+                             {'company': Company, 'game': Game, 'platform': Platform}[table])
 
 
 if __name__ == '__main__':

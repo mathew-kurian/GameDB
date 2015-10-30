@@ -3,42 +3,40 @@ from sqlalchemy.orm import sessionmaker
 from models import *
 
 
-def get_session():
-    engine = create_engine("mysql+pymysql://root:123456@localhost/idb?charset=utf8", echo=False)
+def get_session(echo=True):
+    engine = create_engine("mysql+pymysql://root:123456@localhost/idb?charset=utf8", echo=echo)
     session = sessionmaker()
     session.configure(bind=engine)
     return session()
 
 
-def test():
-    session = get_session()
-
-    print(to_json(session.query(Game).get(29935), sort_keys=True, indent=4))
-    print(to_json(session.query(Company).get(1), sort_keys=True, indent=4))
-    print(to_json(session.query(Platform).get(146), sort_keys=True, indent=4))
-
-    session.close()
+def to_dict(a):
+    return json.loads(to_json(a))
 
 
-def migrate():
+def migrate(session=None):
+    close = None
+
+    if session is None:
+        session = get_session()
+        close = true
+
     def date_cast(a):
         if a:
-            return datetime.strptime(a, "%Y-%m-%dT%H:%M:%S.%fZ")
+            return datetime.datetime.strptime(a, "%Y-%m-%dT%H:%M:%S.%fZ")
 
-    def drop_table(m, t):
+    def drop_table(t):
         try:
-            t.__table__.drop(m.bind)
+            t.__table__.drop(session.bind)
         except:
             pass
 
-    session = get_session()
-
-    drop_table(session, GamePlatform)
-    drop_table(session, GameCompany)
-    drop_table(session, Game)
-    drop_table(session, Platform)
-    drop_table(session, Company)
-    drop_table(session, Url)
+    drop_table(GamePlatform)
+    drop_table(GameCompany)
+    drop_table(Game)
+    drop_table(Platform)
+    drop_table(Company)
+    drop_table(Url)
 
     Base.metadata.create_all(session.bind)
 
@@ -102,14 +100,14 @@ def migrate():
                 'game_id': i['game']
             }))
 
-    # with open('scripts/giantbomb/csv/images.json') as f:
-    #     for i in json.load(f):
-    #         s.add( Url(**{
-    #             'entity_id': i['id'],
-    #             'entity': i['relation'],
-    #             'type': 'image',
-    #             'source': i['image']
-    #         }))
+    with open('scripts/giantbomb/csv/images.json') as f:
+        for i in json.load(f):
+            session.add(Url(**{
+                'entity_id': i['id'],
+                'entity': i['relation'],
+                'type': 'image',
+                'source': i['image']
+            }))
 
     with open('scripts/giantbomb/csv/videos.json') as f:
         for i in json.load(f):
@@ -120,5 +118,6 @@ def migrate():
                 'source': i['video']
             }))
 
-    session.commit()
-    session.close()
+    if close:
+        session.commit()
+        session.close()
