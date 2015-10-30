@@ -6,7 +6,7 @@ from models import *
 
 
 def get_session(echo=True):
-    engine = create_engine("mysql+pymysql://root:123456@localhost/idb?charset=utf8", echo=echo)
+    engine = create_engine("mysql+pymysql://root:123456@localhost/idb?charset=utf8mb4", echo=echo)
     session = sessionmaker()
     session.configure(bind=engine)
     return session()
