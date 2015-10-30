@@ -57,6 +57,8 @@ def migrate(session=None):
                 'description': i["description"]
             }))
 
+        f.close()
+
     if close:
         session.commit()
 
@@ -77,6 +79,8 @@ def migrate(session=None):
                 'description': i['description']
             }))
 
+        f.close()
+
     if close:
         session.commit()
 
@@ -94,6 +98,8 @@ def migrate(session=None):
                 'description': i['description']
             }))
 
+        f.close()
+
     if close:
         session.commit()
 
@@ -105,6 +111,8 @@ def migrate(session=None):
                 'role': i['relation']
             }))
 
+        f.close()
+
     if close:
         session.commit()
 
@@ -114,6 +122,8 @@ def migrate(session=None):
                 'platform_id': i['platform'],
                 'game_id': i['game']
             }))
+
+        f.close()
 
     if close:
         session.commit()
@@ -127,6 +137,8 @@ def migrate(session=None):
                 'source': i['image']
             }))
 
+        f.close()
+
     if close:
         session.commit()
 
@@ -138,6 +150,8 @@ def migrate(session=None):
                 'type': 'video',
                 'source': i['video']
             }))
+
+        f.close()
 
     if close:
         session.commit()
