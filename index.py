@@ -104,9 +104,8 @@ def api(table, id=-1):
     if id == -1:
         offset = request.args.get('offset', default=0, type=int)
         limit = max(min(request.args.get('limit', default=25, type=int), 25), 0)
-        return send_api_response(
-            lambda t: session.query(t).limit(limit).offset(offset).select(t.id, t.deck, t.name, t.images).all(),
-            {'companies': Company, 'games': Game, 'platforms': Platform}[table])
+        return send_api_response(lambda t: session.query(t).limit(limit).offset(offset).all(),
+                                 {'companies': Company, 'games': Game, 'platforms': Platform}[table])
     return send_api_response(lambda t: session.query(t).get(id),
                              {'company': Company, 'game': Game, 'platform': Platform}[table])
 
