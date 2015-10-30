@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import decimal
 import json, datetime
 from sqlalchemy.orm import relationship, column_property

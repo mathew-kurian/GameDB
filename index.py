@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-import traceback
+
+import time
 
 from flask import Flask, render_template, abort, make_response, request
 from flask.ext.compress import Compress
-import time
 
 from db import *
 
