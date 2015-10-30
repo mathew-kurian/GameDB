@@ -6,9 +6,9 @@ from db import *
 
 class Test(TestCase):
     def setUp(self):
-        self.session = get_session(echo=False)
-        migrate(self.session)
-        self.session.commit()
+        self.session = get_session(echo=True)
+        # migrate(self.session)
+        # self.session.commit()
 
     def test_game_1(self):
         entity = to_dict(self.session.query(Game).get(29935))

@@ -3,6 +3,7 @@
 from sqlalchemy.orm import sessionmaker
 
 from models import *
+import ijson
 
 
 def get_session(echo=True):
@@ -53,7 +54,7 @@ def migrate(session=None):
             'genres': i["genres"],
             'franchises': i["franchises"],
             'description': i["description"]
-        }) for i in json.load(f)])
+        }) for i in ijson.items(f, 'item')])
 
     with open('scripts/giantbomb/csv/companies.json') as f:
         session.add_all([Company(**{
@@ -69,7 +70,7 @@ def migrate(session=None):
             'phone': i['phone'],
             'website': i['website'],
             'description': i['description']
-        }) for i in json.load(f)])
+        }) for i in ijson.items(f, 'item')])
 
     with open('scripts/giantbomb/csv/platforms.json') as f:
         session.add_all([Platform(**{
@@ -82,14 +83,14 @@ def migrate(session=None):
             'deck': i['deck'],
             'install_base': i['install_base'],
             'description': i['description']
-        }) for i in json.load(f)])
+        }) for i in ijson.items(f, 'item')])
 
     with open('scripts/giantbomb/csv/games-companies.json') as f:
         session.add_all([GameCompany(**{
             'game_id': i['game'],
             'company_id': i['company'],
             'role': i['relation']
-        }) for i in json.load(f)])
+        }) for i in ijson.items(f, 'item')])
 
     with open('scripts/giantbomb/csv/games-platforms.json') as f:
         session.add_all([GamePlatform(**{
@@ -103,7 +104,7 @@ def migrate(session=None):
             'entity': i['relation'],
             'type': 'image',
             'source': i['image']
-        }) for i in json.load(f)])
+        }) for i in ijson.items(f, 'item')])
 
     with open('scripts/giantbomb/csv/videos.json') as f:
         session.add_all([Url(**{
@@ -111,7 +112,7 @@ def migrate(session=None):
             'entity': i['relation'],
             'type': 'video',
             'source': i['video']
-        }) for i in json.load(f)])
+        }) for i in ijson.items(f, 'item')])
 
     if close:
         session.commit()
