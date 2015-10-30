@@ -22,7 +22,7 @@ def migrate(session=None):
     close = None
 
     if session is None:
-        session = get_session()
+        session = get_session(False)
         close = true
 
     def date_cast(a):
