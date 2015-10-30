@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import gc
 
 from sqlalchemy.orm import sessionmaker
 
@@ -59,6 +60,9 @@ def migrate(session=None):
 
         f.close()
 
+    gc.collect()
+    print('finished games.json')
+
     if close:
         session.commit()
 
@@ -81,6 +85,9 @@ def migrate(session=None):
 
         f.close()
 
+    gc.collect()
+    print('finished companies.json')
+
     if close:
         session.commit()
 
@@ -100,6 +107,9 @@ def migrate(session=None):
 
         f.close()
 
+    gc.collect()
+    print('finished platforms.json')
+
     if close:
         session.commit()
 
@@ -113,6 +123,9 @@ def migrate(session=None):
 
         f.close()
 
+    gc.collect()
+    print('finished games-companies.json')
+
     if close:
         session.commit()
 
@@ -124,6 +137,9 @@ def migrate(session=None):
             }))
 
         f.close()
+
+    gc.collect()
+    print('finished games-platforms.json')
 
     if close:
         session.commit()
@@ -139,6 +155,9 @@ def migrate(session=None):
 
         f.close()
 
+    gc.collect()
+    print('finished images.json')
+
     if close:
         session.commit()
 
@@ -152,6 +171,9 @@ def migrate(session=None):
             }))
 
         f.close()
+
+    gc.collect()
+    print('finished videos.json')
 
     if close:
         session.commit()
