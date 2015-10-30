@@ -3,6 +3,7 @@ import traceback
 
 from flask import Flask, render_template, abort, make_response, request
 from flask.ext.compress import Compress
+import time
 
 from db import *
 
@@ -12,7 +13,7 @@ Compress(app)
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 app.debug = True
 
-session = get_session()
+session = get_session(echo=False)
 
 with open('scripts/giantbomb/connected/games.json') as f:
     games_db = json.load(f)
@@ -68,15 +69,13 @@ def companies(id=-1):
 
 
 def send_api_response(func, table):
+    start_time = time.time()
     res = {'status': 1, 'message': 'Success', 'results': []}
 
     if table:
         try:
             doc = func(table)
-            print(doc)
             if doc:
-                doc = to_dict(doc)
-                print(doc)
                 res['status'] = 0
                 res['results'] += doc if isinstance(doc, list) else [doc]
             else:
@@ -87,9 +86,15 @@ def send_api_response(func, table):
     else:
         res['message'] = 'Table not found'
 
+    res['time'] = "%.2fs" % (time.time() - start_time)
     res = make_response(to_json(res), 404 if res['status'] else 200)
     res.mimetype = 'application/json'
     return res
+
+
+def p(a):
+    print(a)
+    return a
 
 
 @app.route('/api/<string:table>')
@@ -99,8 +104,9 @@ def api(table, id=-1):
     if id == -1:
         offset = request.args.get('offset', default=0, type=int)
         limit = max(min(request.args.get('limit', default=25, type=int), 25), 0)
-        return send_api_response(lambda t: session.query(t).limit(limit).offset(offset).all(),
-                                 {'companies': Company, 'games': Game, 'platforms': Platform}[table])
+        return send_api_response(
+            lambda t: session.query(t).limit(limit).offset(offset).select(t.id, t.deck, t.name, t.images).all(),
+            {'companies': Company, 'games': Game, 'platforms': Platform}[table])
     return send_api_response(lambda t: session.query(t).get(id),
                              {'company': Company, 'game': Game, 'platform': Platform}[table])
 

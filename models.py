@@ -130,9 +130,9 @@ class Game(Base, Serializer):
     description = Column(Text(4294967295))
 
     videos = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'video'),
-                          foreign_keys=Url.entity_id)
+                          foreign_keys=[Url.entity_id], viewonly=True)
     images = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'image'),
-                          foreign_keys=Url.entity_id)
+                          foreign_keys=[Url.entity_id], viewonly=True)
 
     platforms = relationship(GamePlatform)
     developers = relationship(GameCompany,
@@ -184,9 +184,9 @@ class Company(Base, Serializer):
     description = Column(Text(4294967295))
 
     videos = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'video'),
-                          foreign_keys=Url.entity_id)
+                          foreign_keys=[Url.entity_id], viewonly=True)
     images = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'image'),
-                          foreign_keys=Url.entity_id)
+                          foreign_keys=[Url.entity_id], viewonly=True)
 
     developed_games = relationship(GameCompany,
                                    primaryjoin=and_(GameCompany.company_id == id, GameCompany.role == 'developer'))
@@ -237,9 +237,9 @@ class Platform(Base, Serializer):
     description = Column(Text(4294967295))
 
     videos = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'video'),
-                          foreign_keys=Url.entity_id)
+                          foreign_keys=[Url.entity_id], viewonly=True)
     images = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'image'),
-                          foreign_keys=Url.entity_id)
+                          foreign_keys=[Url.entity_id], viewonly=True)
 
     games = relationship(GamePlatform)
 
