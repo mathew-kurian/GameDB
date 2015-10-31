@@ -83,11 +83,13 @@ var App = React.createClass({
     }
 
     var videoRows = [];
-    var description = this.state.description || '';
+    var description = this.state.description;
 
-    if (description && description.length < 50) {
+    if ((description && description.length < 50) || !description) {
       description = 'No summary found'
     }
+
+    description = description.replace(/<a[^>]*>(.*?)<\/a>/g, "$1");
 
     for (var i = 0; i < videos.length; i += 2) {
       videoRows.push(
@@ -113,7 +115,7 @@ var App = React.createClass({
             <h1>Summary</h1>
 
             <div className="lead"
-                 dangerouslySetInnerHTML={{__html:description.replace(/<a[^>]*>(.*?)<\/a>/g,"$1")}}></div>
+                 dangerouslySetInnerHTML={{__html:description}}></div>
 
             <br />
 
@@ -134,7 +136,7 @@ var App = React.createClass({
                 {this.state.images.slice().splice(1, 3).map(function (url, i) {
                   return (<img src={url.replace(/^https/, 'http')} key={i} ref={'img' + i}
                                onError={self._handleImgError.bind(null, 'img' + i)}
-                               className="img-rounded full-width"/>)
+                               style={{display:'block'}} className="img-rounded full-width"/>)
                 })}
                 <div style={{height:30}}></div>
               </div>

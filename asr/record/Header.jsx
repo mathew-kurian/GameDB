@@ -54,15 +54,21 @@ var Tags = function (item) {
 };
 
 var DateForm = function (v) {
-  return moment(v).format('llll');
+  return <span style={{color:'#CCC',position:'relative',top:2}}><span className='icon calendar'
+                                                                      style={{marginRight:5}}></span><span
+    style={{fontSize:13}}><b>{moment(v).format('llll')}</b></span></span>;
 };
 
 var Cost = function (v) {
-  return <span style={{color:'#19A8F1'}}><b>{"$" + Number(v).toFixed(2)}</b></span>;
+  return <span style={{color:'#19A8F1',position:'relative',top:2}}><span className='icon price'
+                                                                         style={{marginRight:5}}></span><span
+    style={{fontSize:13}}><b>{"$" + Number(v).toFixed(2)}</b></span></span>;
 };
 
-var Bool = function (v) {
-  return <span style={{color:'#FFCC00'}}><b>{Boolean(v).toString()}</b></span>;
+var OnlineSupport = function (v) {
+  return <span style={{color:'#FFCC00',position:'relative',top:2}}><span className='icon support'
+                                                                         style={{marginRight:5}}></span><span
+    style={{fontSize:13}}><b>{Boolean(v).toString()}</b></span></span>;
 };
 
 var Header = React.createClass({
@@ -163,7 +169,7 @@ var Header = React.createClass({
       case "platform":
         table = (
           <table className="compressed" style={{width:'100%'}}>
-            <tbody>{this.getAttributes(['deck'], ["release_date", "Release Date", DateForm], ["online_support", "Online Support", Bool],
+            <tbody>{this.getAttributes(['deck'], ["release_date", "Release Date", DateForm], ["online_support", "Online Support", OnlineSupport],
               ["price", "Price", Cost], ["company"], ["install_base", "Install Base"])}</tbody>
             {br}
             <tbody>

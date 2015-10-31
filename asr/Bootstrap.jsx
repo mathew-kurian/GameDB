@@ -28,7 +28,7 @@ window.shuffle = function (array) {
   }
 
   return array;
-}
+};
 
 render((
   <Router history={history}>
@@ -40,7 +40,7 @@ render((
         overview: "See all the companies available in the database",
         theme: '#e67e22'
       }}/>
-      <Route path=":model" component={Model} rootClassName="p-model" {...{
+      <Route path=":model" query={{range: 0,offset: 0}} component={Model} rootClassName="p-model" {...{
         companies: {
           mode: 'companies',
           record: 'company',

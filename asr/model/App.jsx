@@ -36,12 +36,16 @@ var App = React.createClass({
       state.overview = 'No records found';
       state.theme = '#BBB';
       state.model = 'invalid';
+      state.rows = [];
+      state.columns = [];
     } else {
       state.model = model;
+      state.offset = isNaN(props.location.query.offset) ? 0 : Number(props.location.query.offset);
+      state.limit = isNaN(props.location.query.limit) ? 25 : Number(props.location.query.limit);
+      state.rows = this.state ? this.state.rows || [] : [];
+      state.columns = this.state ? this.state.columns || [] : [];
     }
 
-    state.rows = [];
-    state.columns = [];
     state.width = (this.state ? this.state.width : null) || (825 - 60);
 
     return state;
@@ -74,8 +78,7 @@ var App = React.createClass({
   _fetch(){
 
     var self = this;
-
-    this.req = request.get('/api/' + this.state.model)
+    this.req = request.get(`/api/${this.state.model}?limit=${this.state.model.limit}&offset=${this.state.offset}`)
       .end(function (err, res) {
         if (err || res.status !== 200) {
           self.setState(self._getStateFromProps());
@@ -178,6 +181,12 @@ var App = React.createClass({
 
             <div className='table-box' ref='tableBox'>
               <div className='title'>Model</div>
+              { this.state.offset - this.state.limit >= 0 ? <Link className='icon ileft'
+                                                                  style={{position: 'absolute',top: 30,right: 65,width:30,height:30,textAlign:'center',lineHeight:'30px'}}
+                                                                  to={`/${this.state.model}?offset=${this.state.offset - this.state.limit}&limit=${this.state.limit}`}></Link> : null }
+              { this.state.rows.length == this.state.limit ? <Link className='icon iright'
+                                                                   style={{position: 'absolute',top: 30,right: 30,width:30,height:30,textAlign:'center',lineHeight:'30px'}}
+                                                                   to={`/${this.state.model}?offset=${this.state.limit + this.state.offset}&limit=${this.state.limit}`}></Link> : null }
               <Table rowHeight={37} rowGetter={rowGetter} rowsCount={this.state.rows.length} width={this.state.width}
                      height={Math.min(45 * (this.state.rows.length + 1), 500)}
                      headerHeight={37}>{

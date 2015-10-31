@@ -15,13 +15,8 @@ var App = React.createClass({
 
         <div className='container about' style={{marginTop:40}}>
           <div className='col-md-6' role='main'>
-            <h1>Overview</h1>
+            <h1>4Play Vitals</h1>
 
-            <p>The purpose of this project to is provide an interactive way to track the dependencies between
-              video-games, platforms, and game companies.</p>
-
-
-            <h2>Vitals</h2>
             <ul>
               <li>Total commits: 70</li>
               <li>Total issues: 23</li>
@@ -53,15 +48,13 @@ var App = React.createClass({
             <div style={{height:30}}></div>
           </div>
           <div className='col-md-6' role='complementary'>
-            <h1>4Play Team</h1>
-
-            <div className="row">
-              <div className="col-md-3">
+            <div className="flex row">
+              <div className="box" style={{paddingRight:20}}>
                 <div className="profile-rounded"
                      style={{backgroundImage:'url(/assets/dist/images/cathy-0.jpg)'}}/>
               </div>
 
-              <div className="col-md-8">
+              <div className="box">
                 <h5>Cathy Feng</h5>
 
                 <p>I moved here from China in 2005 and was vastly disappointed that drive thrus were, in fact, not
@@ -75,14 +68,14 @@ var App = React.createClass({
             <hr />
 
 
-            <div className="row">
-              <div className="col-md-3">
+            <div className="flex row">
+              <div className="box" style={{paddingRight:20}}>
                 <div className="profile-rounded"
                      style={{backgroundImage:'url(/assets/dist/images/matt-0.jpg)'}}/>
               </div>
 
-              <div className="col-md-8">
-                <h5>Mattew Kim</h5>
+              <div className="box">
+                <h5>Matthew Kim</h5>
 
                 <p>Student at the University of Texas at Austin completing a bachelor's degree in Computer Science. This
                   is my final semester, and I plan on building a career in software engineering after graduation.
@@ -93,13 +86,13 @@ var App = React.createClass({
             <hr />
 
 
-            <div className="row">
-              <div className="col-md-3">
+            <div className="flex row">
+              <div className="box" style={{paddingRight:20}}>
                 <div className="profile-rounded"
                      style={{backgroundImage:'url(/assets/dist/images/rahul-0.jpg)'}}/>
               </div>
 
-              <div className="col-md-8">
+              <div className="box">
                 <h5>Rahul Rajavel</h5>
 
                 <p>Computer Science and Electrical Engineering Double Major Student at the
@@ -111,12 +104,12 @@ var App = React.createClass({
             <hr />
 
 
-            <div className="row">
-              <div className="col-md-3">
+            <div className="flex row">
+              <div className="box" style={{paddingRight:20}}>
                 <div className="profile-rounded" style={{backgroundImage:'url(/assets/dist/images/mat-0.jpg)'}}/>
               </div>
 
-              <div className="col-md-8">
+              <div className="box">
                 <h5>Mathew Kurian</h5>
 
                 <p>Student at the University of Texas at Austin completing a dual major in Computer Science and
