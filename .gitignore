@@ -36,3 +36,5 @@ tokens.json
 
 __pycache__/
 *.pyc
+
+dist/
