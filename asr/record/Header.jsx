@@ -25,13 +25,6 @@ var Item = React.createClass({
       this.req.abort();
     }
 
-    clearTimeout(self.load);
-
-    var self = this;
-    this.load = setTimeout(function () {
-      self.setState({image: SPINNER});
-    }, 500);
-
     this._fetch(nextProps);
   },
   _fetch: function (props) {
@@ -42,7 +35,6 @@ var Item = React.createClass({
       .end(function (err, res) {
         if (err || res.status !== 200) return self.req = null;
         try {
-          clearTimeout(self.load);
           self.setState({image: res.body.results[0].images[0].source});
         } catch (e) {
           // ignore
@@ -56,9 +48,10 @@ var Item = React.createClass({
     var opath = this.props.path;
     return (
       <div className='flex full'>
-        <div className='box' style={{ borderRadius: 3, display: 'inline-block', marginRight: 10, position: 'relative',
-                    top: -2, verticalAlign: 'middle',backgroundImage:"url('" + (this.state.image || SPINNER) + "')",
-                    backgroundSize:'cover', height:40, width: 30, maxWidth: 30, minWidth: 30, marginRight:10,backgroundPosition:'center center'}}/>
+        { this.state.image ? <div className='box' style={{ borderRadius: 3, display: 'inline-block', marginRight: 10, position: 'relative',
+                    top: -2, verticalAlign: 'middle',backgroundImage:"url('" + this.state.image + "')",
+                    backgroundSize:'cover', height:40, width: 30, maxWidth: 30, minWidth: 30, marginRight:10,
+                    backgroundPosition:'center center'}}/> : null }
         <div className='box full'>
           {this.props[opath + '_name']}
           <div
