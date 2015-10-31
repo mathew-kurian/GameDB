@@ -6,11 +6,11 @@ async.eachSeries(fs.readdirSync('./connected'), function (file, callback) {
   var data = require('./connected/' + file);
   async.eachSeries(data, function (data, callback) {
     if (data.images.length > 10) {
-     console.info('Skipping', data.name);
-     return callback();
+      console.info('Skipping', data.name);
+      return callback();
     }
     goog({
-      q: data.name,
+      q: data.name + ' ' + file.replace('.json', ''),
       tbs: 'isz:l'
     }, function (err, links) {
       if (err) console.error(err);

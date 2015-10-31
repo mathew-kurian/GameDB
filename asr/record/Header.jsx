@@ -7,6 +7,8 @@ var Select = require('react-select');
 var request = require('superagent');
 
 
+var SPINNER = '/assets/dist/images/spinner-0.gif';
+
 var Item = React.createClass({
   getInitialState(){
     return {}
@@ -15,6 +17,9 @@ var Item = React.createClass({
     if (this.req) {
       this.req.abort();
     }
+  },
+  componentWillReceiveProps(){
+    this.setState({image: SPINNER});
   },
   componentDidMount: function () {
     var opath = this.props.path;
@@ -34,10 +39,9 @@ var Item = React.createClass({
     var opath = this.props.path;
     return (
       <div className='flex full'>
-        { this.state.image ?
-          <div className='box' style={{ borderRadius: 3, display: 'inline-block', marginRight: 10, position: 'relative',
-                    top: -2, verticalAlign: 'middle',backgroundImage:'url("' + this.state.image + '")',
-                    backgroundSize:'cover', height:40, width: 30, maxWidth: 30, minWidth: 30, marginRight:10}}/> : null }
+        <div className='box' style={{ borderRadius: 3, display: 'inline-block', marginRight: 10, position: 'relative',
+                    top: -2, verticalAlign: 'middle',backgroundImage:`url("'${this.state.image || SPINNER}'")`,
+                    backgroundSize:'cover', height:40, width: 30, maxWidth: 30, minWidth: 30, marginRight:10}}/>
         <div className='box full'>
           {this.props[opath + '_name']}
           <div
