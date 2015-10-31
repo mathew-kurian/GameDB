@@ -34,7 +34,7 @@ var App = React.createClass({
         try {
           var data = res.body.results[0];
           data.videos = _.pluck(data.videos, 'source').splice(0, 4);
-          data.images = _.pluck(data.images, 'source');
+          data.images = shuffle(_.pluck(data.images, 'source'));
           self.setState(data);
         } catch (e) {
           // ignore
@@ -131,7 +131,7 @@ var App = React.createClass({
                 <h4>Related Images</h4>
 
                 <p>Get the latest screenshots, logos, and covers</p>
-                {shuffle(this.state.images.slice()).splice(1, 3).map(function (url, i) {
+                {this.state.images.slice().splice(1, 3).map(function (url, i) {
                   return (<img src={url.replace(/^https/, 'http')} key={i} ref={'img' + i}
                                onError={self._handleImgError.bind(null, 'img' + i)}
                                className="img-rounded full-width"/>)
