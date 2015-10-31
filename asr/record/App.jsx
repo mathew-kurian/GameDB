@@ -131,7 +131,7 @@ var App = React.createClass({
                 <h4>Related Images</h4>
 
                 <p>Get the latest screenshots, logos, and covers</p>
-                {this.state.images.slice().splice(1, 3).map(function (url, i) {
+                {shuffle(this.state.images.slice()).splice(1, 3).map(function (url, i) {
                   return (<img src={url} key={i} ref={'img' + i}
                                onError={self._handleImgError.bind(null, 'img' + i)}
                                className="img-rounded full-width"/>)

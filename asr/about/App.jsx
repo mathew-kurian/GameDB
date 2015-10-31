@@ -58,7 +58,7 @@ var App = React.createClass({
             <div className="row">
               <div className="col-md-3">
                 <div className="profile-rounded"
-                     style={{backgroundImage:'url(https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/1395936_10204632727451045_3363102470207409449_n.jpg?oh=58c949608e5367b0bc411e0bb42e8864&oe=568FDA40)'}}/>
+                     style={{backgroundImage:'url(/assets/dist/images/cathy-0.jpg)'}}/>
               </div>
 
               <div className="col-md-8">
@@ -78,7 +78,7 @@ var App = React.createClass({
             <div className="row">
               <div className="col-md-3">
                 <div className="profile-rounded"
-                     style={{backgroundImage:'url(https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xpf1/t31.0-8/920083_592830954060541_1859406506_o.jpg)'}}/>
+                     style={{backgroundImage:'url(/assets/dist/images/matt-0.jpg)'}}/>
               </div>
 
               <div className="col-md-8">
@@ -96,7 +96,7 @@ var App = React.createClass({
             <div className="row">
               <div className="col-md-3">
                 <div className="profile-rounded"
-                     style={{backgroundImage:'url(https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xft1/t31.0-8/11072903_1623982707825499_467584200074503472_o.jpg)'}}/>
+                     style={{backgroundImage:'url(/assets/dist/images/rahul-0.jpg)'}}/>
               </div>
 
               <div className="col-md-8">
@@ -113,7 +113,7 @@ var App = React.createClass({
 
             <div className="row">
               <div className="col-md-3">
-                <div className="profile-rounded" style={{backgroundImage:'url(http://i.imgur.com/5rcNNQU.jpg)'}}/>
+                <div className="profile-rounded" style={{backgroundImage:'url(/assets/dist/images/mat-0.jpg)'}}/>
               </div>
 
               <div className="col-md-8">

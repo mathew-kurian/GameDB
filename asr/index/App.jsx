@@ -13,11 +13,12 @@ var App = React.createClass({
   },
   componentDidMount: function () {
     window.onresize = this._handleResize;
+    this._handleResize();
   },
   render: function () {
     return (
       <div>
-        <Parallax bgImage={"/assets/images/killzone-0.png"} strength={300}>
+        <Parallax bgImage={"/assets/dist/images/killzone-0.png"} strength={300}>
           <div style={{height:this.state.height}}>
             <div className='center-vertical' style={{paddingLeft:'50px',width:430}}>
               <div
@@ -40,7 +41,7 @@ var App = React.createClass({
             </div>
           </div>
         </Parallax>
-        <Parallax bgImage={"/assets/images/utaustin-0.jpg"} strength={100}>
+        <Parallax bgImage={"/assets/dist/images/utaustin-0.jpg"} strength={100}>
           <div style={{height:350,textAlign:"center"}}>
             <div className='center-vertical' style={{width:430,margin: "0 auto"}}>
               <div
