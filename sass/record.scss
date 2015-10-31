@@ -296,3 +296,15 @@ tr.related-link th {
   letter-spacing: 1px;
   outline: none;
 }
+
+.columns {
+  text-transform: uppercase;
+  padding: 1px 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  font-size: 12px;
+}

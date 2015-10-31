@@ -8,7 +8,7 @@ module.exports = function (grunt) {
       options: {
         banner: '/*! Grunt Uglify <%= grunt.template.today("yyyy-mm-dd") %> */ ',
         compress: {
-          drop_console: false
+          drop_console: true
         }
       },
       dist: {

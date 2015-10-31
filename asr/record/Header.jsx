@@ -47,6 +47,24 @@ var Item = React.createClass({
   }
 });
 
+var Tags = function (item) {
+  return item.split(';').map(function (col, i) {
+    return (<div className="columns" key={i}>{col}</div>)
+  });
+};
+
+var DateForm = function (v) {
+  return moment(v).format('llll');
+};
+
+var Cost = function (v) {
+  return <span style={{color:'#19A8F1'}}><b>{"$" + Number(v).toFixed(2)}</b></span>;
+};
+
+var Bool = function (v) {
+  return <span style={{color:'#FFCC00'}}><b>{Boolean(v).toString()}</b></span>;
+};
+
 var Header = React.createClass({
   getInitialState(){
     return this.props;
@@ -83,12 +101,15 @@ var Header = React.createClass({
     var data = this.props;
     return Array.prototype.slice.call(arguments).map(function (k) {
       var key = k[0];
-      var name = k.length == 2 ? k[1] : key;
-      if (!data[key]) return;
+      var name = k.length >= 2 ? k[1] : key;
+      var func = k.length >= 3 ? k[2] : function (v) {
+        return v
+      };
+      if (typeof data[key] === 'undefined' || data[key] === null) return;
       return (
         <tr key={key}>
           <th scope="row" style={{textTransform:'capitalize',whiteSpace:'nowrap'}}>{name}</th>
-          <td>{data[key]}</td>
+          <td>{func(data[key])}</td>
         </tr>
       );
     })
@@ -114,7 +135,8 @@ var Header = React.createClass({
       case "game":
         table = (
           <table className="compressed" style={{width:'100%'}}>
-            <tbody>{this.getAttributes(["deck"], ["rating"], ["release_date", "Release Date"], ["concepts"], ["genres"], ["franchises"])}</tbody>
+            <tbody>{this.getAttributes(["deck"], ["rating"], ["release_date", "Release Date", DateForm],
+              ["concepts", "Conepts", Tags], ["genres", "Genres", Tags], ["franchises", "franchises", Tags])}</tbody>
             {br}
             <tbody>
             {this._getRelatedDOM('Publishers', 'publishers', 'company')}
@@ -127,7 +149,8 @@ var Header = React.createClass({
       case "company":
         table = (
           <table className="compressed" style={{width:'100%'}}>
-            <tbody>{this.getAttributes(['deck'],["founded_date", "Founded"],["address"],["city"],["country"],["state"],["concepts"],["phone"],["website"])}</tbody>
+            <tbody>{this.getAttributes(['deck'], ["founded_date", "Founded", DateForm], ["address"], ["city"],
+              ["country"], ["state"], ["concepts", "Concepts", Tags], ["phone"], ["website"])}</tbody>
             {br}
             <tbody>
             {this._getRelatedDOM('Developed Games', 'developed_games', 'game')}
@@ -140,7 +163,8 @@ var Header = React.createClass({
       case "platform":
         table = (
           <table className="compressed" style={{width:'100%'}}>
-            <tbody>{this.getAttributes(['deck'], ["release_date", "Release Date"], ["online_support", "Online Supprt"], ["price"], ["company"], ["install_base", "Install Base"])}</tbody>
+            <tbody>{this.getAttributes(['deck'], ["release_date", "Release Date", DateForm], ["online_support", "Online Support", Bool],
+              ["price", "Price", Cost], ["company"], ["install_base", "Install Base"])}</tbody>
             {br}
             <tbody>
             {this._getRelatedDOM('Games', 'games', 'game')}
