@@ -18,14 +18,19 @@ var Item = React.createClass({
       this.req.abort();
     }
   },
-  componentWillReceiveProps(){
+  componentWillReceiveProps(nextProps){
+    if (this.req) {
+      this.req.abort();
+    }
+
     this.setState({image: SPINNER});
+    this._fetch(nextProps);
   },
-  componentDidMount: function () {
-    var opath = this.props.path;
+  _fetch: function (props) {
+    var opath = props.path;
     var self = this;
 
-    this.req = request.get('/api/' + opath + '/' + this.props[opath + '_id'])
+    this.req = request.get('/api/' + opath + '/' + props[opath + '_id'])
       .end(function (err, res) {
         if (err || res.status !== 200) return self.req = null;
         try {
@@ -34,6 +39,9 @@ var Item = React.createClass({
           // ignore
         }
       });
+  },
+  componentDidMount: function () {
+    this._fetch(this.props);
   },
   render(){
     var opath = this.props.path;
