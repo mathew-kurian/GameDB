@@ -40,7 +40,7 @@ var Item = React.createClass({
     return (
       <div className='flex full'>
         <div className='box' style={{ borderRadius: 3, display: 'inline-block', marginRight: 10, position: 'relative',
-                    top: -2, verticalAlign: 'middle',backgroundImage:`url("'${this.state.image || SPINNER}'")`,
+                    top: -2, verticalAlign: 'middle',backgroundImage:"url('" + (this.state.image || SPINNER) + "')",
                     backgroundSize:'cover', height:40, width: 30, maxWidth: 30, minWidth: 30, marginRight:10}}/>
         <div className='box full'>
           {this.props[opath + '_name']}
