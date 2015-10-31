@@ -2,8 +2,11 @@ var React = require('react');
 var Header = require('./Header.jsx');
 var FixedDataTable = require('fixed-data-table');
 var _ = require('underscore');
-var moment = require ('moment');
+var moment = require('moment');
 var Path = require('object-path');
+var request = require('superagent');
+
+import {Link} from 'react-router'
 
 var Table = FixedDataTable.Table;
 var Column = FixedDataTable.Column;
@@ -15,60 +18,99 @@ var SortTypes = {
 
 var App = React.createClass({
   getInitialState() {
-    var props = window.props;
-    props.width = 825 - 60;
+    return this._getStateFromProps(this.props);
+  },
+  _getStateFromProps: function (props) {
+    var model;
+    var state;
 
-    var columns = props.columns;
-    var rows = props.rows;
-
-    if (rows.length && !Array.isArray(rows[0])) {
-      var _rows = [];
-      for (var r = 0; r < rows.length; r++) {
-        var row = rows[r];
-        var _row = [];
-        for (var i = 0; i < columns.length; i++) {
-          var name = columns[i].split(':');
-          if (name.length > 1) {
-            _row.push(_.pluck(row[name[0]], name[1]).join('; '));
-          } else if (name[0].indexOf('.') > -1) {
-            try {
-              _row.push(Path.get(row, name[0]));
-            } catch (e) {
-              console.error(e);
-              console.log(row);
-            }
-          } else {
-            _row.push(row[name[0]]);
-          }
-        }
-        _rows.push(_row);
-      }
-
-      props.rows = _rows;
+    if (props) {
+      model = props.params.model;
+      state = props.route[model];
     }
 
+    if (!state) {
+      state = {};
+      state.title = 'Not Found';
+      state.description = 'Model not found. Available models are games, companies, and platforms';
+      state.overview = 'No records found';
+      state.theme = '#BBB';
+      state.model = 'invalid';
+    } else {
+      state.model = model;
+    }
 
-    return props;
+    state.rows = [];
+    state.columns = [];
+    state.width = (this.state ? this.state.width : null) || (825 - 60);
+
+    return state;
   },
   _updateTableWidth: function () {
     var node = React.findDOMNode(this.refs.tableBox);
+    if (!node) return;
     var currWidth = node.offsetWidth - 60;
     if (currWidth !== this.state.width) {
       this.setState({width: node.offsetWidth - 60});
     }
   },
+  componentWillUnmount: function () {
+    if (this.req) {
+      this.req.abort();
+    }
+  },
+  componentWillReceiveProps(nextProps){
+    if (this.req) {
+      this.req.abort();
+    }
+
+    var self = this;
+    this.setState(this._getStateFromProps(nextProps));
+    setTimeout(function () {
+      self._fetch();
+      self._updateTableWidth();
+    }, 500);
+  },
+  _fetch(){
+
+    var self = this;
+
+    this.req = request.get('/api/' + this.state.model)
+      .end(function (err, res) {
+        if (err || res.status !== 200) {
+          self.setState(self._getStateFromProps());
+          return self.req = null;
+        }
+
+        try {
+
+          var rows = [], columns = ['id', 'name', 'deck'];
+
+          (res.body.results || []).forEach(function (record) {
+            var row = [];
+            columns.forEach(function (col) {
+              row.push(record[col]);
+            });
+            rows.push(row);
+          });
+
+          self.setState({rows: rows, columns: columns})
+        } catch (e) {
+          // ignore
+        }
+      });
+  },
   componentDidMount() {
     var self = this;
 
-    document.title = this.state.title;
-
+    this._fetch();
     this._updateTableWidth();
 
     window.onresize = function () {
       self._updateTableWidth();
     }
   },
-  _headerRenderer: function (label, cellDataKey) {
+  _headerRenderer(label, cellDataKey) {
     return <div style={{color:'#fff',cursor:'pointer'}} onClick={this._sortRowsBy.bind(null, cellDataKey)}>{label}</div>
   },
   _sortRowsBy(cellDataKey) {
@@ -107,12 +149,14 @@ var App = React.createClass({
     if (column > 1)
       return <div
         style={{whiteSpace: 'nowrap', opacity: column > 1 ? 0.5 : 1, textOverflow: 'ellipsis', overflow: 'hidden', width: 250}}>{typeof data === 'string' && data.length > 50 ? data.substring(0, 50) : (this.state.columns[column].indexOf('date') > -1 ? (data ? moment(data).format('lll') : 'TBD') : String(data))}</div>;
-    return <a style={{whiteSpace: 'nowrap'}} href={this.state.mode + "/" + row[0]}>{data}</a>
+    return <Link style={{whiteSpace: 'nowrap'}} to={'/' + this.state.record + "/" + row[0]}>{data}</Link>
   },
   render() {
 
     var self = this;
     var sortDirArrow = '';
+
+    document.title = this.state.title;
 
     if (this.state.sortDir !== null) {
       sortDirArrow = this.state.sortDir === SortTypes.DESC ? ' ↓' : ' ↑';
@@ -153,7 +197,7 @@ var App = React.createClass({
           </div>
           <div className='col-md-3' role='complementary'>
             <h4>Important Attributes</h4>
-            {this.state.columns.map(function (col, i) {
+            {(this.state.columns.length ? this.state.columns : ['no attributes']).map(function (col, i) {
               return (<div className="columns" key={i}>{col}</div>)
             })}
             <div style={{height:30}}></div>

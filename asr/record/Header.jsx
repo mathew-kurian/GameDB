@@ -1,142 +1,182 @@
 var React = require('react');
 var _ = require('underscore');
 var moment = require('moment');
+import { Link } from 'react-router'
+import history from '../History'
+var Select = require('react-select');
+var request = require('superagent');
 
-var NOT_AVAILABLE = '';
 
-var Header = React.createClass({
+var Item = React.createClass({
   getInitialState(){
     return {}
   },
-  _getRelatedDOM(title, key, path){
+  componentWillUnmount: function () {
+    if (this.req) {
+      this.req.abort();
+    }
+  },
+  componentDidMount: function () {
+    var opath = this.props.path;
+    var self = this;
+
+    this.req = request.get('/api/' + opath + '/' + this.props[opath + '_id'])
+      .end(function (err, res) {
+        if (err || res.status !== 200) return self.req = null;
+        try {
+          self.setState({image: res.body.results[0].images[0].source});
+        } catch (e) {
+          // ignore
+        }
+      });
+  },
+  render(){
+    var opath = this.props.path;
+    return (
+      <div className='flex full'>
+        { this.state.image ?
+          <div className='box' style={{ borderRadius: 3, display: 'inline-block', marginRight: 10, position: 'relative',
+                    top: -2, verticalAlign: 'middle',backgroundImage:'url("' + this.state.image + '")',backgroundSize:'cover', height:40, width: 30, maxWidth: 30, minWidth: 30, marginRight:10}}/> : null }
+        <div className='box full'>
+          {this.props[opath + '_name']}
+          <div
+            style={{letterSpacing:0,fontSize:12,textTransform:'none',opacity:0.5}}>{this.props[opath + '_deck']}</div>
+        </div>
+      </div>
+    )
+  }
+});
+
+var Header = React.createClass({
+  getInitialState(){
+    return this.props;
+  },
+  componentWillReceiveProps(nextProps){
+    this.setState(nextProps);
+  },
+  _getRelatedDOM(title, key, opath){
     if (!this.props[key]) return null;
     return (
+
       <tr className='related-link'>
-        <th scope="row">{title}</th>
-        <td>{_.map(this.props[key], function (item, i) {
-          return (
-            <a key={i} href={path + item.id}>{item.name}</a>
-          )
-        })}</td>
+        <td colSpan={2} scope="row" style={{width:'100%'}}>
+          <Select optionRenderer={function(option){
+            if (!option.item[opath + '_deck']){
+               return option.label;
+            }
+
+            return (
+              <div style={{width:'100%',padding:5}}>
+                  <Item {...option.item} path={opath}/>
+              </div>
+            );
+          }} name="form-field-name" placeholder={'Select ' + title} options={_.map(this.props[key], function (item, i) {
+            return {value: '/' + opath + '/' + item[opath + '_id'], label: item[opath + '_name'], item:item};
+          })} onChange={function(path){
+            history.pushState(null, path);
+          }}/>
+        </td>
       </tr>
     )
+  },
+  getAttributes(){
+    var data = this.props;
+    return Array.prototype.slice.call(arguments).map(function (k) {
+      var key = k[0];
+      var name = k.length == 2 ? k[1] : key;
+      if (!data[key]) return;
+      return (
+        <tr key={key}>
+          <th scope="row" style={{textTransform:'capitalize',whiteSpace:'nowrap'}}>{name}</th>
+          <td>{data[key]}</td>
+        </tr>
+      );
+    })
   },
   render(){
     var tbody;
 
+    var br = (
+      <tbody>
+      <tr>
+        <td colSpan={2} style={{width:'100%',height:10}}/>
+      </tr>
+      <tr>
+        <td colSpan={2} style={{width:'100%',height:2,background:'rgba(255,255,255,0.1)'}}/>
+      </tr>
+      <tr>
+        <td colSpan={2} style={{width:'100%',height:10}}/>
+      </tr>
+      </tbody>
+    );
+
     switch (this.props.mode) {
-      case "games":
-        tbody = (
-          <tbody>
-          <tr>
-            <th scope="row">Genres</th>
-            <td>{_.pluck(this.props.genres, 'name').join('; ') || NOT_AVAILABLE}</td>
-          </tr>
-          <tr>
-            <th scope="row">Deck</th>
-            <td>{this.props.deck || NOT_AVAILABLE}</td>
-          </tr>
-          <tr>
-            <th scope="row">Release Date</th>
-            <td>{moment(this.props.original_release_date).format('lll') || NOT_AVAILABLE}</td>
-          </tr>
-          {this._getRelatedDOM('Publishers', 'publishers', '/companies/')}
-          {this._getRelatedDOM('Developers', 'developers', '/companies/')}
-          {this._getRelatedDOM('Platforms', 'platforms', '/platforms/')}
-          </tbody>
+      case "game":
+        table = (
+          <table className="compressed" style={{width:'100%'}}>
+            <tbody>{this.getAttributes(["deck"], ["rating"], ["release_date", "Release Date"], ["concepts"], ["genres"], ["franchises"])}</tbody>
+            {br}
+            <tbody>
+            {this._getRelatedDOM('Publishers', 'publishers', 'company')}
+            {this._getRelatedDOM('Developers', 'developers', 'company')}
+            {this._getRelatedDOM('Platforms', 'platforms', 'platform')}
+            </tbody>
+          </table>
         );
         break;
-      case "companies":
-        tbody = (
-          <tbody>
-          <tr>
-            <th scope="row">Address</th>
-            <td>{this.props.location_address || NOT_AVAILABLE}</td>
-          </tr>
-          <tr>
-            <th scope="row">City</th>
-            <td>{this.props.location_city || NOT_AVAILABLE}</td>
-          </tr>
-          <tr>
-            <th scope="row">State</th>
-            <td>{this.props.location_state || NOT_AVAILABLE}</td>
-          </tr>
-          <tr>
-            <th scope="row">County</th>
-            <td>{this.props.location_country || NOT_AVAILABLE}</td>
-          </tr>
-          <tr>
-            <th scope="row">Founded</th>
-            <td>{this.props.date_founded ? moment(this.props.date_founded).format('MMM YYYY') : NOT_AVAILABLE}</td>
-          </tr>
-          <tr>
-            <th scope="row">Phone</th>
-            <td>{this.props.phone || NOT_AVAILABLE}</td>
-          </tr>
-          <tr>
-            <th scope="row">Website</th>
-            <td>{this.props.website || NOT_AVAILABLE}</td>
-          </tr>
-          <tr>
-            <th scope="row">Deck</th>
-            <td>{this.props.deck}</td>
-          </tr>
-          {this._getRelatedDOM('Developed Games', 'developed_games', '/games/')}
-          {this._getRelatedDOM('Published Games', 'published_games', '/games/')}
-          {this._getRelatedDOM('Platforms', 'platforms', '/platforms/')}
-          </tbody>
+      case "company":
+        table = (
+          <table className="compressed" style={{width:'100%'}}>
+            <tbody>{this.getAttributes(['deck'],["founded_date", "Founded"],["address"],["city"],["country"],["state"],["concepts"],["phone"],["website"])}</tbody>
+            {br}
+            <tbody>
+            {this._getRelatedDOM('Developed Games', 'developed_games', 'game')}
+            {this._getRelatedDOM('Published Games', 'published_games', 'game')}
+            {this._getRelatedDOM('Platforms', 'platforms', 'platform')}
+            </tbody>
+          </table>
         );
         break;
-      case "platforms":
-        tbody = (
-          <tbody>
-          <tr>
-            <th scope="row">Company</th>
-            <td>{this.props.company ? this.props.company.name : NOT_AVAILABLE}</td>
-          </tr>
-          <tr>
-            <th scope="row">Price</th>
-            <td>{this.props.original_price || NOT_AVAILABLE}</td>
-          </tr>
-          <tr>
-            <th scope="row">Date</th>
-            <td>{this.props.release_date ? moment(this.props.release_date).format('llll') : NOT_AVAILABLE}</td>
-          </tr>
-          <tr>
-            <th scope="row">Deck</th>
-            <td>{this.props.deck || NOT_AVAILABLE}</td>
-          </tr>
-          {this._getRelatedDOM('Games', 'games', '/games/')}
-          {this._getRelatedDOM('Companies', 'companies', '/companies/')}
-          </tbody>
+      case "platform":
+        table = (
+          <table className="compressed" style={{width:'100%'}}>
+            <tbody>{this.getAttributes(['deck'], ["release_date", "Release Date"], ["online_support", "Online Supprt"], ["price"], ["company"], ["install_base", "Install Base"])}</tbody>
+            {br}
+            <tbody>
+            {this._getRelatedDOM('Games', 'games', 'game')}
+            {this._getRelatedDOM('Companies', 'companies', 'company')}
+            </tbody>
+          </table>
         );
         break;
     }
 
+    var backgroundImage = 'url("' + (Array.isArray(this.props.images) ? this.props.images[0] : null) + '")';
+
     return (
       <div style={{background:'rgba(0,0,0,0.4)',position:'relative'}}>
         <div className='blur'
-             style={{width:'100%',height:'100%',top:0,left:0, backgroundImage: 'url(' + (this.props.company_logo ? "http://igdb.com/" +  this.props.company_logo.url : this.props.images[0]) + ')',backgroundPosition:'center center',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#555', position:'absolute',zIndex:-1}}/>
+             style={{width:'100%',height:'100%',top:0,left:0, backgroundImage:backgroundImage,backgroundPosition:'center center',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#555', position:'absolute',zIndex:-1}}/>
         <div className="container" style={{position:'relative'}}>
           <nav className="navbar">
             <ul className="nav navbar-nav">
               <li>
-                <a href="../index.html">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="../about.html">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a className={this.props.mode === 'games' ? 'active nav-active' : null}
-                   href="../games.html">Games</a>
+                <Link className={this.props.mode === 'game' ? 'active nav-active' : null}
+                      to="/games">Games</Link>
               </li>
               <li>
-                <a className={this.props.mode === 'platforms' ? 'active nav-active' : null}
-                   href="../platforms.html">Platforms</a>
+                <Link className={this.props.mode === 'platform' ? 'active nav-active' : null}
+                      to="/platforms">Platforms</Link>
               </li>
               <li>
-                <a className={this.props.mode === 'companies' ? 'active nav-active' : null}
-                   href="../companies.html">Companies</a>
+                <Link className={this.props.mode === 'company' ? 'active nav-active' : null}
+                      to="/companies">Companies</Link>
               </li>
             </ul>
           </nav>
@@ -145,15 +185,13 @@ var Header = React.createClass({
           <div className="container">
             <div className='col-md-3'>
               <div
-                style={{width:'100%', display:'inline-block', height: 250, borderRadius: 5,backgroundImage: 'url(' + (this.props.company_logo ? "http://igdb.com/" +  this.props.company_logo.url : this.props.images[0]) + ')',backgroundPosition:'center center',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#555',verticalAlign:'top'}}
+                style={{width:'100%', display:'inline-block', height: 250, borderRadius: 5,backgroundImage: backgroundImage,backgroundPosition:'center center',backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#555',verticalAlign:'top'}}
                 className='img-rounded'/>
             </div>
             <div className="col-md-9">
               <h1
                 style={{display:'inline-block',fontSize:'41px',color:'#FFF',fontWeight:'bold',letterSpacing:'1px',textTransform:'uppercase',verticalAlign:'top',marginTop:0}}>{this.props.name}</h1>
-              <table className="compressed">
-                { tbody }
-              </table>
+              { table }
             </div>
           </div>
         </div>

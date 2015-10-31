@@ -14,7 +14,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: 'public/dist/asr',
-          src: ['**/Bootstrap.js'],
+          src: ['**/Bootstrap.js', 'Bootstrap.js'],
           dest: 'public/dist/asr',
           ext: '.min.js'
         }]
@@ -62,9 +62,29 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: 'asr',
-          src: ['**/Bootstrap.jsx'],
+          src: ['**/Bootstrap.jsx', 'Bootstrap.jsx'],
           dest: 'public/dist/asr',
           ext: '.js'
+        }]
+      },
+      dev: {
+        options: {
+          watch: true,
+          keepAlive: true,
+          transform: [require('babelify').configure({
+            blacklist: ["regenerator", "useStrict"]
+          })],
+          browserifyOptions: {
+            debug: true, // source mapping
+            ignoreMTime: true
+          }
+        },
+        files: [{
+          expand: true,
+          cwd: 'asr',
+          src: ['**/Bootstrap.jsx', 'Bootstrap.jsx'],
+          dest: 'public/dist/asr',
+          ext: '.min.js' // NOTE mimic uglifyjs has been run
         }]
       }
     },
@@ -80,31 +100,15 @@ module.exports = function (grunt) {
       dist: {
         src: 'public/dist/css/*.css'
       }
-    }, jade: {
-      dist: {
-        compileDebug: true,
-        options: {
-          data: {
-            assets: '/public/'
-          }
-        },
-        files: [{
-          expand: true,
-          cwd: 'templates/',
-          src: ['*.jade', '**/*.jade'],
-          dest: './',
-          ext: '.html'
-        }]
-      }
     }
   });
 
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-postcss');
 
-  grunt.registerTask('build', ['sass:dev', 'sass:dist',/* 'jade:dist',*/ 'postcss:dist', 'browserify:dist','uglify:dist']);
-  //grunt.registerTask('auto-build', ['sass:dev', 'sass:dist', 'postcss:dist', 'browserify:dist', 'uglify:dist']); // TODO
+  grunt.registerTask('css', ['sass:dist', 'postcss:dist']);
+  grunt.registerTask('build', ['sass:dev', 'sass:dist', 'postcss:dist', 'browserify:dist', 'uglify:dist']);
+  grunt.registerTask('auto-build', ['sass:dev', 'sass:dist', 'postcss:dist', 'browserify:dev']);
 };

@@ -45,7 +45,8 @@ def to_json(arg, **kwargs):
 
 class GamePlatform(Base, Serializer):
     __tablename__ = 'game_platforms'
-    __public__ = ['game_id', 'platform_id', 'platform_name', 'game_name']
+    __public__ = ['game_id', 'platform_id', 'platform_name', 'game_name', 'platform_deck', 'game_deck', 'game_image',
+                  'platform_image']
 
     id = Column(Integer, primary_key=True)
     game_id = Column(Integer, ForeignKey('games.id'))
@@ -65,7 +66,8 @@ class GamePlatform(Base, Serializer):
 
 class GameCompany(Base, Serializer):
     __tablename__ = 'games_companies'
-    __public__ = ['game_id', 'company_id', 'game_name', 'company_name']
+    __public__ = ['game_id', 'company_id', 'game_name', 'company_name', 'company_deck', 'game_deck', 'game_image',
+                  'company_image']
 
     id = Column(Integer, primary_key=True)
     game_id = Column(Integer, ForeignKey('games.id'))
@@ -281,16 +283,50 @@ GamePlatform.platform_name = column_property(
     select([Platform.name]).where(Platform.id == GamePlatform.platform_id)
 )
 
+GameCompany.game_deck = column_property(
+    select([Game.deck]).where(Game.id == GameCompany.game_id)
+)
+
+GameCompany.company_deck = column_property(
+    select([Company.deck]).where(Company.id == GameCompany.company_id)
+)
+
+GamePlatform.game_deck = column_property(
+    select([Game.deck]).where(Game.id == GamePlatform.game_id)
+)
+
+GamePlatform.platform_deck = column_property(
+    select([Platform.deck]).where(Platform.id == GamePlatform.platform_id)
+)
+
+GameCompany.game_image = column_property(
+    select([Game.images]).where(Game.id == GameCompany.game_id).limit(1)
+)
+
+GameCompany.company_image = column_property(
+    select([Company.images]).where(Company.id == GameCompany.company_id).limit(1)
+)
+
+GamePlatform.game_image = column_property(
+    select([Game.images]).where(Game.id == GamePlatform.game_id).limit(1)
+)
+
+GamePlatform.platform_image = column_property(
+    select([Platform.images]).where(Platform.id == GamePlatform.platform_id).limit(1)
+)
+
 
 # views
 
 class CompanyPlatform(Base, Serializer):
-    __public__ = ['company_id', 'platform_id', 'platform_name', 'company_name']
+    __public__ = ['company_id', 'platform_id', 'platform_name', 'company_name', 'platform_deck', 'company_deck']
     __mapper_args__ = {
         'primary_key': [GameCompany.company_id, GamePlatform.platform_id]}
     __table__ = select(
         [GameCompany.company_id, GamePlatform.platform_id, GamePlatform.platform_name.label('platform_name'),
-         GameCompany.company_name.label('company_name')]). \
+         GameCompany.company_name.label('company_name'), GamePlatform.platform_deck.label('platform_deck'),
+         GameCompany.company_deck.label('company_deck'), GamePlatform.platform_image.label('platform_image'),
+         GameCompany.company_image.label('company_image')]). \
         select_from(
         join(GameCompany, GamePlatform,
              GameCompany.game_id == GamePlatform.game_id)

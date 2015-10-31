@@ -3,7 +3,7 @@ var Header = require('./Header.jsx');
 
 var App = React.createClass({
   getInitialState() {
-    return window.props;
+    return this.props.route;
   },
   componentDidMount() {
     document.title = this.state.title;
@@ -42,7 +42,8 @@ var App = React.createClass({
                 images. Techniques such as DOM manipulation via. JQuery, we were able to extract images. We also spoofed
                 the header in order to get the "large" images for best quality on the webpages.
               </li>
-              <li><a href="https://www.igdb.com/api/v1/documentation/">IGDB</a> with their well-documented a set of REST api
+              <li><a href="https://www.igdb.com/api/v1/documentation/">IGDB</a> with their well-documented a set of REST
+                api
                 endpoints which helped us collect more detailed information about the games. We found different media
                 such as logos, walkthroughs, and screenshots. We hope to acquire more information in Phase 2 such as
                 rating and game priace.
@@ -63,9 +64,12 @@ var App = React.createClass({
               <div className="col-md-8">
                 <h5>Cathy Feng</h5>
 
-                <p>I moved here from China in 2005 and was vastly disappointed that drive thrus were, in fact, not robots
+                <p>I moved here from China in 2005 and was vastly disappointed that drive thrus were, in fact, not
+                  robots
                   who brought your food out for you. Other than that I've been pretty satisfied with the US and hope
-                  to get a job in something that has nothing to do with threads and concurrency one day. During phase 1 most of my effort was put into the technical report, writing ~1/3 of it as well as editing. I made 3 commits, did not make any issues and have not yet written any unit tests.</p>
+                  to get a job in something that has nothing to do with threads and concurrency one day. During phase 1
+                  most of my effort was put into the technical report, writing ~1/3 of it as well as editing. I made 3
+                  commits, did not make any issues and have not yet written any unit tests.</p>
               </div>
             </div>
             <hr />
@@ -80,8 +84,10 @@ var App = React.createClass({
               <div className="col-md-8">
                 <h5>Mattew Kim</h5>
 
-                <p>Student at the University of Texas at Austin completing a bachelor's degree in Computer Science. This is my final semester, and I plan on building a career in software engineering after graduation.
-                During this project, I worked on creating the unit tests and the data models. During my time working in phase 1, I submitted 4 commits and wrote 9 unit tests.</p>
+                <p>Student at the University of Texas at Austin completing a bachelor's degree in Computer Science. This
+                  is my final semester, and I plan on building a career in software engineering after graduation.
+                  During this project, I worked on creating the unit tests and the data models. During my time working
+                  in phase 1, I submitted 4 commits and wrote 9 unit tests.</p>
               </div>
             </div>
             <hr />
@@ -96,10 +102,10 @@ var App = React.createClass({
               <div className="col-md-8">
                 <h5>Rahul Rajavel</h5>
 
-                <p>Computer Science and Electrical Engineering Double Major Student at the 
-                University of Texas at Austin. This is my 3rd year. My hobbies are basketball and tennis. 
-                During the project, I focused on documentation, working on the Apiary and the UML diagram.
-                I made 11 commits, filed 5 issues, wrote 0 unit tests.</p>
+                <p>Computer Science and Electrical Engineering Double Major Student at the
+                  University of Texas at Austin. This is my 3rd year. My hobbies are basketball and tennis.
+                  During the project, I focused on documentation, working on the Apiary and the UML diagram.
+                  I made 11 commits, filed 5 issues, wrote 0 unit tests.</p>
               </div>
             </div>
             <hr />

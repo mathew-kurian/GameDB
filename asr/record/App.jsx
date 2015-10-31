@@ -1,38 +1,79 @@
 var React = require('react');
 var Header = require('./Header.jsx');
-
-function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
-
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-
-  return array;
-}
+var _ = require('underscore');
+var request = require('superagent');
 
 var App = React.createClass({
   getInitialState() {
-    window.props.images = shuffle(window.props.images || []);
-    return window.props;
+    return this._getStateFromProps(this.props);
+  },
+  _getStateFromProps(props){
+    var state = {};
+
+    if (!props) {
+      state.name = 'Not found';
+      state.deck = 'Provided model and id cannot be found in database';
+    } else {
+      state.id = props.params.id;
+      state.model = props.params.model;
+      state.mode = props.params.model;
+    }
+
+    return state;
+  },
+  _fetch(){
+    var self = this;
+
+    this.req = request.get('/api/' + this.state.model + '/' + this.state.id)
+      .end(function (err, res) {
+        if (err || res.status !== 200) {
+          self.setState(self._getStateFromProps());
+          return self.req = null;
+        }
+
+        try {
+          var data = res.body.results[0];
+          data.videos = _.pluck(data.videos, 'source').splice(0, 4);
+          data.images = _.pluck(data.images, 'source');
+          self.setState(data);
+        } catch (e) {
+          // ignore
+        }
+      });
+  },
+  _setIFrameSrc(){
+    var iframes = document.getElementsByTagName('iframe');
+    for (var i = 0; i < iframes.length; i++) {
+      var src = iframes[i].getAttribute('data-src');
+      iframes[i].contentWindow.location.replace(src);
+    }
+  },
+  componentWillUnmount: function () {
+    if (this.req) {
+      this.req.abort();
+    }
   },
   componentDidMount() {
-    document.title = this.state.name;
+    this._fetch();
   },
-  _handleImgError: function (ref_id) {
+  componentDidUpdate(){
+    this._setIFrameSrc();
+  },
+  componentWillReceiveProps(nextProps){
+    if (this.req) {
+      this.req.abort();
+    }
+
+    this.setState(this._getStateFromProps(nextProps));
+    setTimeout(this._fetch, 500);
+  },
+  _handleImgError (ref_id) {
     var node = React.findDOMNode(this.refs[ref_id]);
     node.style.display = 'none';
   },
   render() {
+
+    document.title = this.state.name;
 
     var self = this;
     var videos = this.state.videos || [];
@@ -42,19 +83,22 @@ var App = React.createClass({
     }
 
     var videoRows = [];
+    var description = this.state.description || '';
+
+    if (description && description.length < 50) {
+      description = 'No summary found'
+    }
 
     for (var i = 0; i < videos.length; i += 2) {
       videoRows.push(
         <div className="row" key={i}>
           <div className="col-md-6">
-            <iframe style={{marginBottom:20}} className='full-width'
-                    src={videos[i].embed_url}
-                    width="500" height="213" frameBorder="0" allowFullScreen></iframe>
+            <iframe style={{marginBottom:20}} className='full-width' data-src={videos[i]} width="500" height="213"
+                    frameBorder="0" allowFullScreen></iframe>
           </div>
           {videos[i + 1] ? <div className="col-md-6">
-            <iframe style={{marginBottom:20}} className='full-width'
-                    src={videos[i + 1].embed_url}
-                    width="500" height="213" frameBorder="0" allowFullScreen></iframe>
+            <iframe style={{marginBottom:20}} className='full-width' data-src={videos[i + 1]} width="500" height="213"
+                    frameBorder="0" allowFullScreen></iframe>
           </div> : null }
         </div>
       );
@@ -69,7 +113,7 @@ var App = React.createClass({
             <h1>Summary</h1>
 
             <div className="lead"
-                 dangerouslySetInnerHTML={{__html:(this.state.summary || this.state.description || "No summary found").replace(/<a[^>]*>(.*?)<\/a>/g,"$1")}}></div>
+                 dangerouslySetInnerHTML={{__html:description.replace(/<a[^>]*>(.*?)<\/a>/g,"$1")}}></div>
 
             <br />
 
@@ -82,14 +126,19 @@ var App = React.createClass({
             <div style={{height:30}}></div>
           </div>
           <div className='col-md-3' role='complementary'>
-            <h4>Related Images</h4>
+            { Array.isArray(this.state.images) ?
+              <div>
+                <h4>Related Images</h4>
 
-            <p>Get the latest screenshots, logos, and covers</p>
-            {this.state.images.slice().splice(1, 3).map(function (url, i) {
-              return (<img src={url} key={i} ref={'img' + i} onError={self._handleImgError.bind(null, 'img' + i)}
-                           className="img-rounded full-width"/>)
-            })}
-            <div style={{height:30}}></div>
+                <p>Get the latest screenshots, logos, and covers</p>
+                {this.state.images.slice().splice(1, 3).map(function (url, i) {
+                  return (<img src={url} key={i} ref={'img' + i}
+                               onError={self._handleImgError.bind(null, 'img' + i)}
+                               className="img-rounded full-width"/>)
+                })}
+                <div style={{height:30}}></div>
+              </div>
+              : null }
           </div>
         </div>
       </div>

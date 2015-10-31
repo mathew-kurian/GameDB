@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@import "fonts", "bootstrap", "reset";
+
+* {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+body {
+  background: #444;
+  color: #fff;
+}
+
+p {
+  opacity: 0.7;
+}
+
+.flex {
+  display: flex !important;
+  &.center {
+    align-items: center;
+    justify-content: center;
+    > .centered {
+      max-width: 50%;
+    }
+  }
+}
+
+.vertical {
+  box-orient: vertical;
+  flex-direction: column;
+  flex: 1;
+}
+
+.box {
+  flex: auto;
+  height: 100%;
+}
+
+.p-about {
+  @import "model";
+  @import "about";
+}
+
+.p-index {
+  @import "index";
+}
+
+.p-model {
+  @import "model";
+}
+
+.p-record {
+  @import "react-select";
+  @import "record";
+}

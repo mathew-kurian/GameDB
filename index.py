@@ -4,6 +4,7 @@ import time
 
 from flask import Flask, render_template, abort, make_response, request
 from flask.ext.compress import Compress
+from sqlalchemy.orm import joinedload
 
 from db import *
 
@@ -16,66 +17,13 @@ app.debug = True
 session = get_session(echo=False)
 
 
-# with open('scripts/giantbomb/connected/games.json') as f:
-#     games_db = json.load(f)
-#
-# with open('scripts/giantbomb/connected/companies.json') as f:
-#     companies_db = json.load(f)
-#
-# with open('scripts/giantbomb/connected/platforms.json') as f:
-#     platforms_db = json.load(f)
-#
-#
-# def router(db, model, id=-1):
-#     if id == -1: return render_template('models/' + model + '.jade', assets='/assets/', props=json.dumps(db))
-#     for i in db:
-#         if i['id'] == id:
-#             i['mode'] = model;
-#             return render_template('records/' + model + '.jade', assets='/assets/', props=json.dumps(i))
-#     abort(404)
-#
-#
-# @app.route('/')
-# @app.route('/index')
-# @app.route('/index.html')
-# def index():
-#     return render_template('index.jade', assets='/assets/')
-#
-#
-# @app.route('/about')
-# @app.route('/about.html')
-# def about():
-#     return render_template('about.jade', assets='/assets/')
-#
-#
-# @app.route('/games')
-# @app.route('/games/<int:id>')
-# @app.route('/games.html')
-# def games(id=-1):
-#     return router(games_db, 'games', id)
-#
-#
-# @app.route('/platforms')
-# @app.route('/platforms/<int:id>')
-# @app.route('/platforms.html')
-# def platforms(id=-1):
-#     return router(platforms_db, 'platforms', id)
-#
-#
-# @app.route('/companies')
-# @app.route('/companies/<int:id>')
-# @app.route('/companies.html')
-# def companies(id=-1):
-#     return router(companies_db, 'companies', id)
-
-
-def send_api_response(func, table):
+def send_api_response(func, tables, table):
     start_time = time.time()
     res = {'status': 1, 'message': 'Success', 'results': []}
 
-    if table:
+    if table in tables:
         try:
-            doc = func(table)
+            doc = func(tables[table])
             if doc:
                 res['status'] = 0
                 res['results'] += doc if isinstance(doc, list) else [doc]
@@ -93,11 +41,6 @@ def send_api_response(func, table):
     return res
 
 
-def p(a):
-    print(a)
-    return a
-
-
 @app.route('/api/<string:table>')
 @app.route('/api/<string:table>/')
 @app.route('/api/<string:table>/<int:id>')
@@ -105,11 +48,30 @@ def api(table, id=-1):
     if id == -1:
         offset = request.args.get('offset', default=0, type=int)
         limit = max(min(request.args.get('limit', default=25, type=int), 25), 0)
-        return send_api_response(lambda t: session.query(t).limit(limit).offset(offset).all(),
-                                 {'companies': Company, 'games': Game, 'platforms': Platform}[table])
+        return send_api_response(
+            lambda t: [dict((m, getattr(i, m)) for m in ('id', 'name', 'deck', 'images')) for i in
+                       session.query(t).limit(limit).offset(offset).all()],
+            {'companies': Company, 'games': Game, 'platforms': Platform}, table)
     return send_api_response(lambda t: session.query(t).get(id),
-                             {'company': Company, 'game': Game, 'platform': Platform}[table])
+                             {'company': Company, 'game': Game, 'platform': Platform}, table)
+
+
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def index(path):
+    return render_template('dynamic.jade')
+
+
+@app.after_request
+def add_header(response):
+    """
+    Add headers to both force latest IE rendering engine or Chrome Frame,
+    and also to cache the rendered page for 10 minutes.
+    """
+    response.headers['X-UA-Compatible'] = 'IE=Edge,chrome=1'
+    response.headers['Cache-Control'] = 'public, max-age=6000000'
+    return response
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=80)

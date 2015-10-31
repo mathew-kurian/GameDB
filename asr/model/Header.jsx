@@ -1,4 +1,5 @@
 var React = require('react');
+import { Link } from 'react-router'
 
 var Header = React.createClass({
   getInitialState(){
@@ -11,22 +12,22 @@ var Header = React.createClass({
           <nav className="navbar">
             <ul className="nav navbar-nav">
               <li>
-                <a href="index.html">Home</a>
+                <Link to="/index">Home</Link>
               </li>
               <li>
-                <a href="about.html">About</a>
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a className={this.props.mode === 'games' ? 'active nav-active' : null}
-                   href="games.html">Games</a>
+                <Link className={this.props.mode === 'games' ? 'active nav-active' : null}
+                      to="/games">Games</Link>
               </li>
               <li>
-                <a className={this.props.mode === 'platforms' ? 'active nav-active' : null}
-                   href="platforms.html">Platforms</a>
+                <Link className={this.props.mode === 'platforms' ? 'active nav-active' : null}
+                      to="/platforms">Platforms</Link>
               </li>
               <li>
-                <a className={this.props.mode === 'companies' ? 'active nav-active' : null}
-                   href="companies.html">Companies</a>
+                <Link className={this.props.mode === 'companies' ? 'active nav-active' : null}
+                      to="/companies">Companies</Link>
               </li>
             </ul>
           </nav>
