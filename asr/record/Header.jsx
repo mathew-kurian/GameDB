@@ -17,13 +17,21 @@ var Item = React.createClass({
     if (this.req) {
       this.req.abort();
     }
+
+    clearTimeout(self.load);
   },
   componentWillReceiveProps(nextProps){
     if (this.req) {
       this.req.abort();
     }
 
-    this.setState({image: SPINNER});
+    clearTimeout(self.load);
+
+    var self = this;
+    this.load = setTimeout(function () {
+      self.setState({image: SPINNER});
+    }, 500);
+
     this._fetch(nextProps);
   },
   _fetch: function (props) {
@@ -34,6 +42,7 @@ var Item = React.createClass({
       .end(function (err, res) {
         if (err || res.status !== 200) return self.req = null;
         try {
+          clearTimeout(self.load);
           self.setState({image: res.body.results[0].images[0].source});
         } catch (e) {
           // ignore
