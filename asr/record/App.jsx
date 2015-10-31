@@ -132,7 +132,7 @@ var App = React.createClass({
 
                 <p>Get the latest screenshots, logos, and covers</p>
                 {shuffle(this.state.images.slice()).splice(1, 3).map(function (url, i) {
-                  return (<img src={url} key={i} ref={'img' + i}
+                  return (<img src={url.replace(/^https/, 'http')} key={i} ref={'img' + i}
                                onError={self._handleImgError.bind(null, 'img' + i)}
                                className="img-rounded full-width"/>)
                 })}
