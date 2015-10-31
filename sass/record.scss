@@ -289,6 +289,10 @@ tr.related-link th {
   }
 }
 
-input {
+.Select-input > input {
+  font-size: 12px !important;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   outline: none;
 }
