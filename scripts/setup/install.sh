@@ -61,4 +61,5 @@ apt-get -y install mysql-server
 mysql -u root --password=123456 -e "create database IF NOT EXISTS idb CHARACTER SET = utf8mb4"
 
 python3 migrate.py
-pm2 start -i 0 -x --interpreter python3 index.py
+pm2 start -i 1 -x --interpreter python3 index.py
+pm2 restart index
