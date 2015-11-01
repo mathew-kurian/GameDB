@@ -1,20 +1,26 @@
 #!/usr/bin/env python3
 
 import time
+import argparse
 
-from flask import Flask, render_template, abort, make_response, request
+from flask import Flask, render_template, make_response, request
 from flask.ext.compress import Compress
-from sqlalchemy.orm import joinedload
 
 from db import *
+
+parser = argparse.ArgumentParser()
+parser.add_argument("-p", "--port", type=int, default=80)
+parser.add_argument("-d", "--debug", action='store_true')
+args = parser.parse_args()
 
 app = Flask(__name__, static_folder='public', static_url_path='/assets')
 Compress(app)
 
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
-app.debug = True
+app.debug = args.debug
 
 session = get_session(echo=False)
+
 
 
 def send_api_response(func, tables, table):
@@ -59,7 +65,7 @@ def api(table, id=-1):
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def index(path):
-    return render_template('dynamic.jade')
+    return render_template('client.jade')
 
 
 @app.after_request
@@ -74,4 +80,4 @@ def add_header(response):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=args.port)

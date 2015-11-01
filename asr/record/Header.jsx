@@ -6,7 +6,6 @@ import history from '../History'
 var Select = require('react-select');
 var request = require('superagent');
 
-
 var SPINNER = '/assets/dist/images/spinner-0.gif';
 
 var Item = React.createClass({
@@ -71,7 +70,7 @@ var Tags = function (item) {
 var DateForm = function (v) {
   return <span style={{color:'#CCC',position:'relative',top:2}}><span className='icon calendar'
                                                                       style={{marginRight:5}}></span><span
-    style={{fontSize:13}}><b>{moment(v).format('llll')}</b></span></span>;
+    style={{fontSize:13}}><b>{moment(v).format('LL')}</b></span></span>;
 };
 
 var Cost = function (v) {

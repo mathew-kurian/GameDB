@@ -38,7 +38,7 @@ render((
         mode: 'about',
         title: 'About',
         overview: "See all the companies available in the database",
-        theme: '#e67e22'
+        theme: '#FF5722'
       }}/>
       <Route path=":model" query={{range: 0,offset: 0}} component={Model} rootClassName="p-model" {...{
         companies: {
@@ -47,21 +47,21 @@ render((
           title: 'Companies',
           description: "A video game publisher is a company that publishes video games that they have either developed internally or have had developed by a video game developer; while a video game developer is a software developer that specializes in video game development – the process and related disciplines of creating video games.",
           overview: "See all the companies available in the database",
-          theme: '#e67e22'
+          theme: '#2196F3'
         }, games: {
           mode: 'games',
           record: 'game',
           title: 'Games',
           description: "Structured playing, usually undertaken for enjoyment and sometimes used as an educational tool. Games are distinct from work, which is usually carried out for remuneration, and from art, which is more often an expression of aesthetic or ideological elements.",
           overview: "See all the games available in the database",
-          theme: '#FFE108'
+          theme: '#FFC107'
         }, platforms: {
           mode: 'platforms',
           record: 'platform',
           title: 'Platforms',
           description: "A video game console is a device that outputs a video signal or visual image to display a video game. The term \"video game console\" is used to distinguish a console machine primarily designed for consumers to use for playing video games in contrast to arcade machines or home computers. It includes home video game consoles, handheld game consoles, microconsoles and dedicated consoles.",
           overview: "See all the platforms available in the database",
-          theme: '#1abc9c'
+          theme: '#8BC34A'
         }
       }}/>
       <Route path=":model/:id" component={Record} rootClassName="p-record"/>

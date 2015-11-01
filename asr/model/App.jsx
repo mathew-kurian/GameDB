@@ -1,5 +1,5 @@
 var React = require('react');
-var Header = require('./Header.jsx');
+var Header = require('../about/Header.jsx');
 var FixedDataTable = require('fixed-data-table');
 var _ = require('underscore');
 var moment = require('moment');
@@ -68,12 +68,15 @@ var App = React.createClass({
       this.req.abort();
     }
 
-    var self = this;
     this.setState(this._getStateFromProps(nextProps));
-    setTimeout(function () {
-      self._fetch();
-      self._updateTableWidth();
+
+    setTimeout(()=> {
+      this._fetch();
+      this._updateTableWidth();
     }, 500);
+  },
+  componentDidUpdate(){
+    this._updateTableWidth();
   },
   _fetch(){
 

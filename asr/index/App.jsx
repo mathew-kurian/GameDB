@@ -18,7 +18,7 @@ var App = React.createClass({
   render: function () {
     return (
       <div>
-        <Parallax bgImage={"/assets/dist/images/killzone-0.png"} strength={300}>
+        <Parallax bgImage={"/assets/dist/images/killzone-2.jpg"} strength={300}>
           <div style={{height:this.state.height}}>
             <div className='center-vertical' style={{paddingLeft:'50px',width:430}}>
               <div

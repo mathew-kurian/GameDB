@@ -2,6 +2,7 @@
 var mozjpeg = require('imagemin-mozjpeg');
 
 module.exports = function (grunt) {
+  require('time-grunt')(grunt);
 
   grunt.initConfig({
     uglify: {
@@ -103,17 +104,16 @@ module.exports = function (grunt) {
       }
     },
     imagemin: {
-      dist: {                          // Target
-        options: {                       // Target options
+      dist: {
+        options: {
           optimizationLevel: 3,
-          svgoPlugins: [{removeViewBox: false}],
-          use: [mozjpeg()]
+          svgoPlugins: [{removeViewBox: false}]
         },
         files: [{
-          expand: true,                  // Enable dynamic expansion
-          cwd: 'public/images/',                   // Src matches are relative to this path
-          src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
-          dest: 'public/dist/images'                  // Destination path prefix
+          expand: true,
+          cwd: 'public/images/',
+          src: ['**/*.{png,jpg,gif}'],
+          dest: 'public/dist/images'
         }]
       }
     }
@@ -126,6 +126,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-postcss');
 
   grunt.registerTask('css', ['sass:dist', 'postcss:dist']);
-  grunt.registerTask('build', ['sass:dev', 'sass:dist', 'postcss:dist', 'browserify:dist', 'uglify:dist', 'imagemin']);
+  grunt.registerTask('build', ['sass:dev', 'sass:dist', 'postcss:dist', 'browserify:dist', 'uglify:dist']);
+  grunt.registerTask('default', 'build');
   grunt.registerTask('auto-build', ['sass:dev', 'sass:dist', 'postcss:dist', 'browserify:dev']);
 };

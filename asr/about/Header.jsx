@@ -7,7 +7,7 @@ var Header = React.createClass({
   },
   render(){
     return (
-      <div style={{background:this.props.theme}}>
+      <div style={{background:this.props.theme}} className='animate-2'>
         <div className="container" style={{position:'relative'}}>
           <nav className="navbar">
             <ul className="nav navbar-nav">
