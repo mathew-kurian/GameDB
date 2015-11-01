@@ -1,5 +1,5 @@
 var React = require('react');
-import {Parallax} from 'react-parallax';
+var Parallax = require('react-parallax');
 import {Link} from 'react-router'
 
 var H = 30;
