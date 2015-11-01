@@ -1,20 +1,23 @@
 #!/usr/bin/env python3
+import os
 
 import time
 import argparse
 
 from flask import Flask, render_template, make_response, request
 from flask.ext.compress import Compress
+from flask.ext.cors import CORS
 
 from db import *
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-p", "--port", type=int, default=80)
+parser.add_argument("-p", "--port", type=int, default=int(os.environ.get("PORT", 5000)))
 parser.add_argument("-d", "--debug", action='store_true')
 args = parser.parse_args()
 
 app = Flask(__name__, static_folder='public', static_url_path='/assets')
 Compress(app)
+CORS(app)
 
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 app.debug = args.debug
