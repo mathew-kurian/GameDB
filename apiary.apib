@@ -35,7 +35,9 @@ Returns the game specified by ID = game_id
 These are the fields that will describe a game:
 
 + Name: Name of the game
++ Rating: Average rating for this game
 + ReleaseDate: Original release date of the game
++ Franchises: Franchises for the game
 + Genres: Array of Genres
 + Description: Summary of game
 + Deck: Overview of game
@@ -88,27 +90,6 @@ These are the fields that will describe a game:
                     }
                 ]
             }
-        
-
-#### Search [GET /games/search?filter[column_operation]={val}]
-
-Output a list of games that meet the search criteria {key} = {val}
-
-Example: GET /games/search?Name=Monopoly+Millionaire 
-returns a list of games with name "Monopoly Millionaire"
-
-+ Response 201 (application/json)
-
-        [
-            {
-                "Id": 40080,
-                "Name": "Monopoly Millionaire"
-            },
-            {
-                "Id": 5000,
-                "Name": "Codemasters"
-            }
-        ]
 
 # Group Company
 
@@ -141,6 +122,7 @@ These are the fields that will describe a company:
 
 + Name
 + ID
++ FoundedDate
 + LocationAddress
 + LocationCity
 + LocationState
@@ -150,6 +132,7 @@ These are the fields that will describe a company:
 + Website: Company website
 + Description: Summary of game
 + DevelopedGames: Array of games developed
++ Concepts: Company values, mission statement
 + PublishedGames: Array of games published
 + Platforms: Array of platforms developed/published on
 
@@ -194,26 +177,6 @@ These are the fields that will describe a company:
                 ]
             }
         
-
-#### Search [GET /companies/search?filter[column_operation]={val}]
-
-Output a list of companies that meet the search criteria {key} = {val}
-
-Example: GET /companies/search?Name=Riot+Games 
-returns a list of companies with name "Riot Games"
-
-+ Response 201 (application/json)
-
-        [
-            {
-                "Id": 40080,
-                "Name": "Riot Games"
-            },
-            {
-                "Id": 5000,
-                "Name": "Codemasters"
-            }
-        ]
         
 # Group Platform
 
@@ -248,6 +211,7 @@ These are the fields that will describe a platform:
 + ID
 + ReleaseDate
 + Price
++ InstallBase
 + OnlineSupport: Platform provides online support
 + Description=
 + Deck: Short summary
@@ -285,23 +249,3 @@ These are the fields that will describe a platform:
             "http://static.giantbomb.com/uploads/scale_medium/5/56742/2495936-9012444134_80ba47fd6e_o.jpg"
         ]
 }
-
-#### Search [GET /platforms/search?filter[column_operation]={val}]
-
-Output a list of games that meet the search criteria {key} = {val}
-
-Example: GET /platforms/search?Name=PS4 
-returns a list of platforms with name "PS4"
-
-+ Response 201 (application/json)
-
-        [
-            {
-                "Id": 211,
-                "Name": "PS4"
-            },
-            {
-                "Id": 3981,
-                "Name": "Xbox"
-            }
-        ]
