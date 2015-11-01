@@ -11,7 +11,7 @@ from flask.ext.cors import CORS
 from db import *
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-p", "--port", type=int, default=int(os.environ.get("PORT", 5000)))
+parser.add_argument("-p", "--port", type=int, default=int(os.environ.get("PORT", 80)))
 parser.add_argument("-d", "--debug", action='store_true')
 args = parser.parse_args()
 
