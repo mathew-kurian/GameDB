@@ -18,14 +18,13 @@ var App = React.createClass({
             <h1>4Play Vitals</h1>
 
             <ul>
-              <li>Total commits: 70</li>
-              <li>Total issues: 23</li>
+              <li>Total commits: 189</li>
+              <li>Total issues: 36</li>
               <li>Unit tests: 10</li>
               <li><a href="http://docs.games10.apiary.io/#">Apiary Documentation</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/">Public Repository</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/wiki">Wiki</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/issues">Issue Tracker</a></li>
-              <li>Total commits: 70</li>
             </ul>
 
             <h2>Sources</h2>
@@ -44,6 +43,9 @@ var App = React.createClass({
                 rating and game priace.
               </li>
             </ul>
+
+            <h3>Unit Tests</h3>
+            <p>Once I figure out how to run unit tests inside this html code I will add to this. </p>
 
             <div style={{height:30}}></div>
           </div>
