@@ -12,20 +12,43 @@ var Item = React.createClass({
   getInitialState(){
     return {}
   },
-  render(){
-    var opath = this.props.path;
-    var image = null;
-
-    try {
-      image = this.props[opath + '_images'][0].source;
-    } catch (e) {
-
+  componentWillUnmount: function () {
+    if (this.req) {
+      this.req.abort();
     }
 
+    clearTimeout(self.load);
+  },
+  componentWillReceiveProps(nextProps){
+    if (this.req) {
+      this.req.abort();
+    }
+
+    this._fetch(nextProps);
+  },
+  _fetch: function (props) {
+    var opath = props.path;
+    var self = this;
+
+    this.req = request.get('/api/' + opath + '/' + props[opath + '_id'])
+      .end(function (err, res) {
+        if (err || res.status !== 200) return self.req = null;
+        try {
+          self.setState({image: res.body.results[0].images[0].source});
+        } catch (e) {
+          // ignore
+        }
+      });
+  },
+  componentDidMount: function () {
+    this._fetch(this.props);
+  },
+  render(){
+    var opath = this.props.path;
     return (
       <div className='flex full'>
-        { image ? <div className='box' style={{ borderRadius: 3, display: 'inline-block', marginRight: 10, position: 'relative',
-                    top: -2, verticalAlign: 'middle',backgroundImage:"url('" + image + "')",
+        { this.state.image ? <div className='box' style={{ borderRadius: 3, display: 'inline-block', marginRight: 10, position: 'relative',
+                    top: -2, verticalAlign: 'middle',backgroundImage:"url('" + this.state.image + "')",
                     backgroundSize:'cover', height:40, width: 30, maxWidth: 30, minWidth: 30, marginRight:10,
                     backgroundPosition:'center center'}}/> : null }
         <div className='box full'>
