@@ -61,11 +61,13 @@ var App = React.createClass({
   componentWillUnmount: function () {
     if (this.req) {
       this.req.abort();
+      this.req = null;
     }
   },
   componentWillReceiveProps(nextProps){
     if (this.req) {
       this.req.abort();
+      this.req = null;
     }
 
     this.setState(this._getStateFromProps(nextProps));
@@ -81,6 +83,7 @@ var App = React.createClass({
   _fetch(){
 
     var self = this;
+    this.setState({fetch: true});
     this.req = request.get(`/api/${this.state.model}?limit=${this.state.model.limit}&offset=${this.state.offset}`)
       .end(function (err, res) {
         if (err || res.status !== 200) {
@@ -100,8 +103,9 @@ var App = React.createClass({
             rows.push(row);
           });
 
-          self.setState({rows: rows, columns: columns})
+          self.setState({rows: rows, columns: columns, fetch: false});
         } catch (e) {
+          self.setState({fetch: false});
           // ignore
         }
       });
@@ -184,12 +188,12 @@ var App = React.createClass({
 
             <div className='table-box' ref='tableBox'>
               <div className='title'>Model</div>
-              { this.state.offset - this.state.limit >= 0 ? <Link className='icon ileft'
-                                                                  style={{position: 'absolute',top: 30,right: 65,width:30,height:30,textAlign:'center',lineHeight:'30px'}}
-                                                                  to={`/${this.state.model}?offset=${this.state.offset - this.state.limit}&limit=${this.state.limit}`}></Link> : null }
-              { this.state.rows.length == this.state.limit ? <Link className='icon iright'
-                                                                   style={{position: 'absolute',top: 30,right: 30,width:30,height:30,textAlign:'center',lineHeight:'30px'}}
-                                                                   to={`/${this.state.model}?offset=${this.state.limit + this.state.offset}&limit=${this.state.limit}`}></Link> : null }
+              { this.state.offset - this.state.limit >= 0 && !this.state.fetch ? <Link className='icon ileft'
+                                                                                       style={{position: 'absolute',top: 30,right: 65,width:30,height:30,textAlign:'center',lineHeight:'30px'}}
+                                                                                       to={`/${this.state.model}?offset=${this.state.offset - this.state.limit}&limit=${this.state.limit}`}></Link> : null }
+              { this.state.rows.length == this.state.limit && !this.state.fetch ? <Link className='icon iright'
+                                                                                        style={{position: 'absolute',top: 30,right: 30,width:30,height:30,textAlign:'center',lineHeight:'30px'}}
+                                                                                        to={`/${this.state.model}?offset=${this.state.limit + this.state.offset}&limit=${this.state.limit}`}></Link> : null }
               <Table rowHeight={37} rowGetter={rowGetter} rowsCount={this.state.rows.length} width={this.state.width}
                      height={Math.min(45 * (this.state.rows.length + 1), 500)}
                      headerHeight={37}>{

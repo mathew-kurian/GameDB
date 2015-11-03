@@ -63,3 +63,5 @@ mysql -u root --password=123456 -e "create database IF NOT EXISTS idb CHARACTER 
 python3 migrate.py
 pm2 start -i 1 -x --interpreter python3 index.py
 pm2 restart index
+
+grunt build
