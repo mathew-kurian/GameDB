@@ -44,7 +44,7 @@ def migrate(session=None):
 
     Base.metadata.create_all(session.bind)
 
-    with open('scripts/giantbomb/csv/games.json') as f:
+    with open('scripts/giantbomb/json/games.json') as f:
         for i in ijson.items(f, 'item'):
             session.add(Game(**{
                 'id': i["id"],
@@ -66,7 +66,7 @@ def migrate(session=None):
     if close:
         session.commit()
 
-    with open('scripts/giantbomb/csv/companies.json') as f:
+    with open('scripts/giantbomb/json/companies.json') as f:
         for i in ijson.items(f, 'item'):
             session.add(Company(**{
                 'id': i['id'],
@@ -83,15 +83,13 @@ def migrate(session=None):
                 'description': i['description']
             }))
 
-        f.close()
-
     gc.collect()
     print('finished companies.json')
 
     if close:
         session.commit()
 
-    with open('scripts/giantbomb/csv/platforms.json') as f:
+    with open('scripts/giantbomb/json/platforms.json') as f:
         for i in ijson.items(f, 'item'):
             session.add(Platform(**{
                 'id': i['id'],
@@ -105,15 +103,13 @@ def migrate(session=None):
                 'description': i['description']
             }))
 
-        f.close()
-
     gc.collect()
     print('finished platforms.json')
 
     if close:
         session.commit()
 
-    with open('scripts/giantbomb/csv/games-companies.json') as f:
+    with open('scripts/giantbomb/json/games-companies.json') as f:
         for i in ijson.items(f, 'item'):
             session.add(GameCompany(**{
                 'game_id': i['game'],
@@ -121,22 +117,18 @@ def migrate(session=None):
                 'role': i['relation']
             }))
 
-        f.close()
-
     gc.collect()
     print('finished games-companies.json')
 
     if close:
         session.commit()
 
-    with open('scripts/giantbomb/csv/games-platforms.json') as f:
+    with open('scripts/giantbomb/json/games-platforms.json') as f:
         for i in ijson.items(f, 'item'):
             session.add(GamePlatform(**{
                 'platform_id': i['platform'],
                 'game_id': i['game']
             }))
-
-        f.close()
 
     gc.collect()
     print('finished games-platforms.json')
@@ -144,7 +136,7 @@ def migrate(session=None):
     if close:
         session.commit()
 
-    with open('scripts/giantbomb/csv/images.json') as f:
+    with open('scripts/giantbomb/json/images.json') as f:
         for i in ijson.items(f, 'item'):
             session.add(Url(**{
                 'entity_id': i['id'],
@@ -153,15 +145,13 @@ def migrate(session=None):
                 'source': i['image']
             }))
 
-        f.close()
-
     gc.collect()
     print('finished images.json')
 
     if close:
         session.commit()
 
-    with open('scripts/giantbomb/csv/videos.json') as f:
+    with open('scripts/giantbomb/json/videos.json') as f:
         for i in ijson.items(f, 'item'):
             session.add(Url(**{
                 'entity_id': i['id'],
@@ -169,8 +159,6 @@ def migrate(session=None):
                 'type': 'video',
                 'source': i['video']
             }))
-
-        f.close()
 
     gc.collect()
     print('finished videos.json')

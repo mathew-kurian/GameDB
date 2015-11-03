@@ -11,16 +11,28 @@ class Test(TestCase):
         # self.session.commit()
 
     def test_game_1(self):
-        entity = to_dict(self.session.query(Game).get(29935))
-        self.assertEqual(entity['name'], "Mass Effect 3")
+        ## test that id indexed get is working with an id
+        entity = self.session.query(Game).get(29935)
+        self.assertEqual(entity.name, "Mass Effect 3")
 
-    def test_company_1(self):
-        entity = to_dict(self.session.query(Company).get(1))
-        self.assertEqual(entity['name'], "Electronic Arts")
+    def test_game_2(self):
+        ## test that id indexed get is working with an id
+        entity = self.session.query(Game).get(478)
+        self.assertEqual(entity.name "Z")
+
+    def test_game_3(self):
+        ## test that id indexed get is working with an id
+        entity = self.session.query(Game).get(56)
+        self.assertEqual(entity.name, "Squarez Deluxe!")
+
+    def test_company_1(self):     
+        ## test that id indexed get is working with an id
+        entity = self.session.query(Company).get(1)
+        self.assertEqual(entity.name, "Electronic Arts")
 
     def test_platforms_1(self):
-        entity = to_dict(self.session.query(Platform).get(146))
-        self.assertEqual(entity['name'], "PlayStation 4")
+        entity = self.session.query(Platform).get(146)
+        self.assertEqual(entity.name, "PlayStation 4")
 
     def test_rows_1(self):
         print(to_dict(self.session.query(Game.publishers).limit(4).offset(5).all()))
