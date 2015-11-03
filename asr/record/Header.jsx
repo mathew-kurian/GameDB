@@ -12,13 +12,6 @@ var Item = React.createClass({
   getInitialState(){
     return {}
   },
-  componentWillReceiveProps(nextProps){
-    if (this.req) {
-      this.req.abort();
-    }
-
-    this._fetch(nextProps);
-  },
   render(){
     var opath = this.props.path;
     var image = null;
