@@ -65,6 +65,6 @@ require('./connected/platforms.json').forEach(function (game) {
 json2csv({data: require('./connected/platforms.json'), fields: fields},
   function (err, csv) {
     if (err) console.log(err);
-    fs.writeFileSync('./csv/platforms.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync('./json/platforms.json', JSON.stringify(data, null, 2));
     fs.writeFileSync('./csv/platforms.csv', csv, {encoding: 'utf8'});
   });

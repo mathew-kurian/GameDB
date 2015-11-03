@@ -77,6 +77,6 @@ require('./connected/companies.json').forEach(function (game) {
 json2csv({data: require('./connected/companies.json'), fields: fields},
   function (err, csv) {
     if (err) console.log(err);
-    fs.writeFileSync('./csv/companies.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync('./json/companies.json', JSON.stringify(data, null, 2));
     fs.writeFileSync('./csv/companies.csv', csv, {encoding: 'utf8'});
   });

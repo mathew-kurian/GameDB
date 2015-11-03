@@ -81,6 +81,6 @@ require('./connected/games.json').forEach(function (game) {
 json2csv({data: require('./connected/games.json'), fields: fields},
   function (err, csv) {
     if (err) console.log(err);
-    fs.writeFileSync('./csv/games.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync('./json/games.json', JSON.stringify(data, null, 2));
     fs.writeFileSync('./csv/games.csv', csv, {encoding: 'utf8'});
   });

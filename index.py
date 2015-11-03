@@ -25,7 +25,6 @@ app.debug = args.debug
 session = get_session(echo=False)
 
 
-
 def send_api_response(func, tables, table):
     start_time = time.time()
     res = {'status': 1, 'message': 'Success', 'results': []}

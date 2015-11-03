@@ -20,7 +20,7 @@ async.eachSeries(fs.readdirSync('./connected'), function (file, callback) {
   json2csv({data: data, fields: ['id', 'video', 'relation']},
     function (err, csv) {
       if (err) console.log(err);
-      fs.writeFileSync('./csv/videos.csv', csv, {encoding: 'utf8'});
+      fs.writeFileSync('./json/videos.csv', csv, {encoding: 'utf8'});
       fs.writeFileSync('./csv/videos.json', JSON.stringify(data, null, 2));
     });
 });
