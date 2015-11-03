@@ -6,7 +6,7 @@ from db import *
 
 class Test(TestCase):
     def setUp(self):
-        self.session = get_session(echo=True)
+        self.session = get_session(echo=False)
         # migrate(self.session)
         # self.session.commit()
 
@@ -25,17 +25,17 @@ class Test(TestCase):
         entity = self.session.query(Game).get(56)
         self.assertEqual(entity.name, "Squarez Deluxe!")
 
-    def test_company_1(self):     
+    def test_company_1(self):
         ## test that id indexed get is working with an id
         entity = self.session.query(Company).get(1)
         self.assertEqual(entity.name, "Electronic Arts")
 
-    def test_company_2(self):     
+    def test_company_2(self):
         ## test that id indexed get is working with another id
         entity = self.session.query(Company).get(33)
         self.assertEqual(entity.name, "n-Space, Inc.")
 
-    def test_company_3(self):     
+    def test_company_3(self):
         ## test that id indexed get is working with another id
         entity = self.session.query(Company).get(66)
         self.assertEqual(entity.name, "MicroProse Software, Inc.")

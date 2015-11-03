@@ -1,5 +1,11 @@
 var React = require('react');
 var Header = require('./Header.jsx');
+var brace = require('brace');
+var AceEditor = require('react-ace');
+var request = require('superagent');
+
+require('brace/mode/python');
+require('brace/theme/monokai');
 
 var App = React.createClass({
   getInitialState() {
@@ -7,6 +13,27 @@ var App = React.createClass({
   },
   componentDidMount() {
     document.title = this.state.title;
+  },
+  runTests(){
+    if (this.state.running) {
+      return false;
+    }
+
+    var self = this;
+    this.setState({running: true});
+
+    request
+      .get('/run-tests')
+      .end(function (err, res) {
+        if (err) {
+          console.error(err);
+        } else {
+          self.setState({console: (self.state.console || '') + '\n' + res.text})
+        }
+
+        self.setState({running: false});
+      });
+
   },
   render() {
     return (
@@ -44,6 +71,15 @@ var App = React.createClass({
                 rating and game priace.
               </li>
             </ul>
+
+            <h3>Test Console</h3>
+
+            <a onClick={this.runTests} style={{opacity:this.state.running ? 0.5 : 1, color: '#000', padding: '4px 6px', fontSize: 12, fontWeight: 400, background: '#CCC',borderRadius: 3, textTransform: 'uppercase', display: 'inline-block', letterSpacing: 1, marginTop: 0, marginBottom: 10,cursor:'pointer',textDecoration: 'none'}}>run unit tests</a>
+
+            <div style={{width:'100%',height:200,borderRadius:4,overflow:'hidden'}}>
+              <AceEditor mode="python" theme="monokai" value={this.state.console || 'No tests have been run'}
+                         name="unit-tests" editorProps={{$blockScrolling: true}} height="100%" width='100%'/>
+            </div>
 
             <div style={{height:30}}></div>
           </div>

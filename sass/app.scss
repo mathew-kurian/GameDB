@@ -35,6 +35,11 @@ p {
   flex: auto;
 }
 
+// Ace Editor BUGFIX
+.ace_editor * {
+  font-family: Monaco, Consolas, "Source Code Pro", monospace !important;
+}
+
 .animate-2 {
   transition: all 2s;
 }

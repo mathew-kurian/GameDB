@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 import os
-
+import subprocess
 import time
 import argparse
 
-from flask import Flask, render_template, make_response, request
+from flask import Flask, render_template, make_response, request, Response
 from flask.ext.compress import Compress
 from flask.ext.cors import CORS
 
@@ -23,6 +23,16 @@ app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 app.debug = args.debug
 
 session = get_session(echo=False)
+
+
+def run_command(exe):
+    p = subprocess.Popen(exe, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    while True:
+        retcode = p.poll()  # returns None while subprocess is running
+        line = p.stdout.readline()
+        yield line
+        if retcode is not None:
+            break
 
 
 def send_api_response(func, tables, table):
@@ -44,9 +54,7 @@ def send_api_response(func, tables, table):
         res['message'] = 'Table not found'
 
     res['time'] = "%.2fs" % (time.time() - start_time)
-    res = make_response(to_json(res), 404 if res['status'] else 200)
-    res.mimetype = 'application/json'
-    return res
+    return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
 
 
 @app.route('/api/<string:table>')
@@ -62,6 +70,15 @@ def api(table, id=-1):
             {'companies': Company, 'games': Game, 'platforms': Platform}, table)
     return send_api_response(lambda t: session.query(t).get(id),
                              {'company': Company, 'game': Game, 'platform': Platform}, table)
+
+
+@app.route('/run-tests')
+def tests():
+    res = ''
+    for i in run_command('python3 tests.py'.split()):
+        res += i.decode("utf-8")
+
+    return Response(res, mimetype='text/plain')
 
 
 @app.route('/', defaults={'path': ''})
