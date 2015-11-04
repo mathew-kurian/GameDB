@@ -63,9 +63,6 @@ class Test(TestCase):
         entity = self.session.query(Platform).get(23)
         self.assertEqual(entity.name, "GameCube")
         print("Platform Test 3\nExpected Output: " + "GameCube\nTest Output: " + entity.name + "\n")
-        
-    def test_rows_1(self):
-        print("Rows Test 1\n" + to_json(self.session.query(Game.publishers).limit(4).offset(5).all(), indent = 2) + "\n")
 
     def tearDown(self):
         self.session.close()
