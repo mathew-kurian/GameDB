@@ -29,6 +29,11 @@ class Test(TestCase):
         self.assertEqual(entity.name, "Squarez Deluxe!")
         print("Game Test 3\nExpected Output: " + "Squarez Deluxe!\nTest Output: " + entity.name + "\n")
 
+    def test_game_4(self):
+        entity = self.session.query(Game).get(139)
+        self.assertEqual(entity.name, "Tearaway Thomas")
+        print("Game Test 4\nExpected Output: Tearaway Thomas\nTestOUtput: " + entity.name + "\n")
+
     def test_company_1(self):
         ## test that id indexed get is working with an id
         entity = self.session.query(Company).get(1)
@@ -46,6 +51,12 @@ class Test(TestCase):
         entity = self.session.query(Company).get(66)
         self.assertEqual(entity.name, "MicroProse Software, Inc.")
         print("Company Test 3\nExpected Output: " + "MicroProse Software, Inc.\nTest Output: " + entity.name + "\n")
+
+    def test_company_4(self):
+        ## test that id indexed get is working with another id
+        entity = self.session.query(Company).get(52)
+        self.assertEqual(entity.name, "Deep Silver")
+        print("Company Test 4\nExpected Output: " + "Deep Silver\nTest Output: " + entity.name + "\n")
 
     def test_platforms_1(self):
         entity = self.session.query(Platform).get(146)
