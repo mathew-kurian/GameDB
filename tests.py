@@ -75,6 +75,21 @@ class Test(TestCase):
         self.assertEqual(entity.name, "GameCube")
         print("Platform Test 3\nExpected Output: " + "GameCube\nTest Output: " + entity.name + "\n")
 
+    def test_gameplatform_1(self):
+        entity = self.session.query(GamePlatform).get(2)
+        self.assertEqual(entity.game_name, "Baldur's Gate")
+        self.assertEqual(entity.platform_name, "PC")
+
+    def test_gameplatform_2(self):
+        entity = self.session.query(GamePlatform).get(14)
+        self.assertEqual(entity.game_name, "The Journeyman Project: Pegasus Prime")
+        self.assertEqual(entity.platform_name, "PC")
+
+    def test_gameplatform_3(self):
+        entity = self.session.query(GamePlatform).get(55)
+        self.assertEqual(entity.game_name, "James Pond 2: Codename: RoboCod")
+        self.assertEqual(entity.platform_name, "PC")
+
     def tearDown(self):
         self.session.close()
 
