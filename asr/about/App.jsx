@@ -3,7 +3,6 @@ var Header = require('./Header.jsx');
 var brace = require('brace');
 var AceEditor = require('react-ace');
 var request = require('superagent');
-var nocache = require('superagent-no-cache');
 
 require('brace/mode/python');
 require('brace/theme/monokai');
@@ -24,8 +23,7 @@ var App = React.createClass({
     this.setState({running: true});
 
     request
-      .get('/run-tests')
-      .use(nocache)
+      .get('/run-tests?__id=' + Date.now())
       .end(function (err, res) {
         if (err) {
           console.error(err);
