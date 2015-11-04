@@ -43,7 +43,15 @@ class Test(TestCase):
     def test_platforms_1(self):
         entity = self.session.query(Platform).get(146)
         self.assertEqual(entity.name, "PlayStation 4")
-
+    def test_platforms_2(self):
+        ## test that id indexed get is working with an id
+        entity = self.session.query(Platform).get(1)
+        self.assertEqual(entity.name, "Amiga")
+		
+    def test_platforms_3(self):
+        ## test that id indexed get is working with an id
+        entity = self.session.query(Platform).get(23)
+        self.assertEqual(entity.name, "GameCube")
     def test_rows_1(self):
         print(to_dict(self.session.query(Game.publishers).limit(4).offset(5).all()))
 
