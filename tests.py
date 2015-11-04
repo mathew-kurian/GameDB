@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import json
 from unittest import main, TestCase
 from db import *
 
@@ -64,7 +65,7 @@ class Test(TestCase):
         print("Platform Test 3\nExpected Output: " + "GameCube\nTest Output: " + entity.name + "\n")
         
     def test_rows_1(self):
-        print("Rows Test 1\n" + to_dict(self.session.query(Game.publishers).limit(4).offset(5).all()) + "\n")
+        print("Rows Test 1\n" + to_json(self.session.query(Game.publishers).limit(4).offset(5).all(), indent = 2) + "\n")
 
     def tearDown(self):
         self.session.close()
