@@ -14,46 +14,57 @@ class Test(TestCase):
         ## test that id indexed get is working with an id
         entity = self.session.query(Game).get(29935)
         self.assertEqual(entity.name, "Mass Effect 3")
+        print("Game Test 1\nExpected Output: " + "Mass Effect 3\nTest Output: " + entity.name + "\n")
 
     def test_game_2(self):
         ## test that id indexed get is working with another id
         entity = self.session.query(Game).get(478)
         self.assertEqual(entity.name, "Z")
+        print("Game Test 2\nExpected Output: " + "Z\nTest Output: " + entity.name + "\n")
 
     def test_game_3(self):
         ## test that id indexed get is working with another id
         entity = self.session.query(Game).get(56)
         self.assertEqual(entity.name, "Squarez Deluxe!")
+        print("Game Test 3\nExpected Output: " + "Squarez Deluxe!\nTest Output: " + entity.name + "\n")
 
     def test_company_1(self):
         ## test that id indexed get is working with an id
         entity = self.session.query(Company).get(1)
         self.assertEqual(entity.name, "Electronic Arts")
+        print("Company Test 1\nExpected Output: " + "Electronic Arts\nTest Output: " + entity.name + "\n")
 
     def test_company_2(self):
         ## test that id indexed get is working with another id
         entity = self.session.query(Company).get(33)
         self.assertEqual(entity.name, "n-Space, Inc.")
+        print("Company Test 2\nExpected Output: " + "n-Space Inc.\nTest Output: " + entity.name + "\n")
 
     def test_company_3(self):
         ## test that id indexed get is working with another id
         entity = self.session.query(Company).get(66)
         self.assertEqual(entity.name, "MicroProse Software, Inc.")
+        print("Company Test 3\nExpected Output: " + "MicroProse Software, Inc.\nTest Output: " + entity.name + "\n")
 
     def test_platforms_1(self):
         entity = self.session.query(Platform).get(146)
         self.assertEqual(entity.name, "PlayStation 4")
+        print("Platform Test 1\nExpected Output: " + "PlayStation 4\nTest Output: " + entity.name + "\n")
+        
     def test_platforms_2(self):
         ## test that id indexed get is working with an id
         entity = self.session.query(Platform).get(1)
         self.assertEqual(entity.name, "Amiga")
+        print("Platform Test 2\nExpected Output: " + "Amiga\nTest Output: " + entity.name + "\n")
 		
     def test_platforms_3(self):
         ## test that id indexed get is working with an id
         entity = self.session.query(Platform).get(23)
         self.assertEqual(entity.name, "GameCube")
+        print("Platform Test 3\nExpected Output: " + "GameCube\nTest Output: " + entity.name + "\n")
+        
     def test_rows_1(self):
-        print(to_dict(self.session.query(Game.publishers).limit(4).offset(5).all()))
+        print("Rows Test 1\n" + to_dict(self.session.query(Game.publishers).limit(4).offset(5).all()) + "\n")
 
     def tearDown(self):
         self.session.close()
