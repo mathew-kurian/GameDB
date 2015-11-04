@@ -75,7 +75,8 @@ def api(table, id=-1):
 @app.route('/run-tests')
 def tests():
     res = ''
-    for i in run_command('python3 tests.py'.split()):
+    path = os.path.dirname(os.path.realpath(__file__))
+    for i in run_command(('python3 ' + path + '/tests.py').split()):
         res += i.decode("utf-8")
 
     return Response(res, mimetype='text/plain')
