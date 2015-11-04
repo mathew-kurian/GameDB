@@ -1,5 +1,5 @@
 FORMAT: 1A
-HOST: http://4playdb.me/api
+HOST: http://4playdb.me
 
 # 4Play
 
@@ -7,7 +7,7 @@ HOST: http://4playdb.me/api
 
 # Group Game
 
-## List [GET /games?{offset}=number&{limit}=number]
+## List [GET /api/games/?offset={offset}&limit={limit}]
 
 Returns a list of games starting at ID = offset and going up to ID = offset + min(25, limit)
 
@@ -17,18 +17,55 @@ Returns a list of games starting at ID = offset and going up to ID = offset + mi
 
 + Response 201 (application/json)
 
-        [
+        {
+          "message": "Success",
+          "time": "0.01s",
+          "status": 0,
+          "results": [
             {
-                "Id": 40080,
-                "Name": "Monopoly Millionaire"
-            },
-            {
-                "Id": 5000,
-                "Name": "Battlefield 4"
+              "deck": "An upgraded version of the independently-developed puzzle-strategy game Squarez.",
+              "name": "Squarez Deluxe!",
+              "id": 56,
+              "images": [
+                {
+                  "source": "http://static.giantbomb.com/uploads/scale_medium/0/7465/1720871-10154_squarez_deluxe_dos_screenshot_main_menu.gif"
+                },
+                {
+                  "source": "http://www.oldgames.sk/images/magazine/pareniste/2/squarez.png"
+                },
+                {
+                  "source": "http://i.ytimg.com/vi/84ACrGrMtmI/maxresdefault.jpg"
+                },
+                {
+                  "source": "http://i.ytimg.com/vi/YxMn0DUPluw/maxresdefault.jpg"
+                },
+                {
+                  "source": "http://static.giantbomb.com/uploads/original/10/100063/1426647-obraz__12_.jpg"
+                },
+                {
+                  "source": "http://www.oldgames.sk/gallery_image.php?gallery=292;weight=10"
+                },
+                {
+                  "source": "http://www.oldgames.sk/gallery_image.php?gallery=292;weight=11"
+                },
+                {
+                  "source": "http://static.giantbomb.com/uploads/original/3/32741/1210038-venice_menu.jpg"
+                },
+                {
+                  "source": "https://f1.bcbits.com/img/0000926712_10.jpg"
+                },
+                {
+                  "source": "http://opelunun.science/pics-upload.wikimedia.org/wikipedia/commons/f/f5/Dell_Front.JPG"
+                },
+                {
+                  "source": "http://www.old-games.com/screenshot/9870-1-stalin-subway-the-red-veil.jpg"
+                }
+              ]
             }
-        ]
+          ]
+        }    
 
-#### Get [GET /games/{game_id}]
+#### Get [GET /api/game/{game_id}]
 
 Returns the game specified by ID = game_id
 
@@ -48,52 +85,130 @@ These are the fields that will describe a game:
 + Platforms: Array of platforms game has been released on
 
 + Parameters
-    + offset: 1 (required, game_id) - Game ID
+    + game_id: `56` (number, optional) - Id of a game
+        + Default: `56`
     
 + Response 201 (application/json)
 
         
+        {
+          "message": "Success",
+          "time": "0.00s",
+          "status": 0,
+          "results": [
             {
-                "Id": 40080,
-                "Name": "Monopoly Millionaire",
-                "Release Date": "Thu Oct 22 2015 14:20:44 GMT-0500 (CDT)",
-                "Genres": [ "First-Person Shooter" ],
-                "Description": null,
-                "Deck": "The next installment of the Mass Effect franchise is in development at BioWare Montreal.",
-                "Images": [
-                    "http://static.giantbomb.com/uploads/scale_medium/5/57793/2758765-6463613486-joxkD.jpg",
-                ],
-                "Videos": [
-                    "https://www.youtube.com/embed/GsehtC-9yI4",
-                    "https://www.youtube.com/embed/FqnKB22pOC0"
-                ],
-                "Publishers": [
-                    {
-                        "Id": 40080,
-                        "Name": "Riot Games"
-                    },
-                    {
-                        "Id": 5000,
-                        "Name": "Codemasters"
-                    }
-                ],
-                "Developers": [
-                    {
-                        "Id": 40080,
-                        "Name": "Electronic Arts"
-                    }
-                ],
-                "Platforms": [
-                    {
-                        "Id": 40080,
-                        "Name": "PC"
-                    }
-                ]
+              "deck": "An upgraded version of the independently-developed puzzle-strategy game Squarez.",
+              "videos": [
+                {
+                  "source": "https://www.youtube.com/embed/-3jDqvO_68U"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/84ACrGrMtmI"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/4tg_gZovT4k"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/08sfayp2W9M"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/qkbg_TDhC70"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/HcA7FO312Ts"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/7qZJwlOoa3Q"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/puQmXTembuw"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/UwFGn3c7gM4"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/SfA0PFVkXA8"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/dXP_tJIf7o0"
+                }
+              ],
+              "name": "Squarez Deluxe!",
+              "id": 56,
+              "release_date": "1993-12-31T06:00:00",
+              "platforms": [
+                {
+                  "game_name": "Squarez Deluxe!",
+                  "game_deck": "An upgraded version of the independently-developed puzzle-strategy game Squarez.",
+                  "platform_id": 94,
+                  "platform_name": "PC",
+                  "platform_deck": "The PC (Personal Computer) is a highly configurable and upgradable gaming platform that, among home systems, sports the widest variety of control methods, largest library of games, and cutting edge graphics and sound capabilities.",
+                  "game_id": 56
+                }
+              ],
+              "publishers": [
+                {
+                  "game_name": "Squarez Deluxe!",
+                  "game_id": 56,
+                  "game_deck": "An upgraded version of the independently-developed puzzle-strategy game Squarez.",
+                  "company_name": "Acclaim Studios Manchester",
+                  "company_id": 6069,
+                  "company_deck": "Acclaim Studios Manchester was previously known as Software Creations. They went out of business prior to Acclaim dismantling."
+                }
+              ],
+              "images": [
+                {
+                  "source": "http://static.giantbomb.com/uploads/scale_medium/0/7465/1720871-10154_squarez_deluxe_dos_screenshot_main_menu.gif"
+                },
+                {
+                  "source": "http://www.oldgames.sk/images/magazine/pareniste/2/squarez.png"
+                },
+                {
+                  "source": "http://i.ytimg.com/vi/84ACrGrMtmI/maxresdefault.jpg"
+                },
+                {
+                  "source": "http://i.ytimg.com/vi/YxMn0DUPluw/maxresdefault.jpg"
+                },
+                {
+                  "source": "http://static.giantbomb.com/uploads/original/10/100063/1426647-obraz__12_.jpg"
+                },
+                {
+                  "source": "http://www.oldgames.sk/gallery_image.php?gallery=292;weight=10"
+                },
+                {
+                  "source": "http://www.oldgames.sk/gallery_image.php?gallery=292;weight=11"
+                },
+                {
+                  "source": "http://static.giantbomb.com/uploads/original/3/32741/1210038-venice_menu.jpg"
+                },
+                {
+                  "source": "https://f1.bcbits.com/img/0000926712_10.jpg"
+                },
+                {
+                  "source": "http://opelunun.science/pics-upload.wikimedia.org/wikipedia/commons/f/f5/Dell_Front.JPG"
+                },
+                {
+                  "source": "http://www.old-games.com/screenshot/9870-1-stalin-subway-the-red-veil.jpg"
+                }
+              ],
+              "genres": "Puzzle",
+              "description": "<p style=\"\">.</p>",
+              "developers": [
+                {
+                  "game_name": "Squarez Deluxe!",
+                  "game_deck": "An upgraded version of the independently-developed puzzle-strategy game Squarez.",
+                  "company_name": "Adept Software",
+                  "company_id": 109,
+                  "game_id": 56
+                }
+              ]
             }
+          ]
+        }   
 
 # Group Company
 
-## List [GET /companies?{offset}=number&{limit}=number]
+## List [GET /api/companies/?offset={offset}&limit={limit}]
 
 Returns a list of companies starting at ID = offset and going up to ID = offset + min(25, limit)
 
@@ -103,18 +218,55 @@ Returns a list of companies starting at ID = offset and going up to ID = offset 
 
 + Response 201 (application/json)
 
-        [
+        {
+          "message": "Success",
+          "time": "0.01s",
+          "status": 0,
+          "results": [
             {
-                "Id": 43534,
-                "Name": "Codemasters"
-            },
-            {
-                "Id": 6574,
-                "Name": "Electronic Arts"
+              "deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+              "name": "Gremlin Interactive Ltd.",
+              "id": 3,
+              "images": [
+                {
+                  "source": "http://static.giantbomb.com/uploads/scale_medium/0/3161/275837-grem.jpeg"
+                },
+                {
+                  "source": "http://hbvideogames.com/system/video_games/avatars/000/001/776/original/Footballer_20of_20the_20Year.jpg?1418726191"
+                },
+                {
+                  "source": "http://www.oldgames.sk/images/magazine/level/1996/06/level17-066.jpg"
+                },
+                {
+                  "source": "http://static.giantbomb.com/uploads/original/9/93770/2365471-jag_zool2.jpg"
+                },
+                {
+                  "source": "http://plus4world.powweb.com/dl/covers/g/gremlin_graphics_atari_c16_advert.jpg"
+                },
+                {
+                  "source": "http://img185.imageshack.us/img185/4700/k240new1ok1.jpg"
+                },
+                {
+                  "source": "http://i.ytimg.com/vi/RJPdZlPaSqo/maxresdefault.jpg"
+                },
+                {
+                  "source": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Infogrames_logo.svg/1280px-Infogrames_logo.svg.png"
+                },
+                {
+                  "source": "http://download.abandonware.org/magazines/PC%20JEUX/pcjeux_numero002/PCJeux002-Page094-1997-09.jpg"
+                },
+                {
+                  "source": "http://download.abandonware.org/magazines/Joypad/joypad_numero081/JOYPAD%2081%20decembre%201998%20128.jpg"
+                },
+                {
+                  "source": "https://s3-eu-west-1.amazonaws.com/auctionbucket/larb/lot/rblot79/img01.jpg"
+                }
+              ]
             }
-        ]
+          ]
+        }   
         
-#### Get [GET /companies/{company_id}]
+#### Get [GET /api/company/{company_id}]
 
 Returns the company specified by ID = company_id
 
@@ -137,50 +289,229 @@ These are the fields that will describe a company:
 + Platforms: Array of platforms developed/published on
 
 + Parameters
-    + offset: 1 (required, game_id) - Company ID
+    + company_id: `3` (number, optional) - Id of a company
+        + Default: `3`
     
 + Response 201 (application/json)
 
         
+        {
+          "message": "Success",
+          "time": "0.00s",
+          "status": 0,
+          "results": [
             {
-                "Id": 40080,
-                "Name": "Electronic Arts",
-                "LocationAddress": "209 Redwood Shores Parkway",
-                "LocationCity": "Redwood City",
-                "LocationState": "Texas",
-                "LocationCountry": "USA",
-                "Description": null,
-                "Images": [
-                    "http://static.giantbomb.com/uploads/scale_medium/5/57793/2758765-6463613486-joxkD.jpg",
-                ],
-                "PublishedGames": [
-                    {
-                        "Id": 40080,
-                        "Name": "BattleStar Galactica"
-                    },
-                    {
-                        "Id": 5000,
-                        "Name": "Crysis 2"
-                    }
-                ],
-                "DevelopedGames": [
-                    {
-                        "Id": 40080,
-                        "Name": "Crysis 3"
-                    }
-                ],
-                "Platforms": [
-                    {
-                        "Id": 40080,
-                        "Name": "PC"
-                    }
-                ]
+              "website": "http://www.gremlin.co.uk/",
+              "videos": [
+                {
+                  "source": "https://www.youtube.com/embed/5ygJYGfZp5k"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/mmqd6eNXY2Q"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/iissuLZE1WY"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/Z5JzeV5FZL0"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/CJYckHh2k-Q"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/DeAdTq7frL0"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/ZKkpvJHdeLU"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/0-BEFVd2GIk"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/rCZVwWEiaVk"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/mbcMTvjN-w4"
+                },
+                {
+                  "source": "https://www.youtube.com/embed/_J4gao2cdcw"
+                }
+              ],
+              "state": "South Yorkshire",
+              "developed_games": [
+                {
+                  "game_name": "Emilio Butragueño 2",
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+                  "company_name": "Gremlin Interactive Ltd.",
+                  "company_id": 3,
+                  "game_id": 8504
+                },
+                {
+                  "game_name": "Actua Tennis",
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+                  "company_name": "Gremlin Interactive Ltd.",
+                  "company_id": 3,
+                  "game_id": 15397
+                },
+                {
+                  "game_name": "Actua Pool",
+                  "game_id": 22280,
+                  "game_deck": "Actua Pool is a pool game that is on the  Nintendo DS.",
+                  "company_name": "Gremlin Interactive Ltd.",
+                  "company_id": 3,
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001."
+                }
+              ],
+              "published_games": [
+                {
+                  "game_name": "Wild Metal Country",
+                  "game_id": 1571,
+                  "game_deck": "Take your tank and take back the land from rogue robots as you cross rolling hills and lob shots over various obstacles.",
+                  "company_name": "Gremlin Interactive Ltd.",
+                  "company_id": 3,
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001."
+                },
+                {
+                  "game_name": "Chart Attack",
+                  "game_id": 5524,
+                  "game_deck": "Another compilation of games.",
+                  "company_name": "Gremlin Interactive Ltd.",
+                  "company_id": 3,
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001."
+                },
+                {
+                  "game_name": "Actua Tennis",
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+                  "company_name": "Gremlin Interactive Ltd.",
+                  "company_id": 3,
+                  "game_id": 15397
+                },
+                {
+                  "game_name": "Actua Pool",
+                  "game_id": 22280,
+                  "game_deck": "Actua Pool is a pool game that is on the  Nintendo DS.",
+                  "company_name": "Gremlin Interactive Ltd.",
+                  "company_id": 3,
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001."
+                }
+              ],
+              "platforms": [
+                {
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+                  "platform_id": 1,
+                  "platform_name": "Amiga",
+                  "platform_deck": "The Amiga was a personal computer from Commodore that was released in a variety of different configurations.",
+                  "company_id": 3,
+                  "company_name": "Gremlin Interactive Ltd."
+                },
+                {
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+                  "platform_id": 11,
+                  "platform_name": "Amstrad CPC",
+                  "platform_deck": "The Amstrad CPC (Colour Personal Computer) was a series of 8-bit personal computers developed by Amstrad between 1984 and 1990. During its lifetime, approximately 3 million CPCs were sold.",
+                  "company_id": 3,
+                  "company_name": "Gremlin Interactive Ltd."
+                },
+                {
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+                  "platform_id": 13,
+                  "platform_name": "Atari ST",
+                  "platform_deck": "Atari's 16-bit computer line was one of the most popular computers in the mid-80's to early 90's.",
+                  "company_id": 3,
+                  "company_name": "Gremlin Interactive Ltd."
+                },
+                {
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+                  "platform_id": 15,
+                  "platform_name": "MSX",
+                  "platform_deck": "MSX is a standardized home computer architecture. It was popular in Japan, South Korea, Brazil, Netherlands, France, Spain, Finland, Arabian Gulf countries and former Soviet Union during the 1980s. Like the PC of today, the MSX computers were manufactured by many different companies.",
+                  "company_id": 3,
+                  "company_name": "Gremlin Interactive Ltd."
+                },
+                {
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+                  "platform_id": 16,
+                  "platform_name": "ZX Spectrum",
+                  "platform_deck": "The ZX Spectrum is one of the most popular European computers of all time.  Its software library is enormous and its fame in Europe rivals the Commodore 64 in the US.",
+                  "company_id": 3,
+                  "company_name": "Gremlin Interactive Ltd."
+                },
+                {
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+                  "platform_id": 22,
+                  "platform_name": "PlayStation",
+                  "platform_deck": "Sony's first video game console established the PlayStation brand. It dominated the 32/64-bit era and was the best-selling home console up until the PlayStation 2.",
+                  "company_id": 3,
+                  "company_name": "Gremlin Interactive Ltd."
+                },
+                {
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+                  "platform_id": 52,
+                  "platform_name": "Nintendo DS",
+                  "platform_deck": "The Nintendo DS is a handheld featuring two screens, one of which is a resistive touchscreen. Four different models are available: the original DS, the DS Lite, the DSi, the DSi XL.",
+                  "company_id": 3,
+                  "company_name": "Gremlin Interactive Ltd."
+                },
+                {
+                  "company_deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+                  "platform_id": 94,
+                  "platform_name": "PC",
+                  "platform_deck": "The PC (Personal Computer) is a highly configurable and upgradable gaming platform that, among home systems, sports the widest variety of control methods, largest library of games, and cutting edge graphics and sound capabilities.",
+                  "company_id": 3,
+                  "company_name": "Gremlin Interactive Ltd."
+                }
+              ],
+              "city": "Sheffield",
+              "deck": "A UK-based games developer which created the Actua Soccer franchise among many others. The company began as Just Micro, changing its name to Gremlin Graphics Software and eventually Gremlin Interactive. After it was purchased by Infogrames in 1999 it became Infogrames Sheffield House. It closed its doors in 2001.",
+              "name": "Gremlin Interactive Ltd.",
+              "id": 3,
+              "country": "United Kingdom",
+              "images": [
+                {
+                  "source": "http://static.giantbomb.com/uploads/scale_medium/0/3161/275837-grem.jpeg"
+                },
+                {
+                  "source": "http://hbvideogames.com/system/video_games/avatars/000/001/776/original/Footballer_20of_20the_20Year.jpg?1418726191"
+                },
+                {
+                  "source": "http://www.oldgames.sk/images/magazine/level/1996/06/level17-066.jpg"
+                },
+                {
+                  "source": "http://static.giantbomb.com/uploads/original/9/93770/2365471-jag_zool2.jpg"
+                },
+                {
+                  "source": "http://plus4world.powweb.com/dl/covers/g/gremlin_graphics_atari_c16_advert.jpg"
+                },
+                {
+                  "source": "http://img185.imageshack.us/img185/4700/k240new1ok1.jpg"
+                },
+                {
+                  "source": "http://i.ytimg.com/vi/RJPdZlPaSqo/maxresdefault.jpg"
+                },
+                {
+                  "source": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Infogrames_logo.svg/1280px-Infogrames_logo.svg.png"
+                },
+                {
+                  "source": "http://download.abandonware.org/magazines/PC%20JEUX/pcjeux_numero002/PCJeux002-Page094-1997-09.jpg"
+                },
+                {
+                  "source": "http://download.abandonware.org/magazines/Joypad/joypad_numero081/JOYPAD%2081%20decembre%201998%20128.jpg"
+                },
+                {
+                  "source": "https://s3-eu-west-1.amazonaws.com/auctionbucket/larb/lot/rblot79/img01.jpg"
+                }
+              ],
+              "description": "<h2>Overview</h2><p style=\"\">Gremlin Interactive was a British game development studio situated in Sheffield, South Yorkshire. They were originally known as Gremlin Graphics Software Ltd. but changed their name to Gremlin Interactive in 1994.</p><p style=\"\">Initially, the company was a computer shop located in Sheffield, England called Just Micro. It subsequently expanded to become a full-fledged software house. By April 1999, Gremlin grew to a large company, emplying more than 300 people. Gremlin's primary publisher (in the US) was <a href=\"http://www.giantbomb.com/interplay-entertainment-corp/3010-580/\" data-ref-id=\"3010-580\">Interplay</a>. The company was acquired by <a href=\"http://www.giantbomb.com/atari-sa/3010-548/\" data-ref-id=\"3010-548\">Infogrames</a> in 1999 and was subsequently closed in 2003, though the Gremlin name itself was effectively defunct as of the 1999 acquisition. The original founder of the company,<a href=\"http://www.giantbomb.com/ian-stewart/3040-20194/\" data-ref-id=\"3040-20194\"> Ian Stewart</a>, and his new company <a href=\"/urbanscan/3010-7675/\" data-ref-id=\"3010-7675\">Urbanscan</a> bought back the company's catalog and name from Atari in 2011.</p><p style=\"\">Gremlin Interactive were also known for purchasing DMA Design in 1996, the Scottish company that produced Lemmings and the first Grand Theft Auto and would one day become <a href=\"/rockstar-north/3010-1408/\" data-ref-id=\"3010-1408\">Rockstar North</a>. Control of DMA Design was (briefly) passed to Infogrames after the French company's acquisition of Gremlin.</p><p style=\"\">Many of Gremlin's most successful products were sports and racing games such as <a href=\"http://www.giantbomb.com/lotus/3025-1364/\" data-ref-id=\"3025-1364\">Lotus</a>,<a href=\"http://www.giantbomb.com/premier-manager/3030-13401/\" data-ref-id=\"3030-13401\"> Premier Manager,</a> <a href=\"http://www.giantbomb.com/micro-machines/3030-2140/\" data-ref-id=\"3030-2140\">Micro Machines</a> and <a href=\"http://www.giantbomb.com/actua-soccer/3030-2305/\" data-ref-id=\"3030-2305\">Actua Soccer</a>. The also enjoyed acclaim and fan devotion for their computer game conversions of the <a href=\"/games-workshop-ltd/3010-1986/\" data-ref-id=\"3010-1986\">Games Workshop</a> table-top games <a href=\"http://www.giantbomb.com/space-crusade/3030-16802/\" data-ref-id=\"3030-16802\">Space Crusade</a> and <a href=\"http://www.giantbomb.com/hero-quest/3030-9695/\" data-ref-id=\"3030-9695\">Hero Quest</a>.</p>",
+              "founded_date": "1984-01-01T06:00:00",
+              "concepts": "Easter Egg;Projectiles;Wall Jump;Teleportation;Ninja"
             }
+          ]
+        } 
         
         
 # Group Platform
 
-## List [GET /platforms?{offset}=number&{limit}=number]
+## List [GET /api/platforms/?offset={offset}&limit={limit}]
 
 Returns a list of platforms starting at ID = offset and going up to ID = offset + min(25, limit)
 
@@ -190,18 +521,55 @@ Returns a list of platforms starting at ID = offset and going up to ID = offset 
 
 + Response 201 (application/json)
 
-        [
+        {
+          "message": "Success",
+          "time": "0.01s",
+          "status": 0,
+          "results": [
             {
-                "Id": 43534,
-                "Name": "Playstation 3"
-            },
-            {
-                "Id": 6574,
-                "Name": "XBox One"
+              "deck": "Nintendo's first handheld gaming console was immensely popular among gamers, selling millions. Despite its grayscale color scheme, it still got support from developers and publishers.",
+              "name": "Game Boy",
+              "id": 3,
+              "images": [
+                {
+                  "source": "http://static.giantbomb.com/uploads/scale_medium/0/1992/1426210-logo.jpg"
+                },
+                {
+                  "source": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"
+                },
+                {
+                  "source": "http://vignette1.wikia.nocookie.net/nintendo/images/6/6f/Game_Boy_(Grey_Model).png/revision/latest?cb=20121110153849&path-prefix=en"
+                },
+                {
+                  "source": "https://upload.wikimedia.org/wikipedia/commons/6/66/Game-Boy-Light-FL.jpg"
+                },
+                {
+                  "source": "http://media.gamerevolution.com/images/misc/game-boy-slant.jpg"
+                },
+                {
+                  "source": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Game-Boy-Advance-SP-Mk1-Blue.jpg"
+                },
+                {
+                  "source": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Game-Boy-Advance-1stGen.jpg"
+                },
+                {
+                  "source": "http://h.fastcompany.net/multisite_files/fastcompany/poster/2014/07/3033678-poster-p-1-how-to-hack-a-new-brain-for-your-old-gameboy.jpg"
+                },
+                {
+                  "source": "https://upload.wikimedia.org/wikipedia/commons/7/70/Game-Boy-Advance-Blk.jpg"
+                },
+                {
+                  "source": "http://www.blendernation.com/wp-content/uploads/2014/03/game-boy-3d.png"
+                },
+                {
+                  "source": "http://vignette1.wikia.nocookie.net/mario/images/e/ef/Game_Boy_Advance_SP_-_Cyan_Model.png/revision/latest?cb=20120513192939"
+                }
+              ]
             }
-        ]
+          ]
+        }    
         
-#### Get [GET /platforms/{platform_id}]
+#### Get [GET /api/platforms/{platform_id}]
 
 Returns the platform specified by ID = platform_id
 
@@ -213,7 +581,7 @@ These are the fields that will describe a platform:
 + Price
 + InstallBase
 + OnlineSupport: Platform provides online support
-+ Description=
++ Description
 + Deck: Short summary
 + Images: Array of images
 + Companies: Array of related companies
@@ -222,30 +590,55 @@ These are the fields that will describe a platform:
 + Response 201 (application/json)
 
 + Parameters
-    + offset: 1 (required, platform_id) - Platform ID
+    + company_id: `3` (number, optional) - Id of a platform
+        + Default: `3`
     
 + Response 201 (application/json)
 
-{
-       "companies":[ {
-            "api_detail_url": "http://www.giantbomb.com/api/company/3010-995/",
-            "id": 995,
-            "name": "Sony Computer Entertainment Incorporated"
-        }],
-        "deck": "PlayStation 4 is Sony's fourth home video game console, released on November 15, 2013 in North America, and November 29, 2013 in Europe.",
-        "id": 146,
-        "name": "PlayStation 4",
-        "online_support": true,
-        "price": "399.00",
-        "release_date": "2013-11-15 00:00:00",
-        "games": [
+        {
+          "message": "Success",
+          "time": "0.00s",
+          "status": 0,
+          "results": [
             {
-                "api_detail_url": "http://www.giantbomb.com/api/game/3030-46631/",
-                "id": 46631,
-                "name": "Mass Effect: Andromeda"
+              "deck": "Nintendo's first handheld gaming console was immensely popular among gamers, selling millions. Despite its grayscale color scheme, it still got support from developers and publishers.",
+              "name": "Game Boy",
+              "id": 3,
+              "images": [
+                {
+                  "source": "http://static.giantbomb.com/uploads/scale_medium/0/1992/1426210-logo.jpg"
+                },
+                {
+                  "source": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Game-Boy-FL.jpg"
+                },
+                {
+                  "source": "http://vignette1.wikia.nocookie.net/nintendo/images/6/6f/Game_Boy_(Grey_Model).png/revision/latest?cb=20121110153849&path-prefix=en"
+                },
+                {
+                  "source": "https://upload.wikimedia.org/wikipedia/commons/6/66/Game-Boy-Light-FL.jpg"
+                },
+                {
+                  "source": "http://media.gamerevolution.com/images/misc/game-boy-slant.jpg"
+                },
+                {
+                  "source": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Game-Boy-Advance-SP-Mk1-Blue.jpg"
+                },
+                {
+                  "source": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Game-Boy-Advance-1stGen.jpg"
+                },
+                {
+                  "source": "http://h.fastcompany.net/multisite_files/fastcompany/poster/2014/07/3033678-poster-p-1-how-to-hack-a-new-brain-for-your-old-gameboy.jpg"
+                },
+                {
+                  "source": "https://upload.wikimedia.org/wikipedia/commons/7/70/Game-Boy-Advance-Blk.jpg"
+                },
+                {
+                  "source": "http://www.blendernation.com/wp-content/uploads/2014/03/game-boy-3d.png"
+                },
+                {
+                  "source": "http://vignette1.wikia.nocookie.net/mario/images/e/ef/Game_Boy_Advance_SP_-_Cyan_Model.png/revision/latest?cb=20120513192939"
+                }
+              ]
             }
-        ],
-        "images": [
-            "http://static.giantbomb.com/uploads/scale_medium/5/56742/2495936-9012444134_80ba47fd6e_o.jpg"
-        ]
-}
+          ]
+        } 
