@@ -82,13 +82,18 @@ var App = React.createClass({
   },
   _fetch(){
 
+    if (this.req || this.state.fetch) return;
+
     var self = this;
     this.setState({fetch: true});
+
     this.req = request.get(`/api/${this.state.model}?limit=${this.state.model.limit}&offset=${this.state.offset}`)
       .end(function (err, res) {
+        self.req = null;
+
         if (err || res.status !== 200) {
           self.setState(self._getStateFromProps());
-          return self.req = null;
+          return;
         }
 
         try {

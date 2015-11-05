@@ -78,7 +78,7 @@ var App = React.createClass({
                style={{opacity:this.state.running ? 0.5 : 1, color: '#000', padding: '4px 6px', fontSize: 12, fontWeight: 400, background: '#CCC',borderRadius: 3, textTransform: 'uppercase', display: 'inline-block', letterSpacing: 1, marginTop: 0, marginBottom: 10,cursor:'pointer',textDecoration: 'none'}}>run
               unit tests</a>
 
-            <div style={{width:'100%',height:200,borderRadius:4,overflow:'hidden'}}>
+            <div style={{width:'100%',height:400,borderRadius:4,overflow:'hidden'}}>
               <AceEditor mode="python" readOnly={true} theme="monokai"
                          value={this.state.console || 'No tests have been run'}
                          name="unit-tests" editorProps={{$blockScrolling: true}} height="100%" width='100%'/>

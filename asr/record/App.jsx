@@ -26,9 +26,11 @@ var App = React.createClass({
 
     this.req = request.get('/api/' + this.state.model + '/' + this.state.id)
       .end(function (err, res) {
+        self.req = null;
+
         if (err || res.status !== 200) {
           self.setState(self._getStateFromProps());
-          return self.req = null;
+          return;
         }
 
         try {
@@ -37,7 +39,7 @@ var App = React.createClass({
           data.images = shuffle(_.pluck(data.images, 'source'));
           self.setState(data);
         } catch (e) {
-          // ignore
+          self.setState(self._getStateFromProps());
         }
       });
   },
