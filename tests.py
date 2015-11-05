@@ -53,7 +53,7 @@ class Test(TestCase):
         entity = self.session.query(Game).get(139)
         elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.name, "Tearaway Thomas")
-        print("Game Test 4\nExpected Output: Tearaway Thomas\nTestOUtput: " + entity.name + "\n")
+        print("Game Test 4\nExpected Output: Tearaway Thomas\nTestOutput: " + entity.name + "\n")
 
         ## testing runs in <= 0.3 s
         self.assertTrue(elapsed <= 0.3)
@@ -210,6 +210,39 @@ class Test(TestCase):
         ## testing runs in <= 0.3 s
         self.assertTrue(elapsed <= 0.3)
         print('GameCompany Test 3' + ' ran in ' + str(elapsed) + ' seconds')
+
+    def test_companyplatform_1(self):
+        query_time = timeit.default_timer()
+        entity = self.session.query(Platform).get(4)
+        elapsed = timeit.default_timer() - query_time
+        self.assertEqual(entity.name, "Game Boy Advance")
+        self.assertEqual(entity.companies[0].company_name, "Electronic Arts")
+
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('CompanyPlatform Test 1' + ' ran in ' + str(elapsed) + ' seconds')
+
+    def test_companyplatform_2(self):
+        query_time = timeit.default_timer()
+        entity = self.session.query(Platform).get(17)
+        elapsed = timeit.default_timer() - query_time
+        self.assertEqual(entity.name, "Mac")
+        self.assertEqual(entity.companies[1].company_name, "Alawar Entertainment, Inc.")
+
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('CompanyPlatform Test 2' + ' ran in ' + str(elapsed) + ' seconds')
+
+    def test_companyplatform_3(self):
+        query_time = timeit.default_timer()
+        entity = self.session.query(Company).get(34)
+        elapsed = timeit.default_timer() - query_time
+        self.assertEqual(entity.name, "Strategic Simulations, Inc.")
+        self.assertEqual(entity.platforms[1].platform_name, "PC")
+
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('CompanyPlatform Test 3' + ' ran in ' + str(elapsed) + ' seconds')
 
     def test_url_1(self):
         query_time = timeit.default_timer()
