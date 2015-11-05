@@ -3,6 +3,7 @@
 import json
 from unittest import main, TestCase
 from db import *
+import timeit
 
 
 class Test(TestCase):
@@ -13,113 +14,232 @@ class Test(TestCase):
 
     def test_game_1(self):
         ## test that id indexed get is working with an id
+        query_time = timeit.default_timer()
         entity = self.session.query(Game).get(29935)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.name, "Mass Effect 3")
         print("Game Test 1\nExpected Output: " + "Mass Effect 3\nTest Output: " + entity.name + "\n")
+        
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Game Test 1' + ' ran in ' + str(elapsed) + ' seconds')
 
     def test_game_2(self):
         ## test that id indexed get is working with another id
+        query_time = timeit.default_timer()
         entity = self.session.query(Game).get(478)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.name, "Z")
         print("Game Test 2\nExpected Output: " + "Z\nTest Output: " + entity.name + "\n")
+        
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Game Test 2' + ' ran in ' + str(elapsed) + ' seconds')
 
     def test_game_3(self):
         ## test that id indexed get is working with another id
+        query_time = timeit.default_timer()
         entity = self.session.query(Game).get(56)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.name, "Squarez Deluxe!")
         print("Game Test 3\nExpected Output: " + "Squarez Deluxe!\nTest Output: " + entity.name + "\n")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Game Test 3' + ' ran in ' + str(elapsed) + ' seconds')
+ 
     def test_game_4(self):
+        query_time = timeit.default_timer()
         entity = self.session.query(Game).get(139)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.name, "Tearaway Thomas")
         print("Game Test 4\nExpected Output: Tearaway Thomas\nTestOUtput: " + entity.name + "\n")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Game Test 4' + ' ran in ' + str(elapsed) + ' seconds')
+ 
     def test_company_1(self):
         ## test that id indexed get is working with an id
+        query_time = timeit.default_timer()
         entity = self.session.query(Company).get(1)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.name, "Electronic Arts")
         print("Company Test 1\nExpected Output: " + "Electronic Arts\nTest Output: " + entity.name + "\n")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Company Test 1' + ' ran in ' + str(elapsed) + ' seconds')
+ 
     def test_company_2(self):
         ## test that id indexed get is working with another id
+        query_time = timeit.default_timer()
         entity = self.session.query(Company).get(33)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.name, "n-Space, Inc.")
         print("Company Test 2\nExpected Output: " + "n-Space Inc.\nTest Output: " + entity.name + "\n")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Company Test 2' + ' ran in ' + str(elapsed) + ' seconds')
+ 
     def test_company_3(self):
         ## test that id indexed get is working with another id
+        query_time = timeit.default_timer()
         entity = self.session.query(Company).get(66)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.name, "MicroProse Software, Inc.")
         print("Company Test 3\nExpected Output: " + "MicroProse Software, Inc.\nTest Output: " + entity.name + "\n")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Company Test 3' + ' ran in ' + str(elapsed) + ' seconds')
+ 
     def test_company_4(self):
         ## test that id indexed get is working with another id
+        query_time = timeit.default_timer()
         entity = self.session.query(Company).get(52)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.name, "Deep Silver")
         print("Company Test 4\nExpected Output: " + "Deep Silver\nTest Output: " + entity.name + "\n")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Company Test 4' + ' ran in ' + str(elapsed) + ' seconds')
+ 
     def test_platforms_1(self):
+        query_time = timeit.default_timer()
         entity = self.session.query(Platform).get(146)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.name, "PlayStation 4")
         print("Platform Test 1\nExpected Output: " + "PlayStation 4\nTest Output: " + entity.name + "\n")
         
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Platform Test 1' + ' ran in ' + str(elapsed) + ' seconds')
+ 
     def test_platforms_2(self):
         ## test that id indexed get is working with an id
+        query_time = timeit.default_timer()
         entity = self.session.query(Platform).get(1)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.name, "Amiga")
         print("Platform Test 2\nExpected Output: " + "Amiga\nTest Output: " + entity.name + "\n")
 		
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Platform Test 2' + ' ran in ' + str(elapsed) + ' seconds')
+ 
     def test_platforms_3(self):
         ## test that id indexed get is working with an id
+        query_time = timeit.default_timer()
         entity = self.session.query(Platform).get(23)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.name, "GameCube")
         print("Platform Test 3\nExpected Output: " + "GameCube\nTest Output: " + entity.name + "\n")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Platform Test 3' + ' ran in ' + str(elapsed) + ' seconds')
+ 
     def test_gameplatform_1(self):
+        query_time = timeit.default_timer()
         entity = self.session.query(GamePlatform).get(2)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.game_name, "Baldur's Gate")
         self.assertEqual(entity.platform_name, "PC")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('GamePlatform Test 1' + ' ran in ' + str(elapsed) + ' seconds')
+ 
     def test_gameplatform_2(self):
+        query_time = timeit.default_timer()
         entity = self.session.query(GamePlatform).get(14)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.game_name, "The Journeyman Project: Pegasus Prime")
         self.assertEqual(entity.platform_name, "PC")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('GamePlatform Test 2' + ' ran in ' + str(elapsed) + ' seconds')
+
     def test_gameplatform_3(self):
+        query_time = timeit.default_timer()
         entity = self.session.query(GamePlatform).get(55)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.game_name, "James Pond 2: Codename: RoboCod")
         self.assertEqual(entity.platform_name, "PC")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('GamePlatform Test 3' + ' ran in ' + str(elapsed) + ' seconds')
+
     def test_gamecompany_1(self):
+        query_time = timeit.default_timer()
         entity = self.session.query(GameCompany).get(15)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.game_name, "Tearaway Thomas")
         self.assertEqual(entity.company_name, "Global Software")
         self.assertEqual(entity.role, "developer")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('GameCompany Test 1' + ' ran in ' + str(elapsed) + ' seconds')
+
     def test_gamecompany_2(self):
+        query_time = timeit.default_timer()
         entity = self.session.query(GameCompany).get(60)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.game_name, "Heroes of Might and Magic IV: The Gathering Storm")
         self.assertEqual(entity.company_name, "The 3DO Company")
         self.assertEqual(entity.role, "publisher")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('GameCompany Test 2' + ' ran in ' + str(elapsed) + ' seconds')
+
     def test_gamecompany_3(self):
+        query_time = timeit.default_timer()
         entity = self.session.query(GameCompany).get(102)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.game_name, "Software Manager")
         self.assertEqual(entity.company_name, "Kaiko")
         self.assertEqual(entity.role, "developer")
         
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('GameCompany Test 3' + ' ran in ' + str(elapsed) + ' seconds')
+
     def test_url_1(self):
+        query_time = timeit.default_timer()
         entity = self.session.query(Url).get(1)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.source, "http://static.giantbomb.com/uploads/scale_medium/0/4/9801-ea.jpg")
 
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Url Test 1' + ' ran in ' + str(elapsed) + ' seconds')
+
     def test_url_2(self):
+        query_time = timeit.default_timer()
         entity = self.session.query(Url).get(10)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.source, "http://cdn3.dualshockers.com/wp-content/uploads/2015/05/ea.png")
-
+        
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Url Test 2' + ' ran in ' + str(elapsed) + ' seconds')
+        
     def test_url_3(self):
+        query_time = timeit.default_timer()
         entity = self.session.query(Url).get(27)
+        elapsed = timeit.default_timer() - query_time
         self.assertEqual(entity.source, "http://gamesdbase.com/Media/SYSTEM/Commodore_Amiga/Snap/big/Star_Wars-_The_Empire_Strikes_Back_-_1988_-_Domark_Software.jpg")
-
+        
+        ## testing runs in <= 0.3 s
+        self.assertTrue(elapsed <= 0.3)
+        print('Url Test 3' + ' ran in ' + str(elapsed) + ' seconds')            
 
 #    def test_companyplatform_1(self):
 #        entity = self.session.query(CompanyPlatform).get(1)
