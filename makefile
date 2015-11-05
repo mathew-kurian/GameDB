@@ -1,8 +1,4 @@
-all: 
-	python3 migrate.py
-	pm2 start -i 1 -x --interpreter python3 index.py
-	pm2 restart index
-	grunt build
+test: tests.tmp
 
 clean:
 	rm -f  .coverage
@@ -25,16 +21,14 @@ status:
 	git remote -v
 	git status
 
-test: tests.tmp
-
-idb1-tests:
+idb2-tests:
 	git clone https://github.com/bluejamesbond/cs373-idb.git
 
 models.html: models.py
 	pydoc3 -w models
 
-IDB1.log:
-	git log > IDB1.log
+IDB2.log:
+	git log > IDB2.log
 
 tests.tmp: tests.py
 	coverage3 run --source=tests.py,models.py --omit=*/sqlalchemy/* --branch tests.py >  tests.tmp 2>&1
@@ -78,3 +72,14 @@ server:
 	apt-get -y install mysql-server
 
 	mysql -u root --password=123456 -e "create database IF NOT EXISTS idb CHARACTER SET = utf8mb4"
+
+start-server:
+	python3 migrate.py
+	pm2 start -i 1 -x --interpreter python3 index.py
+	pm2 restart index
+	grunt build
+	sudo service mysql start
+
+stop-server:
+	sudo service mysql stop
+

@@ -2,14 +2,6 @@
 
 # Tested on Ubuntu 14.10 Trusty Tar
 
-# Comment out the next block if your on a personal VM
-dd if=/dev/zero of=/swapfile bs=1024 count=1024k
-fallocate -l 1G /mnt/1GB.swap
-mkswap /mnt/1GB.swap
-swapon /mnt/1GB.swap
-echo '/mnt/1GB.swap  none  swap  sw 0  0' >> /etc/fstab
-echo 'vm.swappiness=10' >> /etc/sysctl.conf
-
 apt-get update
 apt-get -y upgrade
 
