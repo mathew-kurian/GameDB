@@ -107,6 +107,19 @@ class Test(TestCase):
         self.assertEqual(entity.game_name, "Software Manager")
         self.assertEqual(entity.company_name, "Kaiko")
         self.assertEqual(entity.role, "developer")
+        
+    def test_url_1(self):
+        entity = self.session.query(Url).get(1)
+        self.assertEqual(entity.source, "http://static.giantbomb.com/uploads/scale_medium/0/4/9801-ea.jpg")
+
+    def test_url_2(self):
+        entity = self.session.query(Url).get(10)
+        self.assertEqual(entity.source, "http://cdn3.dualshockers.com/wp-content/uploads/2015/05/ea.png")
+
+    def test_url_3(self):
+        entity = self.session.query(Url).get(27)
+        self.assertEqual(entity.source, "http://gamesdbase.com/Media/SYSTEM/Commodore_Amiga/Snap/big/Star_Wars-_The_Empire_Strikes_Back_-_1988_-_Domark_Software.jpg")
+
 
 #    def test_companyplatform_1(self):
 #        entity = self.session.query(CompanyPlatform).get(1)
