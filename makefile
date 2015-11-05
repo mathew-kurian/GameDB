@@ -2,13 +2,13 @@ all:
 	python3 migrate.py
 	pm2 start -i 1 -x --interpreter python3 index.py
 	pm2 restart index
-
 	grunt build
 
 clean:
 	rm -f  .coverage
 	rm -f  *.pyc
 	rm -rf __pycache__
+	rm -f tests.tmp
 
 config:
 	git config -l
@@ -37,7 +37,7 @@ IDB1.log:
 	git log > IDB1.log
 
 tests.tmp: tests.py
-	coverage3 run    --branch tests.py >  testss.tmp 2>&1
+	coverage3 run --source=tests.py,models.py --omit=*/sqlalchemy/* --branch tests.py >  tests.tmp 2>&1
 	coverage3 report -m                      >> tests.tmp
 	cat tests.tmp
 

@@ -299,10 +299,6 @@ class Test(TestCase):
         self.assertTrue(elapsed <= 0.3)
         print('Url Test 3' + ' ran in ' + str(elapsed) + ' seconds\n')            
 
-#    def test_companyplatform_1(self):
-#        entity = self.session.query(CompanyPlatform).get(1)
-#        self.assertEqual(entity.platform_name, "")
-#        self.assertEqual(entity.company_name, "")
     def tearDown(self):
         self.session.close()
 
@@ -320,15 +316,14 @@ if __name__ == "__main__":
 
 
 % cat tests.out
-.......
+.......................
 ----------------------------------------------------------------------
-Ran 7 tests in 0.001s
+Ran 23 tests in 0.474s
 
 OK
-Name          Stmts   Miss Branch BrMiss  Cover   Missing
----------------------------------------------------------
-Collatz          18      0      6      0   100%
-TestCollatz      33      1      2      1    94%   79
----------------------------------------------------------
-TOTAL            51      1      8      1    97%
-"""
+Name        Stmts   Miss Branch BrPart  Cover   Missing
+-------------------------------------------------------
+models.py     161     53     10      0    63%   22-27, 32-38, 42-43, 63-64, 85-87, 110-113, 155-162, 208-219, 257-265
+tests.py      208      1      2      1    99%   309, 306->309
+-------------------------------------------------------
+TOTAL         369     54     12      1    83%  
