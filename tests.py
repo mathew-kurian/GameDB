@@ -90,6 +90,28 @@ class Test(TestCase):
         self.assertEqual(entity.game_name, "James Pond 2: Codename: RoboCod")
         self.assertEqual(entity.platform_name, "PC")
 
+    def test_gamecompany_1(self):
+        entity = self.session.query(GameCompany).get(15)
+        self.assertEqual(entity.game_name, "Tearaway Thomas")
+        self.assertEqual(entity.company_name, "Global Software")
+        self.assertEqual(entity.role, "developer")
+
+    def test_gamecompany_2(self):
+        entity = self.session.query(GameCompany).get(60)
+        self.assertEqual(entity.game_name, "Heroes of Might and Magic IV: The Gathering Storm")
+        self.assertEqual(entity.company_name, "The 3DO Company")
+        self.assertEqual(entity.role, "publisher")
+
+    def test_gamecompany_3(self):
+        entity = self.session.query(GameCompany).get(102)
+        self.assertEqual(entity.game_name, "Software Manager")
+        self.assertEqual(entity.company_name, "Kaiko")
+        self.assertEqual(entity.role, "developer")
+
+#    def test_companyplatform_1(self):
+#        entity = self.session.query(CompanyPlatform).get(1)
+#        self.assertEqual(entity.platform_name, "")
+#        self.assertEqual(entity.company_name, "")
     def tearDown(self):
         self.session.close()
 
