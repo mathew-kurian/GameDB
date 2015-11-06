@@ -22,9 +22,10 @@ CORS(app)
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 app.debug = args.debug
 
+#open session
 session = get_session(echo=False)
 
-
+#run bash command
 def run_command(exe):
     p = subprocess.Popen(exe, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     while True:
@@ -34,7 +35,7 @@ def run_command(exe):
         if retcode is not None:
             break
 
-
+#send feedback on status of API request
 def send_api_response(func, tables, table):
     start_time = time.time()
     res = {'status': 1, 'message': 'Success', 'results': []}
@@ -56,7 +57,7 @@ def send_api_response(func, tables, table):
     res['time'] = "%.2fs" % (time.time() - start_time)
     return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
 
-
+#enable API
 @app.route('/api/<string:table>')
 @app.route('/api/<string:table>/')
 @app.route('/api/<string:table>/<int:id>')
@@ -71,7 +72,7 @@ def api(table, id=-1):
     return send_api_response(lambda t: session.query(t).get(id),
                              {'company': Company, 'game': Game, 'platform': Platform}, table)
 
-
+#run unit tests
 @app.route('/run-tests')
 def tests():
     res = ''
@@ -81,13 +82,13 @@ def tests():
 
     return Response(res, mimetype='text/plain')
 
-
+#render html template
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def index(path):
     return render_template('client.jade')
 
-
+#add headers
 @app.after_request
 def add_header(response):
     """
