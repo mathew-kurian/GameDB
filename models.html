@@ -1,0 +1,671 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module models</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>models</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/mkurian/Github/cs373-idb/models.py">/Users/mkurian/Github/cs373-idb/models.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="datetime.html">datetime</a><br>
+</td><td width="25%" valign=top><a href="decimal.html">decimal</a><br>
+</td><td width="25%" valign=top><a href="json.html">json</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="models.html#Serializer">Serializer</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="models.html#Company">Company</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt><dt><font face="helvetica, arial"><a href="models.html#CompanyPlatform">CompanyPlatform</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt><dt><font face="helvetica, arial"><a href="models.html#Game">Game</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt><dt><font face="helvetica, arial"><a href="models.html#GameCompany">GameCompany</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt><dt><font face="helvetica, arial"><a href="models.html#GamePlatform">GamePlatform</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt><dt><font face="helvetica, arial"><a href="models.html#Platform">Platform</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt><dt><font face="helvetica, arial"><a href="models.html#Url">Url</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt></dl>
+</dd>
+</dl>
+</dd>
+<dt><font face="helvetica, arial"><a href="json.encoder.html#JSONEncoder">json.encoder.JSONEncoder</a>(<a href="builtins.html#object">builtins.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="models.html#SWEncoder">SWEncoder</a>
+</font></dt></dl>
+</dd>
+<dt><font face="helvetica, arial">sqlalchemy.ext.declarative.api.Base(<a href="builtins.html#object">builtins.object</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="models.html#Company">Company</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt><dt><font face="helvetica, arial"><a href="models.html#CompanyPlatform">CompanyPlatform</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt><dt><font face="helvetica, arial"><a href="models.html#Game">Game</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt><dt><font face="helvetica, arial"><a href="models.html#GameCompany">GameCompany</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt><dt><font face="helvetica, arial"><a href="models.html#GamePlatform">GamePlatform</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt><dt><font face="helvetica, arial"><a href="models.html#Platform">Platform</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt><dt><font face="helvetica, arial"><a href="models.html#Url">Url</a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Company">class <strong>Company</strong></a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Company">Company</a>&nbsp;data&nbsp;model,&nbsp;has&nbsp;2&nbsp;dependencies&nbsp;on&nbsp;a&nbsp;<a href="#Game">Game</a>,&nbsp;one&nbsp;on&nbsp;platform<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="models.html#Company">Company</a></dd>
+<dd>sqlalchemy.ext.declarative.api.Base</dd>
+<dd><a href="models.html#Serializer">Serializer</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Company-__init__"><strong>__init__</strong></a>(self, **args)</dt><dd><tt>constructor,&nbsp;saves&nbsp;values&nbsp;into&nbsp;model&nbsp;<a href="builtins.html#object">object</a><br>
+return&nbsp;array&nbsp;args&nbsp;are&nbsp;optional&nbsp;for&nbsp;constructor</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>address</strong></dt>
+</dl>
+<dl><dt><strong>city</strong></dt>
+</dl>
+<dl><dt><strong>concepts</strong></dt>
+</dl>
+<dl><dt><strong>country</strong></dt>
+</dl>
+<dl><dt><strong>deck</strong></dt>
+</dl>
+<dl><dt><strong>description</strong></dt>
+</dl>
+<dl><dt><strong>developed_games</strong></dt>
+</dl>
+<dl><dt><strong>founded_date</strong></dt>
+</dl>
+<dl><dt><strong>id</strong></dt>
+</dl>
+<dl><dt><strong>images</strong></dt>
+</dl>
+<dl><dt><strong>name</strong></dt>
+</dl>
+<dl><dt><strong>phone</strong></dt>
+</dl>
+<dl><dt><strong>platforms</strong></dt>
+</dl>
+<dl><dt><strong>published_games</strong></dt>
+</dl>
+<dl><dt><strong>state</strong></dt>
+</dl>
+<dl><dt><strong>videos</strong></dt>
+</dl>
+<dl><dt><strong>website</strong></dt>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x10491db50; Company&gt;</dl>
+
+<dl><dt><strong>__public__</strong> = ['id', 'name', 'founded_date', 'address', 'city', 'country', 'state', 'deck', 'concepts', 'phone', 'website', 'description', 'videos', 'images', 'developed_games', 'published_games', 'platforms']</dl>
+
+<dl><dt><strong>__table__</strong> = Table('companies', MetaData(bind=None), Column('...gth=4294967295), table=&lt;companies&gt;), schema=None)</dl>
+
+<dl><dt><strong>__tablename__</strong> = 'companies'</dl>
+
+<hr>
+Data descriptors inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>metadata</strong> = MetaData(bind=None)</dl>
+
+<hr>
+Methods inherited from <a href="models.html#Serializer">Serializer</a>:<br>
+<dl><dt><a name="Company-to_serializable_dict"><strong>to_serializable_dict</strong></a>(self)</dt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="CompanyPlatform">class <strong>CompanyPlatform</strong></a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="models.html#CompanyPlatform">CompanyPlatform</a></dd>
+<dd>sqlalchemy.ext.declarative.api.Base</dd>
+<dd><a href="models.html#Serializer">Serializer</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="CompanyPlatform-__init__"><strong>__init__</strong></a>(self, **kwargs)</dt><dd><tt>A&nbsp;simple&nbsp;constructor&nbsp;that&nbsp;allows&nbsp;initialization&nbsp;from&nbsp;kwargs.<br>
+&nbsp;<br>
+Sets&nbsp;attributes&nbsp;on&nbsp;the&nbsp;constructed&nbsp;instance&nbsp;using&nbsp;the&nbsp;names&nbsp;and<br>
+values&nbsp;in&nbsp;``kwargs``.<br>
+&nbsp;<br>
+Only&nbsp;keys&nbsp;that&nbsp;are&nbsp;present&nbsp;as<br>
+attributes&nbsp;of&nbsp;the&nbsp;instance's&nbsp;class&nbsp;are&nbsp;allowed.&nbsp;These&nbsp;could&nbsp;be,<br>
+for&nbsp;example,&nbsp;any&nbsp;mapped&nbsp;columns&nbsp;or&nbsp;relationships.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>company_deck</strong></dt>
+</dl>
+<dl><dt><strong>company_id</strong></dt>
+</dl>
+<dl><dt><strong>company_image</strong></dt>
+</dl>
+<dl><dt><strong>company_name</strong></dt>
+</dl>
+<dl><dt><strong>platform_deck</strong></dt>
+</dl>
+<dl><dt><strong>platform_id</strong></dt>
+</dl>
+<dl><dt><strong>platform_image</strong></dt>
+</dl>
+<dl><dt><strong>platform_name</strong></dt>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x1049a6050; CompanyPlatform&gt;</dl>
+
+<dl><dt><strong>__mapper_args__</strong> = {'primary_key': [&lt;sqlalchemy.orm.attributes.InstrumentedAttribute object&gt;, &lt;sqlalchemy.orm.attributes.InstrumentedAttribute object&gt;]}</dl>
+
+<dl><dt><strong>__public__</strong> = ['company_id', 'platform_id', 'platform_name', 'company_name', 'platform_deck', 'company_deck']</dl>
+
+<dl><dt><strong>__table__</strong> = &lt;sqlalchemy.sql.selectable.Alias at 0x10499ee10; %(4372164112 anon)s&gt;</dl>
+
+<hr>
+Data descriptors inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>metadata</strong> = MetaData(bind=None)</dl>
+
+<hr>
+Methods inherited from <a href="models.html#Serializer">Serializer</a>:<br>
+<dl><dt><a name="CompanyPlatform-to_serializable_dict"><strong>to_serializable_dict</strong></a>(self)</dt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Game">class <strong>Game</strong></a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Data&nbsp;model&nbsp;for&nbsp;games,&nbsp;there&nbsp;are&nbsp;2&nbsp;dependencies&nbsp;on&nbsp;companies&nbsp;and&nbsp;1&nbsp;on&nbsp;platform<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="models.html#Game">Game</a></dd>
+<dd>sqlalchemy.ext.declarative.api.Base</dd>
+<dd><a href="models.html#Serializer">Serializer</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Game-__init__"><strong>__init__</strong></a>(self, **args)</dt><dd><tt>constructor,&nbsp;saves&nbsp;values&nbsp;into&nbsp;model&nbsp;<a href="builtins.html#object">object</a><br>
+list&nbsp;args&nbsp;are&nbsp;optional&nbsp;for&nbsp;constructor</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>deck</strong></dt>
+</dl>
+<dl><dt><strong>description</strong></dt>
+</dl>
+<dl><dt><strong>developers</strong></dt>
+</dl>
+<dl><dt><strong>franchises</strong></dt>
+</dl>
+<dl><dt><strong>genres</strong></dt>
+</dl>
+<dl><dt><strong>id</strong></dt>
+</dl>
+<dl><dt><strong>images</strong></dt>
+</dl>
+<dl><dt><strong>name</strong></dt>
+</dl>
+<dl><dt><strong>platforms</strong></dt>
+</dl>
+<dl><dt><strong>publishers</strong></dt>
+</dl>
+<dl><dt><strong>rating</strong></dt>
+</dl>
+<dl><dt><strong>release_date</strong></dt>
+</dl>
+<dl><dt><strong>videos</strong></dt>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x10490abd0; Game&gt;</dl>
+
+<dl><dt><strong>__public__</strong> = ['id', 'name', 'rating', 'release_date', 'deck', 'genres', 'franchises', 'description', 'videos', 'images', 'platforms', 'developers', 'publishers']</dl>
+
+<dl><dt><strong>__table__</strong> = Table('games', MetaData(bind=None), Column('id',...(length=4294967295), table=&lt;games&gt;), schema=None)</dl>
+
+<dl><dt><strong>__tablename__</strong> = 'games'</dl>
+
+<hr>
+Data descriptors inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>metadata</strong> = MetaData(bind=None)</dl>
+
+<hr>
+Methods inherited from <a href="models.html#Serializer">Serializer</a>:<br>
+<dl><dt><a name="Game-to_serializable_dict"><strong>to_serializable_dict</strong></a>(self)</dt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="GameCompany">class <strong>GameCompany</strong></a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="models.html#GameCompany">GameCompany</a></dd>
+<dd>sqlalchemy.ext.declarative.api.Base</dd>
+<dd><a href="models.html#Serializer">Serializer</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="GameCompany-__init__"><strong>__init__</strong></a>(self, **args)</dt><dd><tt>constructor,&nbsp;saves&nbsp;values&nbsp;into&nbsp;model&nbsp;<a href="builtins.html#object">object</a><br>
+list&nbsp;args&nbsp;are&nbsp;optional&nbsp;for&nbsp;constructor</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>company_deck</strong></dt>
+</dl>
+<dl><dt><strong>company_id</strong></dt>
+</dl>
+<dl><dt><strong>company_image</strong></dt>
+</dl>
+<dl><dt><strong>company_name</strong></dt>
+</dl>
+<dl><dt><strong>game_deck</strong></dt>
+</dl>
+<dl><dt><strong>game_id</strong></dt>
+</dl>
+<dl><dt><strong>game_image</strong></dt>
+</dl>
+<dl><dt><strong>game_name</strong></dt>
+</dl>
+<dl><dt><strong>id</strong></dt>
+</dl>
+<dl><dt><strong>role</strong></dt>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x102f970d0; GameCompany&gt;</dl>
+
+<dl><dt><strong>__public__</strong> = ['game_id', 'company_id', 'game_name', 'company_name', 'company_deck', 'game_deck', 'game_image', 'company_image']</dl>
+
+<dl><dt><strong>__table__</strong> = Table('games_companies', MetaData(bind=None), Co...ength=20), table=&lt;games_companies&gt;), schema=None)</dl>
+
+<dl><dt><strong>__tablename__</strong> = 'games_companies'</dl>
+
+<hr>
+Data descriptors inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>metadata</strong> = MetaData(bind=None)</dl>
+
+<hr>
+Methods inherited from <a href="models.html#Serializer">Serializer</a>:<br>
+<dl><dt><a name="GameCompany-to_serializable_dict"><strong>to_serializable_dict</strong></a>(self)</dt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="GamePlatform">class <strong>GamePlatform</strong></a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="models.html#GamePlatform">GamePlatform</a></dd>
+<dd>sqlalchemy.ext.declarative.api.Base</dd>
+<dd><a href="models.html#Serializer">Serializer</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="GamePlatform-__init__"><strong>__init__</strong></a>(self, **args)</dt><dd><tt>constructor,&nbsp;saves&nbsp;values&nbsp;into&nbsp;model&nbsp;<a href="builtins.html#object">object</a><br>
+list&nbsp;args&nbsp;are&nbsp;optional&nbsp;for&nbsp;constructor</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>game_deck</strong></dt>
+</dl>
+<dl><dt><strong>game_id</strong></dt>
+</dl>
+<dl><dt><strong>game_image</strong></dt>
+</dl>
+<dl><dt><strong>game_name</strong></dt>
+</dl>
+<dl><dt><strong>id</strong></dt>
+</dl>
+<dl><dt><strong>platform_deck</strong></dt>
+</dl>
+<dl><dt><strong>platform_id</strong></dt>
+</dl>
+<dl><dt><strong>platform_image</strong></dt>
+</dl>
+<dl><dt><strong>platform_name</strong></dt>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x102f81750; GamePlatform&gt;</dl>
+
+<dl><dt><strong>__public__</strong> = ['game_id', 'platform_id', 'platform_name', 'game_name', 'platform_deck', 'game_deck', 'game_image', 'platform_image']</dl>
+
+<dl><dt><strong>__table__</strong> = Table('game_platforms', MetaData(bind=None), Col...forms.id'), table=&lt;game_platforms&gt;), schema=None)</dl>
+
+<dl><dt><strong>__tablename__</strong> = 'game_platforms'</dl>
+
+<hr>
+Data descriptors inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>metadata</strong> = MetaData(bind=None)</dl>
+
+<hr>
+Methods inherited from <a href="models.html#Serializer">Serializer</a>:<br>
+<dl><dt><a name="GamePlatform-to_serializable_dict"><strong>to_serializable_dict</strong></a>(self)</dt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Platform">class <strong>Platform</strong></a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>platform&nbsp;data&nbsp;model,&nbsp;has&nbsp;1&nbsp;dependency&nbsp;on&nbsp;<a href="#Game">Game</a>&nbsp;model&nbsp;and&nbsp;1&nbsp;on&nbsp;<a href="#Platform">Platform</a><br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="models.html#Platform">Platform</a></dd>
+<dd>sqlalchemy.ext.declarative.api.Base</dd>
+<dd><a href="models.html#Serializer">Serializer</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Platform-__init__"><strong>__init__</strong></a>(self, **args)</dt><dd><tt>array&nbsp;args&nbsp;are&nbsp;optional</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>companies</strong></dt>
+</dl>
+<dl><dt><strong>company</strong></dt>
+</dl>
+<dl><dt><strong>deck</strong></dt>
+</dl>
+<dl><dt><strong>description</strong></dt>
+</dl>
+<dl><dt><strong>games</strong></dt>
+</dl>
+<dl><dt><strong>id</strong></dt>
+</dl>
+<dl><dt><strong>images</strong></dt>
+</dl>
+<dl><dt><strong>install_base</strong></dt>
+</dl>
+<dl><dt><strong>name</strong></dt>
+</dl>
+<dl><dt><strong>online_support</strong></dt>
+</dl>
+<dl><dt><strong>price</strong></dt>
+</dl>
+<dl><dt><strong>release_date</strong></dt>
+</dl>
+<dl><dt><strong>videos</strong></dt>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x10492d690; Platform&gt;</dl>
+
+<dl><dt><strong>__public__</strong> = ['id', 'name', 'release_date', 'online_support', 'price', 'company', 'deck', 'install_base', 'description', 'videos', 'images', 'games', 'companies']</dl>
+
+<dl><dt><strong>__table__</strong> = Table('platforms', MetaData(bind=None), Column('...gth=4294967295), table=&lt;platforms&gt;), schema=None)</dl>
+
+<dl><dt><strong>__tablename__</strong> = 'platforms'</dl>
+
+<hr>
+Data descriptors inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>metadata</strong> = MetaData(bind=None)</dl>
+
+<hr>
+Methods inherited from <a href="models.html#Serializer">Serializer</a>:<br>
+<dl><dt><a name="Platform-to_serializable_dict"><strong>to_serializable_dict</strong></a>(self)</dt></dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="SWEncoder">class <strong>SWEncoder</strong></a>(<a href="json.encoder.html#JSONEncoder">json.encoder.JSONEncoder</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="models.html#SWEncoder">SWEncoder</a></dd>
+<dd><a href="json.encoder.html#JSONEncoder">json.encoder.JSONEncoder</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="SWEncoder-default"><strong>default</strong></a>(self, obj)</dt></dl>
+
+<hr>
+Methods inherited from <a href="json.encoder.html#JSONEncoder">json.encoder.JSONEncoder</a>:<br>
+<dl><dt><a name="SWEncoder-__init__"><strong>__init__</strong></a>(self, skipkeys<font color="#909090">=False</font>, ensure_ascii<font color="#909090">=True</font>, check_circular<font color="#909090">=True</font>, allow_nan<font color="#909090">=True</font>, sort_keys<font color="#909090">=False</font>, indent<font color="#909090">=None</font>, separators<font color="#909090">=None</font>, default<font color="#909090">=None</font>)</dt><dd><tt>Constructor&nbsp;for&nbsp;<a href="json.encoder.html#JSONEncoder">JSONEncoder</a>,&nbsp;with&nbsp;sensible&nbsp;defaults.<br>
+&nbsp;<br>
+If&nbsp;skipkeys&nbsp;is&nbsp;false,&nbsp;then&nbsp;it&nbsp;is&nbsp;a&nbsp;TypeError&nbsp;to&nbsp;attempt<br>
+encoding&nbsp;of&nbsp;keys&nbsp;that&nbsp;are&nbsp;not&nbsp;str,&nbsp;int,&nbsp;float&nbsp;or&nbsp;None.&nbsp;&nbsp;If<br>
+skipkeys&nbsp;is&nbsp;True,&nbsp;such&nbsp;items&nbsp;are&nbsp;simply&nbsp;skipped.<br>
+&nbsp;<br>
+If&nbsp;ensure_ascii&nbsp;is&nbsp;true,&nbsp;the&nbsp;output&nbsp;is&nbsp;guaranteed&nbsp;to&nbsp;be&nbsp;str<br>
+objects&nbsp;with&nbsp;all&nbsp;incoming&nbsp;non-ASCII&nbsp;characters&nbsp;escaped.&nbsp;&nbsp;If<br>
+ensure_ascii&nbsp;is&nbsp;false,&nbsp;the&nbsp;output&nbsp;can&nbsp;contain&nbsp;non-ASCII&nbsp;characters.<br>
+&nbsp;<br>
+If&nbsp;check_circular&nbsp;is&nbsp;true,&nbsp;then&nbsp;lists,&nbsp;dicts,&nbsp;and&nbsp;custom&nbsp;encoded<br>
+objects&nbsp;will&nbsp;be&nbsp;checked&nbsp;for&nbsp;circular&nbsp;references&nbsp;during&nbsp;encoding&nbsp;to<br>
+prevent&nbsp;an&nbsp;infinite&nbsp;recursion&nbsp;(which&nbsp;would&nbsp;cause&nbsp;an&nbsp;OverflowError).<br>
+Otherwise,&nbsp;no&nbsp;such&nbsp;check&nbsp;takes&nbsp;place.<br>
+&nbsp;<br>
+If&nbsp;allow_nan&nbsp;is&nbsp;true,&nbsp;then&nbsp;NaN,&nbsp;Infinity,&nbsp;and&nbsp;-Infinity&nbsp;will&nbsp;be<br>
+encoded&nbsp;as&nbsp;such.&nbsp;&nbsp;This&nbsp;behavior&nbsp;is&nbsp;not&nbsp;JSON&nbsp;specification&nbsp;compliant,<br>
+but&nbsp;is&nbsp;consistent&nbsp;with&nbsp;most&nbsp;JavaScript&nbsp;based&nbsp;encoders&nbsp;and&nbsp;decoders.<br>
+Otherwise,&nbsp;it&nbsp;will&nbsp;be&nbsp;a&nbsp;ValueError&nbsp;to&nbsp;encode&nbsp;such&nbsp;floats.<br>
+&nbsp;<br>
+If&nbsp;sort_keys&nbsp;is&nbsp;true,&nbsp;then&nbsp;the&nbsp;output&nbsp;of&nbsp;dictionaries&nbsp;will&nbsp;be<br>
+sorted&nbsp;by&nbsp;key;&nbsp;this&nbsp;is&nbsp;useful&nbsp;for&nbsp;regression&nbsp;tests&nbsp;to&nbsp;ensure<br>
+that&nbsp;JSON&nbsp;serializations&nbsp;can&nbsp;be&nbsp;compared&nbsp;on&nbsp;a&nbsp;day-to-day&nbsp;basis.<br>
+&nbsp;<br>
+If&nbsp;indent&nbsp;is&nbsp;a&nbsp;non-negative&nbsp;integer,&nbsp;then&nbsp;JSON&nbsp;array<br>
+elements&nbsp;and&nbsp;<a href="builtins.html#object">object</a>&nbsp;members&nbsp;will&nbsp;be&nbsp;pretty-printed&nbsp;with&nbsp;that<br>
+indent&nbsp;level.&nbsp;&nbsp;An&nbsp;indent&nbsp;level&nbsp;of&nbsp;0&nbsp;will&nbsp;only&nbsp;insert&nbsp;newlines.<br>
+None&nbsp;is&nbsp;the&nbsp;most&nbsp;compact&nbsp;representation.<br>
+&nbsp;<br>
+If&nbsp;specified,&nbsp;separators&nbsp;should&nbsp;be&nbsp;a&nbsp;(item_separator,&nbsp;key_separator)<br>
+tuple.&nbsp;&nbsp;The&nbsp;default&nbsp;is&nbsp;(',&nbsp;',&nbsp;':&nbsp;').&nbsp;&nbsp;To&nbsp;get&nbsp;the&nbsp;most&nbsp;compact&nbsp;JSON<br>
+representation&nbsp;you&nbsp;should&nbsp;specify&nbsp;(',',&nbsp;':')&nbsp;to&nbsp;eliminate&nbsp;whitespace.<br>
+&nbsp;<br>
+If&nbsp;specified,&nbsp;default&nbsp;is&nbsp;a&nbsp;function&nbsp;that&nbsp;gets&nbsp;called&nbsp;for&nbsp;objects<br>
+that&nbsp;can't&nbsp;otherwise&nbsp;be&nbsp;serialized.&nbsp;&nbsp;It&nbsp;should&nbsp;return&nbsp;a&nbsp;JSON&nbsp;encodable<br>
+version&nbsp;of&nbsp;the&nbsp;<a href="builtins.html#object">object</a>&nbsp;or&nbsp;raise&nbsp;a&nbsp;``TypeError``.</tt></dd></dl>
+
+<dl><dt><a name="SWEncoder-encode"><strong>encode</strong></a>(self, o)</dt><dd><tt>Return&nbsp;a&nbsp;JSON&nbsp;string&nbsp;representation&nbsp;of&nbsp;a&nbsp;Python&nbsp;data&nbsp;structure.<br>
+&nbsp;<br>
+&gt;&gt;&gt;&nbsp;<a href="json.encoder.html#JSONEncoder">JSONEncoder</a>().<a href="#SWEncoder-encode">encode</a>({"foo":&nbsp;["bar",&nbsp;"baz"]})<br>
+'{"foo":&nbsp;["bar",&nbsp;"baz"]}'</tt></dd></dl>
+
+<dl><dt><a name="SWEncoder-iterencode"><strong>iterencode</strong></a>(self, o, _one_shot<font color="#909090">=False</font>)</dt><dd><tt>Encode&nbsp;the&nbsp;given&nbsp;<a href="builtins.html#object">object</a>&nbsp;and&nbsp;yield&nbsp;each&nbsp;string<br>
+representation&nbsp;as&nbsp;available.<br>
+&nbsp;<br>
+For&nbsp;example::<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;chunk&nbsp;in&nbsp;<a href="json.encoder.html#JSONEncoder">JSONEncoder</a>().<a href="#SWEncoder-iterencode">iterencode</a>(bigobject):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mysocket.write(chunk)</tt></dd></dl>
+
+<hr>
+Data descriptors inherited from <a href="json.encoder.html#JSONEncoder">json.encoder.JSONEncoder</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from <a href="json.encoder.html#JSONEncoder">json.encoder.JSONEncoder</a>:<br>
+<dl><dt><strong>item_separator</strong> = ', '</dl>
+
+<dl><dt><strong>key_separator</strong> = ': '</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Serializer">class <strong>Serializer</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Serializer-to_serializable_dict"><strong>to_serializable_dict</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__public__</strong> = None</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Url">class <strong>Url</strong></a>(sqlalchemy.ext.declarative.api.Base, <a href="models.html#Serializer">Serializer</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="models.html#Url">Url</a></dd>
+<dd>sqlalchemy.ext.declarative.api.Base</dd>
+<dd><a href="models.html#Serializer">Serializer</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="Url-__init__"><strong>__init__</strong></a>(self, **args)</dt><dd><tt>constructor,&nbsp;saves&nbsp;values&nbsp;into&nbsp;model&nbsp;<a href="builtins.html#object">object</a><br>
+list&nbsp;args&nbsp;are&nbsp;optional&nbsp;for&nbsp;constructor</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>entity</strong></dt>
+</dl>
+<dl><dt><strong>entity_id</strong></dt>
+</dl>
+<dl><dt><strong>id</strong></dt>
+</dl>
+<dl><dt><strong>source</strong></dt>
+</dl>
+<dl><dt><strong>type</strong></dt>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>__mapper__</strong> = &lt;Mapper at 0x102f97d50; Url&gt;</dl>
+
+<dl><dt><strong>__public__</strong> = ['source']</dl>
+
+<dl><dt><strong>__table__</strong> = Table('urls', MetaData(bind=None), Column('id', ...', String(length=20), table=&lt;urls&gt;), schema=None)</dl>
+
+<dl><dt><strong>__tablename__</strong> = 'urls'</dl>
+
+<hr>
+Data descriptors inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes inherited from sqlalchemy.ext.declarative.api.Base:<br>
+<dl><dt><strong>metadata</strong> = MetaData(bind=None)</dl>
+
+<hr>
+Methods inherited from <a href="models.html#Serializer">Serializer</a>:<br>
+<dl><dt><a name="Url-to_serializable_dict"><strong>to_serializable_dict</strong></a>(self)</dt></dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-to_json"><strong>to_json</strong></a>(arg, **kwargs)</dt></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>func</strong> = &lt;sqlalchemy.sql.functions._FunctionGenerator object&gt;<br>
+<strong>modifier</strong> = &lt;sqlalchemy.sql.functions._FunctionGenerator object&gt;</td></tr></table>
+</body></html>
