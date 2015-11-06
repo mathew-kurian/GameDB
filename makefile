@@ -35,10 +35,9 @@ tests.tmp: tests.py
 	coverage3 report -m                      >> tests.tmp
 	cat tests.tmp
 
-build: python pip3 pm2 grunt-cli ruby
-	npm install
-	grunt build
-	grunt imagemin
+build: 
+	sudo service mysql start
+	python3 migrate.py
 
 pip3: python
 	apt-get install python3-pip
@@ -70,16 +69,32 @@ server:
 	debconf-set-selections <<< 'mysql-server mysql-server/root_password password 123456'
 	debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password 123456'
 	apt-get -y install mysql-server
-
 	mysql -u root --password=123456 -e "create database IF NOT EXISTS idb CHARACTER SET = utf8mb4"
 
 start-server:
-	python3 migrate.py
-	pm2 start -i 1 -x --interpreter python3 index.py
-	pm2 restart index
-	grunt build
 	sudo service mysql start
+	python3 migrate.py
 
 stop-server:
 	sudo service mysql stop
+
+full_install:
+	dd if=/dev/zero of=/swapfile bs=1024 count=1024k
+	fallocate -l 1G /mnt/1GB.swap
+	mkswap /mnt/1GB.swap
+	swapon /mnt/1GB.swap
+	echo '/mnt/1GB.swap  none  swap  sw 0  0' >> /etc/fstab
+	echo 'vm.swappiness=10' >> /etc/sysctl.conf
+	sudo scripts/setup/install.sh
+
+install:
+	sudo scripts/setup/install.sh
+
+increase_swap:
+	dd if=/dev/zero of=/swapfile bs=1024 count=1024k
+	fallocate -l 1G /mnt/1GB.swap
+	mkswap /mnt/1GB.swap
+	swapon /mnt/1GB.swap
+	echo '/mnt/1GB.swap  none  swap  sw 0  0' >> /etc/fstab
+	echo 'vm.swappiness=10' >> /etc/sysctl.conf
 
