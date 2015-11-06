@@ -101,7 +101,8 @@ var App = React.createClass({
                   who brought your food out for you. Other than that I've been pretty satisfied with the US and hope
                   to get a job in something that has nothing to do with threads and concurrency one day. During phase 1
                   most of my effort was put into the technical report, writing ~1/3 of it as well as editing. I made 3
-                  commits, did not make any issues and have not yet written any unit tests.</p>
+                  commits, did not make any issues and have not yet written any unit tests in phase 1. In phase 2,
+                  I added 3 commits and 2 unit tests.</p>
               </div>
             </div>
             <hr />
@@ -119,7 +120,7 @@ var App = React.createClass({
                 <p>Student at the University of Texas at Austin completing a bachelor's degree in Computer Science. This
                   is my final semester, and I plan on building a career in software engineering after graduation.
                   During this project, I worked on creating the unit tests and the data models. During my time working
-                  in phase 1, I submitted 4 commits and wrote 9 unit tests.</p>
+                  in phase 1, I submitted 4 commits and wrote 9 unit tests. In phase 2, I added 9 commits and 8 unit tests.</p>
               </div>
             </div>
             <hr />
@@ -136,8 +137,9 @@ var App = React.createClass({
 
                 <p>Computer Science and Electrical Engineering Double Major Student at the
                   University of Texas at Austin. This is my 3rd year. My hobbies are basketball and tennis.
-                  During the project, I focused on documentation, working on the Apiary and the UML diagram.
-                  I made 11 commits, filed 5 issues, wrote 0 unit tests.</p>
+                  During the project, I focused on documentation, working on the Apiary and the UML diagram, and on unit tests.
+                  I made 11 commits, filed 5 issues, wrote 0 unit tests in phase 1. In phase 2, I made 31 commits,
+                  filed 4 issues, and wrote 10 unit tests. I was also the project lead during phase 2.</p>
               </div>
             </div>
             <hr />
@@ -156,7 +158,8 @@ var App = React.createClass({
                   Engineering. This is my final year and I will be joining Salesforce fulltime. In my free time, I like
                   to mix it up with a little bit of lifting, reading, and biking waiting for the finishline. During the
                   project, I focused on developing the front end and working with React. I had fun being the Project
-                  Lead during Phase 1 during which I submitted 59 commits, filed 14 issues, wrote 3 unit tests.</p>
+                  Lead during Phase 1 during which I submitted 59 commits, filed 14 issues, wrote 3 unit tests. I added
+                  75 commits in phase 2.</p>
               </div>
             </div>
 
