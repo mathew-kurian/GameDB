@@ -8,6 +8,9 @@ import ijson
 
 
 def get_session(echo=True):
+    """
+    Create a sql session with debugging on/off
+    """
     engine = create_engine("mysql+pymysql://root:123456@localhost/idb?charset=utf8mb4", echo=echo)
     session = sessionmaker()
     session.configure(bind=engine)
@@ -15,10 +18,16 @@ def get_session(echo=True):
 
 
 def to_dict(a):
+    """
+    Convert model to json
+    """
     return json.loads(to_json(a))
 
 
 def migrate(session=None):
+    """
+    Import collected info into sql 
+    """
     close = None
 
     if session is None:
