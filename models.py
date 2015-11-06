@@ -14,7 +14,7 @@ from sqlalchemy import *
 
 Base = declarative_base()
 
-
+#used to serialize incoming json data into dictionary
 class Serializer(object):
     __public__ = None
 
@@ -26,7 +26,7 @@ class Serializer(object):
                 dict[public_key] = value
         return dict
 
-
+#encodes data to json-friendly format
 class SWEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, Serializer):
@@ -42,7 +42,7 @@ def to_json(arg, **kwargs):
     kwargs['cls'] = SWEncoder
     return json.dumps(arg, **kwargs)
 
-
+#association table between game and platform table
 class GamePlatform(Base, Serializer):
     __tablename__ = 'game_platforms'
     __public__ = ['game_id', 'platform_id', 'platform_name', 'game_name', 'platform_deck', 'game_deck', 'game_image',
@@ -63,7 +63,7 @@ class GamePlatform(Base, Serializer):
         self.game_id = args.get('game_id')
         self.platform_id = args.get('platform_id')
 
-
+#association table between game and company table
 class GameCompany(Base, Serializer):
     __tablename__ = 'games_companies'
     __public__ = ['game_id', 'company_id', 'game_name', 'company_name', 'company_deck', 'game_deck', 'game_image',
@@ -86,7 +86,7 @@ class GameCompany(Base, Serializer):
         self.company_id = args.get('company_id')
         self.role = args.get('role')
 
-
+#Table storing video and image urls
 class Url(Base, Serializer):
     __tablename__ = 'urls'
     __public__ = ['source']
@@ -116,6 +116,7 @@ class Url(Base, Serializer):
 # ------------
 # Game
 # ------------
+#table storing game stats
 class Game(Base, Serializer):
     """
     Data model for games, there are 2 dependencies on companies and 1 on platform
@@ -165,6 +166,7 @@ class Game(Base, Serializer):
 # ------------
 # Company
 # ------------
+#table storing company stats
 class Company(Base, Serializer):
     """
     Company data model, has 2 dependencies on a Game, one on platform
@@ -222,6 +224,7 @@ class Company(Base, Serializer):
 # ------------
 # Platform
 # ------------
+#table for platform stats
 class Platform(Base, Serializer):
     """
     platform data model, has 1 dependency on Game model and 1 on Platform
@@ -318,6 +321,7 @@ GamePlatform.platform_image = column_property(
 
 # views
 
+#materialized view to complete the 3 way relationship w/ minimal data duplication
 class CompanyPlatform(Base, Serializer):
     __public__ = ['company_id', 'platform_id', 'platform_name', 'company_name', 'platform_deck', 'company_deck']
     __mapper_args__ = {
