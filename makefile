@@ -52,8 +52,11 @@ build:
 	grunt build imagemin
 
 start:
-	pm2 start -i 1 -x --interpreter python3 index.py
-
+	sudo service mysql restart
+	bin/solr stop -all
+	bin/solr start -e cloud -noprompt
+	python3 migrate.py
+	sudo python3 index.py 
 restart:
 	pm2 restart index.py
 

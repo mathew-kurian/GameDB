@@ -92,13 +92,13 @@ def api_search(name):
         for result in search_dict['response']['docs']:
             if x == 10:
                 break
-            print(x)
+
             table = Game
             if 'country' in result:
                 table = Company
             elif 'online_support' in result:
                 table = Platform
-            print('hello\n\n')
+                
             res['results'] += [session.query(table).get(result['id'])]
             res['status'] = 0
             x += 1
@@ -138,4 +138,4 @@ def add_header(response):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='localhost', port=args.port  + 1)
