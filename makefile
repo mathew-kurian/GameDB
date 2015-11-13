@@ -27,7 +27,8 @@ models.html: models.py
 IDB2.log:
 	git log > IDB2.log
 
-tests.tmp: tests.py
+tests.tmp: 
+	python3 tests.py
 	coverage3 run --source=tests.py,models.py --omit=*/sqlalchemy/* --branch tests.py >  tests.tmp 2>&1
 	coverage3 report -m                      >> tests.tmp
 	cat tests.tmp
@@ -50,8 +51,7 @@ python:
 build: 
 	grunt build imagemin
 
-start: build
-	sudo service mysql start
+start:
 	pm2 start -i 1 -x --interpreter python3 index.py
 
 restart:

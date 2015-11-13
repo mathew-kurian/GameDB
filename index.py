@@ -3,10 +3,13 @@ import os
 import subprocess
 import time
 import argparse
+import json
 
 from flask import Flask, render_template, make_response, request, Response
 from flask.ext.compress import Compress
 from flask.ext.cors import CORS
+
+from http.client import HTTPConnection
 
 from db import *
 
@@ -57,7 +60,7 @@ def send_api_response(func, tables, table):
     res['time'] = "%.2fs" % (time.time() - start_time)
     return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
 
-#enable API
+#enable API get
 @app.route('/api/<string:table>')
 @app.route('/api/<string:table>/')
 @app.route('/api/<string:table>/<int:id>')
@@ -71,6 +74,40 @@ def api(table, id=-1):
             {'companies': Company, 'games': Game, 'platforms': Platform}, table)
     return send_api_response(lambda t: session.query(t).get(id),
                              {'company': Company, 'game': Game, 'platform': Platform}, table)
+
+#enable API search
+@app.route('/api/search/<string:name>')
+def api_search(name):
+    res = {'status': 1, 'message': 'Success', 'results': []}
+    #make a request to solr and read it
+    connect = HTTPConnection('localhost:8983')
+    connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=Mario&wt=json&indent=true')
+    read = connect.getresponse()
+    json_data = read.read()
+    connect.close()
+    #convert json to dict
+    try:
+        search_dict = json.loads(str(json_data.decode('utf-8')))
+        x = 0
+        for result in search_dict['response']['docs']:
+            if x == 10:
+                break
+            print(x)
+            table = Game
+            if 'country' in result:
+                table = Company
+            elif 'online_support' in result:
+                table = Platform
+            print('hello\n\n')
+            res['results'] += session.query(table).get(result['id'])
+            res['status'] = 0
+            x += 1
+        if x == 0:
+            res['message'] = 'No Matching Terms Found'
+    except Exception as e:
+        res['message'] = str(e)
+
+    return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
 
 #run unit tests
 @app.route('/run-tests')
@@ -101,4 +138,4 @@ def add_header(response):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=args.port)
+    app.run(host='0.0.0.0', port=80)
