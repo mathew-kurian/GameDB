@@ -76,14 +76,17 @@ def api(table, id=-1):
                              {'company': Company, 'game': Game, 'platform': Platform}, table)
 
 #enable API search
+#index specifies which 10 to get, using zero-based indexing
+#Ex. index = 0 means first 10, index = 1 means 11 - 20
 @app.route('/api/search/<string:name>')
-def api_search(name):
+@app.route('/api/search/<string:name>/<int:index>')
+def api_search(name, index = 0):
     #res object for response
     res = {'status': 1, 'message': 'Success', 'results': []}
 
     #make a request to solr and read it
     connect = HTTPConnection('localhost:8983')
-    connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + name +'&wt=json&indent=true')
+    connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + name +'&wt=json&indent=true&fl=name,description&start=' + str(index * 10))
     read = connect.getresponse()
     json_data = read.read()
     connect.close()
@@ -92,13 +95,15 @@ def api_search(name):
     try:
         #convert json_data string to dict
         search_dict = json.loads(str(json_data.decode('utf-8')))
-        x = 0
+        counted = 0
 
-        #get results for output
-        for result in search_dict['response']['docs']:
-            #only 10 at a time
-            if x == 10:
+        #get results for output, with at most 10
+        for x in range(0, 9):
+            #break if not enough results
+            if len(search_dict['response']['docs']) <= x:
                 break
+
+            result = search_dict['response']['docs'][x]
 
             #solr data does not explicitly stored type
             #so using unique fields to determine which model belongs to
@@ -111,10 +116,12 @@ def api_search(name):
             #add to results
             res['results'] += [session.query(table).get(result['id'])]
             res['status'] = 0
-            x += 1
+            counted += 1
+
         #no hits, means no matches
-        if x == 0:
+        if counted == 0:
             res['message'] = 'No Matching Terms Found'
+
     except Exception as e:
         res['message'] = str(e)
 
@@ -149,4 +156,4 @@ def add_header(response):
 
 
 if __name__ == '__main__':
-    app.run(host='localhost', port=args.port  + 1)
+    app.run(host='0.0.0.0', port=args.port)
