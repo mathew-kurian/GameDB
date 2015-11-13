@@ -81,7 +81,7 @@ def api_search(name):
     res = {'status': 1, 'message': 'Success', 'results': []}
     #make a request to solr and read it
     connect = HTTPConnection('localhost:8983')
-    connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=Mario&wt=json&indent=true')
+    connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + name +'&wt=json&indent=true')
     read = connect.getresponse()
     json_data = read.read()
     connect.close()
@@ -99,7 +99,7 @@ def api_search(name):
             elif 'online_support' in result:
                 table = Platform
             print('hello\n\n')
-            res['results'] += session.query(table).get(result['id'])
+            res['results'] += [session.query(table).get(result['id'])]
             res['status'] = 0
             x += 1
         if x == 0:
