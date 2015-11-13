@@ -78,30 +78,41 @@ def api(table, id=-1):
 #enable API search
 @app.route('/api/search/<string:name>')
 def api_search(name):
+    #res object for response
     res = {'status': 1, 'message': 'Success', 'results': []}
+
     #make a request to solr and read it
     connect = HTTPConnection('localhost:8983')
     connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + name +'&wt=json&indent=true')
     read = connect.getresponse()
     json_data = read.read()
     connect.close()
-    #convert json to dict
+
+    #need to handle and display errors
     try:
+        #convert json_data string to dict
         search_dict = json.loads(str(json_data.decode('utf-8')))
         x = 0
+
+        #get results for output
         for result in search_dict['response']['docs']:
+            #only 10 at a time
             if x == 10:
                 break
 
+            #solr data does not explicitly stored type
+            #so using unique fields to determine which model belongs to
             table = Game
             if 'country' in result:
                 table = Company
             elif 'online_support' in result:
                 table = Platform
-                
+
+            #add to results
             res['results'] += [session.query(table).get(result['id'])]
             res['status'] = 0
             x += 1
+        #no hits, means no matches
         if x == 0:
             res['message'] = 'No Matching Terms Found'
     except Exception as e:
