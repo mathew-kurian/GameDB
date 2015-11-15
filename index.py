@@ -86,7 +86,7 @@ def api_search(name, index = 0):
 
     #make a request to solr and read it
     connect = HTTPConnection('0.0.0.0:8983')
-    connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + name +'&wt=json&indent=true&fl=name,id,description,country,online_support&start=' + str(index * 10))
+    connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + name +'&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
     read = connect.getresponse()
     json_data = read.read()
     connect.close()
@@ -119,7 +119,7 @@ def api_search(name, index = 0):
             entity = session.query(table).get(result['id'])
             if entity is None:
                 continue
-            res['results'] += [[entity.name, entity.id, entity.description]]
+            res['results'] += [[entity.name, entity.id, entity.deck, entity.description]]
             res['status'] = 0
             counted += 1
 
