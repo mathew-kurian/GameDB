@@ -54,10 +54,10 @@ build:
 index:
 	~/solr-5.3.1/bin/solr stop -all
 	sudo rm -Rf ~/solr-5.3.1/example/cloud/
-	~/solr-5.3.1/bin/post scripts/giantbomb/json/games.json
-	~/solr-5.3.1/bin/post scripts/giantbomb/json/platforms.json
-	~/solr-5.3.1/bin/post scripts/giantbomb/json/companies.json
 	~/solr-5.3.1/bin/solr start -e cloud -noprompt
+	~/solr-5.3.1/bin/post -c gettingstarted scripts/giantbomb/json/games.json
+	~/solr-5.3.1/bin/post -c gettingstarted scripts/giantbomb/json/platforms.json
+	~/solr-5.3.1/bin/post -c gettingstarted scripts/giantbomb/json/companies.json
 
 start:
 	sudo service mysql restart

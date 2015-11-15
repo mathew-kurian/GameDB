@@ -82,11 +82,11 @@ def api(table, id=-1):
 @app.route('/api/search/<string:name>/<int:index>')
 def api_search(name, index = 0):
     #res object for response
-    res = {'status': 1, 'message': 'Success', 'results': []}
+    res = {'status': 1, 'message': 'Success', 'results': [], 'counted' : 0}
 
     #make a request to solr and read it
-    connect = HTTPConnection('localhost:8983')
-    connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + name +'&wt=json&indent=true&fl=name,description&start=' + str(index * 10))
+    connect = HTTPConnection('0.0.0.0:8983')
+    connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + name +'&wt=json&indent=true&fl=name,id,description,country,online_support&start=' + str(index * 10))
     read = connect.getresponse()
     json_data = read.read()
     connect.close()
@@ -96,9 +96,11 @@ def api_search(name, index = 0):
         #convert json_data string to dict
         search_dict = json.loads(str(json_data.decode('utf-8')))
         counted = 0
+        x = -1
 
         #get results for output, with at most 10
-        for x in range(0, 9):
+        while counted < 10:
+            x += 1
             #break if not enough results
             if len(search_dict['response']['docs']) <= x:
                 break
@@ -114,7 +116,10 @@ def api_search(name, index = 0):
                 table = Platform
 
             #add to results
-            res['results'] += [session.query(table).get(result['id'])]
+            entity = session.query(table).get(result['id'])
+            if entity is None:
+                continue
+            res['results'] += [[entity.name, entity.id, entity.description]]
             res['status'] = 0
             counted += 1
 
@@ -124,6 +129,8 @@ def api_search(name, index = 0):
 
     except Exception as e:
         res['message'] = str(e)
+    
+    res['counted'] = counted
 
     return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
 
