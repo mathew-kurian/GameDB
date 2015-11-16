@@ -6,6 +6,7 @@ import argparse
 import json
 
 from flask import Flask, render_template, make_response, request, Response
+import flask
 from flask.ext.compress import Compress
 from flask.ext.cors import CORS
 
@@ -161,6 +162,20 @@ def add_header(response):
     response.headers['Cache-Control'] = 'public, max-age=60000000'
     return response
 
+
+@app.after_request
+def add_cors(resp):
+    """ Ensure all responses have the CORS headers. This ensures any failures are also accessible
+        by the client. """
+    resp.headers['Access-Control-Allow-Origin'] = flask.request.headers.get('Origin','*')
+    resp.headers['Access-Control-Allow-Credentials'] = 'true'
+    resp.headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS, GET'
+    resp.headers['Access-Control-Allow-Headers'] = flask.request.headers.get(
+        'Access-Control-Request-Headers', 'Authorization' )
+    # set low for debugging
+    if app.debug:
+        resp.headers['Access-Control-Max-Age'] = '1'
+    return resp
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=args.port)

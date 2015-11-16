@@ -5,6 +5,7 @@ import { Link } from 'react-router'
 import history from '../History'
 var Select = require('react-select');
 var request = require('superagent');
+var Search = require('../model/Search.jsx');
 
 var SPINNER = '/assets/dist/images/spinner-0.gif';
 
@@ -134,6 +135,12 @@ var Header = React.createClass({
       );
     })
   },
+  _handleSearchClose: function () {
+    this.setState({search: false});
+  },
+  _handleSearchOpen: function () {
+    this.setState({search: true});
+  },
   render(){
     var tbody;
 
@@ -225,6 +232,9 @@ var Header = React.createClass({
               </li>
             </ul>
           </nav>
+          <input onClick={this._handleSearchOpen}
+                 style={{float:'right',width:400,padding:10,background:'rgba(0,0,0,0.3)',border:'1px solid rgba(0,0,0,0.3)', outline:'none',borderRadius:20}}/>
+          { this.state.search ? <Search onClose={this._handleSearchClose}/> : null }
         </div>
         <div className='page-head' style={{background:'transparent'}}>
           <div className="container">

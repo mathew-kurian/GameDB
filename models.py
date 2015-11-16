@@ -123,10 +123,10 @@ class Game(Base, Serializer):
     """
     __tablename__ = 'games'
     __public__ = ['id', 'name', 'rating', 'release_date', 'deck', 'genres', 'franchises', 'description', 'videos',
-                  'images', 'platforms', 'developers', 'publishers']
+                  'images', 'entity', ''platforms', 'developers', 'publishers']
 
     id = Column(Integer, primary_key=True)
-    name = Column(String(100))
+    name = Columne(String(100))
     rating = Column(String(100))
     release_date = Column(DateTime)
     deck = Column(Text)

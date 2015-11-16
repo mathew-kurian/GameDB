@@ -5,7 +5,8 @@
   text-align: center;
 
   $icons: "ileft" ,
-  "iright" ;
+  "iright" ,
+  "close" ;
 
   @each $i in $icons {
     &.#{nth($i, 1)}:before {
