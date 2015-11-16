@@ -133,6 +133,7 @@ class Game(Base, Serializer):
     genres = Column(Text)
     franchises = Column(Text)
     description = Column(Text(4294967295))
+    entity = Column(String(100))
 
     videos = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'video'),
                           foreign_keys=[Url.entity_id], viewonly=True)
@@ -161,6 +162,7 @@ class Game(Base, Serializer):
         self.genres = args.get('genres')
         self.franchises = args.get('franchises')
         self.description = args.get('description')
+        self.entity = args.get('entity')
 
 
 # ------------
@@ -188,6 +190,7 @@ class Company(Base, Serializer):
     phone = Column(String(100))
     website = Column(String(100))
     description = Column(Text(4294967295))
+    entity = Column(String(100))
 
     videos = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'video'),
                           foreign_keys=[Url.entity_id], viewonly=True)
@@ -219,6 +222,7 @@ class Company(Base, Serializer):
         self.phone = args.get("phone")
         self.website = args.get("website")
         self.description = args.get("description")
+        self.entity = args.get('entity')
 
 
 # ------------
@@ -242,6 +246,7 @@ class Platform(Base, Serializer):
     deck = Column(Text)
     install_base = Column(Integer)
     description = Column(Text(4294967295))
+    entity = Column(String(100))
 
     videos = relationship(Url, primaryjoin=and_(Url.entity_id == id, Url.entity == __tablename__, Url.type == 'video'),
                           foreign_keys=[Url.entity_id], viewonly=True)
@@ -266,6 +271,7 @@ class Platform(Base, Serializer):
         self.deck = args.get("deck")
         self.install_base = args.get("install_base")
         self.description = args.get("description")
+        self.entity = args.get('entity')
 
 
 # materialized columns

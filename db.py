@@ -64,7 +64,8 @@ def migrate(session=None):
                 'concepts': i["concepts"],
                 'genres': i["genres"],
                 'franchises': i["franchises"],
-                'description': i["description"]
+                'description': i["description"],
+                'entity' : 'game'
             }))
 
         f.close()
@@ -89,7 +90,8 @@ def migrate(session=None):
                 'concepts': i['concepts'],
                 'phone': i['phone'],
                 'website': i['website'],
-                'description': i['description']
+                'description': i['description'],
+                'entity': 'company'
             }))
 
     gc.collect()
@@ -109,7 +111,8 @@ def migrate(session=None):
                 'company': i['company'],
                 'deck': i['deck'],
                 'install_base': i['install_base'],
-                'description': i['description']
+                'description': i['description'],
+                'entity': 'platform'
             }))
 
     gc.collect()

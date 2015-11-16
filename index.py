@@ -109,9 +109,9 @@ def api_search(name, index = 0):
             #solr data does not explicitly stored type
             #so using unique fields to determine which model belongs to
             table = Game
-            if 'country' in result:
+            if result['entity'] == 'Company':
                 table = Company
-            elif 'online_support' in result:
+            elif result['entity'] == 'Platform':
                 table = Platform
 
             #add to results
