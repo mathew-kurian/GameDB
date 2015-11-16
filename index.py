@@ -119,7 +119,7 @@ def api_search(name, index = 0):
             entity = session.query(table).get(result['id'])
             if entity is None:
                 continue
-            res['results'] += [[result['name'][0], result['id'], 'deck' in results ? result['deck'][0] : 'No Deck', 'description' in results ? result['description'][0] : 'No Description', 'images' in results and len(entity.images) > 0 ? entity.images[0] : 'No Images']]
+            res['results'] += [[result['name'][0], result['id'], ('deck' in results ? result['deck'][0] : 'No Deck'), ('description' in results ? result['description'][0] : 'No Description'), ('images' in results ? entity.images[0] : 'No Images')]]
             res['status'] = 0
             counted += 1
 
