@@ -133,7 +133,7 @@ def api_search(name, index = 0):
             # images = entity.images[0] if 'images' in result and len(entity.images) > 0 else 'No Images'
 
             # res['results'] += [[result['name'][0], result['id'], deck, description, images]]
-            res['results']= [result]
+            res['results'] += [result]
             res['status'] = 0
             counted += 1
        
