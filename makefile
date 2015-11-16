@@ -52,17 +52,17 @@ build:
 	grunt build imagemin
 
 index:
-	~/solr-5.3.1/bin/solr stop -all
-	sudo rm -Rf ~/solr-5.3.1/example/cloud/
-	~/solr-5.3.1/bin/solr start -e cloud -noprompt
-	~/solr-5.3.1/bin/post -c gettingstarted scripts/giantbomb/json/games.json
-	~/solr-5.3.1/bin/post -c gettingstarted scripts/giantbomb/json/platforms.json
-	~/solr-5.3.1/bin/post -c gettingstarted scripts/giantbomb/json/companies.json
+	~/solr2/bin/solr stop -all
+	sudo rm -Rf ~/solr2/example/cloud/
+	~/solr2/bin/solr start -e cloud -noprompt
+	~/solr2/bin/post -c gettingstarted scripts/giantbomb/json/games.json
+	~/solr2/bin/post -c gettingstarted scripts/giantbomb/json/platforms.json
+	~/solr2/bin/post -c gettingstarted scripts/giantbomb/json/companies.json
 
 start:
 	sudo service mysql restart
-	~/solr-5.3.1/bin/solr stop -all
-	~/solr-5.3.1/bin/solr start -e cloud -noprompt
+	~/solr2/bin/solr stop -all
+	~/solr2/bin/solr start -e cloud -noprompt
 	python3 migrate.py
 	sudo python3 index.py 
 restart:
