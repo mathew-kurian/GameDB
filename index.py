@@ -4,7 +4,7 @@ import subprocess
 import time
 import argparse
 import json
-
+import flask
 from flask import Flask, render_template, make_response, request, Response
 import flask
 from flask.ext.compress import Compress
@@ -84,7 +84,7 @@ def api(table, id=-1):
 def api_search(name, index = 0):
     #res object for response
     res = {'status': 1, 'message': 'Success', 'results': [], 'counted' : 0}
-
+    out = []
     #make a request to solr and read it
     connect = HTTPConnection('0.0.0.0:8983')
     connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + name +'&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
@@ -92,44 +92,60 @@ def api_search(name, index = 0):
     json_data = read.read()
     connect.close()
 
-    #need to handle and display errors
-    try:
-        #convert json_data string to dict
-        search_dict = json.loads(str(json_data.decode('utf-8')))
-        counted = 0
-        x = -1
+    #convert json_data string to dict
+    search_dict = json.loads(str(json_data.decode('utf-8')))
+    counted = 0
+    x = -1
 
-        #get results for output, with at most 10
-        while counted < 10:
-            x += 1
-            #break if not enough results
-            if len(search_dict['response']['docs']) <= x:
-                break
+    #get results for output, with at most 10
+    while counted < 10:
+        x += 1
+        #break if not enough results
+        if len(search_dict['response']['docs']) <= x:
+            break
 
+        try:
             result = search_dict['response']['docs'][x]
 
             #solr data does not explicitly stored type
             #so using unique fields to determine which model belongs to
             table = Game
-            if 'country' in result:
+            if result['entity'] == 'Company':
                 table = Company
-            elif 'online_support' in result:
+            elif result['entity'] == 'Platform':
                 table = Platform
 
             #add to results
             entity = session.query(table).get(result['id'])
             if entity is None:
                 continue
-            res['results'] += [[entity.name, entity.id, entity.deck, entity.description]]
+
+            #result = to_dict(result)
+            for i in result:
+                print (type(result))
+                result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
+
+            result['images'] = to_dict(entity.images)
+            
+            
+            #check if these fields exist
+            # deck = result['deck'][0] if 'deck' in result else 'No Deck'
+            # description = result['description'][0] if 'description' in result else 'No Description'
+            # images = entity.images[0] if 'images' in result and len(entity.images) > 0 else 'No Images'
+
+            # res['results'] += [[result['name'][0], result['id'], deck, description, images]]
+            res['results'] += [result]
             res['status'] = 0
             counted += 1
+       
+        except Exception as e:
+            #if this result is dead, just skip
+            print(str(e))
+            continue
 
-        #no hits, means no matches
-        if counted == 0:
-            res['message'] = 'No Matching Terms Found'
-
-    except Exception as e:
-        res['message'] = str(e)
+    #no hits, means no matches
+    if counted == 0:
+        res['message'] = 'No Matching Terms Found'
     
     res['counted'] = counted
 
@@ -162,6 +178,20 @@ def add_header(response):
     response.headers['Cache-Control'] = 'public, max-age=60000000'
     return response
 
+@app.after_request
+def add_cors(resp):
+    """ Ensure all responses have the CORS headers. This ensures any failures are also accessible
+        by the client. """
+    resp.headers['Access-Control-Allow-Origin'] = flask.request.headers.get('Origin','*')
+    resp.headers['Access-Control-Allow-Credentials'] = 'true'
+    resp.headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS, GET'
+    resp.headers['Access-Control-Allow-Headers'] = flask.request.headers.get( 
+        'Access-Control-Request-Headers', 'Authorization' )
+    # set low for debugging
+    if app.debug:
+        resp.headers['Access-Control-Max-Age'] = '1'
+    return resp
+
 
 @app.after_request
 def add_cors(resp):
@@ -178,4 +208,4 @@ def add_cors(resp):
     return resp
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=args.port)
+    app.run(host='0.0.0.0', port=args.port + 1)
