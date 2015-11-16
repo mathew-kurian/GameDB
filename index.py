@@ -119,7 +119,7 @@ def api_search(name, index = 0):
             if entity is None:
                 continue
 
-            result = to_dict(result)
+            #result = to_dict(result)
             for i in result:
                 result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
 
