@@ -91,20 +91,19 @@ def api_search(name, index = 0):
     json_data = read.read()
     connect.close()
 
-    #need to handle and display errors
-    try:
-        #convert json_data string to dict
-        search_dict = json.loads(str(json_data.decode('utf-8')))
-        counted = 0
-        x = -1
+    #convert json_data string to dict
+    search_dict = json.loads(str(json_data.decode('utf-8')))
+    counted = 0
+    x = -1
 
-        #get results for output, with at most 10
-        while counted < 10:
-            x += 1
-            #break if not enough results
-            if len(search_dict['response']['docs']) <= x:
-                break
+    #get results for output, with at most 10
+    while counted < 10:
+        x += 1
+        #break if not enough results
+        if len(search_dict['response']['docs']) <= x:
+            break
 
+        try:
             result = search_dict['response']['docs'][x]
 
             #solr data does not explicitly stored type
@@ -119,19 +118,23 @@ def api_search(name, index = 0):
             entity = session.query(table).get(result['id'])
             if entity is None:
                 continue
-            deck = 'deck' in results ? result['deck'][0] : 'No Deck'
-            description = 'description' in results ? result['description'][0] : 'No Description'
-            images = 'images' in results and len(entity.images) > 0 ? entity.images[0] : 'No Images'
+
+            #check if these fields exist
+            deck = result['deck'][0] if 'deck' in results else 'No Deck'
+            description = result['description'][0] if 'description' in results else 'No Description'
+            images = entity.images[0] if 'images' in results and len(entity.images) > 0 else 'No Images'
+
             res['results'] += [[result['name'][0], result['id'], deck, description, images]]
             res['status'] = 0
             counted += 1
 
-        #no hits, means no matches
-        if counted == 0:
-            res['message'] = 'No Matching Terms Found'
+        except:
+            #if this result is dead, just skip
+            continue
 
-    except Exception as e:
-        res['message'] = str(e)
+    #no hits, means no matches
+    if counted == 0:
+        res['message'] = 'No Matching Terms Found'
     
     res['counted'] = counted
 
