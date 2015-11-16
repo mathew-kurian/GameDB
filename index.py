@@ -120,9 +120,9 @@ def api_search(name, index = 0):
                 continue
 
             #check if these fields exist
-            deck = result['deck'][0] if 'deck' in results else 'No Deck'
-            description = result['description'][0] if 'description' in results else 'No Description'
-            images = entity.images[0] if 'images' in results and len(entity.images) > 0 else 'No Images'
+            deck = result['deck'][0] if 'deck' in result else 'No Deck'
+            description = result['description'][0] if 'description' in result else 'No Description'
+            images = entity.images[0] if 'images' in result and len(entity.images) > 0 else 'No Images'
 
             res['results'] += [[result['name'][0], result['id'], deck, description, images]]
             res['status'] = 0
