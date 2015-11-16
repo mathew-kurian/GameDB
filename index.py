@@ -128,8 +128,9 @@ def api_search(name, index = 0):
             res['status'] = 0
             counted += 1
 
-        except:
+        except Exception as e:
             #if this result is dead, just skip
+            print(str(e))
             continue
 
     #no hits, means no matches
