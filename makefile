@@ -61,8 +61,8 @@ index:
 
 start:
 	sudo service mysql restart
-	~/solr2/bin/solr stop -all
-	~/solr2/bin/solr start -e cloud -noprompt
+	~/solr-5.3.1/bin/solr stop -all
+	~/solr-5.3.1/bin/solr start -e cloud -noprompt
 	python3 migrate.py
 	sudo python3 index.py 
 restart:

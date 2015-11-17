@@ -110,10 +110,14 @@ def api_search(name, index = 0):
             #solr data does not explicitly stored type
             #so using unique fields to determine which model belongs to
             table = Game
-            if result['entity'] == 'Company':
+            if 'country' in result:
                 table = Company
-            elif result['entity'] == 'Platform':
+                result['entity'] = 'Company'
+            elif 'online_support' in result:
                 table = Platform
+                result['entity'] = 'Platform'
+            else:
+                result['entity'] = 'Game'
 
             #add to results
             entity = session.query(table).get(result['id'])
@@ -122,11 +126,12 @@ def api_search(name, index = 0):
 
             #result = to_dict(result)
             for i in result:
+                if i == 'entity':
+                    continue
                 print (type(result))
                 result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
 
             result['images'] = to_dict(entity.images)
-            
             
             #check if these fields exist
             # deck = result['deck'][0] if 'deck' in result else 'No Deck'
@@ -208,4 +213,4 @@ def add_cors(resp):
     return resp
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=args.port + 1)
+    app.run(host='0.0.0.0', port=args.port)
