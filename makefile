@@ -52,7 +52,7 @@ build:
 	grunt build imagemin
 
 solr-start:
-	sh ~/solr/start.sh
+	sh solr/start.sh
 	
 index:
 	~/solr2/bin/solr stop -all
