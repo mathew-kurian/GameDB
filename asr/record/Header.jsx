@@ -210,6 +210,12 @@ var Header = React.createClass({
              style={{width:'100%',height:'100%',top:0,left:0, backgroundImage:backgroundImage,backgroundPosition:'center center',
              backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#555', position:'absolute',zIndex:-1}}/>
         <div className="container" style={{position:'relative'}}>
+          <input onClick={this._handleSearchOpen}
+                 placeholder="Search"
+                 style={{float:'right',margin:18,color:'#FFF',fontSize:'12px',letterSpacing:'1px',textTransform:'uppercase',
+                 position:'relative',zIndex:4,marginRight:0,width:200,padding:7,
+                 background:'rgba(255,255,255,0.16)',border:'none', outline:'none',borderRadius:5}}/>
+          { this.state.search ? <Search onClose={this._handleSearchClose}/> : null }
           <nav className="navbar">
             <ul className="nav navbar-nav">
               <li>
@@ -232,9 +238,6 @@ var Header = React.createClass({
               </li>
             </ul>
           </nav>
-          <input onClick={this._handleSearchOpen}
-                 style={{float:'right',width:400,padding:10,background:'rgba(0,0,0,0.3)',border:'1px solid rgba(0,0,0,0.3)', outline:'none',borderRadius:20}}/>
-          { this.state.search ? <Search onClose={this._handleSearchClose}/> : null }
         </div>
         <div className='page-head' style={{background:'transparent'}}>
           <div className="container">
