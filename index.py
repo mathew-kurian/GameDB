@@ -84,6 +84,7 @@ def api(table, id=-1):
 def api_search(name, index = 0):
     #res object for response
     res = {'status': 1, 'message': 'Success', 'results': [], 'counted' : 0}
+    words = name.split(' ')
 
     try:
         out = []
@@ -132,8 +133,9 @@ def api_search(name, index = 0):
                         continue
                     print (type(result))
                     result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
-                    result[i] = result[i].replace(name, '<b>' + name + '</b>')
-                    print(result[i])
+                    for word in words:
+                        result[i] = result[i].replace(word, '<span class = \"highlight\">' + word + '</span>')
+                        #print(result[i])
 
                 result['images'] = to_dict(entity.images)
                 
