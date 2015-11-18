@@ -12,10 +12,14 @@ var Search = React.createClass({
       this.req = null;
     }
 
+    window.removeEventListener('resize', this._handleResize);
+
     document.documentElement.style.overflow = 'auto';
   },
   _handleInput(e){
     var input = e.target.value;
+
+    this.refs.close.classList.add('rotate');
 
     if (this.req) {
       this.req.abort();
@@ -23,12 +27,14 @@ var Search = React.createClass({
     }
 
     if (!input.trim().length) {
+      this.refs.close.classList.remove('rotate');
       return this.setState({results: [], input: ''});
     }
 
     var self = this;
     this.req = request.get('http://104.130.23.111:80/api/search?q=name:' + encodeURIComponent(input) + '^4*%20deck:' + encodeURIComponent(input) + '*^2')
       .end(function (err, res) {
+        self.refs.close.classList.remove('rotate');
         if (err || res.status !== 200) return self.req = null;
         try {
           self.setState({results: res.body.results, input: input});
@@ -42,9 +48,6 @@ var Search = React.createClass({
       this.refs.game.style.height = this.refs.platform.style.height =
         this.refs.company.style.height = window.innerWidth < 992 ? 'auto' : '100%';
     }
-  },
-  componenWillUnmount: function () {
-    window.removeEventListener('resize', this._handleResize);
   },
   componentDidUpdate: function(){
     this.refs.input.focus();
@@ -108,7 +111,7 @@ var Search = React.createClass({
             style={{lineHeight:'40px',background:'transparent',border:'none',margin:0,fontSize:20,padding:20,paddingRight:50,color:'#fff',
           width:'100%'}}/>
           <div style={{position:'absolute',right:0,top:0,bottom:0,width:50}}>
-            <div className='full icon close search-close'
+            <div className='full icon close search-close transition' ref="close"
                  onClick={this.props.onClose}>
             </div>
           </div>
