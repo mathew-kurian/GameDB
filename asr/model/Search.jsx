@@ -37,6 +37,8 @@ var Search = React.createClass({
     if (this.refs.game) {
       this.refs.game.style.height = this.refs.platform.style.height =
         this.refs.company.style.height = window.innerWidth < 992 ? 'auto' : '100%';
+      this.refs.game.style.overflow = this.refs.platform.style.overflow =
+        this.refs.company.style.overflow = window.innerWidth < 992 ? 'hidden' : 'scroll';
     }
   },
   componentDidUpdate: function () {
