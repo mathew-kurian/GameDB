@@ -18,6 +18,8 @@ def normalize_results(results):
     return results
 
 def migrate():
+
+    solr.delete(q='*:*')
     
     print ("Adding games.nohtml.json")
 
@@ -44,7 +46,8 @@ def query():
     results = solr.search('puzzle game', **{
         'hl': 'true',
         'hl.fl': '*',
-        'hl.fragsize': 30,
+        'fl': 'id,name,deck,description',
+        'hl.fragsize': 100,
         'hl.snippets': '5',
         'hl.mergeContiguous': 'true',
         'hl.simple.pre': '<span class="highlight">',

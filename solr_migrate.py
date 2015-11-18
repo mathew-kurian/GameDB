@@ -1,3 +1,3 @@
-import * from solr
+from solr import *
 
 migrate()
