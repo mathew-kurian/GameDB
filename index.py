@@ -94,114 +94,12 @@ def api(table, id=-1):
 # Ex. index = 0 means first 10, index = 1 means 11 - 20
 @app.route('/api/search')
 @app.route('/api/search/')
-def api_search(name):
-    # res object for response
-    res = {'status': 1, 'message': 'Success', 'results': [], 'counted': 0}
-    words = name.split(' ')
-
-    queries = query_create(words)
-
-    try:
-        out = []
-        search_dict = []
-        print('throw 1')
-        # make a request to solr and read it
-        connect = HTTPConnection('0.0.0.0:8983')
-        connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + queries[
-            0] + '&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
-        read = connect.getresponse()
-        json_data = read.read()
-        connect.close()
-        print('throw 2')
-        # convert json_data string to dict
-        search_dict[0] = json.loads(str(json_data.decode('utf-8')))
-
-        connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + queries[
-            1] + '&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
-        read = connect.getresponse()
-        json_data = read.read()
-        print('throw 3')
-        # convert json_data string to dict
-        search_dict[1] = json.loads(str(json_data.decode('utf-8')))
-
-        counted = 0
-        x = -1
-        search_num = 0
-
-        print('throw 4')
-        # get results for output, with at most 10
-        while counted < 10:
-            x += 1
-            # break if not enough results
-            if len(search_dict[search_num]['response']['docs']) <= x:
-                search_num += 1
-                if search_num > 1:
-                    break
-                x = -1
-                continue
-
-            try:
-                result = search_dict[search_num]['response']['docs'][x]
-
-                # solr data does not explicitly stored type
-                # so using unique fields to determine which model belongs to
-                table = Game
-                if 'country' in result:
-                    table = Company
-                    result['entity'] = 'Company'
-                elif 'online_support' in result:
-                    table = Platform
-                    result['entity'] = 'Platform'
-                else:
-                    result['entity'] = 'Game'
-
-                # add to results
-                entity = session.query(table).get(result['id'])
-                if entity is None:
-                    continue
-
-                # result = to_dict(result)
-                for i in result:
-                    if i == 'entity':
-                        continue
-                    print(type(result))
-                    result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
-                    print('throw down')
-                    for word in words:
-                        # result[i] = result[i].replace(word, '<span class = \"highlight\">' + word + '</span>')
-                        print(result[i])
-
-                result['images'] = to_dict(entity.images)
-                result['search_type'] = 'AND' if search_num == 0 else 'OR'
-
-                # check if these fields exist
-                # deck = result['deck'][0] if 'deck' in result else 'No Deck'
-                # description = result['description'][0] if 'description' in result else 'No Description'
-                # images = entity.images[0] if 'images' in result and len(entity.images) > 0 else 'No Images'
-
-                # res['results'] += [[result['name'][0], result['id'], deck, description, images]]
-                res['results'] += [result]
-                res['status'] = 0
-                counted += 1
-
-            except Exception as e:
-                # if this result is dead, just skip
-                print(str(e))
-                continue
-
-        # no hits, means no matches
-        if counted == 0:
-            res['message'] = 'No Matching Terms Found'
-
-        res['counted'] = counted
-
-    except Exception as e:
-        print('Something messed up in search: ' + str(type(e)))
-
-    return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
+def api_search():
     start_time = time.time()
     res = {'status': 0, 'message': 'Success', 'results': []}
-    q = request.args.get('q', default=None, type=string)
+    
+    q = request.args.get('q', default=None, type=str)
+
     if not q:
         res['status'] = 1
         res['message'] = 'No query'
@@ -226,12 +124,13 @@ def api_search(name):
                 'hl.highlightMultiTerm': 'true'
             }))
 
-            for res in results:
-                t = {'company': Company, 'game': Game, 'platform': Platform}[res['entity']]
-                doc = session.query(t).get(id)
-                res['images'] = to_dict(doc.images)
+            for l in results:
+                t = {'company': Company, 'game': Game, 'platform': Platform}[l['entity']]
+                doc = session.query(t).get(l['id'])
+                l['images'] = to_dict(doc.images)
 
-            res['results'] = results
+
+            res['results'] = [to_dict(r) for r in results]
 
         except InvalidRequestError as e:
             global session
@@ -295,4 +194,4 @@ def add_cors(resp):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=args.port + 1)
+    app.run(host='0.0.0.0', port=args.port)
