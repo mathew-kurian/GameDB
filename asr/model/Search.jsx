@@ -26,7 +26,7 @@ var Search = React.createClass({
     }
 
     var self = this;
-    this.req = request.get('http://104.130.23.111:80/api/search?q=' + encodeURIComponent(input))
+    this.req = request.get('http://104.130.23.111:80/api/search?q=name:' + encodeURIComponent(input) +'^4*%20deck:' + encodeURIComponent(input) +'*^2')
       .end(function (err, res) {
         if (err || res.status !== 200) return self.req = null;
         try {
