@@ -48,7 +48,7 @@ var Search = React.createClass({
       if (res.entity !== a) return;
       children.push(
         <div key={i}>
-          <div className='flex' style={{padding: 20,borderBottom: '1px solid rgba(255,255,255,0.1)',position:'relative',overflow:'hidden'}}>
+          <div className='flex' style={{padding: 20,boxShadow:'0 0 10px rgba(0, 0, 0, 0.69)',borderBottom: '1px solid rgba(255,255,255,0.1)',position:'relative',overflow:'hidden'}}>
             <div className='blur'
                  style={{opacity:0.3,width:'100%',height:'100%',top:0,left:0, backgroundImage:"url('" + res.images[0].source + "')",backgroundPosition:'center center',
              backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#000', position:'absolute',zIndex:-1}}/>
@@ -100,7 +100,7 @@ var Search = React.createClass({
     return (
       <div ref='root' className="full flex vertical animate-1 opacity-0"
            style={{background:'#222',position:'fixed',zIndex:4,left:0,top:0,right:0,bottom:0}}>
-        <div style={{background:'#444',width:'100%',position:'relative',boxShadow:'0 0px 50px rgba(16, 16, 16, 0.49)'}}><input
+        <div style={{background:'#333',width:'100%',position:'relative',boxShadow:'0 0px 50px rgba(16, 16, 16, 0.49)'}}><input
           onChange={this._handleInput}
           placeholder="Search entity"
           style={{lineHeight:'40px',background:'transparent',border:'none',margin:0,fontSize:20,padding:20,paddingRight:50,color:'#fff',
