@@ -84,77 +84,82 @@ def api(table, id=-1):
 def api_search(name, index = 0):
     #res object for response
     res = {'status': 1, 'message': 'Success', 'results': [], 'counted' : 0}
-    out = []
-    #make a request to solr and read it
-    connect = HTTPConnection('0.0.0.0:8983')
-    connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + name +'&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
-    read = connect.getresponse()
-    json_data = read.read()
-    connect.close()
 
-    #convert json_data string to dict
-    search_dict = json.loads(str(json_data.decode('utf-8')))
-    counted = 0
-    x = -1
+    try:
+        out = []
+        #make a request to solr and read it
+        connect = HTTPConnection('0.0.0.0:8983')
+        connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + name +'&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
+        read = connect.getresponse()
+        json_data = read.read()
+        connect.close()
 
-    #get results for output, with at most 10
-    while counted < 10:
-        x += 1
-        #break if not enough results
-        if len(search_dict['response']['docs']) <= x:
-            break
+        #convert json_data string to dict
+        search_dict = json.loads(str(json_data.decode('utf-8')))
+        counted = 0
+        x = -1
 
-        try:
-            result = search_dict['response']['docs'][x]
+        #get results for output, with at most 10
+        while counted < 10:
+            x += 1
+            #break if not enough results
+            if len(search_dict['response']['docs']) <= x:
+                break
 
-            #solr data does not explicitly stored type
-            #so using unique fields to determine which model belongs to
-            table = Game
-            if 'country' in result:
-                table = Company
-                result['entity'] = 'Company'
-            elif 'online_support' in result:
-                table = Platform
-                result['entity'] = 'Platform'
-            else:
-                result['entity'] = 'Game'
+            try:
+                result = search_dict['response']['docs'][x]
 
-            #add to results
-            entity = session.query(table).get(result['id'])
-            if entity is None:
+                #solr data does not explicitly stored type
+                #so using unique fields to determine which model belongs to
+                table = Game
+                if 'country' in result:
+                    table = Company
+                    result['entity'] = 'Company'
+                elif 'online_support' in result:
+                    table = Platform
+                    result['entity'] = 'Platform'
+                else:
+                    result['entity'] = 'Game'
+
+                #add to results
+                entity = session.query(table).get(result['id'])
+                if entity is None:
+                    continue
+
+                #result = to_dict(result)
+                for i in result:
+                    if i == 'entity':
+                        continue
+                    print (type(result))
+                    result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
+                    result[i] = result[i].replace(name, '<b>' + name + '</b>')
+                    print(result[i])
+
+                result['images'] = to_dict(entity.images)
+                
+                #check if these fields exist
+                # deck = result['deck'][0] if 'deck' in result else 'No Deck'
+                # description = result['description'][0] if 'description' in result else 'No Description'
+                # images = entity.images[0] if 'images' in result and len(entity.images) > 0 else 'No Images'
+
+                # res['results'] += [[result['name'][0], result['id'], deck, description, images]]
+                res['results'] += [result]
+                res['status'] = 0
+                counted += 1
+           
+            except Exception as e:
+                #if this result is dead, just skip
+                print(str(e))
                 continue
 
-            #result = to_dict(result)
-            for i in result:
-                if i == 'entity':
-                    continue
-                print (type(result))
-                result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
-                result[i] = result[i].replace(name, '<b>' + name + '</b>')
-                print(result[i])
+        #no hits, means no matches
+        if counted == 0:
+            res['message'] = 'No Matching Terms Found'
+        
+        res['counted'] = counted
 
-            result['images'] = to_dict(entity.images)
-            
-            #check if these fields exist
-            # deck = result['deck'][0] if 'deck' in result else 'No Deck'
-            # description = result['description'][0] if 'description' in result else 'No Description'
-            # images = entity.images[0] if 'images' in result and len(entity.images) > 0 else 'No Images'
-
-            # res['results'] += [[result['name'][0], result['id'], deck, description, images]]
-            res['results'] += [result]
-            res['status'] = 0
-            counted += 1
-       
-        except Exception as e:
-            #if this result is dead, just skip
-            print(str(e))
-            continue
-
-    #no hits, means no matches
-    if counted == 0:
-        res['message'] = 'No Matching Terms Found'
-    
-    res['counted'] = counted
+    except Exception as e:
+        print('Something messed up in search: ' + str(e))
 
     return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
 
