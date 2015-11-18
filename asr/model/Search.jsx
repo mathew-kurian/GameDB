@@ -49,7 +49,7 @@ var Search = React.createClass({
         this.refs.company.style.height = window.innerWidth < 992 ? 'auto' : '100%';
     }
   },
-  componentDidUpdate: function(){
+  componentDidUpdate: function () {
     this.refs.input.focus();
   },
   componentDidMount: function () {
@@ -99,30 +99,46 @@ var Search = React.createClass({
       { children.length ? children : <div className="empty">Not found</div>}
     </div>
   },
+  onClose(){
+    this.setState({search: false, input: false, results: []});
+  },
+  onOpen(){
+    this.setState({search: true});
+    this.refs.input.value = '';
+  },
   render(){
 
     return (
-      <div ref='root' className="full"
-           style={{position:'fixed',background:this.state.input ? '#111' : 'transparent',zIndex:4,left:0,top:0,right:0,bottom:0}}>
-        <div style={{background:'#333',width:'100%',position:'relative',boxShadow:'0 0px 50px rgba(16, 16, 16, 0.49)'}}>
-          <input ref="input"
-            onChange={this._handleInput}
-            placeholder="Begin typing..."
-            style={{lineHeight:'40px',background:'transparent',border:'none',margin:0,fontSize:20,padding:20,paddingRight:50,color:'#fff',
+      <div>
+        <input ref='input' onClick={this.onOpen}
+               placeholder="Search"
+               style={{float:'right',margin:18,color:'#FFF',fontSize:'12px',letterSpacing:'1px',textTransform:'uppercase',
+                 position:'relative',zIndex:4,marginRight:0,width:200,padding:7,
+                 background:'rgba(255,255,255,0.16)',border:'none', outline:'none',borderRadius:5}}/>
+        <div ref='root' className="full"
+             style={{position:'fixed',transform:'translate3d(0,' + (this.state.search ? 0 : '-100%') + ',0)',background:this.state.input ? '#111' : 'transparent',
+             zIndex:4,left:0,top:0,right:0,bottom:0,transition:'transform 300ms'}}>
+          <div
+            style={{background:'#333',width:'100%',position:'relative',boxShadow:'0 0px 50px rgba(16, 16, 16, 0.49)'}}>
+            <input ref="input"
+                   onChange={this._handleInput}
+                   placeholder="Begin typing..."
+                   style={{lineHeight:'40px',background:'transparent',border:'none',margin:0,fontSize:20,padding:20,paddingRight:50,color:'#fff',
           width:'100%'}}/>
-          <div style={{position:'absolute',right:0,top:0,bottom:0,width:50}}>
-            <div className='full icon close search-close transition' ref="close"
-                 onClick={this.props.onClose}>
+            <div style={{position:'absolute',right:0,top:0,bottom:0,width:50}}>
+              <div className='full icon close search-close transition' ref="close"
+                   onClick={this.onClose}>
+              </div>
             </div>
           </div>
-        </div>
-        <div style={{position:'absolute',top:80,left:0,right:0,bottom:0}}
-             onClick={this.state.input ? null : this.props.onClose}>
-          { this.state.input ? <div className="row" style={{margin:0,overflow:'auto',height:'100%'}}>
-            {this.getResultsFor('game')}
-            {this.getResultsFor('company')}
-            {this.getResultsFor('platform')}
-          </div> : null }
+          <div style={{position:'absolute',top:80,left:0,right:0,bottom:0}}
+               onClick={this.state.input ? null : this.onClose}>
+            { this.state.input ? <div className="row" style={{margin:0,overflow:'auto',height:'100%'}}>
+              {this.getResultsFor('game')}
+              {this.getResultsFor('company')}
+              {this.getResultsFor('platform')}
+            </div> : null }
+          </div>
         </div>
       </div>
     )
