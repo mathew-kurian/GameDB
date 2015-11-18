@@ -39,6 +39,7 @@
     "pm2": "^0.15.8",
     "react": "^0.14.1",
     "react-ace": "^2.6.0",
+    "react-blur": "^0.2.5",
     "react-dom": "^0.14.1",
     "react-parallax": "git://github.com/bluejamesbond/react-parallax.git",
     "react-prefixr": "^0.1.0",
