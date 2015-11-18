@@ -52,16 +52,8 @@ build:
 	grunt build imagemin
 
 solr-start:
-	set -e
-	cd /root/solr4
-	echo 'Starting server'
-	export CMD="java -Djetty.port=8983 -Djava.awt.headless=true -Dapple.awt.UIElement=true -Dsolr.install.dir=`pwd` -jar start.jar"
-	if [ -z "${BACKGROUND_SOLR}" ]; then
-	    exec $CMD
-	else
-	    exec $CMD >/dev/null &
-	fi
-
+	sh ~/solr/start.sh
+	
 index:
 	~/solr2/bin/solr stop -all
 	sudo rm -Rf ~/solr2/example/cloud/
