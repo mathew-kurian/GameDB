@@ -131,6 +131,7 @@ def api_search(name, index = 0):
                 print (type(result))
                 result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
                 result[i].replace(name, '<b>' + name + '</b>')
+                print(result[i])
 
             result['images'] = to_dict(entity.images)
             
@@ -214,4 +215,4 @@ def add_cors(resp):
     return resp
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=args.port)
+    app.run(host='0.0.0.0', port=args.port+1)
