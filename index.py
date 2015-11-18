@@ -111,18 +111,38 @@ def api_search():
 
         try:
 
-            results = normalize_results(solr.search(q, **{
+            results = solr.search(q, **{
                 'rows': limit,
                 'start': offset,
+                'fl': 'id,name,deck,description,entity',
                 'hl': 'true',
-                'hl.fl': '*',
+                'hl.fl': 'name deck description',
                 'hl.fragsize': 30,
                 'hl.snippets': '5',
                 'hl.mergeContiguous': 'true',
                 'hl.simple.pre': '<span class="highlight">',
                 'hl.simple.post': '</span>',
                 'hl.highlightMultiTerm': 'true'
-            }))
+            })
+
+            filtered=[]
+            for result in results:
+                hasdesc=None
+                if result['id'] in results.highlighting:
+                    highlighted = results.highlighting[result['id']]
+                    hasdesc = 'description' in highlighted
+                    if len (highlighted) == 0:
+                        continue
+                    for key in highlighted:
+                        result[key] = '...'.join(highlighted[key])
+                for key in result:
+                    if type(result[key]) == list:
+                        result[key] = result[key][0]
+                if not hasdesc and 'description' in result:
+                    del result['description']
+                filtered += [result]
+
+            results = filtered
 
             for l in results:
                 t = {'company': Company, 'game': Game, 'platform': Platform}[l['entity']]
