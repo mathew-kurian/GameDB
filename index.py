@@ -134,8 +134,8 @@ def api_search(name, index = 0):
                     print (type(result))
                     result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
                     for word in words:
-                        result[i] = result[i].replace(word, '<span class = \"highlight\">' + word + '</span>')
-                        #print(result[i])
+                        #result[i] = result[i].replace(word, '<span class = \"highlight\">' + word + '</span>')
+                        print(result[i])
 
                 result['images'] = to_dict(entity.images)
                 
