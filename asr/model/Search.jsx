@@ -48,7 +48,7 @@ var Search = React.createClass({
       if (res.entity !== a) return;
       children.push(
         <div key={i}>
-          <div className='flex' style={{padding: 20,boxShadow:'0 0 10px rgba(0, 0, 0, 0.69)',borderBottom: '1px solid rgba(255,255,255,0.1)',position:'relative',overflow:'hidden'}}>
+          <div className='flex' style={{padding: 20,borderBottom: '1px solid rgba(255,255,255,0.1)',position:'relative',overflow:'hidden'}}>
             <div className='blur'
                  style={{opacity:0.3,width:'100%',height:'100%',top:0,left:0, backgroundImage:"url('" + res.images[0].source + "')",backgroundPosition:'center center',
              backgroundRepeat:'no-repeat',backgroundSize:'cover',backgroundColor:'#000', position:'absolute',zIndex:-1}}/>
