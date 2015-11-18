@@ -93,6 +93,11 @@ p {
   text-transform: uppercase;
 }
 
+.highlight {
+  color: #FFF !important;
+  font-weight: bold !important;
+}
+
 .p-about {
   @import "model";
   @import "about";
@@ -109,4 +114,24 @@ p {
 .p-record {
   @import "react-select";
   @import "record";
+}
+
+.full {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.full-abs {
+  left: 0;
+  right: 0;
+  top:0;
+  bottom:0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.scroll {
+  overflow-y: scroll;
 }

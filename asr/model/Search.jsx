@@ -26,7 +26,7 @@ var Search = React.createClass({
     }
 
     var self = this;
-    this.req = request.get('http://104.130.23.111:81/api/search/' + encodeURIComponent(input))
+    this.req = request.get('http://104.130.23.111:80/api/search?q=' + encodeURIComponent(input))
       .end(function (err, res) {
         if (err || res.status !== 200) return self.req = null;
         try {
@@ -42,29 +42,35 @@ var Search = React.createClass({
   },
   getResultsFor(a){
 
-    var children;
+    var children = [];
 
-    children = this.state.results.map(function (res, i) {
-      if (res.entity !== prop) return;
-      return (
+    this.state.results.forEach(function (res, i) {
+      if (res.entity !== a) return;
+      children.push(
         <div key={i}>
           <div className='flex' style={{padding: 20,borderBottom: '1px solid #333'}}>
             <div className='box' style={{ borderRadius: 3, display: 'inline-block', marginRight: 10, position: 'relative',
                     top: -2, verticalAlign: 'middle',backgroundImage:"url('" + res.images[0].source + "')",
-                    backgroundSize:'cover', height:40, width: 30, maxWidth: 30, minWidth: 30, marginRight:10,
+                    backgroundSize:'cover', height:50, width: 50, maxWidth: 50, minWidth: 50, marginRight:10,
                     backgroundPosition:'center center'}}/>
-            <div className='box full'>
-              {res.name}
+            <div className='box'>
+              <div style={{color:'rgba(255,255,255,0.5)'}} dangerouslySetInnerHTML={{__html:res.name}}/>
               <div
-                style={{letterSpacing:0,fontSize:12,textTransform:'none',opacity:0.5}}>{res.deck}</div>
+                style={{letterSpacing:0,fontSize:12,textTransform:'none',color:'rgba(255,255,255,0.4)'}}
+                dangerouslySetInnerHTML={{__html:res.deck}}></div>
+              <div
+                style={{letterSpacing:0,fontSize:10,textTransform:'none',color:'rgba(255,255,255,0.2)'}}
+                dangerouslySetInnerHTML={{__html:res.description}}></div>
             </div>
           </div>
         </div>
       )
     });
 
-    return <div style={{borderRight:'1px solid #444', position:'relative'}} className="box">
-      { children.length ? <div>{children}</div> : <div className="empty">No {a} found</div>}
+    return <div style={{borderRight:'1px solid #444', position:'relative'}} className="box full">
+      <div className="full-abs">
+        { children.length ? <div className="full scroll scroll-y">{children}</div> : <div className="empty">No {a}&nbsp;found</div>}
+      </div>
     </div>
   },
   render(){
@@ -102,10 +108,12 @@ var Search = React.createClass({
             </div>
           </div>
         </div>
-        <div className="full flex" style={{height:'100%',overflow:'scroll'}}>
-          {this.getResultsFor('game')}
-          {this.getResultsFor('company')}
-          {this.getResultsFor('platform')}
+        <div style={{position:'absolute',top:80,left:0,right:0,bottom:0}}>
+          <div className="flex full">
+            {this.getResultsFor('game')}
+            {this.getResultsFor('company')}
+            {this.getResultsFor('platform')}
+          </div>
         </div>
       </div>
     )
