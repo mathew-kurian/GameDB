@@ -6,16 +6,6 @@ var Search = React.createClass({
   getInitialState(){
     return {results: []};
   },
-  componentWillUnmount: function () {
-    if (this.req) {
-      this.req.abort();
-      this.req = null;
-    }
-
-    window.removeEventListener('resize', this._handleResize);
-
-    document.documentElement.style.overflow = 'auto';
-  },
   _handleInput(e){
     var input = e.target.value;
 
@@ -50,14 +40,6 @@ var Search = React.createClass({
     }
   },
   componentDidUpdate: function () {
-    this.refs.input.focus();
-  },
-  componentDidMount: function () {
-    this._handleResize = this._handleResize.bind(this);
-    window.addEventListener('resize', this._handleResize);
-    this._handleResize()
-    this.refs.root.classList.remove('opacity-0');
-    document.documentElement.style.overflow = 'hidden';
     this.refs.input.focus();
   },
   getResultsFor(a){
@@ -100,9 +82,25 @@ var Search = React.createClass({
     </div>
   },
   onClose(){
+    if (this.req) {
+      this.req.abort();
+      this.req = null;
+    }
+
+    window.removeEventListener('resize', this._handleResize);
+
+    document.documentElement.style.overflow = 'auto';
+
     this.setState({search: false, input: false, results: []});
   },
   onOpen(){
+    this._handleResize = this._handleResize.bind(this);
+    window.addEventListener('resize', this._handleResize);
+    this._handleResize()
+    this.refs.root.classList.remove('opacity-0');
+    document.documentElement.style.overflow = 'hidden';
+    this.refs.input.focus();
+
     this.setState({search: true});
     this.refs.input.value = '';
   },
