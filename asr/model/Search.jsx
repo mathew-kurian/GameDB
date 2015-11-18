@@ -94,7 +94,7 @@ var Search = React.createClass({
 
     document.documentElement.style.overflow = 'auto';
 
-    this.setState({search: false, input: false, results: []});
+    this.setState({search: false, input: false});
   },
   onOpen(){
     this._handleResize = this._handleResize.bind(this);
@@ -104,7 +104,7 @@ var Search = React.createClass({
     document.documentElement.style.overflow = 'hidden';
     this.refs.input.focus();
 
-    this.setState({search: true});
+    this.setState({search: true, results: []});
     this.refs.input.value = '';
   },
   render(){
@@ -117,7 +117,7 @@ var Search = React.createClass({
                  position:'relative',zIndex:4,marginRight:0,width:200,padding:7,
                  background:'rgba(255,255,255,0.16)',border:'none', outline:'none',borderRadius:5}}/>
         <div ref='root' className="full transition-slow"
-             style={{position:'fixed',transform:'translate3d(0,' + (this.state.search ? 0 : (screen.height + 'px')) + ',0)',background:this.state.input ? '#111' : 'transparent',
+             style={{position:'fixed',transform:'translate3d(0,' + (this.state.search ? 0 : (-screen.height + 'px')) + ',0)',background:this.state.input ? '#111' : 'transparent',
              zIndex:4,left:0,top:0,right:0,bottom:0}}>
           <div
             style={{background:'#333',width:'100%',position:'relative',boxShadow:'0 0px 50px rgba(16, 16, 16, 0.49)'}}>
