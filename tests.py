@@ -14,10 +14,12 @@ class Test(TestCase):
         # self.session.commit()
 
     def test_solr_0(self):
+        print("Solr Test 0\n")
+
         solr.query()
         
-        ## testing runs in <= 0.3 s
         self.assertTrue(True)
+        print()
 
     def test_game_1(self):
         ## test that id indexed get is working with an id

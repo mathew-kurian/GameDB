@@ -4,6 +4,19 @@ import json
 # Setup a Solr instance. The timeout is optional.
 solr = pysolr.Solr('http://104.130.23.111:8983/solr/4playdb', timeout=10)
 
+def normalize_results(results):
+    # Just loop over it to access the results.
+    for result in results:
+        if result['id'] in results.highlighting:
+            highlighted = results.highlighting[result['id']]
+            for key in highlighted:
+                result[key] = highlighted[key]
+        for key in result:
+            if type(result[key]) == list:
+                result[key] = result[key][0]
+
+    return results
+
 def migrate():
     
     print ("Adding games.nohtml.json")
@@ -30,15 +43,15 @@ def query():
 
     results = solr.search('mario', **{
         'hl': 'true',
-        'hl.fl': 'name',
+        'hl.fl': 'name deck description',
         'hl.fragsize': 0,
         'hl.simple.pre': '<span class="highlight">',
         'hl.simple.post': '</span>'
     })
 
-    print(results.highlighting)
-    print(results.grouped)
+    results = normalize_results(results)
 
-    # Just loop over it to access the results.
     for result in results:
-        print("Found '{0}'.".format(result['name']))
+        for a in result:
+            print("\033[1m\033[91m{0}\033[0m: {1}".format(a, result[a]))
+        print()
