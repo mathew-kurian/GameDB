@@ -53,7 +53,7 @@ var Search = React.createClass({
       if (res.entity !== a) return;
       children.push(
         <div key={i++} className="row"
-             style={{padding: 20,borderBottom: '1px solid rgba(255,255,255,0.0)',position:'relative',overflow:'hidden'}}>
+             style={{padding: 20,borderBottom: '1px solid rgba(255,255,255,0.0)',position:'relative',overflow:'hidden',margin:0}}>
           <ReactBlur
             style={{opacity:0.3,width:'100%',height:'100%',top:0,left:0,backgroundPosition:'center center',backgroundColor:'#000', position:'absolute',zIndex:-1}}
             img={res.images[0].source} blurRadius={50}/>
