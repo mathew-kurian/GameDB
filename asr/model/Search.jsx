@@ -94,17 +94,17 @@ var Search = React.createClass({
 
     document.documentElement.style.overflow = 'auto';
 
-    this.setState({search: false, input: false});
+    this.setState({search: false});
   },
   onOpen(){
     this._handleResize = this._handleResize.bind(this);
     window.addEventListener('resize', this._handleResize);
-    this._handleResize()
+    this._handleResize();
     this.refs.root.classList.remove('opacity-0');
     document.documentElement.style.overflow = 'hidden';
     this.refs.input.focus();
 
-    this.setState({search: true, results: []});
+    this.setState({search: true, results: [], input: false});
     this.refs.input.value = '';
   },
   render(){
