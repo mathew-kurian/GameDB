@@ -168,3 +168,62 @@ p {
 .transition-slow {
   transition: transform 1s;
 }
+
+.input-search {
+  float: right;
+  margin: 18px;
+  color: #FFF;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 4;
+  margin-right: 0;
+  width: 200px;
+  padding: 7px;
+  background: rgba(255, 255, 255, 0.16);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  &::-webkit-input-placeholder {
+    color: #FFF;
+  }
+
+  &:-moz-placeholder { /* Firefox 18- */
+    color: #FFF;
+  }
+
+  &::-moz-placeholder { /* Firefox 19+ */
+    color: #FFF;
+  }
+
+  &:-ms-input-placeholder {
+    color: #FFF;
+  }
+  &.dark {
+    background: rgba(0, 0, 0, 0.2);
+
+    &::-webkit-input-placeholder {
+      color: #000;
+    }
+
+    &:-moz-placeholder { /* Firefox 18- */
+      color: #000;
+    }
+
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: #000;
+    }
+
+    &:-ms-input-placeholder {
+      color: #000;
+    }
+  }
+}
+
+a.plain {
+  text-decoration: none !important;
+  &:hover {
+    text-decoration: none !important;
+  }
+}

@@ -1,5 +1,6 @@
 var React = require('react');
 import { Link } from 'react-router'
+var Search = require('../model/Search.jsx');
 
 var Header = React.createClass({
   getInitialState(){
@@ -9,6 +10,7 @@ var Header = React.createClass({
     return (
       <div style={{background:this.props.theme}} className='animate-2'>
         <div className="container" style={{position:'relative'}}>
+          <Search theme="dark"/>
           <nav className="navbar">
             <ul className="nav navbar-nav">
               <li>
