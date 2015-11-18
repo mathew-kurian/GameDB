@@ -2,7 +2,7 @@
 
 set -e
 
-cd /root/solr4
+cd /root/solr4/
 
 echo 'Starting server'
 
