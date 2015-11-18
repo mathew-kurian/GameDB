@@ -116,9 +116,9 @@ var Search = React.createClass({
                style={{float:'right',margin:18,color:'#FFF',fontSize:'12px',letterSpacing:'1px',textTransform:'uppercase',
                  position:'relative',zIndex:4,marginRight:0,width:200,padding:7,
                  background:'rgba(255,255,255,0.16)',border:'none', outline:'none',borderRadius:5}}/>
-        <div ref='root' className="full"
-             style={{position:'fixed',transform:'translate3d(0,' + (this.state.search ? 0 : '-100%') + ',0)',background:this.state.input ? '#111' : 'transparent',
-             zIndex:4,left:0,top:0,right:0,bottom:0,transition:'transform 300ms'}}>
+        <div ref='root' className="full transition-slow"
+             style={{position:'fixed',transform:'translate3d(0,' + (this.state.search ? 0 : (screen.height + 'px')) + ',0)',background:this.state.input ? '#111' : 'transparent',
+             zIndex:4,left:0,top:0,right:0,bottom:0}}>
           <div
             style={{background:'#333',width:'100%',position:'relative',boxShadow:'0 0px 50px rgba(16, 16, 16, 0.49)'}}>
             <input ref="input"

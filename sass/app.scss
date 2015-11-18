@@ -164,3 +164,7 @@ p {
     transform: scale(1) rotate(360deg);
   }
 }
+
+.transition-slow {
+  transition: transform 1s;
+}
