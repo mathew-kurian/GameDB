@@ -43,6 +43,7 @@ var Search = React.createClass({
   },
   componentDidUpdate: function () {
     this.refs.input.focus();
+    this._handleResize();
   },
   getResultsFor(a){
 
