@@ -486,9 +486,9 @@
      (empty by default), and down cases.  At query time only, it
      also applies synonyms. -->
     <fieldType name="text_general" class="solr.TextField" positionIncrementGap="100">
-      <analyzer type="index">
+      <analyzer type="index">       
         <tokenizer class="solr.WhitespaceTokenizerFactory"/>
-        <filter class="solr.EdgeNGramFilterFactory" minGramSize="3" maxGramSize="15" />
+        <filter class="solr.NGramFilterFactory" minGramSize="3" maxGramSize="1000" />
         <filter class="solr.StopFilterFactory" ignoreCase="true" words="stopwords.txt" />
         <!-- in this example, we will only use synonyms at query time
         <filter class="solr.SynonymFilterFactory" synonyms="index_synonyms.txt" ignoreCase="true" expand="false"/>

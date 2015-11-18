@@ -38,10 +38,10 @@ pip3: python
 	pip3 install flask
 	pip3 install flask-compress
 	pip3 install ijson
-	pip3 install flask-cors
 	pip3 install pyjade
 	pip3 install PyMySQL
 	pip3 install SQLAlchemy
+	pip3 install pysolr
 	pip3 install numpy
 	pip3 install coverage
 

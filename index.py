@@ -8,6 +8,7 @@ import flask
 from flask import Flask, render_template, make_response, request, Response
 import flask
 from flask.ext.compress import Compress
+import pysolr as pysolr
 from sqlalchemy.exc import InvalidRequestError
 from solr import normalize_results
 
@@ -28,10 +29,11 @@ solr = pysolr.Solr('http://104.130.23.111:8983/solr/4playdb', timeout=10)
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 app.debug = args.debug
 
-#open session
+# open session
 session = get_session(echo=False)
 
-#run bash command
+
+# run bash command
 def run_command(exe):
     p = subprocess.Popen(exe, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     while True:
@@ -41,7 +43,8 @@ def run_command(exe):
         if retcode is not None:
             break
 
-#send feedback on status of API request
+
+# send feedback on status of API request
 def send_api_response(func, tables, table):
     start_time = time.time()
     res = {'status': 0, 'message': 'Success', 'results': []}
@@ -69,7 +72,8 @@ def send_api_response(func, tables, table):
     res['time'] = "%.2fs" % (time.time() - start_time)
     return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
 
-#enable API get
+
+# enable API get
 @app.route('/api/<string:table>')
 @app.route('/api/<string:table>/')
 @app.route('/api/<string:table>/<int:id>')
@@ -84,14 +88,15 @@ def api(table, id=-1):
     return send_api_response(lambda t: session.query(t).get(id),
                              {'company': Company, 'game': Game, 'platform': Platform}, table)
 
-#enable API search
-#index specifies which 10 to get, using zero-based indexing
-#Ex. index = 0 means first 10, index = 1 means 11 - 20
+
+# enable API search
+# index specifies which 10 to get, using zero-based indexing
+# Ex. index = 0 means first 10, index = 1 means 11 - 20
 @app.route('/api/search')
 @app.route('/api/search/')
 def api_search(name):
-    #res object for response
-    res = {'status': 1, 'message': 'Success', 'results': [], 'counted' : 0}
+    # res object for response
+    res = {'status': 1, 'message': 'Success', 'results': [], 'counted': 0}
     words = name.split(' ')
 
     queries = query_create(words)
@@ -99,33 +104,35 @@ def api_search(name):
     try:
         out = []
         search_dict = []
-	print('throw 1')
-        #make a request to solr and read it
+        print('throw 1')
+        # make a request to solr and read it
         connect = HTTPConnection('0.0.0.0:8983')
-        connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + queries[0] +'&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
+        connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + queries[
+            0] + '&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
         read = connect.getresponse()
         json_data = read.read()
         connect.close()
-	print('throw 2')
-        #convert json_data string to dict
+        print('throw 2')
+        # convert json_data string to dict
         search_dict[0] = json.loads(str(json_data.decode('utf-8')))
-        
-        connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + queries[1] +'&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
+
+        connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + queries[
+            1] + '&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
         read = connect.getresponse()
         json_data = read.read()
-	print('throw 3')
-        #convert json_data string to dict
+        print('throw 3')
+        # convert json_data string to dict
         search_dict[1] = json.loads(str(json_data.decode('utf-8')))
 
         counted = 0
         x = -1
         search_num = 0
 
-	print('throw 4')
-        #get results for output, with at most 10
+        print('throw 4')
+        # get results for output, with at most 10
         while counted < 10:
             x += 1
-            #break if not enough results
+            # break if not enough results
             if len(search_dict[search_num]['response']['docs']) <= x:
                 search_num += 1
                 if search_num > 1:
@@ -136,8 +143,8 @@ def api_search(name):
             try:
                 result = search_dict[search_num]['response']['docs'][x]
 
-                #solr data does not explicitly stored type
-                #so using unique fields to determine which model belongs to
+                # solr data does not explicitly stored type
+                # so using unique fields to determine which model belongs to
                 table = Game
                 if 'country' in result:
                     table = Company
@@ -148,26 +155,26 @@ def api_search(name):
                 else:
                     result['entity'] = 'Game'
 
-                #add to results
+                # add to results
                 entity = session.query(table).get(result['id'])
                 if entity is None:
                     continue
 
-                #result = to_dict(result)
+                # result = to_dict(result)
                 for i in result:
                     if i == 'entity':
                         continue
-                    print (type(result))
+                    print(type(result))
                     result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
-		    print('throw down')	
+                    print('throw down')
                     for word in words:
-                        #result[i] = result[i].replace(word, '<span class = \"highlight\">' + word + '</span>')
+                        # result[i] = result[i].replace(word, '<span class = \"highlight\">' + word + '</span>')
                         print(result[i])
 
                 result['images'] = to_dict(entity.images)
                 result['search_type'] = 'AND' if search_num == 0 else 'OR'
-                
-                #check if these fields exist
+
+                # check if these fields exist
                 # deck = result['deck'][0] if 'deck' in result else 'No Deck'
                 # description = result['description'][0] if 'description' in result else 'No Description'
                 # images = entity.images[0] if 'images' in result and len(entity.images) > 0 else 'No Images'
@@ -176,16 +183,16 @@ def api_search(name):
                 res['results'] += [result]
                 res['status'] = 0
                 counted += 1
-           
+
             except Exception as e:
-                #if this result is dead, just skip
+                # if this result is dead, just skip
                 print(str(e))
                 continue
 
-        #no hits, means no matches
+        # no hits, means no matches
         if counted == 0:
             res['message'] = 'No Matching Terms Found'
-        
+
         res['counted'] = counted
 
     except Exception as e:
@@ -239,7 +246,8 @@ def api_search(name):
     res['time'] = "%.2fs" % (time.time() - start_time)
     return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
 
-#run unit tests
+
+# run unit tests
 @app.route('/run-tests')
 def tests():
     res = ''
@@ -249,13 +257,15 @@ def tests():
 
     return Response(res, mimetype='text/plain')
 
-#render html template
+
+# render html template
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def index(path):
     return render_template('client.jade')
 
-#add headers
+
+# add headers
 @app.after_request
 def add_header(response):
     """
@@ -273,15 +283,16 @@ def add_cors(resp):
     Ensure all responses have the CORS headers. This ensures any failures are also accessible
     by the client. 
     """
-    resp.headers['Access-Control-Allow-Origin'] = flask.request.headers.get('Origin','*')
+    resp.headers['Access-Control-Allow-Origin'] = flask.request.headers.get('Origin', '*')
     resp.headers['Access-Control-Allow-Credentials'] = 'true'
     resp.headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS, GET'
     resp.headers['Access-Control-Allow-Headers'] = flask.request.headers.get(
-        'Access-Control-Request-Headers', 'Authorization' )
+        'Access-Control-Request-Headers', 'Authorization')
     # set low for debugging
     if app.debug:
         resp.headers['Access-Control-Max-Age'] = '1'
     return resp
 
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=args.port+1)
+    app.run(host='0.0.0.0', port=args.port + 1)
