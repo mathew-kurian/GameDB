@@ -91,21 +91,21 @@ def api_search(name, index = 0):
     try:
         out = []
         search_dict = []
-
+	print('throw 1')
         #make a request to solr and read it
         connect = HTTPConnection('0.0.0.0:8983')
         connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + queries[0] +'&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
         read = connect.getresponse()
         json_data = read.read()
         connect.close()
-
+	print('throw 2')
         #convert json_data string to dict
         search_dict[0] = json.loads(str(json_data.decode('utf-8')))
         
         connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + queries[1] +'&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
         read = connect.getresponse()
         json_data = read.read()
-
+	print('throw 3')
         #convert json_data string to dict
         search_dict[1] = json.loads(str(json_data.decode('utf-8')))
 
@@ -113,7 +113,7 @@ def api_search(name, index = 0):
         x = -1
         search_num = 0
 
-
+	print('throw 4')
         #get results for output, with at most 10
         while counted < 10:
             x += 1
@@ -151,6 +151,7 @@ def api_search(name, index = 0):
                         continue
                     print (type(result))
                     result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
+		    print('throw down')	
                     for word in words:
                         #result[i] = result[i].replace(word, '<span class = \"highlight\">' + word + '</span>')
                         print(result[i])
@@ -180,7 +181,7 @@ def api_search(name, index = 0):
         res['counted'] = counted
 
     except Exception as e:
-        print('Something messed up in search: ' + str(e))
+        print('Something messed up in search: ' + str(type(e)))
 
     return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
 
