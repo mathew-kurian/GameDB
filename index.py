@@ -130,7 +130,7 @@ def api_search(name, index = 0):
                     continue
                 print (type(result))
                 result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
-                result[i].replace(name, '<b>' + name + '</b>')
+                result[i] = result[i].replace(name, '<b>' + name + '</b>')
                 print(result[i])
 
             result['images'] = to_dict(entity.images)
