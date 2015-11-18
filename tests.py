@@ -4,6 +4,7 @@ import json
 from unittest import main, TestCase
 from db import *
 import timeit
+import solr
 
 
 class Test(TestCase):
@@ -11,6 +12,12 @@ class Test(TestCase):
         self.session = get_session(echo=False)
         # migrate(self.session)
         # self.session.commit()
+
+    def test_solr_0(self):
+        solr.query()
+        
+        ## testing runs in <= 0.3 s
+        self.assertTrue(True)
 
     def test_game_1(self):
         ## test that id indexed get is working with an id

@@ -42,5 +42,3 @@ def query():
     # Just loop over it to access the results.
     for result in results:
         print("Found '{0}'.".format(result['name']))
-
-query()
