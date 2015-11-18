@@ -84,30 +84,49 @@ def api(table, id=-1):
 def api_search(name, index = 0):
     #res object for response
     res = {'status': 1, 'message': 'Success', 'results': [], 'counted' : 0}
+    words = name.split(' ')
+
+    queries = query_create(words)
 
     try:
         out = []
+        search_dict = []
+
         #make a request to solr and read it
         connect = HTTPConnection('0.0.0.0:8983')
-        connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + name +'&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
+        connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + queries[0] +'&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
         read = connect.getresponse()
         json_data = read.read()
         connect.close()
 
         #convert json_data string to dict
-        search_dict = json.loads(str(json_data.decode('utf-8')))
+        search_dict[0] = json.loads(str(json_data.decode('utf-8')))
+        
+        connect.request('GET', '/solr/gettingstarted_shard1_replica2/select?q=' + queries[1] +'&wt=json&indent=true&fl=name,id,deck,description,country,online_support&start=' + str(index * 10))
+        read = connect.getresponse()
+        json_data = read.read()
+
+        #convert json_data string to dict
+        search_dict[1] = json.loads(str(json_data.decode('utf-8')))
+
         counted = 0
         x = -1
+        search_num = 0
+
 
         #get results for output, with at most 10
         while counted < 10:
             x += 1
             #break if not enough results
-            if len(search_dict['response']['docs']) <= x:
-                break
+            if len(search_dict[search_num]['response']['docs']) <= x:
+                search_num += 1
+                if search_num > 1:
+                    break
+                x = -1
+                continue
 
             try:
-                result = search_dict['response']['docs'][x]
+                result = search_dict[search_num]['response']['docs'][x]
 
                 #solr data does not explicitly stored type
                 #so using unique fields to determine which model belongs to
@@ -132,10 +151,12 @@ def api_search(name, index = 0):
                         continue
                     print (type(result))
                     result[i] = result[i][0] if len(result[i]) > 0 else 'Nothing'
-                    result[i] = result[i].replace(name, '<b>' + name + '</b>')
-                    print(result[i])
+                    for word in words:
+                        #result[i] = result[i].replace(word, '<span class = \"highlight\">' + word + '</span>')
+                        print(result[i])
 
                 result['images'] = to_dict(entity.images)
+                result['search_type'] = 'AND' if search_num == 0 else 'OR'
                 
                 #check if these fields exist
                 # deck = result['deck'][0] if 'deck' in result else 'No Deck'
@@ -162,6 +183,25 @@ def api_search(name, index = 0):
         print('Something messed up in search: ' + str(e))
 
     return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
+
+
+def query_create(words):
+    #create the and and or queries
+    or_query = ' '
+    and_query = ' '
+    first_word = True
+    for word in words:
+        if not first_word:
+            and_query += ' AND '
+            or_query += ' OR '
+        first_word = False
+        and_query += word
+        or_query += word
+
+    #now make the or query exclude the and query
+    or_query = '(' + or_query + ') AND NOT(' + and_query + ')'
+
+    return (and_query, or_query) 
 
 #run unit tests
 @app.route('/run-tests')
