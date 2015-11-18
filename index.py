@@ -8,7 +8,8 @@ import flask
 from flask import Flask, render_template, make_response, request, Response
 import flask
 from flask.ext.compress import Compress
-from flask.ext.cors import CORS
+from sqlalchemy.exc import InvalidRequestError
+from solr import normalize_results
 
 from http.client import HTTPConnection
 
@@ -21,7 +22,8 @@ args = parser.parse_args()
 
 app = Flask(__name__, static_folder='public', static_url_path='/assets')
 Compress(app)
-CORS(app)
+
+solr = pysolr.Solr('http://104.130.23.111:8983/solr/4playdb', timeout=10)
 
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
 app.debug = args.debug
@@ -42,20 +44,26 @@ def run_command(exe):
 #send feedback on status of API request
 def send_api_response(func, tables, table):
     start_time = time.time()
-    res = {'status': 1, 'message': 'Success', 'results': []}
+    res = {'status': 0, 'message': 'Success', 'results': []}
 
     if table in tables:
         try:
             doc = func(tables[table])
             if doc:
-                res['status'] = 0
                 res['results'] += doc if isinstance(doc, list) else [doc]
             else:
                 res['message'] = 'ID not found'
+        except InvalidRequestError as e:
+            global session
+            session.close()
+            session = get_session(echo=False)
+            return api_search(name, index)
         except Exception as e:
+            res['status'] = 1
             res['message'] = str(e)
             print(e)
     else:
+        res['status'] = 1
         res['message'] = 'Table not found'
 
     res['time'] = "%.2fs" % (time.time() - start_time)
@@ -79,9 +87,9 @@ def api(table, id=-1):
 #enable API search
 #index specifies which 10 to get, using zero-based indexing
 #Ex. index = 0 means first 10, index = 1 means 11 - 20
-@app.route('/api/search/<string:name>')
-@app.route('/api/search/<string:name>/<int:index>')
-def api_search(name, index = 0):
+@app.route('/api/search')
+@app.route('/api/search/')
+def api_search(name):
     #res object for response
     res = {'status': 1, 'message': 'Success', 'results': [], 'counted' : 0}
     words = name.split(' ')
@@ -184,25 +192,52 @@ def api_search(name, index = 0):
         print('Something messed up in search: ' + str(type(e)))
 
     return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
+    start_time = time.time()
+    res = {'status': 0, 'message': 'Success', 'results': []}
+    q = request.args.get('q', default=None, type=string)
+    if not q:
+        res['status'] = 1
+        res['message'] = 'No query'
+    else:
 
+        offset = request.args.get('offset', default=0, type=int)
+        limit = max(min(request.args.get('limit', default=25, type=int), 25), 0)
+        results = solr.search({})
 
-def query_create(words):
-    #create the and and or queries
-    or_query = ' '
-    and_query = ' '
-    first_word = True
-    for word in words:
-        if not first_word:
-            and_query += ' AND '
-            or_query += ' OR '
-        first_word = False
-        and_query += word
-        or_query += word
+        try:
 
-    #now make the or query exclude the and query
-    or_query = '(' + or_query + ') AND NOT(' + and_query + ')'
+            results = normalize_results(solr.search(q, **{
+                'rows': limit,
+                'start': offset,
+                'hl': 'true',
+                'hl.fl': '*',
+                'hl.fragsize': 30,
+                'hl.snippets': '5',
+                'hl.mergeContiguous': 'true',
+                'hl.simple.pre': '<span class="highlight">',
+                'hl.simple.post': '</span>',
+                'hl.highlightMultiTerm': 'true'
+            }))
 
-    return (and_query, or_query) 
+            for res in results:
+                t = {'company': Company, 'game': Game, 'platform': Platform}[res['entity']]
+                doc = session.query(t).get(id)
+                res['images'] = to_dict(doc.images)
+
+            res['results'] = results
+
+        except InvalidRequestError as e:
+            global session
+            session.close()
+            session = get_session(echo=False)
+            return api_search(name, index)
+        except Exception as e:
+            res['status'] = 1
+            res['message'] = str(e)
+            print(e)
+
+    res['time'] = "%.2fs" % (time.time() - start_time)
+    return Response(to_json(res), mimetype='application/json', status=404 if res['status'] else 200)
 
 #run unit tests
 @app.route('/run-tests')
@@ -231,25 +266,13 @@ def add_header(response):
     response.headers['Cache-Control'] = 'public, max-age=60000000'
     return response
 
-@app.after_request
-def add_cors(resp):
-    """ Ensure all responses have the CORS headers. This ensures any failures are also accessible
-        by the client. """
-    resp.headers['Access-Control-Allow-Origin'] = flask.request.headers.get('Origin','*')
-    resp.headers['Access-Control-Allow-Credentials'] = 'true'
-    resp.headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS, GET'
-    resp.headers['Access-Control-Allow-Headers'] = flask.request.headers.get( 
-        'Access-Control-Request-Headers', 'Authorization' )
-    # set low for debugging
-    if app.debug:
-        resp.headers['Access-Control-Max-Age'] = '1'
-    return resp
-
 
 @app.after_request
 def add_cors(resp):
-    """ Ensure all responses have the CORS headers. This ensures any failures are also accessible
-        by the client. """
+    """ 
+    Ensure all responses have the CORS headers. This ensures any failures are also accessible
+    by the client. 
+    """
     resp.headers['Access-Control-Allow-Origin'] = flask.request.headers.get('Origin','*')
     resp.headers['Access-Control-Allow-Credentials'] = 'true'
     resp.headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS, GET'

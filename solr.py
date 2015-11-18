@@ -10,7 +10,7 @@ def normalize_results(results):
         if result['id'] in results.highlighting:
             highlighted = results.highlighting[result['id']]
             for key in highlighted:
-                result[key] = highlighted[key]
+                result[key] = '...'.join(highlighted[key])
         for key in result:
             if type(result[key]) == list:
                 result[key] = result[key][0]
@@ -37,16 +37,19 @@ def migrate():
         for i in json.load(f):
             solr.add([i])
 
-    print ("Some sample queries")
+    print ("Done!")
 
 def query():
 
-    results = solr.search('mario', **{
+    results = solr.search('puzzle game', **{
         'hl': 'true',
-        'hl.fl': 'name deck description',
-        'hl.fragsize': 0,
+        'hl.fl': '*',
+        'hl.fragsize': 30,
+        'hl.snippets': '5',
+        'hl.mergeContiguous': 'true',
         'hl.simple.pre': '<span class="highlight">',
-        'hl.simple.post': '</span>'
+        'hl.simple.post': '</span>',
+        'hl.highlightMultiTerm': 'true'
     })
 
     results = normalize_results(results)
