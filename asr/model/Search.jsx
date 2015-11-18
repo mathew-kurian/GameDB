@@ -22,7 +22,7 @@ var Search = React.createClass({
     }
 
     var self = this;
-    this.req = request.get('http://104.130.23.111:80/api/search?q=name:' + encodeURIComponent(input) + '^4*%20deck:' + encodeURIComponent(input) + '*^2')
+    this.req = request.get('http://4playdb.me/api/search?q=name:' + encodeURIComponent(input) + '^4*%20deck:' + encodeURIComponent(input) + '*^2')
       .end(function (err, res) {
         self.refs.close.classList.remove('rotate');
         if (err || res.status !== 200) return self.req = null;
