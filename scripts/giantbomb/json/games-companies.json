@@ -5,6 +5,16 @@
     "relation": "publisher"
   },
   {
+    "game": 24024,
+    "company": 6478,
+    "relation": "publisher"
+  },
+  {
+    "game": 24024,
+    "company": 6478,
+    "relation": "developer"
+  },
+  {
     "game": 52,
     "company": 99,
     "relation": "publisher"

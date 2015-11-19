@@ -15,6 +15,20 @@
     "entity": "company"
   },
   {
+    "id": 6478,
+    "name": "Riot Games",
+    "founded_date": "2006-01-01T06:00:00.000Z",
+    "address": null,
+    "city": "Culver City",
+    "country": "USA",
+    "state": "California",
+    "deck": "Founded in 2006 and launched its first game, League of Legends, in late October 2009. Riot employed the former DoTA All-Stars creators with development of LoL in mind.",
+    "concepts": "Crowd Control;Critical Hit;Multiple Currencies;Regenerating Health;Magic",
+    "website": "http://www.riotgames.com/",
+    "description": "Riot Games is the publisher and developer of the popular Multiiplayer Online Battle Arena (MOBA) game League of Legends. Riot Games was founded in 2006 with the aim of making a stand-alone adaptation of the popular Defence of the Ancients: Allstars mod for Warcraft III. They employed both the map designer for the DOTA mod and the creator of the DOTA fansite, along with a number of former Blizzard Entertainment employees. Riot released League of Legends in 2009 and it quickly grew to become one of the biggest titles in the genre. The rapid rise of League of Legends as one of the most popular Free to Play games in the world draw attention from a multitude of investors and in 2011 free to play publishing giant Tencent Games bought a majority of Riot. While still allowing independent internal operations this did give Riot the backing of this powerful distribution house.",
+    "entity": "company"
+  },
+  {
     "id": 3,
     "name": "Gremlin Interactive Ltd.",
     "founded_date": "1984-01-01T06:00:00.000Z",
