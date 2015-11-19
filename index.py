@@ -111,7 +111,7 @@ def api_search():
 
         try:
 
-            results = solr.search(q, **{
+            results = solr.search(q.replace(" ", "+"), **{
                 'rows': limit,
                 'start': offset,
                 'fl': 'id,name,deck,description,entity',
