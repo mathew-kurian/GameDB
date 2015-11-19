@@ -3,7 +3,11 @@ var Header = require('./Header.jsx');
 var _ = require('underscore');
 var request = require('superagent');
 var Select = require('react-select');
-var abilities = require('./abilities.json');
+var hardcarrydb = {
+  ability: {db: require('./abilities.json'), pl: 'abilities'},
+  champion: {db: require('./champions.json'), pl: 'champions'},
+  summoner: {db: require('./summoners.json'), pl: 'summoners'}
+};
 
 var Item = React.createClass({
   getInitialState(){
@@ -40,25 +44,37 @@ var App = React.createClass({
 
     return state;
   },
+  _abortLOL(){
+    var self = this;
+    Object.keys(hardcarrydb).forEach(function (entity) {
+      if (self['req' + entity]) {
+        self['req' + entity].abort();
+        self['req' + entity] = null
+      }
+    })
+  },
   _fetchLOL(){
     var self = this;
-    if (this.state.id == '24024' && !this.state.abilities) {
-      this.lolAbilitiesReq = request.get('http://hardcarry.me/api/abilities/')
-        .end(function (err, res) {
-          self.lolAbilitiesReq = null;
+    Object.keys(hardcarrydb).forEach(function (entity) {
 
-          if (err || res.status !== 200) {
-            self.setState({abilities});
-            return;
-          }
+      if (self.state.id == '24024' && !self.state[entity]) {
+        self['req' + entity] = request.get('http://hardcarry.me/api/' + hardcarrydb[entity].pl)
+          .end(function (err, res) {
+            self['req' + entity] = null;
 
-          try {
-            self.setState({abilities: res.body});
-          } catch (e) {
-            // ignore
-          }
-        });
-    }
+            if (err || res.status !== 200) {
+              self.setState({[entity]: hardcarrydb[entity].db});
+              return;
+            }
+
+            try {
+              self.setState({[entity]: res.body});
+            } catch (e) {
+              // ignore
+            }
+          });
+      }
+    });
   },
   _fetch(){
     var self = this;
@@ -94,9 +110,7 @@ var App = React.createClass({
       this.req.abort();
     }
 
-    if (this.lolAbilitiesReq) {
-      this.lolAbilitiesReq.abort();
-    }
+    this._abortLOL();
   },
   componentDidMount() {
     this._fetch();
@@ -110,9 +124,7 @@ var App = React.createClass({
       this.req.abort();
     }
 
-    if (this.lolAbilitiesReq) {
-      this.lolAbilitiesReq.abort();
-    }
+    this._abortLOL();
 
     this.setState(this._getStateFromProps(nextProps));
     setTimeout(this._fetch, 500);
@@ -133,7 +145,7 @@ var App = React.createClass({
       videos.push(null);
     }
 
-    var videoRows = [];
+    var videoRows = [], i = 0;
     var description = this.state.description;
 
     if ((description && description.length < 50) || !description) {
@@ -157,43 +169,47 @@ var App = React.createClass({
       );
     }
 
-    var widget;
+    var widgets;
     if (this.state.id == '24024') {
 
-      var ability = this.state.activeAbility;
-      if (ability){
-        ability = this.state.abilities[ability];
-      }
+      widgets = Object.keys(hardcarrydb).map(function (entity) {
+        if (!self.state[entity]) return;
 
-      var self = this;
+        var activeEntity = self.state['active' + entity];
+        if (activeEntity) {
+          activeEntity = self.state[entity][activeEntity];
+        }
 
-      widget = (
-        <div style={{border:'1px solid #555',borderRadius:10,padding:20}}>
-          <div style={{fontSize:10,fontWeight:400,textTransform:'uppercase',letterSpacing:1,marginBottom:10}}>Ability
-            Lookup -
-            Powered by HardCarry.me
-          </div>
-          <Select optionRenderer={function(option){
+        return (
+          <div key={entity} style={{border:'1px solid #555',borderRadius:10,padding:20,marginBottom:10}}>
+            <div style={{fontSize:10,fontWeight:400,textTransform:'uppercase',letterSpacing:1,marginBottom:10}}>{entity}
+              Lookup -
+              Powered by HardCarry.me
+            </div>
+            <Select optionRenderer={function(option){
             return (
               <div style={{width:'100%',padding:5}}>
                   <Item {...option.item}/>
               </div>
             );
-          }} name="form-field-test" value={this.state.activeAbility} placeholder={'Select Ability'} options={_.map(this.state.abilities, function (item) {
+          }} name="form-field-test" value={self.state['active' + entity]} placeholder={'Select ' + entity} options={_.map(self.state[entity], function (item) {
             return {value: item.name, label: item.name, item:item};
           })} onChange={function(name){
-            self.setState({activeAbility: name});
+            self.setState({['active' + entity]: name});
           }}/>
-          { ability ? <div>
-            <h3>{ability.name}</h3>
-            <div style={{marginBottom:5,marginTop:-5}}>
-              <div className="columns">costype: {ability.costType}</div>
-              <div className="columns">maxrank: {ability.maxrank}</div>
-            </div>
-            <p>{ability.description}</p>
-          </div> : null}
-        </div>
-      );
+            { activeEntity ? <div>
+              <h3>{activeEntity.name}</h3>
+              <div style={{marginBottom:5,marginTop:-5}}>
+                {[['costype', 'costType'], ['maxrank', 'maxrank'], ['bot', 'bot'], ['summonerLevel', 'summonerLevel'], ['armor','armor'], ['attackdamage','stat_attackdamage']].map(function(a){
+                  return activeEntity[a[1]] ? <div className="columns" key={i++}>{a[0]}
+                    : {activeEntity[a[1]]}</div> : null;
+                  })}
+              </div>
+              <p dangerouslySetInnerHTML={{__html:(activeEntity.description || activeEntity.passive_description)}}/>
+            </div> : null}
+          </div>
+        );
+      });
     }
 
     return (
@@ -202,7 +218,7 @@ var App = React.createClass({
 
         <div className='container' style={{marginTop:40}}>
           <div className='col-md-9' role='main'>
-            {widget}
+            {widgets}
             <h1>Summary</h1>
 
             <div className="lead"

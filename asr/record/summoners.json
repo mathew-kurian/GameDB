@@ -1,0 +1,2522 @@
+{
+  "033 Bot": {
+    "bot": false,
+    "id": 149,
+    "name": "033 Bot",
+    "profileIconId": 931,
+    "summonerLevel": 30,
+    "summoner_id": 22282221
+  },
+  "1ExtraChromosome": {
+    "bot": false,
+    "id": 213,
+    "name": "1ExtraChromosome",
+    "profileIconId": 931,
+    "summonerLevel": 30,
+    "summoner_id": 24348638
+  },
+  "1v5": {
+    "bot": false,
+    "id": 45,
+    "name": "1v5",
+    "profileIconId": 0,
+    "summonerLevel": 30,
+    "summoner_id": 35117703
+  },
+  "54bomb99": {
+    "bot": false,
+    "id": 9,
+    "name": "54bomb99",
+    "profileIconId": 916,
+    "summonerLevel": 30,
+    "summoner_id": 31937841
+  },
+  "A12MO12": {
+    "bot": false,
+    "id": 119,
+    "name": "A12MO12",
+    "profileIconId": 662,
+    "summonerLevel": 30,
+    "summoner_id": 23115783
+  },
+  "Abou222": {
+    "bot": false,
+    "id": 10,
+    "name": "Abou222",
+    "profileIconId": 503,
+    "summonerLevel": 30,
+    "summoner_id": 20072604
+  },
+  "Alabz": {
+    "bot": false,
+    "id": 284,
+    "name": "Alabz",
+    "profileIconId": 28,
+    "summonerLevel": 30,
+    "summoner_id": 25522486
+  },
+  "Alaion": {
+    "bot": false,
+    "id": 313,
+    "name": "Alaion",
+    "profileIconId": 924,
+    "summonerLevel": 30,
+    "summoner_id": 21886918
+  },
+  "Alestz": {
+    "bot": false,
+    "id": 242,
+    "name": "Alestz",
+    "profileIconId": 552,
+    "summonerLevel": 30,
+    "summoner_id": 20921013
+  },
+  "Ametsuki Siyou52": {
+    "bot": false,
+    "id": 200,
+    "name": "Ametsuki Siyou52",
+    "profileIconId": 921,
+    "summonerLevel": 30,
+    "summoner_id": 102368
+  },
+  "AngryMailman": {
+    "bot": false,
+    "id": 202,
+    "name": "AngryMailman",
+    "profileIconId": 512,
+    "summonerLevel": 30,
+    "summoner_id": 22260817
+  },
+  "Another Daylight": {
+    "bot": false,
+    "id": 117,
+    "name": "Another Daylight",
+    "profileIconId": 588,
+    "summonerLevel": 30,
+    "summoner_id": 26821441
+  },
+  "Ap0calyptic": {
+    "bot": false,
+    "id": 112,
+    "name": "Ap0calyptic",
+    "profileIconId": 508,
+    "summonerLevel": 30,
+    "summoner_id": 21886996
+  },
+  "Aranium": {
+    "bot": false,
+    "id": 184,
+    "name": "Aranium",
+    "profileIconId": 685,
+    "summonerLevel": 30,
+    "summoner_id": 20115278
+  },
+  "Auraseph": {
+    "bot": false,
+    "id": 177,
+    "name": "Auraseph",
+    "profileIconId": 541,
+    "summonerLevel": 30,
+    "summoner_id": 23334519
+  },
+  "Awp": {
+    "bot": false,
+    "id": 109,
+    "name": "Awp",
+    "profileIconId": 719,
+    "summonerLevel": 30,
+    "summoner_id": 23454727
+  },
+  "Azingy": {
+    "bot": false,
+    "id": 97,
+    "name": "Azingy",
+    "profileIconId": 512,
+    "summonerLevel": 30,
+    "summoner_id": 22479740
+  },
+  "BRONS0N": {
+    "bot": false,
+    "id": 121,
+    "name": "BRONS0N",
+    "profileIconId": 560,
+    "summonerLevel": 30,
+    "summoner_id": 20387972
+  },
+  "BUNSIN": {
+    "bot": false,
+    "id": 172,
+    "name": "BUNSIN",
+    "profileIconId": 23,
+    "summonerLevel": 30,
+    "summoner_id": 20027992
+  },
+  "BaekyeoI": {
+    "bot": false,
+    "id": 249,
+    "name": "BaekyeoI",
+    "profileIconId": 673,
+    "summonerLevel": 30,
+    "summoner_id": 464031
+  },
+  "Bakingpowder33": {
+    "bot": false,
+    "id": 143,
+    "name": "Bakingpowder33",
+    "profileIconId": 597,
+    "summonerLevel": 30,
+    "summoner_id": 39000721
+  },
+  "Bao Bao": {
+    "bot": false,
+    "id": 268,
+    "name": "Bao Bao",
+    "profileIconId": 632,
+    "summonerLevel": 30,
+    "summoner_id": 45661658
+  },
+  "Bappie": {
+    "bot": false,
+    "id": 211,
+    "name": "Bappie",
+    "profileIconId": 931,
+    "summonerLevel": 30,
+    "summoner_id": 66541554
+  },
+  "BeastG0d": {
+    "bot": false,
+    "id": 72,
+    "name": "BeastG0d",
+    "profileIconId": 666,
+    "summonerLevel": 30,
+    "summoner_id": 28744029
+  },
+  "Beester": {
+    "bot": false,
+    "id": 36,
+    "name": "Beester",
+    "profileIconId": 545,
+    "summonerLevel": 30,
+    "summoner_id": 37182790
+  },
+  "Benyeled": {
+    "bot": false,
+    "id": 75,
+    "name": "Benyeled",
+    "profileIconId": 8,
+    "summonerLevel": 30,
+    "summoner_id": 71609261
+  },
+  "BirdOfPrey": {
+    "bot": false,
+    "id": 301,
+    "name": "BirdOfPrey",
+    "profileIconId": 847,
+    "summonerLevel": 30,
+    "summoner_id": 29140226
+  },
+  "Blem": {
+    "bot": false,
+    "id": 95,
+    "name": "Blem",
+    "profileIconId": 15,
+    "summonerLevel": 30,
+    "summoner_id": 43146839
+  },
+  "Blems Girl": {
+    "bot": false,
+    "id": 127,
+    "name": "Blems Girl",
+    "profileIconId": 564,
+    "summonerLevel": 30,
+    "summoner_id": 29120095
+  },
+  "BreastInTheWest": {
+    "bot": false,
+    "id": 11,
+    "name": "BreastInTheWest",
+    "profileIconId": 7,
+    "summonerLevel": 30,
+    "summoner_id": 295500
+  },
+  "C9 Sheep": {
+    "bot": false,
+    "id": 100,
+    "name": "C9 Sheep",
+    "profileIconId": 878,
+    "summonerLevel": 30,
+    "summoner_id": 20962682
+  },
+  "CLG Ambrosia": {
+    "bot": false,
+    "id": 86,
+    "name": "CLG Ambrosia",
+    "profileIconId": 588,
+    "summonerLevel": 30,
+    "summoner_id": 42755127
+  },
+  "Captain Ziplotte": {
+    "bot": false,
+    "id": 30,
+    "name": "Captain Ziplotte",
+    "profileIconId": 20,
+    "summonerLevel": 30,
+    "summoner_id": 19441663
+  },
+  "CentralTime": {
+    "bot": false,
+    "id": 310,
+    "name": "CentralTime",
+    "profileIconId": 585,
+    "summonerLevel": 30,
+    "summoner_id": 25147442
+  },
+  "ChaosInduced": {
+    "bot": false,
+    "id": 67,
+    "name": "ChaosInduced",
+    "profileIconId": 548,
+    "summonerLevel": 30,
+    "summoner_id": 21429782
+  },
+  "Chuuper": {
+    "bot": false,
+    "id": 8,
+    "name": "Chuuper",
+    "profileIconId": 937,
+    "summonerLevel": 30,
+    "summoner_id": 20372532
+  },
+  "Cool Oval": {
+    "bot": false,
+    "id": 158,
+    "name": "Cool Oval",
+    "profileIconId": 925,
+    "summonerLevel": 30,
+    "summoner_id": 26456445
+  },
+  "Cots": {
+    "bot": false,
+    "id": 17,
+    "name": "Cots",
+    "profileIconId": 913,
+    "summonerLevel": 30,
+    "summoner_id": 24537105
+  },
+  "Critsyl": {
+    "bot": false,
+    "id": 165,
+    "name": "Critsyl",
+    "profileIconId": 918,
+    "summonerLevel": 30,
+    "summoner_id": 39071591
+  },
+  "CutieBunny": {
+    "bot": false,
+    "id": 262,
+    "name": "CutieBunny",
+    "profileIconId": 936,
+    "summonerLevel": 30,
+    "summoner_id": 360411
+  },
+  "D Lone Wanderer": {
+    "bot": false,
+    "id": 295,
+    "name": "D Lone Wanderer",
+    "profileIconId": 588,
+    "summonerLevel": 30,
+    "summoner_id": 31756933
+  },
+  "DZG Doomtrobo": {
+    "bot": false,
+    "id": 77,
+    "name": "DZG Doomtrobo",
+    "profileIconId": 545,
+    "summonerLevel": 30,
+    "summoner_id": 242637
+  },
+  "DZG Vulcan": {
+    "bot": false,
+    "id": 65,
+    "name": "DZG Vulcan",
+    "profileIconId": 931,
+    "summonerLevel": 30,
+    "summoner_id": 21276764
+  },
+  "Danbee": {
+    "bot": false,
+    "id": 216,
+    "name": "Danbee",
+    "profileIconId": 937,
+    "summonerLevel": 30,
+    "summoner_id": 31953742
+  },
+  "Dare 2 Defy": {
+    "bot": false,
+    "id": 255,
+    "name": "Dare 2 Defy",
+    "profileIconId": 521,
+    "summonerLevel": 30,
+    "summoner_id": 25951204
+  },
+  "Darren Lin": {
+    "bot": false,
+    "id": 271,
+    "name": "Darren Lin",
+    "profileIconId": 593,
+    "summonerLevel": 30,
+    "summoner_id": 37383191
+  },
+  "DeBaets": {
+    "bot": false,
+    "id": 288,
+    "name": "DeBaets",
+    "profileIconId": 588,
+    "summonerLevel": 30,
+    "summoner_id": 39010572
+  },
+  "Degeki": {
+    "bot": false,
+    "id": 188,
+    "name": "Degeki",
+    "profileIconId": 721,
+    "summonerLevel": 30,
+    "summoner_id": 20106660
+  },
+  "DelayN0more": {
+    "bot": false,
+    "id": 309,
+    "name": "DelayN0more",
+    "profileIconId": 917,
+    "summonerLevel": 30,
+    "summoner_id": 25813519
+  },
+  "Desert WoIf": {
+    "bot": false,
+    "id": 203,
+    "name": "Desert WoIf",
+    "profileIconId": 750,
+    "summonerLevel": 30,
+    "summoner_id": 112438
+  },
+  "DiZZZZZZZZZZZZZ": {
+    "bot": false,
+    "id": 113,
+    "name": "DiZZZZZZZZZZZZZ",
+    "profileIconId": 687,
+    "summonerLevel": 30,
+    "summoner_id": 23756590
+  },
+  "Dotaspieler": {
+    "bot": false,
+    "id": 308,
+    "name": "Dotaspieler",
+    "profileIconId": 684,
+    "summonerLevel": 30,
+    "summoner_id": 19317666
+  },
+  "Dragonrouge": {
+    "bot": false,
+    "id": 285,
+    "name": "Dragonrouge",
+    "profileIconId": 922,
+    "summonerLevel": 30,
+    "summoner_id": 19393762
+  },
+  "DuskDust": {
+    "bot": false,
+    "id": 12,
+    "name": "DuskDust",
+    "profileIconId": 593,
+    "summonerLevel": 30,
+    "summoner_id": 38886417
+  },
+  "Dziarmaga": {
+    "bot": false,
+    "id": 235,
+    "name": "Dziarmaga",
+    "profileIconId": 20,
+    "summonerLevel": 30,
+    "summoner_id": 53801673
+  },
+  "ELOGodsPLS": {
+    "bot": false,
+    "id": 164,
+    "name": "ELOGodsPLS",
+    "profileIconId": 907,
+    "summonerLevel": 30,
+    "summoner_id": 34290293
+  },
+  "Earphones": {
+    "bot": false,
+    "id": 103,
+    "name": "Earphones",
+    "profileIconId": 522,
+    "summonerLevel": 30,
+    "summoner_id": 20617279
+  },
+  "Elemia": {
+    "bot": false,
+    "id": 44,
+    "name": "Elemia",
+    "profileIconId": 10,
+    "summonerLevel": 30,
+    "summoner_id": 19792894
+  },
+  "Emperor Steeleye": {
+    "bot": false,
+    "id": 141,
+    "name": "Emperor Steeleye",
+    "profileIconId": 607,
+    "summonerLevel": 30,
+    "summoner_id": 129380
+  },
+  "Endlesss": {
+    "bot": false,
+    "id": 87,
+    "name": "Endlesss",
+    "profileIconId": 686,
+    "summonerLevel": 30,
+    "summoner_id": 21589032
+  },
+  "Enigmatix": {
+    "bot": false,
+    "id": 69,
+    "name": "Enigmatix",
+    "profileIconId": 718,
+    "summonerLevel": 30,
+    "summoner_id": 40272282
+  },
+  "EpicLynx": {
+    "bot": false,
+    "id": 197,
+    "name": "EpicLynx",
+    "profileIconId": 916,
+    "summonerLevel": 30,
+    "summoner_id": 26233595
+  },
+  "Epicshots": {
+    "bot": false,
+    "id": 198,
+    "name": "Epicshots",
+    "profileIconId": 775,
+    "summonerLevel": 30,
+    "summoner_id": 23820400
+  },
+  "Epitaphtx": {
+    "bot": false,
+    "id": 34,
+    "name": "Epitaphtx",
+    "profileIconId": 786,
+    "summonerLevel": 30,
+    "summoner_id": 21105097
+  },
+  "Eppz": {
+    "bot": false,
+    "id": 306,
+    "name": "Eppz",
+    "profileIconId": 505,
+    "summonerLevel": 30,
+    "summoner_id": 19712835
+  },
+  "Eternalnoobert": {
+    "bot": false,
+    "id": 120,
+    "name": "Eternalnoobert",
+    "profileIconId": 590,
+    "summonerLevel": 30,
+    "summoner_id": 43815972
+  },
+  "FAREASTNightbird": {
+    "bot": false,
+    "id": 180,
+    "name": "FAREASTNightbird",
+    "profileIconId": 932,
+    "summonerLevel": 30,
+    "summoner_id": 38966845
+  },
+  "FINALEZ FUNKELNZ": {
+    "bot": false,
+    "id": 241,
+    "name": "FINALEZ FUNKELNZ",
+    "profileIconId": 899,
+    "summonerLevel": 30,
+    "summoner_id": 35318990
+  },
+  "Feed Sin": {
+    "bot": false,
+    "id": 134,
+    "name": "Feed Sin",
+    "profileIconId": 757,
+    "summonerLevel": 30,
+    "summoner_id": 43257123
+  },
+  "Feedalee": {
+    "bot": false,
+    "id": 239,
+    "name": "Feedalee",
+    "profileIconId": 917,
+    "summonerLevel": 30,
+    "summoner_id": 38691676
+  },
+  "Finkypop": {
+    "bot": false,
+    "id": 148,
+    "name": "Finkypop",
+    "profileIconId": 774,
+    "summonerLevel": 30,
+    "summoner_id": 41216586
+  },
+  "Flisten2G": {
+    "bot": false,
+    "id": 199,
+    "name": "Flisten2G",
+    "profileIconId": 557,
+    "summonerLevel": 30,
+    "summoner_id": 37994105
+  },
+  "Franny Pack": {
+    "bot": false,
+    "id": 259,
+    "name": "Franny Pack",
+    "profileIconId": 774,
+    "summonerLevel": 30,
+    "summoner_id": 22037807
+  },
+  "FreshSolo": {
+    "bot": false,
+    "id": 275,
+    "name": "FreshSolo",
+    "profileIconId": 564,
+    "summonerLevel": 30,
+    "summoner_id": 24721454
+  },
+  "Frod99": {
+    "bot": false,
+    "id": 171,
+    "name": "Frod99",
+    "profileIconId": 7,
+    "summonerLevel": 30,
+    "summoner_id": 60764683
+  },
+  "FrostedCupcaeks": {
+    "bot": false,
+    "id": 74,
+    "name": "FrostedCupcaeks",
+    "profileIconId": 683,
+    "summonerLevel": 30,
+    "summoner_id": 23897083
+  },
+  "GV Bunny FuFuu": {
+    "bot": false,
+    "id": 204,
+    "name": "GV Bunny FuFuu",
+    "profileIconId": 26,
+    "summonerLevel": 30,
+    "summoner_id": 20441329
+  },
+  "Garbone": {
+    "bot": false,
+    "id": 305,
+    "name": "Garbone",
+    "profileIconId": 746,
+    "summonerLevel": 30,
+    "summoner_id": 24693527
+  },
+  "Gassmask": {
+    "bot": false,
+    "id": 128,
+    "name": "Gassmask",
+    "profileIconId": 547,
+    "summonerLevel": 30,
+    "summoner_id": 20694079
+  },
+  "Geranimo": {
+    "bot": false,
+    "id": 73,
+    "name": "Geranimo",
+    "profileIconId": 13,
+    "summonerLevel": 30,
+    "summoner_id": 19259932
+  },
+  "GosuNeckbeardMLG": {
+    "bot": false,
+    "id": 260,
+    "name": "GosuNeckbeardMLG",
+    "profileIconId": 597,
+    "summonerLevel": 30,
+    "summoner_id": 35088042
+  },
+  "Gqing": {
+    "bot": false,
+    "id": 170,
+    "name": "Gqing",
+    "profileIconId": 778,
+    "summonerLevel": 30,
+    "summoner_id": 46880555
+  },
+  "GraveInvitation": {
+    "bot": false,
+    "id": 215,
+    "name": "GraveInvitation",
+    "profileIconId": 719,
+    "summonerLevel": 30,
+    "summoner_id": 22781047
+  },
+  "Grigne": {
+    "bot": false,
+    "id": 61,
+    "name": "Grigne",
+    "profileIconId": 917,
+    "summonerLevel": 30,
+    "summoner_id": 21542029
+  },
+  "GtG karkied": {
+    "bot": false,
+    "id": 217,
+    "name": "GtG karkied",
+    "profileIconId": 939,
+    "summonerLevel": 30,
+    "summoner_id": 31735957
+  },
+  "Gundam00Exia": {
+    "bot": false,
+    "id": 296,
+    "name": "Gundam00Exia",
+    "profileIconId": 693,
+    "summonerLevel": 30,
+    "summoner_id": 31998466
+  },
+  "Hanjaro": {
+    "bot": false,
+    "id": 195,
+    "name": "Hanjaro",
+    "profileIconId": 739,
+    "summonerLevel": 30,
+    "summoner_id": 27291302
+  },
+  "HeartFracture": {
+    "bot": false,
+    "id": 63,
+    "name": "HeartFracture",
+    "profileIconId": 16,
+    "summonerLevel": 30,
+    "summoner_id": 66914003
+  },
+  "Heisendongv2": {
+    "bot": false,
+    "id": 136,
+    "name": "Heisendongv2",
+    "profileIconId": 20,
+    "summonerLevel": 30,
+    "summoner_id": 21794465
+  },
+  "Hikaritokage": {
+    "bot": false,
+    "id": 90,
+    "name": "Hikaritokage",
+    "profileIconId": 611,
+    "summonerLevel": 30,
+    "summoner_id": 19755687
+  },
+  "Hirosaki": {
+    "bot": false,
+    "id": 303,
+    "name": "Hirosaki",
+    "profileIconId": 18,
+    "summonerLevel": 30,
+    "summoner_id": 503449
+  },
+  "Hitwoman": {
+    "bot": false,
+    "id": 115,
+    "name": "Hitwoman",
+    "profileIconId": 550,
+    "summonerLevel": 30,
+    "summoner_id": 30176485
+  },
+  "Holy Flare": {
+    "bot": false,
+    "id": 116,
+    "name": "Holy Flare",
+    "profileIconId": 783,
+    "summonerLevel": 30,
+    "summoner_id": 49109174
+  },
+  "Holyduck": {
+    "bot": false,
+    "id": 163,
+    "name": "Holyduck",
+    "profileIconId": 659,
+    "summonerLevel": 30,
+    "summoner_id": 23038926
+  },
+  "Honeybadger2198": {
+    "bot": false,
+    "id": 302,
+    "name": "Honeybadger2198",
+    "profileIconId": 552,
+    "summonerLevel": 30,
+    "summoner_id": 50987638
+  },
+  "Hp199x": {
+    "bot": false,
+    "id": 278,
+    "name": "Hp199x",
+    "profileIconId": 578,
+    "summonerLevel": 30,
+    "summoner_id": 27293588
+  },
+  "Hurleyo": {
+    "bot": false,
+    "id": 251,
+    "name": "Hurleyo",
+    "profileIconId": 659,
+    "summonerLevel": 30,
+    "summoner_id": 35169501
+  },
+  "I Hate Shen": {
+    "bot": false,
+    "id": 267,
+    "name": "I Hate Shen",
+    "profileIconId": 552,
+    "summonerLevel": 30,
+    "summoner_id": 44863379
+  },
+  "IK a z e": {
+    "bot": false,
+    "id": 277,
+    "name": "IK a z e",
+    "profileIconId": 841,
+    "summonerLevel": 30,
+    "summoner_id": 25376762
+  },
+  "INT Lordofthepit": {
+    "bot": false,
+    "id": 209,
+    "name": "INT Lordofthepit",
+    "profileIconId": 522,
+    "summonerLevel": 30,
+    "summoner_id": 460186
+  },
+  "In The Shadow": {
+    "bot": false,
+    "id": 314,
+    "name": "In The Shadow",
+    "profileIconId": 641,
+    "summonerLevel": 30,
+    "summoner_id": 46229232
+  },
+  "Indivisible": {
+    "bot": false,
+    "id": 4,
+    "name": "Indivisible",
+    "profileIconId": 929,
+    "summonerLevel": 30,
+    "summoner_id": 21050172
+  },
+  "Ivan Pavlov": {
+    "bot": false,
+    "id": 193,
+    "name": "Ivan Pavlov",
+    "profileIconId": 787,
+    "summonerLevel": 30,
+    "summoner_id": 25166026
+  },
+  "Izaiya": {
+    "bot": false,
+    "id": 223,
+    "name": "Izaiya",
+    "profileIconId": 710,
+    "summonerLevel": 30,
+    "summoner_id": 50827543
+  },
+  "Iziao": {
+    "bot": false,
+    "id": 287,
+    "name": "Iziao",
+    "profileIconId": 930,
+    "summonerLevel": 30,
+    "summoner_id": 20972338
+  },
+  "JRT94": {
+    "bot": false,
+    "id": 46,
+    "name": "JRT94",
+    "profileIconId": 578,
+    "summonerLevel": 30,
+    "summoner_id": 19046753
+  },
+  "JacobSnakeUp": {
+    "bot": false,
+    "id": 315,
+    "name": "JacobSnakeUp",
+    "profileIconId": 898,
+    "summonerLevel": 30,
+    "summoner_id": 45504931
+  },
+  "Jake InZane": {
+    "bot": false,
+    "id": 111,
+    "name": "Jake InZane",
+    "profileIconId": 898,
+    "summonerLevel": 30,
+    "summoner_id": 20829335
+  },
+  "JamaicanKangaroo": {
+    "bot": false,
+    "id": 240,
+    "name": "JamaicanKangaroo",
+    "profileIconId": 627,
+    "summonerLevel": 30,
+    "summoner_id": 25099597
+  },
+  "Jechtlee": {
+    "bot": false,
+    "id": 227,
+    "name": "Jechtlee",
+    "profileIconId": 761,
+    "summonerLevel": 30,
+    "summoner_id": 40391258
+  },
+  "Jensen Ackles": {
+    "bot": false,
+    "id": 124,
+    "name": "Jensen Ackles",
+    "profileIconId": 23,
+    "summonerLevel": 30,
+    "summoner_id": 26564113
+  },
+  "JimmyX": {
+    "bot": false,
+    "id": 13,
+    "name": "JimmyX",
+    "profileIconId": 588,
+    "summonerLevel": 30,
+    "summoner_id": 44809450
+  },
+  "JimmytheSlayer": {
+    "bot": false,
+    "id": 146,
+    "name": "JimmytheSlayer",
+    "profileIconId": 924,
+    "summonerLevel": 30,
+    "summoner_id": 23054310
+  },
+  "KaranTheGreat": {
+    "bot": false,
+    "id": 47,
+    "name": "KaranTheGreat",
+    "profileIconId": 661,
+    "summonerLevel": 30,
+    "summoner_id": 30550642
+  },
+  "Katie Panda": {
+    "bot": false,
+    "id": 210,
+    "name": "Katie Panda",
+    "profileIconId": 775,
+    "summonerLevel": 30,
+    "summoner_id": 51738938
+  },
+  "King Spinnere": {
+    "bot": false,
+    "id": 68,
+    "name": "King Spinnere",
+    "profileIconId": 939,
+    "summonerLevel": 30,
+    "summoner_id": 20087250
+  },
+  "King of Memes": {
+    "bot": false,
+    "id": 187,
+    "name": "King of Memes",
+    "profileIconId": 0,
+    "summonerLevel": 30,
+    "summoner_id": 49913379
+  },
+  "KingGeorgie": {
+    "bot": false,
+    "id": 272,
+    "name": "KingGeorgie",
+    "profileIconId": 917,
+    "summonerLevel": 30,
+    "summoner_id": 24399368
+  },
+  "KojoNegi": {
+    "bot": false,
+    "id": 294,
+    "name": "KojoNegi",
+    "profileIconId": 23,
+    "summonerLevel": 30,
+    "summoner_id": 23507935
+  },
+  "KoreaBread": {
+    "bot": false,
+    "id": 233,
+    "name": "KoreaBread",
+    "profileIconId": 936,
+    "summonerLevel": 30,
+    "summoner_id": 24945668
+  },
+  "Krabsoukkary": {
+    "bot": false,
+    "id": 276,
+    "name": "Krabsoukkary",
+    "profileIconId": 5,
+    "summonerLevel": 30,
+    "summoner_id": 22438793
+  },
+  "Lancervii": {
+    "bot": false,
+    "id": 35,
+    "name": "Lancervii",
+    "profileIconId": 924,
+    "summonerLevel": 30,
+    "summoner_id": 22968150
+  },
+  "Le5le": {
+    "bot": false,
+    "id": 257,
+    "name": "Le5le",
+    "profileIconId": 931,
+    "summonerLevel": 30,
+    "summoner_id": 64954017
+  },
+  "Life": {
+    "bot": false,
+    "id": 229,
+    "name": "Life",
+    "profileIconId": 590,
+    "summonerLevel": 30,
+    "summoner_id": 23472635
+  },
+  "Light": {
+    "bot": false,
+    "id": 261,
+    "name": "Light",
+    "profileIconId": 939,
+    "summonerLevel": 30,
+    "summoner_id": 44839078
+  },
+  "Lightshader": {
+    "bot": false,
+    "id": 274,
+    "name": "Lightshader",
+    "profileIconId": 924,
+    "summonerLevel": 30,
+    "summoner_id": 35030983
+  },
+  "LingeringLight": {
+    "bot": false,
+    "id": 247,
+    "name": "LingeringLight",
+    "profileIconId": 588,
+    "summonerLevel": 30,
+    "summoner_id": 27390606
+  },
+  "Liquid JoJo": {
+    "bot": false,
+    "id": 101,
+    "name": "Liquid JoJo",
+    "profileIconId": 629,
+    "summonerLevel": 30,
+    "summoner_id": 35890783
+  },
+  "Liquid Quas": {
+    "bot": false,
+    "id": 105,
+    "name": "Liquid Quas",
+    "profileIconId": 753,
+    "summonerLevel": 30,
+    "summoner_id": 20017478
+  },
+  "Little Pikachu": {
+    "bot": false,
+    "id": 175,
+    "name": "Little Pikachu",
+    "profileIconId": 911,
+    "summonerLevel": 30,
+    "summoner_id": 39081152
+  },
+  "LittleNeck": {
+    "bot": false,
+    "id": 38,
+    "name": "LittleNeck",
+    "profileIconId": 599,
+    "summonerLevel": 30,
+    "summoner_id": 48596126
+  },
+  "Lucky of Legends": {
+    "bot": false,
+    "id": 250,
+    "name": "Lucky of Legends",
+    "profileIconId": 588,
+    "summonerLevel": 30,
+    "summoner_id": 44661387
+  },
+  "LuckySpider": {
+    "bot": false,
+    "id": 269,
+    "name": "LuckySpider",
+    "profileIconId": 508,
+    "summonerLevel": 30,
+    "summoner_id": 23702061
+  },
+  "M ckg": {
+    "bot": false,
+    "id": 110,
+    "name": "M ckg",
+    "profileIconId": 753,
+    "summonerLevel": 30,
+    "summoner_id": 26600205
+  },
+  "MINJAEEEEEEEEEE": {
+    "bot": false,
+    "id": 299,
+    "name": "MINJAEEEEEEEEEE",
+    "profileIconId": 785,
+    "summonerLevel": 30,
+    "summoner_id": 20560142
+  },
+  "MKNX": {
+    "bot": false,
+    "id": 244,
+    "name": "MKNX",
+    "profileIconId": 23,
+    "summonerLevel": 30,
+    "summoner_id": 61917163
+  },
+  "MTM Blade": {
+    "bot": false,
+    "id": 88,
+    "name": "MTM Blade",
+    "profileIconId": 657,
+    "summonerLevel": 30,
+    "summoner_id": 25298579
+  },
+  "Madlife is god": {
+    "bot": false,
+    "id": 71,
+    "name": "Madlife is god",
+    "profileIconId": 922,
+    "summonerLevel": 30,
+    "summoner_id": 31736186
+  },
+  "Manco": {
+    "bot": false,
+    "id": 99,
+    "name": "Manco",
+    "profileIconId": 776,
+    "summonerLevel": 30,
+    "summoner_id": 40141387
+  },
+  "MancyPelosi": {
+    "bot": false,
+    "id": 28,
+    "name": "MancyPelosi",
+    "profileIconId": 918,
+    "summonerLevel": 30,
+    "summoner_id": 19243298
+  },
+  "Mikey the Bully": {
+    "bot": false,
+    "id": 51,
+    "name": "Mikey the Bully",
+    "profileIconId": 575,
+    "summonerLevel": 30,
+    "summoner_id": 21390649
+  },
+  "Minibestia": {
+    "bot": false,
+    "id": 205,
+    "name": "Minibestia",
+    "profileIconId": 930,
+    "summonerLevel": 30,
+    "summoner_id": 21529290
+  },
+  "Mizuji": {
+    "bot": false,
+    "id": 43,
+    "name": "Mizuji",
+    "profileIconId": 898,
+    "summonerLevel": 30,
+    "summoner_id": 31951496
+  },
+  "MoXiGeRen": {
+    "bot": false,
+    "id": 37,
+    "name": "MoXiGeRen",
+    "profileIconId": 580,
+    "summonerLevel": 30,
+    "summoner_id": 20759747
+  },
+  "MoneyMacDaddy": {
+    "bot": false,
+    "id": 159,
+    "name": "MoneyMacDaddy",
+    "profileIconId": 907,
+    "summonerLevel": 30,
+    "summoner_id": 26230418
+  },
+  "Monosphere": {
+    "bot": false,
+    "id": 33,
+    "name": "Monosphere",
+    "profileIconId": 588,
+    "summonerLevel": 30,
+    "summoner_id": 24748536
+  },
+  "Monsuno": {
+    "bot": false,
+    "id": 19,
+    "name": "Monsuno",
+    "profileIconId": 687,
+    "summonerLevel": 30,
+    "summoner_id": 20218485
+  },
+  "Montoon": {
+    "bot": false,
+    "id": 221,
+    "name": "Montoon",
+    "profileIconId": 917,
+    "summonerLevel": 30,
+    "summoner_id": 36942530
+  },
+  "Morbid Killer": {
+    "bot": false,
+    "id": 179,
+    "name": "Morbid Killer",
+    "profileIconId": 912,
+    "summonerLevel": 30,
+    "summoner_id": 39900868
+  },
+  "Morning Melon": {
+    "bot": false,
+    "id": 214,
+    "name": "Morning Melon",
+    "profileIconId": 538,
+    "summonerLevel": 30,
+    "summoner_id": 20587455
+  },
+  "N3onemi": {
+    "bot": false,
+    "id": 252,
+    "name": "N3onemi",
+    "profileIconId": 937,
+    "summonerLevel": 30,
+    "summoner_id": 20161229
+  },
+  "NA Bonobo": {
+    "bot": false,
+    "id": 52,
+    "name": "NA Bonobo",
+    "profileIconId": 907,
+    "summonerLevel": 30,
+    "summoner_id": 52424
+  },
+  "NA Caprise": {
+    "bot": false,
+    "id": 266,
+    "name": "NA Caprise",
+    "profileIconId": 22,
+    "summonerLevel": 30,
+    "summoner_id": 29187889
+  },
+  "NA Talent 4Head": {
+    "bot": false,
+    "id": 59,
+    "name": "NA Talent 4Head",
+    "profileIconId": 22,
+    "summonerLevel": 30,
+    "summoner_id": 19884671
+  },
+  "NA York": {
+    "bot": false,
+    "id": 91,
+    "name": "NA York",
+    "profileIconId": 916,
+    "summonerLevel": 30,
+    "summoner_id": 21804452
+  },
+  "NCS  Social Dog": {
+    "bot": false,
+    "id": 236,
+    "name": "NCS  Social Dog",
+    "profileIconId": 7,
+    "summonerLevel": 30,
+    "summoner_id": 49290688
+  },
+  "NeverArgueWithGF": {
+    "bot": false,
+    "id": 123,
+    "name": "NeverArgueWithGF",
+    "profileIconId": 786,
+    "summonerLevel": 30,
+    "summoner_id": 26773781
+  },
+  "Nightblue3": {
+    "bot": false,
+    "id": 1,
+    "name": "Nightblue3",
+    "profileIconId": 910,
+    "summonerLevel": 30,
+    "summoner_id": 25850956
+  },
+  "Nightmre": {
+    "bot": false,
+    "id": 231,
+    "name": "Nightmre",
+    "profileIconId": 536,
+    "summonerLevel": 30,
+    "summoner_id": 31580278
+  },
+  "Noxian Diplomacy": {
+    "bot": false,
+    "id": 79,
+    "name": "Noxian Diplomacy",
+    "profileIconId": 938,
+    "summonerLevel": 30,
+    "summoner_id": 25298964
+  },
+  "Oakes of Aeolus": {
+    "bot": false,
+    "id": 176,
+    "name": "Oakes of Aeolus",
+    "profileIconId": 937,
+    "summonerLevel": 30,
+    "summoner_id": 46284484
+  },
+  "Oberyn Martel": {
+    "bot": false,
+    "id": 286,
+    "name": "Oberyn Martel",
+    "profileIconId": 750,
+    "summonerLevel": 30,
+    "summoner_id": 31989462
+  },
+  "OceanBlu": {
+    "bot": false,
+    "id": 81,
+    "name": "OceanBlu",
+    "profileIconId": 554,
+    "summonerLevel": 30,
+    "summoner_id": 32528494
+  },
+  "OddTurtles": {
+    "bot": false,
+    "id": 222,
+    "name": "OddTurtles",
+    "profileIconId": 938,
+    "summonerLevel": 30,
+    "summoner_id": 25078968
+  },
+  "Ohgi": {
+    "bot": false,
+    "id": 283,
+    "name": "Ohgi",
+    "profileIconId": 898,
+    "summonerLevel": 30,
+    "summoner_id": 21247186
+  },
+  "Oji": {
+    "bot": false,
+    "id": 297,
+    "name": "Oji",
+    "profileIconId": 716,
+    "summonerLevel": 30,
+    "summoner_id": 45800927
+  },
+  "OutIier": {
+    "bot": false,
+    "id": 7,
+    "name": "OutIier",
+    "profileIconId": 753,
+    "summonerLevel": 30,
+    "summoner_id": 38249375
+  },
+  "Performance": {
+    "bot": false,
+    "id": 185,
+    "name": "Performance",
+    "profileIconId": 778,
+    "summonerLevel": 30,
+    "summoner_id": 62429
+  },
+  "PessimisticPanda": {
+    "bot": false,
+    "id": 228,
+    "name": "PessimisticPanda",
+    "profileIconId": 784,
+    "summonerLevel": 30,
+    "summoner_id": 20200953
+  },
+  "Phil IRL": {
+    "bot": false,
+    "id": 76,
+    "name": "Phil IRL",
+    "profileIconId": 577,
+    "summonerLevel": 30,
+    "summoner_id": 20117082
+  },
+  "Pillo Pepinillo": {
+    "bot": false,
+    "id": 226,
+    "name": "Pillo Pepinillo",
+    "profileIconId": 508,
+    "summonerLevel": 30,
+    "summoner_id": 23576080
+  },
+  "Pobelter": {
+    "bot": false,
+    "id": 96,
+    "name": "Pobelter",
+    "profileIconId": 565,
+    "summonerLevel": 30,
+    "summoner_id": 2648
+  },
+  "Pond": {
+    "bot": false,
+    "id": 263,
+    "name": "Pond",
+    "profileIconId": 7,
+    "summonerLevel": 30,
+    "summoner_id": 49751204
+  },
+  "Poppers OP": {
+    "bot": false,
+    "id": 182,
+    "name": "Poppers OP",
+    "profileIconId": 929,
+    "summonerLevel": 30,
+    "summoner_id": 24494578
+  },
+  "Precisions": {
+    "bot": false,
+    "id": 253,
+    "name": "Precisions",
+    "profileIconId": 709,
+    "summonerLevel": 30,
+    "summoner_id": 23845850
+  },
+  "Proan": {
+    "bot": false,
+    "id": 85,
+    "name": "Proan",
+    "profileIconId": 720,
+    "summonerLevel": 30,
+    "summoner_id": 19894806
+  },
+  "Pyrites": {
+    "bot": false,
+    "id": 83,
+    "name": "Pyrites",
+    "profileIconId": 906,
+    "summonerLevel": 30,
+    "summoner_id": 34270960
+  },
+  "Quazic": {
+    "bot": false,
+    "id": 207,
+    "name": "Quazic",
+    "profileIconId": 10,
+    "summonerLevel": 30,
+    "summoner_id": 22867371
+  },
+  "Radiantt": {
+    "bot": false,
+    "id": 161,
+    "name": "Radiantt",
+    "profileIconId": 773,
+    "summonerLevel": 30,
+    "summoner_id": 20104018
+  },
+  "Raigarak": {
+    "bot": false,
+    "id": 183,
+    "name": "Raigarak",
+    "profileIconId": 747,
+    "summonerLevel": 30,
+    "summoner_id": 568629
+  },
+  "Raymora": {
+    "bot": false,
+    "id": 118,
+    "name": "Raymora",
+    "profileIconId": 16,
+    "summonerLevel": 30,
+    "summoner_id": 23427373
+  },
+  "Redmercy": {
+    "bot": false,
+    "id": 189,
+    "name": "Redmercy",
+    "profileIconId": 924,
+    "summonerLevel": 30,
+    "summoner_id": 19139093
+  },
+  "Rest1nPeace": {
+    "bot": false,
+    "id": 21,
+    "name": "Rest1nPeace",
+    "profileIconId": 745,
+    "summonerLevel": 30,
+    "summoner_id": 44055045
+  },
+  "RoA": {
+    "bot": false,
+    "id": 64,
+    "name": "RoA",
+    "profileIconId": 924,
+    "summonerLevel": 30,
+    "summoner_id": 21966037
+  },
+  "Robojackson": {
+    "bot": false,
+    "id": 39,
+    "name": "Robojackson",
+    "profileIconId": 685,
+    "summonerLevel": 30,
+    "summoner_id": 20915481
+  },
+  "Roflchopters": {
+    "bot": false,
+    "id": 140,
+    "name": "Roflchopters",
+    "profileIconId": 7,
+    "summonerLevel": 30,
+    "summoner_id": 22372028
+  },
+  "Roolf": {
+    "bot": false,
+    "id": 196,
+    "name": "Roolf",
+    "profileIconId": 940,
+    "summonerLevel": 30,
+    "summoner_id": 25738757
+  },
+  "Ryujin v2": {
+    "bot": false,
+    "id": 212,
+    "name": "Ryujin v2",
+    "profileIconId": 22,
+    "summonerLevel": 30,
+    "summoner_id": 46244745
+  },
+  "S Diana 2": {
+    "bot": false,
+    "id": 54,
+    "name": "S Diana 2",
+    "profileIconId": 924,
+    "summonerLevel": 30,
+    "summoner_id": 37876161
+  },
+  "SKT T1 LuckerDog": {
+    "bot": false,
+    "id": 311,
+    "name": "SKT T1 LuckerDog",
+    "profileIconId": 924,
+    "summonerLevel": 30,
+    "summoner_id": 28442099
+  },
+  "SOX Terrorist": {
+    "bot": false,
+    "id": 138,
+    "name": "SOX Terrorist",
+    "profileIconId": 3,
+    "summonerLevel": 30,
+    "summoner_id": 58870068
+  },
+  "Sailor Dude": {
+    "bot": false,
+    "id": 53,
+    "name": "Sailor Dude",
+    "profileIconId": 676,
+    "summonerLevel": 30,
+    "summoner_id": 29524444
+  },
+  "SailorJupiterXD ": {
+    "bot": false,
+    "id": 142,
+    "name": "SailorJupiterXD ",
+    "profileIconId": 597,
+    "summonerLevel": 30,
+    "summoner_id": 19332723
+  },
+  "SalmonV": {
+    "bot": false,
+    "id": 152,
+    "name": "SalmonV",
+    "profileIconId": 606,
+    "summonerLevel": 30,
+    "summoner_id": 37599863
+  },
+  "Sarcasm Orgasm": {
+    "bot": false,
+    "id": 192,
+    "name": "Sarcasm Orgasm",
+    "profileIconId": 782,
+    "summonerLevel": 30,
+    "summoner_id": 23519789
+  },
+  "ScYx173": {
+    "bot": false,
+    "id": 92,
+    "name": "ScYx173",
+    "profileIconId": 28,
+    "summonerLevel": 30,
+    "summoner_id": 22465516
+  },
+  "Schemary": {
+    "bot": false,
+    "id": 243,
+    "name": "Schemary",
+    "profileIconId": 688,
+    "summonerLevel": 30,
+    "summoner_id": 37118143
+  },
+  "Schler": {
+    "bot": false,
+    "id": 114,
+    "name": "Schler",
+    "profileIconId": 23,
+    "summonerLevel": 1,
+    "summoner_id": 45314428
+  },
+  "Sense2": {
+    "bot": false,
+    "id": 108,
+    "name": "Sense2",
+    "profileIconId": 28,
+    "summonerLevel": 30,
+    "summoner_id": 25433476
+  },
+  "Senzility": {
+    "bot": false,
+    "id": 27,
+    "name": "Senzility",
+    "profileIconId": 931,
+    "summonerLevel": 30,
+    "summoner_id": 21763012
+  },
+  "Shoopufff": {
+    "bot": false,
+    "id": 230,
+    "name": "Shoopufff",
+    "profileIconId": 744,
+    "summonerLevel": 30,
+    "summoner_id": 20397499
+  },
+  "SickMotion": {
+    "bot": false,
+    "id": 238,
+    "name": "SickMotion",
+    "profileIconId": 19,
+    "summonerLevel": 30,
+    "summoner_id": 426288
+  },
+  "Sistar": {
+    "bot": false,
+    "id": 155,
+    "name": "Sistar",
+    "profileIconId": 508,
+    "summonerLevel": 30,
+    "summoner_id": 26065782
+  },
+  "Slapustupid": {
+    "bot": false,
+    "id": 16,
+    "name": "Slapustupid",
+    "profileIconId": 26,
+    "summonerLevel": 30,
+    "summoner_id": 21178987
+  },
+  "Sleeping Pillow": {
+    "bot": false,
+    "id": 131,
+    "name": "Sleeping Pillow",
+    "profileIconId": 522,
+    "summonerLevel": 30,
+    "summoner_id": 95077
+  },
+  "Sohnar": {
+    "bot": false,
+    "id": 40,
+    "name": "Sohnar",
+    "profileIconId": 16,
+    "summonerLevel": 30,
+    "summoner_id": 19861810
+  },
+  "Spexed": {
+    "bot": false,
+    "id": 264,
+    "name": "Spexed",
+    "profileIconId": 783,
+    "summonerLevel": 30,
+    "summoner_id": 21881143
+  },
+  "Splorchicken": {
+    "bot": false,
+    "id": 208,
+    "name": "Splorchicken",
+    "profileIconId": 844,
+    "summonerLevel": 30,
+    "summoner_id": 51102919
+  },
+  "Sprusse": {
+    "bot": false,
+    "id": 32,
+    "name": "Sprusse",
+    "profileIconId": 916,
+    "summonerLevel": 30,
+    "summoner_id": 21127439
+  },
+  "SteamyMenos": {
+    "bot": false,
+    "id": 307,
+    "name": "SteamyMenos",
+    "profileIconId": 717,
+    "summonerLevel": 30,
+    "summoner_id": 43596117
+  },
+  "Steefo": {
+    "bot": false,
+    "id": 280,
+    "name": "Steefo",
+    "profileIconId": 911,
+    "summonerLevel": 30,
+    "summoner_id": 24456215
+  },
+  "TET Miracle": {
+    "bot": false,
+    "id": 169,
+    "name": "TET Miracle",
+    "profileIconId": 580,
+    "summonerLevel": 30,
+    "summoner_id": 20878992
+  },
+  "TR Linsanity": {
+    "bot": false,
+    "id": 55,
+    "name": "TR Linsanity",
+    "profileIconId": 940,
+    "summonerLevel": 30,
+    "summoner_id": 21498922
+  },
+  "TSM Fanboy 42069": {
+    "bot": false,
+    "id": 281,
+    "name": "TSM Fanboy 42069",
+    "profileIconId": 916,
+    "summonerLevel": 30,
+    "summoner_id": 22221449
+  },
+  "TakoBell": {
+    "bot": false,
+    "id": 191,
+    "name": "TakoBell",
+    "profileIconId": 691,
+    "summonerLevel": 30,
+    "summoner_id": 38950134
+  },
+  "Taoist Lu": {
+    "bot": false,
+    "id": 31,
+    "name": "Taoist Lu",
+    "profileIconId": 16,
+    "summonerLevel": 30,
+    "summoner_id": 35205239
+  },
+  "Taosenai": {
+    "bot": false,
+    "id": 25,
+    "name": "Taosenai",
+    "profileIconId": 744,
+    "summonerLevel": 30,
+    "summoner_id": 22445117
+  },
+  "Teh Ahri": {
+    "bot": false,
+    "id": 41,
+    "name": "Teh Ahri",
+    "profileIconId": 607,
+    "summonerLevel": 30,
+    "summoner_id": 29420083
+  },
+  "Tentacool": {
+    "bot": false,
+    "id": 57,
+    "name": "Tentacool",
+    "profileIconId": 512,
+    "summonerLevel": 30,
+    "summoner_id": 21399577
+  },
+  "The PridestaIker": {
+    "bot": false,
+    "id": 98,
+    "name": "The PridestaIker",
+    "profileIconId": 0,
+    "summonerLevel": 30,
+    "summoner_id": 54459946
+  },
+  "TheWaffIe": {
+    "bot": false,
+    "id": 132,
+    "name": "TheWaffIe",
+    "profileIconId": 663,
+    "summonerLevel": 30,
+    "summoner_id": 21218737
+  },
+  "TheZeusJuice": {
+    "bot": false,
+    "id": 18,
+    "name": "TheZeusJuice",
+    "profileIconId": 18,
+    "summonerLevel": 30,
+    "summoner_id": 20068934
+  },
+  "Tonington": {
+    "bot": false,
+    "id": 224,
+    "name": "Tonington",
+    "profileIconId": 915,
+    "summonerLevel": 30,
+    "summoner_id": 29773406
+  },
+  "TornadoWatch": {
+    "bot": false,
+    "id": 137,
+    "name": "TornadoWatch",
+    "profileIconId": 508,
+    "summonerLevel": 30,
+    "summoner_id": 32490785
+  },
+  "Treason Bot": {
+    "bot": false,
+    "id": 144,
+    "name": "Treason Bot",
+    "profileIconId": 684,
+    "summonerLevel": 30,
+    "summoner_id": 20086077
+  },
+  "TriggerTheory": {
+    "bot": false,
+    "id": 78,
+    "name": "TriggerTheory",
+    "profileIconId": 589,
+    "summonerLevel": 30,
+    "summoner_id": 20731713
+  },
+  "Tsunenori": {
+    "bot": false,
+    "id": 24,
+    "name": "Tsunenori",
+    "profileIconId": 916,
+    "summonerLevel": 30,
+    "summoner_id": 28419997
+  },
+  "USG isurugi": {
+    "bot": false,
+    "id": 273,
+    "name": "USG isurugi",
+    "profileIconId": 931,
+    "summonerLevel": 30,
+    "summoner_id": 41954304
+  },
+  "UoP UnseenPanda": {
+    "bot": false,
+    "id": 258,
+    "name": "UoP UnseenPanda",
+    "profileIconId": 936,
+    "summonerLevel": 30,
+    "summoner_id": 38009785
+  },
+  "Uretre": {
+    "bot": false,
+    "id": 29,
+    "name": "Uretre",
+    "profileIconId": 7,
+    "summonerLevel": 30,
+    "summoner_id": 23415042
+  },
+  "VahaLa8": {
+    "bot": false,
+    "id": 178,
+    "name": "VahaLa8",
+    "profileIconId": 518,
+    "summonerLevel": 30,
+    "summoner_id": 23646048
+  },
+  "VeNomZero": {
+    "bot": false,
+    "id": 282,
+    "name": "VeNomZero",
+    "profileIconId": 604,
+    "summonerLevel": 30,
+    "summoner_id": 23067885
+  },
+  "Vecaras": {
+    "bot": false,
+    "id": 298,
+    "name": "Vecaras",
+    "profileIconId": 915,
+    "summonerLevel": 30,
+    "summoner_id": 508231
+  },
+  "Vervaxamas": {
+    "bot": false,
+    "id": 279,
+    "name": "Vervaxamas",
+    "profileIconId": 593,
+    "summonerLevel": 30,
+    "summoner_id": 23185795
+  },
+  "ViciousDolphin": {
+    "bot": false,
+    "id": 153,
+    "name": "ViciousDolphin",
+    "profileIconId": 561,
+    "summonerLevel": 30,
+    "summoner_id": 35651858
+  },
+  "Vlyse": {
+    "bot": false,
+    "id": 265,
+    "name": "Vlyse",
+    "profileIconId": 931,
+    "summonerLevel": 30,
+    "summoner_id": 21204833
+  },
+  "Waffle Euphoria": {
+    "bot": false,
+    "id": 162,
+    "name": "Waffle Euphoria",
+    "profileIconId": 936,
+    "summonerLevel": 30,
+    "summoner_id": 20552927
+  },
+  "Wardaan": {
+    "bot": false,
+    "id": 49,
+    "name": "Wardaan",
+    "profileIconId": 535,
+    "summonerLevel": 30,
+    "summoner_id": 163049
+  },
+  "Wardrium": {
+    "bot": false,
+    "id": 6,
+    "name": "Wardrium",
+    "profileIconId": 26,
+    "summonerLevel": 30,
+    "summoner_id": 24694433
+  },
+  "Weebleyoy": {
+    "bot": false,
+    "id": 151,
+    "name": "Weebleyoy",
+    "profileIconId": 0,
+    "summonerLevel": 30,
+    "summoner_id": 61789277
+  },
+  "Weeknd": {
+    "bot": false,
+    "id": 270,
+    "name": "Weeknd",
+    "profileIconId": 915,
+    "summonerLevel": 30,
+    "summoner_id": 32178528
+  },
+  "WeiXiao CN": {
+    "bot": false,
+    "id": 157,
+    "name": "WeiXiao CN",
+    "profileIconId": 923,
+    "summonerLevel": 30,
+    "summoner_id": 39512106
+  },
+  "Wingsofdeathx": {
+    "bot": false,
+    "id": 139,
+    "name": "Wingsofdeathx",
+    "profileIconId": 774,
+    "summonerLevel": 30,
+    "summoner_id": 19660288
+  },
+  "Wisba": {
+    "bot": false,
+    "id": 234,
+    "name": "Wisba",
+    "profileIconId": 504,
+    "summonerLevel": 30,
+    "summoner_id": 19433918
+  },
+  "XDDD": {
+    "bot": false,
+    "id": 42,
+    "name": "XDDD",
+    "profileIconId": 712,
+    "summonerLevel": 30,
+    "summoner_id": 32525807
+  },
+  "XIV XtremeX": {
+    "bot": false,
+    "id": 129,
+    "name": "XIV XtremeX",
+    "profileIconId": 920,
+    "summonerLevel": 30,
+    "summoner_id": 21241388
+  },
+  "Xannivath": {
+    "bot": false,
+    "id": 174,
+    "name": "Xannivath",
+    "profileIconId": 28,
+    "summonerLevel": 30,
+    "summoner_id": 42639281
+  },
+  "Xellent": {
+    "bot": false,
+    "id": 248,
+    "name": "Xellent",
+    "profileIconId": 744,
+    "summonerLevel": 30,
+    "summoner_id": 40665956
+  },
+  "Xpecial": {
+    "bot": false,
+    "id": 56,
+    "name": "Xpecial",
+    "profileIconId": 936,
+    "summonerLevel": 30,
+    "summoner_id": 19199530
+  },
+  "YESIMFKINGSALTY": {
+    "bot": false,
+    "id": 254,
+    "name": "YESIMFKINGSALTY",
+    "profileIconId": 7,
+    "summonerLevel": 30,
+    "summoner_id": 45639490
+  },
+  "Yade": {
+    "bot": false,
+    "id": 104,
+    "name": "Yade",
+    "profileIconId": 4,
+    "summonerLevel": 30,
+    "summoner_id": 23204114
+  },
+  "Yamii Nu Kokoro": {
+    "bot": false,
+    "id": 80,
+    "name": "Yamii Nu Kokoro",
+    "profileIconId": 915,
+    "summonerLevel": 30,
+    "summoner_id": 42182033
+  },
+  "You Froob": {
+    "bot": false,
+    "id": 145,
+    "name": "You Froob",
+    "profileIconId": 916,
+    "summonerLevel": 30,
+    "summoner_id": 24840176
+  },
+  "Yucong": {
+    "bot": false,
+    "id": 218,
+    "name": "Yucong",
+    "profileIconId": 844,
+    "summonerLevel": 30,
+    "summoner_id": 29256448
+  },
+  "Zeah": {
+    "bot": false,
+    "id": 300,
+    "name": "Zeah",
+    "profileIconId": 23,
+    "summonerLevel": 30,
+    "summoner_id": 24252971
+  },
+  "Zelchor ": {
+    "bot": false,
+    "id": 156,
+    "name": "Zelchor ",
+    "profileIconId": 772,
+    "summonerLevel": 30,
+    "summoner_id": 24442000
+  },
+  "Zenic": {
+    "bot": false,
+    "id": 292,
+    "name": "Zenic",
+    "profileIconId": 948,
+    "summonerLevel": 30,
+    "summoner_id": 19587720
+  },
+  "Zetalot": {
+    "bot": false,
+    "id": 168,
+    "name": "Zetalot",
+    "profileIconId": 936,
+    "summonerLevel": 30,
+    "summoner_id": 19891936
+  },
+  "a Large Box": {
+    "bot": false,
+    "id": 107,
+    "name": "a Large Box",
+    "profileIconId": 621,
+    "summonerLevel": 30,
+    "summoner_id": 47476669
+  },
+  "actu": {
+    "bot": false,
+    "id": 66,
+    "name": "actu",
+    "profileIconId": 582,
+    "summonerLevel": 30,
+    "summoner_id": 38038926
+  },
+  "akoM ayihsakA": {
+    "bot": false,
+    "id": 135,
+    "name": "akoM ayihsakA",
+    "profileIconId": 936,
+    "summonerLevel": 30,
+    "summoner_id": 31753007
+  },
+  "aznguy04": {
+    "bot": false,
+    "id": 245,
+    "name": "aznguy04",
+    "profileIconId": 28,
+    "summonerLevel": 30,
+    "summoner_id": 23442593
+  },
+  "bhar": {
+    "bot": false,
+    "id": 220,
+    "name": "bhar",
+    "profileIconId": 786,
+    "summonerLevel": 30,
+    "summoner_id": 25169442
+  },
+  "bigfatlp": {
+    "bot": false,
+    "id": 133,
+    "name": "bigfatlp",
+    "profileIconId": 915,
+    "summonerLevel": 30,
+    "summoner_id": 1821
+  },
+  "cToph": {
+    "bot": false,
+    "id": 246,
+    "name": "cToph",
+    "profileIconId": 749,
+    "summonerLevel": 30,
+    "summoner_id": 22572291
+  },
+  "carlota": {
+    "bot": false,
+    "id": 291,
+    "name": "carlota",
+    "profileIconId": 527,
+    "summonerLevel": 30,
+    "summoner_id": 90971
+  },
+  "chuck normis": {
+    "bot": false,
+    "id": 94,
+    "name": "chuck normis",
+    "profileIconId": 930,
+    "summonerLevel": 30,
+    "summoner_id": 19243208
+  },
+  "curryQuads": {
+    "bot": false,
+    "id": 22,
+    "name": "curryQuads",
+    "profileIconId": 916,
+    "summonerLevel": 30,
+    "summoner_id": 36581158
+  },
+  "davidroo": {
+    "bot": false,
+    "id": 2,
+    "name": "davidroo",
+    "profileIconId": 924,
+    "summonerLevel": 30,
+    "summoner_id": 39630512
+  },
+  "dj829jdo923hdo82": {
+    "bot": false,
+    "id": 93,
+    "name": "dj829jdo923hdo82",
+    "profileIconId": 916,
+    "summonerLevel": 30,
+    "summoner_id": 46280307
+  },
+  "djdread": {
+    "bot": false,
+    "id": 130,
+    "name": "djdread",
+    "profileIconId": 16,
+    "summonerLevel": 30,
+    "summoner_id": 24193880
+  },
+  "dopa7": {
+    "bot": false,
+    "id": 147,
+    "name": "dopa7",
+    "profileIconId": 924,
+    "summonerLevel": 30,
+    "summoner_id": 26241987
+  },
+  "eSports Cuck": {
+    "bot": false,
+    "id": 84,
+    "name": "eSports Cuck",
+    "profileIconId": 917,
+    "summonerLevel": 30,
+    "summoner_id": 20052657
+  },
+  "fat yung jesus": {
+    "bot": false,
+    "id": 26,
+    "name": "fat yung jesus",
+    "profileIconId": 916,
+    "summonerLevel": 30,
+    "summoner_id": 71631178
+  },
+  "feud999": {
+    "bot": false,
+    "id": 70,
+    "name": "feud999",
+    "profileIconId": 582,
+    "summonerLevel": 30,
+    "summoner_id": 44554267
+  },
+  "fireboyxD": {
+    "bot": false,
+    "id": 150,
+    "name": "fireboyxD",
+    "profileIconId": 938,
+    "summonerLevel": 30,
+    "summoner_id": 55963358
+  },
+  "fnatk": {
+    "bot": false,
+    "id": 20,
+    "name": "fnatk",
+    "profileIconId": 931,
+    "summonerLevel": 30,
+    "summoner_id": 48635178
+  },
+  "goldenglue": {
+    "bot": false,
+    "id": 58,
+    "name": "goldenglue",
+    "profileIconId": 917,
+    "summonerLevel": 30,
+    "summoner_id": 21490433
+  },
+  "iShiny": {
+    "bot": false,
+    "id": 225,
+    "name": "iShiny",
+    "profileIconId": 638,
+    "summonerLevel": 30,
+    "summoner_id": 22512767
+  },
+  "ililiiiillllilll": {
+    "bot": false,
+    "id": 256,
+    "name": "ililiiiillllilll",
+    "profileIconId": 948,
+    "summonerLevel": 30,
+    "summoner_id": 64913939
+  },
+  "itstimmy": {
+    "bot": false,
+    "id": 62,
+    "name": "itstimmy",
+    "profileIconId": 720,
+    "summonerLevel": 30,
+    "summoner_id": 25295387
+  },
+  "jyjyjy": {
+    "bot": false,
+    "id": 290,
+    "name": "jyjyjy",
+    "profileIconId": 2,
+    "summonerLevel": 30,
+    "summoner_id": 40914309
+  },
+  "kralC ehT": {
+    "bot": false,
+    "id": 237,
+    "name": "kralC ehT",
+    "profileIconId": 23,
+    "summonerLevel": 30,
+    "summoner_id": 22055064
+  },
+  "l am Bjerg": {
+    "bot": false,
+    "id": 5,
+    "name": "l am Bjerg",
+    "profileIconId": 916,
+    "summonerLevel": 30,
+    "summoner_id": 49159160
+  },
+  "lalaisland": {
+    "bot": false,
+    "id": 82,
+    "name": "lalaisland",
+    "profileIconId": 929,
+    "summonerLevel": 30,
+    "summoner_id": 20171127
+  },
+  "liBerO JYL": {
+    "bot": false,
+    "id": 48,
+    "name": "liBerO JYL",
+    "profileIconId": 7,
+    "summonerLevel": 30,
+    "summoner_id": 19979141
+  },
+  "lnVINCEable": {
+    "bot": false,
+    "id": 167,
+    "name": "lnVINCEable",
+    "profileIconId": 924,
+    "summonerLevel": 30,
+    "summoner_id": 20940183
+  },
+  "lron": {
+    "bot": false,
+    "id": 15,
+    "name": "lron",
+    "profileIconId": 627,
+    "summonerLevel": 30,
+    "summoner_id": 30413915
+  },
+  "luvli": {
+    "bot": false,
+    "id": 194,
+    "name": "luvli",
+    "profileIconId": 938,
+    "summonerLevel": 30,
+    "summoner_id": 45811724
+  },
+  "megapasta": {
+    "bot": false,
+    "id": 293,
+    "name": "megapasta",
+    "profileIconId": 561,
+    "summonerLevel": 30,
+    "summoner_id": 25425198
+  },
+  "megustahuevos": {
+    "bot": false,
+    "id": 186,
+    "name": "megustahuevos",
+    "profileIconId": 918,
+    "summonerLevel": 30,
+    "summoner_id": 44600433
+  },
+  "morippe": {
+    "bot": false,
+    "id": 23,
+    "name": "morippe",
+    "profileIconId": 915,
+    "summonerLevel": 30,
+    "summoner_id": 36829887
+  },
+  "no gf no money": {
+    "bot": false,
+    "id": 50,
+    "name": "no gf no money",
+    "profileIconId": 915,
+    "summonerLevel": 30,
+    "summoner_id": 34692594
+  },
+  "npromsiri": {
+    "bot": false,
+    "id": 201,
+    "name": "npromsiri",
+    "profileIconId": 18,
+    "summonerLevel": 30,
+    "summoner_id": 19336374
+  },
+  "o0OepicO0o": {
+    "bot": false,
+    "id": 206,
+    "name": "o0OepicO0o",
+    "profileIconId": 774,
+    "summonerLevel": 30,
+    "summoner_id": 25184443
+  },
+  "oPayne": {
+    "bot": false,
+    "id": 304,
+    "name": "oPayne",
+    "profileIconId": 718,
+    "summonerLevel": 30,
+    "summoner_id": 34696168
+  },
+  "oShoyuu": {
+    "bot": false,
+    "id": 125,
+    "name": "oShoyuu",
+    "profileIconId": 16,
+    "summonerLevel": 30,
+    "summoner_id": 32751192
+  },
+  "orbit xD": {
+    "bot": false,
+    "id": 160,
+    "name": "orbit xD",
+    "profileIconId": 3,
+    "summonerLevel": 30,
+    "summoner_id": 22450092
+  },
+  "princeRacer": {
+    "bot": false,
+    "id": 166,
+    "name": "princeRacer",
+    "profileIconId": 25,
+    "summonerLevel": 30,
+    "summoner_id": 70199375
+  },
+  "prosnubs": {
+    "bot": false,
+    "id": 89,
+    "name": "prosnubs",
+    "profileIconId": 786,
+    "summonerLevel": 30,
+    "summoner_id": 19833475
+  },
+  "r Hana xo ": {
+    "bot": false,
+    "id": 14,
+    "name": "r Hana xo ",
+    "profileIconId": 915,
+    "summonerLevel": 30,
+    "summoner_id": 218093
+  },
+  "rengar ty": {
+    "bot": false,
+    "id": 106,
+    "name": "rengar ty",
+    "profileIconId": 607,
+    "summonerLevel": 30,
+    "summoner_id": 35119051
+  },
+  "s Achilles": {
+    "bot": false,
+    "id": 190,
+    "name": "s Achilles",
+    "profileIconId": 916,
+    "summonerLevel": 30,
+    "summoner_id": 66850519
+  },
+  "santana claus": {
+    "bot": false,
+    "id": 102,
+    "name": "santana claus",
+    "profileIconId": 7,
+    "summonerLevel": 30,
+    "summoner_id": 64709188
+  },
+  "sexybabe69": {
+    "bot": false,
+    "id": 219,
+    "name": "sexybabe69",
+    "profileIconId": 28,
+    "summonerLevel": 30,
+    "summoner_id": 20486689
+  },
+  "shadowrune4": {
+    "bot": false,
+    "id": 312,
+    "name": "shadowrune4",
+    "profileIconId": 931,
+    "summonerLevel": 30,
+    "summoner_id": 30012703
+  },
+  "snitched": {
+    "bot": false,
+    "id": 289,
+    "name": "snitched",
+    "profileIconId": 937,
+    "summonerLevel": 30,
+    "summoner_id": 25449280
+  },
+  "stuntopolis": {
+    "bot": false,
+    "id": 181,
+    "name": "stuntopolis",
+    "profileIconId": 749,
+    "summonerLevel": 30,
+    "summoner_id": 35592112
+  },
+  "trtrgfh": {
+    "bot": false,
+    "id": 173,
+    "name": "trtrgfh",
+    "profileIconId": 748,
+    "summonerLevel": 30,
+    "summoner_id": 47859416
+  },
+  "twitchtvz4mk4": {
+    "bot": false,
+    "id": 154,
+    "name": "twitchtvz4mk4",
+    "profileIconId": 774,
+    "summonerLevel": 30,
+    "summoner_id": 94078
+  },
+  "whatsaward": {
+    "bot": false,
+    "id": 232,
+    "name": "whatsaward",
+    "profileIconId": 588,
+    "summonerLevel": 30,
+    "summoner_id": 21027989
+  },
+  "windking666": {
+    "bot": false,
+    "id": 3,
+    "name": "windking666",
+    "profileIconId": 924,
+    "summonerLevel": 30,
+    "summoner_id": 37542769
+  },
+  "xSly": {
+    "bot": false,
+    "id": 126,
+    "name": "xSly",
+    "profileIconId": 938,
+    "summonerLevel": 30,
+    "summoner_id": 19534215
+  },
+  "youspinmenow": {
+    "bot": false,
+    "id": 122,
+    "name": "youspinmenow",
+    "profileIconId": 585,
+    "summonerLevel": 30,
+    "summoner_id": 25343073
+  },
+  "zxmadness": {
+    "bot": false,
+    "id": 60,
+    "name": "zxmadness",
+    "profileIconId": 20,
+    "summonerLevel": 30,
+    "summoner_id": 21451895
+  }
+}
