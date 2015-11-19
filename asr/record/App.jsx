@@ -58,7 +58,7 @@ var App = React.createClass({
     Object.keys(hardcarrydb).forEach(function (entity) {
 
       if (self.state.id == '24024' && !self.state[entity]) {
-        self['req' + entity] = request.get('http://hardcarry.me/api/' + hardcarrydb[entity].pl)
+        self['req' + entity] = request.get('http://hardcarry.me/api/' + hardcarrydb[entity].pl + '/')
           .end(function (err, res) {
             self['req' + entity] = null;
 
@@ -220,6 +220,8 @@ var App = React.createClass({
           <div className='col-md-9' role='main'>
             {widgets && widgets.length ?
             <h1>Widgets</h1> : null}
+            {widgets && widgets.length ?
+            <br /> : null}
             {widgets}
             <h1>Summary</h1>
 
