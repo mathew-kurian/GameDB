@@ -218,6 +218,8 @@ var App = React.createClass({
 
         <div className='container' style={{marginTop:40}}>
           <div className='col-md-9' role='main'>
+            {widgets && widgets.length ?
+            <h1>Widgets</h1> : null}
             {widgets}
             <h1>Summary</h1>
 
