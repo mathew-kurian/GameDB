@@ -56,7 +56,7 @@ var Search = React.createClass({
       if (res.entity !== a) return;
       children.push(
         <div key={i++} className="row"
-             style={{padding: 20,borderBottom: '1px solid rgba(255,255,255,0.0)',position:'relative',overflow:'hidden',margin:0}}>
+             style={{padding: 20,position:'relative',overflow:'hidden',margin:0}}>
           <ReactBlur
             style={{opacity:0.3,width:'100%',height:'100%',top:0,left:0,backgroundPosition:'center center',backgroundColor:'#000', position:'absolute',zIndex:-1}}
             img={res.images[0].source} blurRadius={50}/>
@@ -83,7 +83,7 @@ var Search = React.createClass({
     });
 
     return <div ref={a}
-                style={{borderRight:'1px solid rgba(255,255,255,0.0)', padding:0,position:'relative',height:'100%',minHeight:100}}
+                style={{background:'rgba(255,255,255,0.08)', padding:0,position:'relative',height:'100%',minHeight:100}}
                 className="col-md-4 scroll scroll-y">
       <div style={{textTransform:'uppercase',letterSpacing:'1px',fontWeight:700,color:'#555',padding:10}}>{a}</div>
       { children.length ? children : <div className="empty">Not found</div>}
@@ -139,7 +139,7 @@ var Search = React.createClass({
                onClick={this.state.input ? null : this.onClose}>
             { this.state.input ? <div className="row" style={{margin:0,overflow:'auto',height:'100%'}}>
               {this.getResultsFor('game')}
-              {this.getResultsFor('company')}
+              {this.getResultsFor('company', true)}
               {this.getResultsFor('platform')}
             </div> : null }
           </div>
