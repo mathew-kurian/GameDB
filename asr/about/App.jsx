@@ -86,7 +86,7 @@ var App = React.createClass({
             <div style={{height:30}}></div>
           </div>
           <div className='col-md-6' role='complementary'>
-            <div className="flex row">
+            <div className="flex row m">
               <div className="box" style={{paddingRight:20}}>
                 <div className="profile-rounded"
                      style={{backgroundImage:'url(/assets/dist/images/cathy-0.jpg)'}}/>
@@ -107,7 +107,7 @@ var App = React.createClass({
             <hr />
 
 
-            <div className="flex row">
+            <div className="flex row m">
               <div className="box" style={{paddingRight:20}}>
                 <div className="profile-rounded"
                      style={{backgroundImage:'url(/assets/dist/images/matt-0.jpg)'}}/>
@@ -125,7 +125,7 @@ var App = React.createClass({
             <hr />
 
 
-            <div className="flex row">
+            <div className="flex row m">
               <div className="box" style={{paddingRight:20}}>
                 <div className="profile-rounded"
                      style={{backgroundImage:'url(/assets/dist/images/rahul-0.jpg)'}}/>
@@ -144,7 +144,7 @@ var App = React.createClass({
             <hr />
 
 
-            <div className="flex row">
+            <div className="flex row m">
               <div className="box" style={{paddingRight:20}}>
                 <div className="profile-rounded" style={{backgroundImage:'url(/assets/dist/images/mat-0.jpg)'}}/>
               </div>

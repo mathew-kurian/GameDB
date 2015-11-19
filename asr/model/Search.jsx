@@ -46,7 +46,7 @@ var Search = React.createClass({
     this.refs.input.focus();
     this._handleResize();
   },
-  getResultsFor(a){
+  getResultsFor(a, m){
 
     var self = this;
     var i = 0;
@@ -83,7 +83,7 @@ var Search = React.createClass({
     });
 
     return <div ref={a}
-                style={{background:'rgba(255,255,255,0.08)', padding:0,position:'relative',height:'100%',minHeight:100}}
+                style={{background:m ? 'rgba(255,255,255,0.08)' : null, padding:0,position:'relative',height:'100%',minHeight:100}}
                 className="col-md-4 scroll scroll-y">
       <div style={{textTransform:'uppercase',letterSpacing:'1px',fontWeight:700,color:'#555',padding:10}}>{a}</div>
       { children.length ? children : <div className="empty">Not found</div>}
