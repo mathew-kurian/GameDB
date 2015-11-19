@@ -60,7 +60,7 @@ def send_api_response(func, tables, table):
             global session
             session.close()
             session = get_session(echo=False)
-            return api_search(name, index)
+            return send_api_response(func, tables, table)
         except Exception as e:
             res['status'] = 1
             res['message'] = str(e)
@@ -97,7 +97,7 @@ def api(table, id=-1):
 def api_search():
     start_time = time.time()
     res = {'status': 0, 'message': 'Success', 'results': []}
-    
+
     q = request.args.get('q', default=None, type=str)
 
     if not q:
@@ -116,7 +116,7 @@ def api_search():
                 keywords = ' '.join(q.split()).split(' ')
 
                 for k in keywords:
-                    if len(k) < 3: # test and remove the count as needed
+                    if len(k) < 3:  # test and remove the count as needed
                         continue
                     sq += ['(name:(' + k + ') OR deck:(' + k + '))']
 
@@ -124,7 +124,7 @@ def api_search():
 
                 res = solr.search(op, **{
                     'rows': limit,
-                    'start': offset,
+                    'start': limit * offset,
                     'fl': 'id,name,deck,description,entity',
                     'hl': 'true',
                     'hl.fl': 'name deck description',
@@ -136,10 +136,10 @@ def api_search():
                     'hl.highlightMultiTerm': 'true'
                 })
 
-                dist=1
+                dist = 1
                 for r in res:
                     r['__mode__'] = mode
-                    r['__dist__'] = dist * mult # lower the distance, better the result
+                    r['__dist__'] = dist * mult  # lower the distance, better the result
                     r['__highlighting__'] = {}
                     if r['id'] in res.highlighting:
                         r['__highlighting__'] = res.highlighting[r['id']]
@@ -154,9 +154,9 @@ def api_search():
                 return m
 
             def listify(a):
-                l=[]
+                l = []
                 for i in a:
-                    l+=[a[i]]
+                    l += [a[i]]
                 return l
 
             def assign(a, b):
@@ -167,12 +167,12 @@ def api_search():
             results = listify(assign(mapify(query('OR', 25), 'id'), mapify(query('AND'), 'id')))
             results.sort(key=lambda x: x['__dist__'])
 
-            filtered=[]
+            filtered = []
             for result in results:
-                hasdesc=None
+                hasdesc = None
                 highlighting = result['__highlighting__']
                 hasdesc = 'description' in highlighting
-                if len (highlighting) == 0:
+                if len(highlighting) == 0:
                     continue
                 for key in highlighting:
                     result[key] = '...'.join(highlighting[key])
@@ -190,14 +190,13 @@ def api_search():
                 doc = session.query(t).get(l['id'])
                 l['images'] = to_dict(doc.images)
 
-
             res['results'] = [to_dict(r) for r in results]
 
         except InvalidRequestError as e:
             global session
             session.close()
             session = get_session(echo=False)
-            return api_search(name, index)
+            return api_search()
         except Exception as e:
             res['status'] = 1
             res['message'] = str(e)
@@ -230,28 +229,21 @@ def index(path):
 def add_header(response):
     """
     Add headers to both force latest IE rendering engine or Chrome Frame,
-    and also to cache the rendered page for 10 minutes.
+    and also to cache the rendered page for 10 minutes. Ensure all
+    responses have the CORS headers. This ensures any failures are also accessible
+    by the client.
     """
     response.headers['X-UA-Compatible'] = 'IE=Edge,chrome=1'
     response.headers['Cache-Control'] = 'public, max-age=60000000'
-    return response
-
-
-@app.after_request
-def add_cors(resp):
-    """ 
-    Ensure all responses have the CORS headers. This ensures any failures are also accessible
-    by the client. 
-    """
-    resp.headers['Access-Control-Allow-Origin'] = flask.request.headers.get('Origin', '*')
-    resp.headers['Access-Control-Allow-Credentials'] = 'true'
-    resp.headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS, GET'
-    resp.headers['Access-Control-Allow-Headers'] = flask.request.headers.get(
+    response.headers['Access-Control-Allow-Origin'] = flask.request.headers.get('Origin', '*')
+    response.headers['Access-Control-Allow-Credentials'] = 'true'
+    response.headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS, GET'
+    response.headers['Access-Control-Allow-Headers'] = flask.request.headers.get(
         'Access-Control-Request-Headers', 'Authorization')
     # set low for debugging
     if app.debug:
-        resp.headers['Access-Control-Max-Age'] = '1'
-    return resp
+        response.headers['Access-Control-Max-Age'] = '1'
+    return response
 
 
 if __name__ == '__main__':

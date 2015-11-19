@@ -37,7 +37,6 @@ pip3: python
 	apt-get install python3-pip
 	pip3 install flask
 	pip3 install flask-compress
-	pip3 install flask-cors
 	pip3 install ijson
 	pip3 install pyjade
 	pip3 install PyMySQL
