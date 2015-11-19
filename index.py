@@ -111,30 +111,71 @@ def api_search():
 
         try:
 
-            results = solr.search(q.replace("\s", " AND "), **{
-                'rows': limit,
-                'start': offset,
-                'fl': 'id,name,deck,description,entity',
-                'hl': 'true',
-                'hl.fl': 'name deck description',
-                'hl.fragsize': 30,
-                'hl.snippets': '5',
-                'hl.mergeContiguous': 'true',
-                'hl.simple.pre': '<span class="highlight">',
-                'hl.simple.post': '</span>',
-                'hl.highlightMultiTerm': 'true'
-            })
+            def query(mode, mult=1):
+                sq = []
+                keywords = ' '.join(q.split()).split(' ')
+
+                for k in keywords:
+                    if len(k) < 3: # test and remove the count as needed
+                        continue
+                    sq += ['(name:(' + k + ') OR deck:(' + k + '))']
+
+                op = '(' + (' ' + mode + ' ').join(sq) + ')'
+
+                res = solr.search(op, **{
+                    'rows': limit,
+                    'start': offset,
+                    'fl': 'id,name,deck,description,entity',
+                    'hl': 'true',
+                    'hl.fl': 'name deck description',
+                    'hl.fragsize': 30,
+                    'hl.snippets': '5',
+                    'hl.mergeContiguous': 'true',
+                    'hl.simple.pre': '<span class="highlight">',
+                    'hl.simple.post': '</span>',
+                    'hl.highlightMultiTerm': 'true'
+                })
+
+                dist=1
+                for r in res:
+                    r['__mode__'] = mode
+                    r['__dist__'] = dist * mult # lower the distance, better the result
+                    r['__highlighting__'] = {}
+                    if r['id'] in res.highlighting:
+                        r['__highlighting__'] = res.highlighting[r['id']]
+                    dist += 1
+
+                return res
+
+            def mapify(a, k):
+                m = {}
+                for i in a:
+                    m[i[k]] = i
+                return m
+
+            def listify(a):
+                l=[]
+                for i in a:
+                    l+=[a[i]]
+                return l
+
+            def assign(a, b):
+                for i in b:
+                    a[i] = b[i]
+                return a
+
+            results = listify(assign(mapify(query('OR', 25), 'id'), mapify(query('AND'), 'id')))
+            results.sort(key=lambda x: x['__dist__'])
 
             filtered=[]
             for result in results:
                 hasdesc=None
-                if result['id'] in results.highlighting:
-                    highlighted = results.highlighting[result['id']]
-                    hasdesc = 'description' in highlighted
-                    if len (highlighted) == 0:
-                        continue
-                    for key in highlighted:
-                        result[key] = '...'.join(highlighted[key])
+                highlighting = result['__highlighting__']
+                hasdesc = 'description' in highlighting
+                if len (highlighting) == 0:
+                    continue
+                for key in highlighting:
+                    result[key] = '...'.join(highlighting[key])
                 for key in result:
                     if type(result[key]) == list:
                         result[key] = result[key][0]
