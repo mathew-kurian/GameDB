@@ -68,6 +68,7 @@ var Search = React.createClass({
           </div>
           <div className='col-xs-8'>
             <Link onClick={self.onClose} className='plain' to={'/' + a + '/' + res.id}>
+              <div className="columns small" style={{}}>{res.__mode__}</div>
               <div style={{color:'rgba(255,255,255,0.7)'}} dangerouslySetInnerHTML={{__html:res.name}}/>
               <div
                 style={{letterSpacing:0,fontSize:12,textTransform:'none',color:'rgba(255,255,255,0.4)'}}
