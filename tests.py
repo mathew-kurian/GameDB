@@ -15,6 +15,7 @@ class Test(TestCase):
         # self.session.commit()
 
     def test_solr_1(self):
+        ## test that query for game by name returns relevant result
         query_time = timeit.default_timer()
         q='Mass Effect'
         res = self.solr.search(q);
@@ -27,28 +28,33 @@ class Test(TestCase):
 
         self.assertTrue(name)
         print("Solr Test 1\nExpected Output: Mass Effect: Infiltrator\nTest Output: " + name)
+        ## testing runs in <= 0.3 s
         self.assertTrue(elapsed <= 0.3)
         print('Solr Test 1' + ' ran in ' + str(elapsed) + ' seconds\n')
 
     def test_solr_2(self):
+        ## test that query for platform returns relevant result
         query_time = timeit.default_timer()
-        q='PlayStation'
+        q='Dreamcast'
         res = self.solr.search(q);
         elapsed = timeit.default_timer() - query_time
         name = None
         for i in res:
             if q in i['name'] or q in i['deck']:
-                name = i['name']
-                break
+                if i['entity'] != 'game':
+                    name = i['name']
+                    break
 
         self.assertTrue(name)
-        print("Solr Test 1\nExpected Output: PlayStation\nTest Output: " + name)
+        print("Solr Test 2\nExpected Output: Dreamcast\nTest Output: " + name)
+        ## testing runs in <= 0.3 s		
         self.assertTrue(elapsed <= 0.3)
-        print('Solr Test 1' + ' ran in ' + str(elapsed) + ' seconds\n')
+        print('Solr Test 2' + ' ran in ' + str(elapsed) + ' seconds\n')
 
     def test_solr_3(self):
+        ## test that query for company returns relevant result
         query_time = timeit.default_timer()
-        q='BioWare'
+        q='BioWare San Francisco'
         res = self.solr.search(q);
         elapsed = timeit.default_timer() - query_time
         name = None
@@ -58,9 +64,10 @@ class Test(TestCase):
                 break
 
         self.assertTrue(name)
-        print("Solr Test 1\nExpected Output: BioWare\nTest Output: " + name)
+        print("Solr Test 3\nExpected Output: BioWare San Francisco\nTest Output: " + name)
+        ## testing runs in <= 0.3 s
         self.assertTrue(elapsed <= 0.3)
-        print('Solr Test 1' + ' ran in ' + str(elapsed) + ' seconds\n')
+        print('Solr Test 3' + ' ran in ' + str(elapsed) + ' seconds\n')
     def test_game_1(self):
         ## test that id indexed get is working with an id
         query_time = timeit.default_timer()
@@ -366,7 +373,6 @@ class Test(TestCase):
 
     def tearDown(self):
         self.session.close()
-
 
 if __name__ == "__main__":
     main()

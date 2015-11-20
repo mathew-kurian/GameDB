@@ -24,6 +24,7 @@ args = parser.parse_args()
 app = Flask(__name__, static_folder='public', static_url_path='/assets')
 Compress(app)
 
+# open search engine
 solr = pysolr.Solr('http://104.130.23.111:8983/solr/4playdb', timeout=10)
 
 app.jinja_env.add_extension('pyjade.ext.jinja.PyJadeExtension')
@@ -116,7 +117,7 @@ def api_search():
                 keywords = ' '.join(q.split()).split(' ')
 
                 for k in keywords:
-                    if not k:  # test and remove the count as needed
+                    if len(k) < 3:  # test and remove the count as needed
                         continue
                     sq += ['(name:(' + k + ') OR deck:(' + k + '))']
 
