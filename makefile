@@ -12,7 +12,7 @@ config:
 scrub:
 	make clean
 	rm -f  model.html
-	rm -f  IDB1.log
+	rm -f  IDB3.log
 
 status:
 	make clean
@@ -24,8 +24,8 @@ status:
 models.html: models.py
 	pydoc3 -w models
 
-IDB2.log:
-	git log > IDB2.log
+IDB3.log:
+	git log > IDB3.log
 
 tests.tmp: 
 	python3 tests.py
