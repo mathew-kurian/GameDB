@@ -53,6 +53,7 @@ var App = React.createClass({
               <li><a href="https://github.com/bluejamesbond/cs373-idb/wiki">Wiki</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/issues">Issue Tracker</a></li>
               <li><a href="https://docs.google.com/presentation/d/1mbLIeVu6M7ta2djbhOXPNCBkYxorWVUr8D4p0lijd0c/edit?usp=sharing">Presentation</a></li>
+              <li><a href="http://www.planitpoker.com/board/#/room/3c4c40f87b9446289d419480d46f5c63">planITpoker</a></li>
             </ul>
 
             <h2>Sources</h2>
