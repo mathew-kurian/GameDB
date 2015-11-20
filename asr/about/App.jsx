@@ -45,13 +45,15 @@ var App = React.createClass({
             <h1>4Play Vitals</h1>
 
             <ul>
-              <li>Total commits: 230</li>
-              <li>Total issues: 42</li>
-              <li>Unit tests: 23</li>
+              <li>Total commits: 337</li>
+              <li>Total issues: 57</li>
+              <li>Unit tests: 30</li>
               <li><a href="http://docs.games10.apiary.io/#">Apiary Documentation</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/">Public Repository</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/wiki">Wiki</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/issues">Issue Tracker</a></li>
+              <li><a href="https://docs.google.com/presentation/d/1mbLIeVu6M7ta2djbhOXPNCBkYxorWVUr8D4p0lijd0c/edit?usp=sharing">Presentation</a></li>
+              <li><a href="http://www.planitpoker.com/board/#/room/3c4c40f87b9446289d419480d46f5c63">planITpoker</a></li>
             </ul>
 
             <h2>Sources</h2>
@@ -121,7 +123,7 @@ var App = React.createClass({
                   is my final semester, and I plan on building a career in software engineering after graduation.
                   During this project, I worked on creating the unit tests and the data models. During my time working
                   in phase 1, I submitted 4 commits and wrote 9 unit tests. In phase 2, I added 9 commits and 8 unit tests. I was
-                  project lead in phase 3 and added 8 commits, as well as 5 unit tests for the search. In addition, I lead the creation
+                  project lead in phase 3 and added 8 commits, as well as 7 unit tests for the search. In addition, I lead the creation
                   process for the user stories.</p>
               </div>
             </div>

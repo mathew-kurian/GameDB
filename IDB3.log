@@ -1,0 +1,2122 @@
+commit 0ad5195858d5f52cc7e6239555a011148eebe436
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Nov 19 21:29:49 2015 -0600
+
+    solr_migrate commented
+
+commit 419cf09c8ed619772a308bd189066075e60f189f
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Nov 19 21:28:32 2015 -0600
+
+    solr commented
+
+commit 7983ecd184d1964d5591fb31f7aed6916f9c1ca3
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Nov 19 21:25:30 2015 -0600
+
+    solr_start commenting
+
+commit 8d965a3768210689f3b250d4145c68843aba6635
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Nov 19 21:13:28 2015 -0600
+
+    planITpoker
+
+commit ed507e3e40e3e1985371af375cdf53150f5b0b0c
+Merge: a25dfea abcd79b
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Fri Nov 20 02:56:48 2015 +0000
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit a25dfeaaabf704730307ec43423325127b648aab
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Fri Nov 20 02:56:40 2015 +0000
+
+    Tests + search ngram size reduce
+
+commit abcd79b953246e58fec0fe05b2ee0e15b80aafad
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Nov 19 20:51:41 2015 -0600
+
+    search properly formatted
+
+commit 647ea350b88342376340899db8b958e36cd759b1
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Nov 19 20:34:37 2015 -0600
+
+    tests updated
+
+commit e60b0bce173949a5f7c8db8ea4291b2ad6e41348
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Nov 19 20:06:55 2015 -0600
+
+    all updates
+
+commit 152591cafa5ab42a896836d4484e9e35b54cb308
+Merge: 2bf6645 031799d
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 19:57:16 2015 -0600
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit 2bf6645ca2e91dc9569f5c43825e746febe38626
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 19:57:03 2015 -0600
+
+    Debouncing the search
+
+commit 031799d313a661a1a765fa9c230c10d03904969f
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Nov 19 17:51:45 2015 -0600
+
+    phase 3 about page
+
+commit a43ede30e0746595742c396f40f7878042b14d05
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Nov 19 17:31:29 2015 -0600
+
+    search added
+
+commit d37e13ece7414a314323c91e90c00e328cf50a29
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 17:31:23 2015 -0600
+
+    CSS fixes
+
+commit 8dbc20b9810a5a16d95b54802fac1dbdb348b3b8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 17:22:02 2015 -0600
+
+    ...
+
+commit ddb10849a2658377e3a96ae68e4a4c70c9e196ec
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 17:14:05 2015 -0600
+
+    Fixing bugs
+
+commit 08533ab865f637be553cc97c1a263180ed5d465c
+Merge: d7ac9be bbd5a27
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Thu Nov 19 22:44:18 2015 +0000
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit d7ac9bebc0e5a0a74c578fc5af84f4d611f684e7
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Thu Nov 19 22:44:06 2015 +0000
+
+    Fixing search engine core
+
+commit bbd5a274b31b8a60a879885ba6eaaa94cc7253fa
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 16:43:45 2015 -0600
+
+    Fixing search UI
+
+commit e1343b3c20105cc3fc8c95025979e2c4676e3c0f
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 15:23:15 2015 -0600
+
+    Solr fix
+
+commit 819e4b0cb65f012d205763949ea82d88d37ff834
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 15:16:09 2015 -0600
+
+    Adding tooltip
+
+commit d5d12b88987a13d6ba9def9390fc8afec46cfefa
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 14:53:42 2015 -0600
+
+    Adding status
+
+commit ebf5a98ebcabfb1a1e9dc1a2fa714418ac17cb9c
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 14:48:10 2015 -0600
+
+    Adding widget title
+
+commit 602d275b6cf0a57c543b1ad890753c888f7384a1
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 14:41:18 2015 -0600
+
+    Adding multiple api
+
+commit e54a5f63b26a0e4668454bd45cbc89b8b4ba1bc8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 14:15:08 2015 -0600
+
+    API look up
+
+commit adc5ff3f53d63d6f17d2bd768cbb3c2f2278b672
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 13:13:46 2015 -0600
+
+    Vid fix
+
+commit df9a51f9da084c6786f67308a3b57d3af025dcea
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 13:07:38 2015 -0600
+
+    Fix
+
+commit fd9ee39b16d298f17c12b0d4fcb3706b7320f2f5
+Merge: 7176758 4472f85
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 13:04:12 2015 -0600
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit 717675885ca37a6edb14c233b1c4391693908ea5
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 19 13:04:06 2015 -0600
+
+    League of legends in
+
+commit 4472f85686a85b7f6590ac9e7f490de825731aa9
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 19 03:00:10 2015 -0600
+
+    and or sorting sort of working
+
+commit 99d9bc982bb2d4d1bdc7ed449e595bec14eb7846
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 19 01:37:56 2015 -0600
+
+    working on and/or
+
+commit f5ec0d1df330cbfe6163b2fbebbc39e19d6b3cf8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 17:29:27 2015 -0600
+
+    Adding links
+
+commit 5bd8c01f0ca206d725fc99d17ceacdee06217de8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 17:07:47 2015 -0600
+
+    Fk me
+
+commit 55aa3e9448b44b12a2080c7ee1e87a1b94c6f48b
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 16:51:34 2015 -0600
+
+    ...
+
+commit 715227e8f06b5cff7eb55ca1b0a390928ac494eb
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 16:28:06 2015 -0600
+
+    Improving perf
+
+commit ffb5436b5843628704d9bdee03f0e2e1b748da3f
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 16:01:09 2015 -0600
+
+    ..
+
+commit 5e4b79a2e425a35834875d82c662c6d699b54744
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 15:54:42 2015 -0600
+
+    ..
+
+commit d777e1516d8c2c7ee8a294349cd68adc25932a13
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 15:53:32 2015 -0600
+
+    scroll fix
+
+commit 6330c1a9f7d7c82a8d7d6de8b04dd591d922ed61
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 15:50:33 2015 -0600
+
+    ...
+
+commit 735f71c4cee00b75c924aa3585e4711f89d04b7e
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 15:50:01 2015 -0600
+
+    ...
+
+commit 9d7f3b075aa635fa96ab444dc033ba63c4bd2e11
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 15:37:11 2015 -0600
+
+    perf fix
+
+commit d63557dfa69a0689a3753eaa5c3f04da1ba7eb25
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 13:25:45 2015 -0600
+
+    Loading
+
+commit d2a7b199fb6422ed7c52342edbfa535df56696a4
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 13:10:40 2015 -0600
+
+    meh
+
+commit 1144bee41326c31bfc1fb13a008ee7e198d066c9
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 12:38:47 2015 -0600
+
+    UI fixes
+
+commit 555d8de796ca4a6223d4cc950e078e8066602ee5
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 05:37:09 2015 -0600
+
+    ..
+
+commit 926a5c9cc47517aff750f58e87e0ac41e372dda8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 05:34:27 2015 -0600
+
+    Adding meh
+
+commit f0e4a6ab4071a810a0ada406e0a86d3e75fbcdc2
+Merge: 107e871 f4b35f8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 05:18:12 2015 -0600
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit 107e87138dbb0aa4389f105a74bbb81328b32ef8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 05:17:07 2015 -0600
+
+    mother of all blurs
+
+commit f4b35f8419f4f7cc0a8942e30b733c2828924406
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Wed Nov 18 10:57:39 2015 +0000
+
+    Updating for search
+
+commit 4d5083f8aefa4c270494584efa4252cde76f3626
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 04:54:31 2015 -0600
+
+    Search ui concept done
+
+commit 79316f65f139644d4e6197f89d8d7ad8d7086be1
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 03:22:27 2015 -0600
+
+    Improved search and db
+
+commit 05fe9e8bac1113f13b4b13e0518fb1d077de0f76
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Wed Nov 18 08:19:42 2015 +0000
+
+    Search api working
+
+commit 21c1673eb182d7d1a17c1b7218335e2c42f00089
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 01:51:11 2015 -0600
+
+    ...
+
+commit b071dfba81a5dfb81e4bf95807eb4a08cccf1343
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Nov 18 01:50:21 2015 -0600
+
+    Minor fixes
+
+commit 491290a830979bb97eba9b183dc2ed75fbee2985
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Wed Nov 18 07:47:50 2015 +0000
+
+    Adding files for formatting
+
+commit 04f2a8a689dbf8e1947a3b7fe371377ebd534d3e
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Wed Nov 18 06:02:48 2015 +0000
+
+    Fixing solr test
+
+commit 2b7cbe6c0fb1963004455eb9974289646a02e935
+Merge: 22cc334 c08dbf8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 17 23:33:19 2015 -0600
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit 22cc334c3ec3dd4646590894bce21800ba48f7a8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 17 23:33:03 2015 -0600
+
+    solr fix
+
+commit e1f7fa3ceb3c9fe7c68966e729eb0f33396793aa
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 17 23:31:32 2015 -0600
+
+    solr fix
+
+commit c08dbf8732a69c8f4286cb13243bc3e1c83031e5
+Merge: bd42e58 c50ce44
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 17 23:28:32 2015 -0600
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit c50ce4464a984b7a4ab82431b975de59af3d0416
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 17 23:28:25 2015 -0600
+
+    Testing solr
+
+commit bd42e58ca6f1a13e74b09635bf6a70056a690fc8
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 17 23:28:21 2015 -0600
+
+    solr start script final
+
+commit 730c265c569315789230c9fb07edb5dc5d557aba
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Wed Nov 18 05:25:53 2015 +0000
+
+    Adding solr.py
+
+commit df0f22eb2bb9989c88b284fceae7e9b18043fa2b
+Merge: db646bb bd6d910
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Wed Nov 18 05:23:33 2015 +0000
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit db646bbaa48b44ced73ac23ba0af26436d8ae8ff
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Wed Nov 18 05:23:19 2015 +0000
+
+    Adding solr basic
+
+commit bd6d910c10b95e1aaec53cc29b392a879bca1a52
+Merge: 1dcfe6e 3d1f3d8
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 17 23:20:42 2015 -0600
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit 1dcfe6e65e7e8fec8d0380259d3b70e7b0620da8
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 17 23:20:22 2015 -0600
+
+    solr make run script
+
+commit 3d1f3d808e551a8a5e6c99bfbdfa61dc094e9dcc
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 17 23:18:36 2015 -0600
+
+    Starting solr
+
+commit 71bbbf915eef3b675b058f85ae316fe47b51b270
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 17 23:13:11 2015 -0600
+
+    Fixing makefile
+
+commit 5cd9e9755693fceb80c8e2d980ca657bfbc56c74
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 17 23:11:36 2015 -0600
+
+    Rename
+
+commit 7aa7954bbebbd41159772a26a2aaeeb03923a173
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 17 22:57:34 2015 -0600
+
+    Adding solr core config
+
+commit 38d5ec7cc37f580bfbe1ed7dfbfb339068329501
+Merge: b453aeb 178127f
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 17 22:48:25 2015 -0600
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit b453aebf57d5feff667bb52a8eea104001104e57
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 17 22:48:20 2015 -0600
+
+    Removing html from description for indexing
+
+commit 178127f38c98c41b701dd013b10e9c8bb13828d5
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 17 20:52:31 2015 -0600
+
+    and/or searching
+
+commit 0b4aba2c02246917181587c60f8d40b9c3675cf2
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 17 20:30:34 2015 -0600
+
+    testing
+
+commit 8a59e2db02a82baad7bd4041b073f9b14afdad65
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 17 20:15:55 2015 -0600
+
+    starting multi-word
+
+commit f495c2e072e11ba962435061db6d16107b10ad08
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 17 19:40:35 2015 -0600
+
+    handling exception
+
+commit fe4f9e3959546bc321b82e2985bd48a8b1b7ca2a
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 17 19:34:35 2015 -0600
+
+    should bold now
+
+commit a623e6c1b5a620dd8b9457540d863a7c70034dcf
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 17 19:32:52 2015 -0600
+
+    testing
+
+commit 6db8911b1806001b917850067baca23e3c43ba06
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 17 19:30:24 2015 -0600
+
+    bolding
+
+commit dd7136a7fa5cfca4fef8e53002ed472019ec8496
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Tue Nov 17 06:23:14 2015 +0000
+
+    entity added, port 80 now
+
+commit 915f247ab248bab144b4b0a4e8bf9d63c7baac5d
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Mon Nov 16 20:20:45 2015 +0000
+
+    makefile modifications
+
+commit a9b0bff78e02153468ecac4ae6807bf672b628c6
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Mon Nov 16 14:17:49 2015 -0600
+
+    Minor model fix
+
+commit b667c0df10df38278dcd59bc83c62524f9b04718
+Merge: c5fdc8c 614d7aa
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Mon Nov 16 14:14:26 2015 -0600
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit c5fdc8c5c3c2abaf6c1afa7bf762cb9dea138629
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Mon Nov 16 14:12:10 2015 -0600
+
+    Updating models
+
+commit 614d7aa477d52071afa3c10b1eb695f62cc204b9
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 13:58:51 2015 -0600
+
+    entity field added
+
+commit 4b8db861a88c368584fc51ec1185c15d61e3d7d5
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 13:42:18 2015 -0600
+
+    fix
+
+commit be40730a83b1eda3d5ce8c18ab751314e2cab5a2
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Mon Nov 16 19:41:03 2015 +0000
+
+    getting ui going
+
+commit 60ef3bcf4cdf6e8c852545e5c451caa8359fce41
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 13:14:35 2015 -0600
+
+    idk
+
+commit c263a9b4d951358141295e07a4845752e5f6054a
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 13:12:09 2015 -0600
+
+    json output
+
+commit db0256a4e83c8f4eeec569900b28970c438ceb20
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 13:01:33 2015 -0600
+
+    bug fix
+
+commit 5a6fb6b891ee273c469a2767e62937079975c5ac
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 12:58:22 2015 -0600
+
+     try catc error
+
+commit cccaf67aeaebe799469c4ba0527bf7f0d3a1ebbc
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 12:57:03 2015 -0600
+
+    should work now
+
+commit 51c6920216518ff6cafbdcf8e5d91375b0dc4112
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 12:53:22 2015 -0600
+
+    fixes
+
+commit c1cb76069b401ab88e73f63ec6e1dee1ab412e0f
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 12:42:56 2015 -0600
+
+    fixes
+
+commit 7da60272bc97f7ab1259c1dcda7a9a3db6bea8ee
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 12:33:37 2015 -0600
+
+    image fix
+
+commit 369304231970114c4adc8a826ad4bd854aa6579c
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 12:30:41 2015 -0600
+
+    checks if fields exist before returning
+
+commit de2a431b52fdd113bb4031baeb565b19d2dff814
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 12:08:27 2015 -0600
+
+    normalized query data
+
+commit 3ad00a5b81fa0f1f6b1cd657aa44187ae3340b3d
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 12:01:48 2015 -0600
+
+    fixed typo
+
+commit 062582bc03a6bcdbe0ad977a55e01d5f8c694498
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 16 11:59:25 2015 -0600
+
+    solr data for first 4 fields, query for image
+
+commit 63e55d0c141b49c01e29016c1fd0ece08c823a43
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Sun Nov 15 23:03:53 2015 +0000
+
+    query returns name, id, deck, description
+
+commit 15aa0f131fa7e61c9d5b123689989a5755cb96d7
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Sun Nov 15 22:44:15 2015 +0000
+
+    basic search working on development server
+
+commit 93fc3c6f594c1aba54906d87272c41219eb5ebc4
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Sun Nov 15 15:29:16 2015 -0600
+
+    solr data unnecessary
+
+commit 29c0cade108f59b262e0fcf1e0da2b8d122d5d9a
+Author: RR-1995 <rrahul@msn.com>
+Date:   Sun Nov 15 15:28:19 2015 -0600
+
+    makefile updated
+
+commit 9fe6509e85ae3eb6cb16cf35570fea8409e443ee
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 12 22:37:18 2015 -0600
+
+    solr taken out, only indexed data left
+
+commit 6c673eef53d0488999bf6db672bbd37bdf45fb80
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 12 21:31:31 2015 -0600
+
+    indexed searches, can do 1st 10, 2nd 10, etc.
+
+commit 0e6c0099b95ef82b88909472681e10332082004c
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 12 21:09:06 2015 -0600
+
+    search documented
+
+commit 911c3dbb337641441091b52ac6b9aa6df4eca750
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 12 21:04:53 2015 -0600
+
+    minor modifications
+
+commit 55f298278557433d341adfa32bcd9ad08accc844
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 12 20:02:13 2015 -0600
+
+    search api feature solid now, need to get solr set as dependency
+
+commit 8cf258a55b156f844ef5592713c27950e0ebfaa6
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 12 19:44:10 2015 -0600
+
+    tentative search, still needs a little work
+
+commit 47108559969a2addebef849769d5a1bc95f16f36
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 12 00:59:53 2015 -0600
+
+    solr added, indexed db
+
+commit ce01b079a9f962643b6fac709ebfc7b81ebe7f36
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 5 19:27:22 2015 -0600
+
+    Adding models.html
+
+commit 305c30129bb4766d1a393375ca44a73eb2652876
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Nov 5 19:25:04 2015 -0600
+
+    tests and coverage output
+
+commit 3f9b1324b8d676d18c823ea7adf80ede3a71b3c7
+Merge: 150f096 809425e
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 5 19:19:30 2015 -0600
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit 150f096c2af8cb175d971a0678fe13ebb2b05258
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 5 19:19:14 2015 -0600
+
+    log
+
+commit 809425eb0e2f806e829147e3ff20f8c7bce5a87e
+Merge: 992db40 9e2a7f3
+Author: cthfkyn <cthfkathie@gmail.com>
+Date:   Thu Nov 5 17:18:35 2015 -0800
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit 992db40e7873d4dfe316c6b64ab970df48c9c029
+Author: cthfkyn <cthfkathie@gmail.com>
+Date:   Thu Nov 5 17:18:19 2015 -0800
+
+    commented index.py
+
+commit 9e2a7f3b788e75bfec79432ae60698ce1d91a991
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Nov 5 19:13:06 2015 -0600
+
+    cumulative stats up
+
+commit 8d6e6ee6aeb8be16fbd9bc72bc3159f2d99bb1ea
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Thu Nov 5 19:10:00 2015 -0600
+
+    Update db.py
+
+commit 727be233ba18c81aa8165535cabc3f924bc705d1
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Nov 5 19:08:22 2015 -0600
+
+    about page for phase 2
+
+commit ed073d63ced6028166ab8ea6cdd378b8cc56b021
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Thu Nov 5 18:59:58 2015 -0600
+
+    Update models.py
+
+commit 9f5535c37be911b38b6297cfad7b83ba7b037042
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Thu Nov 5 18:55:15 2015 -0600
+
+    Update README.md
+
+commit 4288832ce40b2e917970e5d8c6a49a018e38bc8a
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Thu Nov 5 18:54:36 2015 -0600
+
+    Update README.md
+
+commit 9dd10833dd82bcb39f89b90f07894d93de82ba22
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Thu Nov 5 18:53:50 2015 -0600
+
+    Update README.md
+
+commit 595a4826c819aba51aa0a1ebcd7ac3104396dca5
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 5 18:51:27 2015 -0600
+
+    makefile update
+
+commit f3c9ae87e5d6bfc0082ec2a46a49d46159576b37
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 5 18:10:54 2015 -0600
+
+    final makefile proj 2
+
+commit 08d5fde536fa65a56340d37057a0278f21817e40
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 5 14:53:02 2015 -0600
+
+    makefile modifications
+
+commit 9b111b37c36efd089dcd27883793d30150ad7423
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 5 14:32:33 2015 -0600
+
+    coverage at 83%
+
+commit c381c291cb2bc416823602c200c92e67edf3b2b5
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 5 14:11:25 2015 -0600
+
+    tests cleaned, now only need coverage to run
+
+commit 6d94d393556ef6c852aa8ab3e7612b185ec0577e
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 5 13:42:25 2015 -0600
+
+    CompanyPlatform tests up, still need to clean tests overall up
+
+commit 33e90b38ac1cc62d101aaf9452b8c21597535e65
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Nov 5 04:08:47 2015 -0600
+
+    Minor fixes
+
+commit 4fb21adab9ba2e7782a24658be5c6b7c821d403e
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Nov 5 00:28:43 2015 -0600
+
+    timing added to tests
+
+commit 2761975567318c53e56a18c12767612bd50c75eb
+Author: RR-1995 <rrahul@msn.com>
+Date:   Wed Nov 4 23:25:37 2015 -0600
+
+    url tests
+
+commit cca5c0fd4c63e32896f9ed9cd36032174fa93561
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Wed Nov 4 22:22:47 2015 -0600
+
+    Added gamecompany tests
+    
+    companyplatform tests aren't working
+
+commit daaabd773f4139691a80cb9c55636a2d889357af
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Wed Nov 4 01:55:12 2015 -0600
+
+    Adding pagehead
+
+commit 8c5175b172338b9e734084d7efe51d0a05979805
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Wed Nov 4 01:45:46 2015 -0600
+
+    Working apiary
+
+commit 39cbcf9062385ddbbab87f28bcda23c41bac254f
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Tue Nov 3 21:37:26 2015 -0600
+
+    Added gameplatform tests
+
+commit 880b7917573ec51b8c77f6e6c267920422688e05
+Merge: 2b2a085 842cf93
+Author: cthfkyn <cthfkathie@gmail.com>
+Date:   Tue Nov 3 18:03:34 2015 -0800
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit 2b2a0858d2628bbe40cd2d85c44d6005dcd9416f
+Author: cthfkyn <cthfkathie@gmail.com>
+Date:   Tue Nov 3 17:59:07 2015 -0800
+
+    added more unit tests
+
+commit 842cf93786f7509c2c4f2fb2504a2da2d344e573
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 3 19:55:01 2015 -0600
+
+    apiary back in main directory
+
+commit 5d479b522b62d8f8227d7be8d28d5c33a265a7b4
+Author: RR-1995 <rrahul@msn.com>
+Date:   Tue Nov 3 19:53:10 2015 -0600
+
+    correctly pointing to our api
+
+commit 2c5467b23b96ee71e64199ae02207d4393a37125
+Author: RR-1995 <rrahul@msn.com>
+Date:   Tue Nov 3 19:17:56 2015 -0600
+
+    rows test removed
+
+commit dd1e9500f767e1fbda8496c3aca68712b91d524e
+Author: RR-1995 <rrahul@msn.com>
+Date:   Tue Nov 3 19:15:45 2015 -0600
+
+    bug fix
+
+commit 79408911760a445181f1198dc544268fe669433c
+Author: RR-1995 <rrahul@msn.com>
+Date:   Tue Nov 3 19:03:35 2015 -0600
+
+    print to console
+
+commit e5f3f24847e24d7b3764ab766c6c8a2b79b87ce9
+Merge: deb597e 0187e41
+Author: cthfkyn <cthfkathie@gmail.com>
+Date:   Tue Nov 3 16:39:26 2015 -0800
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit deb597ed4823d601e00e3ba1a9c7a30f1b839dd5
+Author: cthfkyn <cthfkathie@gmail.com>
+Date:   Tue Nov 3 16:39:11 2015 -0800
+
+    modified makefile
+
+commit 0187e4129772318b738237a372851750711e8924
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Tue Nov 3 18:36:43 2015 -0600
+
+    Added tests for platforms
+
+commit adb532becfd5bbae37253712944239530cabfced
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 3 18:28:03 2015 -0600
+
+    ...
+
+commit 2be2bf607b3f259efbc276a37b2999a77c1dd506
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 3 18:07:45 2015 -0600
+
+    Removing front-end cache for test results
+
+commit af77a8af68209961afeb271fac8b0ff40dc6ae22
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 3 18:03:23 2015 -0600
+
+    ...
+
+commit 5cedaece025892e0ae71890d7d24543e56016f0b
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 3 17:58:18 2015 -0600
+
+    Adding tests to front end
+
+commit 4ae59597411a536d567f3ce571bab8e63511e7b8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 3 17:18:24 2015 -0600
+
+    Reverting
+
+commit c29ab70dc2acb145b627f213f53a1b8bf97521a0
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 3 17:16:36 2015 -0600
+
+    ..
+
+commit 98a4511252468e51e22031699fa12c9aaa423699
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 3 17:06:45 2015 -0600
+
+    Fixing next bug
+
+commit bbe737e075b7e77bbd6f94c4e2569a50036badff
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 3 16:28:17 2015 -0600
+
+    games, companies tests
+
+commit a54ae3c38ec84a823c93c1a3a9cb7302cffb6e6c
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Tue Nov 3 16:22:48 2015 -0600
+
+    modified db, script, first tests
+
+commit 99cd7300589c218cb18574af8f7ff968b3fcf4d6
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 3 16:06:38 2015 -0600
+
+    Removing PSDs
+
+commit fd2f5b234052bcffa3bd9d56ec782f5106500ea6
+Merge: 9fd3fa2 ab71536
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 3 16:00:30 2015 -0600
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit 9fd3fa29b8269b32f678327a1d5890c3884fdd3f
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Nov 3 16:00:18 2015 -0600
+
+    Removing large JSON due to LFS limit
+
+commit ab71536196c94ca69fd2124480af5e0ce2ad4da6
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Mon Nov 2 12:01:42 2015 -0600
+
+    date changed
+
+commit 4b47a568adaf0a9ad4548b62c427fbfef77482b1
+Author: Rahul Rajavel <ra2@cs.utexas.edu>
+Date:   Sun Nov 1 14:14:22 2015 -0600
+
+    right uml in pdf
+
+commit 4f725e479643b20c9a2aa9616e0ab6c4d1d2cbe5
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Nov 1 02:11:01 2015 -0600
+
+    F**k me
+
+commit cc35ebfa77cab9d75a00027bf7e105ff4adcaa2b
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Nov 1 01:37:55 2015 -0600
+
+    Updating lfs
+
+commit a715147b7432c764b19dce6e4439060e6c31731c
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Sun Nov 1 01:12:44 2015 -0500
+
+    umls with url added
+
+commit f776929df56d7086ea09dfa7213bb1fcfdb942a5
+Author: RR-1995 <rrahul@msn.com>
+Date:   Sun Nov 1 01:08:10 2015 -0500
+
+    url added
+
+commit 0414042853b70b49e7e90b1ccd685d636cec851c
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Nov 1 00:58:44 2015 -0500
+
+    Adding install script
+
+commit 86f183414f8186204c6f3b9467ee5277e9dad484
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Nov 1 00:01:30 2015 -0500
+
+    Adding package.json normally
+
+commit 483ddfc5057454089d88cb503412d1160a8226ec
+Merge: 349e066 b7ffaf8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 23:58:50 2015 -0500
+
+    Merge branch 'master' of https://github.com/bluejamesbond/cs373-idb
+
+commit 349e066f264ee7d3f95ea86bac278cfacd8371cc
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 23:58:44 2015 -0500
+
+    Prepped for heroku
+
+commit b7ffaf89c8aa09c4424b8c2b996ad3af13cf0bbc
+Author: RR-1995 <rrahul@msn.com>
+Date:   Sat Oct 31 23:31:24 2015 -0500
+
+    search removed for now
+    
+    this closes #29
+
+commit 444ba2f5dc6649a58328f88bad82fb0ffe62bb8d
+Author: RR-1995 <rrahul@msn.com>
+Date:   Sat Oct 31 23:06:47 2015 -0500
+
+    updated for model changes
+
+commit 93badc119efea8ed124dce47f6db5302c9a1f20f
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Sat Oct 31 22:00:46 2015 -0500
+
+    reformatted, png form added
+
+commit b26b87fae4f53967d9165c26eff4bf633e675fe4
+Author: RR-1995 <rrahul@msn.com>
+Date:   Sat Oct 31 21:52:03 2015 -0500
+
+    small error fixed
+
+commit 371318b45f6b150200321e840ca648f6cdf3a4e6
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Sat Oct 31 21:46:56 2015 -0500
+
+    modified uml
+
+commit 4c5dcd831858bd6d993b4553cf588b0e8855ae55
+Author: RR-1995 <rrahul@msn.com>
+Date:   Sat Oct 31 21:32:36 2015 -0500
+
+    company-platform added
+
+commit 18f4e4097de1208b489207d992ffcc56c24f7be1
+Author: RR-1995 <rrahul@msn.com>
+Date:   Sat Oct 31 20:39:28 2015 -0500
+
+    game, company, platform updated
+
+commit 943da8ffa9ae664978471f6aacfc8b505dbe9399
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 20:20:29 2015 -0500
+
+    Screw Rackspace. So many pushes for testing
+
+commit ce94650feb16f3ad40933f73c2e68045aba5e7bb
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 20:10:10 2015 -0500
+
+    Minor fixes
+
+commit 4ccdf89bf736020b4055d45b3b98fa061d897c09
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 05:05:20 2015 -0500
+
+    Reverting
+
+commit c73d281bf4930baa116c6ec32e4a900b906f70ae
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 05:00:55 2015 -0500
+
+    ..
+
+commit cd3f730c29c0d03334ea499bfe8d7d39104b1fb7
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 04:57:22 2015 -0500
+
+    ..
+
+commit a6f026c6d88f125fcff01cec9bae17cd40b8a05c
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 04:54:27 2015 -0500
+
+    Minor load fixes
+
+commit 05c006c575a3b3927e2af903c043def0673c162a
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 04:47:23 2015 -0500
+
+    ...
+
+commit ba3d1634b0a0f2de3d96ad363fe5b98a611853cf
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 04:40:39 2015 -0500
+
+    Adding loading and minor fixes
+
+commit eb85a87e9d8ed36c0df07793fb2f5a17151ded2c
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 04:31:10 2015 -0500
+
+    I think we are done here
+
+commit d8d74abcbea170350ea12e257f6c3b763314c82b
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 04:26:31 2015 -0500
+
+    Model pagination
+
+commit 2308b1e38c5660a9be2021e4d488d66268199416
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 03:08:54 2015 -0500
+
+    yolo
+
+commit ffbf364ed43c94ffe96a5a1e5c8ca5d0e7336d36
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 02:34:41 2015 -0500
+
+    Housekeeping
+
+commit 1ecec82ab13f65a0c652d3f4bdd5e21746df6542
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 02:28:20 2015 -0500
+
+    Removing https -> http
+
+commit ef3b05ea6758d6903a19ccc211239298b160afc8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 02:20:26 2015 -0500
+
+    Housekeeping
+
+commit 45a9e6d7f8364dd1a3b20120f72c2371121c8200
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 02:07:34 2015 -0500
+
+    Adding image compressor
+
+commit f7b59c9ab82ed3a315816790b22ffaea15f87d7e
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 01:46:07 2015 -0500
+
+    Port fix
+
+commit 971895fca6e240ca1b1c241becc5319e35197185
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sat Oct 31 01:42:27 2015 -0500
+
+    Adding lazy-loaded list for performance
+
+commit 3f0c4d65ca8301d1be64db7dda6f029e94509e1d
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 21:26:21 2015 -0500
+
+    Minor fix
+
+commit 5bdb70ce15f10511b60f1f777e5b87074014579f
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 21:20:36 2015 -0500
+
+    ...
+
+commit 1bc54909ba22b86a2810385d2243bf3e6fa2537e
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 21:13:01 2015 -0500
+
+    Added dynamic front end
+
+commit 799ef511d427e8a5a3693e3b6de5dfa5a17d7231
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 02:39:52 2015 -0500
+
+    ...
+
+commit 2ac03ffec0eab79af0ea6d5234c7a8e7feb73944
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 02:36:17 2015 -0500
+
+    Commit onway
+
+commit 90165a6078bb774df4ceb0fa30bfc1df57428011
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 02:34:57 2015 -0500
+
+    Adding loglines
+
+commit 336dd5c3e87bf920e7955080b162b2141d39cccd
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 02:32:05 2015 -0500
+
+    Explicit garbage collection
+
+commit 851379458d2aca03dbcc9529bab717ba8e1b25c6
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 02:27:01 2015 -0500
+
+    wtfff
+
+commit e5bbd4a9093494e8e33d6dba06a3dee1762baca0
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 02:15:49 2015 -0500
+
+    Optimzing memory for migrate
+
+commit 74c324da27e540a7dafe734dfbf3f72daadf0da4
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 01:59:58 2015 -0500
+
+    Adding low-mem json read
+
+commit b4930d7e5658c7461fb555425866a59eeac6fd59
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 01:38:23 2015 -0500
+
+    Changing db encoding
+
+commit 0ecf9825fc97d59a9c3e3333cf9a455f44fc7de6
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 01:26:50 2015 -0500
+
+    Adding test cases
+
+commit c64e2ab6b78150f003cd928d642acb7dfa0f6f11
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 01:21:37 2015 -0500
+
+    wtfffff
+
+commit ee4e5f6e89a73178f25b7a83c458c88f87984eb4
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 00:58:57 2015 -0500
+
+    Meh
+
+commit 8ea59a5b1ed772b45498f3c414d2fb7a3d12cea8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Fri Oct 30 00:30:22 2015 -0500
+
+    Meh
+
+commit fc21b3f482a6bb4397e0030f293e758e91a34138
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 29 20:49:46 2015 -0500
+
+    Completed REST
+
+commit 685fdda0844b3c287e0e7d852ebc781636318e81
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Thu Oct 29 15:07:59 2015 -0500
+
+    Adding images
+
+commit 1135012d3d56728bcb80f46cf554198b50c7cdd8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 29 13:59:20 2015 -0500
+
+    Transferring pcs
+
+commit 2ad53d4c52b999cfdb77348f4ea3d7f41f2fc953
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 29 04:23:43 2015 -0500
+
+    Removing pyc file
+
+commit de468439ecc70d1a4b7f636180cdb2a1dd3d35d0
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 29 04:21:53 2015 -0500
+
+    Naive rest
+
+commit 44b75661fa9e88d9834ab648605685e53169191d
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 29 03:46:51 2015 -0500
+
+    Adding materialized props
+
+commit 562bd30bd3e6a00d3e45b08f1bfe249e79851e60
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 29 01:50:58 2015 -0500
+
+    Finished import.py
+
+commit 0d3d101d10e570c39158800bb4050d058f68da51
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Wed Oct 28 20:27:08 2015 -0500
+
+    Added database maker
+
+commit 14d51af9723ea07c28788abd3d5da628d94cef64
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 28 20:18:45 2015 -0500
+
+    Adding updated model
+
+commit 0069180985260099c8c4b9db70ca7607bf1e4560
+Author: Matthew Kim <myk235@cs.utexas.edu>
+Date:   Wed Oct 28 17:42:59 2015 -0500
+
+    Added database files
+
+commit 6eef9f33c6b1c6a4a58f82d1c0f8379178c83098
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Wed Oct 28 12:37:42 2015 -0500
+
+    ...
+
+commit c9f6c9dfc7def4d5abbadbbdbf4a892cbc627d7e
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Wed Oct 28 12:28:06 2015 -0500
+
+    ...
+
+commit 9b36c9fa6ca84a685ae447ccac96629754ef637b
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Wed Oct 28 12:08:19 2015 -0500
+
+    Pushing videos
+
+commit c466494bb5993675139ac47d3a3013283d1b124a
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 28 04:36:02 2015 -0500
+
+    ...
+
+commit 100787c6a83a2e50ef6f71d16197c7961244baad
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 28 04:35:01 2015 -0500
+
+    Adding images
+
+commit fd5f8592f0b691344cd9a87e48e19227b0a5661f
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 28 04:25:54 2015 -0500
+
+    Adding platform images
+
+commit 0debfa3d168d2630d18a67fad77bc0c9dc1a71af
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 28 04:10:26 2015 -0500
+
+    Adding images
+
+commit 29365c61a16a1622ec23d45b24f5a1c2cf9f9b3f
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 28 04:01:42 2015 -0500
+
+    ...
+
+commit d7bf6c9f29db75ed3dd3afe8cb7a7a70cad8720f
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 28 03:58:19 2015 -0500
+
+    Adding relation csv
+
+commit d922651bda8b737525b4007a84ed48ff4a2f6bc1
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 28 03:48:28 2015 -0500
+
+    Adding CSVs
+
+commit c9d648007fe643ba293fd5484ad327fb1fa1c0ff
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Wed Oct 28 03:29:03 2015 -0500
+
+    Adding images
+
+commit 7d03d901a216ba6b361583a468d8cb6b82723adc
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 28 02:55:01 2015 -0500
+
+    Housekeeping
+
+commit 7f92a32076fd66091437b217f8748f48adc411e0
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 28 02:47:11 2015 -0500
+
+    Removing tokens
+
+commit 7746f58242c34747da1afcf5685dc474231d3026
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 28 02:44:25 2015 -0500
+
+    Cleaning db data
+
+commit f7355ed8a093617b1d801b19cc5a77434693f658
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Wed Oct 28 01:43:55 2015 -0500
+
+    Updating db info
+
+commit ef524ddaa41316ca93201f659f91ce2caa04bd3b
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 28 00:19:04 2015 -0500
+
+    Adding more files
+
+commit 92d4bed48f9c221cedb6fdea8e5fc63b1909d998
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Oct 27 23:32:21 2015 -0500
+
+    Adding data scripts
+
+commit eda8c002f54b2375604ec25e8b2fefb09e0021d3
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Oct 27 23:31:17 2015 -0500
+
+    Adding scripts and more data
+
+commit 83a376211488fd1408aece816686034d994bc3bc
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 21:55:20 2015 -0500
+
+    Removing cache folder
+
+commit d71264652488fd633b4be62c9050c27074c06d80
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 21:54:19 2015 -0500
+
+    Updating gitignore
+
+commit 878dfae29eb9362e0fae24631525d0111451152d
+Merge: acdb4dc 45eebd3
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 21:49:27 2015 -0500
+
+    Merge branch 'gh-pages' of https://github.com/bluejamesbond/cs373-games into gh-pages
+
+commit acdb4dcfdfa7ded10bc91ac2bd3da1b2c49c4c61
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 21:49:05 2015 -0500
+
+    Adding models.html
+
+commit 45eebd3f120166f104a7359d2e145ac7d35b1fd8
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Oct 22 21:27:46 2015 -0500
+
+    makefile created
+
+commit 3323ba628528cb8b8e78643a7a05e492691063de
+Author: Rahul Rajavel <ra2@cs.utexas.edu>
+Date:   Thu Oct 22 21:19:47 2015 -0500
+
+    log created
+
+commit 52f1baf4864688fe335a7230e75a38a8f3ae2468
+Author: cthfkyn <cthfkathie@gmail.com>
+Date:   Thu Oct 22 18:34:56 2015 -0700
+
+    quick grammar fix
+
+commit b7dcaa9f7f197f8ed207ce6045bbef4c9d9f0bdd
+Merge: 88bb0b0 d324e08
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 20:31:15 2015 -0500
+
+    Merge branch 'gh-pages' of https://github.com/bluejamesbond/cs373-games into gh-pages
+
+commit 88bb0b0c823e8bbb02e36fe9039763cec5771c92
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 20:30:41 2015 -0500
+
+    Actually pushed by @MatthewKimUT
+
+commit d324e08e299d52e894d653e9e453e1948bc8d38e
+Author: cs373-games <thepizzapi@yahoo.com>
+Date:   Thu Oct 22 20:22:31 2015 -0500
+
+    platform get by id fixed
+
+commit dc2eb27ad4d4ec104abc375f5741a39c453e1a97
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Oct 22 20:13:00 2015 -0500
+
+    UML pdf added
+
+commit 3a7304bfe335be697b1d1baeaa436d3f91007384
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 19:45:40 2015 -0500
+
+    Updating the texts
+
+commit 71992cd7c3ea0cf4301c7b836762aeb0032f0c8b
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 19:43:39 2015 -0500
+
+    Fixes #22
+
+commit a82805008be938e042fb1425010fd058e8dc8126
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 19:41:43 2015 -0500
+
+    Updating index
+
+commit 2cd90067e669d71923fd21be3c978f62bcca1b11
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 19:40:17 2015 -0500
+
+    Text improvements
+
+commit 74e6700b1f0919fc91e87e63922d25f9f41b8197
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Thu Oct 22 19:14:00 2015 -0500
+
+    Added more depth to unit tests (querying)
+
+commit 9ac1cfebd77312a048292c927a4e9d9d41dc0ba2
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Oct 22 18:57:10 2015 -0500
+
+    one bug fixed
+
+commit 175ec042db6ab570a8006b1605437ec68e354be5
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Thu Oct 22 18:46:23 2015 -0500
+
+    update UML
+
+commit b4d22638133b282ccf09a9a2daa820768647ca41
+Author: MatthewKimUT <matt.kim@utexas.edu>
+Date:   Thu Oct 22 18:25:23 2015 -0500
+
+    Added profile info
+
+commit d21b0a4848f6939aa4e1e6a46da14fc1e06a5068
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Oct 22 18:21:40 2015 -0500
+
+    Update App.jsx
+
+commit 222d2d41d588bb3bed0a2faadec28304a9aeff87
+Merge: b0a3bbb 47d1ccb
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 18:13:20 2015 -0500
+
+    Merge branch 'gh-pages' of https://github.com/bluejamesbond/cs373-games into gh-pages
+
+commit b0a3bbbd47fe3e1cb1a6ee4eb2d0cab0b565debb
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 18:11:49 2015 -0500
+
+    Adding missing CSS
+
+commit 47d1ccb1540eb457c2dc359be8f3f198e3d9a48f
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Oct 22 18:11:28 2015 -0500
+
+    small error fixed
+
+commit 51ed2a1bf3b754f1b7f90602daec1173f2a9b4b4
+Author: RR-1995 <rrahul@msn.com>
+Date:   Thu Oct 22 18:08:14 2015 -0500
+
+    search feature added
+
+commit 50e7369828bc0f485d0ef6ceb7cf3f3dfeb9779b
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 18:01:16 2015 -0500
+
+    Typo
+
+commit 1b5526ce5b1c237ab2add95130340c1b764d1fd8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 17:59:57 2015 -0500
+
+    Minor settings fix
+
+commit 7399187bd7248bb2d11f701aec1eb6e1906956b5
+Merge: be2aab6 fd42b85
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 17:57:19 2015 -0500
+
+    Merge branch 'gh-pages' of https://github.com/bluejamesbond/cs373-games into gh-pages
+
+commit be2aab6b0154a5d8196a71ce0472581bd8c8c06c
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 17:56:51 2015 -0500
+
+    Updating port
+
+commit fd42b85e73a4685fd3c3f6eac7e602e783f93f2c
+Merge: bbacdce 9ee9cb8
+Author: Matthew Kim <myk235@cs.utexas.edu>
+Date:   Thu Oct 22 17:47:11 2015 -0500
+
+    fixed data model tables, added unit tests that match REST
+
+commit bbacdceb124f7499724e4843ad68c4ecda0302ea
+Author: Matthew Kim <myk235@cs.utexas.edu>
+Date:   Thu Oct 22 17:35:33 2015 -0500
+
+    Fixed up models and made unit tests match REST
+
+commit 9ee9cb896d03aade29b0dafb8b0c19aea8d2039b
+Author: cthfkyn <cthfkathie@gmail.com>
+Date:   Thu Oct 22 15:16:09 2015 -0700
+
+    added about page
+
+commit 7b02b90e5e5d46e5ef21fe70aa38865be550d68c
+Author: Matthew Kim <myk235@cs.utexas.edu>
+Date:   Thu Oct 22 16:49:47 2015 -0500
+
+    Revised models so that they matched the REST, still needs work on association tables
+
+commit b372d435bad28fe2567ea60a60e193a137756a2a
+Author: Matthew Kim <myk235@cs.utexas.edu>
+Date:   Thu Oct 22 15:22:10 2015 -0500
+
+    fixed some unit tests
+
+commit e6966e62dabff46f58f167135572316789026d1a
+Author: Matthew Kim <myk235@cs.utexas.edu>
+Date:   Thu Oct 22 15:13:50 2015 -0500
+
+    Changed developer to company and added basic unit tests
+
+commit 9b7d339b8962cc11c18e8513aa5ece7f4db22c68
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 15:03:05 2015 -0500
+
+    Adding selector
+
+commit 311033e61e5d4d6515e0f54b5ea8db78eb5cf9f6
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 15:01:57 2015 -0500
+
+    Adding about template
+
+commit b0b71b75e50cd5589b7d66f29db925d0fb430054
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 14:25:03 2015 -0500
+
+    Updating APIary
+
+commit e5666ed24962e238c036fe796c70ba60efa2ede9
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 14:24:31 2015 -0500
+
+    Minor fix
+
+commit 824e2ef8f26144d9682ff8a41260788a6d1dc90b
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 13:31:43 2015 -0500
+
+    Adding updated db and cleanup
+
+commit b9c29e1b49b456617588d21045c712d04e7d7ec5
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 22 03:31:58 2015 -0500
+
+    Adding updated db.json
+
+commit 0b33c50051a6a6d69ad8ee35d544d020807c6ddd
+Author: cthfkyn <cthfkathie@gmail.com>
+Date:   Thu Oct 22 00:23:41 2015 -0700
+
+    added about.scss, minor fix in package.json
+
+commit ef492a301e0b664888a141a1ac6c97a64b27a040
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 21 18:48:30 2015 -0500
+
+    Minor ui fix
+
+commit 89f674f6ce3ef6affd78c113b0bcc26a005e81d0
+Merge: 4abebf2 489aa1a
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 21 18:40:14 2015 -0500
+
+    Merge branch 'gh-pages' of https://github.com/bluejamesbond/cs373-games into gh-pages
+
+commit 4abebf27a5ff3286e0b269517ab5fd7bd4ef3154
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 21 18:39:53 2015 -0500
+
+    Housekeeping
+
+commit 6b6af23e5e672828b460da11fc195e81cee15d88
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 21 18:39:08 2015 -0500
+
+    Adding latest companies db
+
+commit 489aa1a66e8b0dea18a9b6999e6b74786f5911b8
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Wed Oct 21 17:45:37 2015 -0500
+
+    UML updated
+
+commit ab5ae4b63f29dddb90a3550e6bd53a55cce1f9a6
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Wed Oct 21 17:03:07 2015 -0500
+
+    UML Diagram
+
+commit 0e2f813e23161c61c306c8e56d2feacd45126e3b
+Author: Rahul Rajavel <rrahul@msn.com>
+Date:   Wed Oct 21 16:55:17 2015 -0500
+
+    UML Diagram image added
+
+commit 93c638c3539e0e985288b6b55abbb46d692221ee
+Author: RR-1995 <rrahul@msn.com>
+Date:   Wed Oct 21 16:50:12 2015 -0500
+
+    Class Diagram
+    
+    For the UML Diagram
+
+commit 7bed0d83a54bc9418ea414955b79e575b538e643
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 21 15:37:14 2015 -0500
+
+    Gathered and displayed companies
+
+commit 532ee67ff00d9f6d79c5f551ca5a73d93826d797
+Merge: 1cca662 4b4e59d
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 21 05:39:44 2015 -0500
+
+    Merge branch 'gh-pages' of https://github.com/bluejamesbond/cs373-games into gh-pages
+
+commit 1cca66246b03289ce2a15532bef7fd908ac464e2
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 21 05:39:22 2015 -0500
+
+    Adding platforms
+
+commit 4b4e59dc4685f294195f468ad0a3c8d930235625
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Wed Oct 21 00:13:51 2015 -0500
+
+    Update README.md
+
+commit ad55d01b677d6a62488560312912c44133e35cc9
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Oct 20 21:19:33 2015 -0500
+
+    Adding scripts for companies
+
+commit de9daa6da27f3ffd3dc3cd9375cc9a38afabc362
+Author: RR-1995 <rrahul@msn.com>
+Date:   Tue Oct 20 20:09:40 2015 -0500
+
+    slight modifications
+    
+    changed developer/publisher to company
+
+commit 2e9d31688f17f2428736de4a3cbda3c1afd385b6
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Oct 20 20:07:11 2015 -0500
+
+    Fixing average ratings
+
+commit 6811c1afc27474fb62359de01cff592320281fec
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Oct 20 19:58:14 2015 -0500
+
+    Adding companies
+
+commit 64096a7b5734f263a16b839e7149073ff36ea2ff
+Author: RR-1995 <rrahul@msn.com>
+Date:   Tue Oct 20 19:12:16 2015 -0500
+
+    All models, all functions but search
+
+commit cd272ca2040a8e35676d269f0744efac7f27c6ca
+Author: RR-1995 <rrahul@msn.com>
+Date:   Tue Oct 20 18:41:33 2015 -0500
+
+    games, devs done
+
+commit 408cbc0fec537633cf98c987b4807e925224a678
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Oct 20 18:20:21 2015 -0500
+
+    Meh
+
+commit 9358833117103c6bc41ebd0acfe3d305398f3210
+Merge: 769a54e 08b62ab
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Oct 20 18:14:59 2015 -0500
+
+    Merge branch 'gh-pages' of https://github.com/bluejamesbond/cs373-games into gh-pages
+
+commit 769a54e444184d7f49e3f0964b3b3a3d441e54a3
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Oct 20 18:12:35 2015 -0500
+
+    Adding games db and records
+
+commit 08b62aba8386356d050135e371f3cdf838ac8eb1
+Author: Matthew Kim <myk235@cs.utexas.edu>
+Date:   Tue Oct 20 18:01:26 2015 -0500
+
+    Initial commit of unit tests (no tests yet, just framework)
+
+commit 1e3d11aab1c0d893cc96a0f28330139cfcaf1d4b
+Author: RR-1995 <rrahul@msn.com>
+Date:   Tue Oct 20 17:21:51 2015 -0500
+
+    Starting search api
+
+commit cd7320f2df23a95fe53db7844cf112de51d7fe85
+Merge: 4f249b1 b283a1c
+Author: Matthew Kim <myk235@cs.utexas.edu>
+Date:   Tue Oct 20 16:44:53 2015 -0500
+
+    Added table names to models
+
+commit 4f249b15e7702db8817c3098e3960c3fa5fee2bf
+Author: Matthew Kim <myk235@cs.utexas.edu>
+Date:   Tue Oct 20 16:40:49 2015 -0500
+
+    Added table names to Models, made sure it compiles
+
+commit b283a1ca18fa3c8db76f1f5e2a9f102f2c06cefb
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Tue Oct 20 13:24:50 2015 -0500
+
+    Adding hyped games
+
+commit aa93def7c089bfbd0f781abdc2d6be6b6692c494
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Tue Oct 20 04:06:25 2015 -0500
+
+    Adding covers
+
+commit 83640bb319982c1884b2e49bc38596981d00b5ab
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Tue Oct 20 02:27:57 2015 -0500
+
+    Adding images acquired from google via. script
+
+commit 5193e046c03bb157c6b83b84e4c567b75636e4af
+Author: RR-1995 <rrahul@msn.com>
+Date:   Mon Oct 19 23:42:26 2015 -0500
+
+    Transferring blueprint from apiary.io
+
+commit d386fafb7b8bf7a9e74ca44f16b8d3656e99037b
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Mon Oct 19 19:52:42 2015 -0500
+
+    Fixing database collection
+
+commit d8fb8655a4f97cd551d1e98138b77b3500b1f6e9
+Author: Mathew Kurian <bluejamesbond@gmail.com>
+Date:   Mon Oct 19 19:41:32 2015 -0500
+
+    Adding collected games
+
+commit 92ea91fc0da89a8ed584af36c1d1144ae62a9ec7
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Mon Oct 19 19:25:24 2015 -0500
+
+    Adding ign game scaper
+
+commit b583949e887766354d1e75d6c22fef66a4f3181d
+Author: cs373-games <thepizzapi@yahoo.com>
+Date:   Mon Oct 19 17:21:24 2015 -0500
+
+    Transferring blueprint from apiary.io
+
+commit 88422e438990c00366f137f49a36b851f90ea9ed
+Merge: 6575ae8 9be8a03
+Author: Matthew Kim <myk235@cs.utexas.edu>
+Date:   Mon Oct 19 16:47:44 2015 -0500
+
+    initial commit of data model
+
+commit 9be8a032fd4cecb7845f91481ad698cc952662b4
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Mon Oct 19 14:15:12 2015 -0500
+
+    Enabling mobile
+
+commit 6575ae809a694fb90ed6bcafdcda624a711827a8
+Author: Matthew Kim <myk235@cs.utexas.edu>
+Date:   Mon Oct 19 14:08:34 2015 -0500
+
+    Initial commit of models.py
+
+commit 9773655fd447ac665083531e70421d99bb6de6b8
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Mon Oct 19 05:00:29 2015 -0500
+
+    Compressing resource
+
+commit e02c4dc272eea0f145631ed5cbada26d87bccc35
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Mon Oct 19 04:57:46 2015 -0500
+
+    Adding flask compress
+
+commit 3ad17a38f1b07db6b33be7158173d6c0c7153b1d
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Mon Oct 19 04:50:08 2015 -0500
+
+    Adding links to homepage
+
+commit 84a85190796a5ebfa2d65bf294a46b49d1ba5597
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 14:15:58 2015 -0500
+
+    Adding parallax to homepage
+
+commit 07f2e6f92715fb2ee7ca36559d4e1509ca556ebd
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 05:15:41 2015 -0500
+
+    Adding exec flag
+
+commit e12fefdbdcf478b970e4e85fad5e8bdcebfc5f22
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 05:15:09 2015 -0500
+
+    Adding env
+
+commit ef85b2c7c035e1fe9d3f44c67242a7eea743bb0b
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 05:09:24 2015 -0500
+
+    ...
+
+commit f58064c645357dded93cfdfb6e6a5665bd2772d1
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 05:07:33 2015 -0500
+
+    Fixing path - continued
+
+commit b22f088154883c08f2a01bdf2126ceb8ea98d577
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 05:05:57 2015 -0500
+
+    Fixing asset path
+
+commit be258f2725a8e907d0e1f99e3640342b1675f44b
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 05:00:22 2015 -0500
+
+    Adding default mappings
+
+commit 3421a1c1dd84168a08a4de423b3f9ebff1117f77
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 04:58:46 2015 -0500
+
+    ...
+
+commit cf7395c4f71559d4319bdb3bd907a9c9b1edb19a
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 04:57:59 2015 -0500
+
+    Adding redirect
+
+commit c04dafd1e9355d8af5ff0f242f44f0a0e6dac317
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 04:57:48 2015 -0500
+
+    Adding redirect
+
+commit a436ebba165a592b36b45c579cc24acfff2595c2
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 04:57:07 2015 -0500
+
+    Adding redirect
+
+commit e06292cee8dd5b6be23c9d0b5e273fd12838be16
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 04:55:04 2015 -0500
+
+    Fixing jade files
+
+commit 4801e0117852fbdb94f74e2dc02ef1058ff4ff66
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 04:42:10 2015 -0500
+
+    Adding assets path
+
+commit 913a6ed424e51470b5da0589d5ffc5535aaed9ce
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 04:38:10 2015 -0500
+
+    Changing host
+
+commit 9975fae381e4e8e95eb5ef31419d264525f58d8a
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 04:32:22 2015 -0500
+
+    Prepping for rackspace
+
+commit 13ecf748d8aca734dc84564d41c89928f0a97020
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 04:09:59 2015 -0500
+
+    Minor tweaks for margins
+
+commit 9c1457cc621c25a337cfb22a2760b96be447e355
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 04:09:28 2015 -0500
+
+    Minor tweaks for margins
+
+commit 5420101241d7d1a0d46e1b4bbfbf0354f35b48c9
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 04:04:26 2015 -0500
+
+    Fixing some css for mobile
+
+commit 891175073b3e6e9ebc7ac6ae2e499ac383ac21b6
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 03:45:56 2015 -0500
+
+    Fixing spacing issues
+
+commit 3a26ebbc4482914dfff2026c33ba717d3eb15904
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 03:39:25 2015 -0500
+
+    Fixing scrolling and table resize
+
+commit e34a5204e24db10274e1473eb52922023082c213
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 03:26:41 2015 -0500
+
+    Adding compiled binaries
+
+commit 55e0cd22ece5134ea7d1caa4614fc5f649f43fee
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Sun Oct 18 03:24:32 2015 -0500
+
+    Adding init files
+
+commit d415a0ba8d0b2886855927e9fce9d26b9b69487b
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 15 02:48:31 2015 -0500
+
+    Removing dist
+
+commit 862fc6c42438fc9f793381ffe51607e189089d4c
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 15 02:47:21 2015 -0500
+
+    ...
+
+commit e789291fcfdbe20a34be1e3df12429d69bf498f0
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 15 02:47:05 2015 -0500
+
+    ...
+
+commit 9b88a50e5acff2d53fd0807ea9b7ca3b90c12c38
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Thu Oct 15 02:46:50 2015 -0500
+
+    Removing dist and added Flask
+
+commit a914e240c9af819cc679c1cada3bf6ef57c1da2e
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 14 23:43:53 2015 -0500
+
+    ...
+
+commit 4463fa556649f2ef2594983d65f1939c0cf6c296
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 14 23:43:27 2015 -0500
+
+    Houskeeping
+
+commit 8c9a3d8c8043eede2919f8ef850ba4a708cbb2a1
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 14 23:42:11 2015 -0500
+
+    Adding stylesheet to index.html
+
+commit afef6c8a9e389263625bf39179a9804ed33a25f9
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 14 23:31:55 2015 -0500
+
+    Allowing compiled into git; not the best but supports for gh-pages for quick previews
+
+commit 80bdc37d2660a8207f62010b28c7d30666140955
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 14 23:29:12 2015 -0500
+
+    Updating instructions
+
+commit af29ca831ebad2baaa6c6be848282ef6caf433c2
+Author: Mathew Kurian <MathewKurian@utexas.edu>
+Date:   Wed Oct 14 23:25:36 2015 -0500
+
+    Adding boilerplate; look at setup on README.md

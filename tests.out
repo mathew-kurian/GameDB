@@ -1,132 +1,147 @@
-
-.......................
+...................../usr/lib/python3.4/unittest/suite.py:107: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=2049, proto=6, laddr=('104.130.23.111', 39283), raddr=('104.130.23.111', 8983)>
+  for index, test in enumerate(self):
+./usr/lib/python3.4/unittest/suite.py:107: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=2049, proto=6, laddr=('104.130.23.111', 39284), raddr=('104.130.23.111', 8983)>
+  for index, test in enumerate(self):
+./usr/lib/python3.4/unittest/suite.py:107: ResourceWarning: unclosed <socket.socket fd=4, family=AddressFamily.AF_INET, type=2049, proto=6, laddr=('104.130.23.111', 39285), raddr=('104.130.23.111', 8983)>
+  for index, test in enumerate(self):
+...
 ----------------------------------------------------------------------
-Ran 23 tests in 0.600s
+Ran 26 tests in 0.446s
 
 OK
 Company Test 1
 Expected Output: Electronic Arts
 Test Output: Electronic Arts
-Company Test 1 ran in 0.17376135801896453 seconds
+Company Test 1 ran in 0.01979508899967186 seconds
 
 Company Test 2
 Expected Output: n-Space Inc.
 Test Output: n-Space, Inc.
-Company Test 2 ran in 0.007376117981038988 seconds
+Company Test 2 ran in 0.009312704001786187 seconds
 
 Company Test 3
 Expected Output: MicroProse Software, Inc.
 Test Output: MicroProse Software, Inc.
-Company Test 3 ran in 0.0068120770156383514 seconds
+Company Test 3 ran in 0.009451730991713703 seconds
 
 Company Test 4
 Expected Output: Deep Silver
 Test Output: Deep Silver
-Company Test 4 ran in 0.0075294519774615765 seconds
+Company Test 4 ran in 0.009420426998985931 seconds
 
 CompanyPlatform Test 1
 Expected Output: Game Boy Advance, Electronic Arts
 Test Output: Game Boy Advance, Electronic Arts
-CompanyPlatform Test 1 ran in 0.007721076020970941 seconds
+CompanyPlatform Test 1 ran in 0.009971480001695454 seconds
 
 CompanyPlatform Test 2
 Expected Output: Mac, Alawar Entertainment, Inc.
 Test Output: Mac, Alawar Entertainment, Inc.
-CompanyPlatform Test 2 ran in 0.006631484953686595 seconds
+CompanyPlatform Test 2 ran in 0.00879086897475645 seconds
 
 CompanyPlatform Test 3
 Expected Output: Strategic Simulations, Inc., PC
 Test Output: Strategic Simulations, Inc., PC
-CompanyPlatform Test 3 ran in 0.007111336104571819 seconds
+CompanyPlatform Test 3 ran in 0.009998266003094614 seconds
 
 Game Test 1
 Expected Output: Mass Effect 3
 Test Output: Mass Effect 3
-Game Test 1 ran in 0.009429494966752827 seconds
+Game Test 1 ran in 0.011241681000683457 seconds
 
 Game Test 2
 Expected Output: Z
 Test Output: Z
-Game Test 2 ran in 0.006405582069419324 seconds
+Game Test 2 ran in 0.009168871998554096 seconds
 
 Game Test 3
 Expected Output: Squarez Deluxe!
 Test Output: Squarez Deluxe!
-Game Test 3 ran in 0.006706153973937035 seconds
+Game Test 3 ran in 0.008927216986194253 seconds
 
 Game Test 4
 Expected Output: Tearaway Thomas
 TestOutput: Tearaway Thomas
-Game Test 4 ran in 0.006146321073174477 seconds
+Game Test 4 ran in 0.009069646999705583 seconds
 
 GameCompany Test 1
-Expected Output: Tearaway Thomas, Global Software, developer
-Test Output: Tearaway Thomas, Global Software, developer
-GameCompany Test 1 ran in 0.008817496011033654 seconds
+Expected Output: Army Men Air Combat: The Elite Missions, Wide Games, developer
+Test Output: Army Men Air Combat: The Elite Missions, Wide Games, developer
+GameCompany Test 1 ran in 0.011256120022153482 seconds
 
 GameCompany Test 2
-Expected Output: Heroes of Might and Magic IV: The Gathering Storm, The 3DO Company, publisher
-Test Output: Heroes of Might and Magic IV: The Gathering Storm, The 3DO Company, publisher
-GameCompany Test 2 ran in 0.007834777003154159 seconds
+Expected Output: Alien Nations, neo Software Produktions GmbH, developer
+Test Output: Alien Nations, neo Software Produktions GmbH, developer
+GameCompany Test 2 ran in 0.010820038005476817 seconds
 
 GameCompany Test 3
-Expected Output: Software Manager, Kaiko, developer
-Test Output: Software Manager, Kaiko, developer
-GameCompany Test 3 ran in 0.008788431994616985 seconds
+Expected Output: Rules of the Game, Random Games, developer
+Test Output: Rules of the Game, Random Games, developer
+GameCompany Test 3 ran in 0.010277324996422976 seconds
 
 GamePlatform Test 1
-Expected Output: Baldur's Gate, PC
-Test Output: Baldur's Gate, PC
-GamePlatform Test 1 ran in 0.008068196009844542 seconds
+Expected Output: League of Legends, PC
+Test Output: League of Legends, PC
+GamePlatform Test 1 ran in 0.011313524009892717 seconds
 
 GamePlatform Test 2
-Expected Output: The Journeyman Project: Pegasus Prime, PC
-Test Output: The Journeyman Project: Pegasus Prime, PC
-GamePlatform Test 2 ran in 0.008349929004907608 seconds
+Expected Output: The Journeyman Project: Pegasus Prime, Mac
+Test Output: The Journeyman Project: Pegasus Prime, Mac
+GamePlatform Test 2 ran in 0.010216800001217052 seconds
 
 GamePlatform Test 3
-Expected Output: James Pond 2: Codename: RoboCod, PC
-Test Output: James Pond 2: Codename: RoboCod, PC
-GamePlatform Test 3 ran in 0.007924069999717176 seconds
+Expected Output: James Pond 2: Codename: RoboCod, Nintendo DS
+Test Output: James Pond 2: Codename: RoboCod, Nintendo DS
+GamePlatform Test 3 ran in 0.010672634991351515 seconds
 
 Platform Test 1
 Expected Output: PlayStation 4
 Test Output: PlayStation 4
-Platform Test 1 ran in 0.007173566031269729 seconds
+Platform Test 1 ran in 0.0088053880026564 seconds
 
 Platform Test 2
 Expected Output: Amiga
 Test Output: Amiga
-Platform Test 2 ran in 0.006469609914347529 seconds
+Platform Test 2 ran in 0.00925011100480333 seconds
 
 Platform Test 3
 Expected Output: GameCube
 Test Output: GameCube
-Platform Test 3 ran in 0.007178224972449243 seconds
+Platform Test 3 ran in 0.008779410010902211 seconds
+
+Solr Test 1
+Expected Output: Mass Effect: Infiltrator
+Test Output: Mass Effect: Infiltrator
+Solr Test 1 ran in 0.029270494007505476 seconds
+
+Solr Test 2
+Expected Output: Dreamcast
+Test Output: Dreamcast
+Solr Test 2 ran in 0.009199056017678231 seconds
+
+Solr Test 3
+Expected Output: BioWare San Francisco
+Test Output: BioWare San Francisco
+Solr Test 3 ran in 0.007330368011025712 seconds
 
 Url Test 1
-Expected Output: http://static.giantbomb.com/uploads/scale_medium/0/4/9801-ea.jpg
-Test Output: http://static.giantbomb.com/uploads/scale_medium/0/4/9801-ea.jpg
-Url Test 1 ran in 0.006331098964437842 seconds
+Expected Output: http://www.riotgames.com/sites/default/files/PC%20Bang.jpg
+Test Output: http://www.riotgames.com/sites/default/files/PC%20Bang.jpg
+Url Test 1 ran in 0.00967337901238352 seconds
 
 Url Test 2
-Expected Output: http://cdn3.dualshockers.com/wp-content/uploads/2015/05/ea.png
-Test Output: http://cdn3.dualshockers.com/wp-content/uploads/2015/05/ea.png
-Url Test 2 ran in 0.006302969064563513 seconds
+Expected Output: http://1.bp.blogspot.com/-Krv0JeqI-EM/UwNlkMrUTbI/AAAAAAAAGn0/KUnNo_ibDv0/s1600/Heimerdinger-League-of-Legends-Wallpaper-full-HD-Desktop-2.jpg
+Test Output: http://1.bp.blogspot.com/-Krv0JeqI-EM/UwNlkMrUTbI/AAAAAAAAGn0/KUnNo_ibDv0/s1600/Heimerdinger-League-of-Legends-Wallpaper-full-HD-Desktop-2.jpg
+Url Test 2 ran in 0.00771863799309358 seconds
 
 Url Test 3
-Expected Output: http://gamesdbase.com/Media/SYSTEM/Commodore_Amiga/Snap/big/Star_Wars-_The_Empire_Strikes_Back_-_1988_-_Domark_Software.jpg
-Test Output: http://gamesdbase.com/Media/SYSTEM/Commodore_Amiga/Snap/big/Star_Wars-_The_Empire_Strikes_Back_-_1988_-_Domark_Software.jpg
-Url Test 3 ran in 0.005670060054399073 seconds
+Expected Output: http://img185.imageshack.us/img185/4700/k240new1ok1.jpg
+Test Output: http://img185.imageshack.us/img185/4700/k240new1ok1.jpg
+Url Test 3 ran in 0.00821789598558098 seconds
 
-.......................
-----------------------------------------------------------------------
-Ran 23 tests in 0.474s
-OK
 Name        Stmts   Miss Branch BrPart  Cover   Missing
 -------------------------------------------------------
-models.py     161     53     10      0    63%   22-27, 32-38, 42-43, 63-64, 85-87, 110-113, 155-162, 208-219, 257-265
-tests.py      208      1      2      1    99%   309, 306->309
+models.py     167     56     10      0    63%   22-27, 32-38, 42-43, 63-64, 85-87, 110-113, 157-165, 213-225, 265-274
+tests.py      254      1     16      6    97%   380, 24->29, 42->48, 44->42, 61->66, 62->61, 377->380
 -------------------------------------------------------
-TOTAL         369     54     12      1    83%  
-"""
+TOTAL         421     57     26      6    84%   
