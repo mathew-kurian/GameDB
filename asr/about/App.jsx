@@ -45,13 +45,14 @@ var App = React.createClass({
             <h1>4Play Vitals</h1>
 
             <ul>
-              <li>Total commits: 230</li>
-              <li>Total issues: 42</li>
-              <li>Unit tests: 23</li>
+              <li>Total commits: 337</li>
+              <li>Total issues: 57</li>
+              <li>Unit tests: 27</li>
               <li><a href="http://docs.games10.apiary.io/#">Apiary Documentation</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/">Public Repository</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/wiki">Wiki</a></li>
               <li><a href="https://github.com/bluejamesbond/cs373-idb/issues">Issue Tracker</a></li>
+              <li><a href="https://docs.google.com/presentation/d/1mbLIeVu6M7ta2djbhOXPNCBkYxorWVUr8D4p0lijd0c/edit?usp=sharing">Presentation</a></li>
             </ul>
 
             <h2>Sources</h2>
