@@ -17,6 +17,7 @@ def normalize_results(results):
 
     return results
 
+#open each json file that contains model data and index it into solr
 def migrate():
 
     solr.delete(q='*:*')
@@ -43,6 +44,7 @@ def migrate():
 
 def query():
 
+    #search parameters set which fields to display and how to highlight found terms
     results = solr.search('puzzle game', **{
         'hl': 'true',
         'hl.fl': '*',
