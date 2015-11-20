@@ -3,16 +3,12 @@ import os
 import subprocess
 import time
 import argparse
-import json
-import flask
-from flask import Flask, render_template, make_response, request, Response
+from flask import Flask, render_template, request, Response
 import flask
 from flask.ext.compress import Compress
 import pysolr as pysolr
 from sqlalchemy.exc import InvalidRequestError
-from solr import normalize_results
-
-from http.client import HTTPConnection
+import re
 
 from db import *
 
@@ -31,6 +27,27 @@ app.debug = args.debug
 
 # open session
 session = get_session(echo=False)
+
+# Solr/Lucene special characters: + - ! ( ) { } [ ] ^ " ~ * ? : \
+# There are also operators && and ||, but we're just going to escape
+# the individual ampersand and pipe chars.
+# Also, we're not going to escape backslashes!
+# http://lucene.apache.org/java/2_9_1/queryparsersyntax.html#Escaping+Special+Characters
+ESCAPE_CHARS_RE = re.compile(r'(?<!\\)(?P<char>[&|+\-!(){}[\]^"~*?:])')
+
+
+def solr_escape(value):
+    """
+    Escape un-escaped special characters and return escaped value.
+
+    >>> solr_escape(r'foo+') == r'foo\+'
+    True
+    >>> solr_escape(r'foo\+') == r'foo\+'
+    True
+    >>> solr_escape(r'foo\\+') == r'foo\\+'
+    True
+    """
+    return ESCAPE_CHARS_RE.sub(r'\\\g<char>', value)
 
 
 # run bash command
@@ -113,7 +130,7 @@ def api_search():
 
             def query(mode, mult=1):
                 sq = []
-                keywords = ' '.join(q.split()).split(' ')
+                keywords = ' '.join(solr_escape(q).split()).split(' ')
 
                 for k in keywords:
                     if len(k) < 3:  # test and remove the count as needed
