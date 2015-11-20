@@ -1,10 +1,12 @@
 var React = require('react');
 var request = require('superagent');
 var ReactBlur = require('react-blur');
+var _ = require('underscore');
 import { Link } from 'react-router'
 
 var Search = React.createClass({
   getInitialState(){
+    this._handleInput = _.debounce(this._handleInput, 600);
     return {results: []};
   },
   _handleInput(e){
