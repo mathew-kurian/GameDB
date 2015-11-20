@@ -642,3 +642,190 @@ These are the fields that will describe a platform:
             }
           ]
         } 
+        
+#### Search [GET /api/search/?q={query_string}&offset={off}&limit={lim}]
+
+Searches database for all games, companies, platforms that contain the string query_string
+The result is given starting at an offset and a user can also specify how many results they want.
+
++ Response 201 (application/json)
+
++ Parameters
+    + query_string: `Mario+Luigi+Nintendo` (required, string) - String to query
+        + Default: ` `
+    + offset: 0 (optional, number) - starting spot
+        + Default: 0
+    + limit: 2 (optional, number) - number of results to return
+
++ Response 201 (application/json)
+
+        {  
+           "time":"0.05s",
+           "status":0,
+           "message":"Success",
+           "results":[  
+              {  
+                 "id":"49996",
+                 "__highlighting__":{  
+                    "deck":[  
+                       "<span class=\"highlight\">Mario</span> &amp; Luigi collides with <span class=\"highlight\">Paper</span> <span class=\"highlight\">Mario</span> in this 3DS RPG that uses elements from both franchises."
+                    ],
+                    "description":[  
+                       "This game supports the <span class=\"highlight\">Mario,</span> Luigi, Princess Peach, Yoshi, Toad, Bowser, Dr. <span class=\"highlight\">Mario,</span> 8-bit <span class=\"highlight\">Mario,</span> Yarn Yoshi, and Hammer Slam Bowser amiibo.When these amiibo are scanned,"
+                    ],
+                    "name":[  
+                       "<span class=\"highlight\">Mario</span> & Luigi: <span class=\"highlight\">Paper</span> Jam"
+                    ]
+                 },
+                 "__dist__":1,
+                 "__mode__":"AND",
+                 "description":"This game supports the <span class=\"highlight\">Mario,</span> Luigi, Princess Peach, Yoshi, Toad, Bowser, Dr. <span class=\"highlight\">Mario,</span> 8-bit <span class=\"highlight\">Mario,</span> Yarn Yoshi, and Hammer Slam Bowser amiibo.When these amiibo are scanned,",
+                 "deck":"<span class=\"highlight\">Mario</span> &amp; Luigi collides with <span class=\"highlight\">Paper</span> <span class=\"highlight\">Mario</span> in this 3DS RPG that uses elements from both franchises.",
+                 "entity":"game",
+                 "name":"<span class=\"highlight\">Mario</span> & Luigi: <span class=\"highlight\">Paper</span> Jam",
+                 "images":[  
+                    {  
+                       "source":"http://www.nintendoworldreport.com/media/40468/4/5.jpg"
+                    },
+                    {  
+                       "source":"http://i.ytimg.com/vi/zI9Ic3tz2lc/maxresdefault.jpg"
+                    },
+                    {  
+                       "source":"http://i.ytimg.com/vi/4rmvUtAjYIM/maxresdefault.jpg"
+                    },
+                    {  
+                       "source":"http://i.ytimg.com/vi/d6MFcnP5LnU/maxresdefault.jpg"
+                    },
+                    {  
+                       "source":"http://i.ytimg.com/vi/aXR9e9V7AkA/maxresdefault.jpg"
+                    },
+                    {  
+                       "source":"https://i.ytimg.com/vi/xn8_yFVxJQ8/maxresdefault.jpg"
+                    },
+                    {  
+                       "source":"http://nerdist.com/wp-content/uploads/2015/06/Mario-Luigi-Paper-Jam-1.png"
+                    },
+                    {  
+                       "source":"https://i.ytimg.com/vi/1cMic4lxrfs/maxresdefault.jpg"
+                    },
+                    {  
+                       "source":"http://gaygamer.net/ggnet/wp-content/uploads/2015/06/mario-paper-jam-craft.jpg"
+                    },
+                    {  
+                       "source":"http://www.gamespresso.com/wp-content/uploads/2015/10/Mario-and-Luigi-Paper-Jam-Nintendo-E3-2015-Stream-02-1280x720.jpg"
+                    },
+                    {  
+                       "source":"http://www.vooks.net/img/2015/06/N3DS_MarioLuigiPaperJam_char_01.jpeg"
+                    }
+                 ]
+              },
+              {  
+                 "id":"49471",
+                 "__highlighting__":{  
+                    "deck":[  
+                       "An RPG based on the Cartoon Network show Steven Universe. Available on iOS and Android devices for $3. Features turn-based combat with <span class=\"highlight\">Paper</span> <span class=\"highlight\">Mario-style</span>"
+                    ]
+                 },
+                 "__dist__":2,
+                 "__mode__":"AND",
+                 "deck":"An RPG based on the Cartoon Network show Steven Universe. Available on iOS and Android devices for $3. Features turn-based combat with <span class=\"highlight\">Paper</span> <span class=\"highlight\">Mario-style</span>",
+                 "entity":"game",
+                 "name":"Attack the Light",
+                 "images":[  
+                    {  
+                       "source":"http://static.giantbomb.com/uploads/scale_medium/8/84290/2755036-untitled.jpg"
+                    },
+                    {  
+                       "source":"https://i.ytimg.com/vi/PnAHigTyJJc/maxresdefault.jpg"
+                    },
+                    {  
+                       "source":"https://lh3.ggpht.com/2gxvF4-hpsyGxIHgsPWF8m7l06cgJXW_KffnRXrjKyTcU4USLG0PEaoqXf_hg0aV9rY=h900"
+                    },
+                    {  
+                       "source":"http://toucharcade.com/wp-content/uploads/2015/04/Attack-the-Light-4.jpg"
+                    },
+                    {  
+                       "source":"http://ift.tt/1xZ1Hlw"
+                    },
+                    {  
+                       "source":"http://www.drunkdorks.com/wp-content/uploads/2015/04/Attack-the-Light-6.jpg"
+                    },
+                    {  
+                       "source":"https://lh6.ggpht.com/XBcPVj-SHGje9bxE-2TvM3SM5wfiCbouXPYEQ1WfQbsBPwbHuxVmPF_Tliruf1bdwQ=h900"
+                    },
+                    {  
+                       "source":"https://lh3.ggpht.com/qPfSwHyVuUra3KQZneSXtPMlMWs5W6UHZgjeG42DY27kCvcuoYCk7AzPcd5EZVoFN0s=h900"
+                    },
+                    {  
+                       "source":"http://i.imgur.com/jsxqjZs.png?1"
+                    },
+                    {  
+                       "source":"http://vignette2.wikia.nocookie.net/steven-universe/images/e/e5/Attack_the_Light_Notes_2.jpg/revision/latest?cb=20150403194512"
+                    },
+                    {  
+                       "source":"http://i.ytimg.com/vi/NSV4KIw-A_Q/maxresdefault.jpg"
+                    }
+                 ]
+              },
+              {  
+                 "id":"42929",
+                 "__highlighting__":{  
+                    "deck":[  
+                       "<span class=\"highlight\">Mario</span> Kart returns and makes its HD-debut with gravity-defying hover vehicles, a new spin on the traditional track designs,",
+                       " online tournaments and <span class=\"highlight\">Mario</span> Kart"
+                    ],
+                    "description":[  
+                       "<span class=\"highlight\">Mario</span> Kart 8 introduces",
+                       " Another new feature is <span class=\"highlight\">Mario</span> Kart",
+                       " features introduced in <span class=\"highlight\">Mario</span> Kart",
+                       " runs at 30fps. <span class=\"highlight\">Mario</span> Kart",
+                       " <span class=\"highlight\">Mario</span> Kart TV also records Battle"
+                    ],
+                    "name":[  
+                       "<span class=\"highlight\">Mario</span> Kart 8"
+                    ]
+                 },
+                 "__dist__":50,
+                 "__mode__":"OR",
+                 "description":"<span class=\"highlight\">Mario</span> Kart 8 introduces... Another new feature is <span class=\"highlight\">Mario</span> Kart... features introduced in <span class=\"highlight\">Mario</span> Kart... runs at 30fps. <span class=\"highlight\">Mario</span> Kart... <span class=\"highlight\">Mario</span> Kart TV also records Battle",
+                 "deck":"<span class=\"highlight\">Mario</span> Kart returns and makes its HD-debut with gravity-defying hover vehicles, a new spin on the traditional track designs,... online tournaments and <span class=\"highlight\">Mario</span> Kart",
+                 "entity":"game",
+                 "name":"<span class=\"highlight\">Mario</span> Kart 8",
+                 "images":[  
+                    {  
+                       "source":"http://static.giantbomb.com/uploads/scale_medium/8/82063/2600974-12510938343_01c49da2be_o.jpg"
+                    },
+                    {  
+                       "source":"http://wiiudaily.com/wp-content/uploads/2014/05/MK8.jpg"
+                    },
+                    {  
+                       "source":"http://nerdreactor.com/wp-content/uploads/2015/04/Mairo-Kart-8.jpg"
+                    },
+                    {  
+                       "source":"http://blogs-images.forbes.com/erikkain/files/2014/05/mario-kart-8-header.jpg"
+                    },
+                    {  
+                       "source":"http://blogs-images.forbes.com/games/files/2014/05/MK8_201402_01.jpg"
+                    },
+                    {  
+                       "source":"http://static5.gamespot.com/uploads/scale_super/1534/15343359/2637193-wiiu_mk8_dlc1_tanukimario_sm.jpg"
+                    },
+                    {  
+                       "source":"http://cdn1.vox-cdn.com/assets/4454697/mariokart8_review_b_1280.jpg"
+                    },
+                    {  
+                       "source":"http://images.nintendolife.com/news/2014/04/new_mario_kart_8_screenshots/attachment/6/original.jpg"
+                    },
+                    {  
+                       "source":"http://static.gamespot.com/uploads/original/536/5360430/2404984-wiiu_mariokart8_121813_scrn_01.jpg"
+                    },
+                    {  
+                       "source":"http://3ebd2a0c0ea48a333aea-1f531def8e8befb67be56667ce3edd11.r77.cf1.rackcdn.com/1b93b38b656a72a4c7b0dd91197dd715d2bf0ef1.jpg__1920x1080_q85_crop_subject_location-987,694_upscale.jpg"
+                    },
+                    {  
+                       "source":"http://blogs-images.forbes.com/erikkain/files/2014/07/Mario-KArt-8.jpg"
+                    }
+                 ]
+              }
+           ]
+        }
