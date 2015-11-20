@@ -642,6 +642,8 @@ These are the fields that will describe a platform:
             }
           ]
         } 
+
+# Group Search
         
 #### Search [GET /api/search/?q={query_string}&offset={off}&limit={lim}]
 
@@ -651,7 +653,7 @@ The result is given starting at an offset and a user can also specify how many r
 + Response 201 (application/json)
 
 + Parameters
-    + query_string: `Mario+Luigi+Nintendo` (required, string) - String to query
+    + query_string: `Mario Luigi Nintendo` (required, string) - String to query
         + Default: ` `
     + offset: 0 (optional, number) - starting spot
         + Default: 0
