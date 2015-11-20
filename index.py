@@ -116,7 +116,7 @@ def api_search():
                 keywords = ' '.join(q.split()).split(' ')
 
                 for k in keywords:
-                    if len(k) < 3:  # test and remove the count as needed
+                    if not k:  # test and remove the count as needed
                         continue
                     sq += ['(name:(' + k + ') OR deck:(' + k + '))']
 

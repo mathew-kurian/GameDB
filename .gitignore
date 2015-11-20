@@ -37,3 +37,5 @@ __pycache__/
 dist/
 .index.py.swp
 *.py.swp
+.coverage
+tests.tmp
